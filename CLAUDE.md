@@ -9,12 +9,10 @@ A public GitHub repo (`michaelmaguire/languages-dialett`) that is a **cldfbench 
 from a weekly course in the Lombard dialect of Arogno (*Rögn*), Lugano district, Ticino. The owner,
 Michael Maguire, is a native English speaker who reads Italian. Until 2026-10-14 everything lived in a
 `Dialect/` folder; it was moved to the repository root so the repo follows cldfbench conventions (one
-dataset per repository, ready for a Zenodo release). `Dialect/` now only keeps copies of the dictionary and verb PDFs,
-whose old URLs had been shared (step 5 writes them; see `Dialect/README.md`). The expressions PDF
-(added later) is never copied there: the owner never shared a URL for it.
+dataset per repository, ready for a Zenodo release). For a while `Dialect/` kept copies of the dictionary and
+verb PDFs at their old shared URLs; the owner had them removed on 2026-10-19, so those old links no longer work.
 The repository itself was renamed on GitHub from `languages` to `languages-dialett` at the same time;
-GitHub redirects the old URLs, so never create a new repo called `languages`, or the shared PDF links
-break. The local checkout may still be in a folder called `languages`.
+GitHub redirects the old URLs, so never create a new repo called `languages`, or the redirects break. The local checkout may still be in a folder called `languages`.
 
 Course documents (Word, PDF, some scanned) go in `raw/`. A Python pipeline turns them, with the curation
 in `etc/`, into a CLDF dataset in `cldf/`, and from that into a three-language dictionary, expression
@@ -42,7 +40,6 @@ CONTRIBUTORS.md, LICENSE, .zenodo.json   cldfbench / Zenodo release files (hand-
 ANKI-FLASHCARDS.md           hand-written: the Anki deck script (pipeline/tool_flashcards.py), how to import and update
 Dictionary/ Expressions/ Verbs/   GENERATED from cldf/ (pages cleared and rewritten every build; the PDFs are
                              kept until step 5 replaces them). Do not commit while a build is running
-Dialect/                     only Dialect/README.md (hand-written) and copies of the dictionary and verb PDFs at their old URLs
 ATTRIBUTIONS.md              hand-written: thanks, authors, tools, what Claude generated. Printed after the
                              cover of all three PDFs. Add a row when a new document brings in a new author.
                              The teacher, Guido Casellini, is credited at the owner's request.
@@ -135,8 +132,7 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   rows get status `typo`/`rejected`. Sources cited as `key[l.N]` (line in `pipeline/cache/lesson_text`).
 - **Canonical variety:** the Rögn course lessons and the teacher's own exercise sheets. Other varieties
   stay in the same dictionary pages with a **Region** column.
-- **Output is Markdown** in folders at the repository root, plus three PDFs (the dictionary and verb PDFs also
-  copied to `Dialect/`, the expressions PDF not). No spreadsheet output.
+- **Output is Markdown** in folders at the repository root, plus three PDFs. No spreadsheet output.
 - **Teacher's spelling is kept** as written, variants included. Exceptions: Word's automatic capitals
   are lowered on words and non-sentence phrases, "idem" is replaced by the text it refers to, the
   conditional sheets' hyphens (`ciapa-ria/ress`) are written out (`ciaparia/ciaparess`), quotation marks around a whole expression are dropped (`«Dài, ta spéci l’ann che vegn!»`; owner, 2026-10-15), and the third

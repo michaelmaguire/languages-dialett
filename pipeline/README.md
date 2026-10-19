@@ -57,7 +57,7 @@ In words:
 | 2 | `step2_find_pairs_and_verbs.py` | the text, `../etc/lesson_sources.csv`, `../etc/parallel_texts.csv`, `../raw/notes_added_by_hand.csv` | `data/extracted_pairs.csv`, `data/extracted_verb_forms.csv`, `data/unparsed_lines.csv` |
 | 3 | `step3_make_cldf.py` → `../cldfbench_rogn.py` → `lexicon.py` | step 2's output, all of `../etc/`, the owner's spreadsheet and notes (from `../raw/`, or without it from the copies `data/owner_*.csv`) | `data/owner_spreadsheet.csv` and `data/owner_notes.csv` (fresh copies, when `../raw/` is there); `../cldf/`, rebuilt from scratch; then checked with `cldf validate`, and the build stops if it is not valid |
 | 4 | `step4_build_pages.py` | `../cldf/` only | all Markdown pages; plain-table exports `data/dictionary.csv`, `data/expressions.csv`, `data/verb_tables.csv` |
-| 5 | `step5_build_pdfs.py` | `../cldf/`, `data/dictionary.csv`, `templates/cover_*.html`, `../ATTRIBUTIONS.md` | `../Dictionary/arogno-dictionary.pdf`, `../Verbs/arogno-verbs.pdf` (both also copied to `../Dialect/`), `../Expressions/arogno-expressions.pdf` |
+| 5 | `step5_build_pdfs.py` | `../cldf/`, `data/dictionary.csv`, `templates/cover_*.html`, `../ATTRIBUTIONS.md` | `../Dictionary/arogno-dictionary.pdf`, `../Verbs/arogno-verbs.pdf`, `../Expressions/arogno-expressions.pdf` |
 
 ### Building without the source documents
 

@@ -8,8 +8,6 @@ Reads  ../cldf (through lexicon.for_pages), data/dictionary.csv (written by step
 Writes ../Verbs/arogno-verbs.pdf         cover, contents, attributions, one verb per A4 sheet
        ../Dictionary/arogno-dictionary.pdf  cover, contents, attributions, the three look-up directions
        ../Expressions/arogno-expressions.pdf  cover, contents, attributions, expressions by topic
-       and a copy of the first two under ../Dialect/, where they were first published (old links still work);
-       the expressions PDF is newer and has no copy there
 Uses Chrome or Chromium in headless mode to print; skipped with a message if neither is installed.
 Each PDF is printed twice: the contents page holds {{page:ID}} placeholders, and the page numbers come
 from where the first print put the elements those IDs link to (read back with pypdf).
@@ -19,7 +17,7 @@ from pathlib import Path
 
 import step4_build_pages as build
 
-from paths import PIPELINE as HERE, TEMPLATES, ROOT
+from paths import PIPELINE as HERE, TEMPLATES
 OUT = build.ROOT / "Verbs" / "arogno-verbs.pdf"
 PAGE = HERE / "cache" / "print_verbs.html"
 DAGGER = "†"
@@ -131,7 +129,7 @@ def main():
     document = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
                 f"<style>{CSS}{TOC_CSS}</style>{cover}{contents}{credits_pages()}{''.join(sheets)}")
     print_with_contents(OUT, PAGE, document,
-                        f"arogno-verbs.pdf: cover, contents, attributions + {len(sheets)} verb sheets", legacy=True)
+                        f"arogno-verbs.pdf: cover, contents, attributions + {len(sheets)} verb sheets")
     dictionary()
     expressions()
 
@@ -245,10 +243,9 @@ def print_pdf(out, page):
     return True
 
 
-def print_with_contents(out, page, document, message, legacy=False):
+def print_with_contents(out, page, document, message):
     """Print document; {{page:ID}} becomes the number of the page holding the element with that id.
-    The first print uses a stand-in; then the real numbers are read from the PDF's link targets.
-    legacy: also copy the PDF to its old place under ../Dialect/ (only the two PDFs whose links were shared)."""
+    The first print uses a stand-in; then the real numbers are read from the PDF's link targets."""
     import pypdf
     ids = set(PLACEHOLDER.findall(document))
     numbers = dict.fromkeys(ids, "000")
@@ -267,13 +264,6 @@ def print_with_contents(out, page, document, message, legacy=False):
     if missing:
         print(f"{out.name}: no page found for {', '.join(missing[:5])}")
     print(f"{message}, {len(reader.pages)} pages -> {out}")
-    if not legacy:
-        return
-    # The PDFs were first published under Dialect/ (before the dataset moved to the repository root, on
-    # 2026-10-14) and those links were shared, so a copy is kept there; see Dialect/README.md.
-    old = ROOT / "Dialect" / out.relative_to(ROOT)
-    old.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(out, old)
 
 
 DICT_CSS = """
@@ -355,8 +345,7 @@ def dictionary():
     document = (f'<!doctype html><meta charset="utf-8"><title>Dizionari – dialett da Rögn</title>'
                 f"<style>{DICT_CSS}{TOC_CSS}</style>{cover}{''.join(toc)}{credits_pages()}{''.join(body)}")
     print_with_contents(build.ROOT / "Dictionary" / "arogno-dictionary.pdf", page, document,
-                        f"arogno-dictionary.pdf: cover, contents, attributions + {len(words)} words three ways",
-                        legacy=True)
+                        f"arogno-dictionary.pdf: cover, contents, attributions + {len(words)} words three ways")
 
 
 EXPR_CSS = """
