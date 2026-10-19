@@ -24,7 +24,7 @@ adoperare,duprà / doprà,yes,1st conjugation,trapassato prossimo,1p,evum dupraa
 adoperare,duprà / doprà,yes,1st conjugation,trapassato prossimo,2p,evuf dupraa,yes
 adoperare,duprà / doprà,yes,1st conjugation,trapassato prossimo,3p,i evan dupraa,yes
 adoperare,duprà / doprà,yes,1st conjugation,futuro,1s,doprarò,yes
-adoperare,duprà / doprà,yes,1st conjugation,futuro,2s,ta dopraré,yes
+adoperare,duprà / doprà,yes,1st conjugation,futuro,2s,ta dopraré,
 adoperare,duprà / doprà,yes,1st conjugation,futuro,3s,la/al doprarà,yes
 adoperare,duprà / doprà,yes,1st conjugation,futuro,1p,doprarem,yes
 adoperare,duprà / doprà,yes,1st conjugation,futuro,2p,doprarii,yes
@@ -443,30 +443,30 @@ avere,vegh / végh,,irregular,futuro prossimo,3s,la/al gavarà vü,
 avere,vegh / végh,,irregular,futuro prossimo,1p,gavarem vü,
 avere,vegh / végh,,irregular,futuro prossimo,2p,gavarii vü,
 avere,vegh / végh,,irregular,futuro prossimo,3p,i gavaran vü,
-avere,vegh / végh,,irregular,condizionale presente,1s,gh’avria/gh’avressa,
-avere,vegh / végh,,irregular,condizionale presente,2s,ta gh’avressat,
-avere,vegh / végh,,irregular,condizionale presente,3s,la/al gh’avria/gh’avressa,
-avere,vegh / végh,,irregular,condizionale presente,1p,gh’avrium/gh’avressum,
-avere,vegh / végh,,irregular,condizionale presente,2p,gh’avressuf,
-avere,vegh / végh,,irregular,condizionale presente,3p,i gh’avrian/gh’avressan,
-avere,vegh / végh,,irregular,condizionale passato,1s,gh’avria /gh’avressa vüü,
-avere,vegh / végh,,irregular,condizionale passato,2s,ta gh’avriat / ta gh’avressat vüü,
-avere,vegh / végh,,irregular,condizionale passato,3s,al gh’avria/al gh’avressa / la gh’avria/la gh’avressa vüü,
-avere,vegh / végh,,irregular,condizionale passato,1p,gh’avrium/gh’avressum vüü,
-avere,vegh / végh,,irregular,condizionale passato,2p,gh’avriuf/gh’avressuf vüü,
-avere,vegh / végh,,irregular,condizionale passato,3p,i gh’avrian/i gh’avressan vüü,
-avere,vegh / végh,,irregular,congiuntivo presente,1s,gh’abia,yes
-avere,vegh / végh,,irregular,congiuntivo presente,2s,ta gh’abiat,yes
-avere,vegh / végh,,irregular,congiuntivo presente,3s,la/al gh’abia,yes
-avere,vegh / végh,,irregular,congiuntivo presente,1p,gh’abium,yes
-avere,vegh / végh,,irregular,congiuntivo presente,2p,gh’abiuf,yes
-avere,vegh / végh,,irregular,congiuntivo presente,3p,i g’abbia,
-avere,vegh / végh,,irregular,congiuntivo imperfetto,1s,gh’avess,
-avere,vegh / végh,,irregular,congiuntivo imperfetto,2s,ta gh’avessat,yes
-avere,vegh / végh,,irregular,congiuntivo imperfetto,3s,la/al gh’avess,yes
-avere,vegh / végh,,irregular,congiuntivo imperfetto,1p,gh’avessum,yes
-avere,vegh / végh,,irregular,congiuntivo imperfetto,2p,gh’avessuf,yes
-avere,vegh / végh,,irregular,congiuntivo imperfetto,3p,i gh’avessan,yes
+avere,vegh / végh,,irregular,condizionale presente,1s,avria/avressa,
+avere,vegh / végh,,irregular,condizionale presente,2s,t’avressat,
+avere,vegh / végh,,irregular,condizionale presente,3s,l’avria/avressa,
+avere,vegh / végh,,irregular,condizionale presente,1p,avrium/avressum,
+avere,vegh / végh,,irregular,condizionale presente,2p,avressuf,
+avere,vegh / végh,,irregular,condizionale presente,3p,i avrian/avressan,
+avere,vegh / végh,,irregular,condizionale passato,1s,avria /avressa vüü,
+avere,vegh / végh,,irregular,condizionale passato,2s,t’avriat / t’avressat vüü,
+avere,vegh / végh,,irregular,condizionale passato,3s,l’avria/l’avressa vüü,
+avere,vegh / végh,,irregular,condizionale passato,1p,avrium/avressum vüü,
+avere,vegh / végh,,irregular,condizionale passato,2p,avriuf/avressuf vüü,
+avere,vegh / végh,,irregular,condizionale passato,3p,i avrian/i avressan vüü,
+avere,vegh / végh,,irregular,congiuntivo presente,1s,abia,yes
+avere,vegh / végh,,irregular,congiuntivo presente,2s,t’abiat,yes
+avere,vegh / végh,,irregular,congiuntivo presente,3s,l’abia,yes
+avere,vegh / végh,,irregular,congiuntivo presente,1p,abium,yes
+avere,vegh / végh,,irregular,congiuntivo presente,2p,abiuf,yes
+avere,vegh / végh,,irregular,congiuntivo presente,3p,i abbia,
+avere,vegh / végh,,irregular,congiuntivo imperfetto,1s,avess,
+avere,vegh / végh,,irregular,congiuntivo imperfetto,2s,t’avessat,yes
+avere,vegh / végh,,irregular,congiuntivo imperfetto,3s,l’avess,yes
+avere,vegh / végh,,irregular,congiuntivo imperfetto,1p,avessum,yes
+avere,vegh / végh,,irregular,congiuntivo imperfetto,2p,avessuf,yes
+avere,vegh / végh,,irregular,congiuntivo imperfetto,3p,i avessan,yes
 avere,vegh / végh,,irregular,imperativo,2s,vegh,yes
 avere,vegh / végh,,irregular,imperativo,1p,gabbium,yes
 avere,vegh / végh,,irregular,imperativo,2p,ghii,yes
@@ -1019,6 +1019,74 @@ cercare,cercà,,1st conjugation,imperativo negativo,1p,cerchem mia,yes
 cercare,cercà,,1st conjugation,imperativo negativo,2p,cerchii mia,yes
 cercare,cercà,,1st conjugation,gerundio,-,cercando,yes
 cercare,cercà,,1st conjugation,participio passato,-,cercaa,yes
+chiudere,serà,,1st conjugation,presente,1s,seri,yes
+chiudere,serà,,1st conjugation,presente,2s,ta serat,yes
+chiudere,serà,,1st conjugation,presente,3s,la/al sera,yes
+chiudere,serà,,1st conjugation,presente,1p,serum,yes
+chiudere,serà,,1st conjugation,presente,2p,seruf,yes
+chiudere,serà,,1st conjugation,presente,3p,i seran,yes
+chiudere,serà,,1st conjugation,imperfetto,1s,serava,yes
+chiudere,serà,,1st conjugation,imperfetto,2s,ta seravat,yes
+chiudere,serà,,1st conjugation,imperfetto,3s,la/al serava,yes
+chiudere,serà,,1st conjugation,imperfetto,1p,seravum,yes
+chiudere,serà,,1st conjugation,imperfetto,2p,seravuf,yes
+chiudere,serà,,1st conjugation,imperfetto,3p,i seravan,yes
+chiudere,serà,,1st conjugation,passato prossimo,1s,u seràa,yes
+chiudere,serà,,1st conjugation,passato prossimo,2s,te seràa,yes
+chiudere,serà,,1st conjugation,passato prossimo,3s,l’a seràa,yes
+chiudere,serà,,1st conjugation,passato prossimo,1p,em seràa,yes
+chiudere,serà,,1st conjugation,passato prossimo,2p,ii seràa,yes
+chiudere,serà,,1st conjugation,passato prossimo,3p,i an seràa,yes
+chiudere,serà,,1st conjugation,trapassato prossimo,1s,eva seràa,yes
+chiudere,serà,,1st conjugation,trapassato prossimo,2s,ta evat seràa,yes
+chiudere,serà,,1st conjugation,trapassato prossimo,3s,l’eva seràa,yes
+chiudere,serà,,1st conjugation,trapassato prossimo,1p,evum seràa,yes
+chiudere,serà,,1st conjugation,trapassato prossimo,2p,evuf seràa,yes
+chiudere,serà,,1st conjugation,trapassato prossimo,3p,i evan seràa,yes
+chiudere,serà,,1st conjugation,futuro,1s,serarò,yes
+chiudere,serà,,1st conjugation,futuro,2s,ta seraré,yes
+chiudere,serà,,1st conjugation,futuro,3s,la serarà,
+chiudere,serà,,1st conjugation,futuro,1p,serarem,yes
+chiudere,serà,,1st conjugation,futuro,2p,serarii,yes
+chiudere,serà,,1st conjugation,futuro,3p,i seraran,yes
+chiudere,serà,,1st conjugation,futuro prossimo,1s,avrò seràa,yes
+chiudere,serà,,1st conjugation,futuro prossimo,2s,ta avré seràa,yes
+chiudere,serà,,1st conjugation,futuro prossimo,3s,l’avrà seràa,yes
+chiudere,serà,,1st conjugation,futuro prossimo,1p,avrem seràa,yes
+chiudere,serà,,1st conjugation,futuro prossimo,2p,avrii seràa,yes
+chiudere,serà,,1st conjugation,futuro prossimo,3p,i avran seràa,yes
+chiudere,serà,,1st conjugation,condizionale presente,1s,seraria/seraressa,yes
+chiudere,serà,,1st conjugation,condizionale presente,2s,ta serariat/seraressat,yes
+chiudere,serà,,1st conjugation,condizionale presente,3s,la/al seraria/seraressa,yes
+chiudere,serà,,1st conjugation,condizionale presente,1p,serarium/seraressum,yes
+chiudere,serà,,1st conjugation,condizionale presente,2p,serariuf/seraressuf,yes
+chiudere,serà,,1st conjugation,condizionale presente,3p,i serarian/seraressan,yes
+chiudere,serà,,1st conjugation,condizionale passato,1s,avria/avress seràa,yes
+chiudere,serà,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat seràa,yes
+chiudere,serà,,1st conjugation,condizionale passato,3s,l’avria/l’avressa seràa,yes
+chiudere,serà,,1st conjugation,condizionale passato,1p,avrium/avressum seràa,yes
+chiudere,serà,,1st conjugation,condizionale passato,2p,avriuf/avressuf seràa,yes
+chiudere,serà,,1st conjugation,condizionale passato,3p,i avrian/i avressan seràa,yes
+chiudere,serà,,1st conjugation,congiuntivo presente,1s,sera,yes
+chiudere,serà,,1st conjugation,congiuntivo presente,2s,ta serat,yes
+chiudere,serà,,1st conjugation,congiuntivo presente,3s,la/al sera,yes
+chiudere,serà,,1st conjugation,congiuntivo presente,1p,serum,yes
+chiudere,serà,,1st conjugation,congiuntivo presente,2p,seruf,yes
+chiudere,serà,,1st conjugation,congiuntivo presente,3p,i seran,yes
+chiudere,serà,,1st conjugation,congiuntivo imperfetto,1s,serassa,yes
+chiudere,serà,,1st conjugation,congiuntivo imperfetto,2s,ta serassat,yes
+chiudere,serà,,1st conjugation,congiuntivo imperfetto,3s,la/al serass,yes
+chiudere,serà,,1st conjugation,congiuntivo imperfetto,1p,serassum,yes
+chiudere,serà,,1st conjugation,congiuntivo imperfetto,2p,serassuf,yes
+chiudere,serà,,1st conjugation,congiuntivo imperfetto,3p,i serassan,yes
+chiudere,serà,,1st conjugation,imperativo,2s,sera,yes
+chiudere,serà,,1st conjugation,imperativo,1p,serem,yes
+chiudere,serà,,1st conjugation,imperativo,2p,serii,yes
+chiudere,serà,,1st conjugation,imperativo negativo,2s,sera mia,yes
+chiudere,serà,,1st conjugation,imperativo negativo,1p,serem mia,yes
+chiudere,serà,,1st conjugation,imperativo negativo,2p,serii mia,yes
+chiudere,serà,,1st conjugation,gerundio,-,serando,yes
+chiudere,serà,,1st conjugation,participio passato,-,seràa,
 comprare,töö / tö,,irregular,presente,1s,–,
 comprare,töö / tö,,irregular,presente,2s,ta töat,
 comprare,töö / tö,,irregular,presente,3s,al tö,
@@ -1291,74 +1359,74 @@ costruire,fa sù,,"irregular (compound of fa, fare)",imperativo negativo,1p,fem 
 costruire,fa sù,,"irregular (compound of fa, fare)",imperativo negativo,2p,fii mia sù,yes
 costruire,fa sù,,"irregular (compound of fa, fare)",gerundio,-,fasendo sù,yes
 costruire,fa sù,,"irregular (compound of fa, fare)",participio passato,-,fai,yes
-credere,cred,yes,3rd conjugation,presente,1s,credi,yes
-credere,cred,yes,3rd conjugation,presente,2s,ta credat,yes
-credere,cred,yes,3rd conjugation,presente,3s,la/al cred,yes
-credere,cred,yes,3rd conjugation,presente,1p,credum,yes
-credere,cred,yes,3rd conjugation,presente,2p,creduf,yes
-credere,cred,yes,3rd conjugation,presente,3p,i credan,yes
-credere,cred,yes,3rd conjugation,imperfetto,1s,credeva,yes
-credere,cred,yes,3rd conjugation,imperfetto,2s,ta credevat,yes
-credere,cred,yes,3rd conjugation,imperfetto,3s,la/al credeva,yes
-credere,cred,yes,3rd conjugation,imperfetto,1p,credevum,yes
-credere,cred,yes,3rd conjugation,imperfetto,2p,credevuf,yes
-credere,cred,yes,3rd conjugation,imperfetto,3p,i credevan,yes
-credere,cred,yes,3rd conjugation,passato prossimo,1s,u credüü,yes
-credere,cred,yes,3rd conjugation,passato prossimo,2s,te credüü,yes
-credere,cred,yes,3rd conjugation,passato prossimo,3s,l’a credüü,yes
-credere,cred,yes,3rd conjugation,passato prossimo,1p,em credüü,yes
-credere,cred,yes,3rd conjugation,passato prossimo,2p,ii credüü,yes
-credere,cred,yes,3rd conjugation,passato prossimo,3p,i an credüü,yes
-credere,cred,yes,3rd conjugation,trapassato prossimo,1s,eva credüü,yes
-credere,cred,yes,3rd conjugation,trapassato prossimo,2s,ta evat credüü,yes
-credere,cred,yes,3rd conjugation,trapassato prossimo,3s,l’eva credüü,yes
-credere,cred,yes,3rd conjugation,trapassato prossimo,1p,evum credüü,yes
-credere,cred,yes,3rd conjugation,trapassato prossimo,2p,evuf credüü,yes
-credere,cred,yes,3rd conjugation,trapassato prossimo,3p,i evan credüü,yes
-credere,cred,yes,3rd conjugation,futuro,1s,credarò,yes
-credere,cred,yes,3rd conjugation,futuro,2s,ta credaré,yes
-credere,cred,yes,3rd conjugation,futuro,3s,la/al credarà,yes
-credere,cred,yes,3rd conjugation,futuro,1p,credarem,yes
-credere,cred,yes,3rd conjugation,futuro,2p,credarii,yes
-credere,cred,yes,3rd conjugation,futuro,3p,i credaran,yes
-credere,cred,yes,3rd conjugation,futuro prossimo,1s,avrò credüü,yes
-credere,cred,yes,3rd conjugation,futuro prossimo,2s,ta avré credüü,yes
-credere,cred,yes,3rd conjugation,futuro prossimo,3s,l’avrà credüü,yes
-credere,cred,yes,3rd conjugation,futuro prossimo,1p,avrem credüü,yes
-credere,cred,yes,3rd conjugation,futuro prossimo,2p,avrii credüü,yes
-credere,cred,yes,3rd conjugation,futuro prossimo,3p,i avran credüü,yes
-credere,cred,yes,3rd conjugation,condizionale presente,1s,credaria/credaressa,yes
-credere,cred,yes,3rd conjugation,condizionale presente,2s,ta credariat/credaressat,yes
-credere,cred,yes,3rd conjugation,condizionale presente,3s,la/al credaria/credaressa,yes
-credere,cred,yes,3rd conjugation,condizionale presente,1p,credarium/credaressum,yes
-credere,cred,yes,3rd conjugation,condizionale presente,2p,credariuf/credaressuf,yes
-credere,cred,yes,3rd conjugation,condizionale presente,3p,i credarian/credaressan,yes
-credere,cred,yes,3rd conjugation,condizionale passato,1s,avria/avress credüü,yes
-credere,cred,yes,3rd conjugation,condizionale passato,2s,t’avriat/t’avressat credüü,yes
-credere,cred,yes,3rd conjugation,condizionale passato,3s,l’avria/l’avressa credüü,yes
-credere,cred,yes,3rd conjugation,condizionale passato,1p,avrium/avressum credüü,yes
-credere,cred,yes,3rd conjugation,condizionale passato,2p,avriuf/avressuf credüü,yes
-credere,cred,yes,3rd conjugation,condizionale passato,3p,i avrian/i avressan credüü,yes
-credere,cred,yes,3rd conjugation,congiuntivo presente,1s,creda,yes
-credere,cred,yes,3rd conjugation,congiuntivo presente,2s,ta credat,yes
-credere,cred,yes,3rd conjugation,congiuntivo presente,3s,la/al creda,yes
-credere,cred,yes,3rd conjugation,congiuntivo presente,1p,credum,yes
-credere,cred,yes,3rd conjugation,congiuntivo presente,2p,creduf,yes
-credere,cred,yes,3rd conjugation,congiuntivo presente,3p,i credan,yes
-credere,cred,yes,3rd conjugation,congiuntivo imperfetto,1s,credessa,yes
-credere,cred,yes,3rd conjugation,congiuntivo imperfetto,2s,ta credessat,yes
-credere,cred,yes,3rd conjugation,congiuntivo imperfetto,3s,la/al credess,yes
-credere,cred,yes,3rd conjugation,congiuntivo imperfetto,1p,credessum,yes
-credere,cred,yes,3rd conjugation,congiuntivo imperfetto,2p,credessuf,yes
-credere,cred,yes,3rd conjugation,congiuntivo imperfetto,3p,i credessan,yes
-credere,cred,yes,3rd conjugation,imperativo,2s,cred,yes
-credere,cred,yes,3rd conjugation,imperativo,1p,credem,yes
-credere,cred,yes,3rd conjugation,imperativo,2p,credii,yes
-credere,cred,yes,3rd conjugation,imperativo negativo,2s,cred mia,
-credere,cred,yes,3rd conjugation,imperativo negativo,1p,credem mia,
-credere,cred,yes,3rd conjugation,imperativo negativo,2p,credii mia,
-credere,cred,yes,3rd conjugation,gerundio,-,credendo,
-credere,cred,yes,3rd conjugation,participio passato,-,credüü,yes
+credere,cred,,3rd conjugation,presente,1s,credi,yes
+credere,cred,,3rd conjugation,presente,2s,ta credat,yes
+credere,cred,,3rd conjugation,presente,3s,la/al cred,yes
+credere,cred,,3rd conjugation,presente,1p,credum,yes
+credere,cred,,3rd conjugation,presente,2p,creduf,yes
+credere,cred,,3rd conjugation,presente,3p,i credan,yes
+credere,cred,,3rd conjugation,imperfetto,1s,credeva,yes
+credere,cred,,3rd conjugation,imperfetto,2s,ta credevat,yes
+credere,cred,,3rd conjugation,imperfetto,3s,la/al credeva,yes
+credere,cred,,3rd conjugation,imperfetto,1p,credevum,yes
+credere,cred,,3rd conjugation,imperfetto,2p,credevuf,yes
+credere,cred,,3rd conjugation,imperfetto,3p,i credevan,yes
+credere,cred,,3rd conjugation,passato prossimo,1s,u credüü,yes
+credere,cred,,3rd conjugation,passato prossimo,2s,te credüü,yes
+credere,cred,,3rd conjugation,passato prossimo,3s,l’a credüü,yes
+credere,cred,,3rd conjugation,passato prossimo,1p,em credüü,yes
+credere,cred,,3rd conjugation,passato prossimo,2p,ii credüü,yes
+credere,cred,,3rd conjugation,passato prossimo,3p,i an credüü,yes
+credere,cred,,3rd conjugation,trapassato prossimo,1s,eva credüü,yes
+credere,cred,,3rd conjugation,trapassato prossimo,2s,ta evat credüü,yes
+credere,cred,,3rd conjugation,trapassato prossimo,3s,l’eva credüü,yes
+credere,cred,,3rd conjugation,trapassato prossimo,1p,evum credüü,yes
+credere,cred,,3rd conjugation,trapassato prossimo,2p,evuf credüü,yes
+credere,cred,,3rd conjugation,trapassato prossimo,3p,i evan credüü,yes
+credere,cred,,3rd conjugation,futuro,1s,credarò,yes
+credere,cred,,3rd conjugation,futuro,2s,ta credaré,yes
+credere,cred,,3rd conjugation,futuro,3s,la/al credarà,yes
+credere,cred,,3rd conjugation,futuro,1p,credarem,yes
+credere,cred,,3rd conjugation,futuro,2p,credarii,yes
+credere,cred,,3rd conjugation,futuro,3p,i credaran,yes
+credere,cred,,3rd conjugation,futuro prossimo,1s,avrò credüü,yes
+credere,cred,,3rd conjugation,futuro prossimo,2s,ta avré credüü,yes
+credere,cred,,3rd conjugation,futuro prossimo,3s,l’avrà credüü,yes
+credere,cred,,3rd conjugation,futuro prossimo,1p,avrem credüü,yes
+credere,cred,,3rd conjugation,futuro prossimo,2p,avrii credüü,yes
+credere,cred,,3rd conjugation,futuro prossimo,3p,i avran credüü,yes
+credere,cred,,3rd conjugation,condizionale presente,1s,credaria/credaressa,yes
+credere,cred,,3rd conjugation,condizionale presente,2s,ta credariat/credaressat,yes
+credere,cred,,3rd conjugation,condizionale presente,3s,la/al credaria/credaressa,yes
+credere,cred,,3rd conjugation,condizionale presente,1p,credarium/credaressum,yes
+credere,cred,,3rd conjugation,condizionale presente,2p,credariuf/credaressuf,yes
+credere,cred,,3rd conjugation,condizionale presente,3p,i credarian/credaressan,yes
+credere,cred,,3rd conjugation,condizionale passato,1s,avria/avress credüü,yes
+credere,cred,,3rd conjugation,condizionale passato,2s,t’avriat/t’avressat credüü,yes
+credere,cred,,3rd conjugation,condizionale passato,3s,l’avria/l’avressa credüü,yes
+credere,cred,,3rd conjugation,condizionale passato,1p,avrium/avressum credüü,yes
+credere,cred,,3rd conjugation,condizionale passato,2p,avriuf/avressuf credüü,yes
+credere,cred,,3rd conjugation,condizionale passato,3p,i avrian/i avressan credüü,yes
+credere,cred,,3rd conjugation,congiuntivo presente,1s,creda,yes
+credere,cred,,3rd conjugation,congiuntivo presente,2s,ta credat,yes
+credere,cred,,3rd conjugation,congiuntivo presente,3s,la/al creda,yes
+credere,cred,,3rd conjugation,congiuntivo presente,1p,credum,yes
+credere,cred,,3rd conjugation,congiuntivo presente,2p,creduf,yes
+credere,cred,,3rd conjugation,congiuntivo presente,3p,i credan,yes
+credere,cred,,3rd conjugation,congiuntivo imperfetto,1s,credessa,yes
+credere,cred,,3rd conjugation,congiuntivo imperfetto,2s,ta credessat,yes
+credere,cred,,3rd conjugation,congiuntivo imperfetto,3s,la/al credess,yes
+credere,cred,,3rd conjugation,congiuntivo imperfetto,1p,credessum,yes
+credere,cred,,3rd conjugation,congiuntivo imperfetto,2p,credessuf,yes
+credere,cred,,3rd conjugation,congiuntivo imperfetto,3p,i credessan,yes
+credere,cred,,3rd conjugation,imperativo,2s,cred,yes
+credere,cred,,3rd conjugation,imperativo,1p,credem,yes
+credere,cred,,3rd conjugation,imperativo,2p,credii,yes
+credere,cred,,3rd conjugation,imperativo negativo,2s,cred mia,
+credere,cred,,3rd conjugation,imperativo negativo,1p,credem mia,
+credere,cred,,3rd conjugation,imperativo negativo,2p,credii mia,
+credere,cred,,3rd conjugation,gerundio,-,credendo,
+credere,cred,,3rd conjugation,participio passato,-,credüü,yes
 cucinare,cüsinà,,1st conjugation,presente,1s,fò da mangià,
 cucinare,cüsinà,,1st conjugation,presente,2s,ta fé da mangià,
 cucinare,cüsinà,,1st conjugation,presente,3s,la/al fa da mangià,
@@ -1699,74 +1767,74 @@ dormire,dörmi,,4th conjugation,imperativo negativo,1p,durmem mia,
 dormire,dörmi,,4th conjugation,imperativo negativo,2p,durmii mia,
 dormire,dörmi,,4th conjugation,gerundio,-,dörmendo (o durmendo),
 dormire,dörmi,,4th conjugation,participio passato,-,dormii,
-dovere,duvé,yes,2nd conjugation,presente,1s,devi,yes
-dovere,duvé,yes,2nd conjugation,presente,2s,ta devat,
-dovere,duvé,yes,2nd conjugation,presente,3s,la/al dev,yes
-dovere,duvé,yes,2nd conjugation,presente,1p,devum,
-dovere,duvé,yes,2nd conjugation,presente,2p,devuf,
-dovere,duvé,yes,2nd conjugation,presente,3p,i devan,yes
-dovere,duvé,yes,2nd conjugation,imperfetto,1s,duveva,yes
-dovere,duvé,yes,2nd conjugation,imperfetto,2s,ta duvevat,yes
-dovere,duvé,yes,2nd conjugation,imperfetto,3s,la/al duveva,yes
-dovere,duvé,yes,2nd conjugation,imperfetto,1p,duvevum,yes
-dovere,duvé,yes,2nd conjugation,imperfetto,2p,duvevuf,yes
-dovere,duvé,yes,2nd conjugation,imperfetto,3p,i duvevan,yes
-dovere,duvé,yes,2nd conjugation,passato prossimo,1s,u duvüü,yes
-dovere,duvé,yes,2nd conjugation,passato prossimo,2s,te duvüü,yes
-dovere,duvé,yes,2nd conjugation,passato prossimo,3s,l’a duvüü,yes
-dovere,duvé,yes,2nd conjugation,passato prossimo,1p,em duvüü,yes
-dovere,duvé,yes,2nd conjugation,passato prossimo,2p,ii duvüü,yes
-dovere,duvé,yes,2nd conjugation,passato prossimo,3p,i an duvüü,yes
-dovere,duvé,yes,2nd conjugation,trapassato prossimo,1s,eva duvüü,yes
-dovere,duvé,yes,2nd conjugation,trapassato prossimo,2s,ta evat duvüü,yes
-dovere,duvé,yes,2nd conjugation,trapassato prossimo,3s,l’eva duvüü,yes
-dovere,duvé,yes,2nd conjugation,trapassato prossimo,1p,evum duvüü,yes
-dovere,duvé,yes,2nd conjugation,trapassato prossimo,2p,evuf duvüü,yes
-dovere,duvé,yes,2nd conjugation,trapassato prossimo,3p,i evan duvüü,yes
-dovere,duvé,yes,2nd conjugation,futuro,1s,devarò,yes
-dovere,duvé,yes,2nd conjugation,futuro,2s,ta devaré,yes
-dovere,duvé,yes,2nd conjugation,futuro,3s,la/al devarà,yes
-dovere,duvé,yes,2nd conjugation,futuro,1p,devarem,yes
-dovere,duvé,yes,2nd conjugation,futuro,2p,devarii,yes
-dovere,duvé,yes,2nd conjugation,futuro,3p,i devaran,yes
-dovere,duvé,yes,2nd conjugation,futuro prossimo,1s,avrò duvüü,yes
-dovere,duvé,yes,2nd conjugation,futuro prossimo,2s,ta avré duvüü,yes
-dovere,duvé,yes,2nd conjugation,futuro prossimo,3s,l’avrà duvüü,yes
-dovere,duvé,yes,2nd conjugation,futuro prossimo,1p,avrem duvüü,yes
-dovere,duvé,yes,2nd conjugation,futuro prossimo,2p,avrii duvüü,yes
-dovere,duvé,yes,2nd conjugation,futuro prossimo,3p,i avran duvüü,yes
-dovere,duvé,yes,2nd conjugation,condizionale presente,1s,duaria/duaressa,
-dovere,duvé,yes,2nd conjugation,condizionale presente,2s,ta duaressat,
-dovere,duvé,yes,2nd conjugation,condizionale presente,3s,duaria/duaressa,
-dovere,duvé,yes,2nd conjugation,condizionale presente,1p,duaressum,
-dovere,duvé,yes,2nd conjugation,condizionale presente,2p,duaressuf,
-dovere,duvé,yes,2nd conjugation,condizionale presente,3p,duarian/duaressan,
-dovere,duvé,yes,2nd conjugation,condizionale passato,1s,avria/avress duvüü,yes
-dovere,duvé,yes,2nd conjugation,condizionale passato,2s,t’avriat/t’avressat duvüü,yes
-dovere,duvé,yes,2nd conjugation,condizionale passato,3s,l’avria/l’avressa duvüü,yes
-dovere,duvé,yes,2nd conjugation,condizionale passato,1p,avrium/avressum duvüü,yes
-dovere,duvé,yes,2nd conjugation,condizionale passato,2p,avriuf/avressuf duvüü,yes
-dovere,duvé,yes,2nd conjugation,condizionale passato,3p,i avrian/i avressan duvüü,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo presente,1s,deva,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo presente,2s,ta devat,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo presente,3s,la/al deva,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo presente,1p,devum,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo presente,2p,devuf,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo presente,3p,i devan,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo imperfetto,1s,duvessa,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo imperfetto,2s,ta duvessat,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo imperfetto,3s,la/al duvess,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo imperfetto,1p,duvessum,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo imperfetto,2p,duvessuf,yes
-dovere,duvé,yes,2nd conjugation,congiuntivo imperfetto,3p,i duvessan,yes
-dovere,duvé,yes,2nd conjugation,imperativo,2s,dev,yes
-dovere,duvé,yes,2nd conjugation,imperativo,1p,duvem,yes
-dovere,duvé,yes,2nd conjugation,imperativo,2p,duvii,yes
-dovere,duvé,yes,2nd conjugation,imperativo negativo,2s,dev mia,yes
-dovere,duvé,yes,2nd conjugation,imperativo negativo,1p,duvem mia,yes
-dovere,duvé,yes,2nd conjugation,imperativo negativo,2p,duvii mia,yes
-dovere,duvé,yes,2nd conjugation,gerundio,-,duvendo,yes
-dovere,duvé,yes,2nd conjugation,participio passato,-,duvüü,
+dovere,dué,,2nd conjugation,presente,1s,devi,yes
+dovere,dué,,2nd conjugation,presente,2s,ta devat,
+dovere,dué,,2nd conjugation,presente,3s,la/al dev,yes
+dovere,dué,,2nd conjugation,presente,1p,devum,
+dovere,dué,,2nd conjugation,presente,2p,devuf,
+dovere,dué,,2nd conjugation,presente,3p,i devan,yes
+dovere,dué,,2nd conjugation,imperfetto,1s,duveva,yes
+dovere,dué,,2nd conjugation,imperfetto,2s,ta duvevat,yes
+dovere,dué,,2nd conjugation,imperfetto,3s,la/al duveva,yes
+dovere,dué,,2nd conjugation,imperfetto,1p,duvevum,yes
+dovere,dué,,2nd conjugation,imperfetto,2p,duvevuf,yes
+dovere,dué,,2nd conjugation,imperfetto,3p,i duvevan,yes
+dovere,dué,,2nd conjugation,passato prossimo,1s,u duvüü,yes
+dovere,dué,,2nd conjugation,passato prossimo,2s,te duvüü,yes
+dovere,dué,,2nd conjugation,passato prossimo,3s,l’a duvüü,yes
+dovere,dué,,2nd conjugation,passato prossimo,1p,em duvüü,yes
+dovere,dué,,2nd conjugation,passato prossimo,2p,ii duvüü,yes
+dovere,dué,,2nd conjugation,passato prossimo,3p,i an duvüü,yes
+dovere,dué,,2nd conjugation,trapassato prossimo,1s,eva duvüü,yes
+dovere,dué,,2nd conjugation,trapassato prossimo,2s,ta evat duvüü,yes
+dovere,dué,,2nd conjugation,trapassato prossimo,3s,l’eva duvüü,yes
+dovere,dué,,2nd conjugation,trapassato prossimo,1p,evum duvüü,yes
+dovere,dué,,2nd conjugation,trapassato prossimo,2p,evuf duvüü,yes
+dovere,dué,,2nd conjugation,trapassato prossimo,3p,i evan duvüü,yes
+dovere,dué,,2nd conjugation,futuro,1s,devarò,yes
+dovere,dué,,2nd conjugation,futuro,2s,ta devaré,yes
+dovere,dué,,2nd conjugation,futuro,3s,la/al devarà,yes
+dovere,dué,,2nd conjugation,futuro,1p,devarem,yes
+dovere,dué,,2nd conjugation,futuro,2p,devarii,yes
+dovere,dué,,2nd conjugation,futuro,3p,i devaran,yes
+dovere,dué,,2nd conjugation,futuro prossimo,1s,avrò duvüü,yes
+dovere,dué,,2nd conjugation,futuro prossimo,2s,ta avré duvüü,yes
+dovere,dué,,2nd conjugation,futuro prossimo,3s,l’avrà duvüü,yes
+dovere,dué,,2nd conjugation,futuro prossimo,1p,avrem duvüü,yes
+dovere,dué,,2nd conjugation,futuro prossimo,2p,avrii duvüü,yes
+dovere,dué,,2nd conjugation,futuro prossimo,3p,i avran duvüü,yes
+dovere,dué,,2nd conjugation,condizionale presente,1s,duaria/duaressa,
+dovere,dué,,2nd conjugation,condizionale presente,2s,ta duaressat,
+dovere,dué,,2nd conjugation,condizionale presente,3s,duaria/duaressa,
+dovere,dué,,2nd conjugation,condizionale presente,1p,duaressum,
+dovere,dué,,2nd conjugation,condizionale presente,2p,duaressuf,
+dovere,dué,,2nd conjugation,condizionale presente,3p,duarian/duaressan,
+dovere,dué,,2nd conjugation,condizionale passato,1s,avria/avress duvüü,yes
+dovere,dué,,2nd conjugation,condizionale passato,2s,t’avriat/t’avressat duvüü,yes
+dovere,dué,,2nd conjugation,condizionale passato,3s,l’avria/l’avressa duvüü,yes
+dovere,dué,,2nd conjugation,condizionale passato,1p,avrium/avressum duvüü,yes
+dovere,dué,,2nd conjugation,condizionale passato,2p,avriuf/avressuf duvüü,yes
+dovere,dué,,2nd conjugation,condizionale passato,3p,i avrian/i avressan duvüü,yes
+dovere,dué,,2nd conjugation,congiuntivo presente,1s,deva,yes
+dovere,dué,,2nd conjugation,congiuntivo presente,2s,ta devat,yes
+dovere,dué,,2nd conjugation,congiuntivo presente,3s,la/al deva,yes
+dovere,dué,,2nd conjugation,congiuntivo presente,1p,devum,yes
+dovere,dué,,2nd conjugation,congiuntivo presente,2p,devuf,yes
+dovere,dué,,2nd conjugation,congiuntivo presente,3p,i devan,yes
+dovere,dué,,2nd conjugation,congiuntivo imperfetto,1s,duvessa,yes
+dovere,dué,,2nd conjugation,congiuntivo imperfetto,2s,ta duvessat,yes
+dovere,dué,,2nd conjugation,congiuntivo imperfetto,3s,la/al duvess,yes
+dovere,dué,,2nd conjugation,congiuntivo imperfetto,1p,duvessum,yes
+dovere,dué,,2nd conjugation,congiuntivo imperfetto,2p,duvessuf,yes
+dovere,dué,,2nd conjugation,congiuntivo imperfetto,3p,i duvessan,yes
+dovere,dué,,2nd conjugation,imperativo,2s,dev,yes
+dovere,dué,,2nd conjugation,imperativo,1p,duvem,yes
+dovere,dué,,2nd conjugation,imperativo,2p,duvii,yes
+dovere,dué,,2nd conjugation,imperativo negativo,2s,dev mia,yes
+dovere,dué,,2nd conjugation,imperativo negativo,1p,duvem mia,yes
+dovere,dué,,2nd conjugation,imperativo negativo,2p,duvii mia,yes
+dovere,dué,,2nd conjugation,gerundio,-,duvendo,yes
+dovere,dué,,2nd conjugation,participio passato,-,duvüü,
 essere,ves / véss,,irregular,presente,1s,sum,
 essere,ves / véss,,irregular,presente,2s,ta se,
 essere,ves / véss,,irregular,presente,3s,l’è,
@@ -2583,142 +2651,142 @@ lavarsi,lavas,,1st conjugation,imperativo negativo,1p,lavemas mia,
 lavarsi,lavas,,1st conjugation,imperativo negativo,2p,lavevas mia,
 lavarsi,lavas,,1st conjugation,gerundio,-,lavandus i man,
 lavarsi,lavas,,1st conjugation,participio passato,-,lavaa,
-leggere,lecc o lencc,,3rd conjugation,presente,1s,le(n)gi,
-leggere,lecc o lencc,,3rd conjugation,presente,2s,ta le(n)giat,
-leggere,lecc o lencc,,3rd conjugation,presente,3s,la/al le(n)g (?),
-leggere,lecc o lencc,,3rd conjugation,presente,1p,le(n)gium,
-leggere,lecc o lencc,,3rd conjugation,presente,2p,le(n)giuf,
-leggere,lecc o lencc,,3rd conjugation,presente,3p,i le(n)gian,
-leggere,lecc o lencc,,3rd conjugation,imperfetto,1s,lengheva,yes
-leggere,lecc o lencc,,3rd conjugation,imperfetto,2s,ta lenghevat,yes
-leggere,lecc o lencc,,3rd conjugation,imperfetto,3s,la/al lengheva,yes
-leggere,lecc o lencc,,3rd conjugation,imperfetto,1p,lenghevum,yes
-leggere,lecc o lencc,,3rd conjugation,imperfetto,2p,lenghevuf,yes
-leggere,lecc o lencc,,3rd conjugation,imperfetto,3p,i lenghevan,yes
-leggere,lecc o lencc,,3rd conjugation,passato prossimo,1s,u lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,passato prossimo,2s,te lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,passato prossimo,3s,l’a lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,passato prossimo,1p,em lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,passato prossimo,2p,ii lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,passato prossimo,3p,i an lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,trapassato prossimo,1s,eva lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,trapassato prossimo,2s,ta evat lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,trapassato prossimo,3s,l’eva lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,trapassato prossimo,1p,evum lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,trapassato prossimo,2p,evuf lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,trapassato prossimo,3p,i evan lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,futuro,1s,lengarò,yes
-leggere,lecc o lencc,,3rd conjugation,futuro,2s,ta lengaré,yes
-leggere,lecc o lencc,,3rd conjugation,futuro,3s,la/al lengarà,yes
-leggere,lecc o lencc,,3rd conjugation,futuro,1p,lengarem,yes
-leggere,lecc o lencc,,3rd conjugation,futuro,2p,lengarii,yes
-leggere,lecc o lencc,,3rd conjugation,futuro,3p,i lengaran,yes
-leggere,lecc o lencc,,3rd conjugation,futuro prossimo,1s,avrò lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,futuro prossimo,2s,ta avré lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,futuro prossimo,3s,l’avrà lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,futuro prossimo,1p,avrem lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,futuro prossimo,2p,avrii lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,futuro prossimo,3p,i avran lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale presente,1s,lengaria/lengaressa,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale presente,2s,ta lengariat/lengaressat,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale presente,3s,la/al lengaria/lengaressa,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale presente,1p,lengarium/lengaressum,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale presente,2p,lengariuf/lengaressuf,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale presente,3p,i lengarian/lengaressan,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale passato,1s,avria/avress lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale passato,2s,t’avriat/t’avressat lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale passato,3s,l’avria/l’avressa lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale passato,1p,avrium/avressum lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale passato,2p,avriuf/avressuf lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,condizionale passato,3p,i avrian/i avressan lengiüü,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo presente,1s,lenga,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo presente,2s,ta lengat,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo presente,3s,la/al lenga,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo presente,1p,lengum,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo presente,2p,lenguf,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo presente,3p,i lengan,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo imperfetto,1s,lengessa,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo imperfetto,2s,ta lengessat,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo imperfetto,3s,la/al lengess,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo imperfetto,1p,lengessum,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo imperfetto,2p,lengessuf,yes
-leggere,lecc o lencc,,3rd conjugation,congiuntivo imperfetto,3p,i lengessan,yes
-leggere,lecc o lencc,,3rd conjugation,imperativo,2s,lecc,yes
-leggere,lecc o lencc,,3rd conjugation,imperativo,1p,lengem,yes
-leggere,lecc o lencc,,3rd conjugation,imperativo,2p,lengii,yes
-leggere,lecc o lencc,,3rd conjugation,imperativo negativo,2s,lecc mia,
-leggere,lecc o lencc,,3rd conjugation,imperativo negativo,1p,lengem mia,
-leggere,lecc o lencc,,3rd conjugation,imperativo negativo,2p,lengii mia,
-leggere,lecc o lencc,,3rd conjugation,gerundio,-,lengendu,
-leggere,lecc o lencc,,3rd conjugation,participio passato,-,lengiüü,
-mangiare,mangià / magià,,1st conjugation,presente,1s,mangi,
-mangiare,mangià / magià,,1st conjugation,presente,2s,ta mangiat,
-mangiare,mangià / magià,,1st conjugation,presente,3s,la/al mangia,
-mangiare,mangià / magià,,1st conjugation,presente,1p,mangium,
-mangiare,mangià / magià,,1st conjugation,presente,2p,mangiuf,
-mangiare,mangià / magià,,1st conjugation,presente,3p,i mangian,
-mangiare,mangià / magià,,1st conjugation,imperfetto,1s,mangiava,
-mangiare,mangià / magià,,1st conjugation,imperfetto,2s,ta mangiavat,
-mangiare,mangià / magià,,1st conjugation,imperfetto,3s,la/al mangiava,
-mangiare,mangià / magià,,1st conjugation,imperfetto,1p,mangiavum,
-mangiare,mangià / magià,,1st conjugation,imperfetto,2p,mangiavuf,
-mangiare,mangià / magià,,1st conjugation,imperfetto,3p,i mangiava,
-mangiare,mangià / magià,,1st conjugation,passato prossimo,1s,u mangiaa,yes
-mangiare,mangià / magià,,1st conjugation,passato prossimo,2s,te mangiaa,yes
-mangiare,mangià / magià,,1st conjugation,passato prossimo,3s,l’a mangiaa,yes
-mangiare,mangià / magià,,1st conjugation,passato prossimo,1p,em mangiaa,yes
-mangiare,mangià / magià,,1st conjugation,passato prossimo,2p,ii mangiaa,yes
-mangiare,mangià / magià,,1st conjugation,passato prossimo,3p,i an mangiaa,yes
-mangiare,mangià / magià,,1st conjugation,trapassato prossimo,1s,eva mangiaa,
-mangiare,mangià / magià,,1st conjugation,trapassato prossimo,2s,ta evat mangiaa,
-mangiare,mangià / magià,,1st conjugation,trapassato prossimo,3s,l’eva mangiaa,
-mangiare,mangià / magià,,1st conjugation,trapassato prossimo,1p,evum mangiaa,
-mangiare,mangià / magià,,1st conjugation,trapassato prossimo,2p,evuf mangiaa,
-mangiare,mangià / magià,,1st conjugation,trapassato prossimo,3p,i eva mangiaa,
-mangiare,mangià / magià,,1st conjugation,futuro,1s,mangiarò,
-mangiare,mangià / magià,,1st conjugation,futuro,2s,ta mangiaret,
-mangiare,mangià / magià,,1st conjugation,futuro,3s,la/al mangiarà,
-mangiare,mangià / magià,,1st conjugation,futuro,1p,mangiarem,
-mangiare,mangià / magià,,1st conjugation,futuro,2p,mangiarii,
-mangiare,mangià / magià,,1st conjugation,futuro,3p,i mangiarà,
-mangiare,mangià / magià,,1st conjugation,futuro prossimo,1s,avrò mangiaa,
-mangiare,mangià / magià,,1st conjugation,futuro prossimo,2s,ta avret mangiaa,
-mangiare,mangià / magià,,1st conjugation,futuro prossimo,3s,l’avrà mangiaa,
-mangiare,mangià / magià,,1st conjugation,futuro prossimo,1p,avrem mangiaa,
-mangiare,mangià / magià,,1st conjugation,futuro prossimo,2p,avrii mangiaa,
-mangiare,mangià / magià,,1st conjugation,futuro prossimo,3p,i avrà mangiaa,
-mangiare,mangià / magià,,1st conjugation,condizionale presente,1s,mangiaria/mangiaressa,yes
-mangiare,mangià / magià,,1st conjugation,condizionale presente,2s,ta mangiariat/mangiaressat,yes
-mangiare,mangià / magià,,1st conjugation,condizionale presente,3s,la/al mangiaria/mangiaressa,yes
-mangiare,mangià / magià,,1st conjugation,condizionale presente,1p,mangiarium/mangiaressum,yes
-mangiare,mangià / magià,,1st conjugation,condizionale presente,2p,mangiariuf/mangiaressuf,yes
-mangiare,mangià / magià,,1st conjugation,condizionale presente,3p,i mangiarian/mangiaressan,yes
-mangiare,mangià / magià,,1st conjugation,condizionale passato,1s,avria /avress mangiaa,
-mangiare,mangià / magià,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat,
-mangiare,mangià / magià,,1st conjugation,condizionale passato,3s,l’avria/l’avressa mangiaa,
-mangiare,mangià / magià,,1st conjugation,condizionale passato,1p,avrium/avressum mangiaa,
-mangiare,mangià / magià,,1st conjugation,condizionale passato,2p,avriuf/avressuf mangiaa,
-mangiare,mangià / magià,,1st conjugation,condizionale passato,3p,i avrian/i avressan mangiaa,
-mangiare,mangià / magià,,1st conjugation,congiuntivo presente,1s,mangia,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo presente,2s,ta mangiat,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo presente,3s,la/al mangia,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo presente,1p,mangium,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo presente,2p,mangiuf,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo presente,3p,i mangian,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo imperfetto,1s,mangassa,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo imperfetto,2s,ta mangassat,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo imperfetto,3s,la/al mangass,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo imperfetto,1p,mangassum,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo imperfetto,2p,mangassuf,yes
-mangiare,mangià / magià,,1st conjugation,congiuntivo imperfetto,3p,i mangassan,yes
-mangiare,mangià / magià,,1st conjugation,imperativo,2s,mangia,yes
-mangiare,mangià / magià,,1st conjugation,imperativo,1p,mangem,yes
-mangiare,mangià / magià,,1st conjugation,imperativo,2p,mangii,yes
-mangiare,mangià / magià,,1st conjugation,imperativo negativo,2s,mangia mia,
-mangiare,mangià / magià,,1st conjugation,imperativo negativo,1p,mangem mia,
-mangiare,mangià / magià,,1st conjugation,imperativo negativo,2p,mangii mia,
-mangiare,mangià / magià,,1st conjugation,gerundio,-,mangando,yes
-mangiare,mangià / magià,,1st conjugation,participio passato,-,mangiaa,
+leggere,lenc,,3rd conjugation,presente,1s,le(n)gi,
+leggere,lenc,,3rd conjugation,presente,2s,ta le(n)giat,
+leggere,lenc,,3rd conjugation,presente,3s,la/al le(n)g (?),
+leggere,lenc,,3rd conjugation,presente,1p,le(n)gium,
+leggere,lenc,,3rd conjugation,presente,2p,le(n)giuf,
+leggere,lenc,,3rd conjugation,presente,3p,i le(n)gian,
+leggere,lenc,,3rd conjugation,imperfetto,1s,lengheva,yes
+leggere,lenc,,3rd conjugation,imperfetto,2s,ta lenghevat,yes
+leggere,lenc,,3rd conjugation,imperfetto,3s,la/al lengheva,yes
+leggere,lenc,,3rd conjugation,imperfetto,1p,lenghevum,yes
+leggere,lenc,,3rd conjugation,imperfetto,2p,lenghevuf,yes
+leggere,lenc,,3rd conjugation,imperfetto,3p,i lenghevan,yes
+leggere,lenc,,3rd conjugation,passato prossimo,1s,u lengiüü,yes
+leggere,lenc,,3rd conjugation,passato prossimo,2s,te lengiüü,yes
+leggere,lenc,,3rd conjugation,passato prossimo,3s,l’a lengiüü,yes
+leggere,lenc,,3rd conjugation,passato prossimo,1p,em lengiüü,yes
+leggere,lenc,,3rd conjugation,passato prossimo,2p,ii lengiüü,yes
+leggere,lenc,,3rd conjugation,passato prossimo,3p,i an lengiüü,yes
+leggere,lenc,,3rd conjugation,trapassato prossimo,1s,eva lengiüü,yes
+leggere,lenc,,3rd conjugation,trapassato prossimo,2s,ta evat lengiüü,yes
+leggere,lenc,,3rd conjugation,trapassato prossimo,3s,l’eva lengiüü,yes
+leggere,lenc,,3rd conjugation,trapassato prossimo,1p,evum lengiüü,yes
+leggere,lenc,,3rd conjugation,trapassato prossimo,2p,evuf lengiüü,yes
+leggere,lenc,,3rd conjugation,trapassato prossimo,3p,i evan lengiüü,yes
+leggere,lenc,,3rd conjugation,futuro,1s,lengarò,yes
+leggere,lenc,,3rd conjugation,futuro,2s,ta lengaré,yes
+leggere,lenc,,3rd conjugation,futuro,3s,la/al lengarà,yes
+leggere,lenc,,3rd conjugation,futuro,1p,lengarem,yes
+leggere,lenc,,3rd conjugation,futuro,2p,lengarii,yes
+leggere,lenc,,3rd conjugation,futuro,3p,i lengaran,yes
+leggere,lenc,,3rd conjugation,futuro prossimo,1s,avrò lengiüü,yes
+leggere,lenc,,3rd conjugation,futuro prossimo,2s,ta avré lengiüü,yes
+leggere,lenc,,3rd conjugation,futuro prossimo,3s,l’avrà lengiüü,yes
+leggere,lenc,,3rd conjugation,futuro prossimo,1p,avrem lengiüü,yes
+leggere,lenc,,3rd conjugation,futuro prossimo,2p,avrii lengiüü,yes
+leggere,lenc,,3rd conjugation,futuro prossimo,3p,i avran lengiüü,yes
+leggere,lenc,,3rd conjugation,condizionale presente,1s,lengaria/lengaressa,yes
+leggere,lenc,,3rd conjugation,condizionale presente,2s,ta lengariat/lengaressat,yes
+leggere,lenc,,3rd conjugation,condizionale presente,3s,la/al lengaria/lengaressa,yes
+leggere,lenc,,3rd conjugation,condizionale presente,1p,lengarium/lengaressum,yes
+leggere,lenc,,3rd conjugation,condizionale presente,2p,lengariuf/lengaressuf,yes
+leggere,lenc,,3rd conjugation,condizionale presente,3p,i lengarian/lengaressan,yes
+leggere,lenc,,3rd conjugation,condizionale passato,1s,avria/avress lengiüü,yes
+leggere,lenc,,3rd conjugation,condizionale passato,2s,t’avriat/t’avressat lengiüü,yes
+leggere,lenc,,3rd conjugation,condizionale passato,3s,l’avria/l’avressa lengiüü,yes
+leggere,lenc,,3rd conjugation,condizionale passato,1p,avrium/avressum lengiüü,yes
+leggere,lenc,,3rd conjugation,condizionale passato,2p,avriuf/avressuf lengiüü,yes
+leggere,lenc,,3rd conjugation,condizionale passato,3p,i avrian/i avressan lengiüü,yes
+leggere,lenc,,3rd conjugation,congiuntivo presente,1s,lenga,yes
+leggere,lenc,,3rd conjugation,congiuntivo presente,2s,ta lengat,yes
+leggere,lenc,,3rd conjugation,congiuntivo presente,3s,la/al lenga,yes
+leggere,lenc,,3rd conjugation,congiuntivo presente,1p,lengum,yes
+leggere,lenc,,3rd conjugation,congiuntivo presente,2p,lenguf,yes
+leggere,lenc,,3rd conjugation,congiuntivo presente,3p,i lengan,yes
+leggere,lenc,,3rd conjugation,congiuntivo imperfetto,1s,lengessa,yes
+leggere,lenc,,3rd conjugation,congiuntivo imperfetto,2s,ta lengessat,yes
+leggere,lenc,,3rd conjugation,congiuntivo imperfetto,3s,la/al lengess,yes
+leggere,lenc,,3rd conjugation,congiuntivo imperfetto,1p,lengessum,yes
+leggere,lenc,,3rd conjugation,congiuntivo imperfetto,2p,lengessuf,yes
+leggere,lenc,,3rd conjugation,congiuntivo imperfetto,3p,i lengessan,yes
+leggere,lenc,,3rd conjugation,imperativo,2s,lecc,yes
+leggere,lenc,,3rd conjugation,imperativo,1p,lengem,yes
+leggere,lenc,,3rd conjugation,imperativo,2p,lengii,yes
+leggere,lenc,,3rd conjugation,imperativo negativo,2s,lecc mia,
+leggere,lenc,,3rd conjugation,imperativo negativo,1p,lengem mia,
+leggere,lenc,,3rd conjugation,imperativo negativo,2p,lengii mia,
+leggere,lenc,,3rd conjugation,gerundio,-,lengendu,
+leggere,lenc,,3rd conjugation,participio passato,-,lengiüü,
+mangiare,mangià,,1st conjugation,presente,1s,mangi,
+mangiare,mangià,,1st conjugation,presente,2s,ta mangiat,
+mangiare,mangià,,1st conjugation,presente,3s,la/al mangia,
+mangiare,mangià,,1st conjugation,presente,1p,mangium,
+mangiare,mangià,,1st conjugation,presente,2p,mangiuf,
+mangiare,mangià,,1st conjugation,presente,3p,i mangian,
+mangiare,mangià,,1st conjugation,imperfetto,1s,mangiava,
+mangiare,mangià,,1st conjugation,imperfetto,2s,ta mangiavat,
+mangiare,mangià,,1st conjugation,imperfetto,3s,la/al mangiava,
+mangiare,mangià,,1st conjugation,imperfetto,1p,mangiavum,
+mangiare,mangià,,1st conjugation,imperfetto,2p,mangiavuf,
+mangiare,mangià,,1st conjugation,imperfetto,3p,i mangiava,
+mangiare,mangià,,1st conjugation,passato prossimo,1s,u mangiaa,yes
+mangiare,mangià,,1st conjugation,passato prossimo,2s,te mangiaa,yes
+mangiare,mangià,,1st conjugation,passato prossimo,3s,l’a mangiaa,yes
+mangiare,mangià,,1st conjugation,passato prossimo,1p,em mangiaa,yes
+mangiare,mangià,,1st conjugation,passato prossimo,2p,ii mangiaa,yes
+mangiare,mangià,,1st conjugation,passato prossimo,3p,i an mangiaa,yes
+mangiare,mangià,,1st conjugation,trapassato prossimo,1s,eva mangiaa,
+mangiare,mangià,,1st conjugation,trapassato prossimo,2s,ta evat mangiaa,
+mangiare,mangià,,1st conjugation,trapassato prossimo,3s,l’eva mangiaa,
+mangiare,mangià,,1st conjugation,trapassato prossimo,1p,evum mangiaa,
+mangiare,mangià,,1st conjugation,trapassato prossimo,2p,evuf mangiaa,
+mangiare,mangià,,1st conjugation,trapassato prossimo,3p,i eva mangiaa,
+mangiare,mangià,,1st conjugation,futuro,1s,mangiarò,
+mangiare,mangià,,1st conjugation,futuro,2s,ta mangiaret,
+mangiare,mangià,,1st conjugation,futuro,3s,la/al mangiarà,
+mangiare,mangià,,1st conjugation,futuro,1p,mangiarem,
+mangiare,mangià,,1st conjugation,futuro,2p,mangiarii,
+mangiare,mangià,,1st conjugation,futuro,3p,i mangiarà,
+mangiare,mangià,,1st conjugation,futuro prossimo,1s,avrò mangiaa,
+mangiare,mangià,,1st conjugation,futuro prossimo,2s,ta avret mangiaa,
+mangiare,mangià,,1st conjugation,futuro prossimo,3s,l’avrà mangiaa,
+mangiare,mangià,,1st conjugation,futuro prossimo,1p,avrem mangiaa,
+mangiare,mangià,,1st conjugation,futuro prossimo,2p,avrii mangiaa,
+mangiare,mangià,,1st conjugation,futuro prossimo,3p,i avrà mangiaa,
+mangiare,mangià,,1st conjugation,condizionale presente,1s,mangiaria/mangiaressa,yes
+mangiare,mangià,,1st conjugation,condizionale presente,2s,ta mangiariat/mangiaressat,yes
+mangiare,mangià,,1st conjugation,condizionale presente,3s,la/al mangiaria/mangiaressa,yes
+mangiare,mangià,,1st conjugation,condizionale presente,1p,mangiarium/mangiaressum,yes
+mangiare,mangià,,1st conjugation,condizionale presente,2p,mangiariuf/mangiaressuf,yes
+mangiare,mangià,,1st conjugation,condizionale presente,3p,i mangiarian/mangiaressan,yes
+mangiare,mangià,,1st conjugation,condizionale passato,1s,avria /avress mangiaa,
+mangiare,mangià,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat,
+mangiare,mangià,,1st conjugation,condizionale passato,3s,l’avria/l’avressa mangiaa,
+mangiare,mangià,,1st conjugation,condizionale passato,1p,avrium/avressum mangiaa,
+mangiare,mangià,,1st conjugation,condizionale passato,2p,avriuf/avressuf mangiaa,
+mangiare,mangià,,1st conjugation,condizionale passato,3p,i avrian/i avressan mangiaa,
+mangiare,mangià,,1st conjugation,congiuntivo presente,1s,mangia,yes
+mangiare,mangià,,1st conjugation,congiuntivo presente,2s,ta mangiat,yes
+mangiare,mangià,,1st conjugation,congiuntivo presente,3s,la/al mangia,yes
+mangiare,mangià,,1st conjugation,congiuntivo presente,1p,mangium,yes
+mangiare,mangià,,1st conjugation,congiuntivo presente,2p,mangiuf,yes
+mangiare,mangià,,1st conjugation,congiuntivo presente,3p,i mangian,yes
+mangiare,mangià,,1st conjugation,congiuntivo imperfetto,1s,mangassa,yes
+mangiare,mangià,,1st conjugation,congiuntivo imperfetto,2s,ta mangassat,yes
+mangiare,mangià,,1st conjugation,congiuntivo imperfetto,3s,la/al mangass,yes
+mangiare,mangià,,1st conjugation,congiuntivo imperfetto,1p,mangassum,yes
+mangiare,mangià,,1st conjugation,congiuntivo imperfetto,2p,mangassuf,yes
+mangiare,mangià,,1st conjugation,congiuntivo imperfetto,3p,i mangassan,yes
+mangiare,mangià,,1st conjugation,imperativo,2s,mangia,yes
+mangiare,mangià,,1st conjugation,imperativo,1p,mangem,yes
+mangiare,mangià,,1st conjugation,imperativo,2p,mangii,yes
+mangiare,mangià,,1st conjugation,imperativo negativo,2s,mangia mia,
+mangiare,mangià,,1st conjugation,imperativo negativo,1p,mangem mia,
+mangiare,mangià,,1st conjugation,imperativo negativo,2p,mangii mia,
+mangiare,mangià,,1st conjugation,gerundio,-,mangando,yes
+mangiare,mangià,,1st conjugation,participio passato,-,mangiaa,
 mescolare,trüsà / rügà,,1st conjugation,presente,1s,rüghi/trüsi,
 mescolare,trüsà / rügà,,1st conjugation,presente,2s,ta rügat/trüsat,
 mescolare,trüsà / rügà,,1st conjugation,presente,3s,la/al rüga/trüsa,
@@ -3603,74 +3671,74 @@ picchiare,picà,yes,1st conjugation,imperativo negativo,1p,pichem mia,yes
 picchiare,picà,yes,1st conjugation,imperativo negativo,2p,pichii mia,yes
 picchiare,picà,yes,1st conjugation,gerundio,-,picando,yes
 picchiare,picà,yes,1st conjugation,participio passato,-,picaa,yes
-potere,podé / pudé / pudé,,2nd conjugation,presente,1s,podi,
-potere,podé / pudé / pudé,,2nd conjugation,presente,2s,ta podat,
-potere,podé / pudé / pudé,,2nd conjugation,presente,3s,la/al po,
-potere,podé / pudé / pudé,,2nd conjugation,presente,1p,podum,
-potere,podé / pudé / pudé,,2nd conjugation,presente,2p,poduf,
-potere,podé / pudé / pudé,,2nd conjugation,presente,3p,i po / podan,
-potere,podé / pudé / pudé,,2nd conjugation,imperfetto,1s,pudeva,
-potere,podé / pudé / pudé,,2nd conjugation,imperfetto,2s,ta pudevat,
-potere,podé / pudé / pudé,,2nd conjugation,imperfetto,3s,la/al pudeva,
-potere,podé / pudé / pudé,,2nd conjugation,imperfetto,1p,pudevum,
-potere,podé / pudé / pudé,,2nd conjugation,imperfetto,2p,pudevuf,
-potere,podé / pudé / pudé,,2nd conjugation,imperfetto,3p,i pudeva,
-potere,podé / pudé / pudé,,2nd conjugation,passato prossimo,1s,u pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,passato prossimo,2s,te pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,passato prossimo,3s,l’a pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,passato prossimo,1p,em pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,passato prossimo,2p,ii pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,passato prossimo,3p,i an pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,trapassato prossimo,1s,eva pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,trapassato prossimo,2s,ta evat pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,trapassato prossimo,3s,l’eva pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,trapassato prossimo,1p,evum pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,trapassato prossimo,2p,evuf pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,trapassato prossimo,3p,i eva pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,futuro,1s,podarò,
-potere,podé / pudé / pudé,,2nd conjugation,futuro,2s,ta podaret,
-potere,podé / pudé / pudé,,2nd conjugation,futuro,3s,la/al podarà,
-potere,podé / pudé / pudé,,2nd conjugation,futuro,1p,podarem,
-potere,podé / pudé / pudé,,2nd conjugation,futuro,2p,podarii,
-potere,podé / pudé / pudé,,2nd conjugation,futuro,3p,i podarà,
-potere,podé / pudé / pudé,,2nd conjugation,futuro prossimo,1s,avrò pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,futuro prossimo,2s,ta avret pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,futuro prossimo,3s,l’avrà pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,futuro prossimo,1p,avrem pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,futuro prossimo,2p,avrii pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,futuro prossimo,3p,i avrà pudüü,
-potere,podé / pudé / pudé,,2nd conjugation,condizionale presente,1s,podaria/podaressa,
-potere,podé / pudé / pudé,,2nd conjugation,condizionale presente,2s,ta podaressat,
-potere,podé / pudé / pudé,,2nd conjugation,condizionale presente,3s,podaria/podaressa,
-potere,podé / pudé / pudé,,2nd conjugation,condizionale presente,1p,podaressum,
-potere,podé / pudé / pudé,,2nd conjugation,condizionale presente,2p,podaressuf,
-potere,podé / pudé / pudé,,2nd conjugation,condizionale presente,3p,podarian/podaressan,
-potere,podé / pudé / pudé,,2nd conjugation,condizionale passato,1s,avria/avress pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,condizionale passato,2s,t’avriat/t’avressat pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,condizionale passato,3s,l’avria/l’avressa pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,condizionale passato,1p,avrium/avressum pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,condizionale passato,2p,avriuf/avressuf pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,condizionale passato,3p,i avrian/i avressan pudüü,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo presente,1s,poda,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo presente,2s,ta podat,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo presente,3s,la/al poda,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo presente,1p,podum,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo presente,2p,poduf,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo presente,3p,i podan,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo imperfetto,1s,pudessa,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo imperfetto,2s,ta pudessat,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo imperfetto,3s,la/al pudess,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo imperfetto,1p,pudessum,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo imperfetto,2p,pudessuf,yes
-potere,podé / pudé / pudé,,2nd conjugation,congiuntivo imperfetto,3p,i pudessan,yes
-potere,podé / pudé / pudé,,2nd conjugation,imperativo,2s,po,yes
-potere,podé / pudé / pudé,,2nd conjugation,imperativo,1p,pudem,yes
-potere,podé / pudé / pudé,,2nd conjugation,imperativo,2p,pudii,yes
-potere,podé / pudé / pudé,,2nd conjugation,imperativo negativo,2s,po mia,yes
-potere,podé / pudé / pudé,,2nd conjugation,imperativo negativo,1p,pudem mia,yes
-potere,podé / pudé / pudé,,2nd conjugation,imperativo negativo,2p,pudii mia,yes
-potere,podé / pudé / pudé,,2nd conjugation,gerundio,-,pudendo,yes
-potere,podé / pudé / pudé,,2nd conjugation,participio passato,-,pudüü,
+potere,podé / pudé,,2nd conjugation,presente,1s,podi,
+potere,podé / pudé,,2nd conjugation,presente,2s,ta podat,
+potere,podé / pudé,,2nd conjugation,presente,3s,la/al po,
+potere,podé / pudé,,2nd conjugation,presente,1p,podum,
+potere,podé / pudé,,2nd conjugation,presente,2p,poduf,
+potere,podé / pudé,,2nd conjugation,presente,3p,i po / podan,
+potere,podé / pudé,,2nd conjugation,imperfetto,1s,pudeva,
+potere,podé / pudé,,2nd conjugation,imperfetto,2s,ta pudevat,
+potere,podé / pudé,,2nd conjugation,imperfetto,3s,la/al pudeva,
+potere,podé / pudé,,2nd conjugation,imperfetto,1p,pudevum,
+potere,podé / pudé,,2nd conjugation,imperfetto,2p,pudevuf,
+potere,podé / pudé,,2nd conjugation,imperfetto,3p,i pudeva,
+potere,podé / pudé,,2nd conjugation,passato prossimo,1s,u pudüü,yes
+potere,podé / pudé,,2nd conjugation,passato prossimo,2s,te pudüü,yes
+potere,podé / pudé,,2nd conjugation,passato prossimo,3s,l’a pudüü,yes
+potere,podé / pudé,,2nd conjugation,passato prossimo,1p,em pudüü,yes
+potere,podé / pudé,,2nd conjugation,passato prossimo,2p,ii pudüü,yes
+potere,podé / pudé,,2nd conjugation,passato prossimo,3p,i an pudüü,yes
+potere,podé / pudé,,2nd conjugation,trapassato prossimo,1s,eva pudüü,
+potere,podé / pudé,,2nd conjugation,trapassato prossimo,2s,ta evat pudüü,
+potere,podé / pudé,,2nd conjugation,trapassato prossimo,3s,l’eva pudüü,
+potere,podé / pudé,,2nd conjugation,trapassato prossimo,1p,evum pudüü,
+potere,podé / pudé,,2nd conjugation,trapassato prossimo,2p,evuf pudüü,
+potere,podé / pudé,,2nd conjugation,trapassato prossimo,3p,i eva pudüü,
+potere,podé / pudé,,2nd conjugation,futuro,1s,podarò,
+potere,podé / pudé,,2nd conjugation,futuro,2s,ta podaret,
+potere,podé / pudé,,2nd conjugation,futuro,3s,la/al podarà,
+potere,podé / pudé,,2nd conjugation,futuro,1p,podarem,
+potere,podé / pudé,,2nd conjugation,futuro,2p,podarii,
+potere,podé / pudé,,2nd conjugation,futuro,3p,i podarà,
+potere,podé / pudé,,2nd conjugation,futuro prossimo,1s,avrò pudüü,
+potere,podé / pudé,,2nd conjugation,futuro prossimo,2s,ta avret pudüü,
+potere,podé / pudé,,2nd conjugation,futuro prossimo,3s,l’avrà pudüü,
+potere,podé / pudé,,2nd conjugation,futuro prossimo,1p,avrem pudüü,
+potere,podé / pudé,,2nd conjugation,futuro prossimo,2p,avrii pudüü,
+potere,podé / pudé,,2nd conjugation,futuro prossimo,3p,i avrà pudüü,
+potere,podé / pudé,,2nd conjugation,condizionale presente,1s,podaria/podaressa,
+potere,podé / pudé,,2nd conjugation,condizionale presente,2s,ta podaressat,
+potere,podé / pudé,,2nd conjugation,condizionale presente,3s,podaria/podaressa,
+potere,podé / pudé,,2nd conjugation,condizionale presente,1p,podaressum,
+potere,podé / pudé,,2nd conjugation,condizionale presente,2p,podaressuf,
+potere,podé / pudé,,2nd conjugation,condizionale presente,3p,podarian/podaressan,
+potere,podé / pudé,,2nd conjugation,condizionale passato,1s,avria/avress pudüü,yes
+potere,podé / pudé,,2nd conjugation,condizionale passato,2s,t’avriat/t’avressat pudüü,yes
+potere,podé / pudé,,2nd conjugation,condizionale passato,3s,l’avria/l’avressa pudüü,yes
+potere,podé / pudé,,2nd conjugation,condizionale passato,1p,avrium/avressum pudüü,yes
+potere,podé / pudé,,2nd conjugation,condizionale passato,2p,avriuf/avressuf pudüü,yes
+potere,podé / pudé,,2nd conjugation,condizionale passato,3p,i avrian/i avressan pudüü,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo presente,1s,poda,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo presente,2s,ta podat,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo presente,3s,la/al poda,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo presente,1p,podum,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo presente,2p,poduf,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo presente,3p,i podan,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo imperfetto,1s,pudessa,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo imperfetto,2s,ta pudessat,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo imperfetto,3s,la/al pudess,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo imperfetto,1p,pudessum,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo imperfetto,2p,pudessuf,yes
+potere,podé / pudé,,2nd conjugation,congiuntivo imperfetto,3p,i pudessan,yes
+potere,podé / pudé,,2nd conjugation,imperativo,2s,po,yes
+potere,podé / pudé,,2nd conjugation,imperativo,1p,pudem,yes
+potere,podé / pudé,,2nd conjugation,imperativo,2p,pudii,yes
+potere,podé / pudé,,2nd conjugation,imperativo negativo,2s,po mia,yes
+potere,podé / pudé,,2nd conjugation,imperativo negativo,1p,pudem mia,yes
+potere,podé / pudé,,2nd conjugation,imperativo negativo,2p,pudii mia,yes
+potere,podé / pudé,,2nd conjugation,gerundio,-,pudendo,yes
+potere,podé / pudé,,2nd conjugation,participio passato,-,pudüü,
 prendere,ciapà,,1st conjugation,presente,1s,ciapí,
 prendere,ciapà,,1st conjugation,presente,2s,ta ciapat,
 prendere,ciapà,,1st conjugation,presente,3s,la/al ciapa,
@@ -4216,8 +4284,8 @@ salire,na sù,,"irregular (compound of na, andare)",imperativo negativo,2p,nii m
 salire,na sù,,"irregular (compound of na, andare)",gerundio,-,nando sù,yes
 salire,na sù,,"irregular (compound of na, andare)",participio passato,-,nai,yes
 sapere,savé,,2nd conjugation,presente,1s,so,
-sapere,savé,,2nd conjugation,presente,2s,ta set,yes
-sapere,savé,,2nd conjugation,presente,3s,la/al sa,yes
+sapere,savé,,2nd conjugation,presente,2s,ta set,
+sapere,savé,,2nd conjugation,presente,3s,la/al sa,
 sapere,savé,,2nd conjugation,presente,1p,savum,yes
 sapere,savé,,2nd conjugation,presente,2p,savuf,yes
 sapere,savé,,2nd conjugation,presente,3p,i sa,yes

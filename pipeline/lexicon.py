@@ -143,14 +143,22 @@ def candidates():
 
     # verbs first: they own their headwords
     verb_rows = pages.read(DATA / "extracted_verb_forms.csv")
+    manual = {pages.key(r["italian"]): r for r in pages.read(ETC / "verb_details.csv")}
     seen_at = defaultdict(list)
+
+    def as_shown(v):
+        name = manual.get(pages.key(v["italian"]), {}).get("merge_into") or v["italian"]
+        return pages.key(pages.shown_form(name, v["tense"], v["form"], manual))
     for v in verb_rows:
-        seen_at[(v["tense"], v["person"], pages.key(pages.clitic_order(v["form"])))].append(cite(v["source"], v["line"]))
+        seen_at[(v["tense"], v["person"], as_shown(dict(v, italian=v["verb_italian"])))].append(cite(v["source"], v["line"]))
         files.add(v["source"])
+    confirmed = {}                                            # forms the owner has confirmed (no document)
     for v in pages.read(ETC / "verb_forms_from_texts.csv"):     # forms found in running text, where noted
         if v.get("source") and v.get("basis") == "attested":
-            seen_at[(v["tense"], v["person"], pages.key(pages.clitic_order(v["form"])))].append(cite(v["source"], v["line"]))
+            seen_at[(v["tense"], v["person"], as_shown(v))].append(cite(v["source"], v["line"]))
             files.add(v["source"])
+        elif v.get("basis") == "confirmed":
+            confirmed[(pages.key(v["italian"]), v["tense"], v["person"], as_shown(v))] = "confirmed by the owner"
     aux_essere = {pages.key(r["italian"]): r.get("aux") == "essere" for r in pages.read(ETC / "verb_details.csv")}
     for name in sorted(tables):
         t = tables[name]
@@ -183,7 +191,9 @@ def candidates():
                 src = [] if inferred else sorted(set(seen_at.get((tense, person, pages.key(form)), [])))[:4]
                 paradigms.append({"ID": ids["paradigms"].make(f"{e['ID']}-{tense}-{person}"), "Entry_ID": e["ID"],
                                   "Tense": tense, "Person": person if person != "-" else None, "Form": form,
-                                  "Status": "inferred" if inferred else "attested", "Comment": None, "Source": src})
+                                  "Status": "inferred" if inferred else "attested",
+                                  "Comment": None if inferred else confirmed.get((pages.key(name), tense, person, pages.key(form))),
+                                  "Source": src})
 
     for p in uniq:
         files.add(p["source"])
@@ -329,7 +339,11 @@ def fold_entry(rows, e, target, kind, status, note, vids, same=None):
     for v in V:
         if v["Entry_ID"] == e["ID"]:
             v["Entry_ID"] = target["ID"]
-    if pages.key(e["Headword"]) != pages.key(target["Headword"]):   # moved to another variety unchanged: no new form
+    twin = next((v for v in V if v["Entry_ID"] == target["ID"] and pages.key(v["Form"]) == pages.key(e["Headword"])), None)
+    if twin:                                                   # the target already has this form: add the sources
+        twin["Source"] = list(dict.fromkeys((twin["Source"] or []) + (e["Source"] or [])))
+        twin["Comment"] = twin["Comment"] or note
+    elif pages.key(e["Headword"]) != pages.key(target["Headword"]):   # moved to another variety unchanged: no new form
         V.append({"ID": vids.make(f"{target['ID']}-{e['Headword']}"), "Entry_ID": target["ID"], "Form": e["Headword"],
                   "Kind": kind, "Status": status, "Comment": note, "Source": e["Source"]})
     rows["entries.csv"].remove(e)
@@ -338,8 +352,8 @@ def fold_entry(rows, e, target, kind, status, note, vids, same=None):
 # ------------------------------------------------------------------ nouns
 # A dialect article at the start of a headword: ul/un, la/na, l'/un, l'/n', al, la, i ... (the lesson tables
 # write nouns with both articles to show the gender).
-ARTICLE = re.compile(r"^(?:(?:al|ul|el|la|i|un|na|una)(?:/(?:un|na|una|n['’]))?\s+|l['’](?:/(?:n['’]|una?\s+))?\s*|['‘]l\s+)", re.I)
-GENDER_OF_ARTICLE = {"al": "m", "ul": "m", "el": "m", "un": "m", "'l": "m", "l'/un": "m",
+ARTICLE = re.compile(r"^(?:(?:al|ul|el|la|i|un|na|una)(?:/(?:un|na|una|n['’]))?\s+|l['’](?:/(?:n['’]|una?\s+))?\s*|['‘’][ln]\s+)", re.I)
+GENDER_OF_ARTICLE = {"al": "m", "ul": "m", "el": "m", "un": "m", "'l": "m", "'n": "m", "l'/un": "m",
                      "la": "f", "na": "f", "una": "f", "l'/n'": "f", "l'/una": "f"}
 IT_GENDER = re.compile(r"^(?:(?P<m>il|lo|un|uno|i|gli)|(?P<f>la|una|le|un['’]))(?:/\S+)?\s", re.I)
 EN_ARTICLE = re.compile(r"^(?:the/an?|the|an?)\s+", re.I)

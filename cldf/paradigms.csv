@@ -5,12 +5,12 @@ bef-condizionale-passato-2p,bef,condizionale passato,2p,avriuf/avressuf bevüü,
 bef-condizionale-passato-2s,bef,condizionale passato,2s,t’avriat/t’avressat bevüü,inferred,,
 bef-condizionale-passato-3p,bef,condizionale passato,3p,i avrian/i avressan bevüü,inferred,,
 bef-condizionale-passato-3s,bef,condizionale passato,3s,l’avria/l’avressa bevüü,inferred,,
-bef-condizionale-presente-1p,bef,condizionale presente,1p,bevarium/bevaressum,attested,,
-bef-condizionale-presente-1s,bef,condizionale presente,1s,bevaria/bevaressa,attested,,
-bef-condizionale-presente-2p,bef,condizionale presente,2p,bevariuf/bevaressuf,attested,,
-bef-condizionale-presente-2s,bef,condizionale presente,2s,bevariat/bevaressat,attested,,
-bef-condizionale-presente-3p,bef,condizionale presente,3p,bevarian/bevaressan,attested,,
-bef-condizionale-presente-3s,bef,condizionale presente,3s,bevaria/bevaressa,attested,,
+bef-condizionale-presente-1p,bef,condizionale presente,1p,bevarium/bevaressum,attested,,il-condizionale-presente[l.56]
+bef-condizionale-presente-1s,bef,condizionale presente,1s,bevaria/bevaressa,attested,,il-condizionale-presente[l.53]
+bef-condizionale-presente-2p,bef,condizionale presente,2p,bevariuf/bevaressuf,attested,,il-condizionale-presente[l.57]
+bef-condizionale-presente-2s,bef,condizionale presente,2s,bevariat/bevaressat,attested,,il-condizionale-presente[l.54]
+bef-condizionale-presente-3p,bef,condizionale presente,3p,bevarian/bevaressan,attested,,il-condizionale-presente[l.58]
+bef-condizionale-presente-3s,bef,condizionale presente,3s,bevaria/bevaressa,attested,,il-condizionale-presente[l.55]
 bef-congiuntivo-imperfetto-1p,bef,congiuntivo imperfetto,1p,bevessum,inferred,,
 bef-congiuntivo-imperfetto-1s,bef,congiuntivo imperfetto,1s,bevessa,inferred,,
 bef-congiuntivo-imperfetto-2p,bef,congiuntivo imperfetto,2p,bevessuf,inferred,,
@@ -141,12 +141,12 @@ burla-gio-condizionale-passato-2p,burla-gio,condizionale passato,2p,sariuf/sares
 burla-gio-condizionale-passato-2s,burla-gio,condizionale passato,2s,ta sariat/ta saressat bürlaa giò,inferred,,
 burla-gio-condizionale-passato-3p,burla-gio,condizionale passato,3p,i sarian/i saressan bürlaa giò,inferred,,
 burla-gio-condizionale-passato-3s,burla-gio,condizionale passato,3s,la/al saria/saressa bürlaa giò,inferred,,
-burla-gio-condizionale-presente-1p,burla-gio,condizionale presente,1p,bürlaressum giò,attested,,
-burla-gio-condizionale-presente-1s,burla-gio,condizionale presente,1s,bürlaria/bürlaressa giò,attested,,
-burla-gio-condizionale-presente-2p,burla-gio,condizionale presente,2p,bürlaressuf giò,attested,,
-burla-gio-condizionale-presente-2s,burla-gio,condizionale presente,2s,ta bürlaressat giò,attested,,
-burla-gio-condizionale-presente-3p,burla-gio,condizionale presente,3p,bürlarian/bürlaressan giò,attested,,
-burla-gio-condizionale-presente-3s,burla-gio,condizionale presente,3s,bürlaria/bürlaressa giò,attested,,
+burla-gio-condizionale-presente-1p,burla-gio,condizionale presente,1p,bürlaressum giò,attested,,il-condizionale-presente[l.40]
+burla-gio-condizionale-presente-1s,burla-gio,condizionale presente,1s,bürlaria/bürlaressa giò,attested,,il-condizionale-presente[l.37]
+burla-gio-condizionale-presente-2p,burla-gio,condizionale presente,2p,bürlaressuf giò,attested,,il-condizionale-presente[l.41]
+burla-gio-condizionale-presente-2s,burla-gio,condizionale presente,2s,ta bürlaressat giò,attested,,il-condizionale-presente[l.38]
+burla-gio-condizionale-presente-3p,burla-gio,condizionale presente,3p,bürlarian/bürlaressan giò,attested,,il-condizionale-presente[l.42]
+burla-gio-condizionale-presente-3s,burla-gio,condizionale presente,3s,bürlaria/bürlaressa giò,attested,,il-condizionale-presente[l.39]
 burla-gio-congiuntivo-imperfetto-1p,burla-gio,congiuntivo imperfetto,1p,bürlassum giò,inferred,,
 burla-gio-congiuntivo-imperfetto-1s,burla-gio,congiuntivo imperfetto,1s,bürlassa giò,inferred,,
 burla-gio-congiuntivo-imperfetto-2p,burla-gio,congiuntivo imperfetto,2p,bürlassuf giò,inferred,,
@@ -481,12 +481,12 @@ cerca-condizionale-passato-2p,cerca,condizionale passato,2p,avriuf/avressuf cerc
 cerca-condizionale-passato-2s,cerca,condizionale passato,2s,t’avriat/t’avressat cercaa,inferred,,
 cerca-condizionale-passato-3p,cerca,condizionale passato,3p,i avrian/i avressan cercaa,inferred,,
 cerca-condizionale-passato-3s,cerca,condizionale passato,3s,l’avria/l’avressa cercaa,inferred,,
-cerca-condizionale-presente-1p,cerca,condizionale presente,1p,cercaressum,attested,,
-cerca-condizionale-presente-1s,cerca,condizionale presente,1s,cercaria/cercaressa,attested,,
-cerca-condizionale-presente-2p,cerca,condizionale presente,2p,cercaressuf,attested,,
-cerca-condizionale-presente-2s,cerca,condizionale presente,2s,ta cercaressat,attested,,
-cerca-condizionale-presente-3p,cerca,condizionale presente,3p,i cercarian/cercaressan,attested,,
-cerca-condizionale-presente-3s,cerca,condizionale presente,3s,la/al cercaria/cercaressa,attested,,
+cerca-condizionale-presente-1p,cerca,condizionale presente,1p,cercaressum,attested,,il-condizionale-presente[l.29]
+cerca-condizionale-presente-1s,cerca,condizionale presente,1s,cercaria/cercaressa,attested,,il-condizionale-presente[l.26]
+cerca-condizionale-presente-2p,cerca,condizionale presente,2p,cercaressuf,attested,,il-condizionale-presente[l.30]
+cerca-condizionale-presente-2s,cerca,condizionale presente,2s,ta cercaressat,attested,,il-condizionale-presente[l.27]
+cerca-condizionale-presente-3p,cerca,condizionale presente,3p,i cercarian/cercaressan,attested,,il-condizionale-presente[l.31]
+cerca-condizionale-presente-3s,cerca,condizionale presente,3s,la/al cercaria/cercaressa,attested,,il-condizionale-presente[l.28]
 cerca-congiuntivo-imperfetto-1p,cerca,congiuntivo imperfetto,1p,cercassum,inferred,,
 cerca-congiuntivo-imperfetto-1s,cerca,congiuntivo imperfetto,1s,cercassa,inferred,,
 cerca-congiuntivo-imperfetto-2p,cerca,congiuntivo imperfetto,2p,cercassuf,inferred,,
@@ -549,12 +549,12 @@ ciapa-condizionale-passato-2p,ciapa,condizionale passato,2p,avriuf/avressuf ciap
 ciapa-condizionale-passato-2s,ciapa,condizionale passato,2s,t’avriat/t’avressat ciapaa,inferred,,
 ciapa-condizionale-passato-3p,ciapa,condizionale passato,3p,i avrian/i avressan ciapaa,inferred,,
 ciapa-condizionale-passato-3s,ciapa,condizionale passato,3s,l’avria/l’avressa ciapaa,inferred,,
-ciapa-condizionale-presente-1p,ciapa,condizionale presente,1p,ciaparessum,attested,,
-ciapa-condizionale-presente-1s,ciapa,condizionale presente,1s,ciaparia/ciaparess,attested,,
-ciapa-condizionale-presente-2p,ciapa,condizionale presente,2p,ciaparessuf,attested,,
-ciapa-condizionale-presente-2s,ciapa,condizionale presente,2s,ta ciaparessat,attested,,
-ciapa-condizionale-presente-3p,ciapa,condizionale presente,3p,ciaparian/ciaparessan,attested,,
-ciapa-condizionale-presente-3s,ciapa,condizionale presente,3s,la/al ciaparessa,attested,,
+ciapa-condizionale-presente-1p,ciapa,condizionale presente,1p,ciaparessum,attested,,il-condizionale-presente[l.7]
+ciapa-condizionale-presente-1s,ciapa,condizionale presente,1s,ciaparia/ciaparess,attested,,il-condizionale-presente[l.4]
+ciapa-condizionale-presente-2p,ciapa,condizionale presente,2p,ciaparessuf,attested,,il-condizionale-presente[l.8]
+ciapa-condizionale-presente-2s,ciapa,condizionale presente,2s,ta ciaparessat,attested,,il-condizionale-presente[l.5]
+ciapa-condizionale-presente-3p,ciapa,condizionale presente,3p,ciaparian/ciaparessan,attested,,il-condizionale-presente[l.9]
+ciapa-condizionale-presente-3s,ciapa,condizionale presente,3s,la/al ciaparessa,attested,,il-condizionale-presente[l.6]
 ciapa-congiuntivo-imperfetto-1p,ciapa,congiuntivo imperfetto,1p,ciapassum,inferred,,
 ciapa-congiuntivo-imperfetto-1s,ciapa,congiuntivo imperfetto,1s,ciapassa,inferred,,
 ciapa-congiuntivo-imperfetto-2p,ciapa,congiuntivo imperfetto,2p,ciapassuf,inferred,,
@@ -957,12 +957,12 @@ da-condizionale-passato-2p,da,condizionale passato,2p,avriuf/avressuf dai,inferr
 da-condizionale-passato-2s,da,condizionale passato,2s,t’avriat/t’avressat dai,inferred,,
 da-condizionale-passato-3p,da,condizionale passato,3p,i avrian/i avressan dai,inferred,,
 da-condizionale-passato-3s,da,condizionale passato,3s,l’avria/l’avressa dai,inferred,,
-da-condizionale-presente-1p,da,condizionale presente,1p,darium/daressum,attested,,
-da-condizionale-presente-1s,da,condizionale presente,1s,daria/daress,attested,,
-da-condizionale-presente-2p,da,condizionale presente,2p,dariuf/daressuf,attested,,
-da-condizionale-presente-2s,da,condizionale presente,2s,dariat/daressat,attested,,
-da-condizionale-presente-3p,da,condizionale presente,3p,darian/daressan,attested,,
-da-condizionale-presente-3s,da,condizionale presente,3s,daria/daressa,attested,,
+da-condizionale-presente-1p,da,condizionale presente,1p,darium/daressum,attested,,il-condizionale-presente[l.68]
+da-condizionale-presente-1s,da,condizionale presente,1s,daria/daress,attested,,il-condizionale-presente[l.65]
+da-condizionale-presente-2p,da,condizionale presente,2p,dariuf/daressuf,attested,,il-condizionale-presente[l.69]
+da-condizionale-presente-2s,da,condizionale presente,2s,dariat/daressat,attested,,il-condizionale-presente[l.66]
+da-condizionale-presente-3p,da,condizionale presente,3p,darian/daressan,attested,,il-condizionale-presente[l.70]
+da-condizionale-presente-3s,da,condizionale presente,3s,daria/daressa,attested,,il-condizionale-presente[l.67]
 da-congiuntivo-imperfetto-1p,da,congiuntivo imperfetto,1p,dassum,inferred,,
 da-congiuntivo-imperfetto-1s,da,congiuntivo imperfetto,1s,dassa,inferred,,
 da-congiuntivo-imperfetto-2p,da,congiuntivo imperfetto,2p,dassuf,inferred,,
@@ -1155,6 +1155,74 @@ dormi-trapassato-prossimo-2p,dormi,trapassato prossimo,2p,evuf dormii,attested,,
 dormi-trapassato-prossimo-2s,dormi,trapassato prossimo,2s,ta evat dormii,attested,,cors-da-dialet-da-rogn-18a-leziun[l.4]
 dormi-trapassato-prossimo-3p,dormi,trapassato prossimo,3p,i eva dormii,attested,,cors-da-dialet-da-rogn-18a-leziun[l.8]
 dormi-trapassato-prossimo-3s,dormi,trapassato prossimo,3s,l’eva dormii,attested,,cors-da-dialet-da-rogn-18a-leziun[l.5]
+due-condizionale-passato-1p,due,condizionale passato,1p,avrium/avressum duvüü,inferred,,
+due-condizionale-passato-1s,due,condizionale passato,1s,avria/avress duvüü,inferred,,
+due-condizionale-passato-2p,due,condizionale passato,2p,avriuf/avressuf duvüü,inferred,,
+due-condizionale-passato-2s,due,condizionale passato,2s,t’avriat/t’avressat duvüü,inferred,,
+due-condizionale-passato-3p,due,condizionale passato,3p,i avrian/i avressan duvüü,inferred,,
+due-condizionale-passato-3s,due,condizionale passato,3s,l’avria/l’avressa duvüü,inferred,,
+due-condizionale-presente-1p,due,condizionale presente,1p,duaressum,attested,,il-condizionale-presente[l.40]
+due-condizionale-presente-1s,due,condizionale presente,1s,duaria/duaressa,attested,,il-condizionale-presente[l.37]
+due-condizionale-presente-2p,due,condizionale presente,2p,duaressuf,attested,,il-condizionale-presente[l.41]
+due-condizionale-presente-2s,due,condizionale presente,2s,ta duaressat,attested,,il-condizionale-presente[l.38]
+due-condizionale-presente-3p,due,condizionale presente,3p,duarian/duaressan,attested,,il-condizionale-presente[l.42]
+due-condizionale-presente-3s,due,condizionale presente,3s,duaria/duaressa,attested,,il-condizionale-presente[l.39]
+due-congiuntivo-imperfetto-1p,due,congiuntivo imperfetto,1p,duvessum,inferred,,
+due-congiuntivo-imperfetto-1s,due,congiuntivo imperfetto,1s,duvessa,inferred,,
+due-congiuntivo-imperfetto-2p,due,congiuntivo imperfetto,2p,duvessuf,inferred,,
+due-congiuntivo-imperfetto-2s,due,congiuntivo imperfetto,2s,ta duvessat,inferred,,
+due-congiuntivo-imperfetto-3p,due,congiuntivo imperfetto,3p,i duvessan,inferred,,
+due-congiuntivo-imperfetto-3s,due,congiuntivo imperfetto,3s,la/al duvess,inferred,,
+due-congiuntivo-presente-1p,due,congiuntivo presente,1p,devum,inferred,,
+due-congiuntivo-presente-1s,due,congiuntivo presente,1s,deva,inferred,,
+due-congiuntivo-presente-2p,due,congiuntivo presente,2p,devuf,inferred,,
+due-congiuntivo-presente-2s,due,congiuntivo presente,2s,ta devat,inferred,,
+due-congiuntivo-presente-3p,due,congiuntivo presente,3p,i devan,inferred,,
+due-congiuntivo-presente-3s,due,congiuntivo presente,3s,la/al deva,inferred,,
+due-futuro-1p,due,futuro,1p,devarem,inferred,,
+due-futuro-1s,due,futuro,1s,devarò,inferred,,
+due-futuro-2p,due,futuro,2p,devarii,inferred,,
+due-futuro-2s,due,futuro,2s,ta devaré,inferred,,
+due-futuro-3p,due,futuro,3p,i devaran,inferred,,
+due-futuro-3s,due,futuro,3s,la/al devarà,inferred,,
+due-futuro-prossimo-1p,due,futuro prossimo,1p,avrem duvüü,inferred,,
+due-futuro-prossimo-1s,due,futuro prossimo,1s,avrò duvüü,inferred,,
+due-futuro-prossimo-2p,due,futuro prossimo,2p,avrii duvüü,inferred,,
+due-futuro-prossimo-2s,due,futuro prossimo,2s,ta avré duvüü,inferred,,
+due-futuro-prossimo-3p,due,futuro prossimo,3p,i avran duvüü,inferred,,
+due-futuro-prossimo-3s,due,futuro prossimo,3s,l’avrà duvüü,inferred,,
+due-gerundio,due,gerundio,,duvendo,inferred,,
+due-imperativo-1p,due,imperativo,1p,duvem,inferred,,
+due-imperativo-2p,due,imperativo,2p,duvii,inferred,,
+due-imperativo-2s,due,imperativo,2s,dev,inferred,,
+due-imperativo-negativo-1p,due,imperativo negativo,1p,duvem mia,inferred,,
+due-imperativo-negativo-2p,due,imperativo negativo,2p,duvii mia,inferred,,
+due-imperativo-negativo-2s,due,imperativo negativo,2s,dev mia,inferred,,
+due-imperfetto-1p,due,imperfetto,1p,duvevum,inferred,,
+due-imperfetto-1s,due,imperfetto,1s,duveva,inferred,,
+due-imperfetto-2p,due,imperfetto,2p,duvevuf,inferred,,
+due-imperfetto-2s,due,imperfetto,2s,ta duvevat,inferred,,
+due-imperfetto-3p,due,imperfetto,3p,i duvevan,inferred,,
+due-imperfetto-3s,due,imperfetto,3s,la/al duveva,inferred,,
+due-participio-passato,due,participio passato,,duvüü,attested,,
+due-passato-prossimo-1p,due,passato prossimo,1p,em duvüü,inferred,,
+due-passato-prossimo-1s,due,passato prossimo,1s,u duvüü,inferred,,
+due-passato-prossimo-2p,due,passato prossimo,2p,ii duvüü,inferred,,
+due-passato-prossimo-2s,due,passato prossimo,2s,te duvüü,inferred,,
+due-passato-prossimo-3p,due,passato prossimo,3p,i an duvüü,inferred,,
+due-passato-prossimo-3s,due,passato prossimo,3s,l’a duvüü,inferred,,
+due-presente-1p,due,presente,1p,devum,attested,,
+due-presente-1s,due,presente,1s,devi,inferred,,
+due-presente-2p,due,presente,2p,devuf,attested,,
+due-presente-2s,due,presente,2s,ta devat,attested,,
+due-presente-3p,due,presente,3p,i devan,inferred,,
+due-presente-3s,due,presente,3s,la/al dev,inferred,,
+due-trapassato-prossimo-1p,due,trapassato prossimo,1p,evum duvüü,inferred,,
+due-trapassato-prossimo-1s,due,trapassato prossimo,1s,eva duvüü,inferred,,
+due-trapassato-prossimo-2p,due,trapassato prossimo,2p,evuf duvüü,inferred,,
+due-trapassato-prossimo-2s,due,trapassato prossimo,2s,ta evat duvüü,inferred,,
+due-trapassato-prossimo-3p,due,trapassato prossimo,3p,i evan duvüü,inferred,,
+due-trapassato-prossimo-3s,due,trapassato prossimo,3s,l’eva duvüü,inferred,,
 dupra-condizionale-passato-1p,dupra,condizionale passato,1p,avrium/avressum dupraa,inferred,,
 dupra-condizionale-passato-1s,dupra,condizionale passato,1s,avressa dupraa,attested,,ul-nos-topolino[l.487]
 dupra-condizionale-passato-2p,dupra,condizionale passato,2p,avriuf/avressuf dupraa,inferred,,
@@ -1182,7 +1250,7 @@ dupra-congiuntivo-presente-3s,dupra,congiuntivo presente,3s,la/al dopra,inferred
 dupra-futuro-1p,dupra,futuro,1p,doprarem,inferred,,
 dupra-futuro-1s,dupra,futuro,1s,doprarò,inferred,,
 dupra-futuro-2p,dupra,futuro,2p,doprarii,inferred,,
-dupra-futuro-2s,dupra,futuro,2s,ta dopraré,inferred,,
+dupra-futuro-2s,dupra,futuro,2s,ta dopraré,attested,confirmed by the owner,
 dupra-futuro-3p,dupra,futuro,3p,i doprarà,attested,,frasi-fai-1-copia[l.157]
 dupra-futuro-3s,dupra,futuro,3s,la/al doprarà,inferred,,
 dupra-futuro-prossimo-1p,dupra,futuro prossimo,1p,avrem dupraa,inferred,,
@@ -1223,86 +1291,18 @@ dupra-trapassato-prossimo-2p,dupra,trapassato prossimo,2p,evuf dupraa,inferred,,
 dupra-trapassato-prossimo-2s,dupra,trapassato prossimo,2s,ta evat dupraa,inferred,,
 dupra-trapassato-prossimo-3p,dupra,trapassato prossimo,3p,i evan dupraa,inferred,,
 dupra-trapassato-prossimo-3s,dupra,trapassato prossimo,3s,l’eva dupraa,inferred,,
-duve-condizionale-passato-1p,duve,condizionale passato,1p,avrium/avressum duvüü,inferred,,
-duve-condizionale-passato-1s,duve,condizionale passato,1s,avria/avress duvüü,inferred,,
-duve-condizionale-passato-2p,duve,condizionale passato,2p,avriuf/avressuf duvüü,inferred,,
-duve-condizionale-passato-2s,duve,condizionale passato,2s,t’avriat/t’avressat duvüü,inferred,,
-duve-condizionale-passato-3p,duve,condizionale passato,3p,i avrian/i avressan duvüü,inferred,,
-duve-condizionale-passato-3s,duve,condizionale passato,3s,l’avria/l’avressa duvüü,inferred,,
-duve-condizionale-presente-1p,duve,condizionale presente,1p,duaressum,attested,,
-duve-condizionale-presente-1s,duve,condizionale presente,1s,duaria/duaressa,attested,,
-duve-condizionale-presente-2p,duve,condizionale presente,2p,duaressuf,attested,,
-duve-condizionale-presente-2s,duve,condizionale presente,2s,ta duaressat,attested,,
-duve-condizionale-presente-3p,duve,condizionale presente,3p,duarian/duaressan,attested,,
-duve-condizionale-presente-3s,duve,condizionale presente,3s,duaria/duaressa,attested,,
-duve-congiuntivo-imperfetto-1p,duve,congiuntivo imperfetto,1p,duvessum,inferred,,
-duve-congiuntivo-imperfetto-1s,duve,congiuntivo imperfetto,1s,duvessa,inferred,,
-duve-congiuntivo-imperfetto-2p,duve,congiuntivo imperfetto,2p,duvessuf,inferred,,
-duve-congiuntivo-imperfetto-2s,duve,congiuntivo imperfetto,2s,ta duvessat,inferred,,
-duve-congiuntivo-imperfetto-3p,duve,congiuntivo imperfetto,3p,i duvessan,inferred,,
-duve-congiuntivo-imperfetto-3s,duve,congiuntivo imperfetto,3s,la/al duvess,inferred,,
-duve-congiuntivo-presente-1p,duve,congiuntivo presente,1p,devum,inferred,,
-duve-congiuntivo-presente-1s,duve,congiuntivo presente,1s,deva,inferred,,
-duve-congiuntivo-presente-2p,duve,congiuntivo presente,2p,devuf,inferred,,
-duve-congiuntivo-presente-2s,duve,congiuntivo presente,2s,ta devat,inferred,,
-duve-congiuntivo-presente-3p,duve,congiuntivo presente,3p,i devan,inferred,,
-duve-congiuntivo-presente-3s,duve,congiuntivo presente,3s,la/al deva,inferred,,
-duve-futuro-1p,duve,futuro,1p,devarem,inferred,,
-duve-futuro-1s,duve,futuro,1s,devarò,inferred,,
-duve-futuro-2p,duve,futuro,2p,devarii,inferred,,
-duve-futuro-2s,duve,futuro,2s,ta devaré,inferred,,
-duve-futuro-3p,duve,futuro,3p,i devaran,inferred,,
-duve-futuro-3s,duve,futuro,3s,la/al devarà,inferred,,
-duve-futuro-prossimo-1p,duve,futuro prossimo,1p,avrem duvüü,inferred,,
-duve-futuro-prossimo-1s,duve,futuro prossimo,1s,avrò duvüü,inferred,,
-duve-futuro-prossimo-2p,duve,futuro prossimo,2p,avrii duvüü,inferred,,
-duve-futuro-prossimo-2s,duve,futuro prossimo,2s,ta avré duvüü,inferred,,
-duve-futuro-prossimo-3p,duve,futuro prossimo,3p,i avran duvüü,inferred,,
-duve-futuro-prossimo-3s,duve,futuro prossimo,3s,l’avrà duvüü,inferred,,
-duve-gerundio,duve,gerundio,,duvendo,inferred,,
-duve-imperativo-1p,duve,imperativo,1p,duvem,inferred,,
-duve-imperativo-2p,duve,imperativo,2p,duvii,inferred,,
-duve-imperativo-2s,duve,imperativo,2s,dev,inferred,,
-duve-imperativo-negativo-1p,duve,imperativo negativo,1p,duvem mia,inferred,,
-duve-imperativo-negativo-2p,duve,imperativo negativo,2p,duvii mia,inferred,,
-duve-imperativo-negativo-2s,duve,imperativo negativo,2s,dev mia,inferred,,
-duve-imperfetto-1p,duve,imperfetto,1p,duvevum,inferred,,
-duve-imperfetto-1s,duve,imperfetto,1s,duveva,inferred,,
-duve-imperfetto-2p,duve,imperfetto,2p,duvevuf,inferred,,
-duve-imperfetto-2s,duve,imperfetto,2s,ta duvevat,inferred,,
-duve-imperfetto-3p,duve,imperfetto,3p,i duvevan,inferred,,
-duve-imperfetto-3s,duve,imperfetto,3s,la/al duveva,inferred,,
-duve-participio-passato,duve,participio passato,,duvüü,attested,,
-duve-passato-prossimo-1p,duve,passato prossimo,1p,em duvüü,inferred,,
-duve-passato-prossimo-1s,duve,passato prossimo,1s,u duvüü,inferred,,
-duve-passato-prossimo-2p,duve,passato prossimo,2p,ii duvüü,inferred,,
-duve-passato-prossimo-2s,duve,passato prossimo,2s,te duvüü,inferred,,
-duve-passato-prossimo-3p,duve,passato prossimo,3p,i an duvüü,inferred,,
-duve-passato-prossimo-3s,duve,passato prossimo,3s,l’a duvüü,inferred,,
-duve-presente-1p,duve,presente,1p,devum,attested,,
-duve-presente-1s,duve,presente,1s,devi,inferred,,
-duve-presente-2p,duve,presente,2p,devuf,attested,,
-duve-presente-2s,duve,presente,2s,ta devat,attested,,
-duve-presente-3p,duve,presente,3p,i devan,inferred,,
-duve-presente-3s,duve,presente,3s,la/al dev,inferred,,
-duve-trapassato-prossimo-1p,duve,trapassato prossimo,1p,evum duvüü,inferred,,
-duve-trapassato-prossimo-1s,duve,trapassato prossimo,1s,eva duvüü,inferred,,
-duve-trapassato-prossimo-2p,duve,trapassato prossimo,2p,evuf duvüü,inferred,,
-duve-trapassato-prossimo-2s,duve,trapassato prossimo,2s,ta evat duvüü,inferred,,
-duve-trapassato-prossimo-3p,duve,trapassato prossimo,3p,i evan duvüü,inferred,,
-duve-trapassato-prossimo-3s,duve,trapassato prossimo,3s,l’eva duvüü,inferred,,
 fa-condizionale-passato-1p,fa,condizionale passato,1p,avrium/avressum fai,inferred,,
 fa-condizionale-passato-1s,fa,condizionale passato,1s,avria/avress fai,inferred,,
 fa-condizionale-passato-2p,fa,condizionale passato,2p,avriuf/avressuf fai,inferred,,
 fa-condizionale-passato-2s,fa,condizionale passato,2s,t’avriat/t’avressat fai,inferred,,
 fa-condizionale-passato-3p,fa,condizionale passato,3p,i avrian/i avressan fai,inferred,,
 fa-condizionale-passato-3s,fa,condizionale passato,3s,l’avria/l’avressa fai,inferred,,
-fa-condizionale-presente-1p,fa,condizionale presente,1p,farium/faressum,attested,,
-fa-condizionale-presente-1s,fa,condizionale presente,1s,faria/faress,attested,,
-fa-condizionale-presente-2p,fa,condizionale presente,2p,fariuf/faressuf,attested,,
-fa-condizionale-presente-2s,fa,condizionale presente,2s,fariat/faressat,attested,,
-fa-condizionale-presente-3p,fa,condizionale presente,3p,farian/faressan,attested,,
-fa-condizionale-presente-3s,fa,condizionale presente,3s,faria/faressa,attested,,
+fa-condizionale-presente-1p,fa,condizionale presente,1p,farium/faressum,attested,,il-condizionale-presente[l.68]
+fa-condizionale-presente-1s,fa,condizionale presente,1s,faria/faress,attested,,il-condizionale-presente[l.65]
+fa-condizionale-presente-2p,fa,condizionale presente,2p,fariuf/faressuf,attested,,il-condizionale-presente[l.69]
+fa-condizionale-presente-2s,fa,condizionale presente,2s,fariat/faressat,attested,,il-condizionale-presente[l.66]
+fa-condizionale-presente-3p,fa,condizionale presente,3p,farian/faressan,attested,,il-condizionale-presente[l.70]
+fa-condizionale-presente-3s,fa,condizionale presente,3s,faria/faressa,attested,,il-condizionale-presente[l.67]
 fa-congiuntivo-imperfetto-1p,fa,congiuntivo imperfetto,1p,fassum,inferred,,
 fa-congiuntivo-imperfetto-1s,fa,congiuntivo imperfetto,1s,fassa,inferred,,
 fa-congiuntivo-imperfetto-2p,fa,congiuntivo imperfetto,2p,fassuf,inferred,,
@@ -1699,74 +1699,74 @@ lavas-trapassato-prossimo-2p,lavas,trapassato prossimo,2p,sevuf lavaa,attested,,
 lavas-trapassato-prossimo-2s,lavas,trapassato prossimo,2s,ta sevat lavaa (da),attested,,cors-da-dialet-da-rogn-18a-leziun[l.79]
 lavas-trapassato-prossimo-3p,lavas,trapassato prossimo,3p,i sevan lavaa,attested,,cors-da-dialet-da-rogn-18a-leziun[l.83]
 lavas-trapassato-prossimo-3s,lavas,trapassato prossimo,3s,la/al seva lavaa (da),attested,,cors-da-dialet-da-rogn-18a-leziun[l.80]
-lecc-o-lencc-condizionale-passato-1p,lecc-o-lencc,condizionale passato,1p,avrium/avressum lengiüü,inferred,,
-lecc-o-lencc-condizionale-passato-1s,lecc-o-lencc,condizionale passato,1s,avria/avress lengiüü,inferred,,
-lecc-o-lencc-condizionale-passato-2p,lecc-o-lencc,condizionale passato,2p,avriuf/avressuf lengiüü,inferred,,
-lecc-o-lencc-condizionale-passato-2s,lecc-o-lencc,condizionale passato,2s,t’avriat/t’avressat lengiüü,inferred,,
-lecc-o-lencc-condizionale-passato-3p,lecc-o-lencc,condizionale passato,3p,i avrian/i avressan lengiüü,inferred,,
-lecc-o-lencc-condizionale-passato-3s,lecc-o-lencc,condizionale passato,3s,l’avria/l’avressa lengiüü,inferred,,
-lecc-o-lencc-condizionale-presente-1p,lecc-o-lencc,condizionale presente,1p,lengarium/lengaressum,inferred,,
-lecc-o-lencc-condizionale-presente-1s,lecc-o-lencc,condizionale presente,1s,lengaria/lengaressa,inferred,,
-lecc-o-lencc-condizionale-presente-2p,lecc-o-lencc,condizionale presente,2p,lengariuf/lengaressuf,inferred,,
-lecc-o-lencc-condizionale-presente-2s,lecc-o-lencc,condizionale presente,2s,ta lengariat/lengaressat,inferred,,
-lecc-o-lencc-condizionale-presente-3p,lecc-o-lencc,condizionale presente,3p,i lengarian/lengaressan,inferred,,
-lecc-o-lencc-condizionale-presente-3s,lecc-o-lencc,condizionale presente,3s,la/al lengaria/lengaressa,inferred,,
-lecc-o-lencc-congiuntivo-imperfetto-1p,lecc-o-lencc,congiuntivo imperfetto,1p,lengessum,inferred,,
-lecc-o-lencc-congiuntivo-imperfetto-1s,lecc-o-lencc,congiuntivo imperfetto,1s,lengessa,inferred,,
-lecc-o-lencc-congiuntivo-imperfetto-2p,lecc-o-lencc,congiuntivo imperfetto,2p,lengessuf,inferred,,
-lecc-o-lencc-congiuntivo-imperfetto-2s,lecc-o-lencc,congiuntivo imperfetto,2s,ta lengessat,inferred,,
-lecc-o-lencc-congiuntivo-imperfetto-3p,lecc-o-lencc,congiuntivo imperfetto,3p,i lengessan,inferred,,
-lecc-o-lencc-congiuntivo-imperfetto-3s,lecc-o-lencc,congiuntivo imperfetto,3s,la/al lengess,inferred,,
-lecc-o-lencc-congiuntivo-presente-1p,lecc-o-lencc,congiuntivo presente,1p,lengum,inferred,,
-lecc-o-lencc-congiuntivo-presente-1s,lecc-o-lencc,congiuntivo presente,1s,lenga,inferred,,
-lecc-o-lencc-congiuntivo-presente-2p,lecc-o-lencc,congiuntivo presente,2p,lenguf,inferred,,
-lecc-o-lencc-congiuntivo-presente-2s,lecc-o-lencc,congiuntivo presente,2s,ta lengat,inferred,,
-lecc-o-lencc-congiuntivo-presente-3p,lecc-o-lencc,congiuntivo presente,3p,i lengan,inferred,,
-lecc-o-lencc-congiuntivo-presente-3s,lecc-o-lencc,congiuntivo presente,3s,la/al lenga,inferred,,
-lecc-o-lencc-futuro-1p,lecc-o-lencc,futuro,1p,lengarem,inferred,,
-lecc-o-lencc-futuro-1s,lecc-o-lencc,futuro,1s,lengarò,inferred,,
-lecc-o-lencc-futuro-2p,lecc-o-lencc,futuro,2p,lengarii,inferred,,
-lecc-o-lencc-futuro-2s,lecc-o-lencc,futuro,2s,ta lengaré,inferred,,
-lecc-o-lencc-futuro-3p,lecc-o-lencc,futuro,3p,i lengaran,inferred,,
-lecc-o-lencc-futuro-3s,lecc-o-lencc,futuro,3s,la/al lengarà,inferred,,
-lecc-o-lencc-futuro-prossimo-1p,lecc-o-lencc,futuro prossimo,1p,avrem lengiüü,inferred,,
-lecc-o-lencc-futuro-prossimo-1s,lecc-o-lencc,futuro prossimo,1s,avrò lengiüü,inferred,,
-lecc-o-lencc-futuro-prossimo-2p,lecc-o-lencc,futuro prossimo,2p,avrii lengiüü,inferred,,
-lecc-o-lencc-futuro-prossimo-2s,lecc-o-lencc,futuro prossimo,2s,ta avré lengiüü,inferred,,
-lecc-o-lencc-futuro-prossimo-3p,lecc-o-lencc,futuro prossimo,3p,i avran lengiüü,inferred,,
-lecc-o-lencc-futuro-prossimo-3s,lecc-o-lencc,futuro prossimo,3s,l’avrà lengiüü,inferred,,
-lecc-o-lencc-gerundio,lecc-o-lencc,gerundio,,lengendu,attested,,il-gerundio[l.83]
-lecc-o-lencc-imperativo-1p,lecc-o-lencc,imperativo,1p,lengem,inferred,,
-lecc-o-lencc-imperativo-2p,lecc-o-lencc,imperativo,2p,lengii,inferred,,
-lecc-o-lencc-imperativo-2s,lecc-o-lencc,imperativo,2s,lecc,inferred,,
-lecc-o-lencc-imperativo-negativo-1p,lecc-o-lencc,imperativo negativo,1p,lengem mia,attested,,imperativo[l.146]
-lecc-o-lencc-imperativo-negativo-2p,lecc-o-lencc,imperativo negativo,2p,lengii mia,attested,,imperativo[l.146]
-lecc-o-lencc-imperativo-negativo-2s,lecc-o-lencc,imperativo negativo,2s,lecc mia,attested,,imperativo[l.146]
-lecc-o-lencc-imperfetto-1p,lecc-o-lencc,imperfetto,1p,lenghevum,inferred,,
-lecc-o-lencc-imperfetto-1s,lecc-o-lencc,imperfetto,1s,lengheva,inferred,,
-lecc-o-lencc-imperfetto-2p,lecc-o-lencc,imperfetto,2p,lenghevuf,inferred,,
-lecc-o-lencc-imperfetto-2s,lecc-o-lencc,imperfetto,2s,ta lenghevat,inferred,,
-lecc-o-lencc-imperfetto-3p,lecc-o-lencc,imperfetto,3p,i lenghevan,inferred,,
-lecc-o-lencc-imperfetto-3s,lecc-o-lencc,imperfetto,3s,la/al lengheva,inferred,,
-lecc-o-lencc-participio-passato,lecc-o-lencc,participio passato,,lengiüü,attested,,
-lecc-o-lencc-passato-prossimo-1p,lecc-o-lencc,passato prossimo,1p,em lengiüü,inferred,,
-lecc-o-lencc-passato-prossimo-1s,lecc-o-lencc,passato prossimo,1s,u lengiüü,inferred,,
-lecc-o-lencc-passato-prossimo-2p,lecc-o-lencc,passato prossimo,2p,ii lengiüü,inferred,,
-lecc-o-lencc-passato-prossimo-2s,lecc-o-lencc,passato prossimo,2s,te lengiüü,inferred,,
-lecc-o-lencc-passato-prossimo-3p,lecc-o-lencc,passato prossimo,3p,i an lengiüü,inferred,,
-lecc-o-lencc-passato-prossimo-3s,lecc-o-lencc,passato prossimo,3s,l’a lengiüü,inferred,,
-lecc-o-lencc-presente-1p,lecc-o-lencc,presente,1p,le(n)gium,attested,,cors-da-dialett-da-rogn-3a-leziun[l.46]
-lecc-o-lencc-presente-1s,lecc-o-lencc,presente,1s,le(n)gi,attested,,cors-da-dialett-da-rogn-3a-leziun[l.43]
-lecc-o-lencc-presente-2p,lecc-o-lencc,presente,2p,le(n)giuf,attested,,cors-da-dialett-da-rogn-3a-leziun[l.47]
-lecc-o-lencc-presente-2s,lecc-o-lencc,presente,2s,ta le(n)giat,attested,,cors-da-dialett-da-rogn-3a-leziun[l.44]
-lecc-o-lencc-presente-3p,lecc-o-lencc,presente,3p,i le(n)gian,attested,,cors-da-dialett-da-rogn-3a-leziun[l.48]
-lecc-o-lencc-presente-3s,lecc-o-lencc,presente,3s,la/al le(n)g (?),attested,,cors-da-dialett-da-rogn-3a-leziun[l.45]
-lecc-o-lencc-trapassato-prossimo-1p,lecc-o-lencc,trapassato prossimo,1p,evum lengiüü,inferred,,
-lecc-o-lencc-trapassato-prossimo-1s,lecc-o-lencc,trapassato prossimo,1s,eva lengiüü,inferred,,
-lecc-o-lencc-trapassato-prossimo-2p,lecc-o-lencc,trapassato prossimo,2p,evuf lengiüü,inferred,,
-lecc-o-lencc-trapassato-prossimo-2s,lecc-o-lencc,trapassato prossimo,2s,ta evat lengiüü,inferred,,
-lecc-o-lencc-trapassato-prossimo-3p,lecc-o-lencc,trapassato prossimo,3p,i evan lengiüü,inferred,,
-lecc-o-lencc-trapassato-prossimo-3s,lecc-o-lencc,trapassato prossimo,3s,l’eva lengiüü,inferred,,
+lenc-condizionale-passato-1p,lenc,condizionale passato,1p,avrium/avressum lengiüü,inferred,,
+lenc-condizionale-passato-1s,lenc,condizionale passato,1s,avria/avress lengiüü,inferred,,
+lenc-condizionale-passato-2p,lenc,condizionale passato,2p,avriuf/avressuf lengiüü,inferred,,
+lenc-condizionale-passato-2s,lenc,condizionale passato,2s,t’avriat/t’avressat lengiüü,inferred,,
+lenc-condizionale-passato-3p,lenc,condizionale passato,3p,i avrian/i avressan lengiüü,inferred,,
+lenc-condizionale-passato-3s,lenc,condizionale passato,3s,l’avria/l’avressa lengiüü,inferred,,
+lenc-condizionale-presente-1p,lenc,condizionale presente,1p,lengarium/lengaressum,inferred,,
+lenc-condizionale-presente-1s,lenc,condizionale presente,1s,lengaria/lengaressa,inferred,,
+lenc-condizionale-presente-2p,lenc,condizionale presente,2p,lengariuf/lengaressuf,inferred,,
+lenc-condizionale-presente-2s,lenc,condizionale presente,2s,ta lengariat/lengaressat,inferred,,
+lenc-condizionale-presente-3p,lenc,condizionale presente,3p,i lengarian/lengaressan,inferred,,
+lenc-condizionale-presente-3s,lenc,condizionale presente,3s,la/al lengaria/lengaressa,inferred,,
+lenc-congiuntivo-imperfetto-1p,lenc,congiuntivo imperfetto,1p,lengessum,inferred,,
+lenc-congiuntivo-imperfetto-1s,lenc,congiuntivo imperfetto,1s,lengessa,inferred,,
+lenc-congiuntivo-imperfetto-2p,lenc,congiuntivo imperfetto,2p,lengessuf,inferred,,
+lenc-congiuntivo-imperfetto-2s,lenc,congiuntivo imperfetto,2s,ta lengessat,inferred,,
+lenc-congiuntivo-imperfetto-3p,lenc,congiuntivo imperfetto,3p,i lengessan,inferred,,
+lenc-congiuntivo-imperfetto-3s,lenc,congiuntivo imperfetto,3s,la/al lengess,inferred,,
+lenc-congiuntivo-presente-1p,lenc,congiuntivo presente,1p,lengum,inferred,,
+lenc-congiuntivo-presente-1s,lenc,congiuntivo presente,1s,lenga,inferred,,
+lenc-congiuntivo-presente-2p,lenc,congiuntivo presente,2p,lenguf,inferred,,
+lenc-congiuntivo-presente-2s,lenc,congiuntivo presente,2s,ta lengat,inferred,,
+lenc-congiuntivo-presente-3p,lenc,congiuntivo presente,3p,i lengan,inferred,,
+lenc-congiuntivo-presente-3s,lenc,congiuntivo presente,3s,la/al lenga,inferred,,
+lenc-futuro-1p,lenc,futuro,1p,lengarem,inferred,,
+lenc-futuro-1s,lenc,futuro,1s,lengarò,inferred,,
+lenc-futuro-2p,lenc,futuro,2p,lengarii,inferred,,
+lenc-futuro-2s,lenc,futuro,2s,ta lengaré,inferred,,
+lenc-futuro-3p,lenc,futuro,3p,i lengaran,inferred,,
+lenc-futuro-3s,lenc,futuro,3s,la/al lengarà,inferred,,
+lenc-futuro-prossimo-1p,lenc,futuro prossimo,1p,avrem lengiüü,inferred,,
+lenc-futuro-prossimo-1s,lenc,futuro prossimo,1s,avrò lengiüü,inferred,,
+lenc-futuro-prossimo-2p,lenc,futuro prossimo,2p,avrii lengiüü,inferred,,
+lenc-futuro-prossimo-2s,lenc,futuro prossimo,2s,ta avré lengiüü,inferred,,
+lenc-futuro-prossimo-3p,lenc,futuro prossimo,3p,i avran lengiüü,inferred,,
+lenc-futuro-prossimo-3s,lenc,futuro prossimo,3s,l’avrà lengiüü,inferred,,
+lenc-gerundio,lenc,gerundio,,lengendu,attested,,il-gerundio[l.83]
+lenc-imperativo-1p,lenc,imperativo,1p,lengem,inferred,,
+lenc-imperativo-2p,lenc,imperativo,2p,lengii,inferred,,
+lenc-imperativo-2s,lenc,imperativo,2s,lecc,inferred,,
+lenc-imperativo-negativo-1p,lenc,imperativo negativo,1p,lengem mia,attested,,imperativo[l.146]
+lenc-imperativo-negativo-2p,lenc,imperativo negativo,2p,lengii mia,attested,,imperativo[l.146]
+lenc-imperativo-negativo-2s,lenc,imperativo negativo,2s,lecc mia,attested,,imperativo[l.146]
+lenc-imperfetto-1p,lenc,imperfetto,1p,lenghevum,inferred,,
+lenc-imperfetto-1s,lenc,imperfetto,1s,lengheva,inferred,,
+lenc-imperfetto-2p,lenc,imperfetto,2p,lenghevuf,inferred,,
+lenc-imperfetto-2s,lenc,imperfetto,2s,ta lenghevat,inferred,,
+lenc-imperfetto-3p,lenc,imperfetto,3p,i lenghevan,inferred,,
+lenc-imperfetto-3s,lenc,imperfetto,3s,la/al lengheva,inferred,,
+lenc-participio-passato,lenc,participio passato,,lengiüü,attested,,
+lenc-passato-prossimo-1p,lenc,passato prossimo,1p,em lengiüü,inferred,,
+lenc-passato-prossimo-1s,lenc,passato prossimo,1s,u lengiüü,inferred,,
+lenc-passato-prossimo-2p,lenc,passato prossimo,2p,ii lengiüü,inferred,,
+lenc-passato-prossimo-2s,lenc,passato prossimo,2s,te lengiüü,inferred,,
+lenc-passato-prossimo-3p,lenc,passato prossimo,3p,i an lengiüü,inferred,,
+lenc-passato-prossimo-3s,lenc,passato prossimo,3s,l’a lengiüü,inferred,,
+lenc-presente-1p,lenc,presente,1p,le(n)gium,attested,,cors-da-dialett-da-rogn-3a-leziun[l.46]
+lenc-presente-1s,lenc,presente,1s,le(n)gi,attested,,cors-da-dialett-da-rogn-3a-leziun[l.43]
+lenc-presente-2p,lenc,presente,2p,le(n)giuf,attested,,cors-da-dialett-da-rogn-3a-leziun[l.47]
+lenc-presente-2s,lenc,presente,2s,ta le(n)giat,attested,,cors-da-dialett-da-rogn-3a-leziun[l.44]
+lenc-presente-3p,lenc,presente,3p,i le(n)gian,attested,,cors-da-dialett-da-rogn-3a-leziun[l.48]
+lenc-presente-3s,lenc,presente,3s,la/al le(n)g (?),attested,,cors-da-dialett-da-rogn-3a-leziun[l.45]
+lenc-trapassato-prossimo-1p,lenc,trapassato prossimo,1p,evum lengiüü,inferred,,
+lenc-trapassato-prossimo-1s,lenc,trapassato prossimo,1s,eva lengiüü,inferred,,
+lenc-trapassato-prossimo-2p,lenc,trapassato prossimo,2p,evuf lengiüü,inferred,,
+lenc-trapassato-prossimo-2s,lenc,trapassato prossimo,2s,ta evat lengiüü,inferred,,
+lenc-trapassato-prossimo-3p,lenc,trapassato prossimo,3p,i evan lengiüü,inferred,,
+lenc-trapassato-prossimo-3s,lenc,trapassato prossimo,3s,l’eva lengiüü,inferred,,
 manda-gio-condizionale-passato-1p,manda-gio,condizionale passato,1p,avrium/avressum mandaa giò,inferred,,
 manda-gio-condizionale-passato-1s,manda-gio,condizionale passato,1s,avria/avress mandaa giò,inferred,,
 manda-gio-condizionale-passato-2p,manda-gio,condizionale passato,2p,avriuf/avressuf mandaa giò,inferred,,
@@ -1977,12 +1977,12 @@ mena-condizionale-passato-2p,mena,condizionale passato,2p,avriuf/avressuf menaa,
 mena-condizionale-passato-2s,mena,condizionale passato,2s,t’avriat/t’avressat menaa,inferred,,
 mena-condizionale-passato-3p,mena,condizionale passato,3p,i avrian/i avressan menaa,inferred,,
 mena-condizionale-passato-3s,mena,condizionale passato,3s,l’avria/l’avressa menaa,inferred,,
-mena-condizionale-presente-1p,mena,condizionale presente,1p,menarium/menaressum,attested,,
-mena-condizionale-presente-1s,mena,condizionale presente,1s,menaria/menaressa,attested,,
-mena-condizionale-presente-2p,mena,condizionale presente,2p,menariuf/menaressuf,attested,,
-mena-condizionale-presente-2s,mena,condizionale presente,2s,menariat/menaressat,attested,,
-mena-condizionale-presente-3p,mena,condizionale presente,3p,menarian/menaressan,attested,,
-mena-condizionale-presente-3s,mena,condizionale presente,3s,menaria/menaressa,attested,,
+mena-condizionale-presente-1p,mena,condizionale presente,1p,menarium/menaressum,attested,,il-condizionale-presente[l.79]
+mena-condizionale-presente-1s,mena,condizionale presente,1s,menaria/menaressa,attested,,il-condizionale-presente[l.76]
+mena-condizionale-presente-2p,mena,condizionale presente,2p,menariuf/menaressuf,attested,,il-condizionale-presente[l.80]
+mena-condizionale-presente-2s,mena,condizionale presente,2s,menariat/menaressat,attested,,il-condizionale-presente[l.77]
+mena-condizionale-presente-3p,mena,condizionale presente,3p,menarian/menaressan,attested,,il-condizionale-presente[l.81]
+mena-condizionale-presente-3s,mena,condizionale presente,3s,menaria/menaressa,attested,,il-condizionale-presente[l.78]
 mena-congiuntivo-imperfetto-1p,mena,congiuntivo imperfetto,1p,menassum,inferred,,
 mena-congiuntivo-imperfetto-1s,mena,congiuntivo imperfetto,1s,menassa,inferred,,
 mena-congiuntivo-imperfetto-2p,mena,congiuntivo imperfetto,2p,menassuf,inferred,,
@@ -2385,12 +2385,12 @@ na-condizionale-passato-2p,na,condizionale passato,2p,sariuf/saressuf nai,inferr
 na-condizionale-passato-2s,na,condizionale passato,2s,ta sariat/ta saressat nai,inferred,,
 na-condizionale-passato-3p,na,condizionale passato,3p,i sarian/i saressan nai,inferred,,
 na-condizionale-passato-3s,na,condizionale passato,3s,la/al saria/saressa nai,inferred,,
-na-condizionale-presente-1p,na,condizionale presente,1p,naressum,attested,,
-na-condizionale-presente-1s,na,condizionale presente,1s,naria/naressa,attested,,
-na-condizionale-presente-2p,na,condizionale presente,2p,naressuf,attested,,
-na-condizionale-presente-2s,na,condizionale presente,2s,ta naressat,attested,,
-na-condizionale-presente-3p,na,condizionale presente,3p,narian/naressan,attested,,
-na-condizionale-presente-3s,na,condizionale presente,3s,naria/naressa,attested,,
+na-condizionale-presente-1p,na,condizionale presente,1p,naressum,attested,,il-condizionale-presente[l.40]
+na-condizionale-presente-1s,na,condizionale presente,1s,naria/naressa,attested,,il-condizionale-presente[l.37]
+na-condizionale-presente-2p,na,condizionale presente,2p,naressuf,attested,,il-condizionale-presente[l.41]
+na-condizionale-presente-2s,na,condizionale presente,2s,ta naressat,attested,,il-condizionale-presente[l.38]
+na-condizionale-presente-3p,na,condizionale presente,3p,narian/naressan,attested,,il-condizionale-presente[l.42]
+na-condizionale-presente-3s,na,condizionale presente,3s,naria/naressa,attested,,il-condizionale-presente[l.39]
 na-congiuntivo-imperfetto-1p,na,congiuntivo imperfetto,1p,nassum,inferred,,
 na-congiuntivo-imperfetto-1s,na,congiuntivo imperfetto,1s,nassa,inferred,,
 na-congiuntivo-imperfetto-2p,na,congiuntivo imperfetto,2p,nassuf,inferred,,
@@ -2861,12 +2861,12 @@ paga-condizionale-passato-2p,paga,condizionale passato,2p,avriuf/avressuf pagaa,
 paga-condizionale-passato-2s,paga,condizionale passato,2s,t’avriat/t’avressat pagaa,inferred,,
 paga-condizionale-passato-3p,paga,condizionale passato,3p,i avrian/i avressan pagaa,inferred,,
 paga-condizionale-passato-3s,paga,condizionale passato,3s,l’avria/l’avressa pagaa,inferred,,
-paga-condizionale-presente-1p,paga,condizionale presente,1p,pagaressum,attested,,
-paga-condizionale-presente-1s,paga,condizionale presente,1s,pagaria/pagaressa,attested,,
-paga-condizionale-presente-2p,paga,condizionale presente,2p,pagaressuf,attested,,
-paga-condizionale-presente-2s,paga,condizionale presente,2s,pagaressat,attested,,
-paga-condizionale-presente-3p,paga,condizionale presente,3p,i pagarian/pagaressan,attested,,
-paga-condizionale-presente-3s,paga,condizionale presente,3s,pagaria/pagaressa,attested,,
+paga-condizionale-presente-1p,paga,condizionale presente,1p,pagaressum,attested,,il-condizionale-presente[l.29]
+paga-condizionale-presente-1s,paga,condizionale presente,1s,pagaria/pagaressa,attested,,il-condizionale-presente[l.26]
+paga-condizionale-presente-2p,paga,condizionale presente,2p,pagaressuf,attested,,il-condizionale-presente[l.30]
+paga-condizionale-presente-2s,paga,condizionale presente,2s,pagaressat,attested,,il-condizionale-presente[l.27]
+paga-condizionale-presente-3p,paga,condizionale presente,3p,i pagarian/pagaressan,attested,,il-condizionale-presente[l.31]
+paga-condizionale-presente-3s,paga,condizionale presente,3s,pagaria/pagaressa,attested,,il-condizionale-presente[l.28]
 paga-congiuntivo-imperfetto-1p,paga,congiuntivo imperfetto,1p,pagassum,inferred,,
 paga-congiuntivo-imperfetto-1s,paga,congiuntivo imperfetto,1s,pagassa,inferred,,
 paga-congiuntivo-imperfetto-2p,paga,congiuntivo imperfetto,2p,pagassuf,inferred,,
@@ -2929,12 +2929,12 @@ parti-condizionale-passato-2p,parti,condizionale passato,2p,sariuf/saressuf part
 parti-condizionale-passato-2s,parti,condizionale passato,2s,ta sariat/ta saressat partii,inferred,,
 parti-condizionale-passato-3p,parti,condizionale passato,3p,i sarian/i saressan partii,inferred,,
 parti-condizionale-passato-3s,parti,condizionale passato,3s,la/al saria/saressa partii,inferred,,
-parti-condizionale-presente-1p,parti,condizionale presente,1p,partisaressum,attested,,
-parti-condizionale-presente-1s,parti,condizionale presente,1s,partisaria/partisaress,attested,,
-parti-condizionale-presente-2p,parti,condizionale presente,2p,partisaressuf,attested,,
-parti-condizionale-presente-2s,parti,condizionale presente,2s,partisaressat,attested,,
-parti-condizionale-presente-3p,parti,condizionale presente,3p,partisarian/partisaressan,attested,,
-parti-condizionale-presente-3s,parti,condizionale presente,3s,la/al partisaressa,attested,,
+parti-condizionale-presente-1p,parti,condizionale presente,1p,partisaressum,attested,,il-condizionale-presente[l.7]
+parti-condizionale-presente-1s,parti,condizionale presente,1s,partisaria/partisaress,attested,,il-condizionale-presente[l.4]
+parti-condizionale-presente-2p,parti,condizionale presente,2p,partisaressuf,attested,,il-condizionale-presente[l.8]
+parti-condizionale-presente-2s,parti,condizionale presente,2s,partisaressat,attested,,il-condizionale-presente[l.5]
+parti-condizionale-presente-3p,parti,condizionale presente,3p,partisarian/partisaressan,attested,,il-condizionale-presente[l.9]
+parti-condizionale-presente-3s,parti,condizionale presente,3s,la/al partisaressa,attested,,il-condizionale-presente[l.6]
 parti-congiuntivo-imperfetto-1p,parti,congiuntivo imperfetto,1p,partissum,inferred,,
 parti-congiuntivo-imperfetto-1s,parti,congiuntivo imperfetto,1s,partissa,inferred,,
 parti-congiuntivo-imperfetto-2p,parti,congiuntivo imperfetto,2p,partissuf,inferred,,
@@ -3065,12 +3065,12 @@ pensa-condizionale-passato-2p,pensa,condizionale passato,2p,avriuf/avressuf pens
 pensa-condizionale-passato-2s,pensa,condizionale passato,2s,t’avriat/t’avressat pensaa,inferred,,
 pensa-condizionale-passato-3p,pensa,condizionale passato,3p,i avrian/i avressan pensaa,inferred,,
 pensa-condizionale-passato-3s,pensa,condizionale passato,3s,l’avria/l’avressa pensaa,inferred,,
-pensa-condizionale-presente-1p,pensa,condizionale presente,1p,pensaressum,attested,,
-pensa-condizionale-presente-1s,pensa,condizionale presente,1s,pensaria / ress,attested,,
-pensa-condizionale-presente-2p,pensa,condizionale presente,2p,pensaressuf,attested,,
+pensa-condizionale-presente-1p,pensa,condizionale presente,1p,pensaressum,attested,,il-condizionale-presente[l.7]
+pensa-condizionale-presente-1s,pensa,condizionale presente,1s,pensaria / ress,attested,,il-condizionale-presente[l.4]
+pensa-condizionale-presente-2p,pensa,condizionale presente,2p,pensaressuf,attested,,il-condizionale-presente[l.8]
 pensa-condizionale-presente-2s,pensa,condizionale presente,2s,ta pensa ressat,attested,,il-condizionale-presente[l.5]
-pensa-condizionale-presente-3p,pensa,condizionale presente,3p,i pensarian/pensaressan,attested,,
-pensa-condizionale-presente-3s,pensa,condizionale presente,3s,la/al pensaressa,attested,,
+pensa-condizionale-presente-3p,pensa,condizionale presente,3p,i pensarian/pensaressan,attested,,il-condizionale-presente[l.9]
+pensa-condizionale-presente-3s,pensa,condizionale presente,3s,la/al pensaressa,attested,,il-condizionale-presente[l.6]
 pensa-congiuntivo-imperfetto-1p,pensa,congiuntivo imperfetto,1p,pensassum,inferred,,
 pensa-congiuntivo-imperfetto-1s,pensa,congiuntivo imperfetto,1s,pensassa,inferred,,
 pensa-congiuntivo-imperfetto-2p,pensa,congiuntivo imperfetto,2p,pensassuf,inferred,,
@@ -3269,12 +3269,12 @@ pode-condizionale-passato-2p,pode,condizionale passato,2p,avriuf/avressuf pudü�
 pode-condizionale-passato-2s,pode,condizionale passato,2s,t’avriat/t’avressat pudüü,inferred,,
 pode-condizionale-passato-3p,pode,condizionale passato,3p,i avrian/i avressan pudüü,inferred,,
 pode-condizionale-passato-3s,pode,condizionale passato,3s,l’avria/l’avressa pudüü,inferred,,
-pode-condizionale-presente-1p,pode,condizionale presente,1p,podaressum,attested,,
-pode-condizionale-presente-1s,pode,condizionale presente,1s,podaria/podaressa,attested,,
-pode-condizionale-presente-2p,pode,condizionale presente,2p,podaressuf,attested,,
-pode-condizionale-presente-2s,pode,condizionale presente,2s,ta podaressat,attested,,
-pode-condizionale-presente-3p,pode,condizionale presente,3p,podarian/podaressan,attested,,
-pode-condizionale-presente-3s,pode,condizionale presente,3s,podaria/podaressa,attested,,
+pode-condizionale-presente-1p,pode,condizionale presente,1p,podaressum,attested,,il-condizionale-presente[l.40]
+pode-condizionale-presente-1s,pode,condizionale presente,1s,podaria/podaressa,attested,,il-condizionale-presente[l.37]
+pode-condizionale-presente-2p,pode,condizionale presente,2p,podaressuf,attested,,il-condizionale-presente[l.41]
+pode-condizionale-presente-2s,pode,condizionale presente,2s,ta podaressat,attested,,il-condizionale-presente[l.38]
+pode-condizionale-presente-3p,pode,condizionale presente,3p,podarian/podaressan,attested,,il-condizionale-presente[l.42]
+pode-condizionale-presente-3s,pode,condizionale presente,3s,podaria/podaressa,attested,,il-condizionale-presente[l.39]
 pode-congiuntivo-imperfetto-1p,pode,congiuntivo imperfetto,1p,pudessum,inferred,,
 pode-congiuntivo-imperfetto-1s,pode,congiuntivo imperfetto,1s,pudessa,inferred,,
 pode-congiuntivo-imperfetto-2p,pode,congiuntivo imperfetto,2p,pudessuf,inferred,,
@@ -3337,12 +3337,12 @@ produ-condizionale-passato-2p,produ,condizionale passato,2p,avriuf/avressuf prod
 produ-condizionale-passato-2s,produ,condizionale passato,2s,t’avriat/t’avressat prodüsüü,inferred,,
 produ-condizionale-passato-3p,produ,condizionale passato,3p,i avrian/i avressan prodüsüü,inferred,,
 produ-condizionale-passato-3s,produ,condizionale passato,3s,l’avria/l’avressa prodüsüü,inferred,,
-produ-condizionale-presente-1p,produ,condizionale presente,1p,prodüsarium/prodüsaressum / farium/faressum,attested,,
-produ-condizionale-presente-1s,produ,condizionale presente,1s,prodüsaria/prodüsaressa / faria/faressa,attested,,
-produ-condizionale-presente-2p,produ,condizionale presente,2p,prodüsariuf/prodüsaressuf / fariuf/faressuf,attested,,
-produ-condizionale-presente-2s,produ,condizionale presente,2s,prodüsariat/prodüsaressat / fariat/faressat,attested,,
-produ-condizionale-presente-3p,produ,condizionale presente,3p,prodüsarian/prodüsaressan / farian/faressan,attested,,
-produ-condizionale-presente-3s,produ,condizionale presente,3s,prodüsaria/prodüsaressa / faria/faressa,attested,,
+produ-condizionale-presente-1p,produ,condizionale presente,1p,prodüsarium/prodüsaressum / farium/faressum,attested,,il-condizionale-presente[l.79]
+produ-condizionale-presente-1s,produ,condizionale presente,1s,prodüsaria/prodüsaressa / faria/faressa,attested,,il-condizionale-presente[l.76]
+produ-condizionale-presente-2p,produ,condizionale presente,2p,prodüsariuf/prodüsaressuf / fariuf/faressuf,attested,,il-condizionale-presente[l.80]
+produ-condizionale-presente-2s,produ,condizionale presente,2s,prodüsariat/prodüsaressat / fariat/faressat,attested,,il-condizionale-presente[l.77]
+produ-condizionale-presente-3p,produ,condizionale presente,3p,prodüsarian/prodüsaressan / farian/faressan,attested,,il-condizionale-presente[l.81]
+produ-condizionale-presente-3s,produ,condizionale presente,3s,prodüsaria/prodüsaressa / faria/faressa,attested,,il-condizionale-presente[l.78]
 produ-congiuntivo-imperfetto-1p,produ,congiuntivo imperfetto,1p,prodüsessum,inferred,,
 produ-congiuntivo-imperfetto-1s,produ,congiuntivo imperfetto,1s,prodüsessa,inferred,,
 produ-congiuntivo-imperfetto-2p,produ,congiuntivo imperfetto,2p,prodüsessuf,inferred,,
@@ -3541,12 +3541,12 @@ resta-condizionale-passato-2p,resta,condizionale passato,2p,sariuf/saressuf rest
 resta-condizionale-passato-2s,resta,condizionale passato,2s,ta sariat/ta saressat restaa,inferred,,
 resta-condizionale-passato-3p,resta,condizionale passato,3p,i sarian/i saressan restaa,inferred,,
 resta-condizionale-passato-3s,resta,condizionale passato,3s,la/al saria/saressa restaa,inferred,,
-resta-condizionale-presente-1p,resta,condizionale presente,1p,restarium/restaressum,attested,,
-resta-condizionale-presente-1s,resta,condizionale presente,1s,restaria/restaressa,attested,,
-resta-condizionale-presente-2p,resta,condizionale presente,2p,restariuf/restaressuf,attested,,
-resta-condizionale-presente-2s,resta,condizionale presente,2s,restariat/restaressat,attested,,
-resta-condizionale-presente-3p,resta,condizionale presente,3p,restarian/restaressan,attested,,
-resta-condizionale-presente-3s,resta,condizionale presente,3s,restaria/restaressa,attested,,
+resta-condizionale-presente-1p,resta,condizionale presente,1p,restarium/restaressum,attested,,il-condizionale-presente[l.56]
+resta-condizionale-presente-1s,resta,condizionale presente,1s,restaria/restaressa,attested,,il-condizionale-presente[l.53]
+resta-condizionale-presente-2p,resta,condizionale presente,2p,restariuf/restaressuf,attested,,il-condizionale-presente[l.57]
+resta-condizionale-presente-2s,resta,condizionale presente,2s,restariat/restaressat,attested,,il-condizionale-presente[l.54]
+resta-condizionale-presente-3p,resta,condizionale presente,3p,restarian/restaressan,attested,,il-condizionale-presente[l.58]
+resta-condizionale-presente-3s,resta,condizionale presente,3s,restaria/restaressa,attested,,il-condizionale-presente[l.55]
 resta-congiuntivo-imperfetto-1p,resta,congiuntivo imperfetto,1p,restassum,inferred,,
 resta-congiuntivo-imperfetto-1s,resta,congiuntivo imperfetto,1s,restassa,inferred,,
 resta-congiuntivo-imperfetto-2p,resta,congiuntivo imperfetto,2p,restassuf,inferred,,
@@ -3677,12 +3677,12 @@ save-condizionale-passato-2p,save,condizionale passato,2p,avriuf/avressuf savü�
 save-condizionale-passato-2s,save,condizionale passato,2s,t’avriat/t’avressat savüü,inferred,,
 save-condizionale-passato-3p,save,condizionale passato,3p,i avrian/i avressan savüü,inferred,,
 save-condizionale-passato-3s,save,condizionale passato,3s,l’avria/l’avressa savüü,inferred,,
-save-condizionale-presente-1p,save,condizionale presente,1p,savaressum,attested,,
-save-condizionale-presente-1s,save,condizionale presente,1s,savaria/savaressa,attested,,
-save-condizionale-presente-2p,save,condizionale presente,2p,savaressuf,attested,,
-save-condizionale-presente-2s,save,condizionale presente,2s,ta savaressat,attested,,
-save-condizionale-presente-3p,save,condizionale presente,3p,savarian/savaressan,attested,,
-save-condizionale-presente-3s,save,condizionale presente,3s,savaria/savaressa,attested,,
+save-condizionale-presente-1p,save,condizionale presente,1p,savaressum,attested,,il-condizionale-presente[l.40]
+save-condizionale-presente-1s,save,condizionale presente,1s,savaria/savaressa,attested,,il-condizionale-presente[l.37]
+save-condizionale-presente-2p,save,condizionale presente,2p,savaressuf,attested,,il-condizionale-presente[l.41]
+save-condizionale-presente-2s,save,condizionale presente,2s,ta savaressat,attested,,il-condizionale-presente[l.38]
+save-condizionale-presente-3p,save,condizionale presente,3p,savarian/savaressan,attested,,il-condizionale-presente[l.42]
+save-condizionale-presente-3s,save,condizionale presente,3s,savaria/savaressa,attested,,il-condizionale-presente[l.39]
 save-congiuntivo-imperfetto-1p,save,congiuntivo imperfetto,1p,savessum,inferred,,
 save-congiuntivo-imperfetto-1s,save,congiuntivo imperfetto,1s,savessa,inferred,,
 save-congiuntivo-imperfetto-2p,save,congiuntivo imperfetto,2p,savessuf,inferred,,
@@ -3730,9 +3730,9 @@ save-passato-prossimo-3s,save,passato prossimo,3s,l’a savüü,inferred,,
 save-presente-1p,save,presente,1p,savum,inferred,,
 save-presente-1s,save,presente,1s,so,attested,,
 save-presente-2p,save,presente,2p,savuf,inferred,,
-save-presente-2s,save,presente,2s,ta set,inferred,,
+save-presente-2s,save,presente,2s,ta set,attested,confirmed by the owner,
 save-presente-3p,save,presente,3p,i sa,inferred,,
-save-presente-3s,save,presente,3s,la/al sa,inferred,,
+save-presente-3s,save,presente,3s,la/al sa,attested,confirmed by the owner,
 save-trapassato-prossimo-1p,save,trapassato prossimo,1p,evum savüü,inferred,,
 save-trapassato-prossimo-1s,save,trapassato prossimo,1s,eva savüü,inferred,,
 save-trapassato-prossimo-2p,save,trapassato prossimo,2p,evuf savüü,inferred,,
@@ -4283,6 +4283,74 @@ sculpi-trapassato-prossimo-2p,sculpi,trapassato prossimo,2p,evuf sculpii,inferre
 sculpi-trapassato-prossimo-2s,sculpi,trapassato prossimo,2s,ta evat sculpii,inferred,,
 sculpi-trapassato-prossimo-3p,sculpi,trapassato prossimo,3p,i evan sculpii,inferred,,
 sculpi-trapassato-prossimo-3s,sculpi,trapassato prossimo,3s,l’eva sculpii,inferred,,
+sera-condizionale-passato-1p,sera,condizionale passato,1p,avrium/avressum seràa,inferred,,
+sera-condizionale-passato-1s,sera,condizionale passato,1s,avria/avress seràa,inferred,,
+sera-condizionale-passato-2p,sera,condizionale passato,2p,avriuf/avressuf seràa,inferred,,
+sera-condizionale-passato-2s,sera,condizionale passato,2s,t’avriat/t’avressat seràa,inferred,,
+sera-condizionale-passato-3p,sera,condizionale passato,3p,i avrian/i avressan seràa,inferred,,
+sera-condizionale-passato-3s,sera,condizionale passato,3s,l’avria/l’avressa seràa,inferred,,
+sera-condizionale-presente-1p,sera,condizionale presente,1p,serarium/seraressum,inferred,,
+sera-condizionale-presente-1s,sera,condizionale presente,1s,seraria/seraressa,inferred,,
+sera-condizionale-presente-2p,sera,condizionale presente,2p,serariuf/seraressuf,inferred,,
+sera-condizionale-presente-2s,sera,condizionale presente,2s,ta serariat/seraressat,inferred,,
+sera-condizionale-presente-3p,sera,condizionale presente,3p,i serarian/seraressan,inferred,,
+sera-condizionale-presente-3s,sera,condizionale presente,3s,la/al seraria/seraressa,inferred,,
+sera-congiuntivo-imperfetto-1p,sera,congiuntivo imperfetto,1p,serassum,inferred,,
+sera-congiuntivo-imperfetto-1s,sera,congiuntivo imperfetto,1s,serassa,inferred,,
+sera-congiuntivo-imperfetto-2p,sera,congiuntivo imperfetto,2p,serassuf,inferred,,
+sera-congiuntivo-imperfetto-2s,sera,congiuntivo imperfetto,2s,ta serassat,inferred,,
+sera-congiuntivo-imperfetto-3p,sera,congiuntivo imperfetto,3p,i serassan,inferred,,
+sera-congiuntivo-imperfetto-3s,sera,congiuntivo imperfetto,3s,la/al serass,inferred,,
+sera-congiuntivo-presente-1p,sera,congiuntivo presente,1p,serum,inferred,,
+sera-congiuntivo-presente-1s,sera,congiuntivo presente,1s,sera,inferred,,
+sera-congiuntivo-presente-2p,sera,congiuntivo presente,2p,seruf,inferred,,
+sera-congiuntivo-presente-2s,sera,congiuntivo presente,2s,ta serat,inferred,,
+sera-congiuntivo-presente-3p,sera,congiuntivo presente,3p,i seran,inferred,,
+sera-congiuntivo-presente-3s,sera,congiuntivo presente,3s,la/al sera,inferred,,
+sera-futuro-1p,sera,futuro,1p,serarem,inferred,,
+sera-futuro-1s,sera,futuro,1s,serarò,inferred,,
+sera-futuro-2p,sera,futuro,2p,serarii,inferred,,
+sera-futuro-2s,sera,futuro,2s,ta seraré,inferred,,
+sera-futuro-3p,sera,futuro,3p,i seraran,inferred,,
+sera-futuro-3s,sera,futuro,3s,la serarà,attested,,ul-nos-topolino[l.686]
+sera-futuro-prossimo-1p,sera,futuro prossimo,1p,avrem seràa,inferred,,
+sera-futuro-prossimo-1s,sera,futuro prossimo,1s,avrò seràa,inferred,,
+sera-futuro-prossimo-2p,sera,futuro prossimo,2p,avrii seràa,inferred,,
+sera-futuro-prossimo-2s,sera,futuro prossimo,2s,ta avré seràa,inferred,,
+sera-futuro-prossimo-3p,sera,futuro prossimo,3p,i avran seràa,inferred,,
+sera-futuro-prossimo-3s,sera,futuro prossimo,3s,l’avrà seràa,inferred,,
+sera-gerundio,sera,gerundio,,serando,inferred,,
+sera-imperativo-1p,sera,imperativo,1p,serem,inferred,,
+sera-imperativo-2p,sera,imperativo,2p,serii,inferred,,
+sera-imperativo-2s,sera,imperativo,2s,sera,inferred,,
+sera-imperativo-negativo-1p,sera,imperativo negativo,1p,serem mia,inferred,,
+sera-imperativo-negativo-2p,sera,imperativo negativo,2p,serii mia,inferred,,
+sera-imperativo-negativo-2s,sera,imperativo negativo,2s,sera mia,inferred,,
+sera-imperfetto-1p,sera,imperfetto,1p,seravum,inferred,,
+sera-imperfetto-1s,sera,imperfetto,1s,serava,inferred,,
+sera-imperfetto-2p,sera,imperfetto,2p,seravuf,inferred,,
+sera-imperfetto-2s,sera,imperfetto,2s,ta seravat,inferred,,
+sera-imperfetto-3p,sera,imperfetto,3p,i seravan,inferred,,
+sera-imperfetto-3s,sera,imperfetto,3s,la/al serava,inferred,,
+sera-participio-passato,sera,participio passato,,seràa,attested,,il-condizionale-passato[l.28]
+sera-passato-prossimo-1p,sera,passato prossimo,1p,em seràa,inferred,,
+sera-passato-prossimo-1s,sera,passato prossimo,1s,u seràa,inferred,,
+sera-passato-prossimo-2p,sera,passato prossimo,2p,ii seràa,inferred,,
+sera-passato-prossimo-2s,sera,passato prossimo,2s,te seràa,inferred,,
+sera-passato-prossimo-3p,sera,passato prossimo,3p,i an seràa,inferred,,
+sera-passato-prossimo-3s,sera,passato prossimo,3s,l’a seràa,inferred,,
+sera-presente-1p,sera,presente,1p,serum,inferred,,
+sera-presente-1s,sera,presente,1s,seri,inferred,,
+sera-presente-2p,sera,presente,2p,seruf,inferred,,
+sera-presente-2s,sera,presente,2s,ta serat,inferred,,
+sera-presente-3p,sera,presente,3p,i seran,inferred,,
+sera-presente-3s,sera,presente,3s,la/al sera,inferred,,
+sera-trapassato-prossimo-1p,sera,trapassato prossimo,1p,evum seràa,inferred,,
+sera-trapassato-prossimo-1s,sera,trapassato prossimo,1s,eva seràa,inferred,,
+sera-trapassato-prossimo-2p,sera,trapassato prossimo,2p,evuf seràa,inferred,,
+sera-trapassato-prossimo-2s,sera,trapassato prossimo,2s,ta evat seràa,inferred,,
+sera-trapassato-prossimo-3p,sera,trapassato prossimo,3p,i evan seràa,inferred,,
+sera-trapassato-prossimo-3s,sera,trapassato prossimo,3s,l’eva seràa,inferred,,
 setas-gio-condizionale-passato-1p,setas-gio,condizionale passato,1p,sa sarium/saressum setaa giò,inferred,,
 setas-gio-condizionale-passato-1s,setas-gio,condizionale passato,1s,ma saria/saress setaa giò,inferred,,
 setas-gio-condizionale-passato-2p,setas-gio,condizionale passato,2p,sa sariuf/saressuf setaa giò,inferred,,
@@ -4357,12 +4425,12 @@ sta-condizionale-passato-2p,sta,condizionale passato,2p,sariuf/saressuf sctai,in
 sta-condizionale-passato-2s,sta,condizionale passato,2s,ta sariat/ta saressat sctai,inferred,,
 sta-condizionale-passato-3p,sta,condizionale passato,3p,i sarian/i saressan sctai,inferred,,
 sta-condizionale-passato-3s,sta,condizionale passato,3s,la/al saria/saressa sctai,inferred,,
-sta-condizionale-presente-1p,sta,condizionale presente,1p,starium/staressum,attested,,
-sta-condizionale-presente-1s,sta,condizionale presente,1s,staria/staress,attested,,
-sta-condizionale-presente-2p,sta,condizionale presente,2p,stariuf/staressuf,attested,,
-sta-condizionale-presente-2s,sta,condizionale presente,2s,stariat/staressat,attested,,
-sta-condizionale-presente-3p,sta,condizionale presente,3p,starian/staressan,attested,,
-sta-condizionale-presente-3s,sta,condizionale presente,3s,staria/staressa,attested,,
+sta-condizionale-presente-1p,sta,condizionale presente,1p,starium/staressum,attested,,il-condizionale-presente[l.68]
+sta-condizionale-presente-1s,sta,condizionale presente,1s,staria/staress,attested,,il-condizionale-presente[l.65]
+sta-condizionale-presente-2p,sta,condizionale presente,2p,stariuf/staressuf,attested,,il-condizionale-presente[l.69]
+sta-condizionale-presente-2s,sta,condizionale presente,2s,stariat/staressat,attested,,il-condizionale-presente[l.66]
+sta-condizionale-presente-3p,sta,condizionale presente,3p,starian/staressan,attested,,il-condizionale-presente[l.70]
+sta-condizionale-presente-3s,sta,condizionale presente,3s,staria/staressa,attested,,il-condizionale-presente[l.67]
 sta-congiuntivo-imperfetto-1p,sta,congiuntivo imperfetto,1p,stassum,inferred,,
 sta-congiuntivo-imperfetto-1s,sta,congiuntivo imperfetto,1s,stassa,inferred,,
 sta-congiuntivo-imperfetto-2p,sta,congiuntivo imperfetto,2p,stassuf,inferred,,
@@ -4697,12 +4765,12 @@ tegni-condizionale-passato-2p,tegni,condizionale passato,2p,avriuf/avressuf tegn
 tegni-condizionale-passato-2s,tegni,condizionale passato,2s,t’avriat/t’avressat tegnüü,inferred,,
 tegni-condizionale-passato-3p,tegni,condizionale passato,3p,i avrian/i avressan tegnüü,inferred,,
 tegni-condizionale-passato-3s,tegni,condizionale passato,3s,l’avria/l’avressa tegnüü,inferred,,
-tegni-condizionale-presente-1p,tegni,condizionale presente,1p,tegnarium/tegnaressum,attested,,
-tegni-condizionale-presente-1s,tegni,condizionale presente,1s,tegnaria/tegnaressa,attested,,
-tegni-condizionale-presente-2p,tegni,condizionale presente,2p,tegnariuf/tegnaressuf,attested,,
-tegni-condizionale-presente-2s,tegni,condizionale presente,2s,tegnariat/tegnaressat,attested,,
-tegni-condizionale-presente-3p,tegni,condizionale presente,3p,tegnarian/tegnaressan,attested,,
-tegni-condizionale-presente-3s,tegni,condizionale presente,3s,tegnaria/tegnaressa,attested,,
+tegni-condizionale-presente-1p,tegni,condizionale presente,1p,tegnarium/tegnaressum,attested,,il-condizionale-presente[l.56]
+tegni-condizionale-presente-1s,tegni,condizionale presente,1s,tegnaria/tegnaressa,attested,,il-condizionale-presente[l.53]
+tegni-condizionale-presente-2p,tegni,condizionale presente,2p,tegnariuf/tegnaressuf,attested,,il-condizionale-presente[l.57]
+tegni-condizionale-presente-2s,tegni,condizionale presente,2s,tegnariat/tegnaressat,attested,,il-condizionale-presente[l.54]
+tegni-condizionale-presente-3p,tegni,condizionale presente,3p,tegnarian/tegnaressan,attested,,il-condizionale-presente[l.58]
+tegni-condizionale-presente-3s,tegni,condizionale presente,3s,tegnaria/tegnaressa,attested,,il-condizionale-presente[l.55]
 tegni-congiuntivo-imperfetto-1p,tegni,congiuntivo imperfetto,1p,tegnissum,inferred,,
 tegni-congiuntivo-imperfetto-1s,tegni,congiuntivo imperfetto,1s,tegnissa,inferred,,
 tegni-congiuntivo-imperfetto-2p,tegni,congiuntivo imperfetto,2p,tegnissuf,inferred,,
@@ -4916,12 +4984,12 @@ tradu-condizionale-passato-2p,tradu,condizionale passato,2p,avriuf/avressuf trad
 tradu-condizionale-passato-2s,tradu,condizionale passato,2s,t’avriat/t’avressat tradüsüü,inferred,,
 tradu-condizionale-passato-3p,tradu,condizionale passato,3p,i avrian/i avressan tradüsüü,inferred,,
 tradu-condizionale-passato-3s,tradu,condizionale passato,3s,l’avria/l’avressa tradüsüü,inferred,,
-tradu-condizionale-presente-1p,tradu,condizionale presente,1p,tradüsarium/tradüsaressum,attested,,
-tradu-condizionale-presente-1s,tradu,condizionale presente,1s,tradüsaria/tradüsaressa,attested,,
-tradu-condizionale-presente-2p,tradu,condizionale presente,2p,tradüsariuf/tradüsaressuf,attested,,
-tradu-condizionale-presente-2s,tradu,condizionale presente,2s,tradüsariat/tradüsaressat,attested,,
-tradu-condizionale-presente-3p,tradu,condizionale presente,3p,tradüsarian/tradüsaressan,attested,,
-tradu-condizionale-presente-3s,tradu,condizionale presente,3s,tradüsaria/tradüsaressa,attested,,
+tradu-condizionale-presente-1p,tradu,condizionale presente,1p,tradüsarium/tradüsaressum,attested,,il-condizionale-presente[l.79]
+tradu-condizionale-presente-1s,tradu,condizionale presente,1s,tradüsaria/tradüsaressa,attested,,il-condizionale-presente[l.76]
+tradu-condizionale-presente-2p,tradu,condizionale presente,2p,tradüsariuf/tradüsaressuf,attested,,il-condizionale-presente[l.80]
+tradu-condizionale-presente-2s,tradu,condizionale presente,2s,tradüsariat/tradüsaressat,attested,,il-condizionale-presente[l.77]
+tradu-condizionale-presente-3p,tradu,condizionale presente,3p,tradüsarian/tradüsaressan,attested,,il-condizionale-presente[l.81]
+tradu-condizionale-presente-3s,tradu,condizionale presente,3s,tradüsaria/tradüsaressa,attested,,il-condizionale-presente[l.78]
 tradu-congiuntivo-imperfetto-1p,tradu,congiuntivo imperfetto,1p,tradüsessum,inferred,,
 tradu-congiuntivo-imperfetto-1s,tradu,congiuntivo imperfetto,1s,tradüsessa,inferred,,
 tradu-congiuntivo-imperfetto-2p,tradu,congiuntivo imperfetto,2p,tradüsessuf,inferred,,
@@ -5256,12 +5324,12 @@ vede-condizionale-passato-2p,vede,condizionale passato,2p,avriuf/avressuf visct,
 vede-condizionale-passato-2s,vede,condizionale passato,2s,t’avriat/t’avressat visct,attested,,il-condizionale-passato[l.6]
 vede-condizionale-passato-3p,vede,condizionale passato,3p,i’avrian /i’avaressan visct,attested,,il-condizionale-passato[l.10]
 vede-condizionale-passato-3s,vede,condizionale passato,3s,l’avria/l’avressa visct,attested,,il-condizionale-passato[l.7]
-vede-condizionale-presente-1p,vede,condizionale presente,1p,vedaressum,attested,,
-vede-condizionale-presente-1s,vede,condizionale presente,1s,vedaria/vedaressa,attested,,
-vede-condizionale-presente-2p,vede,condizionale presente,2p,vedaressuf,attested,,
-vede-condizionale-presente-2s,vede,condizionale presente,2s,ta vedaressat,attested,,
-vede-condizionale-presente-3p,vede,condizionale presente,3p,vedarian/vedaressan,attested,,
-vede-condizionale-presente-3s,vede,condizionale presente,3s,vedaria/vedaressa,attested,,
+vede-condizionale-presente-1p,vede,condizionale presente,1p,vedaressum,attested,,il-condizionale-presente[l.40]
+vede-condizionale-presente-1s,vede,condizionale presente,1s,vedaria/vedaressa,attested,,il-condizionale-presente[l.37]
+vede-condizionale-presente-2p,vede,condizionale presente,2p,vedaressuf,attested,,il-condizionale-presente[l.41]
+vede-condizionale-presente-2s,vede,condizionale presente,2s,ta vedaressat,attested,,il-condizionale-presente[l.38]
+vede-condizionale-presente-3p,vede,condizionale presente,3p,vedarian/vedaressan,attested,,il-condizionale-presente[l.42]
+vede-condizionale-presente-3s,vede,condizionale presente,3s,vedaria/vedaressa,attested,,il-condizionale-presente[l.39]
 vede-congiuntivo-imperfetto-1p,vede,congiuntivo imperfetto,1p,vedessum,inferred,,
 vede-congiuntivo-imperfetto-1s,vede,congiuntivo imperfetto,1s,vedessa,inferred,,
 vede-congiuntivo-imperfetto-2p,vede,congiuntivo imperfetto,2p,vedessuf,inferred,,
@@ -5318,30 +5386,30 @@ vede-trapassato-prossimo-2p,vede,trapassato prossimo,2p,evuf visct,inferred,,
 vede-trapassato-prossimo-2s,vede,trapassato prossimo,2s,ta evat visct,inferred,,
 vede-trapassato-prossimo-3p,vede,trapassato prossimo,3p,i evan visct,inferred,,
 vede-trapassato-prossimo-3s,vede,trapassato prossimo,3s,l’eva visct,inferred,,
-vegh-condizionale-passato-1p,vegh,condizionale passato,1p,gh’avrium/gh’avressum vüü,attested,,il-condizionale-passato[l.18]
-vegh-condizionale-passato-1s,vegh,condizionale passato,1s,gh’avria /gh’avressa vüü,attested,,il-condizionale-passato[l.15]
-vegh-condizionale-passato-2p,vegh,condizionale passato,2p,gh’avriuf/gh’avressuf vüü,attested,,il-condizionale-passato[l.19]
-vegh-condizionale-passato-2s,vegh,condizionale passato,2s,ta gh’avriat / ta gh’avressat vüü,attested,,il-condizionale-passato[l.16]
-vegh-condizionale-passato-3p,vegh,condizionale passato,3p,i gh’avrian/i gh’avressan vüü,attested,,il-condizionale-passato[l.20]
-vegh-condizionale-passato-3s,vegh,condizionale passato,3s,al gh’avria/al gh’avressa / la gh’avria/la gh’avressa vüü,attested,,il-condizionale-passato[l.17]
-vegh-condizionale-presente-1p,vegh,condizionale presente,1p,gh’avrium/gh’avressum,attested,,
-vegh-condizionale-presente-1s,vegh,condizionale presente,1s,gh’avria/gh’avressa,attested,,
-vegh-condizionale-presente-2p,vegh,condizionale presente,2p,gh’avressuf,attested,,
-vegh-condizionale-presente-2s,vegh,condizionale presente,2s,ta gh’avressat,attested,,
-vegh-condizionale-presente-3p,vegh,condizionale presente,3p,i gh’avrian/gh’avressan,attested,,
-vegh-condizionale-presente-3s,vegh,condizionale presente,3s,la/al gh’avria/gh’avressa,attested,,
-vegh-congiuntivo-imperfetto-1p,vegh,congiuntivo imperfetto,1p,gh’avessum,inferred,,
-vegh-congiuntivo-imperfetto-1s,vegh,congiuntivo imperfetto,1s,gh’avess,attested,,il-condizionale-presente[l.123]
-vegh-congiuntivo-imperfetto-2p,vegh,congiuntivo imperfetto,2p,gh’avessuf,inferred,,
-vegh-congiuntivo-imperfetto-2s,vegh,congiuntivo imperfetto,2s,ta gh’avessat,inferred,,
-vegh-congiuntivo-imperfetto-3p,vegh,congiuntivo imperfetto,3p,i gh’avessan,inferred,,
-vegh-congiuntivo-imperfetto-3s,vegh,congiuntivo imperfetto,3s,la/al gh’avess,inferred,,
-vegh-congiuntivo-presente-1p,vegh,congiuntivo presente,1p,gh’abium,inferred,,
-vegh-congiuntivo-presente-1s,vegh,congiuntivo presente,1s,gh’abia,inferred,,
-vegh-congiuntivo-presente-2p,vegh,congiuntivo presente,2p,gh’abiuf,inferred,,
-vegh-congiuntivo-presente-2s,vegh,congiuntivo presente,2s,ta gh’abiat,inferred,,
-vegh-congiuntivo-presente-3p,vegh,congiuntivo presente,3p,i g’abbia,attested,,domande-di-vario-tipo[l.114]
-vegh-congiuntivo-presente-3s,vegh,congiuntivo presente,3s,la/al gh’abia,inferred,,
+vegh-condizionale-passato-1p,vegh,condizionale passato,1p,avrium/avressum vüü,attested,,il-condizionale-passato[l.18]
+vegh-condizionale-passato-1s,vegh,condizionale passato,1s,avria /avressa vüü,attested,,il-condizionale-passato[l.15]
+vegh-condizionale-passato-2p,vegh,condizionale passato,2p,avriuf/avressuf vüü,attested,,il-condizionale-passato[l.19]
+vegh-condizionale-passato-2s,vegh,condizionale passato,2s,t’avriat / t’avressat vüü,attested,,il-condizionale-passato[l.16]
+vegh-condizionale-passato-3p,vegh,condizionale passato,3p,i avrian/i avressan vüü,attested,,il-condizionale-passato[l.20]
+vegh-condizionale-passato-3s,vegh,condizionale passato,3s,l’avria/l’avressa vüü,attested,,il-condizionale-passato[l.17]
+vegh-condizionale-presente-1p,vegh,condizionale presente,1p,avrium/avressum,attested,,il-condizionale-presente[l.17]
+vegh-condizionale-presente-1s,vegh,condizionale presente,1s,avria/avressa,attested,,il-condizionale-presente[l.14]
+vegh-condizionale-presente-2p,vegh,condizionale presente,2p,avressuf,attested,,il-condizionale-presente[l.18]
+vegh-condizionale-presente-2s,vegh,condizionale presente,2s,t’avressat,attested,,il-condizionale-presente[l.15]
+vegh-condizionale-presente-3p,vegh,condizionale presente,3p,i avrian/avressan,attested,,il-condizionale-presente[l.19]
+vegh-condizionale-presente-3s,vegh,condizionale presente,3s,l’avria/avressa,attested,,il-condizionale-presente[l.16]
+vegh-congiuntivo-imperfetto-1p,vegh,congiuntivo imperfetto,1p,avessum,inferred,,
+vegh-congiuntivo-imperfetto-1s,vegh,congiuntivo imperfetto,1s,avess,attested,,il-condizionale-presente[l.123]
+vegh-congiuntivo-imperfetto-2p,vegh,congiuntivo imperfetto,2p,avessuf,inferred,,
+vegh-congiuntivo-imperfetto-2s,vegh,congiuntivo imperfetto,2s,t’avessat,inferred,,
+vegh-congiuntivo-imperfetto-3p,vegh,congiuntivo imperfetto,3p,i avessan,inferred,,
+vegh-congiuntivo-imperfetto-3s,vegh,congiuntivo imperfetto,3s,l’avess,inferred,,
+vegh-congiuntivo-presente-1p,vegh,congiuntivo presente,1p,abium,inferred,,
+vegh-congiuntivo-presente-1s,vegh,congiuntivo presente,1s,abia,inferred,,
+vegh-congiuntivo-presente-2p,vegh,congiuntivo presente,2p,abiuf,inferred,,
+vegh-congiuntivo-presente-2s,vegh,congiuntivo presente,2s,t’abiat,inferred,,
+vegh-congiuntivo-presente-3p,vegh,congiuntivo presente,3p,i abbia,attested,,domande-di-vario-tipo[l.114]
+vegh-congiuntivo-presente-3s,vegh,congiuntivo presente,3s,l’abia,inferred,,
 vegh-futuro-1p,vegh,futuro,1p,gavrem / gavarem,attested,,
 vegh-futuro-1s,vegh,futuro,1s,gavroo / gavarò,attested,,
 vegh-futuro-2p,vegh,futuro,2p,gavrii / gavarii,attested,,
@@ -5392,12 +5460,12 @@ vegni-condizionale-passato-2p,vegni,condizionale passato,2p,sariuf/saressuf vegn
 vegni-condizionale-passato-2s,vegni,condizionale passato,2s,ta sariat/ta saressat vegnüü /da,attested,,il-condizionale-passato[l.6]
 vegni-condizionale-passato-3p,vegni,condizionale passato,3p,i sarian / i saressan vegnüü,attested,,il-condizionale-passato[l.10]
 vegni-condizionale-passato-3s,vegni,condizionale passato,3s,la/al saria/la/al saressa vegnüü /da,attested,,il-condizionale-passato[l.7]
-vegni-condizionale-presente-1p,vegni,condizionale presente,1p,vegnarium/vegnaressum,attested,,
-vegni-condizionale-presente-1s,vegni,condizionale presente,1s,vegnaria/vegnaressa,attested,,
-vegni-condizionale-presente-2p,vegni,condizionale presente,2p,vegnariuf/vegnaressuf,attested,,
-vegni-condizionale-presente-2s,vegni,condizionale presente,2s,vegnariat/vegnaressat,attested,,
-vegni-condizionale-presente-3p,vegni,condizionale presente,3p,vegnarian/vegnaressan,attested,,
-vegni-condizionale-presente-3s,vegni,condizionale presente,3s,vegnaria/vegnaressa,attested,,
+vegni-condizionale-presente-1p,vegni,condizionale presente,1p,vegnarium/vegnaressum,attested,,il-condizionale-presente[l.56]
+vegni-condizionale-presente-1s,vegni,condizionale presente,1s,vegnaria/vegnaressa,attested,,il-condizionale-presente[l.53]
+vegni-condizionale-presente-2p,vegni,condizionale presente,2p,vegnariuf/vegnaressuf,attested,,il-condizionale-presente[l.57]
+vegni-condizionale-presente-2s,vegni,condizionale presente,2s,vegnariat/vegnaressat,attested,,il-condizionale-presente[l.54]
+vegni-condizionale-presente-3p,vegni,condizionale presente,3p,vegnarian/vegnaressan,attested,,il-condizionale-presente[l.58]
+vegni-condizionale-presente-3s,vegni,condizionale presente,3s,vegnaria/vegnaressa,attested,,il-condizionale-presente[l.55]
 vegni-congiuntivo-imperfetto-1p,vegni,congiuntivo imperfetto,1p,vegnissum,inferred,,
 vegni-congiuntivo-imperfetto-1s,vegni,congiuntivo imperfetto,1s,vegnissa,inferred,,
 vegni-congiuntivo-imperfetto-2p,vegni,congiuntivo imperfetto,2p,vegnissuf,inferred,,
@@ -5528,12 +5596,12 @@ ves-condizionale-passato-2p,ves,condizionale passato,2p,sariuf/saressuf stai,att
 ves-condizionale-passato-2s,ves,condizionale passato,2s,ta sariat/ta saressat stai/a,attested,,il-condizionale-passato[l.16]
 ves-condizionale-passato-3p,ves,condizionale passato,3p,i sarian /i saressan stai,attested,,il-condizionale-passato[l.20]
 ves-condizionale-passato-3s,ves,condizionale passato,3s,al saria / saressa stai / la saria / saressa staia,attested,,il-condizionale-passato[l.17]
-ves-condizionale-presente-1p,ves,condizionale presente,1p,sarium/saressum,attested,,
-ves-condizionale-presente-1s,ves,condizionale presente,1s,saria/saressa,attested,,
-ves-condizionale-presente-2p,ves,condizionale presente,2p,saressuf,attested,,
-ves-condizionale-presente-2s,ves,condizionale presente,2s,ta saressat,attested,,
-ves-condizionale-presente-3p,ves,condizionale presente,3p,i sarian/saressan,attested,,
-ves-condizionale-presente-3s,ves,condizionale presente,3s,la/al saria/saressa,attested,,
+ves-condizionale-presente-1p,ves,condizionale presente,1p,sarium/saressum,attested,,il-condizionale-presente[l.17]
+ves-condizionale-presente-1s,ves,condizionale presente,1s,saria/saressa,attested,,il-condizionale-presente[l.14]
+ves-condizionale-presente-2p,ves,condizionale presente,2p,saressuf,attested,,il-condizionale-presente[l.18]
+ves-condizionale-presente-2s,ves,condizionale presente,2s,ta saressat,attested,,il-condizionale-presente[l.15]
+ves-condizionale-presente-3p,ves,condizionale presente,3p,i sarian/saressan,attested,,il-condizionale-presente[l.19]
+ves-condizionale-presente-3s,ves,condizionale presente,3s,la/al saria/saressa,attested,,il-condizionale-presente[l.16]
 ves-congiuntivo-imperfetto-1p,ves,congiuntivo imperfetto,1p,füdessum,attested,,il-condizionale-presente[l.131]
 ves-congiuntivo-imperfetto-1s,ves,congiuntivo imperfetto,1s,füdessa,attested,,il-condizionale-presente[l.129]
 ves-congiuntivo-imperfetto-2p,ves,congiuntivo imperfetto,2p,füdessuf,inferred,,
@@ -5596,12 +5664,12 @@ vif-condizionale-passato-2p,vif,condizionale passato,2p,avriuf/avressuf vivüü,
 vif-condizionale-passato-2s,vif,condizionale passato,2s,t’avriat/t’avressat vivüü,inferred,,
 vif-condizionale-passato-3p,vif,condizionale passato,3p,i avrian/i avressan vivüü,inferred,,
 vif-condizionale-passato-3s,vif,condizionale passato,3s,l’avria/l’avressa vivüü,inferred,,
-vif-condizionale-presente-1p,vif,condizionale presente,1p,vivaressum,attested,,
-vif-condizionale-presente-1s,vif,condizionale presente,1s,vivaria/vivaressa,attested,,
-vif-condizionale-presente-2p,vif,condizionale presente,2p,vivaressuf,attested,,
-vif-condizionale-presente-2s,vif,condizionale presente,2s,vivaressat,attested,,
-vif-condizionale-presente-3p,vif,condizionale presente,3p,vivarian/vivaressan,attested,,
-vif-condizionale-presente-3s,vif,condizionale presente,3s,vivaria/vivaressa,attested,,
+vif-condizionale-presente-1p,vif,condizionale presente,1p,vivaressum,attested,,il-condizionale-presente[l.40]
+vif-condizionale-presente-1s,vif,condizionale presente,1s,vivaria/vivaressa,attested,,il-condizionale-presente[l.37]
+vif-condizionale-presente-2p,vif,condizionale presente,2p,vivaressuf,attested,,il-condizionale-presente[l.41]
+vif-condizionale-presente-2s,vif,condizionale presente,2s,vivaressat,attested,,il-condizionale-presente[l.38]
+vif-condizionale-presente-3p,vif,condizionale presente,3p,vivarian/vivaressan,attested,,il-condizionale-presente[l.42]
+vif-condizionale-presente-3s,vif,condizionale presente,3s,vivaria/vivaressa,attested,,il-condizionale-presente[l.39]
 vif-congiuntivo-imperfetto-1p,vif,congiuntivo imperfetto,1p,vivessum,inferred,,
 vif-congiuntivo-imperfetto-1s,vif,congiuntivo imperfetto,1s,vivessa,inferred,,
 vif-congiuntivo-imperfetto-2p,vif,congiuntivo imperfetto,2p,vivessuf,inferred,,
@@ -5732,12 +5800,12 @@ vore-condizionale-passato-2p,vore,condizionale passato,2p,avriuf/avressuf vurü�
 vore-condizionale-passato-2s,vore,condizionale passato,2s,t’avriat/t’avressat vurüü,inferred,,
 vore-condizionale-passato-3p,vore,condizionale passato,3p,i avrian/i avressan vurüü,inferred,,
 vore-condizionale-passato-3s,vore,condizionale passato,3s,l’avria/l’avressa vurüü,inferred,,
-vore-condizionale-presente-1p,vore,condizionale presente,1p,vörarium/vöraressum,attested,,
-vore-condizionale-presente-1s,vore,condizionale presente,1s,vöraria/vöraressa,attested,,
-vore-condizionale-presente-2p,vore,condizionale presente,2p,vörariuf/vöraressuf,attested,,
-vore-condizionale-presente-2s,vore,condizionale presente,2s,vörariat/vöraressat,attested,,
-vore-condizionale-presente-3p,vore,condizionale presente,3p,vörarian/vöraressan,attested,,
-vore-condizionale-presente-3s,vore,condizionale presente,3s,vöraria/vöraressa,attested,,
+vore-condizionale-presente-1p,vore,condizionale presente,1p,vörarium/vöraressum,attested,,il-condizionale-presente[l.56]
+vore-condizionale-presente-1s,vore,condizionale presente,1s,vöraria/vöraressa,attested,,il-condizionale-presente[l.53]
+vore-condizionale-presente-2p,vore,condizionale presente,2p,vörariuf/vöraressuf,attested,,il-condizionale-presente[l.57]
+vore-condizionale-presente-2s,vore,condizionale presente,2s,vörariat/vöraressat,attested,,il-condizionale-presente[l.54]
+vore-condizionale-presente-3p,vore,condizionale presente,3p,vörarian/vöraressan,attested,,il-condizionale-presente[l.58]
+vore-condizionale-presente-3s,vore,condizionale presente,3s,vöraria/vöraressa,attested,,il-condizionale-presente[l.55]
 vore-congiuntivo-imperfetto-1p,vore,congiuntivo imperfetto,1p,vuressum,inferred,,
 vore-congiuntivo-imperfetto-1s,vore,congiuntivo imperfetto,1s,vuressa,inferred,,
 vore-congiuntivo-imperfetto-2p,vore,congiuntivo imperfetto,2p,vuressuf,inferred,,

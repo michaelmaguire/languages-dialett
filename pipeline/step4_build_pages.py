@@ -43,7 +43,7 @@ IMPERATIVE = "imperativo negativo"
 ALL_TENSES = INDICATIVE + CONDITIONAL + SUBJUNCTIVE + ["imperativo", IMPERATIVE, "gerundio", "participio passato"]
 # articles are ignored when sorting; the lessons also write pairs such as "il/un gallo", "al/un gal"
 IT_ARTICLE = re.compile(r"^(?:(?:il|lo|la|i|gli|le|un|uno|una)(?:/(?:un|uno|una|ul|un['’]))?\s+|l['’](?:/(?:una|un['’]?))?\s*)", re.I)
-DI_ARTICLE = re.compile(r"^(?:(?:al|ul|el|la|i|un|na|una)(?:/(?:un|na|una|n['’]))?\s+|l['’](?:/n['’])?\s*|['‘]l\s+)", re.I)
+DI_ARTICLE = re.compile(r"^(?:(?:al|ul|el|la|i|un|na|una)(?:/(?:un|na|una|n['’]))?\s+|l['’](?:/n['’])?\s*|['‘’][ln]\s+)", re.I)
 EN_ARTICLE = re.compile(r"^(?:the/an?|the|an?|to)\s+", re.I)
 FLAG = " ⚠"
 
@@ -246,6 +246,34 @@ def reassign_verb_forms(verbs):
     return verbs
 
 
+def drop_particle(form, particles):
+    """etc/verb_details.csv `drop_particle`: a particle that is not part of the verb (the gh’ of 'gh’avria',
+    like French y), taken out, with the clitic before a vowel then elided: 'ta gh’avressat' -> 't’avressat',
+    'al gh’avria/al gh’avressa / la gh’avria/la gh’avressa vüü' -> 'l’avria/l’avressa vüü'."""
+    for p in particles:
+        pat = re.sub(r"['’]", "['’]", re.escape(p.strip()))
+        form = re.sub(rf"(?<![\w’']){pat}\s*", "", form)
+    form = re.sub(r"\b(?:la/al|al/la)\s+(?=[aeiouàèéìòóùöü])", "l’", form)
+    form = re.sub(r"(?<![\w’])(?:al|la)\s+(?=[aeiouàèéìòóùöü])", "l’", form)
+    form = re.sub(r"(?<![\w’])ta\s+(?=[aeiouàèéìòóùöü])", "t’", form)
+    m = re.match(r"^(.+) / \1(\s.*)?$", form)            # both clitics written out, now the same
+    return (m.group(1) + (m.group(2) or "")) if m else form
+
+
+def shown_form(name, tense, form, manual):
+    """A verb form as the pages show it, so that the lexicon cites its source under the same spelling."""
+    form = clitic_order(form)
+    if tense == "condizionale presente":
+        form = join_endings(form).lower()
+    m = manual.get(key(name), {})
+    if m.get("drop_particle") and tense in (m.get("drop_particle_tenses") or "").split(";"):
+        form = drop_particle(form, m["drop_particle"].split(";"))
+    return form
+
+
+CONFIRMED_BASIS = ("attested", "confirmed")     # verb_forms_from_texts: found in a document, or confirmed by the owner
+
+
 def verb_tables(verbs):
     """Group conjugated forms by verb. etc/verb_details.csv supplies what the documents do not state
     outright: which entries are the same verb, and the dialect infinitive where it had to be
@@ -270,9 +298,7 @@ def verb_tables(verbs):
             e["aliases"].append(alias)
         if v["verb_dialect"] and v["verb_dialect"] not in e["dialect"]:
             e["dialect"].append(v["verb_dialect"])
-        v = dict(v, form=clitic_order(v["form"]))
-        if v["tense"] == "condizionale presente":
-            v = dict(v, form=join_endings(v["form"]).lower())
+        v = dict(v, form=shown_form(name, v["tense"], v["form"], manual))
         if key(v["form"]) in ("ma", "ta", "sa", "i", "la/al", "al/la", "a"):      # a stray clitic, not a form
             continue
         slot = e["forms"][v["tense"]][v["person"]]
@@ -308,7 +334,7 @@ def verb_tables(verbs):
                 e["aliases"].append(alias.strip())      # töö is also 'prendere', which names ciapà's page
     extra = defaultdict(list)
     for r in read(ETC / "verb_forms_from_texts.csv"):
-        extra[key(r["italian"])].append(r)
+        extra[key(r["italian"])].append(dict(r, form=shown_form(r["italian"], r["tense"], r["form"], manual)))
     done = {}
     for name in sorted(out, key=lambda n: n not in ("andare", "fare")):     # bases before na föra, fa sù
         out[name]["grid"] = done[name] = full_grid(name, out[name], manual, extra, done)
@@ -463,7 +489,7 @@ def full_grid(name, e, manual, extra, done):
     attested = {t: {s: list(f) for s, f in row.items()} for t, row in e["forms"].items() if t not in skip}
     predicted_extra = {}
     for r in extra.get(key(name), []):
-        if r["basis"] == "attested":
+        if r["basis"] in CONFIRMED_BASIS:
             cell = attested.setdefault(r["tense"], {}).setdefault(r["person"], [])
             if clitic_order(r["form"]) not in cell:
                 cell.append(clitic_order(r["form"]))
@@ -493,7 +519,7 @@ def full_grid(name, e, manual, extra, done):
         predicted.setdefault(t, {}).update(row)        # ves, vegh, na, fa ... have no class model
     for t, row in predicted_extra.items():
         predicted.setdefault(t, {}).update(row)
-    predicted = {t: {s: clitic_order(f) for s, f in row.items()} for t, row in predicted.items()}
+    predicted = {t: {s: shown_form(name, t, f, manual) for s, f in row.items()} for t, row in predicted.items()}
     # an attested negative imperative gives the positive one: drop "mia"
     for s, forms in attested.get(IMPERATIVE, {}).items():
         positive = re.sub(r"\s+mia\b", "", forms[0])

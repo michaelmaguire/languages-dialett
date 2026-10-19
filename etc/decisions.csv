@@ -78,7 +78,7 @@ typo,rogn,caco frutto cachi,,caco,,,,"Claude inferred: lesson 14 line ""tree, fr
 reject,ticinese,"l’è pü bianch,",,,,,,Claude inferred: fragment of a line of poetry cut mid-sentence,2026-10-14
 reject,ticinese,l’è tanta e s’è smorzàt,,,,,,Claude inferred: fragment of a line of poetry cut mid-sentence,2026-10-14
 reject,ticinese,ma summ,,,,,,"Claude inferred: fragment of a line of poetry; ""mi sono = I have"" is not a usable entry",2026-10-14
-variant,rogn,magià,,mangià,,,,"Claude inferred: lesson 1–2 spells the verb mangià as magià (""mangiare (magià)"")",2026-10-14
+typo,rogn,magià,,mangià,,,,"Lesson 1–2 writes ""mangiare (magià)""; the owner says magià is a typo, only mangià is correct",2026-10-19
 reject,rogn,"marco: “Ok, grazie”.",,,,,,"Claude inferred: a line of dialogue with the speaker's name, not a dictionary word",2026-10-14
 accept,rogn,mei tardi che mai,,,,,,Claude inferred: correct pair,2026-10-14
 correct,ticinese,miglio,,,,milione,million,"Claude inferred: Italian misspelt ""millione"" in the spreadsheet",2026-10-14

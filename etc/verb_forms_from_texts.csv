@@ -16,7 +16,7 @@ dire,presente,3p,i disan,attested,,
 vivere,presente,3s,la/al vif,attested,,
 vivere,presente,1p,vivum,attested,,
 vivere,presente,3p,i vivan,attested,,
-sapere,presente,2s,ta set,inferred,,
+sapere,presente,2s,ta set,confirmed,,
 sapere,presente,3p,i sa,inferred,,
 condurre,presente,1s,meni,attested,,
 condurre,presente,2s,ta menat,attested,,
@@ -90,3 +90,7 @@ dire,condizionale presente,1s,disaria,attested,dialoghi a Lugano.pdf,310
 dire,condizionale presente,2s,ta disaressat,attested,domande di vario tipo.docx,142
 dire,congiuntivo imperfetto,3s,al disess,attested,frasi fai 1 - Copia.docx,80
 avere,congiuntivo imperfetto,1s,gh’avess,attested,Il Condizionale Presente.docx,123
+sapere,presente,3s,la/al sa,confirmed,,
+adoperare,futuro,2s,ta dopraré,confirmed,,
+chiudere,participio passato,-,seràa,attested,Il Condizionale Passato.docx,28
+chiudere,futuro,3s,la serarà,attested,ul nos Topolino.pdf,686

@@ -184,8 +184,9 @@ la-una-galina-la-una-galina,galina,la/una galina,article,accepted,the form writt
 la-zia-la-zia,zia,la zia,article,accepted,the form written in the source,cors-da-dialet-da-rogn-19a-leziun[l.24]
 lunedi-lunedi,lunedi,lünedì,spelling,accepted,"Claude: all these spellings occur in the Rögn lessons (same word, different accent or doubled letter); all accepted",cors-da-dialet-da-rogn-6a-leziun[l.87]
 mamm-mam,mamm,mam,spelling,accepted,"Claude: all these spellings occur in the Rögn lessons (same word, different accent or doubled letter); all accepted",cors-da-dialett-da-rogn-4a-leziun[l.118]
-mangia-magia,mangia,magià,spelling,accepted,"Claude inferred: lesson 1–2 spells the verb mangià as magià (""mangiare (magià)""); decided 2026-10-14",cors-da-dialett-da-rogn-lezium-1-e-2[l.165]
+mangia-magia,mangia,magià,typo,typo,"Lesson 1–2 writes ""mangiare (magià)""; the owner says magià is a typo, only mangià is correct; decided 2026-10-19",cors-da-dialett-da-rogn-lezium-1-e-2[l.165]
 met-mett,met,mett,spelling,accepted,"Claude: all these spellings occur in the Rögn lessons (same word, different accent or doubled letter); all accepted",cors-da-dialett-da-rogn-3a-leziun;il-gerundio;imperativo;cors-da-dialett-da-rogn-3a-leziun[l.200]
+n-senvic-n-senvic,senvic,’n senvic,article,accepted,the form written in the source,owner-notes[l.5]
 na-gio-n-agio,na-gio,n agiò,typo,typo,Claude inferred: same verb as na giò; the space is in the wrong place; decided 2026-10-14,cors-da-dialett-da-rogn-lezium-1-e-2[l.140]
 na-na,na,nà,spelling,accepted,"Claude: all these spellings occur in the Rögn lessons (same word, different accent or doubled letter); all accepted",cors-da-dialet-da-rogn-8a-leziun;cors-da-dialett-da-rogn-lezium-1-e-2;il-condizionale-presente;cors-da-dialet-da-rogn-17a-leziun;il-gerundio;imperativo;cors-da-dialet-da-rogn-8a-leziun[l.57]
 ndua-ticinese-2-ndua,ndua-ticinese,`ndua,typo,typo,Claude inferred: backtick typed for the apostrophe; decided 2026-10-14,owner-spreadsheet
@@ -196,8 +197,7 @@ pe-pee,pe,pée,spelling,accepted,"Claude: all these spellings occur in the Rögn
 pe-pee-2,pe,pee,spelling,accepted,"Claude: all these spellings occur in the Rögn lessons (same word, different accent or doubled letter); all accepted",cors-da-dialett-da-rogn-4a-leziun[l.113]
 per-per-frutto-pera,per,per frutto pèra,typo,typo,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree; the fruit is pèra; decided 2026-10-14",cors-da-dialet-da-rogn-14a-leziun[l.23]
 piatt-piat,piatt,piat,spelling,accepted,"Claude: all these spellings occur in the Rögn lessons (same word, different accent or doubled letter); all accepted",cors-da-dialett-da-rogn-5a-leziun[l.29]
-pode-pude,pode,pudé,spelling,accepted,,cors-da-dialett-da-rogn-lezium-1-e-2;il-condizionale-presente;cors-da-dialet-da-rogn-18a-leziun
-pode-pude-2,pode,pudé,spelling,accepted,Claude inferred: lesson 18 spelling of the verb podé; decided 2026-10-14,cors-da-dialet-da-rogn-18a-leziun[l.18]
+pode-pude,pode,pudé,spelling,accepted,Claude inferred: lesson 18 spelling of the verb podé; decided 2026-10-14,cors-da-dialett-da-rogn-lezium-1-e-2;il-condizionale-presente;cors-da-dialet-da-rogn-18a-leziun;cors-da-dialet-da-rogn-18a-leziun[l.18]
 produ-fa,produ,fà,spelling,accepted,,il-condizionale-presente
 ravanel-ravanei-ravanel-ravanei,ravanel,ravanel (ravanei),article,accepted,the form written in the source,cors-da-dialett-da-rogn-4a-leziun[l.14]
 ros-ross,ros,ross,spelling,accepted,"Claude: all these spellings occur in the Rögn lessons (same word, different accent or doubled letter); all accepted",cors-da-dialett-da-rogn-lezium-1-e-2[l.218]
@@ -263,6 +263,7 @@ umbrela-umbrela,umbrela,umbrela,spelling,accepted,"Claude: all these spellings o
 un-corp-ticinese-un-corp,corp-ticinese,un còrp,article,accepted,the form written in the source,2025-02-19-poesie-in-dialetto[l.3]
 un-di-ticinese-2-un-di,di-ticinese,"un dì,",typo,typo,Claude inferred: trailing comma from the poem line; decided 2026-10-14,2025-02-19-poesie-in-dialetto[l.50]
 un-di-ticinese-2-un-di-2,di-ticinese,un dì,article,accepted,the form written in the source,2025-02-19-poesie-in-dialetto[l.50]
+un-fuieet-un-fuieet,fuieet,un fuieet,article,accepted,the form written in the source,owner-notes[l.7]
 un-oov-ticinese-un-oov,oov-ticinese,un ööv,article,accepted,the form written in the source,owner-spreadsheet
 un-sognasc-ticinese-un-sognasc,sognasc-ticinese,un sögnasc,article,accepted,the form written in the source,owner-spreadsheet
 vegh-pagura-avech-pagura,vegh-pagura,avech pagüra,spelling,accepted,Owner: the Rögn form is vegh pagüra (the course writes veg pagüra in espressioni in italiano); decided 2026-10-14,dizionario-con-filastrocche-di-r-gaggini[l.236]

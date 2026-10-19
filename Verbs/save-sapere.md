@@ -17,8 +17,8 @@
 |  | Presente | Futuro | Futuro prossimo † |
 |---|---|---|---|
 | *mi* | so | savarò † | avrò savüü |
-| *ti* | ta set † | ta savaré † | ta avré savüü |
-| *le / lü* | la/al sa † | la/al savarà † | l’avrà savüü |
+| *ti* | ta set | ta savaré † | ta avré savüü |
+| *le / lü* | la/al sa | la/al savarà † | l’avrà savüü |
 | *nüm* | savum † | savarem † | avrem savüü |
 | *vialtri* | savuf † | savarii † | avrii savüü |
 | *lur* | i sa † | i savaran | i avran savüü |

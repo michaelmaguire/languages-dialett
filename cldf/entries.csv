@@ -171,6 +171,7 @@ cioo,rogn,cioo,noun,,,m,cioo,,accepted,,cors-da-dialet-da-rogn-13a-leziun[l.91]
 ciss-basso-ceresio,basso-ceresio,ciss,noun,,,m,ciss,,accepted,"Claude inferred: ciss means hair (capelli, in the note); ""cavi = cables"" is a misreading of the dialect cavii; decided 2026-10-14",dizionario-con-filastrocche-di-r-gaggini[l.122]
 ciudin-basso-ceresio,basso-ceresio,ciudin,noun,,,m,ciudin,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.252]
 ciuff-basso-ceresio,basso-ceresio,ciüff,noun,,,m,ciüff,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.280]
+classeur,rogn,classeur,noun,,,m,classeur,,accepted,,owner-notes[l.4]
 colic,rogn,colic,noun,,,f,colic,,accepted,,cors-da-dialet-da-rogn-14a-leziun[l.57]
 coll-basso-ceresio,basso-ceresio,coll,noun,,,m,coi,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.124];dizionario-con-filastrocche-di-r-gaggini[l.125]
 coor,rogn,cöör,noun,,,m,cöör,,accepted,,cors-da-dialett-da-rogn-4a-leziun[l.107]
@@ -182,7 +183,7 @@ cosa-ticinese,ticinese,cosa,,,,,,,accepted,,owner-spreadsheet
 cost,rogn,cost,noun,,,f,cost,,accepted,,cors-da-dialett-da-rogn-4a-leziun[l.2]
 cramp-basso-ceresio,basso-ceresio,cramp,noun,,,m,cramp,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.205]
 crapin-ticinese,ticinese,crapin,noun,,,m,crapin,,accepted,,2025-02-19-poesie-in-dialetto[l.66]
-cred,rogn,cred,verb,,3rd conjugation,,,vegh,inferred,"imperative 'cred mia', gerund credendo; -ere verbs drop the ending (met, scrif, bef, cor)",il-gerundio;imperativo
+cred,rogn,cred,verb,,3rd conjugation,,,vegh,accepted,"confirmed by the owner (2026-10-19); first worked out from: imperative 'cred mia', gerund credendo; -ere verbs drop the ending (met, scrif, bef, cor)",il-gerundio;imperativo
 crem-ticinese,ticinese,crèm,noun,,,f,crèm,,accepted,,owner-spreadsheet
 cribbiu-scurin,rogn,cribbiu/scurin,noun,,,m,cribbiu / scurin,,accepted,,cors-da-dialett-da-rogn-5a-leziun[l.46]
 crocc-basso-ceresio,basso-ceresio,cröcc,,,,,,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.123]
@@ -262,11 +263,11 @@ dopudiscna,rogn,dopudiscnà,noun,,,m,dopudiscnà,,accepted,,cors-da-dialet-da-ro
 dopuduman,rogn,dopuduman,,,,,,,accepted,,cors-da-dialet-da-rogn-9a-leziun[l.36]
 dormi,rogn,dörmi,verb,,4th conjugation,,,vegh,accepted,,cors-da-dialett-da-rogn-lezium-1-e-2;cors-da-dialet-da-rogn-18a-leziun;il-gerundio;imperativo;cors-da-dialett-da-rogn-lezium-1-e-2[l.108]
 du,rogn,dü,,,,,,,accepted,,cors-da-dialett-da-rogn-lezium-1-e-2[l.233]
+due,rogn,dué,verb,,2nd conjugation,,,vegh,accepted,"the owner gives dué (2026-10-19), not duvé; the course has conditional dua-ria and present 'a devum'",il-condizionale-presente
 duman,rogn,duman,,,,,,,accepted,,cors-da-dialet-da-rogn-9a-leziun[l.35]
 dumeniga,rogn,dumeniga,noun,,,f,dumenig,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.87]
 dupra,rogn,duprà,verb,,1st conjugation,,,vegh,inferred,"the Rögn texts give dopri (dialoghi a Lugano), al dupera (varie situazioni), duperuf (imperativo), i doprarà (frasi fai) and the participle dupraa (ul nos Topolino); the infinitive doprà is only in a column from elsewhere (Nümm e quii da là dal San Gòtard)",dialoghi-a-lugano;varie-situazioni;imperativo;frasi-fai-1-copia;ul-nos-topolino
 dutor,rogn,dutor,noun,,,m,dutor,,accepted,,cors-da-dialet-da-rogn-9a-leziun[l.117]
-duve,rogn,duvé,verb,,2nd conjugation,,,vegh,inferred,"conditional dua-ria and present 'a devum' only; modelled on podé, vöré, savé. Least certain of the list",il-condizionale-presente
 e-insema-col-ticinese,ticinese,"e, inséma, col",,,,,,,accepted,,owner-spreadsheet
 e-po-ticinese,ticinese,e pö,,,,,,,accepted,,owner-spreadsheet
 e-ticinese,ticinese,e,,,,,,,accepted,,owner-spreadsheet
@@ -320,6 +321,7 @@ fru-basso-ceresio,basso-ceresio,frü,noun,,,f,frü,,accepted,,dizionario-con-fil
 frumento,rogn,frumento,,,,,,,rejected,"Claude inferred: the line ""cereali: frumento furment, orzo orz, segale segra, mais carlun"" was misread; frumento is Italian, not dialect; decided 2026-10-14",cors-da-dialet-da-rogn-7a-leziun[l.24]
 fruta,rogn,früta,noun,,,f,früt,,accepted,,cors-da-dialett-da-rogn-lezium-1-e-2[l.17]
 fuculaa-basso-ceresio,basso-ceresio,fuculaa,noun,,,m,fuculaa,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.145]
+fuieet,rogn,fuieet,noun,,,m,fuieit,,accepted,,owner-notes[l.7]
 fuin,rogn,fuin,noun,,,m,fuin,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.48]
 fulcin,rogn,fulcin,noun,,,m,fulcin,,accepted,,cors-da-dialet-da-rogn-13a-leziun[l.72]
 fulmin-basso-ceresio,basso-ceresio,fülmin,noun,,,m,fülmin,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.254]
@@ -412,9 +414,11 @@ lava,rogn,lavà,verb,,1st conjugation,,,vegh,accepted,lesson 5: 'machina da lav�
 lavandin,rogn,lavandin,noun,,,m,lavandin,,accepted,,cors-da-dialett-da-rogn-5a-leziun[l.23]
 lavas,rogn,lavas,verb,,1st conjugation,,,ves,accepted,imperativo sheet: 'lavas i man',cors-da-dialett-da-rogn-lezium-1-e-2;cors-da-dialet-da-rogn-18a-leziun;il-gerundio;imperativo;cors-da-dialett-da-rogn-lezium-1-e-2[l.181]
 le-lula-al-cor,rogn,le/lüla/al cor,,,,,,,rejected,"Claude inferred: a row of the verb table for cor, not a word pair; the forms are on the verb page; decided 2026-10-14",cors-da-dialet-da-rogn-17a-leziun[l.63]
-lecc-o-lencc,rogn,lecc o lencc,verb,,3rd conjugation,,,vegh,accepted,,cors-da-dialett-da-rogn-3a-leziun;il-gerundio;imperativo;cors-da-dialett-da-rogn-3a-leziun[l.41]
+lecc,rogn,lécc,noun,,,f,lécc,,accepted,,owner-notes[l.3]
+lecc-o-lencc,rogn,lecc o lencc,,,,,,,accepted,,cors-da-dialett-da-rogn-3a-leziun[l.41]
 legnamee,rogn,legnamee,noun,,,m,legnamee,,accepted,,cors-da-dialet-da-rogn-9a-leziun[l.145]
 legura,rogn,legura,noun,,,f,legur,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.46]
+lenc,rogn,lenc,verb,,3rd conjugation,,,vegh,accepted,"the owner gives lenc (2026-10-19); lesson 3 heads the table 'lecc o lencc', but lecc is letto (bed) and lécc leggi (laws)",cors-da-dialett-da-rogn-3a-leziun;il-gerundio;imperativo
 lengua,rogn,lengua,noun,,,f,lengu,,accepted,,cors-da-dialett-da-rogn-4a-leziun[l.93]
 lenzoo,rogn,lenzöö,noun,,,m,lenzöö,,accepted,,cors-da-dialett-da-rogn-5a-leziun[l.10]
 letin,rogn,letin,noun,,,m,letin,,accepted,,cors-da-dialett-da-rogn-5a-leziun[l.6]
@@ -472,7 +476,7 @@ mamm,rogn,mamm,noun,,,f,mamm,,accepted,,cors-da-dialett-da-rogn-4a-leziun[l.118]
 man-ticinese,ticinese,man,noun,,,f,man,,accepted,,2025-02-19-poesie-in-dialetto[l.76]
 manda-gio,rogn,manda giò,verb,,1st conjugation,,,vegh,accepted,,cors-da-dialett-da-rogn-3a-leziun;cors-da-dialett-da-rogn-3a-leziun[l.13]
 mandarin,rogn,mandarin,noun,,,m,mandarin,,accepted,,cors-da-dialet-da-rogn-14a-leziun[l.21]
-mangia,rogn,mangià,verb,,1st conjugation,,,vegh,accepted,"lessons 17-18 write mangià; lesson 1-2 has magià, apparently a typo",cors-da-dialett-da-rogn-lezium-1-e-2;il-condizionale-passato;cors-da-dialet-da-rogn-18a-leziun;imperativo;cors-da-dialet-da-rogn-18a-leziun[l.60];cors-da-dialett-da-rogn-lezium-1-e-2[l.165]
+mangia,rogn,mangià,verb,,1st conjugation,,,vegh,accepted,"lessons 17-18 write mangià; magià in lessons 1-2 is a typo (owner, 2026-10-19)",cors-da-dialett-da-rogn-lezium-1-e-2;il-condizionale-passato;cors-da-dialet-da-rogn-18a-leziun;imperativo;cors-da-dialet-da-rogn-18a-leziun[l.60];cors-da-dialett-da-rogn-lezium-1-e-2[l.165]
 mangiuca-basso-ceresio,basso-ceresio,mangiucá,,,,,,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.96]
 manz,rogn,manz,noun,,,m,manz,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.35]
 marco-ok-grazie,rogn,"marco: “Ok, grazie”.",,,,,,,rejected,"Claude inferred: a line of dialogue with the speaker's name, not a dictionary word; decided 2026-10-14",dialoghi-a-lugano[l.305]
@@ -672,6 +676,7 @@ puliss-basso-ceresio,basso-ceresio,puliss,,,,,,,accepted,,dizionario-con-filastr
 puliziot,rogn,puliziot,noun,,,m,puliziot,,accepted,,cors-da-dialet-da-rogn-9a-leziun[l.120]
 puls-pols,rogn,puls (pols),noun,,,m,puls,,accepted,,cors-da-dialett-da-rogn-4a-leziun[l.103]
 pultrona,rogn,pultrona,noun,,,f,pultron,,accepted,,cors-da-dialett-da-rogn-5a-leziun[l.31]
+punda-gio,rogn,punda giò,,,,,,,accepted,,owner-notes[l.8]
 puras,rogn,püras,noun,,,m,püras,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.82];owner-spreadsheet
 purcel,rogn,purcel,noun,,,m,purcei,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.22];cors-da-dialet-da-rogn-6a-leziun[l.23]
 purcelin,rogn,purcelin,noun,,,m,purcelin,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.25]
@@ -724,6 +729,7 @@ ruga-basso-ceresio,basso-ceresio,rügà,,,,,,,accepted,,dizionario-con-filastroc
 rundula,rogn,rundula,noun,,,f,rundul,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.73]
 rusumada-basso-ceresio,basso-ceresio,rüsümada,noun,,,f,rüsümad,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.215]
 ruza-basso-ceresio,basso-ceresio,rüzà,,,,,,,accepted,,dizionario-con-filastrocche-di-r-gaggini[l.213]
+s-e-sctiracchiadda,rogn,s’è sctiracchiadda,,,,,,,accepted,,owner-notes[l.6]
 sa-slunga-ticinese,ticinese,sa slunga,,,,,,,accepted,,2025-02-19-poesie-in-dialetto[l.30]
 sabat,rogn,sabat,noun,,,m,sabat,,accepted,,cors-da-dialet-da-rogn-6a-leziun[l.87]
 sacocia-scarsela,rogn,sacocia / scarsèla,noun,,,f,sacocc / scarsell,,accepted,,cors-da-dialett-da-rogn-4a-leziun[l.46]
@@ -786,8 +792,10 @@ seghezz,rogn,seghezz,noun,,,m,seghezz,,accepted,,cors-da-dialet-da-rogn-13a-lezi
 segretari,rogn,segretari,noun,,,m,segretari,,accepted,,cors-da-dialet-da-rogn-9a-leziun[l.155]
 semester,rogn,semester,noun,,,m,semester,,accepted,,cors-da-dialet-da-rogn-9a-leziun[l.41]
 sempru,rogn,sempru,,,,,,,accepted,,owner-spreadsheet
+senvic,rogn,senvic,noun,,,m,senvic,,accepted,,owner-notes[l.5]
 senza-stell-ticinese,ticinese,senza stell,,,,,,,accepted,,2025-02-19-poesie-in-dialetto[l.22]
 senza-ticinese,ticinese,senza,,,,,,,accepted,,owner-spreadsheet
+sera,rogn,serà,verb,,1st conjugation,,,vegh,accepted,"serà in the teacher's sheet Il Condizionale Presente (al podaria serà la porta, l.97) and in the articolo CdT (par serà, l.30); serà sü in ul nos Topolino; participle seràa in Il Condizionale Passato (l.28, l.36). Page asked for by the owner, 2026-10-19",il-condizionale-passato;ul-nos-topolino
 ses,rogn,ses,,,,,,,accepted,,cors-da-dialett-da-rogn-lezium-1-e-2[l.237]
 sesanta-ticinese,ticinese,sesanta,,,,,,,accepted,"Claude inferred: Italian misspelt ""sesanta"" in the spreadsheet; decided 2026-10-14",owner-spreadsheet
 sesct-ticinese,ticinese,sesct,,,,,,,accepted,,owner-spreadsheet

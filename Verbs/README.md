@@ -20,24 +20,24 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [cercà](cerca-cercare.md) | cercare | to look for | 1st conjugation | 12 of 68 |
 | [ciapà](ciapa-prendere.md) | prendere | to take | 1st conjugation | 44 of 68 |
 | [cor](cor-correre.md) | correre | to run | 3rd conjugation | 37 of 68 |
-| [cred](cred-credere.md) † | credere | to believe | 3rd conjugation | 4 of 68 |
+| [cred](cred-credere.md) | credere | to believe | 3rd conjugation | 4 of 68 |
 | [cumincià / tacà](cumincia-incominciare.md) † | incominciare | to begin | 1st conjugation | 4 of 68 |
 | [cüsì](cusi-cucire.md) | cucire | to sew | 4th conjugation | 10 of 68 |
 | [cüsinà](cusina-cucinare.md) | cucinare | to cook | 1st conjugation | 10 of 68 |
 | [dà](da-dare.md) | dare | to give | irregular | 42 of 68 |
 | [dì](di-dire.md) | dire | to say | irregular | 15 of 68 |
 | [dörmi](dormi-dormire.md) | dormire | to sleep | 4th conjugation | 35 of 68 |
-| [duprà / doprà](dupra-adoperare.md) † | adoperare / usare | to use | 1st conjugation | 6 of 68 |
-| [duvé](duve-dovere.md) † | dovere | to have to | 2nd conjugation | 10 of 68 |
+| [dué](due-dovere.md) | dovere | to have to | 2nd conjugation | 10 of 68 |
+| [duprà / doprà](dupra-adoperare.md) † | adoperare / usare | to use | 1st conjugation | 7 of 68 |
 | [fà / fa](fa-fare.md) | fare | to do / make | irregular | 48 of 68 |
 | [fa sù](fa-su-costruire.md) | costruire | to build | irregular (compound of fa, fare) | 6 of 68 |
 | [giögà](gioga-giocare.md) | giocare | to play | 1st conjugation | 6 of 68 |
 | [guardà](guarda-guardare.md) | guardare | to look at | 1st conjugation | 10 of 68 |
 | [lavà](lava-lavare.md) | lavare | to wash | 1st conjugation | 1 of 68 |
 | [lavas](lavas-lavarsi.md) | lavarsi | to wash oneself | 1st conjugation | 35 of 68 |
-| [lecc o lencc](lecc-leggere.md) | leggere | to read | 3rd conjugation | 11 of 68 |
+| [lenc](lenc-leggere.md) | leggere | to read | 3rd conjugation | 11 of 68 |
 | [manda giò](manda-gio-ingerire.md) | ingerire | to swallow | 1st conjugation | 6 of 68 |
-| [mangià / magià](mangia-mangiare.md) | mangiare | to eat | 1st conjugation | 40 of 68 |
+| [mangià](mangia-mangiare.md) | mangiare | to eat | 1st conjugation | 40 of 68 |
 | [mazzà](mazza-uccidere.md) | uccidere | to kill | 1st conjugation | 10 of 68 |
 | [menà](mena-condurre.md) | condurre | to lead | 1st conjugation | 12 of 68 |
 | [met insema](met-insema-unire.md) | unire | to join | 3rd conjugation | 6 of 68 |
@@ -58,13 +58,13 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [pensà](pensa-pensare.md) | pensare | to think | 1st conjugation | 6 of 68 |
 | [pestà](pesta-battere.md) † | battere | to beat | 1st conjugation | 6 of 68 |
 | [picà](pica-picchiare.md) † | picchiare | to hit | 1st conjugation | 6 of 68 |
-| [podé / pudé / pudé](pode-potere.md) | potere | to be able to | 2nd conjugation | 37 of 68 |
+| [podé / pudé](pode-potere.md) | potere | to be able to | 2nd conjugation | 37 of 68 |
 | [prodü / fà](produ-produrre.md) | produrre | to produce | 3rd conjugation | 6 of 68 |
 | [regordas](regordas-ricordarsi.md) † | ricordarsi | to remember | 1st conjugation | 5 of 68 |
 | [resegà](resega-segare.md) | segare | to saw | 1st conjugation | 6 of 68 |
 | [restà](resta-rimanere.md) | rimanere | to stay | 1st conjugation | 6 of 68 |
 | [rubà](ruba-rubare.md) | rubare | to steal | 1st conjugation | 4 of 68 |
-| [savé](save-sapere.md) | sapere | to know | 2nd conjugation | 8 of 68 |
+| [savé](save-sapere.md) | sapere | to know | 2nd conjugation | 10 of 68 |
 | [sbögià](sbogia-forare.md) | forare | to pierce | 1st conjugation | 6 of 68 |
 | [scarpüscià](scarpuscia-inciampare.md) | inciampare | to trip | 1st conjugation | 35 of 68 |
 | [scbat / scbatt](scbat-sbattere.md) † | sbattere | to slam | 3rd conjugation | 6 of 68 |
@@ -73,6 +73,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [scoltà o scultà](scolta-ascoltare.md) | ascoltare | to listen | 1st conjugation | 10 of 68 |
 | [scrif](scrif-scrivere.md) | scrivere | to write | 3rd conjugation | 12 of 68 |
 | [sculpì](sculpi-scolpire.md) † | scolpire | to sculpt | 4th conjugation | 4 of 68 |
+| [serà](sera-chiudere.md) | chiudere | to close | 1st conjugation | 2 of 68 |
 | [setas giò](setas-gio-sedersi.md) | sedersi | to sit down | 1st conjugation | 10 of 68 |
 | [stà](sta-stare.md) | stare | to stay / be | irregular | 15 of 68 |
 | [sudà](suda-sudare.md) | sudare | to sweat | 1st conjugation | 6 of 68 |

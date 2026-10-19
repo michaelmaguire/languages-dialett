@@ -17,7 +17,7 @@
 |  | Presente | Futuro | Futuro prossimo † |
 |---|---|---|---|
 | *mi* | dopri / duperi | doprarò † | avrò dupraa |
-| *ti* | ta doprat † | ta dopraré † | ta avré dupraa |
+| *ti* | ta doprat † | ta dopraré | ta avré dupraa |
 | *le / lü* | al dupera | la/al doprarà † | l’avrà dupraa |
 | *nüm* | doprum † | doprarem † | avrem dupraa |
 | *vialtri* | duperuf | doprarii † | avrii dupraa |

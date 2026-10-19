@@ -36,23 +36,23 @@
 
 |  | Condizionale presente | Condizionale passato |
 |---|---|---|
-| *mi* | gh’avria/gh’avressa | gh’avria /gh’avressa vüü |
-| *ti* | ta gh’avressat | ta gh’avriat / ta gh’avressat vüü |
-| *le / lü* | la/al gh’avria/gh’avressa | al gh’avria/al gh’avressa / la gh’avria/la gh’avressa vüü |
-| *nüm* | gh’avrium/gh’avressum | gh’avrium/gh’avressum vüü |
-| *vialtri* | gh’avressuf | gh’avriuf/gh’avressuf vüü |
-| *lur* | i gh’avrian/gh’avressan | i gh’avrian/i gh’avressan vüü |
+| *mi* | avria/avressa | avria /avressa vüü |
+| *ti* | t’avressat | t’avriat / t’avressat vüü |
+| *le / lü* | l’avria/avressa | l’avria/l’avressa vüü |
+| *nüm* | avrium/avressum | avrium/avressum vüü |
+| *vialtri* | avressuf | avriuf/avressuf vüü |
+| *lur* | i avrian/avressan | i avrian/i avressan vüü |
 
 ## Congiuntivo
 
 |  | Congiuntivo presente | Congiuntivo imperfetto |
 |---|---|---|
-| *mi* | gh’abia † | gh’avess |
-| *ti* | ta gh’abiat † | ta gh’avessat † |
-| *le / lü* | la/al gh’abia † | la/al gh’avess † |
-| *nüm* | gh’abium † | gh’avessum † |
-| *vialtri* | gh’abiuf † | gh’avessuf † |
-| *lur* | i g’abbia | i gh’avessan † |
+| *mi* | abia † | avess |
+| *ti* | t’abiat † | t’avessat † |
+| *le / lü* | l’abia † | l’avess † |
+| *nüm* | abium † | avessum † |
+| *vialtri* | abiuf † | avessuf † |
+| *lur* | i abbia | i avessan † |
 
 ## Imperativo
 
