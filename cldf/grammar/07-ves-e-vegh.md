@@ -46,3 +46,24 @@ IT: Alcuni verbi cambiano ausiliare secondo il senso. La diciassettesima lezione
 EN: Some verbs change auxiliary with the meaning. Lesson 17 shows it with *cor* (to run): *eva corüü una maratona* (with *have*: the marathon is the object) but *seva corüü a l’uspedaa* (with *be*: running to a place).
 
 [](ExampleTable#cldf:g-maratona)
+
+## *Gh’è*: c'è, ci sono | *Gh’è*: there is, there are
+
+IT: «C'è» si dice *gh’è* (scritto anche *ghè*, *ghé*): *gh’* + *è*, come l'italiano *ci* + *è* e il francese *il y a*. Spesso c'è davanti la *a* facoltativa del capitolo 4: *a ghè*.
+EN: "There is" is *gh’è* (also written *ghè*, *ghé*): *gh’* + *è*, like Italian *ci* + *è* and French *il y a*. The optional *a* of chapter 4 often comes in front: *a ghè*.
+
+[](ExampleTable#cldf:g-ghe-cusina)
+[](ExampleTable#cldf:g-ghe-post)
+
+IT: Anche al plurale («ci sono») il verbo resta al singolare, come in francese *il y a*: *gh’è tanti scfümadür*, *gh’è pü da autobus* (capitolo 12). †
+EN: For "there are", too, the verb stays singular, as in French *il y a*: *gh’è tanti scfümadür* (there are many shades), *gh’è pü da autobus* (there are no more buses, chapter 12). †
+
+[](ExampleTable#cldf:g-ghe-tanti)
+
+IT: Negli altri tempi cambia solo il verbo *ves*: *gh’eva* (c'era), *ga sarà* (ci sarà); il clitico soggetto *al* può stare davanti: *al ga sarà*. Con *ne* si dice *ga n’è* (ce n'è, ce ne sono); con la negazione, *gh’è mia* (non c'è).
+EN: In the other tenses only the verb *ves* changes: *gh’eva* (there was), *ga sarà* (there will be); the subject clitic *al* can come in front: *al ga sarà*. With *ne* it is *ga n’è* (there is some, there are some); in the negative, *gh’è mia* (there isn't).
+
+[](ExampleTable#cldf:g-ghe-volta)
+[](ExampleTable#cldf:g-ghe-sara)
+[](ExampleTable#cldf:g-ghe-ne)
+[](ExampleTable#cldf:g-ghe-mia)

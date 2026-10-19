@@ -133,4 +133,76 @@
 
 *The course's own example: avere when the run is the object, essere for running to a place.*
 
+## *Gh’è*: c'è, ci sono · **Gh’è*: there is, there are*
+
+| Italiano | English |
+|---|---|
+| «C'è» si dice *gh’è* (scritto anche *ghè*, *ghé*): *gh’* + *è*, come l'italiano *ci* + *è* e il francese *il y a*. Spesso c'è davanti la *a* facoltativa del capitolo 4: *a ghè*. | "There is" is *gh’è* (also written *ghè*, *ghé*): *gh’* + *è*, like Italian *ci* + *è* and French *il y a*. The optional *a* of chapter 4 often comes in front: *a ghè*. |
+
+**(9)** *In cüsina a ghè anca*
+
+| *in* | *cüsina* | *a* | *gh-è* | *anca* |
+|---|---|---|---|---|
+| in | kitchen | SBJ | LOC-be.3SG | also |
+
+‘In cucina c'è anche:’ · ‘In the kitchen there is also:’ — [Cors da dialett da Rögn 5a leziun, l. 36](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx)
+
+**(10)** *gh’è post par dü / tri*
+
+| *gh’-è* | *post* | *par* | *dü* | */* | *tri* |
+|---|---|---|---|---|---|
+| LOC-be.3SG | room | for | two | / | three |
+
+‘C'è posto per due / tre?’ · ‘Is there room for two / three?’ — [Cors da dialet da Rögn 14a leziun, l. 61](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Cors%20da%20dialet%20da%20R%C3%B6gn%2014a%20leziun.docx)
+
+| Italiano | English |
+|---|---|
+| Anche al plurale («ci sono») il verbo resta al singolare, come in francese *il y a*: *gh’è tanti scfümadür*, *gh’è pü da autobus* (capitolo 12). † | For "there are", too, the verb stays singular, as in French *il y a*: *gh’è tanti scfümadür* (there are many shades), *gh’è pü da autobus* (there are no more buses, chapter 12). † |
+
+**(11)** *gh’è tanti scfümadür da gris*
+
+| *gh’-è* | *tanti* | *scfümadür* | *da* | *gris* |
+|---|---|---|---|---|
+| LOC-be.3SG | many.PL | shade.PL | of | grey |
+
+‘ci sono tante sfumature di grigio’ · ‘there are many shades of grey’ — [frasi fatte, l. 241](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/frasi%20fatte.docx)
+
+*The verb stays singular (è) although what follows is plural.*
+
+| Italiano | English |
+|---|---|
+| Negli altri tempi cambia solo il verbo *ves*: *gh’eva* (c'era), *ga sarà* (ci sarà); il clitico soggetto *al* può stare davanti: *al ga sarà*. Con *ne* si dice *ga n’è* (ce n'è, ce ne sono); con la negazione, *gh’è mia* (non c'è). | In the other tenses only the verb *ves* changes: *gh’eva* (there was), *ga sarà* (there will be); the subject clitic *al* can come in front: *al ga sarà*. With *ne* it is *ga n’è* (there is some, there are some); in the negative, *gh’è mia* (there isn't). |
+
+**(12)** *gh’eva na volta un re*
+
+| *gh’-eva* | *na* | *volta* | *un* | *re* |
+|---|---|---|---|---|
+| LOC-be.IPFV.3SG | a.F | time | a.M | king |
+
+‘c'era una volta un re’ · ‘once upon a time there was a king’ — [domande di vario tipo, l. 73](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/domande%20di%20vario%20tipo.docx)
+
+**(13)** *un motif al ga sarà*
+
+| *un* | *motif* | *al* | *ga* | *sarà* |
+|---|---|---|---|---|
+| a.M | reason | 3SG.M.SBJ | LOC | be.FUT.3SG |
+
+‘un motivo ci sarà’ · ‘there must be a reason’ — [frasi fatte, l. 199](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/frasi%20fatte.docx)
+
+**(14)** *ga n’è inscì da sctori*
+
+| *ga* | *n’-è* | *inscì* | *da* | *sctori* |
+|---|---|---|---|---|
+| LOC | PART-be.3SG | so.many | of | story.PL |
+
+‘ce ne sono tante, di storie’ · ‘there are so many stories’ — [domande di vario tipo, l. 70](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/domande%20di%20vario%20tipo.docx)
+
+**(15)** *ghé mia da frecass*
+
+| *gh-é* | *mia* | *da* | *freca-ss* |
+|---|---|---|---|
+| LOC-be.3SG | NEG | to | hurry.INF-REFL |
+
+‘non c'è da affrettarsi’ · ‘there's no need to hurry’ — [domande di vario tipo, l. 107](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/domande%20di%20vario%20tipo.docx)
+
 [← Passato e futuro](06-passato-e-futuro.md) · [indice · contents](README.md) · [Condizionale e congiuntivo →](08-condizionale-e-congiuntivo.md)

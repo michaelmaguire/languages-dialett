@@ -186,7 +186,10 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   guess a translation for an entry whose "Italian" side is really dialect.
 - **PDFs** open with cover, contents (page numbers from a two-pass print), attributions. The edition
   stamp is at the top right of both covers. The joke publisher on the covers is MAGUIRE’S. In the
-  dictionary PDF a headword's senses share one line. **PDF names** start with `arogno-`. Every PDF cover shows an edition `YYYYMMDDhhmm` (24-hour local
+  dictionary PDF a headword's senses share one line. **Each language section of the dictionary PDF starts on an
+  odd (right-hand) page** (owner, 2026-10-19: the sections are filed separately in a binder): `{{recto:ID}}` before
+  a section makes `print_with_contents()` add a blank page when needed (Chrome ignores `page-break-before: right`);
+  the ID must be linked from the contents page. **PDF names** start with `arogno-`. Every PDF cover shows an edition `YYYYMMDDhhmm` (24-hour local
   time) filled into `{{edition}}`; `step5_build_pdfs.py` adds it even if a cover lacks the placeholder.
 
 ## Adding new material

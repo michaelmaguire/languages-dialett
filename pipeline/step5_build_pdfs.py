@@ -245,23 +245,42 @@ def print_pdf(out, page):
     return True
 
 
+RECTO = re.compile(r"\{\{recto:([\w-]+)\}\}")
+BLANK_PAGE = '<div style="page-break-before: always; height: 1px"></div>'
+
+
 def print_with_contents(out, page, document, message):
     """Print document; {{page:ID}} becomes the number of the page holding the element with that id.
-    The first print uses a stand-in; then the real numbers are read from the PDF's link targets."""
+    The first print uses a stand-in; then the real numbers are read from the PDF's link targets.
+    {{recto:ID}}, put just before an element that starts a new page (and is linked from the contents),
+    makes it start on an odd, right-hand page: a blank page is inserted before it when it would fall on an
+    even one, so that the sections can be filed separately in a binder (owner, 2026-10-19). Chrome ignores
+    the CSS for this (page-break-before: right), so the page is measured and the print repeated."""
     import pypdf
     ids = set(PLACEHOLDER.findall(document))
+    rectos = list(dict.fromkeys(RECTO.findall(document)))
     numbers = dict.fromkeys(ids, "000")
-    for _ in range(3):                        # normally two prints: the second confirms the numbers
-        page.write_text(PLACEHOLDER.sub(lambda m: numbers[m.group(1)], document))
+    padded = set()
+    for _ in range(3 + 2 * len(rectos)):      # normally two prints: the second confirms the numbers
+        text = RECTO.sub(lambda m: BLANK_PAGE if m.group(1) in padded else "", document)
+        page.write_text(PLACEHOLDER.sub(lambda m: numbers[m.group(1)], text))
         if not print_pdf(out, page):
             return
         reader = pypdf.PdfReader(out)
         found = {name.lstrip("/"): reader.get_destination_page_number(d) + 1
                  for name, d in reader.named_destinations.items()}
+        # fix the first section that starts on an even page; the later ones move with it, so one at a time
+        even = [r for r in rectos if found.get(r, 1) % 2 == 0]
+        if even:
+            padded ^= {even[0]}
+            continue
         new = {i: str(found.get(i, "?")) for i in ids}
         if new == numbers:
             break
         numbers = new
+    unplaced = [r for r in rectos if r not in found]
+    if unplaced:
+        print(f"{out.name}: cannot check the page of {', '.join(unplaced)} (not linked from the contents?)")
     missing = sorted(i for i in ids if numbers[i] == "?")
     if missing:
         print(f"{out.name}: no page found for {', '.join(missing[:5])}")
@@ -334,7 +353,7 @@ def dictionary():
                      '<span>Attributions and thanks</span><span>{{page:attributions}}</span></a><p class="letters"></p>']
     for n, (title, a, b, c, k) in enumerate(parts, 1):
         html_entries, letters = entries(n, a, b, c, k)
-        body.append(f'<div class="part" id="part-{n}"><h1>{esc(title)}</h1><p></p>'
+        body.append(f'{{{{recto:part-{n}}}}}<div class="part" id="part-{n}"><h1>{esc(title)}</h1><p></p>'
                     f'<div class="entries">{html_entries}</div></div>')
         anchors = [(l, f"p{n}-{l if l.isalpha() else 'other'}") for l in letters]
         toc.append(f'<a class="head" href="#part-{n}"><span>{esc(title)}</span><span>{{{{page:part-{n}}}}}</span></a>'

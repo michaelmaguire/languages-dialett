@@ -17,7 +17,7 @@ The text was drafted by Claude (Anthropic) and has not yet been checked by the t
 | 4 | [Pronomi personali e clitici soggetto](04-pronomi-soggetto.md) | Personal pronouns and subject clitics | 10 |
 | 5 | [Il verbo: presente e coniugazioni](05-presente-e-coniugazioni.md) | The verb: present tense and conjugations | 5 |
 | 6 | [Passato e futuro](06-passato-e-futuro.md) | Past and future | 6 |
-| 7 | [*Ves* e *vegh*: essere, avere e gli ausiliari](07-ves-e-vegh.md) | *Ves* and *vegh*: to be, to have and the auxiliaries | 8 |
+| 7 | [*Ves* e *vegh*: essere, avere e gli ausiliari](07-ves-e-vegh.md) | *Ves* and *vegh*: to be, to have and the auxiliaries | 15 |
 | 8 | [Condizionale e congiuntivo](08-condizionale-e-congiuntivo.md) | Conditional and subjunctive | 8 |
 | 9 | [Imperativo e gerundio](09-imperativo-e-gerundio.md) | Imperative and gerund | 9 |
 | 10 | [I pronomi attaccati al verbo](10-pronomi-col-verbo.md) | Pronouns attached to the verb | 34 |
