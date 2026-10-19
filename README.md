@@ -15,6 +15,12 @@ and, where available, the English.
 
 ## Contents
 
+Printable PDFs:
+
+- [https://github.com/michaelmaguire/languages-dialett/blob/main/Dictionary/arogno-dictionary.pdf](https://github.com/michaelmaguire/languages-dialett/blob/main/Dictionary/arogno-dictionary.pdf)
+- [https://github.com/michaelmaguire/languages-dialett/blob/main/Expressions/arogno-expressions.pdf](https://github.com/michaelmaguire/languages-dialett/blob/main/Expressions/arogno-expressions.pdf)
+- [https://github.com/michaelmaguire/languages-dialett/blob/main/Verbs/arogno-verbs.pdf](https://github.com/michaelmaguire/languages-dialett/blob/main/Verbs/arogno-verbs.pdf)
+
 | Section | What is in it | Size |
 |---|---|---|
 | [Dictionary](Dictionary/README.md) | Single words and short terms: Italiano ↔ Dialett, with English where available and a Region column; also as a [printable PDF](Dictionary/arogno-dictionary.pdf) | 977 entries |

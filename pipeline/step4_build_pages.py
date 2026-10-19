@@ -475,6 +475,8 @@ def join_endings(form):
 
 
 INFERRED = " †"
+REPO_URL = "https://github.com/michaelmaguire/languages-dialett"
+PDFS = ["Dictionary/arogno-dictionary.pdf", "Expressions/arogno-expressions.pdf", "Verbs/arogno-verbs.pdf"]
 BASE_OF_COMPOUND = {"na": "andare", "nà": "andare", "fa": "fare", "fà": "fare"}
 CLASS_CODE = {"1st": "1", "2nd": "2", "3rd": "3", "4th": "4"}
 
@@ -939,7 +941,8 @@ def render(uniq, tables, eng, topics=None):
     src_rows = lambda rows: [[src_link(s["file"], depth=0), s["variety"], used(s), s["notes"]]
                              for s in sorted(rows, key=lambda s: plain(s["file"]))]
     n_en = sum(bool(p["english"]) for p in uniq)
-    readme = [intro + "\n", "## Contents\n",
+    pdf_links = "".join(f"- [{REPO_URL}/blob/main/{f}]({REPO_URL}/blob/main/{f})\n" for f in PDFS)
+    readme = [intro + "\n", "## Contents\n", "Printable PDFs:\n\n" + pdf_links,
               table(["Section", "What is in it", "Size"], [
                   ["[Dictionary](Dictionary/README.md)", "Single words and short terms: Italiano ↔ Dialett, with English where available and a Region column; also as a [printable PDF](Dictionary/arogno-dictionary.pdf)", f"{len(words)} entries"],
                   ["[Expressions](Expressions/README.md)", "Sayings, idioms and phrases grouped by topic; also as a [printable PDF](Expressions/arogno-expressions.pdf)", f"{sum(len(merge_expressions(r)) for r in by_topic.values())} expressions"],
