@@ -90,8 +90,9 @@ the right place to verify the forms marked †.
   fatte*).
 - The **grammar** (`Grammar/`, `etc/grammar/`) was drafted by Claude, Italian and English, from the course
   material; its examples are all quoted from the course documents, with the line they come from. The
-  glosses under the examples, and the rules marked †, are Claude's analysis. The quotation on the grammar
-  cover is a classmate's answer in *domande di vario tipo*. None of it has been checked by the teacher yet.
+  glosses under the examples, and the rules marked †, are Claude's analysis. The sentence on the grammar
+  cover is from *dialoghi a Lugano*; its dedication, *Mit Liebe, für Peter*, is to the classmate who asked
+  for the grammar. None of it has been checked by the teacher yet.
 - The **topics** the expressions are grouped by, and the choice of which sayings to move out of the
   dictionary, are Claude's.
 
