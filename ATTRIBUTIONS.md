@@ -1,7 +1,7 @@
 # Attributions and thanks
 
 This page is written by hand; the build does not change it. The same text is printed after the cover of the
-three PDFs.
+four PDFs.
 
 **Thank you** to Guido Casellini, for the lessons and for the patience.
 
@@ -10,8 +10,8 @@ theirs that have ended up in these pages.
 
 **All errors are mine.** None of them are the teacher's, the class's or the authors'.
 
-Everything of value here comes from other people's teaching and writing. The dictionary, expression and
-verb pages are derived from the documents in [raw/](https://github.com/michaelmaguire/languages-dialett-raw), and those documents remain the
+Everything of value here comes from other people's teaching and writing. The dictionary, expression,
+verb and grammar pages are derived from the documents in [raw/](https://github.com/michaelmaguire/languages-dialett-raw), and those documents remain the
 authority and the property of their authors. If you are an author or rights holder and would like
 something credited differently or removed, please open an issue on the repository.
 
@@ -69,6 +69,7 @@ copied from it.
 | [Lombard/Past Indicative (Wikibooks)](https://en.wikibooks.org/wiki/Lombard/Past_Indicative) | Which verbs take which auxiliary |
 | [Lombard/Present Subjunctive (Wikibooks)](https://en.wikibooks.org/wiki/Lombard/Present_Subjunctive) | Example verbs for each class |
 | [fà (Wiktionary)](https://www.wiktionary.com/wiki/f%C3%A0) and [savé (Wiktionary)](https://en.wiktionary.org/wiki/savé) | Western Lombard forms of two irregular verbs |
+| [Lombard (Wikibooks)](https://en.wikibooks.org/wiki/Category:Book:Lombard) | A checklist of the topics a learner's grammar of Lombard covers, for the outline of `Grammar/`; no text was copied (the book describes Milanese, under CC BY-SA) |
 | [Dialetto ticinese (Wikipedia, Italian)](https://it.wikipedia.org/wiki/Dialetto_ticinese) | Background on the varieties and the Ticinese koinè; has no conjugation tables |
 | [Dialet ticines (Wikipedia, Lombard)](https://lmo.wikipedia.org/wiki/Dialet_ticines) | Background; has no conjugation tables |
 
@@ -87,6 +88,10 @@ the right place to verify the forms marked †.
 - The dialect phrases on the dictionary and verb PDF covers were composed for the covers and are not from the
   course. The two sayings on the expressions cover are from the course (*15a leziun - proverbi* and *frasi
   fatte*).
+- The **grammar** (`Grammar/`, `etc/grammar/`) was drafted by Claude, Italian and English, from the course
+  material; its examples are all quoted from the course documents, with the line they come from. The
+  glosses under the examples, and the rules marked †, are Claude's analysis. The quotation on the grammar
+  cover is a classmate's answer in *domande di vario tipo*. None of it has been checked by the teacher yet.
 - The **topics** the expressions are grouped by, and the choice of which sayings to move out of the
   dictionary, are Claude's.
 

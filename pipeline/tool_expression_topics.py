@@ -21,7 +21,7 @@ TODO = CACHE / "expression_topics_todo.csv"
 def missing():
     _, rows = lexicon.load()
     return [x for x in rows["examples.csv"]
-            if x["Status"] != "rejected" and x["Genre"] != "text" and not x["Topic_ID"]]
+            if x["Status"] != "rejected" and x["Genre"] not in ("text", "grammar") and not x["Topic_ID"]]
 
 
 if sys.argv[1] == "list":

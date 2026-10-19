@@ -20,12 +20,14 @@ Printable PDFs:
 - [https://github.com/michaelmaguire/languages-dialett/blob/main/Dictionary/arogno-dictionary.pdf](https://github.com/michaelmaguire/languages-dialett/blob/main/Dictionary/arogno-dictionary.pdf)
 - [https://github.com/michaelmaguire/languages-dialett/blob/main/Expressions/arogno-expressions.pdf](https://github.com/michaelmaguire/languages-dialett/blob/main/Expressions/arogno-expressions.pdf)
 - [https://github.com/michaelmaguire/languages-dialett/blob/main/Verbs/arogno-verbs.pdf](https://github.com/michaelmaguire/languages-dialett/blob/main/Verbs/arogno-verbs.pdf)
+- [https://github.com/michaelmaguire/languages-dialett/blob/main/Grammar/arogno-grammar.pdf](https://github.com/michaelmaguire/languages-dialett/blob/main/Grammar/arogno-grammar.pdf)
 
 | Section | What is in it | Size |
 |---|---|---|
 | [Dictionary](Dictionary/README.md) | Single words and short terms: Italiano ↔ Dialett, with English where available and a Region column; also as a [printable PDF](Dictionary/arogno-dictionary.pdf) | 977 entries |
 | [Expressions](Expressions/README.md) | Sayings, idioms and phrases grouped by topic; also as a [printable PDF](Expressions/arogno-expressions.pdf) | 958 expressions |
 | [Verbs](Verbs/README.md) | Conjugation charts, one page per verb; also as a [printable PDF](Verbs/arogno-verbs.pdf) | 90 verbs |
+| [Grammar](Grammar/README.md) | A short grammar, explained in Italian and English side by side, with examples from the course; also as a [printable PDF](Grammar/arogno-grammar.pdf) | 13 chapters |
 | [To check](TO-CHECK.md) | Every inferred form and uncertain extraction, for checking with a teacher | 4688 items |
 | [CLDF dataset](cldf/README.md) | The master data set behind these pages, in the [CLDF](https://cldf.clld.org/) (Cross-Linguistic Data Formats) Dictionary format: words, meanings, examples, verb forms, sources and decisions on variants | 1010 entries |
 | [Raw sources](https://github.com/michaelmaguire/languages-dialett-raw) | The original course documents, and the owner's own spreadsheet and notes (a separate repository, private for now) | 87 files |
@@ -161,4 +163,4 @@ sudo apt install python3-venv python3-pip poppler-utils tesseract-ocr tesseract-
 - `poppler-utils`: text and page images from PDFs.
 - `tesseract-ocr` with the Italian and German models: reading scanned documents (German is there so that ü and ö are recognised).
 - `hunspell-it`: an Italian word list, used to tell which side of a pair is Italian. Optional; without it the guesses are a little less accurate.
-- Google Chrome or Chromium: prints the two PDFs. Optional; that step is skipped if neither is installed.
+- Google Chrome or Chromium: prints the PDFs. Optional; that step is skipped if neither is installed.

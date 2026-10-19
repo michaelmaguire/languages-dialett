@@ -3,7 +3,7 @@
 This folder turns the source documents in [`../raw/`](https://github.com/michaelmaguire/languages-dialett-raw), together with the curation in
 [`../etc/`](../etc/), into a [CLDF](https://cldf.clld.org/) dataset in [`../cldf/`](../cldf/), and then
 into everything you read: the dictionary, expression and verb pages, `TO-CHECK.md`, the main `README.md`,
-and the three PDFs. One command rebuilds the lot:
+and the four PDFs. One command rebuilds the lot:
 
 ```sh
 pipeline/build_all.sh
@@ -57,7 +57,7 @@ In words:
 | 2 | `step2_find_pairs_and_verbs.py` | the text, `../etc/lesson_sources.csv`, `../etc/parallel_texts.csv`, `../raw/notes_added_by_hand.csv` | `data/extracted_pairs.csv`, `data/extracted_verb_forms.csv`, `data/unparsed_lines.csv` |
 | 3 | `step3_make_cldf.py` → `../cldfbench_rogn.py` → `lexicon.py` | step 2's output, all of `../etc/`, the owner's spreadsheet and notes (from `../raw/`, or without it from the copies `data/owner_*.csv`) | `data/owner_spreadsheet.csv` and `data/owner_notes.csv` (fresh copies, when `../raw/` is there); `../cldf/`, rebuilt from scratch; then checked with `cldf validate`, and the build stops if it is not valid |
 | 4 | `step4_build_pages.py` | `../cldf/` only | all Markdown pages; plain-table exports `data/dictionary.csv`, `data/expressions.csv`, `data/verb_tables.csv` |
-| 5 | `step5_build_pdfs.py` | `../cldf/`, `data/dictionary.csv`, `templates/cover_*.html`, `../ATTRIBUTIONS.md` | `../Dictionary/arogno-dictionary.pdf`, `../Verbs/arogno-verbs.pdf`, `../Expressions/arogno-expressions.pdf` |
+| 5 | `step5_build_pdfs.py` | `../cldf/`, `data/dictionary.csv`, `templates/cover_*.html`, `../ATTRIBUTIONS.md` | `../Dictionary/arogno-dictionary.pdf`, `../Verbs/arogno-verbs.pdf`, `../Expressions/arogno-expressions.pdf`, `../Grammar/arogno-grammar.pdf` |
 
 ### Building without the source documents
 
@@ -129,14 +129,15 @@ warning during the build. Other files in `etc/` handle other kinds of decision; 
 | `step2_find_pairs_and_verbs.py` | Finds pairs (word lists, alternating lines, two sentences on one line, bullets, tables) and verb tables. Decides which side is dialect by scoring both against an Italian word list. Aligns a class translation with its Italian original in another document (`../etc/parallel_texts.csv`): sentence by sentence or line by line, scoring shared word roots and length; a weak match is marked ⚠. |
 | `step3_make_cldf.py` | Runs the dataset's `makecldf` through cldfbench (see the decisions below for why not the command line). |
 | `lexicon.py` | The conversion to CLDF: builds entries, senses, examples, variants and paradigms, applies `../etc/decisions.csv`, places each expression in its document with a genre and topic (`place_examples`), links senses to the expressions that use them (`link_examples`), declares the metadata; also reads the dataset back for steps 4 and 5. |
+| `grammar.py` | The grammar: reads `../etc/grammar/` and `../etc/grammar_examples.csv`, adds the examples (genre `grammar`) and the chapters (`cldf/grammar/`, `media.csv`) to the dataset for step 3, checks every example against its source line, and renders the chapters as Markdown (step 4, `../Grammar/`) and as HTML for the PDF (step 5). Its docstring describes the chapter format. |
 | `verb_conjugator.py` | Predicts missing verb forms from the model paradigms in lessons 8, 17 and 18. A form found in a document always wins over a prediction. |
 | `step4_build_pages.py` | Writes all the Markdown. Also holds `assemble()`, which gathers steps 1–2 and `etc/` for step 3, and shared helpers. |
-| `step5_build_pdfs.py` | Lays out and prints the three PDFs: cover, contents, attributions, then the content. Each PDF is printed twice: the contents page links to every section, and the second print fills in the page numbers that `pypdf` reads from the first. In the dictionary, the senses of one headword share a line (`anca` *anche · as well; pure · also*), and a sense whose words are all contained in another of the same headword and region is not repeated. |
+| `step5_build_pdfs.py` | Lays out and prints the four PDFs: cover, contents, attributions, then the content. Each PDF is printed twice: the contents page links to every section, and the second print fills in the page numbers that `pypdf` reads from the first. In the dictionary, the senses of one headword share a line (`anca` *anche · as well; pure · also*), and a sense whose words are all contained in another of the same headword and region is not repeated. |
 | `tool_missing_english.py` | `list` prints entries without English; `merge FILE` adds `id<TAB>english` lines to `../etc/english_translations.csv`. |
 | `tool_expression_topics.py` | `list` prints expressions without a topic (after a build); `merge FILE` adds `n<TAB>topic` lines to `../etc/expression_topics.csv`. |
 | `tool_review_verbs.py` | `OUT.pdf essere avere …` prints the sheets of the named verbs (Italian infinitives, in that order), one per page as in the verbs PDF, for the teacher to correct by hand. Not part of the build. |
 | `tool_flashcards.py` | `OUT.apkg [--decks words,verbs,expressions] [--verbs pagare,…] [--inferred]` writes Anki flashcards from `../cldf/`, English → Dialett and Dialett → English: every dictionary word (all regions, region on the card), the verb forms found in the documents (`--inferred` adds the † ones, tagged), and the expressions by topic. Note ids come from the CLDF IDs, so re-importing a rebuilt deck updates the cards and keeps their review history. Not part of the build; see `../ANKI-FLASHCARDS.md`. |
-| `templates/` | `readme_intro.md` (top of the main `README.md`), `cldf_readme_intro.md` (top of `cldf/README.md`), `cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html`. |
+| `templates/` | `readme_intro.md` (top of the main `README.md`), `cldf_readme_intro.md` (top of `cldf/README.md`), `cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html`, `cover_grammar.html`. |
 | `cache/` | `lesson_text/` and `extract_index.json` are kept in git; `print_*.html` and `missing_english_todo.csv` are working files. |
 | `data/` | Committed. Step 2's extraction (`extracted_*.csv`, `unparsed_lines.csv`), step 3's copies of the owner's spreadsheet and notes (`owner_*.csv`), and step 4's plain-table exports. The first two groups are step 3's input when `../raw/` is not available: keep them in git. |
 

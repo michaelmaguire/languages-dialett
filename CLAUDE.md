@@ -16,7 +16,7 @@ GitHub redirects the old URLs, so never create a new repo called `languages`, or
 
 Course documents (Word, PDF, some scanned) go in `raw/`. A Python pipeline turns them, with the curation
 in `etc/`, into a CLDF dataset in `cldf/`, and from that into a three-language dictionary, expression
-pages grouped by topic, 501-Verbs-style conjugation charts and three printable PDFs.
+pages grouped by topic, 501-Verbs-style conjugation charts, a bilingual grammar and four printable PDFs.
 
 ## Layout (cldfbench conventions: raw/ → etc/ → cldf/)
 
@@ -38,10 +38,10 @@ setup.py, setup.cfg, test.py registers the dataset with cldfbench (`pip install 
                              `pytest` runs the standard pytest-cldf validation
 CONTRIBUTORS.md, LICENSE, .zenodo.json   cldfbench / Zenodo release files (hand-written)
 ANKI-FLASHCARDS.md           hand-written: the Anki deck script (pipeline/tool_flashcards.py), how to import and update
-Dictionary/ Expressions/ Verbs/   GENERATED from cldf/ (pages cleared and rewritten every build; the PDFs are
-                             kept until step 5 replaces them). Do not commit while a build is running
+Dictionary/ Expressions/ Verbs/ Grammar/   GENERATED from cldf/ (pages cleared and rewritten every build; the
+                             PDFs are kept until step 5 replaces them). Do not commit while a build is running
 ATTRIBUTIONS.md              hand-written: thanks, authors, tools, what Claude generated. Printed after the
-                             cover of all three PDFs. Add a row when a new document brings in a new author.
+                             cover of all four PDFs. Add a row when a new document brings in a new author.
                              The teacher, Guido Casellini, is credited at the owner's request.
 pipeline/                    the build: README.md there has the data-flow diagram and all file roles
 ```
@@ -57,8 +57,8 @@ pipeline/build_all.sh
 | 1 | `step1_extract_text.py` | `raw/*.docx`, `*.pdf` | `pipeline/cache/lesson_text/*.txt`; new rows in `etc/lesson_sources.csv` |
 | 2 | `step2_find_pairs_and_verbs.py` | the text, `etc/lesson_sources.csv`, `raw/notes_added_by_hand.csv` | `pipeline/data/extracted_*.csv`, `unparsed_lines.csv` |
 | 3 | `step3_make_cldf.py` → `cldfbench_rogn.py` → `lexicon.py` | step 2 output + all of `etc/` + owner's spreadsheet and notes (from `raw/`, else `pipeline/data/owner_*.csv`) | fresh `pipeline/data/owner_*.csv` copies when `raw/` is there; `cldf/` from scratch; then `cldf validate` (build stops if invalid) |
-| 4 | `step4_build_pages.py` | `cldf/` only | all Markdown; `pipeline/data/dictionary.csv`, `expressions.csv`, `verb_tables.csv` |
-| 5 | `step5_build_pdfs.py` | `cldf/`, `pipeline/data/dictionary.csv` (from step 4), `pipeline/templates/cover_*.html`, `ATTRIBUTIONS.md` | the three PDFs |
+| 4 | `step4_build_pages.py` (+ `grammar.py`) | `cldf/` only (the grammar from `cldf/grammar/`) | all Markdown; `pipeline/data/dictionary.csv`, `expressions.csv`, `verb_tables.csv` |
+| 5 | `step5_build_pdfs.py` (+ `grammar.py`) | `cldf/`, `pipeline/data/dictionary.csv` (from step 4), `pipeline/templates/cover_*.html`, `ATTRIBUTIONS.md` | the four PDFs |
 
 Step 3 uses cldfbench's Python interface because `cldfbench makecldf` on the command line demands a local
 Glottolog catalogue, which this dataset does not use (codes set in `lexicon.py`).
@@ -74,7 +74,7 @@ sudo apt install python3-venv python3-pip poppler-utils tesseract-ocr tesseract-
 | Package | Why | Status on the owner's machine |
 |---|---|---|
 | `python3-venv`, `python3-pip` | to create `pipeline/.venv`; Ubuntu blocks system-wide pip | installed on request |
-| `openpyxl`, `pycldf`, `cldfbench`, `pypdf`, `genanki` (pip, inside the venv) | read the owner's spreadsheet; build and validate the CLDF dataset; read back page numbers for the PDF contents pages; write Anki decks (`pipeline/tool_flashcards.py`, owner's request 2026-10-15) | installed by `build_all.sh` from `requirements.txt`. The venv holds absolute paths: if the repo folder is renamed or moved, delete `pipeline/.venv` and rebuild |
+| `openpyxl`, `pycldf`, `cldfbench`, `pypdf`, `genanki`, `pytest-cldf` (pip, inside the venv) | read the owner's spreadsheet; build and validate the CLDF dataset; read back page numbers for the PDF contents pages; write Anki decks (`pipeline/tool_flashcards.py`, owner's request 2026-10-15); run `test.py` (`pipeline/.venv/bin/python -m pytest test.py`, installed 2026-10-19) | installed by `build_all.sh` from `requirements.txt`. The venv holds absolute paths: if the repo folder is renamed or moved, delete `pipeline/.venv` and rebuild |
 | `tesseract-ocr`, `tesseract-ocr-ita`, `tesseract-ocr-deu` | OCR of scanned lessons; German so that ü and ö survive | installed on request |
 | `poppler-utils` | `pdftotext`, `pdftoppm` | was already installed |
 | Google Chrome or Chromium | prints the PDFs; step is skipped with a message if absent | was already installed |
@@ -110,9 +110,11 @@ forms, entries without English, decisions that matched nothing) and the `git dif
 | `parallel_texts.csv` | Class translations and their Italian originals in other documents, aligned by step 2 (*I düü magnan*, Inferno I–VI against `raw/Divina Commedia Inferno I-VI (Dante, Project Gutenberg).txt`). |
 | `nouns.csv` | Nouns whose source gives no article (gender), and corrections of gender or plural: `Language_ID,Form,Gender,Plural,Reason`, Form as written in the source. About 400 rows written by Claude on 2026-10-15 (every noun gets m./f.): gender from an article in the lesson texts where one is found (cited), else a best guess from the Italian. A Plural written in the headword (`curtel/curtei`, `sedèla (sedèl)`) is removed from it. |
 | `dialect_lists_italian_supplied.csv` | Dialect-only list words (lessons 1–2, 5, 6) with Italian/English supplied by Claude; Italian shown with †. |
+| `grammar/NN-slug.md` | The grammar's chapters (CLDF Markdown; format in the docstring of `pipeline/grammar.py`): `IT:`/`EN:` paragraph pairs printed side by side, `[](ExampleTable#cldf:ID)` and `[](EntryTable#cldf:ciapa?tenses=presente)` lines for examples and verb tables, dialect tables. The number in the file name is the chapter number (`00` = introduction, unnumbered). Text drafted by Claude, 2026-10-19. |
+| `grammar_examples.csv` | The grammar's examples: `ID,Primary_Text,Analyzed_Word,Gloss,Italian,English,Source,Line,Comment`. Every one is quoted from a canonical document; the build warns if `Primary_Text` is not on the cited line, if a chapter uses an unknown ID, or if words and glosses differ in number. Glosses are Leipzig-style, Claude's (abbreviations in chapter 00). |
 
 Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_readme_intro.md`,
-`cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html` (`{{…}}` placeholders filled at build time).
+`cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html`, `cover_grammar.html` (`{{…}}` placeholders filled at build time).
 
 ## Decisions already made (do not relitigate)
 
@@ -132,7 +134,7 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   rows get status `typo`/`rejected`. Sources cited as `key[l.N]` (line in `pipeline/cache/lesson_text`).
 - **Canonical variety:** the Rögn course lessons and the teacher's own exercise sheets. Other varieties
   stay in the same dictionary pages with a **Region** column.
-- **Output is Markdown** in folders at the repository root, plus three PDFs. No spreadsheet output.
+- **Output is Markdown** in folders at the repository root, plus four PDFs. No spreadsheet output.
 - **Teacher's spelling is kept** as written, variants included. Exceptions: Word's automatic capitals
   are lowered on words and non-sentence phrases, "idem" is replaced by the text it refers to, the
   conditional sheets' hyphens (`ciapa-ria/ress`) are written out (`ciaparia/ciaparess`), quotation marks around a whole expression are dropped (`«Dài, ta spéci l’ann che vegn!»`; owner, 2026-10-15), and the third
@@ -164,6 +166,16 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   automatically (dialect word and its Italian stem must both appear). Idioms, similes and sentences do not
   belong in the dictionary: move them with an `expression` decision. PDF `arogno-expressions.pdf`: topics in two
   columns (dialect first, sorted by dialect); no texts.
+- **Grammar (decided 2026-10-19):** a short learner's grammar, `Grammar/` and `Grammar/arogno-grammar.pdf`,
+  from `etc/grammar/` + `etc/grammar_examples.csv`. Explanations in Italian and English in two columns
+  throughout (owner); examples and tables in dialect. Examples only from canonical documents, cited by line
+  (not from *Chi che l'è un vero ticinés*, whose variety is unverified). In `cldf/` the chapters are copied
+  to `cldf/grammar/` and listed in `media.csv` (MediaTable); the examples are rows of `examples.csv` with
+  `Analyzed_Word`/`Gloss`, Genre `grammar`, Contribution `grammar` (shown only in the grammar, not on the
+  expression pages). † marks a rule Claude worked out rather than one the course states. Outline after the
+  Wikibooks Lombard grammar (topics only; its text is CC BY-SA and was not copied). Chapter 10, pronouns
+  attached to the verb (*dimm*, *purtam*, *setevas*), was the owner's request. Questions it raises are in
+  `etc/open_questions.csv` (Area `Grammatica`).
 - **Verb pages:** Infinitive section (Dialett, Italiano, English), then gerund, participle and class,
   then Indicativo as two three-tense tables (A4), Condizionale, Imperativo; same sections for every verb.
   Classes follow the four Western Lombard conjugations (not from the course).
@@ -213,6 +225,8 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   *Carattere* are large catch-alls. A few single words are still among the expressions (13a: *falce per
   l'erba*, *gerla*, *carro*; 14a *ciliegio*; ): no decision moves an expression into the dictionary yet (a wrongly joined pair can be split with
   `etc/pair_corrections.csv`, as Gaggini's *cröcc / cumãa* was).
+- The grammar has not been checked by the teacher. Its weakest parts: the subjunctive (no table in the course),
+  the object pronouns for "us" and "them", and the doubled consonants (*lavass*, *dimm*).
 - `Example_IDs` links only about 90 senses: the dialect word must appear in the expression exactly as
   written (inflected adjectives and nouns are missed), and words under four letters are skipped.
 - `raw/` contains third-party material (published texts, the teacher's handouts, classmates' names).

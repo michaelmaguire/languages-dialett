@@ -10,6 +10,7 @@ from collections import defaultdict
 from pycldf import Dataset, Source
 
 import step4_build_pages as pages
+import grammar
 import noun_plurals
 from paths import RAW, ETC, CLDF, DATA
 
@@ -54,10 +55,11 @@ SUPPLIED_NOTE = "Italian and English supplied; the lesson gives the dialect only
 CONFIRMED_NOTE = "Italian and English supplied (the lesson gives the dialect only) and confirmed by the owner"
 NO_ITALIAN_NOTE = "the source gives no Italian; the English is shown in brackets"
 TABLE_OF = {"entries.csv": "EntryTable", "senses.csv": "SenseTable", "examples.csv": "ExampleTable",
-            "languages.csv": "LanguageTable", "contributions.csv": "ContributionTable"}
+            "languages.csv": "LanguageTable", "contributions.csv": "ContributionTable", "media.csv": "MediaTable"}
 # What kind of expression a row is: set per document in etc/lesson_sources.csv (column genre), or per
 # expression in etc/expression_topics.csv. Texts are read in order; the others are grouped by topic.
-GENRES = ("phrase", "saying", "exercise", "text")
+# `grammar`: the numbered examples of the grammar (etc/grammar_examples.csv), shown only there.
+GENRES = ("phrase", "saying", "exercise", "text", "grammar")
 
 
 def slug(text, limit=48):
@@ -304,6 +306,8 @@ def configure(ds):
                    {"name": "Topic_ID", "dc:description": "What the expression is about (etc/expression_topics.csv); "
                                                          "blank for texts, which are read in order"})
     ds.add_foreign_key("ExampleTable", "Topic_ID", "topics.csv", "ID")
+    # the grammar's chapters (CLDF Markdown, Italian and English side by side), copied to cldf/grammar/
+    ds.add_component("MediaTable")
     ds.add_foreign_key("EntryTable", "Variant_Of", "EntryTable", "ID")
     ds.add_table("variants.csv", rid, entry_ref, form,
                  {"name": "Kind", "datatype": {"base": "string", "format": "spelling|typo|ocr-error|article"}},
@@ -618,6 +622,8 @@ def make(writer):
     renumber_entries(rows)
     missing_spellings = add_spellings(rows)
     unsorted = place_examples(rows, bib)
+    lesson_meta = {r["file"]: r for r in pages.read(ETC / "lesson_sources.csv")}
+    grammar_warnings = grammar.cldf_rows(rows, bib, cite, bib_entry, lesson_meta, writer.cldf_spec.dir)
     link_examples(rows)
     writer.cldf.add_sources(*bib)
     writer.objects["LanguageTable"] = [{"ID": i, "Name": n, "Glottocode": g, "ISO639P3code": iso, "Description": d}
@@ -643,6 +649,10 @@ def make(writer):
         print(f"  WARNING: decision matched nothing: {d['Decision']} {d['Language_ID']} {d['Form']!r}")
     for t in unsorted["topics"]:
         print(f"  WARNING: expression topic matched nothing: {t['Language_ID']} {t['Form']!r}")
+    n_grammar = sum(x["Genre"] == "grammar" for x in rows["examples.csv"])
+    print(f"  grammar: {len(rows.get('media.csv', []))} chapters, {n_grammar} glossed examples")
+    for w in grammar_warnings:
+        print(f"  WARNING: {w}")
     if unsorted["examples"]:
         print(f"  {len(unsorted['examples'])} expressions have no topic yet: add them to etc/expression_topics.csv "
               f"(tool_expression_topics.py list)")
@@ -719,7 +729,8 @@ def link_examples(rows):
     are not used."""
     tokens = lambda s: set(WORD.findall((s or "").lower().replace("’", "'")))
     examples = [(x["ID"], tokens(x["Primary_Text"]), tokens(x["Translated_Text"]))
-                for x in rows["examples.csv"] if x["Status"] != "rejected" and x["Language_ID"] == "rogn"]
+                for x in rows["examples.csv"] if x["Status"] != "rejected" and x["Language_ID"] == "rogn"
+                and x.get("Genre") != "grammar"]
     forms = defaultdict(set)
     for p in rows["paradigms.csv"]:
         last = p["Form"].split("/")[0].split()
@@ -793,7 +804,7 @@ def for_pages():
                      "supplied": s["Status"] == "supplied",
                      "gender": e.get("Gender") or "", "plural": e.get("Plural") or ""})
     for x in rows["examples.csv"]:
-        if x["Status"] == "rejected":
+        if x["Status"] == "rejected" or x.get("Genre") == "grammar":      # the grammar's own examples
             continue
         src, line = origin(x["Source"])
         c = contributions.get(x["Contribution_ID"], {})
@@ -843,7 +854,7 @@ def for_pages():
             grid[t] = {person: grid[t][person] for person in persons}      # mi, ti, lü … order
         cls = e["Conjugation_Class"] or ""
         full = next((v for k, v in pages.CLASSES.items() if v.startswith(cls + ":")), cls) if cls else ""
-        tables[name] = {"dialect": [e["Headword"]] + variants[e["ID"]], "class": full,
+        tables[name] = {"entry_id": e["ID"], "dialect": [e["Headword"]] + variants[e["ID"]], "class": full,
                         "basis": "inferred" if e["Status"] == "inferred" else ("attested" if e["Comment"] else ""),
                         "evidence": e["Comment"] or "", "aliases": [s["Description"] for s in ss[1:]],
                         "grid": grid, "forms": forms, "aux": e["Auxiliary"],

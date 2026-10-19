@@ -8,6 +8,7 @@ Reads  ../cldf (through lexicon.for_pages), data/dictionary.csv (written by step
 Writes ../Verbs/arogno-verbs.pdf         cover, contents, attributions, one verb per A4 sheet
        ../Dictionary/arogno-dictionary.pdf  cover, contents, attributions, the three look-up directions
        ../Expressions/arogno-expressions.pdf  cover, contents, attributions, expressions by topic
+       ../Grammar/arogno-grammar.pdf          cover, contents, attributions, the grammar's chapters
 Uses Chrome or Chromium in headless mode to print; skipped with a message if neither is installed.
 Each PDF is printed twice: the contents page holds {{page:ID}} placeholders, and the page numbers come
 from where the first print put the elements those IDs link to (read back with pypdf).
@@ -132,6 +133,7 @@ def main():
                         f"arogno-verbs.pdf: cover, contents, attributions + {len(sheets)} verb sheets")
     dictionary()
     expressions()
+    grammar_pdf()
 
 
 CREDITS_CSS = """
@@ -200,7 +202,7 @@ def credits_pages():
             items.append(line[2:])
         elif items and line.startswith("  "):
             items[-1] += " " + line.strip()
-        elif "printed at the back of the" in line or re.match(r"(two|three) PDFs\.", line):
+        elif "printed at the back of the" in line or re.match(r"(two|three|four) PDFs\.", line):
             continue
         else:
             para.append(line.strip())
@@ -409,6 +411,26 @@ def expressions():
     print_with_contents(build.ROOT / "Expressions" / "arogno-expressions.pdf", page, document,
                         f"arogno-expressions.pdf: cover, contents, attributions + {counts['saying'] + counts['phrase']} "
                         f"expressions in {len(by_topic)} topics")
+
+def grammar_pdf():
+    """Grammar/arogno-grammar.pdf: the chapters of etc/grammar/, Italian and English in two columns,
+    examples and tables in dialect (see grammar.py)."""
+    import grammar, lexicon
+    _, tables, _ = lexicon.for_pages()
+    parts = grammar.pdf_parts(tables)
+    if not parts:
+        return
+    contents, body, counts = parts
+    cover = stamp((TEMPLATES / "cover_grammar.html").read_text())
+    for k, v in counts.items():
+        cover = cover.replace("{{" + k + "}}", str(v))
+    page = HERE / "cache" / "print_grammar.html"
+    document = (f'<!doctype html><meta charset="utf-8"><title>Gramatica – dialett da Rögn</title>'
+                f"<style>{DICT_CSS}{TOC_CSS}{grammar.GRAMMAR_CSS}</style>{cover}{contents}{credits_pages()}{body}")
+    print_with_contents(build.ROOT / "Grammar" / "arogno-grammar.pdf", page, document,
+                        f"arogno-grammar.pdf: cover, contents, attributions + {counts['chapters']} chapters, "
+                        f"{counts['examples']} examples")
+
 
 if __name__ == "__main__":
     sys.exit(main())

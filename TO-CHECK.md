@@ -9,7 +9,7 @@ Tutto ciò che nelle pagine generate non è preso direttamente da un documento d
 | [† Infiniti dialettali dedotti](#infiniti-dedotti) | 20 |
 | [† Forme verbali dedotte](#forme-verbali-dedotte) | 4667 |
 | [† Italiano aggiunto agli elenchi solo in dialetto](#italiano-aggiunto) | 1 |
-| [Domande aperte](#domande-aperte) | 3 |
+| [Domande aperte](#domande-aperte) | 6 |
 | [Grafie preferite](#grafie-preferite) | 29 |
 | [† Parole nei nomi degli argomenti non trovate nel corso](#nomi-degli-argomenti) | 6 |
 | [⚠ Estrazioni incerte](#estrazioni-incerte) | 1 |
@@ -23,6 +23,9 @@ Domande su forme che il corso non riporta, raccolte in `etc/open_questions.csv`.
 | Verbi | ves (essere) | La tabella di essere scrive la 3ª persona le/lü l'è \| eva \| eva stai. All'imperfetto e al trapassato è 'eva' / 'eva stai' come scritto, oppure 'l'eva' / 'l'eva stai' come negli altri verbi? | Lasciato come scritto (eva, eva stai); gli altri verbi hanno l'eva |
 | Verbi | tutti i verbi | Il congiuntivo (presente e imperfetto) è dedotto da una decina di forme trovate nelle frasi (füdessa, ta siat, al naga, i faga). Esiste una tabella? Gli schemi sono giusti (che mi paga, ta pagat; pagassa, ta pagassat)? | Mostrato con † |
 | Verbi | töss fö (togliersi di torno) | 'töt mia fö, töghemas mia fö, tögevas mia fö' (scheda dell'imperativo): l'infinito è töss fö? | Dedotto, con † |
+| Grammatica | «ci» = a noi | Per «a noi» il corso scrive a volte ma (a nümm ma rescta dumà…, frasi fai 1) e a volte ga / gh’a (ta gal fe cugnos?, dialoghi a Lugano; gh’a piasaria ves american, Il Condizionale Presente). Quale è quella di Rögn, o si usano tutte e due? | La grammatica (cap. 10) mostra tutte e due le forme e lo segnala come incerto |
+| Grammatica | pronomi attaccati: -m / -mm, -s / -ss | Dopo l'infinito il corso scrive purtam, divertim ma dimm; setas ma lavass, fidass, vesctiss. La consonante doppia si pronuncia diversa, o è solo un modo di scrivere? | La grammatica (cap. 10) riporta le forme come scritte |
+| Grammatica | gh’ con avere | Con avere nel senso di «possedere» c'è quasi sempre gh’ (gò, gh’ò, g’avrò famm), come ausiliare mai (u ciapaa, ve mangiaa). È giusto dire che gò = gh’ + ò, e che senza gh’ non si dice mai «ò» per «possiedo»? | La grammatica (cap. 7) lo presenta così, segnato con † |
 
 ## Grafie preferite
 

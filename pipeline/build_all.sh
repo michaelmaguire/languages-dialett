@@ -20,4 +20,4 @@ echo "cldf: valid"
 .venv/bin/python step5_build_pdfs.py                         # cldf/ -> PDFs
 { cat templates/cldf_readme_intro.md; echo; .venv/bin/cldf markdown ../cldf/Dictionary-metadata.json 2>/dev/null; } \
     > ../cldf/README.md
-echo "Pages are in $(cd .. && pwd): README.md, Dictionary/, Expressions/, Verbs/"
+echo "Pages are in $(cd .. && pwd): README.md, Dictionary/, Expressions/, Verbs/, Grammar/"

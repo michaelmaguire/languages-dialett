@@ -114,7 +114,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://github.com/michaelmaguire/languages-dialett
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:michaelmaguire/languages-dialett
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:michaelmaguire/languages-dialett/tree/8b4c91c">git@github.com:michaelmaguire/languages-dialett  8b4c91c</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:michaelmaguire/languages-dialett/tree/f6c1273">git@github.com:michaelmaguire/languages-dialett  f6c1273</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | rogn
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -193,7 +193,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ExampleTable](http://cldf.clld.org/v1.0/terms.rdf#ExampleTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1801
+[dc:extent](http://purl.org/dc/terms/extent) | 1919
 
 
 ### Columns
@@ -215,7 +215,7 @@ Name/Property | Datatype | Description
 [Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
 [Contribution_ID](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | `string` | References [contributions.csv::ID](#table-contributionscsv)
 [Position](http://cldf.clld.org/v1.0/terms.rdf#position) | `integer` | Line of the expression in its document (pipeline/cache/lesson_text)
-`Genre` | `string`<br>Valid choices:<br> `phrase` `saying` `exercise` `text` | 
+`Genre` | `string`<br>Valid choices:<br> `phrase` `saying` `exercise` `text` `grammar` | 
 `Topic_ID` | `string` | What the expression is about (etc/expression_topics.csv); blank for texts, which are read in order<br>References [topics.csv::ID](#table-topicscsv)
 
 ## <a name="table-contributionscsv"></a>Table [contributions.csv](./contributions.csv)
@@ -223,7 +223,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ContributionTable](http://cldf.clld.org/v1.0/terms.rdf#ContributionTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 45
+[dc:extent](http://purl.org/dc/terms/extent) | 46
 
 
 ### Columns
@@ -235,7 +235,7 @@ Name/Property | Datatype | Description
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
 [Contributor](http://cldf.clld.org/v1.0/terms.rdf#contributor) | `string` | 
 [Citation](http://cldf.clld.org/v1.0/terms.rdf#citation) | `string` | 
-`Genre` | `string`<br>Valid choices:<br> `phrase` `saying` `exercise` `text` | What the document mostly holds; an expression may override it
+`Genre` | `string`<br>Valid choices:<br> `phrase` `saying` `exercise` `text` `grammar` | What the document mostly holds; an expression may override it
 [Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
 
 ## <a name="table-topicscsv"></a>Table [topics.csv](./topics.csv)
@@ -253,6 +253,25 @@ Name/Property | Datatype | Description
 `Name_Dialect` | `string` | Rögn name of the topic, composed by Claude from words of the course; † marks a word not found in any course document
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | Italian name of the topic
 `Name_English` | `string` | 
+
+## <a name="table-mediacsv"></a>Table [media.csv](./media.csv)
+
+property | value
+ --- | ---
+[dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF MediaTable](http://cldf.clld.org/v1.0/terms.rdf#MediaTable)
+[dc:extent](http://purl.org/dc/terms/extent) | 13
+
+
+### Columns
+
+Name/Property | Datatype | Description
+ --- | --- | --- 
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
+[Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
+[Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
+[Media_Type](http://cldf.clld.org/v1.0/terms.rdf#mediaType) | `string`<br>Regex: `[^/]+/.+` | 
+[Download_URL](http://cldf.clld.org/v1.0/terms.rdf#downloadUrl) | `anyURI` | 
+[Path_In_Zip](http://cldf.clld.org/v1.0/terms.rdf#pathInZip) | `string` | 
 
 ## <a name="table-variantscsv"></a>Table [variants.csv](./variants.csv)
 
