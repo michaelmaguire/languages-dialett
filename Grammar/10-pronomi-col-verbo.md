@@ -82,9 +82,24 @@
 
 | Italiano | English |
 |---|---|
+| Il «a chi» si dice spesso due volte: una con il pronome davanti al verbo e una con il nome o il pronome intero, prima o dopo: *ga pias a tücc*, *al Mattia ga pias*, letteralmente «gli piace a tutti», «a Mattia gli piace». Come nell'italiano parlato («a lui gli piace») e in spagnolo (*a todos les gusta*); è lo stesso raddoppio del clitico soggetto del capitolo 4 (*ul vent al bofa*). Succede soprattutto con *piasé* (piacere), il verbo dove chi «ha» il sentimento è il «a chi»: *ma pias* (mi piace), *ta pias* (ti piace), *ga pias* (gli piace, le piace). † | The "to whom" is often said twice: once as the pronoun before the verb and once as the full noun or pronoun, before or after it: *ga pias a tücc*, *al Mattia ga pias*, word for word "to-them pleases to everyone", "Mattia, to-him it pleases". Colloquial Italian does the same (*a lui gli piace*), and so does Spanish (*a todos les gusta*); it is the same doubling as the subject clitic in chapter 4 (*ul vent al bofa*, the wind it blows). It happens above all with *piasé* (to please), the verb where the person who likes is the "to whom": *ma pias* (I like, "to me it pleases"), *ta pias* (you like), *ga pias* (he, she, they like). † |
+
+**(6)** *la mia tôsa invece ga pias tantissim pitürà*
+
+| *la* | *mia* | *tôsa* | *invece* | *ga* | *pias* | *tantissim* | *pitürà* |
+|---|---|---|---|---|---|---|---|
+| the.F | my.F | daughter | instead | DAT | please.3SG | very.much | paint.INF |
+
+‘a mia figlia invece piace tantissimo dipingere’ · ‘my daughter, on the other hand, loves painting’ — [varie situazioni, l. 9](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/varie%20situazioni.docx)
+
+*The daughter is named first, then repeated by ga.*
+
+| Italiano | English |
+|---|---|
+| Il nome tecnico è *raddoppiamento clitico* (o *del clitico*). I linguisti distinguono il raddoppio vero, con la frase intera al suo posto e senza pausa (*ga pias a tücc*), dalla *dislocazione a sinistra*, dove la frase intera è messa davanti come argomento e il pronome la riprende (*la mia tôsa invece ga pias…*, *al Mattia ga pias…*). | The technical term is *clitic doubling* (here *dative clitic doubling*; Italian *raddoppiamento clitico*). Linguists distinguish true doubling, with the full phrase in its normal place and no pause (*ga pias a tücc*), from *clitic left dislocation*, where the full phrase is put first as the topic and the pronoun picks it up (*la mia tôsa invece ga pias…*, *al Mattia ga pias…*). |
 | Davanti a vocale il pronome perde la vocale: *t’ò dii* (ti ho detto), *m’è tucaa* (mi è toccato). | Before a vowel the pronoun drops its vowel: *t’ò dii* (I told you), *m’è tucaa* (I had to, literally "it touched me"). |
 
-**(6)** *che t’ò dii*
+**(7)** *che t’ò dii*
 
 | *che* | *t’-ò* | *dii* |
 |---|---|---|
@@ -92,7 +107,7 @@
 
 ‘che ti ho detto’ · ‘that I told you about’ — [imperativo, l. 177](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/imperativo.pdf)
 
-**(7)** *Pürtropp m’è tucaa rifüdà la sua uferta*
+**(8)** *Pürtropp m’è tucaa rifüdà la sua uferta*
 
 | *pürtropp* | *m’-è* | *tucaa* | *rifüdà* | *la* | *sua* | *uferta* |
 |---|---|---|---|---|---|---|
@@ -106,7 +121,7 @@
 |---|---|
 | All'infinito il pronome si attacca in fondo e l'infinito perde l'accento finale: *purtà* + *m* = *purtam* (accompagnarmi), *divertì* + *m* = *divertim*, *parlà* + *v* = *parlav* (parlarvi), *fà* + *l* = *fal* (farlo), *serà* + *la* = *sérala* (chiuderla). | With an infinitive the pronoun is attached at the end and the infinitive loses its final accent: *purtà* + *m* = *purtam* (to take me), *divertì* + *m* = *divertim* (to enjoy myself), *parlà* + *v* = *parlav* (to talk to you all), *fà* + *l* = *fal* (to make him), *serà* + *la* = *sérala* (to close it). |
 
-**(8)** *Ta poda-ria/ressat purtam a la stazion duman ?*
+**(9)** *Ta poda-ria/ressat purtam a la stazion duman ?*
 
 | *ta* | *poda-ria/ressat* | *purta-m* | *a* | *la* | *stazion* | *duman* |
 |---|---|---|---|---|---|---|
@@ -114,7 +129,7 @@
 
 ‘Potresti accompagnarmi alla stazione domani?’ · ‘Could you take me to the station tomorrow?’ — [Il Condizionale Presente, l. 50](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Il%20Condizionale%20Presente.docx)
 
-**(9)** *a vöraressa parlav dala mia sctanza*
+**(10)** *a vöraressa parlav dala mia sctanza*
 
 | *a* | *vöraressa* | *parla-v* | *dala* | *mia* | *sctanza* |
 |---|---|---|---|---|---|
@@ -122,7 +137,7 @@
 
 ‘vorrei parlarvi della mia stanza’ · ‘I'd like to tell you about my room’ — [varie situazioni, l. 88](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/varie%20situazioni.docx)
 
-**(10)** *chi a podi stüdià e divertim tantu*
+**(11)** *chi a podi stüdià e divertim tantu*
 
 | *chi* | *a* | *podi* | *stüdià* | *e* | *diverti-m* | *tantu* |
 |---|---|---|---|---|---|---|
@@ -130,7 +145,7 @@
 
 ‘qui posso studiare e divertirmi tanto’ · ‘here I can study and have a lot of fun’ — [varie situazioni, l. 92](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/varie%20situazioni.docx)
 
-**(11)** *cerchi da fal parlà*
+**(12)** *cerchi da fal parlà*
 
 | *cerchi* | *da* | *fa-l* | *parlà* |
 |---|---|---|---|
@@ -138,15 +153,15 @@
 
 ‘cerco di farlo parlare’ · ‘I try to get him to talk’ — [dialoghi a Lugano, l. 184](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/dialoghi%20a%20Lugano.pdf)
 
-**(12)** *ga pias immaginal*
+**(13)** *al Mattia ga pias immaginal*
 
-| *ga* | *pias* | *immagina-l* |
-|---|---|---|
-| DAT | please.3SG | imagine.INF-3SG.M.OBJ |
+| *al* | *Mattia* | *ga* | *pias* | *immagina-l* |
+|---|---|---|---|---|
+| the.M | Mattia | DAT | please.3SG | imagine.INF-3SG.M.OBJ |
 
-‘gli piace immaginarlo’ · ‘he likes to imagine him (that way)’ — [varie situazioni, l. 81](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/varie%20situazioni.docx)
+‘a Mattia piace immaginarlo’ · ‘Mattia likes to imagine him (that way)’ — [varie situazioni, l. 81](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/varie%20situazioni.docx)
 
-**(13)** *a sérala ga pénsa l’avucat cuèrta*
+**(14)** *a sérala ga pénsa l’avucat cuèrta*
 
 | *a* | *séra-la* | *ga* | *pénsa* | *l’-avucat* | *cuèrta* |
 |---|---|---|---|---|---|
@@ -156,7 +171,7 @@
 
 *From the proverb about a quarrel between husband and wife: bed settles it.*
 
-**(14)** *che sian i altri a ciapalà*
+**(15)** *che sian i altri a ciapalà*
 
 | *che* | *sian* | *i* | *altri* | *a* | *ciapa-là* |
 |---|---|---|---|---|---|
@@ -168,7 +183,7 @@
 |---|---|
 | Dopo alcuni infiniti la consonante del pronome si scrive doppia: *lavass* (lavarsi), *fidass* (fidarsi), *vesctiss* (vestirsi), ma *setas* (sedersi). Non è chiaro se sia una regola o un'abitudine di scrittura. † | After some infinitives the pronoun's consonant is written double: *lavass* (to wash oneself), *fidass* (to trust), *vesctiss* (to get dressed), but *setas* (to sit down). It is not clear whether this is a rule or a spelling habit. † |
 
-**(15)** *Nii pür a lavass dadré da cà*
+**(16)** *Nii pür a lavass dadré da cà*
 
 | *nii* | *pür* | *a* | *lava-ss* | *dadré* | *da* | *cà* |
 |---|---|---|---|---|---|---|
@@ -180,7 +195,7 @@
 |---|---|
 | Con *ne* il pronome è *-n*: *saven* (saperne). *Gh* si attacca allo stesso modo: *fagh maa* (fargli male), *dag na man* (dargli una mano). | With *ne* the pronoun is *-n*: *saven* (to know some of it). *Gh* attaches the same way: *fagh maa* (to hurt him), *dag na man* (to give him a hand). |
 
-**(16)** *i gent che vö saven sempru una pagina püsee dal libru*
+**(17)** *i gent che vö saven sempru una pagina püsee dal libru*
 
 | *i* | *gent* | *che* | *vö* | *save-n* | *sempru* | *una* | *pagina* | *püsee* | *dal* | *libru* |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -188,7 +203,7 @@
 
 ‘la gente che vuole saperne sempre una pagina più del libro’ · ‘people who always want to know one page more than the book’ — [domande di vario tipo, l. 13](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/domande%20di%20vario%20tipo.docx)
 
-**(17)** *L'è nanca bon da fagh maa a na mosca*
+**(18)** *L'è nanca bon da fagh maa a na mosca*
 
 | *l’-è* | *nanca* | *bon* | *da* | *fa-gh* | *maa* | *a* | *na* | *mosca* |
 |---|---|---|---|---|---|---|---|---|
@@ -202,7 +217,7 @@
 |---|---|
 | All'imperativo il pronome si attacca in fondo, come in italiano: *dimm* (dimmi), *metag denta* (mettici dentro), *dag na man* (dai una mano, a lei), *godat* (goditi), *fatala* (fattela). | With an imperative the pronoun is attached at the end, as in Italian: *dimm* (tell me), *metag denta* (put [some] in), *dag na man* (give [her] a hand), *godat* (enjoy), *fatala* (make it… for yourself). |
 
-**(18)** *E dimm un pu cun chi che sctà chi da cà ta sa trövat ben?*
+**(19)** *E dimm un pu cun chi che sctà chi da cà ta sa trövat ben?*
 
 | *e* | *di-mm* | *un* | *pu* | *cun* | *chi* | *che* | *sctà* | *chi* | *da* | *cà* | *ta* | *sa* | *trövat* | *ben* |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -210,7 +225,7 @@
 
 ‘E dimmi un po', con chi che abita qui ti trovi bene?’ · ‘So tell me, which of the people living here do you get on with?’ — [dialoghi a Lugano, l. 484](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/dialoghi%20a%20Lugano.pdf)
 
-**(19)** *Metag denta ‘na presa da saa*
+**(20)** *Metag denta ‘na presa da saa*
 
 | *meta-g* | *denta* | *’na* | *presa* | *da* | *saa* |
 |---|---|---|---|---|---|
@@ -218,7 +233,7 @@
 
 ‘Mettici dentro un pizzico di sale’ · ‘Put a pinch of salt in’ — [imperativo, l. 212](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/imperativo.pdf)
 
-**(20)** *Dag ‘na man a la tua mam in cüsina*
+**(21)** *Dag ‘na man a la tua mam in cüsina*
 
 | *da-g* | *’na* | *man* | *a* | *la* | *tua* | *mam* | *in* | *cüsina* |
 |---|---|---|---|---|---|---|---|---|
@@ -226,7 +241,7 @@
 
 ‘Dai una mano a tua madre in cucina’ · ‘Give your mum a hand in the kitchen’ — [imperativo, l. 182](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/imperativo.pdf)
 
-**(21)** *godat la natüra*
+**(22)** *godat la natüra*
 
 | *goda-t* | *la* | *natüra* |
 |---|---|---|
@@ -234,7 +249,7 @@
 
 ‘goditi la natura’ · ‘enjoy nature’ — [imperativo, l. 228](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/imperativo.pdf)
 
-**(22)** *Fatala na ben come ta se*
+**(23)** *Fatala na ben come ta se*
 
 | *fa-ta-la* | *na* | *ben* | *come* | *ta* | *se* |
 |---|---|---|---|---|---|
@@ -242,7 +257,7 @@
 
 ‘Accetta chi sei (fattela andare bene come sei)’ · ‘Accept who you are’ — [frasi fai 1 - Copia, l. 151](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/frasi%20fai%201%20-%20Copia.docx)
 
-**(23)** *dagan un tai*
+**(24)** *dagan un tai*
 
 | *da-g-an* | *un* | *tai* |
 |---|---|---|
@@ -262,7 +277,7 @@
 | nüm | *setemas mia* | *lavemas mia* | *regurdemas mia* |
 | vialtri | *setevas mia* | *lavevas mia* | *regurdevas mia* |
 
-**(24)** *setat mia, setemas mia, setevas mia*
+**(25)** *setat mia, setemas mia, setevas mia*
 
 | *seta-t* | *mia* | *sete-mas* | *mia* | *sete-vas* | *mia* |
 |---|---|---|---|---|---|
@@ -270,7 +285,7 @@
 
 ‘non sederti, non sediamoci, non sedetevi’ · ‘don't sit down (you, we, you all)’ — [imperativo, l. 117](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/imperativo.pdf)
 
-**(25)** *Disedevas presct duman*
+**(26)** *Disedevas presct duman*
 
 | *disede-vas* | *presct* | *duman* |
 |---|---|---|
@@ -284,7 +299,7 @@
 |---|---|
 | Al gerundio il pronome si attacca con una vocale in più: *dandog* (dandole), *metendug* (mettendoci), *lavandus* (lavandosi). | With a gerund the pronoun is attached with an extra vowel: *dandog* (giving her), *metendug* (putting in), *lavandus* (washing oneself). |
 
-**(26)** *dandog na man a la tua mam in cüsina*
+**(27)** *dandog na man a la tua mam in cüsina*
 
 | *dand-og* | *na* | *man* | *a* | *la* | *tua* | *mam* | *in* | *cüsina* |
 |---|---|---|---|---|---|---|---|---|
@@ -292,7 +307,7 @@
 
 ‘dandole una mano in cucina’ · ‘giving your mum a hand in the kitchen’ — [il gerundio, l. 130](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/il%20gerundio.pdf)
 
-**(27)** *Metendug denta ‘n zic da*
+**(28)** *Metendug denta ‘n zic da*
 
 | *metend-ug* | *denta* | *’n* | *zic* | *da* |
 |---|---|---|---|---|
@@ -306,7 +321,7 @@
 |---|---|
 | Quando ci sono due pronomi, il primo è quello «a chi» o *gh’*, il secondo l'oggetto o *ne*, come in italiano: *ga l’ò* (ce l'ho), *ga n’è* (ce n'è), *ta gal fe cugnos* (ce lo fai conoscere), *ta ia darà* (te le darà), *sa na regorda* (se ne ricorda). | When there are two pronouns, the first is the "to whom" pronoun or *gh’*, the second the object or *ne*, as in Italian: *ga l’ò* (I've got it), *ga n’è* (there is/are some), *ta gal fe cugnos* (you'll introduce him to us), *ta ia darà* (it'll give them to you), *sa na regorda* (remembers it). |
 
-**(28)** *Ga l’ò mì*
+**(29)** *Ga l’ò mì*
 
 | *ga* | *l’-ò* | *mì* |
 |---|---|---|
@@ -314,7 +329,7 @@
 
 ‘Ce l'ho io’ · ‘I've got it’ — [brevi frasi, l. 124](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/brevi%20frasi.pdf)
 
-**(29)** *Da mamm ga n’è vüna sola*
+**(30)** *Da mamm ga n’è vüna sola*
 
 | *da* | *mamm* | *ga* | *n’-è* | *vüna* | *sola* |
 |---|---|---|---|---|---|
@@ -322,7 +337,7 @@
 
 ‘Di mamma ce n'è una sola’ · ‘You only have one mother’ — [frasi fatte, l. 195](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/frasi%20fatte.docx)
 
-**(30)** *quand che ta gal fe cugnos?*
+**(31)** *quand che ta gal fe cugnos?*
 
 | *quand* | *che* | *ta* | *ga-l* | *fe* | *cugnos* |
 |---|---|---|---|---|---|
@@ -330,7 +345,7 @@
 
 ‘quando ce lo fai conoscere?’ · ‘when are you going to introduce him to us?’ — [dialoghi a Lugano, l. 371](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/dialoghi%20a%20Lugano.pdf)
 
-**(31)** *ma ta ia darà*
+**(32)** *ma ta ia darà*
 
 | *ma* | *ta* | *ia* | *darà* |
 |---|---|---|---|
@@ -338,7 +353,7 @@
 
 ‘ma te le darà’ · ‘but it will give them to you’ — [frasi fai 1 - Copia, l. 171](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/frasi%20fai%201%20-%20Copia.docx)
 
-**(32)** *E chi che sa na regorda ?*
+**(33)** *E chi che sa na regorda ?*
 
 | *e* | *chi* | *che* | *sa* | *na* | *regorda* |
 |---|---|---|---|---|---|
@@ -352,7 +367,7 @@
 |---|---|
 | L'italiano *ci* ha due significati, «a noi» e «lì, su questo». Per «lì» il dialetto ha *gh’* (*gh’è*, c'è). Per «a noi» il corso scrive a volte *ma* e a volte *ga*/*gh’a*: forse dipende dal paese o dal verbo. È una domanda per l'insegnante. † | Italian *ci* has two meanings, "us, to us" and "there, about it". For "there" the dialect has *gh’* (*gh’è*, there is). For "us" the course sometimes writes *ma* and sometimes *ga*/*gh’a*: perhaps it depends on the village or on the verb. It is a question for the teacher. † |
 
-**(33)** *a nümm ma rescta dumà che dag na man*
+**(34)** *a nümm ma rescta dumà che dag na man*
 
 | *a* | *nümm* | *ma* | *rescta* | *dumà* | *che* | *da-g* | *na* | *man* |
 |---|---|---|---|---|---|---|---|---|
@@ -362,7 +377,7 @@
 
 *† Ma for 'to us' here; compare ga in (the next examples).*
 
-**(34)** *Se füdessum mia taglian, gh’a piasa-ria/ressa ves american*
+**(35)** *Se füdessum mia taglian, gh’a piasa-ria/ressa ves american*
 
 | *se* | *füdessum* | *mia* | *taglian* | *gh’a* | *piasa-ria/ressa* | *ves* | *american* |
 |---|---|---|---|---|---|---|---|

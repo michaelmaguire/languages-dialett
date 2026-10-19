@@ -20,6 +20,6 @@ The text was drafted by Claude (Anthropic) and has not yet been checked by the t
 | 7 | [*Ves* e *vegh*: essere, avere e gli ausiliari](07-ves-e-vegh.md) | *Ves* and *vegh*: to be, to have and the auxiliaries | 15 |
 | 8 | [Condizionale e congiuntivo](08-condizionale-e-congiuntivo.md) | Conditional and subjunctive | 8 |
 | 9 | [Imperativo e gerundio](09-imperativo-e-gerundio.md) | Imperative and gerund | 9 |
-| 10 | [I pronomi attaccati al verbo](10-pronomi-col-verbo.md) | Pronouns attached to the verb | 34 |
+| 10 | [I pronomi attaccati al verbo](10-pronomi-col-verbo.md) | Pronouns attached to the verb | 35 |
 | 11 | [Verbi riflessivi e verbi con particella](11-riflessivi-e-verbi-con-particella.md) | Reflexive verbs and verbs with a particle | 9 |
 | 12 | [Negazione e domande](12-negazione-e-domande.md) | Negation and questions | 14 |

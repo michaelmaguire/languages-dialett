@@ -20,8 +20,8 @@ EN: The point most unlike Italian: in the second person singular and the third p
 | voi · you (pl.) | *vialtri* | – | *ciapuf* |
 | loro · they | *lur* | *i* | *i ciapa* |
 
-IT: Il clitico c'è anche quando c'è già il soggetto, nome o pronome: *ti ta vöraressat*, *ul vent al bofa*. In italiano sarebbe «il vento lui soffia».
-EN: The clitic is there even when the sentence already has a subject, noun or pronoun: *ti ta vöraressat* (you would want), *ul vent al bofa* (the wind blows). Word for word, "the wind it blows".
+IT: Il clitico c'è anche quando c'è già il soggetto, nome o pronome: *ti ta vöraressat*, *ul vent al bofa*. In italiano sarebbe «il vento lui soffia». I linguisti lo chiamano *raddoppiamento del clitico soggetto*, un tratto ben noto dei dialetti dell'Italia settentrionale.
+EN: The clitic is there even when the sentence already has a subject, noun or pronoun: *ti ta vöraressat* (you would want), *ul vent al bofa* (the wind blows). Word for word, "the wind it blows". Linguists call this *subject clitic doubling*, a well-known feature of the dialects of northern Italy.
 
 [](ExampleTable#cldf:g-vent)
 [](ExampleTable#cldf:g-sctoria)

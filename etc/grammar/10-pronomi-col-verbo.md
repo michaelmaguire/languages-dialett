@@ -36,6 +36,14 @@ EN: Before a conjugated verb the pronoun goes between the subject clitic and the
 [](ExampleTable#cldf:g-imprescta)
 [](ExampleTable#cldf:g-vapresenti)
 
+IT: Il «a chi» si dice spesso due volte: una con il pronome davanti al verbo e una con il nome o il pronome intero, prima o dopo: *ga pias a tücc*, *al Mattia ga pias*, letteralmente «gli piace a tutti», «a Mattia gli piace». Come nell'italiano parlato («a lui gli piace») e in spagnolo (*a todos les gusta*); è lo stesso raddoppio del clitico soggetto del capitolo 4 (*ul vent al bofa*). Succede soprattutto con *piasé* (piacere), il verbo dove chi «ha» il sentimento è il «a chi»: *ma pias* (mi piace), *ta pias* (ti piace), *ga pias* (gli piace, le piace). †
+EN: The "to whom" is often said twice: once as the pronoun before the verb and once as the full noun or pronoun, before or after it: *ga pias a tücc*, *al Mattia ga pias*, word for word "to-them pleases to everyone", "Mattia, to-him it pleases". Colloquial Italian does the same (*a lui gli piace*), and so does Spanish (*a todos les gusta*); it is the same doubling as the subject clitic in chapter 4 (*ul vent al bofa*, the wind it blows). It happens above all with *piasé* (to please), the verb where the person who likes is the "to whom": *ma pias* (I like, "to me it pleases"), *ta pias* (you like), *ga pias* (he, she, they like). †
+
+[](ExampleTable#cldf:g-tosa)
+
+IT: Il nome tecnico è *raddoppiamento clitico* (o *del clitico*). I linguisti distinguono il raddoppio vero, con la frase intera al suo posto e senza pausa (*ga pias a tücc*), dalla *dislocazione a sinistra*, dove la frase intera è messa davanti come argomento e il pronome la riprende (*la mia tôsa invece ga pias…*, *al Mattia ga pias…*).
+EN: The technical term is *clitic doubling* (here *dative clitic doubling*; Italian *raddoppiamento clitico*). Linguists distinguish true doubling, with the full phrase in its normal place and no pause (*ga pias a tücc*), from *clitic left dislocation*, where the full phrase is put first as the topic and the pronoun picks it up (*la mia tôsa invece ga pias…*, *al Mattia ga pias…*).
+
 IT: Davanti a vocale il pronome perde la vocale: *t’ò dii* (ti ho detto), *m’è tucaa* (mi è toccato).
 EN: Before a vowel the pronoun drops its vowel: *t’ò dii* (I told you), *m’è tucaa* (I had to, literally "it touched me").
 

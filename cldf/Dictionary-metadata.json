@@ -19,7 +19,7 @@
         {
             "rdf:about": "git@github.com:michaelmaguire/languages-dialett",
             "rdf:type": "prov:Entity",
-            "dc:created": "fca20ca",
+            "dc:created": "35c6281",
             "dc:title": "Repository"
         }
     ],
@@ -321,7 +321,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 1926,
+            "dc:extent": 1927,
             "tableSchema": {
                 "columns": [
                     {

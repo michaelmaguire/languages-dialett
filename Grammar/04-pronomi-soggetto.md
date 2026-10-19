@@ -29,7 +29,7 @@
 
 | Italiano | English |
 |---|---|
-| Il clitico c'è anche quando c'è già il soggetto, nome o pronome: *ti ta vöraressat*, *ul vent al bofa*. In italiano sarebbe «il vento lui soffia». | The clitic is there even when the sentence already has a subject, noun or pronoun: *ti ta vöraressat* (you would want), *ul vent al bofa* (the wind blows). Word for word, "the wind it blows". |
+| Il clitico c'è anche quando c'è già il soggetto, nome o pronome: *ti ta vöraressat*, *ul vent al bofa*. In italiano sarebbe «il vento lui soffia». I linguisti lo chiamano *raddoppiamento del clitico soggetto*, un tratto ben noto dei dialetti dell'Italia settentrionale. | The clitic is there even when the sentence already has a subject, noun or pronoun: *ti ta vöraressat* (you would want), *ul vent al bofa* (the wind blows). Word for word, "the wind it blows". Linguists call this *subject clitic doubling*, a well-known feature of the dialects of northern Italy. |
 
 **(1)** *ul vent al bofa*
 
