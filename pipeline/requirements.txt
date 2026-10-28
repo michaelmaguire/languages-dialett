@@ -1,0 +1,6 @@
+openpyxl
+pycldf
+cldfbench
+pypdf
+genanki
+pytest-cldf

@@ -1,0 +1,145 @@
+italian,tense,person,form,basis,source,line
+stare,presente,1s,sctò,attested,,
+stare,presente,2s,ta sctét,attested,,
+stare,presente,3s,la/al scta,inferred,,
+stare,presente,1p,sctem,attested,,
+stare,presente,2p,sctii,attested,,
+stare,presente,3p,i sctan,inferred,,
+sapere,presente,1s,so,attested,,
+dovere,presente,2s,ta devat,attested,,
+dovere,presente,1p,devum,attested,,
+dovere,presente,2p,devuf,attested,,
+dire,presente,2s,ta disat,attested,,
+dire,presente,3s,la/al dis,attested,,
+dire,presente,2p,disuf,attested,,
+dire,presente,3p,i disan,attested,,
+vivere,presente,3s,la/al vif,attested,,
+vivere,presente,1p,vivum,attested,,
+vivere,presente,3p,i vivan,attested,,
+sapere,presente,2s,ta set,confirmed,,
+sapere,presente,3p,i sa,inferred,,
+condurre,presente,1s,meni,attested,,
+condurre,presente,2s,ta menat,attested,,
+condurre,presente,3s,la/al mena,attested,,
+condurre,presente,1p,menum,attested,,
+condurre,presente,2p,menuf,attested,,
+condurre,presente,3p,i mena,attested,,
+comprare,presente,2s,ta töat,attested,2025-02-28-1445-brevi frasi.pdf,113
+comprare,presente,3s,al tö,attested,2023-05-01-0000-Cors da dialet da Rögn 15a leziun - proverbi.pdf,95
+comprare,imperativo,2s,tö,attested,2025-05-07-0930-imperativo.pdf,175
+comprare,condizionale presente,1s,tögaria / tögaressa,attested,2024-01-29-2020-Il Condizionale Presente.docx,129
+pagare,presente,1s,paghi,attested,2025-04-06-1703-dialoghi a Lugano.pdf,216
+correre,imperfetto,1s,coreva,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,60
+correre,imperfetto,2s,ta corevat,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,61
+correre,imperfetto,3s,la/al coreva,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,62
+correre,imperfetto,1p,corevum,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,63
+correre,imperfetto,2p,corevuf,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,64
+correre,imperfetto,3p,i corevan,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,65
+correre,trapassato prossimo,1s,eva corüü / seva corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,60
+correre,trapassato prossimo,2s,ta evat corüü / ta sevat corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,61
+correre,trapassato prossimo,3s,l’eva corüü (da),attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,62
+correre,trapassato prossimo,1p,evum corüü / sevum corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,63
+correre,trapassato prossimo,2p,evuf corüü / sevuf corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,64
+correre,trapassato prossimo,3p,i evan corüü / i eva corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,65
+correre,futuro,1s,corarò,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,60
+correre,futuro,2s,ta coraré,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,61
+correre,futuro,3s,la/al corarà,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,62
+correre,futuro,1p,corarem,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,63
+correre,futuro,2p,corarii,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,64
+correre,futuro,3p,i coraran,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,65
+correre,futuro prossimo,1s,avrò corüü / sarò corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,60
+correre,futuro prossimo,2s,ta avré corüü / ta saré corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,61
+correre,futuro prossimo,3s,l’avrà corüü / la/al sarà corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,62
+correre,futuro prossimo,1p,avrem corüü / sarem corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,63
+correre,futuro prossimo,2p,avrii corüü / sarii corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,64
+correre,futuro prossimo,3p,i avran corüü / i saran corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,65
+correre,participio passato,-,curüü / corüü,attested,2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,60
+essere,congiuntivo imperfetto,1s,füdessa,attested,2024-01-29-2020-Il Condizionale Presente.docx,129
+essere,congiuntivo imperfetto,3s,al füdess,attested,2024-01-29-2020-Il Condizionale Presente.docx,125
+essere,congiuntivo imperfetto,1p,füdessum,attested,2024-01-29-2020-Il Condizionale Presente.docx,131
+essere,congiuntivo presente,2s,ta siat,attested,2024-08-20-1910-frasi fai 1 - Copia.docx,151
+essere,congiuntivo presente,3p,sian,attested,2024-11-18-1837-domande di vario tipo.docx,123
+andare,congiuntivo presente,3s,al naga,attested,2025-04-06-1703-dialoghi a Lugano.pdf,192
+fare,congiuntivo presente,3p,i faga,attested,2024-11-18-1837-domande di vario tipo.docx,115
+dare,congiuntivo presente,3p,i daga,attested,2024-11-18-1837-domande di vario tipo.docx,114
+avere,congiuntivo presente,3p,i g’abbia,attested,2024-11-18-1837-domande di vario tipo.docx,114
+adoperare,presente,1s,dopri,attested,2025-04-06-1703-dialoghi a Lugano.pdf,138
+adoperare,presente,3s,al dupera,attested,2024-10-10-1054-varie situazioni.docx,80
+adoperare,presente,2p,duperuf,attested,2025-05-07-0930-imperativo.pdf,174
+adoperare,futuro,3p,i doprarà,attested,2024-08-20-1910-frasi fai 1 - Copia.docx,157
+adoperare,condizionale passato,1s,avressa dupraa,attested,2025-01-29-0942-ul nos Topolino.pdf,487
+adoperare,presente,1s,duperi,attested,2024-10-10-1054-varie situazioni.docx,90
+capire,presente,1s,capisi,attested,2025-04-06-1703-dialoghi a Lugano.pdf,443
+capire,presente,2s,ta capissat,attested,2024-08-20-1910-frasi fai 1 - Copia.docx,35
+capire,futuro,1p,capisarem,attested,2025-04-06-1703-dialoghi a Lugano.pdf,352
+capire,imperativo,2s,capis,attested,2025-04-15-0748-imperativo 14.4.2025.pdf,58
+capire,imperativo,1p,capem,attested,2025-04-15-0748-imperativo 14.4.2025.pdf,58
+capire,imperativo,2p,capii,attested,2025-04-15-0748-imperativo 14.4.2025.pdf,58
+capire,trapassato prossimo,3s,l’eva capii,attested,2026-06-07-1609-I düü magnan.docx,94
+ricordarsi,presente,1s,ma regordi,attested,2025-04-06-1703-dialoghi a Lugano.pdf,15
+ricordarsi,presente,2s,ta sa regordat,attested,2024-08-20-1910-frasi fai 1 - Copia.docx,101
+andare,imperativo,2p,nii,attested,2026-06-07-1609-I düü magnan.docx,27
+pagare,passato prossimo,1s,u pagaa,attested,2023-04-20-1234-Cors da dialet da Rögn 13a leziun.docx,54
+sapere,futuro,3p,i savaran,attested,2025-01-29-0942-ul nos Topolino.pdf,284
+scrivere,passato prossimo,3s,l’a scrivüü,attested,2026-03-25-0926-vari canti Divina Commedia (copia completa).pdf,525
+appendere,participio passato,-,tacaa sü,attested,2026-06-07-1609-I düü magnan.docx,15
+dire,presente,1s,disi,attested,2025-02-28-1445-brevi frasi.pdf,98
+dire,imperfetto,3s,al diseva,attested,2026-06-07-1609-I düü magnan.docx,13
+dire,futuro,1s,disarò,attested,2025-12-02-1358-Canto 1 della Divina Commedia.docx,10
+dire,condizionale presente,1s,disaria,attested,2025-04-06-1703-dialoghi a Lugano.pdf,310
+dire,condizionale presente,2s,ta disaressat,attested,2024-11-18-1837-domande di vario tipo.docx,142
+dire,congiuntivo imperfetto,3s,al disess,attested,2024-08-20-1910-frasi fai 1 - Copia.docx,80
+avere,congiuntivo imperfetto,1s,gh’avess,attested,2024-01-29-2020-Il Condizionale Presente.docx,123
+sapere,presente,3s,la/al sa,confirmed,,
+adoperare,futuro,2s,ta dopraré,confirmed,,
+chiudere,participio passato,-,seràa,attested,2024-02-21-0902-Il Condizionale Passato.docx,28
+chiudere,futuro,3s,la serarà,attested,2025-01-29-0942-ul nos Topolino.pdf,686
+comprare,gerundio,-,töghendu,attested,2025-06-01-1159-il gerundio.pdf,122
+comprare,imperativo,1p,töghem,attested,2026-06-07-1609-I düü magnan.docx,51
+comprare,passato prossimo,1s,u töi,attested,2025-01-29-0942-ul nos Topolino.pdf,379
+comprare,passato prossimo,3s,l’a töi,attested,2025-01-29-0942-ul nos Topolino.pdf,401
+togliersi di torno,imperativo,2s,töt fö,attested,2025-01-29-0942-ul nos Topolino.pdf,213
+togliersi di torno,presente,2s,ta sa töat fö,inferred,,
+buttare,presente,1s,trò,inferred,2023-04-20-1234-Cors da dialet da Rögn 13a leziun.docx,
+buttare,presente,2s,ta trét,inferred,,
+buttare,presente,3s,la/al tra,inferred,,
+buttare,presente,1p,trem,inferred,,
+buttare,presente,2p,trii,inferred,,
+buttare,presente,3p,i tra,inferred,,
+buttare,imperfetto,1s,trava,inferred,,
+buttare,imperfetto,2s,ta travat,inferred,,
+buttare,imperfetto,3s,la/al trava,inferred,,
+buttare,imperfetto,1p,travum,inferred,,
+buttare,imperfetto,2p,travuf,inferred,,
+buttare,imperfetto,3p,i travan,inferred,,
+buttare,futuro,1s,trarò,inferred,,
+buttare,futuro,2s,ta traret,inferred,,
+buttare,futuro,3s,la/al trarà,inferred,,
+buttare,futuro,1p,trarem,inferred,,
+buttare,futuro,2p,trarii,inferred,,
+buttare,futuro,3p,i traran,inferred,,
+buttare,condizionale presente,1s,traria/traress,inferred,,
+buttare,condizionale presente,2s,trariat/traressat,inferred,,
+buttare,condizionale presente,3s,traria/traressa,inferred,,
+buttare,condizionale presente,1p,trarium/traressum,inferred,,
+buttare,condizionale presente,2p,trariuf/traressuf,inferred,,
+buttare,condizionale presente,3p,trarian/traressan,inferred,,
+buttare,congiuntivo presente,1s,traga,inferred,,
+buttare,congiuntivo presente,2s,ta tragat,inferred,,
+buttare,congiuntivo presente,3s,la/al traga,inferred,,
+buttare,congiuntivo presente,1p,a tragum,inferred,,
+buttare,congiuntivo presente,2p,a traguf,inferred,,
+buttare,congiuntivo presente,3p,i traga,inferred,,
+buttare,congiuntivo imperfetto,1s,trassa,inferred,,
+buttare,congiuntivo imperfetto,2s,ta trassat,inferred,,
+buttare,congiuntivo imperfetto,3s,la/al trass,inferred,,
+buttare,congiuntivo imperfetto,1p,trassum,inferred,,
+buttare,congiuntivo imperfetto,2p,trassuf,inferred,,
+buttare,congiuntivo imperfetto,3p,i trassan,inferred,,
+buttare,imperativo,2s,trà,inferred,,
+buttare,imperativo,1p,trem,inferred,,
+buttare,imperativo,2p,trii,inferred,,
+buttare,gerundio,-,traendo,inferred,,
+buttare,participio passato,-,trai,inferred,,
+sapere,presente,2s,ta se,confirmed,,
+guardarsi,passato prossimo,3p,i s’è guardaa,attested,notes_added_by_hand.csv,22

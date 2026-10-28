@@ -1,0 +1,3 @@
+source,line,from_italian,to_italian,reason
+2025-05-07-0930-imperativo.pdf,86,prendere,comprare,"Claude inferred: 'Prendere: Tö mia, töghem mia, töghii mia' is the verb töö, not ciapà, which also means prendere"
+2025-05-07-0930-imperativo.pdf,154,togliersi,togliersi di torno,"Claude inferred: 'töt mia fö' is the reflexive of töö (töss fö), not tiras via, which also means togliersi"

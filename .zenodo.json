@@ -1,0 +1,10 @@
+{
+    "title": "Lexicon of the dialect of Rögn (Arogno), Ticino",
+    "upload_type": "dataset",
+    "description": "<p>Dialect words with Italian and English meanings, example sentences and verb conjugations from the course Cors da dialett da Rögn (Arogno, Lugano district, Ticino) and related Ticinese texts, as a CLDF Dictionary.</p>",
+    "creators": [{"name": "Maguire, Michael"}],
+    "contributors": [{"name": "Casellini, Guido", "type": "Other"}],
+    "license": {"id": "CC-BY-4.0"},
+    "access_right": "open",
+    "keywords": ["cldf:Dictionary", "linguistics", "Lombard", "Ticinese", "Arogno", "dialect"]
+}

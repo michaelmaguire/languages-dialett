@@ -1,0 +1,68 @@
+<!-- Title page of Grammar/arogno-grammar.pdf. Edit freely; step5_build_pdfs.py puts it in front of the grammar.
+     {{chapters}}, {{examples}} = filled in at build time. {{edition}} = timestamp of the build, YYYYMMDDhhmm.
+     The glossed sentence is from the course (dialoghi a Lugano, l. 371), chosen for its stacked pronouns;
+     the rest is the cover's own joke (Peter, a classmate, asked for the grammar: the dedication is in German). -->
+<style>
+@page :first { margin: 0; @bottom-center { content: none; } }
+.cover { height: 297mm; width: 210mm; overflow: hidden; position: relative; background: #f4efe4; color: #2b1030;
+         font-family: "DejaVu Sans", Arial, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.cover .stripe { position: absolute; left: 0; right: 0; top: 0; height: 17mm; background: #7a1f5c; color: #fff;
+                 font: bold 11pt "DejaVu Sans", Arial, sans-serif; letter-spacing: .35em; text-transform: uppercase;
+                 display: flex; align-items: center; justify-content: space-between; padding: 0 16mm; }
+.cover .stripe span:last-child { letter-spacing: .05em; font-size: 10pt; text-transform: none; }
+.cover .title { position: absolute; left: 16mm; right: 16mm; top: 36mm; font: bold 64pt/0.96 "DejaVu Sans", Arial, sans-serif;
+                text-transform: uppercase; letter-spacing: -.01em; }
+.cover .title span { color: #7a1f5c; }
+.cover .cols { position: absolute; left: 16mm; right: 16mm; top: 112mm; display: grid; grid-template-columns: 1fr 1fr;
+               column-gap: 8mm; font: 12pt/1.45 "DejaVu Serif", Georgia, serif; }
+.cover .cols div { border-top: 1.4mm solid #2b1030; padding-top: 3mm; }
+.cover .cols div:last-child { color: #1d3d5c; border-color: #1d3d5c; font-style: italic; }
+.cover .cols b { display: block; font: bold 10pt "DejaVu Sans", Arial, sans-serif; letter-spacing: .2em;
+                 text-transform: uppercase; margin-bottom: 2mm; font-style: normal; }
+.cover .by { position: absolute; left: 16mm; top: 147mm; font: italic 12.5pt "DejaVu Serif", Georgia, serif; }
+.cover .by b { font: bold 13pt "DejaVu Sans", Arial, sans-serif; font-style: normal; letter-spacing: .08em; text-transform: uppercase; }
+.cover .igt { position: absolute; left: 16mm; right: 16mm; top: 168mm; font: 13pt/1.3 "DejaVu Serif", Georgia, serif; }
+.cover .igt .row { display: flex; gap: 6mm; }
+.cover .igt .w { display: inline-flex; flex-direction: column; white-space: nowrap; }
+.cover .igt .w span:first-child { font-weight: bold; font-style: italic; font-size: 19pt; }
+.cover .igt .w span:last-child { font: 9pt "DejaVu Sans", Arial, sans-serif; color: #7a1f5c; letter-spacing: .04em; }
+.cover .igt .tr { margin-top: 3mm; font-size: 11pt; color: #444; }
+.cover .tab { position: absolute; right: 16mm; top: 196mm; width: 52mm; padding: 6mm 5mm; background: #7a1f5c;
+              color: #fff; border-radius: 3mm; transform: rotate(-4deg); text-align: center;
+              font: bold 11pt/1.35 "DejaVu Sans", Arial, sans-serif; box-shadow: 2mm 2mm 0 #e3b23c; }
+.cover .tab big { display: block; font-size: 26pt; line-height: 1.05; color: #e3b23c; }
+.cover .blurb { position: absolute; left: 16mm; top: 214mm; width: 110mm; font: 12.5pt/1.42 "DejaVu Serif", Georgia, serif; }
+.cover .legend { position: absolute; left: 16mm; right: 16mm; top: 252mm; font: 8.8pt/1.35 "DejaVu Sans", Arial, sans-serif; color: #444; }
+.cover .base { position: absolute; left: 0; right: 0; bottom: 0; background: #2b1030; color: #f4efe4; padding: 6mm 16mm 7mm;
+               display: flex; justify-content: space-between; align-items: flex-end; font-size: 9.5pt; }
+.cover .base b { font-size: 19pt; letter-spacing: .14em; color: #e3b23c; display: block; }
+</style>
+<section class="cover">
+  <div class="stripe"><span>Grammatica · Grammar</span><span>Edizión {{edition}}</span></div>
+  <div class="title">Rögn<br><span>Grammatica</span><br>Grammar</div>
+  <div class="cols">
+    <div><b>Italiano</b>Ogni regola spiegata in italiano, a sinistra…</div>
+    <div><b>English</b>…and the same rule in English, on the right.</div>
+  </div>
+  <div class="by">from the lessons of <b>Guido Casellini</b></div>
+  <div class="igt">
+    <div class="row">
+      <span class="w"><span>quand</span><span>when</span></span>
+      <span class="w"><span>che</span><span>that</span></span>
+      <span class="w"><span>ta</span><span>2SG.SBJ</span></span>
+      <span class="w"><span>ga-l</span><span>1PL.DAT-3SG.M.OBJ</span></span>
+      <span class="w"><span>fe</span><span>make.2SG</span></span>
+      <span class="w"><span>cugnos?</span><span>know.INF</span></span>
+    </div>
+    <div class="tr">‘quando ce lo fai conoscere?’ · ‘when are you going to introduce him to us?’
+      — dialoghi a Lugano</div>
+  </div>
+  <div class="tab"><big>{{chapters}}</big>capitoli · chapters<br><big>{{examples}}</big>esempi · examples</div>
+  <div class="blurb">Articles, clitics, the four conjugations, <i>ves</i> and <i>vegh</i>, and the little
+    pronouns that hang off the end of the verb, with every example taken from the course.</div>
+  <div class="legend">Examples and tables are in dialect, each with the document and line it comes from.
+    † marks a rule worked out from the course's forms rather than stated by it, and a predicted verb form.
+    The explanations were drafted by Claude and have not yet been checked by the teacher.</div>
+  <div class="base"><span><b>MAGUIRE’S</b>Arogno · Lügan · Tesin</span>
+    <span style="text-align:right">Mit Liebe, für Peter<br>Not affiliated with any actual publisher of grammars</span></div>
+</section>

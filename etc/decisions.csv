@@ -1,0 +1,495 @@
+Decision,Language_ID,Form,Sense,Target_Form,Target_Language_ID,Italian,English,Reason,Date
+typo,ticinese,semper,,sempru,rogn,,,"Typo in the owner's spreadsheet; the course writes sempru (about 50 times, also sémpru)",2026-10-14
+variant,basso-ceresio,avech pagüra,,vegh pagüra,rogn,,,Owner: the Rögn form is vegh pagüra (the course writes veg pagüra in espressioni in italiano),2026-10-14
+typo,rogn,() la mia setimana,,la mia setimana,,,,"Claude inferred: leading ""()"" is left over from the speaker label",2026-10-14
+typo,rogn,(soc) La letra,,la letra,,,,"Claude inferred: leading ""(soc)"" is a speaker label, not part of the word",2026-10-14
+accept,rogn,a öcc e cros,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,acqua ‘n boca,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,al capita a fasöö,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,bütà la scpügna,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,cun la tescta süi scpall,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,A ghii fam? “sempru”,,,,,,Claude inferred: correct pair,2026-10-14
+reject,ticinese,a ’n gran,,,,,,"Claude inferred: fragment of a line of poetry, not a dictionary word",2026-10-14
+typo,ticinese,"al mè cör,",,al mè cör,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+reject,basso-ceresio,al’è na stéla,,,,,,"Claude inferred: both sides are dialect (two sayings from the Gaggini list), not a pair",2026-10-14
+reject,basso-ceresio,al’è n’grand lavativ,,,,,,"Claude inferred: both sides are dialect (two sayings from the Gaggini list), not a pair",2026-10-14
+reject,basso-ceresio,Amilcare Milcar,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Bartolomeo Meo),2026-10-14
+reject,basso-ceresio,Augusto Güstu Gustin,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Alfredo Fredu),2026-10-14
+reject,basso-ceresio,Cherubini Bin,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Achille Chile),2026-10-14
+correct,basso-ceresio,basás,,,,baciarsi,to kiss,Claude inferred: the Italian column holds the dialect alternative limunà; the Italian (baciarsi) is in the note,2026-10-14
+correct,basso-ceresio,catáss,,,,rincorrersi,to chase each other,Claude inferred: the Italian column holds the dialect alternative corás a dré; the Italian is in the note,2026-10-14
+correct,basso-ceresio,cutin,,,,sottana,petticoat,Claude inferred: the Italian column holds sutana; the Italian (sottana) is in the note,2026-10-14
+correct,basso-ceresio,ciss,,,,capelli,hair,"Claude inferred: ciss means hair (capelli, in the note); ""cavi = cables"" is a misreading of the dialect cavii",2026-10-14
+correct,basso-ceresio,bumbás,,,,ovatta,cotton wool,"Claude inferred: bumbás is ovatta (in the note); ""uvata = grape jam"" misread the dialect spelling",2026-10-14
+reject,rogn,cors Dialett da Rögn,,,,,,"Claude inferred: document title (quinta leziun), not a word",2026-10-14
+correct,ticinese,centesim,,,,centesimo,hundredth; cent,"Claude inferred: Italian misspelt ""un centerimo"" in the spreadsheet",2026-10-14
+correct,ticinese,böcc,,,,buco,hole,"Claude inferred: Italian misspelt ""bucco"" in the spreadsheet",2026-10-14
+correct,ticinese,bala biòtt,,,,nudista,nudist,"Claude inferred: the Italian column holds the English word ""nudist""",2026-10-14
+variant,rogn,cata fö,,catà fö,,,,"Claude inferred: lesson 8 spelling of the verb catà fö, without the accent",2026-10-14
+typo,rogn,brügn frutto la brügna,,brügn,,,,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree, brügn; the fruit is la brügna",2026-10-14
+typo,rogn,"castàn, frutto castègn",,castàn,,,,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree, castàn; the fruit is castègn",2026-10-14
+typo,ticinese,`ndua,,’ndua,,,,Claude inferred: backtick typed for the apostrophe,2026-10-14
+reject,ticinese,da dre,deitro,,,,,"Claude inferred: misspelling of dietro, which is already a sense of this entry",2026-10-14
+reject,ticinese,da la,,,,,,"Claude inferred: fragment of a line of poetry, not a dictionary word",2026-10-14
+reject,ticinese,da tanti,,,,,,"Claude inferred: fragment of a line of poetry, not a dictionary word",2026-10-14
+typo,ticinese,"dal suu,",,dal suu,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+typo,ticinese,"dal vent,",,dal vent,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+correct,ticinese,dananz,,,,davanti,in front,"Claude inferred: the Italian column holds ""davanti = in front""",2026-10-14
+reject,rogn,dialetto,,,,,,"Claude inferred: column heading of the gerund table (dialetto / italiano), not a word",2026-10-14
+reject,basso-ceresio,Domenico Menich,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Margherita Ghita),2026-10-14
+reject,basso-ceresio,Eduardo Duard Duardin,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Giuseppina Pina),2026-10-14
+reject,basso-ceresio,Enrico Rico Ricu,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Armando Mando),2026-10-14
+reject,basso-ceresio,Francesco Cech Cechin Ceco,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Eugenio Geni),2026-10-14
+reject,basso-ceresio,Giovanni Nani,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Simona Simo),2026-10-14
+reject,basso-ceresio,Giuseppe Pepp Pepin,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Gianni Iani),2026-10-14
+reject,basso-ceresio,Giusèppa Pèpa,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Orazio Gnázzi),2026-10-14
+reject,ticinese,dòpu l’è dòpu e al,,,,,,Claude inferred: fragment of a line of poetry cut mid-sentence,2026-10-14
+accept,rogn,E da indua ta set?,,,,,,"Claude inferred: correct pair (the Italian keeps the speaker's name, Marco)",2026-10-14
+reject,rogn,e voglia,,,,,,"Claude inferred: ""e voglia"" and ""passione"" are neighbouring words from different lines, not a pair",2026-10-14
+reject,ticinese,"e tütt,",,,,,,Claude inferred: fragment of a line of poetry cut mid-sentence,2026-10-14
+variant,rogn,fa,,fà,,,,"Claude inferred: lesson 8 spelling of the verb fà, without the accent",2026-10-14
+accept,rogn,fa ‘l galett,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,fas ‘l mazz,,,,,,Claude inferred: correct pair,2026-10-14
+correct,basso-ceresio,fiamífar,,,,fiammiferi,matches,"Claude inferred: ""/ Bissone 2022"" in the Italian is a place and date from the document, not part of the word",2026-10-14
+reject,ticinese,forte di me,,,,,,"Claude inferred: words from two different lines of the poem, not a pair",2026-10-14
+reject,rogn,frumento,,,,,,"Claude inferred: the line ""cereali: frumento furment, orzo orz, segale segra, mais carlun"" was misread; frumento is Italian, not dialect",2026-10-14
+typo,ticinese,"furèsta,",,furèsta,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+typo,ticinese,"giravòlt,",,giravòlt,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+typo,ticinese,gnanca da pensà”.,,gnanca da pensà,,,,Claude inferred: closing quotation mark and full stop from the sentence,2026-10-14
+typo,ticinese,fö da chi/bal = get out of here,,fö da chi/bal,,,,Claude inferred: the English was typed into the dialect cell,2026-10-14
+correct,ticinese,fö da chi/bal,,,,fuori di qui,get out of here,Claude inferred: the spreadsheet gives no Italian,2026-10-14
+correct,ticinese,fö del strasc,,,,arrabbiato/a,angry,"Claude inferred: Italian misspelt ""arrabiatto/a"" in the spreadsheet",2026-10-14
+correct,basso-ceresio,galfión,,,,ciliegia (duracina),"cherry (a large, firm variety)",Claude inferred: the Italian column holds the dialect scerésa; the Italian (ciliegia) is in the note,2026-10-14
+correct,basso-ceresio,gipunin,,,,maglietta,vest / undershirt,Claude inferred: the Italian column holds the dialect maieta; the Italian (maglietta) is in the note,2026-10-14
+correct,basso-ceresio,gò pagüra,,,,ho paura,I am afraid,Claude inferred: the Italian column holds the dialect scuágia; the Italian (aver paura) is in the note,2026-10-14
+reject,rogn,i scires,,,,,,"Claude inferred: split from ""la sciresa – i scires"" (cherry – cherries), which has its own entry",2026-10-14
+reject,ticinese,in da la,,,,,,"Claude inferred: fragment of a line of poetry, not a dictionary word",2026-10-14
+typo,ticinese,"in di mè sögn,",,in di mè sögn,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+typo,ticinese,"in gir,",,in gir,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+reject,ticinese,in gió e,,,,,,Claude inferred: fragment of a line of poetry cut mid-sentence,2026-10-14
+reject,ticinese,"incòrgiat, la ròba",,,,,,"Claude inferred: two unrelated words from a line of the text, not a pair",2026-10-14
+reject,rogn,irregolari.,,,,,,"Claude inferred: ""irregolari."" and ""verbi regolari"" are words from a heading of the imperative sheet, not a pair",2026-10-14
+typo,ticinese,lA NÒCC,,la nocc,,,,"Claude inferred: a title in capitals, with the caps-lock mix-up lA",2026-10-14
+correct,rogn,la/na ratatagnöla,,,,il/un pipistrello,the/a bat,"Claude inferred: lesson 6 gives ""la ratatagnöla o ul barin"" for the bat; ""o"" (or) was taken as the Italian",2026-10-14
+reject,basso-ceresio,lacc - latte,,,,,,"Claude inferred: a pronunciation note from the Gaggini list (cc is always soft), not a pair",2026-10-14
+reject,rogn,le/lüla/al cor,,,,,,"Claude inferred: a row of the verb table for cor, not a word pair; the forms are on the verb page",2026-10-14
+typo,rogn,l’aranz frutto aranz o portugal,,l’aranz,,,,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree; the fruit is aranz o portugal",2026-10-14
+typo,rogn,caco frutto cachi,,caco,,,,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree; the fruit is cachi",2026-10-14
+reject,ticinese,"l’è pü bianch,",,,,,,Claude inferred: fragment of a line of poetry cut mid-sentence,2026-10-14
+reject,ticinese,l’è tanta e s’è smorzàt,,,,,,Claude inferred: fragment of a line of poetry cut mid-sentence,2026-10-14
+reject,ticinese,ma summ,,,,,,"Claude inferred: fragment of a line of poetry; ""mi sono = I have"" is not a usable entry",2026-10-14
+typo,rogn,magià,,mangià,,,,"Lesson 1–2 writes ""mangiare (magià)""; the owner says magià is a typo, only mangià is correct",2026-10-19
+reject,rogn,"marco: “Ok, grazie”.",,,,,,"Claude inferred: a line of dialogue with the speaker's name, not a dictionary word",2026-10-14
+accept,rogn,mei tardi che mai,,,,,,Claude inferred: correct pair,2026-10-14
+correct,ticinese,miglio,,,,milione,million,"Claude inferred: Italian misspelt ""millione"" in the spreadsheet",2026-10-14
+correct,ticinese,miliard,,,,miliardo,billion,"Claude inferred: Italian misspelt ""milliardo"" in the spreadsheet",2026-10-14
+reject,rogn,moto per luogo,,,,,,"Claude inferred: grammar terms from lesson 17 (moto per luogo / moto a luogo), not a word pair",2026-10-14
+typo,rogn,n agiò,,na giò,,,,Claude inferred: same verb as na giò; the space is in the wrong place,2026-10-14
+correct,basso-ceresio,nagôtt,,,,niente,nothing,Claude inferred: the Italian column holds the dialect nient; the Italian (niente) is in the note,2026-10-14
+reject,basso-ceresio,nass – nascere,,,,,,"Claude inferred: a pronunciation note (nass = nascere, nas = naso), not a pair",2026-10-14
+reject,basso-ceresio,pass - passi,,,,,,"Claude inferred: a pronunciation note (pass = passi, pas = pace), not a pair",2026-10-14
+reject,basso-ceresio,sangh - sangue,,,,,,"Claude inferred: a pronunciation note from the Gaggini list (final consonant always hard), not a pair",2026-10-14
+typo,ticinese,nebión.,,nebión,,,,Claude inferred: full stop from the end of the poem line,2026-10-14
+typo,rogn,per frutto pèra,,per,,,,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree; the fruit is pèra",2026-10-14
+reject,ticinese,"prèssa e la nócc,",,,,,,Claude inferred: fragment of a line of the text cut mid-sentence,2026-10-14
+variant,rogn,pudé,,podé,,,,Claude inferred: lesson 18 spelling of the verb podé,2026-10-14
+correct,ticinese,quaranta,,,,quaranta,forty,"Claude inferred: English misspelt ""fourty""",2026-10-14
+reject,basso-ceresio,Raffaele Lele,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Elena Lena),2026-10-14
+reject,basso-ceresio,Romeo Meo,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Guglielmo Elmo),2026-10-14
+typo,rogn,rovra (ruvra-rogora) frutto: gianda da…,,rovra (ruvra-rogora),,,,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree; the fruit is gianda",2026-10-14
+accept,rogn,riscpund pic,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,sclungà ‘l brööd,,,,,,Claude inferred: correct pair,2026-10-14
+typo,ticinese,"seca,",,seca,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+correct,ticinese,sesanta,,,,sessanta,sixty,"Claude inferred: Italian misspelt ""sesanta"" in the spreadsheet",2026-10-14
+reject,rogn,singolare,,,,,,"Claude inferred: column headings of the lesson 6 table (singolare / plurale / in italiano), not a word pair",2026-10-14
+correct,basso-ceresio,strapétt,,,,salita corta,short steep climb,Claude inferred: the Italian column holds the dialect salidéla; the Italian (salita corta) is in the note,2026-10-14
+reject,ticinese,"stu mument, ul",,,,,,Claude inferred: fragment of a line of the text cut mid-sentence,2026-10-14
+reject,ticinese,temp al gh’a,,,,,,Claude inferred: fragment of a line of the text cut mid-sentence,2026-10-14
+reject,ticinese,ul mund ingurda,,,,,,Claude inferred: fragment of a line of the text cut mid-sentence,2026-10-14
+reject,ticinese,"àtim l’è regalaa,",,,,,,Claude inferred: fragment of a line of the text cut mid-sentence,2026-10-14
+typo,ticinese,"öcc balòss,",,öcc balòss,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+typo,ticinese,"un dì,",,un dì,,,,Claude inferred: trailing comma from the poem line,2026-10-14
+typo,rogn,sum bon (a) da……….,,sum bon (a) da,,,,"Claude inferred: dots for the blank to fill in, not part of the phrase",2026-10-14
+reject,ticinese,ta sentarù,,,,,,"Claude inferred: fragment of a poem line; the Italian adds a ""non"" that is not in the dialect",2026-10-14
+reject,ticinese,ta vedarù,,,,,,"Claude inferred: fragment of a poem line; the Italian adds a ""non"" that is not in the dialect",2026-10-14
+correct,basso-ceresio,taass,,,,taci,be quiet,Claude inferred: the Italian column holds the dialect citu; the Italian (taci) is in the note,2026-10-14
+reject,rogn,"Testa: crapa (testa), cò",,,,,,"Claude inferred: the heading PARTI DEL CORPO paired with the first line of the list, not a pair",2026-10-14
+accept,rogn,tirà la corda,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,veg ‘na marcia in pü,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,ves a la man,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,ves al verd,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,ves un ors,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,ves ‘n asan,,,,,,Claude inferred: correct pair,2026-10-14
+correct,rogn,ul/un barin,,,,l’/un agnello,the/a lamb,"Claude inferred: lesson 6 gives ""l’agnell, o ul barin"" for the lamb; ""o"" (or) was taken as the Italian",2026-10-14
+correct,rogn,ul/un piöcc,,,,il/un pidocchio,the/a louse,"Claude inferred: Italian misspelt ""il/ul"" in the lesson",2026-10-14
+typo,rogn,ulif frutto l’uliva,,ulif,,,,"Claude inferred: lesson 14 line ""tree, frutto fruit"": the headword is the tree; the fruit is l’uliva",2026-10-14
+correct,rogn,visin,,,,vicino,close,"Claude inferred: ""1"" after the English was a stray footnote mark",2026-10-14
+correct,ticinese,volentera,,,,volentieri,willingly,"Claude inferred: Italian misspelt ""voluntieri"" in the spreadsheet",2026-10-14
+reject,rogn,voschi,,,,,,"Claude inferred: lesson 8 heads the verb with its first person ""voschi"" (I dare); the verb is voscà, which has its own entry",2026-10-14
+correct,rogn,rumur di und l’è mei da qualsiasi müsica.,,Al rumur di und l’è mei da qualsiasi müsica.,,Il rumore delle onde è meglio di qualsiasi musica.,The sound of the waves is better than any music.,"Claude inferred: the first word ""Al"" was split onto the end of the Italian line",2026-10-14
+correct,rogn,ghè dabon tantu da vedé.,,Chi ghè dabon tantu da vedé.,,Qui c’è davvero tanto da vedere.,There really is a lot to see here.,"Claude inferred: the first word ""Chi"" was split onto the end of the Italian line",2026-10-14
+correct,rogn,mar al g’ha ‘n efett magic.,,Al mar al g’ha ‘n efett magic.,,Il mare ha un effetto magico.,The sea has a magical effect.,"Claude inferred: the first word ""Al"" was split onto the end of the Italian line",2026-10-14
+correct,rogn,Qui si mangia davvero bene. Chi sa mangia verament ben.,,Chi sa mangia verament ben.,,Qui si mangia davvero bene.,The food here is really good.,"Claude inferred: two lines were run together; this keeps the first pair (the second, U mai mangiaa un gelatu inscì bun, is lost)",2026-10-14
+correct,rogn,“Com’è l’acqua?” — “Perfetta.”,,“Cuma l’è l’acqua?” — “Perfeta.”,,“Com’è l’acqua?” — “Perfetta.”,"""How's the water?"" — ""Perfect.""",Claude inferred: dialect and Italian were the wrong way round,2026-10-14
+accept,rogn,"L’aria l’è perfeta, ne tropa calda ne tropa fresca.",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Chi che vö nà in acqua? – “Mi”,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Chi che a ciapaa ‘l balon? “Mi lu lassaa in machina”,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,“indua metum l’umbrelun”? “Lì al va benissim.,,,,,,Claude inferred: correct pair,2026-10-14
+accept,ticinese,I toll da la spazadüra i enn dré a trà sü ul rüt...,,,,,,Claude inferred: correct pair,2026-10-14
+accept,ticinese,"nà in gir (602 Personenwagen auf 1000 Einwohner,gegen 516 da media svizera). Al ma",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"i necesari autorizzaziun. A part quel, da poc temp i à ricuminciaa neuf",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Dai, ciapasala mia!",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,I m’an ciulaa ‘l natel,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,ta fò ‘n drin sctasira,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Ma san’ scbati di tô scüs (ma san’ freghi…),,,,,,Claude inferred: correct pair,2026-10-14
+reject,ticinese,trovaa la stéla cométa,,,,,,Claude inferred: two lines of the same dialect poem paired with each other; neither side is Italian,2026-10-14
+reject,ticinese,"ul fiöö e la dona, ul fradel e la mam;",,,,,,Claude inferred: two lines of the same dialect poem paired with each other; neither side is Italian,2026-10-14
+reject,ticinese,pien d’una pagüra,,,,,,Claude inferred: two lines of the same dialect poem paired with each other; neither side is Italian,2026-10-14
+accept,rogn,döna che döta nu gh’a la fa la miifa in ca.,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Préga ul Signur da picà ul cò in un bun miir.,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,UI viziett mal cugnusüü dòpu un puu al cumanda lü.,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Quii che sa védan dumä lur, ‘na stangada al pòst d’un fiur.",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,A vutan’ann sa pò mia pizigà i tusànn.,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Chi tö miée da bunura cunt i sò fiöö al lavura.,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Cun mén sa sa cun piisée ben sa sta.,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"I busii inn cumè i scérés, adré a vüna na végn des.",,,,,,Claude inferred: correct pair,2026-10-14
+reject,rogn,/salta giô dal fic,,,,,,Claude inferred: two dialect variants of the same saying (salta giô / vegn giô dal fic); neither side is Italian,2026-10-14
+reject,rogn,"mangià in bianc, mangià poc, mangià tropp, mia mangià,",,,,,,Claude inferred: two halves of a dialect list paired with each other; neither side is Italian,2026-10-14
+correct,rogn,ul canesctrel o negrisöö,,,,il mirtillo – i mirtilli,bilberry – bilberries,"Claude inferred: the Italian column held the dialect plural with ""(mirtillo)""",2026-10-14
+reject,ticinese,e ta capivat che | ta schisciava nca l’ògin,,,,,,Claude inferred: two lines of the same dialect poem paired with each other; neither side is Italian,2026-10-14
+reject,ticinese,anca se a scöla ndava miga maa in italian,,,,,,Claude inferred: two lines of the same dialect poem paired with each other; neither side is Italian,2026-10-14
+reject,ticinese,i sa träsan miga par parlà dala Culina d’Ora!,,,,,,Claude inferred: two lines of the same dialect poem paired with each other; neither side is Italian,2026-10-14
+reject,rogn,insegni ogni tant e cerchi da fal parlà. Mi parli un puu l’ingles,,,,,,Claude inferred: the end of one line of dialogue paired with the Italian of a different line,2026-10-14
+reject,rogn,"Rob: “Ah ok..si mi piace il cibo italiano, vado ai ristoranti e mangio molte cose italiane. Qui in Ticino si",,,,,,Claude inferred: Italian on both sides (one Italian line split in two),2026-10-14
+accept,rogn,"Ok nem, ufrisi mi….quantu l’è tütt ?",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Anca par mi la sctesa roba,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Capisi mia….ta sa trövat?,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Cumé l’è al mangià, al ta pias al nos mangià?",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,E dimm un pu cun chi che sctà chi da cà ta sa trövat ben?,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Ga vö ‘n quart d’ura da temp, l’è necesari ‘n quart d’ura",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Sum d’acordi cun ti: a pensi la sctesa roba, pensi quel che ta pensati su quesctu argument",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Da indua ta set Andrea? Indua ta sctet da cà?,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Un sac da rob: (modo da dì) tanti rob, tanti rob",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Fagh giò ul süduu cun la livéra se ul tò öm al tö giò la vera.,,,,,,Claude inferred: correct pair,2026-10-14
+reject,basso-ceresio,Vocale *ö* si pronuncia eu in francese: böcc - öv – fiöö,,,,,,"Claude inferred: two pronunciation notes in Italian, not a pair",2026-10-14
+reject,basso-ceresio,"per quelli della mia generazione nati negli anni 40, il dialetto è la nostra lingua,",,,,,,Claude inferred: Italian on both sides (one sentence of the introduction split in two),2026-10-14
+reject,basso-ceresio,ann-anno,,,,,,"Claude inferred: a pronunciation note in Italian, not a pair",2026-10-14
+reject,basso-ceresio,Elvezio Vezi,,,,,,Claude inferred: a name and nickname paired with the next name and nickname (Alberto Berto Bertu),2026-10-14
+reject,basso-ceresio,Ta se cum’è ul sant Tumas,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,a sunt pien cum’è n’öv,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,al’è indré cum’è un car da réff,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,biòtt cum’è na rana,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,ta sé cunsc cum’è n’pilát,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,al’è mia tütt lü,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,vecc cum’è un bacücc,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,al’è un malmusc’tôos,,,,,,Claude inferred: two dialect sayings from the Gaggini list paired with each other; neither side is Italian,2026-10-14
+reject,basso-ceresio,competizione con una variante dialettale dell’italiano.,,,,,,Claude inferred: Italian on both sides (one sentence of the introduction split in two),2026-10-14
+reject,rogn,ma pias anca scultà müsica clasica,,,,,,Claude inferred: two dialect answers to the same question paired with each other; neither side is Italian,2026-10-14
+reject,rogn,la nocc parché ghé mia da frecass,,,,,,Claude inferred: two dialect answers to the same question paired with each other; neither side is Italian,2026-10-14
+reject,rogn,ta sa considerat na persona cun iniziativa o ta preferisat che sian i altri a ciapalà?,,,,,,Claude inferred: a dialect question paired with its dialect answer; neither side is Italian,2026-10-14
+reject,rogn,chi che vö sempru veg rasun,,,,,,Claude inferred: two dialect answers to the same question paired with each other; neither side is Italian,2026-10-14
+reject,rogn,E chi che sa na regorda ?,,,,,,Claude inferred: two dialect lines paired with each other; neither side is Italian,2026-10-14
+reject,rogn,quand sum rivada a la sctaziun e al tren l’eva già partii,,,,,,Claude inferred: two dialect answers to the same question paired with each other; neither side is Italian,2026-10-14
+reject,rogn,cun püsee panza,,,,,,Claude inferred: two dialect answers to the same question paired with each other; neither side is Italian,2026-10-14
+reject,rogn,gh’è na sctoria che ta pias cüntà sü?,,,,,,Claude inferred: a dialect question paired with its dialect answer; neither side is Italian,2026-10-14
+reject,rogn,fini tücc i guerr,,,,,,Claude inferred: two dialect answers to the same question paired with each other; neither side is Italian,2026-10-14
+reject,rogn,ma pias cüsinà quand che gò temp,,,,,,Claude inferred: two dialect answers to the same question paired with each other; neither side is Italian,2026-10-14
+reject,rogn,Esempio: Dovrò rimanere tre ore all’aeroporto di Francoforte per aspettare il prossimo volo. Devo,,,,,,Claude inferred: Italian on both sides (an example sentence split in two),2026-10-14
+reject,ticinese,E ‘l föch:- mi sí che brüsi!,,,,,,Claude inferred: two lines of the dialect nursery rhyme paired with each other; neither side is Italian,2026-10-14
+reject,ticinese,E ‘l bastún:- mi sí che píchi!,,,,,,Claude inferred: two lines of the dialect nursery rhyme paired with each other; neither side is Italian,2026-10-14
+correct,rogn,Passare dalla padella alla brace pasà dala padela a la brasa,,pasà dala padela a la brasa,,passare dalla padella alla brace,to jump out of the frying pan into the fire,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Essere una capra ves na cavra,,ves na cavra,,essere una capra,to be a dunce (lit. to be a goat),"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Essere un verme ves ‘n ambrotula / ves ‘n biot,,ves ‘n ambrotula / ves ‘n biot,,essere un verme,to be a worm (a nasty person),"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Non sapere che pesci prendere mia savé che pes ciapà,,mia savé che pes ciapà,,non sapere che pesci prendere,not to know which way to turn,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Sentirsi un pesce fuor d’acqua sentis un pes fö da l’acqua,,sentis un pes fö da l’acqua,,sentirsi un pesce fuor d’acqua,to feel like a fish out of water,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Avere l’aspetto di un cane bastonato sumeag a ‘n can bastunaa,,sumeag a ‘n can bastunaa,,avere l’aspetto di un cane bastonato,to look like a beaten dog,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Non essere un’aquila mia ves ‘n aquila,,mia ves ‘n aquila,,non essere un’aquila,not to be the brightest (lit. not to be an eagle),"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Sputare il rospo scpüdà ‘l roscpu,,scpüdà ‘l roscpu,,sputare il rospo,to spit it out (to come clean),"Claude inferred: the Italian saying and the dialect were run together, and a line from another saying taken as the Italian",2026-10-14
+correct,rogn,Fare una vita da cani fà na vita da can,,fà na vita da can,,fare una vita da cani,to lead a dog's life,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Prendere due piccioni con una fava ciapà dü piviun cun na fava,,ciapà dü piviun cun na fava,,prendere due piccioni con una fava,to kill two birds with one stone,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Non tutte le ciambelle escono col buco mia tücc i ufell i vegn fö cul böcc,,mia tücc i ufell i vegn fö cul böcc,,non tutte le ciambelle escono col buco,things don't always turn out as planned,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Avere fegato veg fidig,,veg fidig,,avere fegato,to have guts,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Essere una spina nel fianco ves ‘na scpina nal fianc,,ves ‘na scpina nal fianc,,essere una spina nel fianco,to be a thorn in one's side,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Salvarsi per un pelo salvas par ‘n peel,,salvas par ‘n peel,,salvarsi per un pelo,to escape by a whisker,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,In quattro e quattr’otto in quatru e quatru vot,,in quatru e quatru vot,,in quattro e quattr’otto,in two shakes,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Ammazzare il tempo mazà ‘l temp,,mazà ‘l temp,,ammazzare il tempo,to kill time,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Dormire come un ghiro durmì cumé na gira,,durmì cumé na gira,,dormire come un ghiro,to sleep like a log (lit. like a dormouse),"Claude inferred: the Italian saying and the dialect were run together, and an example sentence taken as the Italian",2026-10-14
+correct,rogn,Piantare in asso piantà in ass,,piantà in ass,,piantare in asso,to leave someone in the lurch,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Essere un Don Giovanni ves un Don Giovanni,,ves un Don Giovanni,,essere un Don Giovanni,to be a ladies' man,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Non capire un cavolo capì nagot (capì na verza),,capì nagot (capì na verza),,non capire un cavolo,not to understand a thing,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+correct,rogn,Essere alla frutta ves a la früta,,ves a la früta,,essere alla frutta,to be at the end of one's tether,"Claude inferred: the Italian saying and the dialect were run together, and the explanation (""Significato"") taken as the Italian",2026-10-14
+reject,rogn,anche “i ma”….,,,,,,Claude inferred: a stray note paired with the dialect of a different line; neither side is Italian,2026-10-14
+accept,rogn,Scundass mia dadrè d’un dii,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Ciapatala mia a maa. Var mia la pena,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,I tusanell i’è püssee giüdiziôs,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Incöö cumè incöö ta regala pü nagot nisun,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"L’è mia bel quel che l’è bel, l’è bel quel che pias",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Se al ta vö mia ben, al ta merita mia",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,A ta credevat che saria /saressa resctada a Firenze ?,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Se (mi) füdessa in lee Sciüra, ciapa-ria/ressa un taxi ! A st’ora (a quel’ora chi) gh’è pü da autobus",,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Marco l’è un carna da col…..al du-ria/ressa guidà püsee adasi,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,Se mi gh’avess i visctii dal Valentino sa-ria/ressa tantu content,,,,,,Claude inferred: correct pair,2026-10-14
+reject,rogn,il congiuntivo si usa anche dopo determinate parole come:,,,,,,"Claude inferred: Italian on both sides (grammar sheet text), not a pair",2026-10-14
+reject,rogn,Laura non è venuta al lavoro oggi! Che sia malata?,,,,,,"Claude inferred: Italian on both sides (two example sentences), not a pair",2026-10-14
+reject,rogn,Avevo immaginato che mangiasse / avrebbe mangiato al ristorante dopo il lavoro,,,,,,"Claude inferred: Italian on both sides (two example sentences), not a pair",2026-10-14
+reject,rogn,Dopo tutte quelle ferie immagino che Luca abbia riposato abbastanza,,,,,,"Claude inferred: Italian on both sides (two example sentences), not a pair",2026-10-14
+correct,rogn,"mangiando tropp in presa, ta sa ruinat al sctomic",,,,"mangiando troppo in fretta, ti rovini lo stomaco","eating too fast, you ruin your stomach","Claude inferred: the Italian was the exercise prompt (lei mangia troppo veloce), not a translation",2026-10-14
+reject,rogn,multa tenziun sul capitul da matematica par intant,,,,,,Claude inferred: the end of a dialect answer paired with the Italian exercise prompt,2026-10-14
+reject,rogn,gavrem mia maa da schena,,,,,,Claude inferred: two dialect versions of the same answer paired with each other; neither side is Italian,2026-10-14
+correct,rogn,"Seguendo ben la riceta, l’è impurtant par ul risultaa final, la turta la sarà multu bona",,,,"seguendo bene la ricetta, che è importante per il risultato finale, la torta sarà molto buona","if you follow the recipe carefully, which matters for the final result, the cake will be very good","Claude inferred: the Italian was the exercise prompt, not a translation",2026-10-14
+reject,rogn,"tröva la soluziun, truvem la gügia, truvii i danee",,,,,,Claude inferred: two dialect example lines paired with each other; neither side is Italian,2026-10-14
+correct,rogn,Voi: prendete (es. Prendete nota!) ciapii nota,,ciapii nota,,prendete nota!,take note! (to several people),"Claude inferred: the Italian heading and the dialect were run together, and the next heading taken as the Italian",2026-10-14
+correct,rogn,Noi: dormiamo (es. Dormiamo qui stasera!) dormum chì sctasira!,,dormum chì sctasira!,,dormiamo qui stasera!,let's sleep here tonight!,"Claude inferred: the Italian heading and the dialect were run together, and the next heading taken as the Italian",2026-10-14
+correct,rogn,"(voi, positivo) Scrivii na letra",,Scrivii na letra,,scrivete una lettera!,write a letter! (to several people),"Claude inferred: the Italian was the exercise prompt (an indicative sentence), not a translation of the imperative",2026-10-14
+correct,rogn,"(tu, negativo) verd mia la finesctra",,verd mia la finesctra,,non aprire la finestra!,don't open the window!,"Claude inferred: the Italian was the exercise prompt (an indicative sentence), not a translation of the imperative",2026-10-14
+correct,rogn,"(voi, positivo) Nii al cinema tücc i venerdì",,Nii al cinema tücc i venerdì,,andate al cinema tutti i venerdì!,go to the cinema every Friday! (to several people),"Claude inferred: the Italian was the exercise prompt (an indicative sentence), not a translation of the imperative",2026-10-14
+correct,rogn,2. Voi (mangiare) più verdure per stare in salute. Mangii püsee verdüra par sctà in salüt,,Mangii püsee verdüra par sctà in salüt,,mangiate più verdura per stare in salute!,eat more vegetables to stay healthy! (to several people),"Claude inferred: the Italian prompt and the dialect answer were run together, and the previous prompt taken as the Italian",2026-10-14
+correct,rogn,10. Voi (tenere) pulito il vostro tavolo di lavoro. tignii net ul vos taul da laur,,tignii net ul vos taul da laur,,tenete pulito il vostro tavolo di lavoro!,keep your work table clean! (to several people),"Claude inferred: the Italian prompt and the dialect answer were run together, and the previous prompt taken as the Italian",2026-10-14
+reject,rogn,1.,,,,,,"Claude inferred: an exercise number paired with the prompt, not a phrase",2026-10-14
+correct,rogn,giocare. Fii i compit prima giügà,,Fii i compit prima giügà,,fate i compiti prima di giocare!,do your homework before playing! (to several people),"Claude inferred: the end of the Italian prompt (""giocare."") was split onto the dialect line",2026-10-14
+accept,rogn,Porta ‘na butiglia d’acqua,,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,Fucalizat (fucalizevas) (o cuncentrat/cuncentrevas) sül capitul da matematica par adess,,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,"Pröva scta aplicaziun, l’è tantu (moltu) utila par urganizas",,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,Fa tenziun a la posctüra,,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,"Leng quesctu libru, al ta piasarà da sicür",,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,Scultii müsica clasica,,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,Catii föra un giöch che ga pias a tücc,,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,Dag l’acqua a la pianta ogni dü dì (bagna la pianta ogni dü dì),,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+accept,rogn,Tegnii ul segreto fin al sò complean (cipii mia fin al sò complean),,,,,,Claude inferred: correct pair (the Italian is the exercise prompt),2026-10-14
+correct,rogn,"Peter: Buongiorno, certo chieda pure. Bon dì, cert che al ma dumanda pür.",,"Al ma scüsa, bon dì. A podi dumandag n’indicaziun ?",,"Scusi, buongiorno. Posso chiederle un’indicazione?","Excuse me, good morning. May I ask you for directions?",Claude inferred: two lines of dialogue were mixed; this keeps Marisa's line (Peter's reply is lost),2026-10-14
+correct,rogn,Michael: Grazie mille! Buona,,Grazie mille e bona giurnada.,,Grazie mille! Buona giornata.,Thanks very much and have a good day.,Claude inferred: the line was split in the wrong place,2026-10-14
+accept,rogn,(Federico) I culor dal picul Mattia,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,La stanza da let dala Marisa,,,,,,Claude inferred: correct pair,2026-10-14
+accept,rogn,"Ogni volta che al disegna al sô pà Giüsep, par esempi, al dupera sempru i stess culor:i cavii i a fa negri, la maia l’è celescta e i brag rigorsament ross.",,,,,,Claude inferred: correct pair,2026-10-14
+correct,rogn,maa da cò,,,,mal di testa,headache,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da gamb,,,,male alle gambe,aching legs,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da oss,,,,male alle ossa,aching bones,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da ginöcc,,,,male al ginocchio,knee pain,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da gumbat,,,,male al gomito,elbow pain,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da man,,,,male alla mano,sore hand,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da dii,,,,male alle dita,sore fingers,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da puls,,,,male al polso,wrist pain,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da pé,,,,male al piede,sore foot,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da panza,,,,mal di pancia,stomach ache (belly ache),"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da stomic,,,,mal di stomaco,stomach ache,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa d’anca,,,,male all’anca,hip pain,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da schena,,,,mal di schiena,backache,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da spal,,,,male alla spalla,shoulder pain,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da urecc,,,,mal d’orecchie,earache,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+correct,rogn,maa da gura o gora,,,,mal di gola,sore throat,"Claude inferred: lesson 14 lists these under ""Malattie / dolori"" (maa e dulur); the Italian column gives only the body part, so maa da … is the pain, not the body part",2026-10-14
+expression,rogn,A ghii fam? “sempru”,,,,,,"Claude inferred: a sentence (question and answer), not a dictionary word, so it belongs with the expressions",2026-10-14
+expression,rogn,a öcc e cros,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,a sem ni petul,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,a sunt pien cum'è n'öv,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,acqua ‘n boca,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al’a ciapaa na pita,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al bef cumè na pidria,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,al bef l’aqua dal cudéé,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al capita a fasöö,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al cur cumè un lechee,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,al dorma cum'è n' ghir,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è burlaa giõ in pée,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al 'è föra di strasc,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al 'è mia tutt lü,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è n'a brasa morta,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al 'è n'grand lavativ,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è n' maia ramina,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al 'è n'poru scalcinaa,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è na lizza,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è na stéla,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è tutt un carpogn,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è ul ritratt dala salüt,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è un grand ganasa,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è un grand paiascion,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è un malmusctoos,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al 'è un pantofulàtt,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al'è un poru martur,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,al fuma cumè un Turcü,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,Al to amis Soc,,,,,,"Claude inferred: the signature of a letter, not a dictionary word, so it belongs with the expressions",2026-10-14
+expression,basso-ceresio,bagnà ul bècch,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,brutt cumè ul pecaa,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,bütà la scpügna,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,car cum'è l foch,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,catif cum'è n'aspas,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,catif cum'è ul tosicc,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,cori parché sum in ritard,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,cum 'è ta see pedic,,,,,,"Claude inferred: an exclamation about a person, so it belongs with the expressions",2026-10-14
+expression,rogn,cumè ta set poss,,,,,,"Claude inferred: an exclamation about a person, so it belongs with the expressions",2026-10-14
+expression,rogn,cun la tescta süi scpall,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,E da indua ta set?,,,,,,"Claude inferred: a line of dialogue, so it belongs with the expressions",2026-10-14
+expression,rogn,fa ‘l galett,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,basso-ceresio,fa ul fürbo,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,fas ‘l mazz,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,fò sü i scar,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,frècc cum'è n biss,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,gò i cavii bianc,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,gram cum’è ul tossich,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,i ball dal frà Lüca,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,imbranaa cumè n'õla,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,l'è la mia crus,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,l'è na röda che gira,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,l'è nai in dal balon,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,l'è pasaa par un ragg,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,l'è rivaa diss a déss,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,l'è san cumè un cornu,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,l'è un maia balõn,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,rogn,lungh 'cumè la famm,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,mangi na poma,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,mei tardi che mai,,,,,,"Claude inferred: a proverb, so it belongs with the expressions",2026-10-14
+expression,rogn,mi mangi i tumatis,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,moll cumè un fich,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,o sémpru duvüü adatáss.,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,"scüsa, u mia capii",,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,sclungà ‘l brööd,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,smort cum'è n 'patüsch,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,ta runfat cumè na resèga,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,ta se una resèga,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,ta set un gran zacagn,,,,,,"Claude inferred: a description of a person, so it belongs with the expressions",2026-10-14
+expression,basso-ceresio,ta va a penèl,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,tirà la corda,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,torni indré dal laurà,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,tremà cum 'è na foia,,,,,,"Claude inferred: a simile, so it belongs with the expressions",2026-10-14
+expression,rogn,tütt i sant jüttan,,,,,,"Claude inferred: a proverb, so it belongs with the expressions",2026-10-14
+expression,rogn,ul vent al bofa,,,,,,"Claude inferred: a sentence, so it belongs with the expressions",2026-10-14
+expression,rogn,veg ‘na marcia in pü,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,ves a la man,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,ves al verd,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,ves ‘n asan,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,ves un ors,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,rogn,riscpund pic,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,ticinese,cume sa dis,,,,,,"Claude inferred: a question, not a dictionary word, so it belongs with the expressions",2026-10-14
+expression,ticinese,fö da chi/bal,,,,,,"Claude inferred: an exclamation, so it belongs with the expressions",2026-10-14
+expression,ticinese,fö del strasc,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+expression,ticinese,sota a cü biòtt,,,,,,"Claude inferred: an idiom, so it belongs with the expressions",2026-10-14
+reject,basso-ceresio,s’ciòpp - schioppo,,,,,,"Claude inferred: a note on spelling in the glossary, not an Italian-dialect pair",2026-10-14
+correct,rogn,Ciao: a sem visct a la leziun da ecunumia…..cumé ta sa ciamat? (qual è ul tò nom?),,,,"Ciao, ci siamo visti a lezione di economia…come ti chiami? (qual è il tuo nome?)","Hi, we've seen each other in the economics lecture… what are you called? (what is your name?)","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Si, ma regordi, ta sevat dananz a mì…ma ciami Marco (ul mè nom l’è Marco)",,,,"Si, mi ricordo eri davanti a me…mi chiamo Marco (il mio nome è Marco).","Yes, I remember, you were in front of me… I'm called Marco (my name is Marco).","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Parché ta set vegnüü a Lügan ?,,,,Perchè sei venuto a Lugano?,Why did you come to Lugano?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ciao Andrea, mi sum al Marco",,,,Ciao Andrea io sono Marco,"Hi Andrea, I'm Marco","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Da indua ta set Andrea? Indua ta sctet da cà?,,,,Di dove sei Andrea? Dove abiti?,"Where are you from, Andrea? Where do you live?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Sum da Brescia, ma sctò a Lügan adess",,,,Sono di Brescia ma abito a Lugano adesso.,I'm from Brescia but I live in Lugano now.,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Che facoltà ta frequentat?,,,,Che facoltà frequenti?,Which faculty are you in?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Stüdi ecunumia, sum al prim ann",,,,"Studio economia, sono al primo anno",I study economics; I'm in the first year,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Fiöö, nem a beef ‘n café",,,,"Ragazzi, andiamo a bere un caffè?","Guys, shall we go for a coffee?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ok va ben, nem al bar, l’è chi visin",,,,"Ok va bene, andiamo al bar, è qui vicino.","OK, fine, let's go to the bar, it's near here.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Un café al bevi anca mì, nem",,,,"Un caffè lo prendo anch’io, andiamo.","I'll have a coffee too, let's go.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Bon dì, al ga fa trii café?",,,,"Buongiorno, ci fa tre caffè?","Good morning, could we have three coffees?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Sübit, cumé che i vöruf?",,,,"Subito, come li volete?","Right away, how would you like them?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Par mi un puu lung, grazie",,,,"Per me un po’ lungo, grazie","A bit long for me, thanks","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Par mi al va ben nurmal,,,,Per me va bene normale,A normal one is fine for me,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Vöruf di brioches, mi vüna la vöri",,,,"Volete delle brioches, io una la prendo",Do you want some brioches? I'm having one,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Si anca mi, chi da solit ien bon",,,,"si anch’io, qui di solito sono buone.","Yes, me too, they're usually good here.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Cumé che a vegnuf a Lügan, in tren?",,,,"Come venite a Lugano, in treno?","How do you get to Lugano, by train?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"No mi g’ho la machina, indua a sctò da cà a g’ho un garage",,,,"No io ho l’automobile, dove abito ho un garage","No, I have a car; where I live I have a garage","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Si in tren ga vö un quart d’ura, ti indua ta sctet da cà a Lügan?",,,,"Si in treno ci vuole un quarto d’ora, tu dove abiti a Lugano?","Yes, by train it takes a quarter of an hour; where do you live in Lugano?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Interesant, al parla italian?",,,,Interessante parla italiano?,"Interesting, does he speak Italian?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ok nem, ufrisi mi….quantu l’è tütt ?",,,,"Ok andiamo, offro io…quant’è tutto? (rivolto alla cassiera)","OK let's go, it's on me… how much is it altogether? (to the cashier)","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"In tütt a fa des franc, grazie",,,,"In tutto fanno dieci franchi, grazie","That's ten francs in all, thank you","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ecu a lee, arivedes",,,,"Ecco a lei, arrivederci","Here you are, goodbye","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Al ma pias quesctu risturant, sa spent mia tantu e sa mangia ben",,,,"Mi piace questo ristorante, non si spende molto e si mangia bene.",I like this restaurant; it's not expensive and the food is good.,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Anca mi ga sum mai vegnüü, da solit a vô in una pizzeria",,,,"Anche io non ci sono mai venuto, di solito vado in una pizzeria.",I've never been here either; I usually go to a pizzeria.,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Se ta vö chi i fa anca la pizza ma l’è mia la sò scpecialità,,,,Se vuoi qui fanno anche la pizza ma non è la loro specialità.,"If you like they do pizza here too, but it's not their speciality.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"No, a preferisi pruà quaicos, vedem al menù",,,,"No, preferisco provare qualcosa, vediamo il menù.","No, I'd rather try something; let's see the menu.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Par mi la biscteca a la griglia e i patati al fornu,,,,"Per me la bistecca alla griglia e le patate, al forno",For me the grilled steak and the roast potatoes,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Anca par mi la sctesa roba,,,,"Mi associo, stessa cosa",Same for me,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Come cuntornu cosa al vö? Insalata o patati?,,,,Come contorno cosa desidera? Insalata o patate?,What would you like as a side? Salad or potatoes?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,L’è pusibil veg un puu d’insalata e tumatis?,,,,E’ possibile avere un po’ di insalata e pomodori?,Is it possible to have a bit of salad and tomatoes?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Si, cert",,,,"Si, certo.","Yes, of course.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Da bef cus’è che va porti?,,,,Da bere cosa vi porto?,What can I bring you to drink?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"No, par mi niente vin, al ma porta na bira media, legera",,,,"No, per me niente vino, mi porti una birra media, leggera.","No, no wine for me; bring me a medium beer, a light one.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Secund a mì l’è mei sctudià dumà sui libri, sa po’ imparà anca da par lur",,,,"A mio parere è meglio studiare solo sui libri, si può imparare anche da soli.",In my opinion it's better to study just from books; you can learn on your own too.,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Sum d’acordi cun ti, prövarò anca mì a fa inscì.",,,,"Sono d’accordo con te, proverò anche io a fare così",I agree with you; I'll try doing that too,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ah, al seva mia che ta parlassat ingles!",,,,"Ah, non sapevo che tu parlassi inglese!","Ah, I didn't know you spoke English!","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ciao Rob, setat giô cun nüm",,,,"Ciao Rob, siediti con noi","Hi Rob, sit down with us","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ciao, mi sum al Marco",,,,"Ciao, io sono Marco.","Hi, I'm Marco.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ciao, e mi sum al Gianni",,,,"Ciao, e io sono Gianni","Hi, and I'm Gianni","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Beh, mi parli mia ben l’itaglian",,,,"Beh, io non parlo bene italiano..","Well, I don't speak Italian well…","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Podi parlà in ingles, ma preferisi parlà itaglian, se par vialtri al va ben?",,,,"Posso parlare in inglese, ma preferisco parlare italiano, per voi va bene?","I can speak English, but I prefer to speak Italian; is that all right with you?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Si grazie! Vöi migliurà al me itaglian!,,,,Si grazie ! voglio migliorare il mio italiano!,"Yes, thanks! I want to improve my Italian!","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ben, alura cumé che ta sctet in Scvizera, cumé che ta sa trövat chi?",,,,"Bene, allora come stai in Svizzera, come ti trovi qui?","Good, so how are you getting on in Switzerland, how do you find it here?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Capisi mia….ta sa trövat?,,,,Non capisco…ti trovi?,I don't understand… ti trovi?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Cumé l’è al mangià, al ta pias al nos mangià?",,,,"Com’è il cibo, ti piace il cibo da noi?","What's the food like, do you like our food?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Ta cugnosat un puu Lügan?,,,,Conosci un po’ Lugano?,Do you know Lugano a bit?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ciao Marisa, da quantu temp che sa vedum mia! Come ta sté?",,,,"Ciao Marisa, da quanto tempo non ci vediamo! Come stai?","Hi Marisa, it's been ages! How are you?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Ma fa piasé cugnossa Verena. Benvegnüda in Tisin.,,,,Piacere di conoscerti Verena. Benvenuta in Ticino.,"Nice to meet you, Verena. Welcome to Ticino.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Duman sira a pensum da na al cinema. Ta vörat vegnì anca tì?,,,,Domani sera pensiamo di andare al cinema. Vuoi venire anche tu?,Tomorrow evening we're thinking of going to the cinema. Do you want to come too?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Ma piasaress, ma duman sira gh’è la fescta da complean dal Marco. Parché vegnuf mia anca vialtri?",,,,"Mi piacerebbe, ma domani sera c’è la festa di compleanno di Marco. Perché non venite anche voi?","I'd like to, but tomorrow evening it's Marco's birthday party. Why don't you two come as well?","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Al so mia, a sem mia stai invidaa",,,,"non so, non siamo state invitate.","I don't know, we haven't been invited.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Come devi vesctim ? al sô mia cusé met sü. L’è una fescta eleganta?,,,,Come devo vestirmi? Non so cosa mettermi. È una festa elegante?,How should I dress? I don't know what to wear. Is it a smart party?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Sarii belissim ! alura a duman.,,,,Sarete bellissime! Allora a domani.,You'll look gorgeous! See you tomorrow then.,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Ta gh’è vöia da mangià na lüganiga ?,,,,Ti va di mangiare una luganiga?,Do you fancy eating a luganiga?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,Ah ! Dificil da dì…..chi visin ?,,,,Ah! Difficile da dire…qui vicino?,Ah! Hard to say… near here?,"Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Al saress mei, sì.",,,,"Sarebbe meglio, sì.","That would be better, yes.","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Grazie anca a vialtri fiöö, divertivas",,,,"Anche a voi ragazzi, divertitevi!","You too, kids, have fun!","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,rogn,"Alura al segund semafur a sinisctra, a desctra la maceleria",,,,"Allora al secondo semaforo a sinistra, a destra la macelleria…","So, left at the second traffic light, the butcher's on the right…","Claude inferred: the speaker's name and quotation marks removed from the translation, so the line stands alone as a phrase",2026-10-14
+correct,ticinese,tarlücc,,,,"sciocco, tonto, imbranato","fool, dummy, clumsy person","Owner: Ticinese/Lombard for a fool, a clueless or clumsy person (found online); fits the spreadsheet note 'insult?'",2026-10-14
+variant,ticinese,tarlücc,,tarlücc,rogn,,,Owner: tarlücc is used in Rögn,2026-10-14
+accept,rogn,"furmagela (grasa/magra), formaggio dell’alpe",,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,tarlücc,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,la letra,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,la mia setimana,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,“Chi che vö ‘n gelatu?” “Tücc”,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,piang sul lacc bütaa via,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,fa vegnì ‘l lacc ai genöcc,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves farina dal sò sac,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,na a tüta bira,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,met tropa carn al föc,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,tirà via i castegn dal föc,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,"l’oscpit l’è cumé ‘l pes, dopu tri dì al scpüzza",,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,al fa acqua da tütt i part,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves tütt füm e nagot da rosct,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves na patata büienta,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves san cumé ‘n pes,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves da par lü cumé ‘n can,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves in quatar gatt,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves matt cumé ‘n caval,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ciapà ‘l tor par i corni/taià la tescta al tor,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,veg ‘na brüta gata da perà,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,veg la coa da paia,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,"öcc par öcc, dencc par dencc",,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,restà a boca sücia,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,veg ‘n stomic da fer,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves cun i pé par tèra,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,fa ‘l pass püsee lung dala gamba,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,mia veg pei süla lingua,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,veg un diaul par cavii,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,pasà la nocc in bianc,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,fa icunt senza l’osct,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,mia vedé l’ora,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,scpacà ‘l minüt o al segund,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,südà set camis,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,fa tant da capèl,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,durmì süi risültaa o adagias süi risültaa,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,chi dorma ciapà mia pes,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,cambià i cart in taula,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,veg scià ‘l curtel dala part dal manic,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,tiras la sapa süi pé,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,picà ‘l fer fin che l’è cald,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves in una bot da fèr,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves l’ültima röda dal car,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,veg la scpüza sôta ‘l nas,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,veg pagüra dala sua umbra,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,fà ‘l basctian cuntrari,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,ves cumé dô gott d’acqua,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,sa la canta e sa la sôna,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+accept,rogn,fà ‘l bel e ‘l brütt temp,,,,,,"Owner: checked in TO-CHECK (estrazioni incerte), fine",2026-10-14
+expression,ticinese,El Savie é el Matt,,,,,,"Claude inferred: the title of a fable, so it belongs with the expressions",2026-10-14
+expression,ticinese,al mè cör,,,,,,"Claude inferred: a fragment of a poem, so it belongs with the expressions",2026-10-14
+expression,ticinese,cun la tèsta,,,,,,"Claude inferred: a fragment of a poem, so it belongs with the expressions",2026-10-14
+expression,ticinese,in di mè sögn,,,,,,"Claude inferred: a fragment of a poem, so it belongs with the expressions",2026-10-14
+expression,ticinese,la tua pell,,,,,,"Claude inferred: a fragment of a poem, so it belongs with the expressions",2026-10-14
+expression,ticinese,sota la ságuma,,,,,,"Claude inferred: a fragment of a poem, so it belongs with the expressions",2026-10-14
+expression,ticinese,la sa strevaca,,,,,,"Claude inferred: a fragment of a poem, so it belongs with the expressions",2026-10-14
+expression,ticinese,gnanca da pensà,,,,,,"Claude inferred: a fragment of a newspaper column, so it belongs with the expressions",2026-10-14
+reject,rogn,01-01-2024,,,,,,"Claude inferred: NUVANT'ANN, the date line of the text, not a word",2026-10-14
+reject,rogn,nUVANT’ANN,,,,,,"Claude inferred: NUVANT'ANN, the title of the text, not a dictionary word",2026-10-14
+reject,rogn,"ghéva pòsct par tücc,",,,,,,"Claude inferred: NUVANT'ANN, a fragment of a line of the text",2026-10-14
+reject,rogn,pruvidenza divina”,,,,,,"Claude inferred: NUVANT'ANN, a fragment of a line of the text",2026-10-14
+correct,ticinese,al,,lü al ghe,,lui ha,he has,"the spreadsheet cell held only the clitic al: he has = lü al ghe",2026-10-15
+variant,rogn,bèf,,bef,,,,Claude inferred: spelling of the verb bef in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
+variant,rogn,côr,,cor,,,,Claude inferred: spelling of the verb cor in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
+variant,rogn,bürlà giô,,bürlà giò,,,,Claude inferred: spelling of the verb bürlà giò in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
+variant,rogn,na giô,,na giò,,,,Claude inferred: spelling of the verb na giò in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
+variant,rogn,setas giô,,setas giò,,,,Claude inferred: spelling of the verb setas giò in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
+variant,rogn,vôsà o vusà,,vosà o vusà,,,,Claude inferred: spelling of the verb vosà o vusà in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
+correct,rogn,mia Sctess,,mia sctess,,diverso,different,"Claude inferred: a stray capital in the teacher's table (Aggettivi e contrari), as in the opposite sctess",2026-10-28

@@ -1,0 +1,110 @@
+file,variety,canonical,layout,include,genre,notes
+2026-02-17-1335-11_Fascicolo_poesia_25-26.docx,Italian only,no,skip,no,,"Italian poetry coursework, no dialect"
+2026-01-03-1218-12_cipolla_szymborska.docx,Italian only,no,skip,no,,"Italian poetry coursework, no dialect"
+2026-01-03-1431-14_caproni_battendo_a_macchina.docx,Italian only,no,skip,no,,"Italian poetry coursework, no dialect"
+2026-01-03-1430-15_caproni_uscita_mattutina.docx,Italian only,no,skip,no,,"Italian poetry coursework, no dialect"
+2026-01-03-1452-16_LiLu_caproni_lamenti_III.docx,Italian only,no,skip,no,,"Italian poetry coursework, no dialect"
+2026-01-03-1423-16_caproni_notte.docx,Italian only,no,skip,no,,"Italian poetry coursework, no dialect"
+2026-04-23-1018-17_LiLu_pascoli_tuono.docx,Italian only,no,skip,no,,"Italian poetry coursework, no dialect"
+2025-09-17-0933-Fregüi da vita dal Mendrisiòtt.docx,Mendrisiotto,no,auto,yes,text,
+2025-09-25-1023-San Martin.pdf,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-10-03-1548-Insegnà ul dialètt a scöla.docx,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-10-09-0957-Nümm e quii da là dal San Gòtard.pdf,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-10-21-1457-Nümm e quii da là dal San Gòtard.docx,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-10-21-1500-articolo CdT.docx,Rögn (Arogno),yes,auto,yes,text,"class translation - my guess that it is canonical, please confirm"
+2025-10-21-1457-I maestri d'inlura e quii d'incöö.docx,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-11-17-0000-dialett da Lumin.pdf,Lumino (Bellinzonese),no,text_only,yes,,kept as reading text: no line-by-line Italian to pair with (or multi-column layout)
+2025-11-24-0000-dialett da Lumin 2.pdf,Lumino (Bellinzonese),no,text_only,yes,,kept as reading text: no line-by-line Italian to pair with (or multi-column layout)
+2025-12-02-1358-Canto 1 della Divina Commedia.docx,Rögn (Arogno),yes,parallel,yes,text,class translation of Inferno I; aligned with the Italian original (etc/parallel_texts.csv)
+2026-05-07-1420-I düü magnan.pdf,Italian only,no,skip,no,,same Italian text as 2026-06-07-1609-I due Magnani.pdf
+2022-02-16-1457-CDE_come_si_scrive_in_dialetto.pdf,reference,no,skip,no,,"CDE spelling guide - reference, not vocabulary"
+2024-02-27-1327-Chi che l'è un vero ticinés.docx,other / unverified,no,text_only,yes,,variety not verified - please set; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)
+2023-04-04-1529-Cors da dialet da Rögn 11a leziun.docx,Rögn (Arogno),yes,auto,yes,saying,Rögn course lesson
+2023-04-04-1529-Cors da dialet da Rögn 12a leziun.docx,Rögn (Arogno),yes,auto,yes,saying,Rögn course lesson
+2023-05-01-0000-Cors da dialet da Rögn 15a leziun - proverbi.pdf,Rögn (Arogno),yes,auto,yes,saying,Rögn course lesson
+2023-02-06-0000-Cors da dialett da Rögn 3a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-02-13-0000-Cors da dialett da Rögn 4a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-02-20-0000-Cors da dialett da Rögn 5a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-01-30-0000-Cors da dialett da Rögn lezium 1 e 2.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx,Basso Ceresio,no,auto,yes,saying,Gaggini glossary
+2026-05-05-1007-El Fra in do Sac.docx,Rögn (Arogno),yes,text_only,yes,,"class translation; two dialects line by line (an older variety and the class version), no Italian, so kept as a reading text"
+2026-04-28-1728-Favole in dialetto tradotta in italiano.docx,unknown (el/ra articles),no,auto,yes,text,variety not identified
+2026-06-07-1609-Filatrocca di Carlino.docx,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-04-12-1249-Frasi di ultranovantenni di Arogno.pdf,Rögn (Arogno),yes,auto,yes,phrase,Arogno text - my guess that it is canonical
+2026-06-07-1609-GP Lavelli 2x.docx,Val Morobbia?,no,text_only,yes,,OCR of image; variety is my guess; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)
+2026-06-07-1609-I due Magnani.pdf,Italian only,no,skip,no,,"Italian original of 2026-06-07-1609-I düü magnan.docx, used only to align it (etc/parallel_texts.csv)"
+2026-06-07-1609-I düü magnan.docx,Rögn (Arogno),yes,parallel,yes,text,class translation; aligned with the Italian original 2026-06-07-1609-I due Magnani.pdf (etc/parallel_texts.csv)
+2024-02-21-0902-Il Condizionale Passato.docx,Rögn (Arogno),yes,auto,yes,exercise,teacher's grammar sheet
+2024-01-29-2020-Il Condizionale Presente.docx,Rögn (Arogno),yes,auto,yes,exercise,teacher's grammar sheet
+2024-08-20-1910-L'appetito vien mangiando.docx,Italian only,no,skip,no,,Italian only (exercise before translation)
+2024-03-05-1249-Letra ala sciura Trudi - Copia.docx,other / unverified,no,text_only,yes,,variety not verified - please set; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)
+2025-04-12-1249-NUVANT'ANN.pdf,Rögn (Arogno),yes,auto,yes,text,Arogno text - my guess that it is canonical; dialect and Italian line by line (partly in two columns)
+2023-11-21-0826-Paul e Ghita a Lügan 1a e 2a parte.pdf,Lugano (old printed play),no,text_only,yes,,"OCR; dialect only, Italian glosses in brackets; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)"
+2023-11-21-0826-Paul e Ghita a Lügan 3a parte.pdf,Lugano (old printed play),no,text_only,yes,,"OCR; dialect only, Italian glosses in brackets; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)"
+2023-11-21-0826-Paul e Ghita a Lügan 4a parte.pdf,Lugano (old printed play),no,text_only,yes,,"OCR; dialect only, Italian glosses in brackets; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)"
+2023-11-21-0826-Paul e Ghita a Lügan quinta parte.pdf,Lugano (old printed play),no,text_only,yes,,"OCR; dialect only, Italian glosses in brackets; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)"
+2025-02-20-1019-Piove governo ladro di Fausto Boffi.docx,other / unverified,no,auto,yes,text,variety not verified - please set
+2026-04-28-1728-Ul prevosct senza crapa.docx,Rögn (Arogno),yes,auto,yes,text,"class translation - my guess that it is canonical, please confirm"
+2025-02-28-1445-brevi frasi.pdf,Rögn (Arogno),yes,bullets,yes,phrase,teacher's exercise sheet
+2023-10-06-1930-concorso Vacallo.pdf,other / unverified,no,auto,yes,text,variety not verified - please set
+2023-05-15-0000-cors da dialet da Rögn 17a leziun.pdf,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-09-27-1739-cors da dialet da Rögn 18a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx,Rögn (Arogno),yes,text_only,yes,,Rögn course lesson; kept as reading text: no line-by-line Italian to pair with (or multi-column layout)
+2023-10-06-1930-dialett-poesia-Spartaco-Arigoni.pdf,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-04-06-1703-dialoghi a Lugano.pdf,Rögn (Arogno),yes,auto,yes,text,teacher's exercise sheet
+2024-11-18-1837-domande di vario tipo.docx,Rögn (Arogno),yes,auto,yes,phrase,teacher's exercise sheet
+2025-06-05-0915-espressioni in italiano 2.6.2025.pdf,Rögn (Arogno),yes,auto,yes,saying,teacher's exercise sheet
+2025-06-01-1159-espressioni in italiano.docx,Italian only,no,skip,no,,Italian only (exercise before translation)
+2024-08-20-1910-frasi fai 1 - Copia.docx,Rögn (Arogno),yes,auto,yes,saying,teacher's exercise sheet
+2024-05-29-1014-frasi fai 1.docx,Rögn (Arogno),yes,auto,yes,saying,teacher's exercise sheet
+2024-05-29-1014-frasi fatte.docx,Rögn (Arogno),yes,auto,yes,saying,teacher's exercise sheet
+2024-09-06-1018-il congiüntif.docx,Rögn (Arogno),yes,auto,yes,exercise,teacher's grammar sheet
+2025-06-01-1159-il gerundio.pdf,Rögn (Arogno),yes,gerund,yes,exercise,teacher's grammar sheet
+2025-04-15-0748-imperativo 14.4.2025.pdf,Rögn (Arogno),yes,auto,yes,exercise,teacher's grammar sheet
+2025-05-07-0930-imperativo.pdf,Rögn (Arogno),yes,imperative,yes,exercise,teacher's grammar sheet
+2024-01-17-0959-l Condizionale Presente.docx,Rögn (Arogno),yes,auto,yes,exercise,teacher's grammar sheet
+2025-02-20-1019-la nocc e carisna.docx,other / unverified,no,auto,yes,text,variety not verified - please set
+2025-02-20-1019-poesie in dialetto.docx,other / unverified,no,auto,yes,text,variety not verified - please set
+2026-06-19-1137-testi dal Burghett di Giubiasco.docx,Giubiasco,no,text_only,yes,,kept as reading text: no line-by-line Italian to pair with (or multi-column layout)
+2024-12-18-1458-topolino prima parte.pdf,Rögn (Arogno),yes,skip,no,,first part of 2025-01-29-0942-ul nos Topolino.pdf
+2024-12-18-1712-topolino testo originale.pdf,Italian only,no,skip,no,,"Italian original (scan) of 2025-01-29-0942-ul nos Topolino.pdf, used only to align it"
+2025-01-29-0942-ul nos Topolino.pdf,Rögn (Arogno),yes,text_only,yes,,"class translation; kept as reading text: the Italian original (2024-12-18-1712-topolino testo originale.pdf) is an OCR of a comic, too garbled to align with"
+2026-04-14-1253-vari canti Divina Commedia.pdf,Rögn (Arogno),yes,skip,no,,damaged PDF like 2026-03-25-0926-vari canti Divina Commedia.pdf: no Canto II; use 2026-03-25-0926-vari canti Divina Commedia (copia completa).pdf
+2024-10-10-1054-varie situazioni.docx,Rögn (Arogno),yes,auto,yes,text,teacher's exercise sheet
+2026-09-17-0948-🌴 100 frasi utili per quattro persone in vacanza al mare.docx,Rögn (Arogno),yes,auto,yes,phrase,teacher's exercise sheet
+"2025-12-02-1358-Divina Commedia Inferno I-VI (Dante, Project Gutenberg).txt",Italian only,no,skip,no,,"Dante's Italian, public domain (Project Gutenberg #1000), used only to align the class translation"
+2023-02-27-1529-cors da dialet da Rögn 6a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-02-28-0951-7a leziun da dialet da Rögn.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-03-07-1652-Cors da dialet da Rögn 8a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-03-14-1034-cors da dialet da Rögn 9a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-03-23-0951-cors da dialet da Rögn 10a leziun.docx,Rögn (Arogno),yes,auto,yes,saying,Rögn course lesson
+2023-03-29-1002-Cors da dialet da Rögn 11a leziun.docx,Rögn (Arogno),yes,auto,yes,saying,Rögn course lesson: the teacher's first version (one word differs from the corrected 2023-04-04 version: libellula / donnola (faina))
+2023-04-20-1234-Cors da dialet da Rögn 13a leziun.docx,Rögn (Arogno),yes,auto,yes,saying,Rögn course lesson
+2023-04-25-1139-Cors da dialet da Rögn 14a leziun.docx,Rögn (Arogno),yes,auto,yes,phrase,Rögn course lesson
+2023-10-19-1002-dal dialett a l'italian.docx,other / unverified,no,skip,no,,the exercise as set: Pescia's dialect text only; 2023-10-24-1514-dal dialett a l'italian.docx has it with the class's Italian
+2023-10-19-1002-dall'italiano al dialetto.docx,Italian only,no,skip,no,,the exercise as set: the Italian article only; the class translation is 2023-11-21-0910-dall'italiano al dialetto.docx
+2023-10-24-1514-dal dialett a l'italian.docx,other / unverified,no,auto,yes,text,"Giuseppe Pescia, Ul quart Rè Magi: his dialect text with the class's Italian translation line by line (exercise dialect to Italian); the dialect is Pescia's, not the course's"
+2023-11-21-0910-Giuseppe Cerutti.docx,other / unverified,no,auto,yes,text,"Giuseppe Cerutti (outside author): a story, dialect and Italian line by line"
+2023-11-21-0910-dall'italiano al dialetto.docx,Rögn (Arogno),yes,auto,yes,text,class translation (Italian to dialect) of a newspaper article on the Parco del Laveggio; Italian and dialect line by line
+2024-02-15-0801-Il Condizionale Passato.docx,Rögn (Arogno),yes,auto,yes,exercise,teacher's grammar sheet; earlier version of 2024-02-21-0902-Il Condizionale Passato.docx
+2024-02-23-0958-Chi che l'è un vero ticinés.docx,other / unverified,no,text_only,yes,,earlier version of 2024-02-27-1327-Chi che l'è un vero ticinés.docx; variety not verified; kept as reading text
+2024-02-27-1327-Letra ala sciura Trudi.docx,other / unverified,no,text_only,yes,,other version of 2024-03-05-1249-Letra ala sciura Trudi - Copia.docx; variety not verified; kept as reading text
+2024-03-17-1237-Dizionario con filastrocche di R. Gaggini.docx,Basso Ceresio,no,auto,yes,saying,"Gaggini glossary, later version (2024-03-17)"
+2024-05-02-1417-frasi fatte.docx,Rögn (Arogno),yes,auto,yes,saying,teacher's exercise sheet; earlier version of 2024-05-29-1014-frasi fatte.docx
+2024-05-21-1003-Dizionario con filastrocche di R. Gaggini.docx,Basso Ceresio,no,auto,yes,saying,"Gaggini glossary, later version (2024-05-21)"
+2024-09-24-1032-Cors da dialett da Rögn al congiuntif.docx,Rögn (Arogno),yes,subjunctive,yes,exercise,"teacher's grammar sheet: present indicative and present subjunctive of 23 verbs, side by side (layout subjunctive)"
+2024-09-24-1032-al congiüntif 2.docx,Rögn (Arogno),yes,auto,yes,exercise,"teacher's grammar sheet: uses of the subjunctive, Italian examples with the dialect"
+2024-09-24-1032-al congiüntif.docx,Rögn (Arogno),yes,auto,yes,exercise,teacher's grammar sheet; same as 2024-09-06-1018-il congiüntif.docx with the title corrected
+2024-09-24-1032-varie situazioni.docx,Rögn (Arogno),yes,auto,yes,text,teacher's exercise sheet; earlier version of 2024-10-10-1054-varie situazioni.docx
+2026-01-13-1438-Canto 1 della Divina Commedia.docx,Rögn (Arogno),yes,parallel,yes,text,later draft of the class translation of Inferno I: 81 verses (30 on 2025-12-02); aligned with the Italian original (etc/parallel_texts.csv)
+2026-01-30-0918-vari canti Divina Commedia.pdf,Italian only,no,skip,no,,"Dante's Italian of Inferno II-VI, a scan sent by the teacher; the Project Gutenberg text is used to align the class translation"
+2026-02-02-1116-Canto 1 della Divina Commedia.docx,Rögn (Arogno),yes,parallel,yes,text,"the class translation of the whole of Inferno I, 136 verses; aligned with the Italian original (etc/parallel_texts.csv)"
+2026-03-25-0926-vari canti Divina Commedia (copia completa).pdf,Rögn (Arogno),yes,parallel,yes,text,class translation of Inferno II-VI; aligned with the Italian original (etc/parallel_texts.csv). The owner's copy of the PDF the teacher e-mailed on 2026-03-25: that e-mailed file is damaged and loses Canto II
+2026-03-25-0926-vari canti Divina Commedia.pdf,Rögn (Arogno),yes,skip,no,,damaged PDF (broken compressed streams): Canto II does not extract; use 2026-03-25-0926-vari canti Divina Commedia (copia completa).pdf
+2026-04-14-1253-favola.pdf,Italian only,no,skip,no,,Il prevosto distratto: the Italian original of the class translation Ul prevosct senza crapa
+2026-06-14-1042-Filatrocca di Carlino.docx,other / unverified,no,auto,yes,text,other version of 2026-06-07-1609-Filatrocca di Carlino.docx; variety not verified
+2026-06-14-1042-GP Lavelli 2x.docx,Val Morobbia?,no,text_only,yes,,other version of 2026-06-07-1609-GP Lavelli 2x.docx; variety is a guess; kept as reading text
+2026-06-14-1042-testi dal Burghett di Biasca.docx,other / unverified,no,text_only,yes,,"Biasca texts from the Burghett (dialect verse only, like the Giubiasco texts); kept as reading text"
+2026-09-24-0946-100 frasi di persone in montagna.docx,Rögn (Arogno),yes,auto,yes,phrase,"teacher's exercise sheet, a companion to the 100 frasi for a holiday at the seaside"
+2026-10-27-1006-Aggettivi e contrari.docx,Rögn (Arogno),yes,opposites,yes,phrase,"teacher's sheet: adjectives and their opposites, four columns (Italian, opposite, dialect, opposite)"
+2026-10-27-1006-La spesa che non ti aspetti.docx,Rögn (Arogno),yes,auto,yes,text,"teacher's story set in Arogno, each Italian line followed by its dialect translation"

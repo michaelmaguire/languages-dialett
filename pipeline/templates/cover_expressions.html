@@ -1,0 +1,56 @@
+<!-- Title page of Expressions/arogno-expressions.pdf. Edit freely; step5_build_pdfs.py puts it in front of the expressions.
+     {{sayings}}, {{phrases}} = expressions, {{topics}} = number of topics: all filled in at build time. {{edition}} = timestamp of the build, YYYYMMDDhhmm.
+     The two sayings quoted are from the course (15a leziun - proverbi, frasi fatte); the rest is the cover's own joke. -->
+<style>
+@page :first { margin: 0; @bottom-center { content: none; } }
+.cover { height: 297mm; width: 210mm; overflow: hidden; position: relative; background: #0f5c4d; color: #fff;
+         font-family: "DejaVu Sans", Arial, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.cover .stripe { position: absolute; left: 0; right: 0; top: 0; height: 17mm; background: #ffd400; color: #0f5c4d;
+                 font: bold 11pt "DejaVu Sans", Arial, sans-serif; letter-spacing: .35em; text-transform: uppercase;
+                 display: flex; align-items: center; justify-content: space-between; padding: 0 16mm; }
+.cover .stripe span:last-child { letter-spacing: .05em; font-weight: bold; font-size: 10pt; text-transform: none; }
+.cover .bubble { position: absolute; left: 16mm; top: 34mm; width: 112mm; padding: 9mm 10mm; background: #fff; color: #0f5c4d;
+                 border-radius: 10mm; font: italic 17pt/1.35 "DejaVu Serif", Georgia, serif; box-shadow: 3mm 3mm 0 #ffd400; }
+.cover .bubble:after { content: ""; position: absolute; left: 18mm; bottom: -12mm; border: 7mm solid transparent;
+                       border-top: 7mm solid #fff; border-left: 7mm solid #fff; }
+.cover .bubble small { display: block; margin-top: 3mm; font: 10.5pt/1.35 "DejaVu Sans", Arial, sans-serif; color: #555; font-style: normal; }
+.cover .bubble2 { position: absolute; right: 14mm; top: 84mm; width: 70mm; padding: 6mm 7mm; background: #ffd400; color: #0f5c4d;
+                  border-radius: 8mm; font: italic 13pt/1.35 "DejaVu Serif", Georgia, serif; transform: rotate(3deg); }
+.cover .bubble2 small { display: block; margin-top: 2mm; font: 9.5pt/1.3 "DejaVu Sans", Arial, sans-serif; font-style: normal; }
+.cover .by { position: absolute; left: 16mm; top: 113mm; font: italic 12.5pt "DejaVu Serif", Georgia, serif; }
+.cover .by b { font: bold 13pt "DejaVu Sans", Arial, sans-serif; font-style: normal; letter-spacing: .08em; text-transform: uppercase; }
+.cover .title { position: absolute; left: 16mm; right: 16mm; top: 128mm; font: bold 62pt/0.98 "DejaVu Sans", Arial, sans-serif;
+                text-transform: uppercase; letter-spacing: -.01em; }
+.cover .title span { color: #ffd400; }
+.cover .langs { position: absolute; left: 16mm; right: 16mm; top: 182mm; font: bold 17pt "DejaVu Sans", Arial, sans-serif;
+                letter-spacing: .12em; text-transform: uppercase; border-top: 1.6mm solid #fff;
+                border-bottom: 1.6mm solid #fff; padding: 4mm 0; display: flex; justify-content: space-between; }
+.cover .langs span:nth-child(2) { color: #ffd400; }
+.cover .blurb { position: absolute; left: 16mm; top: 212mm; width: 112mm; font: 13pt/1.42 "DejaVu Serif", Georgia, serif; }
+.cover .blurb b { color: #ffd400; }
+.cover .tab { position: absolute; right: 14mm; top: 210mm; width: 54mm; padding: 6mm 5mm; background: #c8102e;
+              color: #fff; border-radius: 3mm; transform: rotate(-5deg); text-align: center;
+              font: bold 11pt/1.35 "DejaVu Sans", Arial, sans-serif; box-shadow: 2mm 2mm 0 #ffd400; }
+.cover .tab big { display: block; font-size: 26pt; line-height: 1.05; color: #ffd400; }
+.cover .base { position: absolute; left: 0; right: 0; bottom: 0; background: #ffd400; color: #0f5c4d; padding: 6mm 16mm 7mm;
+               display: flex; justify-content: space-between; align-items: flex-end; font-size: 9.5pt; }
+.cover .base b { font-size: 19pt; letter-spacing: .14em; color: #0f5c4d; display: block; }
+.cover .legend { position: absolute; left: 16mm; right: 16mm; top: 262mm; font: 9pt/1.35 "DejaVu Sans", Arial, sans-serif; }
+</style>
+<section class="cover">
+  <div class="stripe"><span>Phrasebook</span><span>Edizión {{edition}}</span></div>
+  <div class="bubble">“Ul témp al va ciapàa cumè al végn, e la gént cumè a iénn.”
+    <small>Take the weather as it comes, and people as they are. — 15a leziun, proverbi</small></div>
+  <div class="bubble2">“Na parola l’è poca e dô i’è tropp.”<small>One word is too few and two are too many.</small></div>
+  <div class="by">from the lessons of <b>Guido Casellini</b></div>
+  <div class="title">Rögn<br><span>Modi da dì</span></div>
+  <div class="langs"><span>Dialett</span><span>Italiano</span><span>English</span></div>
+  <div class="blurb">Everything you need at the grott, at the seaside and at the dinner table, sorted into
+    <b>{{topics}} topics</b> so the right insult is never more than a page away.</div>
+  <div class="tab"><big>{{sayings}}</big>modi di dire<br><big>{{phrases}}</big>frasi</div>
+  <div class="legend">Expressions are from the Rögn course unless a region is shown in small capitals.
+    ⚠ marks a pair the extraction script was unsure about. Topics were assigned afterwards, not by the course;
+    † in a topic name marks a word not found in the course documents.</div>
+  <div class="base"><span><b>MAGUIRE’S</b>Arogno · Lügan · Tesin</span>
+    <span style="text-align:right">Fits any pocket with room for a sandwich<br>Not affiliated with any actual publisher of phrasebooks</span></div>
+</section>

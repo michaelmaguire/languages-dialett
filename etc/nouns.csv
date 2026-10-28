@@ -1,0 +1,444 @@
+Language_ID,Form,Gender,Plural,Feminine_Of,Reason
+rogn,l’altrèr,m,,,Claude inferred: l'altroieri; the elided article does not show the gender
+rogn,l’an,m,,,"Claude inferred: l'anno, m.; the elided article does not show the gender"
+rogn,l’architett,m,,,"Claude inferred: l'architetto, m.; the elided article does not show the gender"
+rogn,l’autunn,m,,,"Claude inferred: l'autunno, m.; the elided article does not show the gender"
+rogn,l’avucat,m,,,"Claude inferred: l'avvocato, m.; the elided article does not show the gender"
+rogn,l’esatur/al tasadu,m,,,"Claude inferred: l'esattore, m. (al tasadu is masculine); the elided article does not show the gender"
+rogn,l’infermèra,f,,,"Claude inferred: l'infermiera, f.; the elided article does not show the gender"
+rogn,l’ingegner,m,,,"Claude inferred: l'ingegnere, m.; the elided article does not show the gender"
+rogn,l’invernu,m,,,"Claude inferred: l'inverno, m.; the elided article does not show the gender"
+rogn,l’istaa,f,,,"Claude inferred: l'estate, f.; the elided article does not show the gender"
+rogn,l’osct,m,,,"Claude inferred: l'oste, m.; the elided article does not show the gender"
+rogn,l’urulugee,m,,,"Claude inferred: l'orologiaio, m.; the elided article does not show the gender"
+rogn,la dona da cà,,donn da cà,,"Claude inferred: dona doubles its n in the plural (donn), which the plural rules cannot predict"
+basso-ceresio,albicocch,f,albicocch,,Claude inferred: best guess from the Italian (albicocche); the source gives no article; the source gives the plural
+rogn,agost,m,,,Claude inferred: best guess from the Italian (agosto); the source gives no article
+rogn,an bisesct,m,,,Claude inferred: best guess from the Italian (anno bisestile); the source gives no article
+rogn,april,m,,,Claude inferred: best guess from the Italian (aprile); the source gives no article
+rogn,as da stir,f,,,Claude inferred: best guess from the Italian (asse da stiro); the source gives no article
+rogn,ass/asett,f,,,Claude inferred: best guess from the Italian (asse); the source gives no article
+rogn,autün,m,,,Claude inferred: best guess from the Italian (autunno); the source gives no article
+rogn,baldüchin,m,,,Claude inferred: best guess from the Italian (baldacchino); the source gives no article
+rogn,barbiis,m,barbiis,,Claude inferred: best guess from the Italian (baffi); the source gives no article; the source gives the plural
+rogn,barèta,f,,,Claude inferred: best guess from the Italian (berretto); the source gives no article
+rogn,barèta (scüffia),f,,,Claude inferred: best guess from the Italian (cuffia); the source gives no article
+rogn,bedòla,f,,,Claude inferred: best guess from the Italian (betulla); the source gives no article
+rogn,bel temp,m,,,"Claude inferred: the gender from the texts: “al bel temp”, 2024-11-18-1837-domande di vario tipo.docx[l.41]"
+rogn,brüt temp,m,,,"Claude inferred: the gender from the texts: “dal brüt temp”, 2024-05-29-1014-frasi fatte.docx[l.139]"
+basso-ceresio,bevüda,f,,,Claude inferred: best guess from the Italian (sorso); the source gives no article
+rogn,bicèr,m,,,"Claude inferred: the gender from the texts: “un bicèr”, 2023-04-25-1139-Cors da dialet da Rögn 14a leziun.docx[l.67]"
+basso-ceresio,bicerin,m,,,Claude inferred: best guess from the Italian (piccolo bicchiere); the source gives no article
+basso-ceresio,biröll,f,biröll,,Claude inferred: best guess from the Italian (castagne); the source gives no article; the source gives the plural
+rogn,blusc,f,,,Claude inferred: best guess from the Italian (blusa (da lavoro)); the source gives no article
+ticinese,böcc,m,,,"Claude inferred: the gender from the texts: “dal böcc”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.61]"
+basso-ceresio,bôta,f,,,Claude inferred: best guess from the Italian (colpo); the source gives no article
+rogn,brasc,m,brasc,,Claude inferred: best guess from the Italian (braccia); the source gives no article; the source gives the plural
+rogn,brocul bianc,m,,,Claude inferred: best guess from the Italian (cavolfiore); the source gives no article
+rogn,brocul vert,m,,,Claude inferred: best guess from the Italian (broccolo); the source gives no article
+rogn,brügn,m,,,Claude inferred: best guess from the Italian (prugno); the source gives no article
+rogn,bucunà,m,,,Claude inferred: best guess from the Italian (spuntino); the source gives no article
+basso-ceresio,büfé,m,,,Claude inferred: best guess from the Italian (armadio); the source gives no article
+basso-ceresio,bumbás,m,,,Claude inferred: best guess from the Italian (ovatta); the source gives no article
+basso-ceresio,bunascion,m,,,Claude inferred: best guess from the Italian (bonaccione); the source gives no article
+basso-ceresio,büsciöön,m,,,Claude inferred: best guess from the Italian (tappo-coperchio); the source gives no article
+ticinese,cà,f,,,Claude inferred: best guess from the Italian (casa); the source gives no article
+rogn,caco,m,,,Claude inferred: best guess from the Italian (caco); the source gives no article
+rogn,cadin,m,,,Claude inferred: best guess from the Italian (catino); the source gives no article
+rogn,cadrèga/cadrèg,f,cadrèg,,Claude inferred: best guess from the Italian (sedia/sedie); the source gives no article
+ticinese,cadréga,f,,,Claude inferred: best guess from the Italian (sedia); the source gives no article
+rogn,cafetèra,f,,,Claude inferred: best guess from the Italian (Caffettiera Moka); the source gives no article
+rogn,cai / düron,m,cai / düron,,Claude inferred: best guess from the Italian (calli); the source gives no article; the source gives the plural
+rogn,caldiröö,m,,,Claude inferred: best guess from the Italian (paiolo); the source gives no article
+rogn,calzett,m,calzett,,Claude inferred: best guess from the Italian (calze); the source gives no article; the source gives the plural
+rogn,calzòn,m,calzòn,,Claude inferred: best guess from the Italian (pantaloni); the source gives no article; the source gives the plural
+basso-ceresio,calzón,m,,,Claude inferred: best guess from the Italian (calzone); the source gives no article
+rogn,calzon / braag,m,calzon / braag,,Claude inferred: best guess from the Italian (pantaloni); the source gives no article; the source gives the plural
+basso-ceresio,calzular,m,,,Claude inferred: best guess from the Italian (calzolaio); the source gives no article
+rogn,camin,m,,,"Claude inferred: the gender from the texts: “al camin”, 2023-03-14-1034-cors da dialet da Rögn 9a leziun.docx[l.11]"
+rogn,camisa,f,,,"Claude inferred: the gender from the texts: “la camisa”, 2023-04-20-1234-Cors da dialet da Rögn 13a leziun.docx[l.55]"
+rogn,camisa/camis,f,camis,,"Claude inferred: the gender from the texts: “la camisa”, 2023-04-20-1234-Cors da dialet da Rögn 13a leziun.docx[l.55]"
+rogn,camisetta,f,,,Claude inferred: best guess from the Italian (camicetta); the source gives no article
+rogn,canvèla,f,,,Claude inferred: best guess from the Italian (caviglia); the source gives no article
+ticinese,canzón,f,,,Claude inferred: best guess from the Italian (canzone); the source gives no article
+rogn,capél,m,,,"Claude inferred: the gender from the texts: “ul capél”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.42]"
+basso-ceresio,caramell,f,caramell,,Claude inferred: best guess from the Italian (caramelle); the source gives no article; the source gives the plural
+rogn,carèta,f,,,Claude inferred: best guess from the Italian (carriola); the source gives no article
+rogn,carotul (a),f,carotul (a),,Claude inferred: best guess from the Italian (carote); the source gives no article; the source gives the plural
+basso-ceresio,cartocc,m,,,Claude inferred: best guess from the Italian (cartoccio); the source gives no article
+rogn,casciavit,m,,,Claude inferred: best guess from the Italian (cacciavite); the source gives no article
+rogn,casèta da l’acqua,f,,,Claude inferred: best guess from the Italian (cassetta dell’acqua); the source gives no article
+basso-ceresio,casin,m,,,Claude inferred: best guess from the Italian (casino); the source gives no article
+rogn,castàn,m,,,Claude inferred: best guess from the Italian (castagno); the source gives no article
+basso-ceresio,castegn,f,castegn,,Claude inferred: best guess from the Italian (caldarroste); the source gives no article; the source gives the plural
+rogn,cavagna,f,,,"Claude inferred: the gender from the texts: “dala cavagna”, 2023-04-04-1529-Cors da dialet da Rögn 11a leziun.docx[l.19]"
+rogn,cavagnöö,m,,,"Claude inferred: the gender from the texts: “dal cavagnöö”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.64]"
+rogn,cavalin,m,,,Claude inferred: best guess from the Italian (cavallino (a dondolo)); the source gives no article
+basso-ceresio,cavatapp,m,,,Claude inferred: best guess from the Italian (cavatappi); the source gives no article
+rogn,cavii,m,cavii,,Claude inferred: best guess from the Italian (capelli); the source gives no article; cavii is already plural (Italian capelli)
+rogn,cis,m,cis,,Claude inferred: from the Italian (capelli); the alternative to cavii in lesson 4
+rogn,cazzöla,f,,,Claude inferred: best guess from the Italian (cazzuola); the source gives no article
+basso-ceresio,cazzott,m,,,Claude inferred: best guess from the Italian (cazzotto); the source gives no article
+rogn,cèl dala boca,m,,,Claude inferred: best guess from the Italian (palato); the source gives no article
+ticinese,centesim,m,,,Claude inferred: best guess from the Italian (centesimo); the source gives no article
+basso-ceresio,cèst,m,,,Claude inferred: best guess from the Italian (cesto); the source gives no article
+rogn,cèsta di pagn,f,,,Claude inferred: best guess from the Italian (cesta dei panni); the source gives no article
+basso-ceresio,céstin,m,,,Claude inferred: best guess from the Italian (cestino); the source gives no article
+rogn,ciapp,f,ciapp,,Claude inferred: best guess from the Italian (natiche); the source gives no article; the source gives the plural
+basso-ceresio,cintüra,f,,,Claude inferred: best guess from the Italian (cintura); the source gives no article
+rogn,cioo,m,,,"Claude inferred: the gender from the texts: “ul cioo”, 2023-04-04-1529-Cors da dialet da Rögn 12a leziun.docx[l.54]"
+basso-ceresio,ciss,m,ciss,,Claude inferred: best guess from the Italian (capelli); the source gives no article; the source gives the plural
+basso-ceresio,ciudin,m,ciudin,,Claude inferred: best guess from the Italian (chiodi piccoli); the source gives no article; the source gives the plural
+basso-ceresio,ciüff,m,,,Claude inferred: best guess from the Italian (ciuffo); the source gives no article
+rogn,colic,f,colic,,Claude inferred: best guess from the Italian (coliche); the source gives no article; the source gives the plural
+basso-ceresio,coll,m,,,Claude inferred: best guess from the Italian (collo; collo-nuca); the source gives no article
+rogn,cöör,m,,,"Claude inferred: the gender from the texts: “al cöör”, 2025-06-01-1159-il gerundio.pdf[l.205]"
+ticinese,cör,m,,,"Claude inferred: the gender from the texts: “al cör”, 2025-12-02-1358-Canto 1 della Divina Commedia.docx[l.16]"
+rogn,cost,f,cost,,Claude inferred: best guess from the Italian (bietole); the source gives no article; the source gives the plural
+basso-ceresio,cramp,m,,,Claude inferred: best guess from the Italian (crampo); the source gives no article
+ticinese,crapin,m,,,Claude inferred: best guess from the Italian (testolina); the source gives no article
+ticinese,crèm,f,,,Claude inferred: best guess from the Italian (panna); the source gives no article
+rogn,cribbiu/scurin,m,,,Claude inferred: best guess from the Italian (scolapasta); the source gives no article
+rogn,cücümar,m,,,Claude inferred: best guess from the Italian (cetriolo); the source gives no article
+rogn,cuèrt,m,,,Claude inferred: best guess from the Italian (coperta); the source gives no article
+rogn,cügiaa,m,,,Claude inferred: best guess from the Italian (cucchiaio); the source gives no article
+rogn,cugiää da legn,m,cugiää da legn,,Claude inferred: best guess from the Italian (cucchiai di legno); the source gives no article; the source gives the plural
+rogn,cügiarin,m,,,Claude inferred: best guess from the Italian (cucchiaino); the source gives no article
+rogn,cügnaa,m,,,Claude inferred: best guess from the Italian (cognato); the source gives no article
+rogn,cügnada,f,,cügnaa,Claude inferred: best guess from the Italian (cognata); the source gives no article; the feminine of cügnaa (2026-10-28)
+rogn,culor o culur,m,,,Claude inferred: best guess from the Italian (colore); the source gives no article
+rogn,cumò,m,,,"Claude inferred: the gender from the texts: “un cumò”, 2024-10-10-1054-varie situazioni.docx[l.88]"
+rogn,cumudin,m,,,Claude inferred: best guess from the Italian (comodino); the source gives no article
+basso-ceresio,cuntrabandee,m,,,Claude inferred: best guess from the Italian (contrabbandiere); the source gives no article
+basso-ceresio,cüraa,m,,,Claude inferred: best guess from the Italian (prete); the source gives no article
+rogn,curnitt,m,curnitt,,Claude inferred: best guess from the Italian (fagiolini); the source gives no article; the source gives the plural
+rogn,curtel/curtei,m,curtei,,Claude inferred: best guess from the Italian (coltello/coltelli); the source gives no article
+rogn,curtel dal pan,m,,,Claude inferred: best guess from the Italian (coltello del pane); the source gives no article
+basso-ceresio,cürva a gômbatt,f,,,Claude inferred: best guess from the Italian (curva a gomito); the source gives no article
+rogn,cüsin,m,,,"Claude inferred: the gender from the texts: “Al cüsin”, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.50]"
+basso-ceresio,cutin,m,,,Claude inferred: best guess from the Italian (sottana); the source gives no article
+basso-ceresio,cuton,m,,,Claude inferred: best guess from the Italian (cotone); the source gives no article
+basso-ceresio,cüü,m,,,"Claude inferred: the gender from the texts: “dal cüü”, 2022-02-16-1457-CDE_come_si_scrive_in_dialetto.pdf[l.241]"
+basso-ceresio,danee,m,danee,,"Claude inferred: the gender from the texts: “dal danee”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.129]; the source gives the plural"
+basso-ceresio,davanzal,m,,,Claude inferred: best guess from the Italian (davanzale); the source gives no article
+ticinese,decim,m,,,Claude inferred: best guess from the Italian (un decimo); the source gives no article
+rogn,denc,m,,,Claude inferred: best guess from the Italian (dente); the source gives no article
+rogn,denc da lèon,m,,,Claude inferred: best guess from the Italian (dente di leone); the source gives no article
+rogn,dì di Mort,m,,,Claude inferred: best guess from the Italian (Giorno dei Morti); the source gives no article
+rogn,dicembar,m,,,Claude inferred: best guess from the Italian (dicembre); the source gives no article
+rogn,dii,m,dii,,Claude inferred: best guess from the Italian (dita); the source gives no article; the source gives the plural
+rogn,divan,m,,,Claude inferred: best guess from the Italian (divano); the source gives no article
+rogn,dumeniga,f,,,"Claude inferred: the gender from the texts: “la dumeniga”, 2024-10-10-1054-varie situazioni.docx[l.103]"
+rogn,eclère,f,,,Claude inferred: best guess from the Italian (chiusura lampo); the source gives no article
+ticinese,estaa,f,,,Claude inferred: best guess from the Italian (estate); the source gives no article
+rogn,facia,f,,,"Claude inferred: the gender from the texts: “la facia”, 2025-09-25-1023-San Martin.pdf[l.43]"
+basso-ceresio,falegnam,m,,,Claude inferred: best guess from the Italian (falegname); the source gives no article
+rogn,fasöö,m,fasöö,,Claude inferred: best guess from the Italian (fagioli); the source gives no article; the source gives the plural
+rogn,febrar,m,,,Claude inferred: best guess from the Italian (febbraio); the source gives no article
+ticinese,febraar,m,,,Claude inferred: best guess from the Italian (febbraio); the source gives no article
+rogn,fenöcc,m,,,Claude inferred: best guess from the Italian (finocchio); the source gives no article
+rogn,fèr da stir,m,,,Claude inferred: best guess from the Italian (ferro da stiro); the source gives no article
+rogn,feragosct,m,,,Claude inferred: best guess from the Italian (ferragosto); the source gives no article
+rogn,fescta naziunal (1° agosto),f,,,Claude inferred: best guess from the Italian (festa nazionale); the source gives no article
+basso-ceresio,fiamífar,m,fiamífar,,Claude inferred: best guess from the Italian (fiammiferi); the source gives no article; the source gives the plural
+rogn,fidic,m,,,Claude inferred: best guess from the Italian (fegato); the source gives no article
+rogn,finèstra,f,,,Claude inferred: best guess from the Italian (finestra); the source gives no article
+rogn,fiöö,m,,,"Claude inferred: the gender from the texts: “ul fiöö”, 2025-10-09-0957-Nümm e quii da là dal San Gòtard.pdf[l.18]"
+basso-ceresio,fiöö,m,fiöö,,"Claude inferred: the gender from the texts: “ul fiöö”, 2025-10-09-0957-Nümm e quii da là dal San Gòtard.pdf[l.18]; the source gives the plural"
+rogn,fò,m,,,Claude inferred: best guess from the Italian (faggio); the source gives no article
+rogn,folc,f,,,Claude inferred: best guess from the Italian (roncola); the source gives no article
+rogn,forbis,f,forbis,,Claude inferred: best guess from the Italian (forbici); the source gives no article; the source gives the plural
+rogn,fornu,m,,,"Claude inferred: the gender from the texts: “al fornu”, 2023-04-25-1139-Cors da dialet da Rögn 14a leziun.docx[l.70]"
+rogn,frasàn,m,,,Claude inferred: best guess from the Italian (frassino); the source gives no article
+rogn,fredel,m,,,Claude inferred: best guess from the Italian (fratello); the source gives no article
+basso-ceresio,fregüi,f,fregüi,,Claude inferred: best guess from the Italian (briciole); the source gives no article; the source gives the plural
+rogn,frigo/refrigèrant,m,,,Claude inferred: best guess from the Italian (frigorifero); the source gives no article
+basso-ceresio,frü,f,frü,,Claude inferred: best guess from the Italian (castagne bollite); the source gives no article; the source gives the plural
+basso-ceresio,fuculaa,m,,,Claude inferred: best guess from the Italian (focolaio); the source gives no article
+rogn,fulcin,m,,,Claude inferred: best guess from the Italian (falcetto); the source gives no article
+basso-ceresio,fülmin,m,,,"Claude inferred: the gender from the texts: “un fülmin”, 2025-10-03-1548-Insegnà ul dialètt a scöla.docx[l.72]"
+rogn,func,m,,,Claude inferred: best guess from the Italian (fungo); the source gives no article
+rogn,fundina/fundin,f,fundin,,Claude inferred: best guess from the Italian (piatto fondo); the source gives no article
+rogn,furchèta/furchett,f,furchett,,Claude inferred: best guess from the Italian (forchetta/forchette); the source gives no article
+rogn,furchin,m,,,Claude inferred: best guess from the Italian (forchino); the source gives no article
+ticinese,furèsta,f,,,"Claude inferred: best guess from the Italian (foresta,); the source gives no article"
+rogn,"furmagela (grasa/magra), formaggio dell’alpe",f,,,Claude inferred: best guess from the Italian (formaggi: formagella); the source gives no article
+rogn,gabinèt,m,,,Claude inferred: best guess from the Italian (gabinetto); the source gives no article
+basso-ceresio,gabinet,m,,,Claude inferred: best guess from the Italian (gabinetto); the source gives no article
+basso-ceresio,galfión,m,,,Claude inferred: best guess from the Italian (ciliegia (duracina)); the source gives no article
+rogn,gamb,f,gamb,,Claude inferred: best guess from the Italian (gambe); the source gives no article; the source gives the plural
+rogn,garland,m,,,Claude inferred: best guess from the Italian (narciso); the source gives no article
+ticinese,genaar,m,,,Claude inferred: best guess from the Italian (gennaio); the source gives no article
+rogn,genar,m,,,Claude inferred: best guess from the Italian (genero; gennaio); the source gives no article
+rogn,gent,m,gent,,"Claude inferred: best guess (i mè gent, the parents); “la gent” in the texts is ‘people’, another sense; the source gives the plural"
+rogn,gerani,m,,,Claude inferred: best guess from the Italian (geranio); the source gives no article
+rogn,ghett,f,ghett,,Claude inferred: best guess from the Italian (ghette); the source gives no article; the source gives the plural
+rogn,giachetin,m,,,Claude inferred: best guess from the Italian (golfino); the source gives no article
+rogn,ginöcc (genöcc),m,,,Claude inferred: best guess from the Italian (ginocchio); the source gives no article
+basso-ceresio,gipunin,m,,,"Claude inferred: the gender from the texts: “ul gipunin”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.68]"
+rogn,gipunin da lana,m,,,"Claude inferred: the gender from the texts: “ul gipunin”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.68]"
+rogn,girabachin,m,,,Claude inferred: best guess from the Italian (tornio manuale); the source gives no article
+ticinese,giravòlt,f,giravòlt,,"Claude inferred: best guess from the Italian (giravolte,); the source gives no article; the source gives the plural"
+rogn,giuedi,m,,,Claude inferred: best guess from the Italian (giovedì); the source gives no article
+ticinese,giuedí,m,,,Claude inferred: best guess from the Italian (giovedi); the source gives no article
+rogn,giügn,m,,,Claude inferred: best guess from the Italian (giugno); the source gives no article
+basso-ceresio,güdazz,m,,,Claude inferred: best guess from the Italian (padrino); the source gives no article
+rogn,gumbat,m,,,"Claude inferred: the gender from the texts: “ul gumbat”, 2023-04-04-1529-Cors da dialet da Rögn 12a leziun.docx[l.73]"
+basso-ceresio,gurgunzöla,m,,,Claude inferred: best guess from the Italian (gorgonzola); the source gives no article
+basso-ceresio,idraulic,m,,,Claude inferred: best guess from the Italian (idraulico); the source gives no article
+basso-ceresio,imbüt,m,,,Claude inferred: best guess from the Italian (imbuto); the source gives no article
+rogn,influenza (grippe),f,,,Claude inferred: best guess from the Italian (influenza); the source gives no article
+rogn,insalat,f,insalat,,Claude inferred: best guess from the Italian (insalate); the source gives no article; the source gives the plural
+basso-ceresio,intevist,m,,,Claude inferred: best guess from the Italian (tipo sveglio); the source gives no article
+rogn,l'ai,m,,,Claude inferred: best guess from the Italian (aglio); the source gives no article
+rogn,l’aranz,m,,,Claude inferred: best guess from the Italian (arancio); the source gives no article
+rogn,la poma,f,,,"Claude inferred: the gender from the texts: “la poma”, 2023-04-25-1139-Cors da dialet da Rögn 14a leziun.docx[l.19]"
+rogn,labri,m,labri,,Claude inferred: best guess from the Italian (labbra); the source gives no article; the source gives the plural
+rogn,lampada,f,,,Claude inferred: best guess from the Italian (lampada); the source gives no article
+rogn,laras,m,,,Claude inferred: best guess from the Italian (larice); the source gives no article
+rogn,laur / loiro,m,,,"Claude inferred: the gender from the texts: “al laur”, 2024-05-29-1014-frasi fatte.docx[l.219]"
+rogn,lavandin,m,,,Claude inferred: best guess from the Italian (lavandino); the source gives no article
+rogn,lengua,f,,,"Claude inferred: the gender from the texts: “na lengua”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.66]"
+rogn,lenzöö,m,,,Claude inferred: best guess from the Italian (lenzuolo); the source gives no article
+rogn,letin,m,,,Claude inferred: best guess from the Italian (lettino); the source gives no article
+rogn,lett (lecc),m,,,"Claude inferred: the gender from the texts: “dal lett”, 2026-06-07-1609-I düü magnan.docx[l.97]"
+rogn,lisiva,f,,,Claude inferred: best guess from the Italian (detersivo (lisciva)); the source gives no article
+rogn,livera,f,,,Claude inferred: best guess from the Italian (palo di ferro); the source gives no article
+basso-ceresio,löch,m,,,Claude inferred: best guess from the Italian (orto); the source gives no article
+basso-ceresio,lücernari,m,,,Claude inferred: best guess from the Italian (abbaino); the source gives no article
+rogn,lüi,m,,,Claude inferred: best guess from the Italian (luglio); the source gives no article
+rogn,lünedi,m,,,Claude inferred: best guess from the Italian (lunedì); the source gives no article
+ticinese,lünedí,m,,,Claude inferred: best guess from the Italian (lunedi); the source gives no article
+rogn,maa d’anca,m,,,Claude inferred: best guess from the Italian (male all’anca); the source gives no article
+rogn,maa da cò,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da dii,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da gamb,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da ginöcc,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da gumbat,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da gura o gora,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da man,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da oss,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da panza,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da pé,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da puls,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da schena,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da spal,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da stomic,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa da urecc,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+rogn,maa (malatii) e dulur,m,,,"Claude inferred: the gender from the texts: “ul maa”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.119]"
+ticinese,maag,m,,,Claude inferred: best guess from the Italian (maggio); the source gives no article
+ticinese,màcelàr,m,,,Claude inferred: best guess from the Italian (macelleria); the source gives no article
+rogn,machina da lavà,f,,,"Claude inferred: the gender from the texts: “la machina”, 2025-10-09-0957-Nümm e quii da là dal San Gòtard.pdf[l.28]"
+rogn,machina da sügà,f,,,"Claude inferred: the gender from the texts: “la machina”, 2025-10-09-0957-Nümm e quii da là dal San Gòtard.pdf[l.28]"
+rogn,magg,m,,,Claude inferred: best guess from the Italian (maggio); the source gives no article
+basso-ceresio,magiôstri,f,magiôstri,,Claude inferred: best guess from the Italian (fragole); the source gives no article; the source gives the plural
+basso-ceresio,magütt,m,,,Claude inferred: best guess from the Italian (manovale); the source gives no article
+basso-ceresio,mam- nöna,f,,,Claude inferred: best guess from the Italian (madre-nonna); the source gives no article
+rogn,mamm,f,,,"Claude inferred: the gender from the texts: “la mamm”, 2025-10-21-1457-I maestri d'inlura e quii d'incöö.docx[l.21]"
+ticinese,man,f,man,,"Claude inferred: the gender from the texts: “la man”, 2025-09-25-1023-San Martin.pdf[l.52]; the source gives the plural"
+rogn,mandarin,m,,,Claude inferred: best guess from the Italian (mandarino); the source gives no article
+rogn,martedi,m,,,Claude inferred: best guess from the Italian (martedì); the source gives no article
+ticinese,martedí,m,,,Claude inferred: best guess from the Italian (martedi); the source gives no article
+rogn,martèll,m,,,Claude inferred: best guess from the Italian (martello); the source gives no article
+rogn,marz,m,,,"Claude inferred: the gender from the texts: “dal marz”, 2024-03-05-1249-Letra ala sciura Trudi - Copia.docx[l.5]"
+rogn,masèll,f,masèll,,Claude inferred: best guess from the Italian (guance); the source gives no article; the source gives the plural
+rogn,materazz,m,,,Claude inferred: best guess from the Italian (materasso); the source gives no article
+rogn,melanzan,f,melanzan,,Claude inferred: best guess from the Italian (melanzane); the source gives no article; the source gives the plural
+rogn,merculdi,m,,,Claude inferred: best guess from the Italian (mercoledì); the source gives no article
+ticinese,merculdí,m,,,Claude inferred: best guess from the Italian (mercoledi); the source gives no article
+rogn,mezzanocc,f,,,Claude inferred: best guess from the Italian (mezzanotte); the source gives no article
+ticinese,miglio,m,,,Claude inferred: best guess from the Italian (milione); the source gives no article
+ticinese,milesim,m,,,Claude inferred: best guess from the Italian (un millesimo); the source gives no article
+ticinese,miliard,m,,,Claude inferred: best guess from the Italian (miliardo); the source gives no article
+rogn,müdant,f,müdant,,Claude inferred: best guess from the Italian (mutande); the source gives no article; the source gives the plural
+rogn,mulèt di pagn,m,,,Claude inferred: best guess from the Italian (molletta per i panni); the source gives no article
+basso-ceresio,munel,m,,,Claude inferred: best guess from the Italian (monello); the source gives no article
+basso-ceresio,muntüra,f,,,Claude inferred: best guess from the Italian (divisa); the source gives no article
+rogn,nas,m,,,"Claude inferred: the gender from the texts: “dal nas”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.68]"
+ticinese,nebión,m,,,Claude inferred: best guess from the Italian (nebbia); the source gives no article
+basso-ceresio,neev,f,,,Claude inferred: best guess from the Italian (neve); the source gives no article
+rogn,nisciöla,f,,,Claude inferred: best guess from the Italian (nocciolo); the source gives no article
+ticinese,nono,m,,,Claude inferred: best guess from the Italian (un nono); the source gives no article
+rogn,nonu,m,,,"Claude inferred: the gender from the texts: “Al nonu”, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.15]"
+rogn,nöra,f,,,"Claude inferred: the gender from the texts: “La nöra”, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.60]"
+rogn,nuembar,m,,,Claude inferred: best guess from the Italian (novembre); the source gives no article
+ticinese,nuvembar,m,,,Claude inferred: best guess from the Italian (novembre); the source gives no article
+basso-ceresio,nüri,f,nüri,,Claude inferred: best guess from the Italian (nuvole); the source gives no article; the source gives the plural
+rogn,nus – nos,f,,,Claude inferred: best guess from the Italian (noce); the source gives no article
+rogn,öcc,m,öcc,,"Claude inferred: the gender from the texts: “un öcc”, 2023-04-20-1234-Cors da dialet da Rögn 13a leziun.docx[l.54]; the source gives the plural"
+ticinese,öcc balòss,m,öcc balòss,,"Claude inferred: best guess from the Italian (occhi furbi,); the source gives no article; the source gives the plural"
+rogn,öcc dala Madonna,m,öcc dala Madonna,,"Claude inferred: the gender from the texts: “un öcc”, 2023-04-20-1234-Cors da dialet da Rögn 13a leziun.docx[l.54]; the source gives the plural"
+rogn,pà,m,,,Claude inferred: best guess from the Italian (padre); the source gives no article
+basso-ceresio,pá-nonu,m,,,Claude inferred: best guess from the Italian (padre-nonno); the source gives no article
+rogn,padèla,f,,,Claude inferred: best guess from the Italian (padella); the source gives no article
+rogn,padelin,m,,,Claude inferred: best guess from the Italian (padellino); the source gives no article
+basso-ceresio,pagüra,f,,,"Claude inferred: the gender from the texts: “la pagüra”, 2025-09-17-0933-Fregüi da vita dal Mendrisiòtt.docx[l.25]"
+rogn,pala,f,,,Claude inferred: best guess from the Italian (badile); the source gives no article
+ticinese,pan,m,,,"Claude inferred: the gender from the texts: “un pan”, 2023-04-04-1529-Cors da dialet da Rögn 11a leziun.docx[l.26]"
+basso-ceresio,panetee,m,,,"Claude inferred: the gender from the texts: “al panetee”, 2023-03-14-1034-cors da dialet da Rögn 9a leziun.docx[l.108]"
+basso-ceresio,pantoful,f,pantoful,,Claude inferred: best guess from the Italian (pantofole); the source gives no article; the source gives the plural
+basso-ceresio,pantrid,m,,,Claude inferred: best guess from the Italian (pane cotto); the source gives no article
+rogn,passvit,m,,,Claude inferred: best guess from the Italian (passa verdura); the source gives no article
+rogn,pastran,m,,,Claude inferred: best guess from the Italian (pellerina); the source gives no article
+rogn,pata,f,,,"Claude inferred: the gender from the texts: “la pata”, 2023-05-01-0000-Cors da dialet da Rögn 15a leziun - proverbi.pdf[l.45]"
+rogn,patati,f,,,Claude inferred: best guess from the Italian (patata); the source gives no article
+rogn,pè,m,,,Claude inferred: best guess from the Italian (piede); the source gives no article
+ticinese,pecàa,m,,,Claude inferred: best guess from the Italian (peccato); the source gives no article
+rogn,pedagn,m,,,"Claude inferred: the gender from the texts: “un pedagn”, 2024-10-10-1054-varie situazioni.docx[l.52]"
+basso-ceresio,pedàgn,m,,,Claude inferred: best guess from the Italian (gonna); the source gives no article
+ticinese,pedriö,m,,,Claude inferred: best guess from the Italian (imbuto); the source gives no article
+rogn,pedriöö,m,,,"Claude inferred: the gender from the texts: “UL PEDRIÖÖ”, 2023-10-06-1930-dialett-poesia-Spartaco-Arigoni.pdf[l.102]"
+rogn,per,m,,,Claude inferred: best guess from the Italian (pero); “una per” in the texts is another word
+basso-ceresio,persian,f,persian,,Claude inferred: best guess from the Italian (persiane); the source gives no article; the source gives the plural
+rogn,pescia,f,,,Claude inferred: best guess from the Italian (peccia); the source gives no article
+basso-ceresio,pestunín,m,,,Claude inferred: best guess from the Italian (piccola bottiglia); the source gives no article
+rogn,peverun,m,peverun,,Claude inferred: best guess from the Italian (peperoni); the source gives no article; the source gives the plural
+rogn,piant,f,piant,,Claude inferred: best guess from the Italian (piante); the source gives no article; the source gives the plural
+rogn,piant e fioo,f,piant e fioo,,Claude inferred: best guess from the Italian (piante e fiori); the source gives no article; the source gives the plural
+rogn,piatin,m,,,Claude inferred: best guess from the Italian (piattino); the source gives no article
+rogn,piatt,m,,,"Claude inferred: the gender from the texts: “un piatt”, 2023-04-25-1139-Cors da dialet da Rögn 14a leziun.docx[l.70]"
+rogn,piatt da purtada,m,,,"Claude inferred: the gender from the texts: “un piatt”, 2023-04-25-1139-Cors da dialet da Rögn 14a leziun.docx[l.70]"
+rogn,"pic, sapun",m,,,"Claude inferred: the gender from the texts: “un pic”, 2025-06-01-1159-il gerundio.pdf[l.207]"
+basso-ceresio,picöc,m,,,Claude inferred: best guess from the Italian (paracarro); the source gives no article
+rogn,pignatt,f,,,Claude inferred: best guess from the Italian (pentola); the source gives no article
+rogn,pin,m,,,"Claude inferred: the gender from the texts: “dal Pin”, 2026-05-05-1007-El Fra in do Sac.docx[l.4]"
+basso-ceresio,piopp,m,,,Claude inferred: best guess from the Italian (pioppo); the source gives no article
+rogn,piümin,m,,,"Claude inferred: the gender from the texts: “al piümin”, 2024-10-10-1054-varie situazioni.docx[l.52]"
+basso-ceresio,plafôn,m,,,Claude inferred: best guess from the Italian (soffitto); the source gives no article
+rogn,pobbia,f,,,Claude inferred: best guess from the Italian (pioppo); the source gives no article
+basso-ceresio,pogiöö,m,,,Claude inferred: best guess from the Italian (balcone); the source gives no article
+rogn,por,m,,,"Claude inferred: the gender from the texts: “un por”, 2023-04-04-1529-Cors da dialet da Rögn 11a leziun.docx[l.29]"
+basso-ceresio,portüghai,m,portüghai,,Claude inferred: best guess from the Italian (mandarini); the source gives no article; the source gives the plural
+basso-ceresio,prosciütt,m,,,Claude inferred: best guess from the Italian (prosciutto); the source gives no article
+rogn,puls (pols),m,,,Claude inferred: best guess from the Italian (polso); the source gives no article
+rogn,pultrona,f,,,"Claude inferred: the gender from the texts: “la pultrona”, 2024-05-29-1014-frasi fatte.docx[l.32]"
+ticinese,quagiada,f,,,Claude inferred: best guess from the Italian (cagliata); the source gives no article
+ticinese,quart,m,,,"Claude inferred: the gender from the texts: “ul quart”, 2023-05-01-0000-Cors da dialet da Rögn 15a leziun - proverbi.pdf[l.137]"
+ticinese,quint,m,,,"Claude inferred: the gender from the texts: “un quint”, 2023-11-21-0826-Paul e Ghita a Lügan 4a parte.pdf[l.750]"
+rogn,rafrédoo,m,,,Claude inferred: best guess from the Italian (raffreddore); the source gives no article
+rogn,rastru,m,,,Claude inferred: best guess from the Italian (quattrodenti); the source gives no article
+rogn,rava,f,,,"Claude inferred: the gender from the texts: “la rava”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.66]"
+rogn,ravanel (ravanei),m,ravanei,,Claude inferred: best guess from the Italian (rapanelli); the source gives no article
+rogn,regipetti,m,,,Claude inferred: best guess from the Italian (reggiseno); the source gives no article
+rogn,remignag,m,,,Claude inferred: best guess from the Italian (albicocco); the source gives no article
+rogn,resèga,f,,,Claude inferred: best guess from the Italian (sega); the source gives no article
+rogn,resegadüsc,m,,,Claude inferred: best guess from the Italian (segatura); the source gives no article
+rogn,restell,m,,,Claude inferred: best guess from the Italian (rastrello); the source gives no article
+rogn,ringhièra,f,,,Claude inferred: best guess from the Italian (ringhiera); the source gives no article
+rogn,ripian,m,,,Claude inferred: best guess from the Italian (ripiano); the source gives no article
+rogn,rösa,f,,,"Claude inferred: the gender from the texts: “NA RöSA”, 2023-02-27-1529-cors da dialet da Rögn 6a leziun.docx[l.61]"
+rogn,rovra (ruvra-rogora),f,,,Claude inferred: best guess from the Italian (quercia); the source gives no article
+rogn,rübinet,m,,,Claude inferred: best guess from the Italian (rubinetto); the source gives no article
+basso-ceresio,rüsümada,f,,,Claude inferred: best guess from the Italian (zabaione); the source gives no article
+rogn,sabat,m,,,"Claude inferred: the gender from the texts: “Al sabat”, 2024-10-10-1054-varie situazioni.docx[l.100]"
+rogn,sacocia / scarsèla,f,,,Claude inferred: best guess from the Italian (tasca); the source gives no article
+rogn,salupett,f,,,Claude inferred: best guess from the Italian (pantaloni da lavoro); the source gives no article
+ticinese,salvadane,m,,,Claude inferred: best guess from the Italian (salvadanaio); the source gives no article
+rogn,salvièta,f,,,Claude inferred: best guess from the Italian (salvietta); the source gives no article
+rogn,sapa,f,,,"Claude inferred: the gender from the texts: “la sapa”, 2025-06-05-0915-espressioni in italiano 2.6.2025.pdf[l.522]"
+rogn,savon,m,,,Claude inferred: best guess from the Italian (sapone); the source gives no article
+basso-ceresio,sass gros,m,,,Claude inferred: best guess from the Italian (un grande sasso); the source gives no article
+basso-ceresio,sc’cüfiòtt,m,,,Claude inferred: best guess from the Italian (cazzotto); the source gives no article
+basso-ceresio,sc’parangáda,f,,,Claude inferred: best guess from the Italian (ringhiera); the source gives no article
+rogn,scafaa,m,,,Claude inferred: best guess from the Italian (scaffale); the source gives no article
+basso-ceresio,scalfarot,m,scalfarot,,Claude inferred: best guess from the Italian (calze di lana); the source gives no article; the source gives the plural
+basso-ceresio,scalin,m,,,Claude inferred: best guess from the Italian (scalino); the source gives no article
+rogn,scarp,f,,,Claude inferred: best guess from the Italian (scarpa); the source gives no article
+basso-ceresio,scarp,f,scarp,,Claude inferred: best guess from the Italian (scarpe); the source gives no article; the source gives the plural
+rogn,scatula,f,,,"Claude inferred: the gender from the texts: “La scatula”, 2024-08-20-1910-frasi fai 1 - Copia.docx[l.92]"
+rogn,scervisc,f,,,Claude inferred: best guess from the Italian (schiumarola); the source gives no article
+basso-ceresio,scganasôn,m,,,Claude inferred: best guess from the Italian (cazzotto); the source gives no article
+rogn,schiscia patati,m,,,Claude inferred: best guess from the Italian (schiaccia patate); the source gives no article
+rogn,sciavatt (ziblett o sibrett),f,sciavatt (ziblett o sibrett),,Claude inferred: best guess from the Italian (ciabatte); the source gives no article; the source gives the plural
+rogn,scigola (scigoll),f,scigoll,,Claude inferred: best guess from the Italian (cipolla); the source gives no article
+basso-ceresio,scüdéla,f,,,Claude inferred: best guess from the Italian (scodella); the source gives no article
+rogn,scupèll,m,,,Claude inferred: best guess from the Italian (scalpello); the source gives no article
+rogn,scusaa,m,,,"Claude inferred: the gender from the texts: “un scusaa”, 2023-11-21-0826-Paul e Ghita a Lügan 4a parte.pdf[l.1359]"
+basso-ceresio,sedál,m,,,Claude inferred: best guess from the Italian (filo da pesca); the source gives no article
+rogn,sedèla dal rüüt,f,sedèl dal rüüt,,Claude inferred: best guess from the Italian (secchio della spazzatura); the source gives no article; plural as the source gives for sedèla (sedèl)
+rogn,sedèla (sedèl),f,sedèl,,Claude inferred: best guess from the Italian (secchio); the source gives no article
+ticinese,"segez, falcet",m,,,Claude inferred: best guess from the Italian (falcetta); the source gives no article
+rogn,seghezz,m,,,Claude inferred: best guess from the Italian (mezzaluna per mietere); the source gives no article
+rogn,setembar,m,,,Claude inferred: best guess from the Italian (settembre); the source gives no article
+basso-ceresio,sgabell,m,,,Claude inferred: best guess from the Italian (sgabello); the source gives no article
+basso-ceresio,sigar,m,,,Claude inferred: best guess from the Italian (sigaro); the source gives no article
+rogn,sofà,m,,,"Claude inferred: the gender from the texts: “sul sofà”, 2024-11-18-1837-domande di vario tipo.docx[l.72]"
+basso-ceresio,söll,m,,,Claude inferred: best guess from the Italian (pavimento); the source gives no article
+rogn,sösar,m,,,"Claude inferred: the gender from the texts: “Al sösar”, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.46]"
+rogn,sösara,f,sösar,sösar,"Claude inferred: best guess from the Italian (suocera); the source gives no article; the feminine of sösar (2026-10-28); plural sösar: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I sösar, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.48])"
+rogn,spazetin,m,,,Claude inferred: best guess from the Italian (spazzolino); the source gives no article
+basso-ceresio,spazzanev,m,,,Claude inferred: best guess from the Italian (spazzaneve); the source gives no article
+rogn,specc,m,,,"Claude inferred: the gender from the texts: “ul specc”, 2024-05-29-1014-frasi fatte.docx[l.77]"
+rogn,spinaz,m,,,Claude inferred: best guess from the Italian (spinacio); the source gives no article
+rogn,stendin,m,,,Claude inferred: best guess from the Italian (stendino); the source gives no article
+rogn,stivaii,m,stivaii,,Claude inferred: best guess from the Italian (stivali); the source gives no article; the source gives the plural
+basso-ceresio,strapétt,m,,,Claude inferred: best guess from the Italian (salita corta); the source gives no article
+ticinese,stregón,m,,,Claude inferred: best guess from the Italian (stregone); the source gives no article
+rogn,stüa,f,,,Claude inferred: best guess from the Italian (stufa); the source gives no article
+basso-ceresio,sufitt,m,,,Claude inferred: best guess from the Italian (soffitta); the source gives no article
+rogn,sügaman,m,,,Claude inferred: best guess from the Italian (asciugamano); the source gives no article
+rogn,sügurin,m,,,Claude inferred: best guess from the Italian (scure); the source gives no article
+basso-ceresio,sulee,m,,,Claude inferred: best guess from the Italian (solaio); the source gives no article
+basso-ceresio,suletic,m,,,Claude inferred: best guess from the Italian (solletico); the source gives no article
+basso-ceresio,suprabit,m,,,Claude inferred: best guess from the Italian (soprabito); the source gives no article
+rogn,tacapagn,m,,,Claude inferred: best guess from the Italian (attaccapanni); the source gives no article
+rogn,tapee,m,,,"Claude inferred: the gender from the texts: “un tapee”, 2024-10-10-1054-varie situazioni.docx[l.90]"
+rogn,taulin,m,,,Claude inferred: best guess from the Italian (tavolino); the source gives no article
+rogn,tavul,m,,,"Claude inferred: the gender from the texts: “quel tavul”, 2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx[l.66]"
+rogn,taza/tazz,f,tazz,,Claude inferred: best guess from the Italian (tazza/tazze); the source gives no article
+rogn,tenaia,f,,,Claude inferred: best guess from the Italian (tenaglia); the source gives no article
+rogn,tenda/tend,f,tend,,Claude inferred: best guess from the Italian (tenda/tende); the source gives no article
+ticinese,tèra seca,f,,,Claude inferred: best guess from the Italian (terra secca); the source gives no article
+ticinese,terz,m,,,"Claude inferred: the gender from the texts: “al terz”, 2025-09-17-0933-Fregüi da vita dal Mendrisiòtt.docx[l.57]"
+rogn,tirant,m,tirant,,Claude inferred: best guess from the Italian (bretelle); the source gives no article; the source gives the plural
+rogn,tirasass,m,,,Claude inferred: best guess from the Italian (fionda); the source gives no article
+basso-ceresio,trüciol,m,trüciol,,Claude inferred: best guess from the Italian (trucioli); the source gives no article; the source gives the plural
+rogn,tuaia,f,,,Claude inferred: best guess from the Italian (tovaglia); the source gives no article
+rogn,tuaiöö (mantin),m,,,Claude inferred: best guess from the Italian (tovagliolo); the source gives no article
+rogn,tülipan,m,,,Claude inferred: best guess from the Italian (tulipano); the source gives no article
+rogn,tumatis,m,tumatis,,Claude inferred: best guess from the Italian (pomodori); the source gives no article; the source gives the plural
+rogn,tusa,f,tusann,fiöö,"Claude inferred: the gender from the texts: “na tusa”, 2023-05-01-0000-Cors da dialet da Rögn 15a leziun - proverbi.pdf[l.28]; the feminine of fiöö (2026-10-28); plural tusann: owner, 2026-10-28, from lesson 15, where the teacher translates i tusann as le ragazze (2023-05-01-0000-Cors da dialet da Rögn 15a leziun - proverbi.pdf[l.9], also l.125, 151, 307); i fiöö (lesson 19) is the plural of the pair, the children"
+basso-ceresio,tuvaiöö,m,,,Claude inferred: best guess from the Italian (tovagliolo); the source gives no article
+rogn,ugiaa (ügiaa),m,ugiaa (ügiaa),,Claude inferred: best guess from the Italian (occhiali); the source gives no article; the source gives the plural
+rogn,ulif,m,,,Claude inferred: best guess from the Italian (ulivo); the source gives no article
+rogn,umbrèla,f,,,Claude inferred: best guess from the Italian (ombrello); the source gives no article
+ticinese,un sögnasc,m,,,Claude inferred: best guess from the Italian (incubo); the source gives no article
+ticinese,unda,f,,,Claude inferred: best guess from the Italian (onda); the source gives no article
+basso-ceresio,urazziún,f,,,Claude inferred: best guess from the Italian (preghiera); the source gives no article
+rogn,urecc,f,urecc,,Claude inferred: best guess from the Italian (orecchie); the source gives no article; the source gives the plural
+rogn,uregin,m,uregin,,Claude inferred: best guess from the Italian (orecchini); the source gives no article; the source gives the plural
+rogn,urtensia,f,,,Claude inferred: best guess from the Italian (ortensia); the source gives no article
+rogn,urulocc,m,,,Claude inferred: best guess from the Italian (orologio); the source gives no article
+rogn,usèl,m,,,Claude inferred: best guess from the Italian (uccello); the source gives no article
+ticinese,utav,m,,,Claude inferred: best guess from the Italian (un ottavo); the source gives no article
+rogn,utobar,m,,,Claude inferred: best guess from the Italian (ottobre); the source gives no article
+ticinese,utubar,m,,,Claude inferred: best guess from the Italian (ottobre); the source gives no article
+rogn,vas da fioo/fiuu,m,,,"Claude inferred: the gender from the texts: “un vas”, 2023-11-21-0826-Paul e Ghita a Lügan 1a e 2a parte.pdf[l.296]"
+rogn,vasca,f,,,Claude inferred: best guess from the Italian (vasca da bagno); the source gives no article
+rogn,venerdi,m,,,Claude inferred: best guess from the Italian (venerdì); the source gives no article
+ticinese,venerdí,m,,,Claude inferred: best guess from the Italian (venerdi); the source gives no article
+rogn,verza,f,,,"Claude inferred: the gender from the texts: “na verza”, 2025-06-05-0915-espressioni in italiano 2.6.2025.pdf[l.64]"
+basso-ceresio,vesp,f,vesp,,Claude inferred: best guess from the Italian (vespe); the source gives no article; the source gives the plural
+basso-ceresio,vestée,m,,,Claude inferred: best guess from the Italian (armadio); the source gives no article
+rogn,vestii,m,,,Claude inferred: best guess from the Italian (vestito); the source gives no article
+basso-ceresio,vestii dala festa,m,,,Claude inferred: best guess from the Italian (abito della festa); the source gives no article
+rogn,viöla,f,,,Claude inferred: best guess from the Italian (viola); the source gives no article
+ticinese,zagatarii,f,zagatarii,,Claude inferred: best guess from the Italian (cianfrusaglie); the source gives no article; the source gives the plural
+rogn,zellar,m,,,Claude inferred: best guess from the Italian (sedano); the source gives no article
+rogn,züca,f,,,"Claude inferred: the gender from the texts: “ra züca”, 2026-04-28-1728-Favole in dialetto tradotta in italiano.docx[l.50]"
+ticinese,zücchin,m,,,Claude inferred: best guess from the Italian (zucca); the source gives no article
+rogn,züchin,m,züchin,,Claude inferred: best guess from the Italian (zucchine); the source gives no article; the source gives the plural
+rogn,lécc,f,lécc,,"Owner, 2026-10-19: lécc = leggi (laws); feminine as Italian legge, plural the same"
+rogn,classeur,m,classeur,,"Owner, 2026-10-19: the Italian of Ticino is also classeur (il classeur); plural unchanged as in French"
+rogn,frigo,m,frigo,,owner's note (frigorifero = frigo); masculine like the Italian frigo
+rogn,tirex,m,,,"owner's note (tirex: a person who is avaro, greedy); masculine like avaro"
+rogn,l’/n’asina,,,asan,"Claude inferred: the feminine of asan (their Italian is a masculine/feminine pair), 2026-10-28"
+rogn,la biscnona,,biscnoni,biscnonu,"Claude inferred: the feminine of biscnonu (their Italian is a masculine/feminine pair), 2026-10-28; plural biscnoni: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I biscnoni, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.9])"
+rogn,la cüsina,,cüsin,cüsin,"Claude inferred: the feminine of cüsin (their Italian is a masculine/feminine pair), 2026-10-28; plural cüsin: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I cüsin, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.52])"
+rogn,la/na cavala,,,caval,"Claude inferred: the feminine of caval (their Italian is a masculine/feminine pair), 2026-10-28"
+rogn,la/na müla,,,mül,"Claude inferred: the feminine of mül (their Italian is a masculine/feminine pair), 2026-10-28"
+rogn,la nona,,noni,nonu,"Claude inferred: the feminine of nonu (their Italian is a masculine/feminine pair), 2026-10-28; plural noni: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I noni, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.17])"
+rogn,la sösura,,sösar,sösar,"Claude inferred: the feminine of sösar (their Italian is a masculine/feminine pair), 2026-10-28; plural sösar: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I sösar, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.48])"
+rogn,la zia,,zii,ziu,"Claude inferred: the feminine of ziu (their Italian is a masculine/feminine pair), 2026-10-28; plural zii: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I zii, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.25])"
+rogn,al ziu,m,zii,,"Claude inferred: the gender from the article; plural zii: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I zii, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.25])"
+rogn,la neuda,f,neut,neut,"Claude inferred: the feminine of neut (nipote: Al neut, La neuda); plural neut: owner, 2026-10-28, a family word has one plural for both genders, as lesson 19 lists them (I neut, 2023-10-04-1747-cors da dialet da Rögn 19a leziun.docx[l.35])"

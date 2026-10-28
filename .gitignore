@@ -1,0 +1,23 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# LibreOffice / Office lock and temp files
+.~lock.*#
+~$*
+
+# Pipeline working files: the HTML pages the PDFs are printed from, and the English to-do list
+pipeline/cache/print_*.html
+pipeline/cache/missing_english_todo.csv
+pipeline/cache/*.sqlite
+
+# The text of the documents stays with them in the private raw/ submodule (raw/extracted/), never here
+# (owner, 2026-10-28): these are the old places it was kept
+pipeline/cache/lesson_text/
+pipeline/cache/extract_index.json
+pipeline/data/unparsed_lines.csv
+
+# created by `pip install -e .` (registers the dataset with cldfbench)
+*.egg-info/

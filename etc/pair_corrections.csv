@@ -1,0 +1,191 @@
+source,line,action,italian,dialect,english,note,kind
+2024-11-18-1837-domande di vario tipo.docx,43,delete,,,,"two dialect answers to the same question, not an Italian-dialect pair",
+2025-04-06-1703-dialoghi a Lugano.pdf,539,delete,,,,"glossary note, Italian explaining Italian",
+2025-04-06-1703-dialoghi a Lugano.pdf,560,delete,,,,"glossary note, dialect explaining dialect",
+2025-04-06-1703-dialoghi a Lugano.pdf,584,delete,,,,"glossary note, dialect explaining dialect",
+2025-09-25-1023-San Martin.pdf,30,delete,,,,"two lines of a poem, not a translation pair",
+2026-06-07-1609-Filatrocca di Carlino.docx,27,delete,,,,"two lines of the rhyme, not a translation pair",
+2026-06-07-1609-I düü magnan.docx,9,delete,,,,"two lines of the story, not a translation pair",
+2024-11-18-1837-domande di vario tipo.docx,31,delete,,,,"two dialect answers, not a translation pair",
+2024-11-18-1837-domande di vario tipo.docx,58,delete,,,,"two dialect answers, not a translation pair",
+2024-11-18-1837-domande di vario tipo.docx,71,delete,,,,"two dialect answers, not a translation pair",
+2024-11-18-1837-domande di vario tipo.docx,95,delete,,,,"two dialect answers, not a translation pair",
+2025-05-07-0930-imperativo.pdf,64,delete,,,,"two lines of the conjugation list, not a translation pair",
+2024-01-29-2020-Il Condizionale Presente.docx,3,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-29-2020-Il Condizionale Presente.docx,13,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-29-2020-Il Condizionale Presente.docx,25,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-29-2020-Il Condizionale Presente.docx,36,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-29-2020-Il Condizionale Presente.docx,52,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-29-2020-Il Condizionale Presente.docx,64,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-29-2020-Il Condizionale Presente.docx,74,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-17-0959-l Condizionale Presente.docx,3,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-17-0959-l Condizionale Presente.docx,15,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-17-0959-l Condizionale Presente.docx,29,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-17-0959-l Condizionale Presente.docx,39,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-01-17-0959-l Condizionale Presente.docx,50,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-02-21-0902-Il Condizionale Passato.docx,3,delete,,,,"header row of a verb table (Italian past infinitives), not a pair",
+2024-02-21-0902-Il Condizionale Passato.docx,4,delete,,,,"header row of a verb table (dialect past infinitives), not a pair",
+2024-02-21-0902-Il Condizionale Passato.docx,13,delete,,,,"header row of a verb table (Italian past infinitives), not a pair",
+2024-02-21-0902-Il Condizionale Passato.docx,14,delete,,,,"header row of a verb table (dialect past infinitives), not a pair",
+2024-02-21-0902-Il Condizionale Passato.docx,47,delete,,,,Italian on both sides (Dovevo = Avrei dovuto …),
+2024-02-21-0902-Il Condizionale Passato.docx,48,delete,,,,Italian on both sides (Potevi = Avresti potuto …),
+2024-02-21-0902-Il Condizionale Passato.docx,49,delete,,,,Italian on both sides (Volevo = Avrei voluto …),
+2024-01-17-0959-l Condizionale Presente.docx,82,delete,,,,a section heading (Esprimere desideri nel presente) paired with an example,
+2023-01-30-0000-Cors da dialett da Rögn lezium 1 e 2.docx,242,delete,,,,"two dialect words from the numbers list (vüdas 11, dodas 12); each is in dialect_lists_italian_supplied.csv",
+2023-01-30-0000-Cors da dialett da Rögn lezium 1 e 2.docx,249,delete,,,,"two dialect words from the numbers list (discdot 18, discnöv 19), confirmed by the owner",
+2023-01-30-0000-Cors da dialett da Rögn lezium 1 e 2.docx,255,delete,,,,"two dialect words from the fruit list (la poma apple, la pera pear), confirmed by the owner",
+2024-09-06-1018-il congiüntif.docx,17,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-09-06-1018-il congiüntif.docx,59,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-09-06-1018-il congiüntif.docx,155,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2023-01-30-0000-Cors da dialett da Rögn lezium 1 e 2.docx,260,delete,,,,"two separate fruits (plum on l.260, apricot on l.261), not an Italian-dialect pair (owner, 2026-10-14)",
+2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx,123,replace,sporco sulle mani,cröcc,dirt on the hands,also: man sporch,word
+2024-03-05-1249-Dizionario con filastrocche di R. Gaggini.docx,123,add,levatrice,cumãa,midwife,,word
+2023-03-14-1034-cors da dialet da Rögn 9a leziun.docx,22,add,Non ha la testa a posto (un matto),"Al ga mia tücc i ass a tecc, al ga mia a post ul spazzacà, l’è fö cumé un balcun",,"the teacher's original has no blank line after line 21, which the parser cannot split, so it swallows this line",expression
+2023-03-29-1002-Cors da dialet da Rögn 11a leziun.docx,23,delete,,,,the teacher's first version translates bèlula as libellula; corrected to donnola (faina) in the version of 2023-04-04,
+2024-05-02-1417-frasi fatte.docx,11,delete,,,,Italian sentence without its dialect in this earlier version; paired with the next Italian line,
+2024-05-02-1417-frasi fatte.docx,74,delete,,,,Italian sentence without its dialect in this earlier version; paired with the next Italian line,
+2024-05-02-1417-frasi fatte.docx,105,delete,,,,Italian sentence without its dialect in this earlier version; paired with the next Italian line,
+2024-05-02-1417-frasi fatte.docx,107,delete,,,,Italian sentence without its dialect in this earlier version; paired with the next Italian line,
+2024-02-15-0801-Il Condizionale Passato.docx,34,delete,,,,"Italian grammar example (Dovevo = Avrei dovuto ...), no dialect",
+2024-02-15-0801-Il Condizionale Passato.docx,35,delete,,,,"Italian grammar example (Dovevo = Avrei dovuto ...), no dialect",
+2024-02-15-0801-Il Condizionale Passato.docx,36,delete,,,,"Italian grammar example (Dovevo = Avrei dovuto ...), no dialect",
+2026-09-24-0946-100 frasi di persone in montagna.docx,6,replace,Sembra tutto uscito da una cartolina.,Al sumea tütt vegnüü fö da na cartulina.,,the line split in the wrong place,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,21,replace,Non pensavo fosse così rilassante camminare.,A pensava mia che al füdess inscì rilassant caminà.,,the line split in the wrong place,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,23,add,Sembra di essere sopra il mondo.,A sumea da ves sura ‘l mund.,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,25,add,L’aria qui è pulitissima.,L’aria chì l’è netissima.,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,27,add,Questi colori sono pazzeschi.,Chi culor chi i è fö da cò,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,33,add,Sembra che ci stia osservando.,Sumea che la sia dré a guardag.,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,34,add,"Attenti alle mucche, sono curiose.","Fii tenziun ai vac, i è curius.",,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,35,add,"Ho sentito un campanaccio, dev’essere vicino.","U sentüü na ciôca, la def ves visin.",,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,42,add,Che percorso facciamo oggi?,Che sctráda fem incöö?,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,44,replace,Portiamo abbastanza acqua?,Gh’em scià asee acqua?,,line 44 had been joined with line 45,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,45,add,Chi ha la cartina?,Chi che ga scià la cartina?,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,52,add,"Che bello questo rifugio, sembra accogliente.","Che bèla scta baita, la sumea carina.",,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,71,replace,Oggi è la giornata perfetta per camminare.,Incöö l’è la giurnada perfèta par caminà.,,the line split in the wrong place,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,89,add,Qui ci sono un sacco di leggende locali.,Chì gh’è na mota da sctori lucai.,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,95,add,“Chi ha preso il pranzo al sacco?” — “Io!”,“Chi che a töi sü da mangià?” – “Mi!”,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,98,add,“Stasera usciamo?” — “Se abbiamo ancora energie.”,“Sctasira nem föra?” – “Se gh’em ammò energii.”,,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,99,add,"“Ragazzi, che giornata!” — “Indimenticabile.”","“Fiöö, che giurnada!” – “Da mia discmentegà”",,line not picked up by the parser,expression
+2026-09-24-0946-100 frasi di persone in montagna.docx,100,add,“Domani si replica?” — “Assolutamente.”,“Duman ammò? – “Ma cert.”,,line not picked up by the parser,expression
+2024-09-24-1032-al congiüntif 2.docx,4,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,7,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,9,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,11,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,14,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,18,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,22,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,23,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,24,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,26,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,27,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,28,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,31,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,34,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,38,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,40,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,47,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,48,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,49,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,50,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,51,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,52,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,53,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,54,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,55,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,56,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,57,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,60,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,61,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,62,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,63,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,64,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,67,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,72,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,73,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,74,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,75,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,76,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,77,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,78,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,83,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,86,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,91,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,97,delete,,,,parser pairing of the explanation or of 'wrong Italian | right Italian + dialect'; replaced by the curated pairs below,
+2024-09-24-1032-al congiüntif 2.docx,7,add,Che sia già qui?,Che al sia già chi ?,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,8,add,Che sia troppo tardi?,Che al sia tropp tardi ?,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,9,add,Che non abbia capito?,Che l’abbia mia capii ?,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,10,add,Che stia per piovere?,Che al vegna a piöf ?,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,11,add,La fortuna ti assista!,Che la fürtuna la ta assiscta,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,12,add,Potessi essere lì con te!,Se podaressa ves lì cun ti,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,13,add,Magari avessi potuto aiutarlo!,Magari avria pudüü iütal,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,14,add,Entri pure.,Che al vegna denta (che al vegna pür),,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,15,add,Sia gentile: mi aiuti.,"Che al sia gentil, che al iüta",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,16,add,Esca subito di qui!,Che al naga sübit föra da chi,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,17,add,"Sia pure il più bravo, ma è anche presuntuoso.","che al sia pür ul püsee bravu, ma l’è anca presüntuos",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,21,add,Mi chiedo chi abbia vinto.,ma sa dumandi chi che abbia vinciüü,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,22,add,Non so se siano partiti.,Al sô mia se i sia nai via,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,23,add,Temo che sia troppo tardi.,Gh’o pagüra che al sia tropp tardi,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,24,add,Vorrei tanto che arrivassero.,Vöraria tantu che i rivassan,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,26,add,Bisogna che finiate il compito per tempo.,L’è necesari che finisuf al compit par temp,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,27,add,È necessario che tu parta.,L’è necesari che ta nagat via (partissat),,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,28,add,È probabile che arrivi un temporale.,L’è pusibil che riva un tempural,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,30,add,"Sarò puntuale, qualunque cosa succeda.","sarò in urari, qualsiasi roba süceda",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,31,add,"Chiunque venga, sarà ben accolto.","chiunque riva, al sarà ben vegnüü",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,34,add,"Benché sia ormai autunno, fa caldo.","Anca se l’è (sic!) uramai autün, al fa cald",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,48,add,Vada via! E vadano pure loro!,Che al naga via! E che i nagan via anca lor,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,49,add,Faccia pure!,Che al faga pür,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,50,add,Me lo dia subito!,Damal sübit !,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,51,add,Vengano e prendano un caffè,che i vegnan e che bevan un café,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,52,add,Facciano con comodo!,Che i fagan cun comud !,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,53,add,Credo che mi avverta,a credi che la ma la disa,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,54,add,Pensavo che stesse con voi,pensava che la sctess con vialtri,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,55,add,Non vorrei che ti desse torto,vöraressa mia che al ta dassa tort,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,56,add,Penso che abbiano fatto tardi,pensi che i abbian fai tardi,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,57,add,"Qualunque cosa lui faccia, per te va sempre bene.","Qualsiasi roba lü al faga, par ti al va sempru ben",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,61,add,Entri in casa!,Che al naga denta in ca’,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,62,add,Ci pensi per tempo!,Che al ga pensa par temp,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,63,add,Si accomodino avanti!,Che i sa comuda dananz,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,64,add,Me lo dica lei!,Che ma la disa lee/lü,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,65,add,Mi faccia questa cortesia!,Che al ma faga sctu piasé,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,66,add,Mi aiuti lei!,Che al ma iüta lü,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,67,add,Vadano pure avanti,che i nagan pür innanz,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,73,add,"Sebbene sia ricco, non spende.","Anca se l’è sciôr, al scpend mia",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,74,add,"Purché tu lo faccia, ti aiuto io.","Bascta che t’al fagat, che ta üti (iüti) mì",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,75,add,"Prima che parliate voi, vi spiego io.","Prima che parluf vialri, va scpieghi mì",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,76,add,"Qualsiasi cosa tu scelga, per me va bene.","Qualsiasi roba (ti) ta catat fö, par mi al va ben",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,77,add,"Dovunque vada, andrò con lui.","In qualsiasi siit che al naga, narò con lü",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,78,add,"Chiunque lo abbia detto, ha sbagliato.","Chiunque l’abbia dii, l’a scbaiaa",,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,83,add,che Giulia vada con lei,che la Giulia la vada cun lee,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,86,add,che Simone sia stato tre mesi a New York,che Simone al sia sctai trii mès a New York,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,91,add,che Giulia va con lei,che la Giulia la va con lee,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,94,add,che Simone è stato tre mesi a New York.,Che Simone l’è sctai trii més a New York,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,97,add,Paola crede che io / tu / lui abbia sbagliato.,La Paola la cred che mi/ti/lü abbia/t’abbiat/l’abbia scbaiaa,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-09-24-1032-al congiüntif 2.docx,98,add,Pensavano tutti che io / tu / fossi già partito.,Tücc i pensava che mi/ti fossa/ta fossat già partii,,"the correct Italian with the teacher's dialect (the sheet runs the wrong form, the right form and the dialect together)",expression
+2024-03-17-1237-Dizionario con filastrocche di R. Gaggini.docx,123,replace,sporco sulle mani,cröcc,dirt on the hands,also: man sporch,word
+2024-03-17-1237-Dizionario con filastrocche di R. Gaggini.docx,123,add,levatrice,cumãa,midwife,,word
+2024-05-21-1003-Dizionario con filastrocche di R. Gaggini.docx,123,replace,sporco sulle mani,cröcc,dirt on the hands,also: man sporch,word
+2024-05-21-1003-Dizionario con filastrocche di R. Gaggini.docx,123,add,levatrice,cumãa,midwife,,word
+2026-09-17-0948-🌴 100 frasi utili per quattro persone in vacanza al mare.docx,89,replace,“Chi vuole un gelato?” — “Tutti.”,“Chi che vö ‘n gelatu?” “Tücc”,“Who wants an ice cream?” — “Everyone.”,the line split in the wrong place,expression
+2024-02-15-0801-Il Condizionale Passato.docx,3,delete,,,,"header row of a verb table (Italian past infinitives), not a pair",
+2024-02-15-0801-Il Condizionale Passato.docx,12,delete,,,,"header row of a verb table (Italian past infinitives), not a pair",
+2024-09-24-1032-al congiüntif.docx,17,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-09-24-1032-al congiüntif.docx,59,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2024-09-24-1032-al congiüntif.docx,155,delete,,,,"header row of a verb table (infinitives), not an Italian-dialect pair",
+2026-06-14-1042-Filatrocca di Carlino.docx,27,delete,,,,"two lines of the rhyme, not a translation pair",
+2023-11-21-0910-Giuseppe Cerutti.docx,123,delete,,,,"a fragment of the story (un cognom...»), not a dictionary word",
+2026-09-24-0946-100 frasi di persone in montagna.docx,94,replace,,,,a question and answer: an expression not a dictionary word,expression
+notes_added_by_hand.csv,9,replace,esclamare,vosà o vusà,to exclaim,verb,word
+notes_added_by_hand.csv,10,replace,che c’è,se gh’è,"which there is, that there is",,word
+notes_added_by_hand.csv,11,replace,,,fridge,,word
+notes_added_by_hand.csv,12,replace,,,empty,,word
+notes_added_by_hand.csv,15,replace,,,automatic,,word
+notes_added_by_hand.csv,16,replace,,,manual,,word
+notes_added_by_hand.csv,17,delete,,,,given in etc/dialect_lists_italian_supplied.csv with the Italian supplied,
+notes_added_by_hand.csv,18,delete,,,,given in etc/dialect_lists_italian_supplied.csv with the Italian supplied,
+notes_added_by_hand.csv,19,replace,da buttare via,da trà via,to be thrown away,"owner's note gives the English only (written tra\ via, the backslash marking the accent); Italian supplied by Claude",expression
+notes_added_by_hand.csv,20,replace,,,"live (seeing a musician live, at the concert)",,expression
+notes_added_by_hand.csv,22,delete,,,,a verb form (passato prossimo of guardas): recorded in etc/verb_forms_from_texts.csv,
+2023-02-13-0000-Cors da dialett da Rögn 4a leziun.docx,84,replace,,cavii,,,word
+2023-02-13-0000-Cors da dialett da Rögn 4a leziun.docx,84,add,capelli,cis,hair,,word
+2026-10-27-1006-Aggettivi e contrari.docx,68,add,vivace,vivace,lively,"same word in Italian and dialect, so the parser skipped it; contrario: apatic (apatico)",word
+2023-05-01-0000-Cors da dialet da Rögn 15a leziun - proverbi.pdf,9,add,ragazza,tusa,girl,"the singular of i tusann, which the teacher translates as le ragazze (owner, 2026-10-28)",word
