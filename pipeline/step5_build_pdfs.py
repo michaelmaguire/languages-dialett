@@ -312,7 +312,7 @@ h2 { font: bold 15pt "DejaVu Sans", Arial, sans-serif; margin: 3mm 0 1.5mm; brea
 .e i { color: #333; }
 .e .r { font: 7pt "DejaVu Sans", Arial, sans-serif; color: #666; text-transform: uppercase; letter-spacing: .04em; }
 .e .n { color: #555; font-size: 8pt; }
-.e .g { font-style: italic; color: #333; }
+.e .g { font-style: normal; font-size: 8pt; color: #666; }   /* the label: upright and grey, unlike the italic translations */
 """
 
 
@@ -353,7 +353,8 @@ def dictionary():
                 label = build.word_label(rows[0]) if head == "dialect" else ""
                 label = f' <span class="g">{esc(label)}</span>' if label else ""
                 shown = build.dialect_shown(rows[0]) if head == "dialect" else rows[0][head]
-                out.append(f'<div class="e"><b>{esc(shown)}</b>{label} {"; ".join(senses)}</div>')
+                # an arrow between the headword and its translations, as in the section titles (Dialett → Italiano · English)
+                out.append(f'<div class="e"><b>{esc(shown)}</b>{label} → {"; ".join(senses)}</div>')
         return "".join(out), sorted(groups)
 
     strip_di = lambda w: build.DI_ARTICLE.sub("", build.key(w["dialect"]))
