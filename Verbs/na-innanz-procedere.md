@@ -26,7 +26,7 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *mi* | vo innanz | narò innanz / naroo innanz | sarò nai (a) innanz |
 | *ti* | ta ve(t) innanz | ta naré(t) innanz | ta saré(t) nai (a) innanz |
 | *le / lü* | la/al va innanz | la/al narà innanz | la/al sarà nai (a) innanz |
-| *nüm* | vem innanz / nem innanz | narem innanz | sarem nai innanz |
+| *nüm* | vem innanz / nem innanz / nemm innanz | narem innanz | sarem nai innanz |
 | *vialtri* | vii innanz | narii innanz | sarii nai innanz |
 | *lur* | i van innanz | i naran innanz | i saran nai innanz |
 

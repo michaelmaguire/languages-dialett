@@ -114,6 +114,7 @@ forms, entries without English, decisions that matched nothing) and the `git dif
 | `parts_of_speech.csv` | Part of speech of the entries that are not nouns-by-article or table verbs, and an adjective's feminine (blank = predicted by `pipeline/feminine.py`, `-` = none). Dictionary shows `n.`/`s.`, `adj.`/`agg.` … (list in grammar chapter 00) and adjectives as *bagnaa/bagnada*; verb pages show the participle as *rubaa/rubada* (owner, 2026-10-26). |
 | `verb_details.csv` | Per verb: dialect infinitive (attested/inferred/confirmed + evidence), merges, class, stems, participle, auxiliary, tenses to ignore, a particle to drop (`drop_particle`: the *gh’* of *avere* in conditional and subjunctive, owner 2026-10-19). |
 | `verb_forms_from_texts.csv` | Verb forms found in running text (attested, with `source,line`), supplied by hand (inferred) or confirmed by the owner (`confirmed`). With a `verb_details.csv` row, enough to give an untabled verb a page (*töö*, *duprà*). |
+| `words_from_texts.csv` | Dictionary words found inside the course's translated sentences, which the parser never takes as pairs (*tardi*, *quand*, *indua*): `Language_ID,Form,Part_Of_Speech,Gender,Plural,Feminine,Italian,English,Source,Line,Reason,Date`, each citing a line where the word occurs (a teacher's sheet where possible). Aligned by Claude with the teacher's Italian, 2026-10-28 (owner's request): the words used 3+ times, 293 so far, including 12 place names (Part_Of_Speech `proper noun`, *prop. n.*/*n. pr.*, keep their capital); their other spellings are in `spelling_variants.csv`. People's names are left out (classmates; same as Italian). Made with `pipeline/tool_words_from_texts.py list` (candidates, with their sentences, to the private `raw/extracted/words_todo.csv`) and `merge FILE`. Conjugated verb forms found the same way go to `verb_forms_from_texts.csv` (69 forms, 2026-10-28, the class translations of Dante included), and a verb without a page gets a `verb_details.csv` row (48 verbs: *rivà*, *sumeà*, *piasé* …; infinitive `inferred` unless a document has it). *bütà* is filed as *gettare* (also *buttare*, *versare*), since *buttare* names *trà*'s page. |
 | `verb_forms_reassigned.csv` | Moves extracted forms to another verb when two dialect verbs share an Italian infinitive (*töö* vs *ciapà* for *prendere*). |
 | `parallel_texts.csv` | Class translations and their Italian originals in other documents, aligned by step 2 (*I düü magnan*, Inferno I–VI against `raw/2025-12-02-1358-Divina Commedia Inferno I-VI (Dante, Project Gutenberg).txt`). |
 | `nouns.csv` | Nouns whose source gives no article (gender), and corrections of gender or plural: `Language_ID,Form,Gender,Plural,Reason`, Form as written in the source. About 400 rows written by Claude on 2026-10-15 (every noun gets m./f.): gender from an article in the lesson texts where one is found (cited), else a best guess from the Italian. A Plural written in the headword (`curtel/curtei`, `sedèla (sedèl)`) is removed from it. |
@@ -221,12 +222,15 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
    (`n<TAB>topic` lines). Set the document's `genre` in `etc/lesson_sources.csv` first. Lines of a `text` are not
    listed; to keep a saying or phrase from one, add its row to `etc/expression_topics.csv` with a Genre.
    An idiom or sentence that lands in the dictionary gets an `expression` row in `etc/decisions.csv`.
-4. Check for silently dropped lines: list every line of each canonical document that produced no pair,
+4. Words that occur only inside translated sentences: `pipeline/.venv/bin/python pipeline/tool_words_from_texts.py list`
+   (candidates with their sentences, in the private `raw/extracted/words_todo.csv`), review them in the session
+   and `merge` the kept ones into `etc/words_from_texts.csv`.
+5. Check for silently dropped lines: list every line of each canonical document that produced no pair,
    verb form or unparsed row. This is how `Grembiule: scusaa` (lesson 4) and the bulleted pairs in
    `brevi frasi` were found. Also look at `raw/extracted/unparsed_lines.csv`.
-5. For new verbs, add the infinitive and evidence to `etc/verb_details.csv`.
-6. Owner's corrections ("X is a typo for Y") go in `etc/decisions.csv`, never in `raw/` or `cldf/`.
-7. Before finishing, rebuild and compare the pages and `cldf/` with the previous version (`git diff`).
+6. For new verbs, add the infinitive and evidence to `etc/verb_details.csv`.
+7. Owner's corrections ("X is a typo for Y") go in `etc/decisions.csv`, never in `raw/` or `cldf/`.
+8. Before finishing, rebuild and compare the pages and `cldf/` with the previous version (`git diff`).
 
 ## Known gaps
 

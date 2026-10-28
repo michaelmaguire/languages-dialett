@@ -26,9 +26,9 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *mi* | fò | farò / faroo | avrò fai (a) |
 | *ti* | ta fé(t) | ta faré(t) | ta avré(t) fai (a) |
 | *le / lü* | la/al fa | la/al farà | l’avrà fai (a) |
-| *nüm* | fem | farem | avrem fai |
+| *nüm* | fem / femm | farem | avrem fai |
 | *vialtri* | fii | farii | avrii fai |
-| *lur* | i fa | i faran | i avran fai |
+| *lur* | i fa / i fann | i faran | i avran fai |
 
 |  | Imperfetto | Passato prossimo | Trapassato prossimo |
 |---|---|---|---|

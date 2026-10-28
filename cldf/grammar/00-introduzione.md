@@ -52,5 +52,6 @@ EN: In the dictionary every word carries its part of speech; the Italian page us
 | num. | numerale | num. | numeral |
 | inter. | interiezione | interj. | interjection |
 | loc. | locuzione, frase | phr. | phrase |
+| n. pr. | nome proprio (di luogo) | prop. n. | proper noun (place name) |
 | m., f. | maschile, femminile | m., f. | masculine, feminine |
 | pl. | plurale | pl. | plural |

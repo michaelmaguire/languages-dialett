@@ -26,7 +26,7 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *mi* | vo | narò / naroo | sarò nai (a) |
 | *ti* | ta ve(t) | ta naré(t) | ta saré(t) nai (a) |
 | *le / lü* | la/al va | la/al narà | la/al sarà nai (a) |
-| *nüm* | vem / nem | narem | sarem nai |
+| *nüm* | vem / nem / nemm | narem | sarem nai |
 | *vialtri* | vii | narii | sarii nai |
 | *lur* | i van | i naran | i saran nai |
 

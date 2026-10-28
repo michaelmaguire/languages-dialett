@@ -196,7 +196,7 @@ def candidates():
         for i, italian in enumerate([name] + t["aliases"]):
             en = eng.get(pages.key(italian))
             senses.append({"ID": ids["senses"].make(f"{e['ID']}-{italian}"), "Entry_ID": e["ID"],
-                           "Description": italian, "Description_English": f"to {en}" if en else None,
+                           "Description": italian, "Description_English": pages.to_verb(en) or None,
                            "Status": "attested", "Unsure_About": None,
                            "Comment": f"Italian synonym of {name}" if i else None, "Source": list(e["Source"])})
         for tense in pages.ALL_TENSES:
@@ -429,6 +429,11 @@ def noun_forms(rows):
     E, S, V = rows["entries.csv"], rows["senses.csv"], rows["variants.csv"]
     vids = Ids(v["ID"] for v in V)
     curated = {(r["Language_ID"], pages.key(r["Form"])): r for r in pages.read(ETC / "nouns.csv")}
+    # the nouns of etc/words_from_texts.csv, with their gender (and a plural where the texts show one)
+    for r in pages.read(ETC / "words_from_texts.csv"):
+        if r["Part_Of_Speech"] == "noun":
+            curated.setdefault((r["Language_ID"], pages.key(r["Form"])),
+                               {"Form": r["Form"], "Gender": r["Gender"], "Plural": r["Plural"], "Feminine_Of": ""})
     senses = defaultdict(list)
     for x in S:
         if x["Status"] != "rejected":
@@ -803,7 +808,10 @@ def add_parts_of_speech(rows):
             seen.update((scope, a[-1]) for a in alts if a)
         return ok
     missing = []
-    for r in pages.read(path):
+    # the other words of etc/words_from_texts.csv (adjectives, adverbs, verbs ...) carry their part of speech
+    texts = [dict(r, Headword=r["Form"], Masculine="") for r in pages.read(ETC / "words_from_texts.csv")
+             if r["Part_Of_Speech"] != "noun"]
+    for r in pages.read(path) + texts:
         pos = r["Part_Of_Speech"].strip()
         matches = [e for e in rows["entries.csv"] if e["Language_ID"] == r["Language_ID"]
                    and pages.key(e["Headword"]) == pages.key(r["Headword"]) and e["Part_Of_Speech"] != "verb"

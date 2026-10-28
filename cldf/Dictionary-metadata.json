@@ -19,7 +19,7 @@
         {
             "rdf:about": "git@github.com:michaelmaguire/languages-dialett",
             "rdf:type": "prov:Entity",
-            "dc:created": "b3a3228",
+            "dc:created": "78aad8f",
             "dc:title": "Repository"
         }
     ],
@@ -38,7 +38,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#EntryTable",
-            "dc:extent": 1212,
+            "dc:extent": 1550,
             "tableSchema": {
                 "columns": [
                     {
@@ -197,7 +197,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#SenseTable",
-            "dc:extent": 1262,
+            "dc:extent": 1602,
             "tableSchema": {
                 "columns": [
                     {
@@ -695,7 +695,7 @@
             "url": "media.csv"
         },
         {
-            "dc:extent": 278,
+            "dc:extent": 305,
             "tableSchema": {
                 "columns": [
                     {
@@ -763,7 +763,7 @@
             "url": "variants.csv"
         },
         {
-            "dc:extent": 6256,
+            "dc:extent": 9520,
             "tableSchema": {
                 "columns": [
                     {

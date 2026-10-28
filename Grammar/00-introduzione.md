@@ -56,6 +56,7 @@
 | num. | numerale | num. | numeral |
 | inter. | interiezione | interj. | interjection |
 | loc. | locuzione, frase | phr. | phrase |
+| n. pr. | nome proprio (di luogo) | prop. n. | proper noun (place name) |
 | m., f. | maschile, femminile | m., f. | masculine, feminine |
 | pl. | plurale | pl. | plural |
 

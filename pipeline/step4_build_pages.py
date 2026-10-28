@@ -435,7 +435,7 @@ PP_AGREEMENT = ("Il participio femminile: con *ves* concorda con il soggetto (*s
                 "pronoun placed before it (*l’u tirada*, I pulled it, a feminine thing).")
 POS_ABBR = {"noun": ("n.", "s."), "verb": ("v.", "v."), "adjective": ("adj.", "agg."), "adverb": ("adv.", "avv."),
             "preposition": ("prep.", "prep."), "conjunction": ("conj.", "cong."), "pronoun": ("pron.", "pron."),
-            "numeral": ("num.", "num."), "interjection": ("interj.", "inter."), "phrase": ("phr.", "loc.")}
+            "numeral": ("num.", "num."), "interjection": ("interj.", "inter."), "phrase": ("phr.", "loc."), "proper noun": ("prop. n.", "n. pr.")}
 
 
 T_DROP = re.compile(r"^((?:ti\s+)?ta\s+(?:(?:sa|ga|ma|la|ia|na|ta)\s+)*(?:gh[’'])?)(?!(?:sa|ga|ma|la|ia|na|ta)\s)([^\s/()]*[aeiouàáèéìíòóùúü])(?=\s|$)", re.I)
@@ -460,6 +460,11 @@ def optional_t(text):
         if k not in out or "(t)" in shown:
             out[k] = shown
     return " / ".join(out.values())
+
+
+def to_verb(en):
+    """English of a verb with its "to": 'eat' -> 'to eat'; one written with it already ('to lose') is kept."""
+    return "" if not en else en if en.startswith("to ") else f"to {en}"
 
 
 def dialect_shown(p):
@@ -647,7 +652,7 @@ def verb_page(name, e, eng):
     pp_shown = pp["-"].replace(raw_pp, feminine.with_feminine(raw_pp), 1) if raw_pp != "–" else pp["-"]
     out = [f"# {di}{INFERRED if e['basis'] == 'inferred' else ''}\n", "## Infinitive\n",
            table(["Dialett" + (INFERRED if e["basis"] == "inferred" else ""), "Italiano", "English"],
-                 [[f"**{di}**", " / ".join([name] + e["aliases"]), f"to {en}" if en else ""]]),
+                 [[f"**{di}**", " / ".join([name] + e["aliases"]), to_verb(en)]]),
            table(["Gerundio" + ger_mark, "Participio passato" + pp_mark, "Verb class"],
                  [[ger["-"], pp_shown, e["class"]]])]
     if pp_shown != pp["-"]:
@@ -699,6 +704,15 @@ def assemble():
             uniq.append({"italian": r["italian"], "dialect": r["dialect"], "english": r["english"], "kind": "word",
                          "variety": "Rögn (Arogno)", "canonical": "yes", "source": r["source"], "line": r["line"],
                          "check": "", "note": "", "supplied": True, "confirmed": bool((r.get("confirmed") or "").strip())})
+    # words found in the course's translated sentences (etc/words_from_texts.csv, aligned by Claude with
+    # the teacher's Italian, each citing a line where it occurs): tardi, quand, indua ...
+    for r in read(ETC / "words_from_texts.csv"):
+        k = (key(r["Italian"]), key(r["Form"]))
+        if k not in seen:
+            seen.add(k)
+            uniq.append({"italian": r["Italian"], "dialect": r["Form"], "english": r["English"], "kind": "word",
+                         "variety": "Rögn (Arogno)", "canonical": "yes", "source": r["Source"], "line": r["Line"],
+                         "check": "", "note": "", "proper": r["Part_Of_Speech"] == "proper noun"})
     # my own hand-made entries from the spreadsheet are dictionary words like any other
     for r in rosetta:
         k = (key(r["italian"]), key(r["mine"]))
@@ -712,7 +726,7 @@ def assemble():
         # Word capitalises the first letter of every line. Keep that only where it is a real sentence
         # capital: a full sentence ending in . ! ? (or a line of dialogue). Words and phrases lose it.
         sentence = re.search(r"[.!?…]['’\"”»)]*\s*$", p["italian"]) or ":" in p["italian"]
-        if p["kind"] == "word" or not sentence:
+        if (p["kind"] == "word" or not sentence) and not p.get("proper"):     # place names keep their capital
             decapitalise(p, proper)
     return uniq, tables, eng
 
@@ -906,7 +920,7 @@ def render(uniq, tables, eng, topics=None):
         write(ROOT / "Verbs" / fname, verb_page(name, e, eng))
         cells = [c for row in e["grid"].values() for c in row.values()]
         tenses = f"{sum(not c[1] and c[0] != '–' for c in cells)} of {len(cells)}"
-        vindex.append([f"[{' / '.join(e['dialect']) or '–'}]({fname})" + (INFERRED if e["basis"] == "inferred" else ""), " / ".join([name] + e["aliases"]), (lambda en: f"to {en}" if en else "")(eng.get(key(name), "")), e["class"].split(":")[0], tenses])
+        vindex.append([f"[{' / '.join(e['dialect']) or '–'}]({fname})" + (INFERRED if e["basis"] == "inferred" else ""), " / ".join([name] + e["aliases"]), to_verb(eng.get(key(name), "")), e["class"].split(":")[0], tenses])
     write(ROOT / "Verbs/README.md", "\n".join([
         "# Verbs\n", "**[arogno-verbs.pdf](arogno-verbs.pdf)** has all of these for printing, one verb per A4 sheet.\n",
         "One page per verb, listed by dialect infinitive. The first three columns are infinitives. "
@@ -947,7 +961,7 @@ def render(uniq, tables, eng, topics=None):
     spelling_sets = [[" · ".join([r["Headword"]] + [v.strip() for v in r["Variants"].split(";") if v.strip()]),
                       meaning.get(key(r["Headword"]), {}).get("italian", ""), meaning.get(key(r["Headword"]), {}).get("english", "")]
                      for r in read(ETC / "spelling_variants.csv")]
-    spelling_sets += [[" · ".join(dict.fromkeys(tables[n]["dialect"])), n, (lambda en: f"to {en}" if en else "")(eng.get(key(n), ""))]
+    spelling_sets += [[" · ".join(dict.fromkeys(tables[n]["dialect"])), n, to_verb(eng.get(key(n), ""))]
                       for n in order if len(tables[n]["dialect"]) > 1 and all(       # spellings, not synonyms (cumincià, tacà)
                           difflib.SequenceMatcher(None, plain(tables[n]["dialect"][0]), plain(d)).ratio() >= 0.7
                           for d in tables[n]["dialect"][1:])]

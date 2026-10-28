@@ -15,9 +15,9 @@
 | *mi* | sum | seva | sarò / saroo |
 | *ti* | ta se(t) | ta sevat | ta saré(t) |
 | *le / lü* | l’è | eva | sarà |
-| *nüm* | sem | sevum | sarem |
+| *nüm* | sem / sémm | sevum | sarem |
 | *vialtri* | sii | sevuf | sarii |
-| *lur* | i e / i è / i é | i eva | i saran / sarà (n) |
+| *lur* | i e / i è / i é / i ien / i inn | i eva | i saran / sarà (n) |
 
 | Italiano | English |
 |---|---|

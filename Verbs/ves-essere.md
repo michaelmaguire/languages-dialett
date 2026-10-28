@@ -26,9 +26,9 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *mi* | sum | sarò / saroo | sarò stai (a) |
 | *ti* | ta se(t) | ta saré(t) | ta sare(t) stai (a) |
 | *le / lü* | l’è | sarà | sarà stai (a) |
-| *nüm* | sem | sarem | sarem stai |
+| *nüm* | sem / sémm | sarem | sarem stai |
 | *vialtri* | sii | sarii | sarii stai |
-| *lur* | i e / i è / i é | i saran / sarà (n) | i saran stai |
+| *lur* | i e / i è / i é / i ien / i inn | i saran / sarà (n) | i saran stai |
 
 |  | Imperfetto | Passato prossimo | Trapassato prossimo |
 |---|---|---|---|

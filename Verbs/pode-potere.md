@@ -46,7 +46,7 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *mi* | podaria/podaressa | avria/avress pudüü |
 | *ti* | ta podaressat | t’avriat/t’avressat pudüü |
 | *le / lü* | podaria/podaressa | l’avria/l’avressa pudüü |
-| *nüm* | podaressum | avrium/avressum pudüü |
+| *nüm* | podaressum / pudaressum | avrium/avressum pudüü |
 | *vialtri* | podaressuf | avriuf/avressuf pudüü |
 | *lur* | podarian/podaressan | i avrian/i avressan pudüü |
 

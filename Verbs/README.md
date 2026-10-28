@@ -12,33 +12,50 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 
 | Dialett | Italiano | English | Class | Forms found in the course material |
 |---|---|---|---|---|
+| [abandunà](abanduna-abbandonare.md) † | abbandonare | to abandon | 1st conjugation | 1 of 68 |
 | [bef / bèf](bef-bere.md) | bere | to drink | 3rd conjugation | 53 of 68 |
 | [bramà](brama-bramare.md) † | bramare | to long for | 1st conjugation | 4 of 68 |
+| [brascià](brascia-abbracciare.md) † | abbracciare | to hug | 1st conjugation | 1 of 68 |
 | [bürlà giò / bürlà giô](burla-gio-cadere.md) | cadere | to fall | 1st conjugation | 43 of 68 |
+| [bütà](buta-gettare.md) | gettare / buttare / versare | to throw (away) | 1st conjugation | 1 of 68 |
 | [caminà](camina-camminare.md) | camminare | to walk | 1st conjugation | 4 of 68 |
 | [cantà](canta-cantare.md) | cantare | to sing | 1st conjugation | 41 of 68 |
 | [capì](capi-capire.md) | capire | to understand | 4th conjugation | 9 of 68 |
+| [capità](capita-capitare.md) † | capitare | to happen | 1st conjugation | 1 of 68 |
 | [catà fö / cata fö](cata-fo-scegliere.md) | scegliere | to choose | 1st conjugation | 29 of 68 |
 | [cercà](cerca-cercare.md) | cercare | to look for | 1st conjugation | 12 of 68 |
+| [ciamà](ciama-chiamare.md) † | chiamare | to call | 1st conjugation | 2 of 68 |
 | [ciapà](ciapa-prendere.md) | prendere | to take | 1st conjugation | 50 of 68 |
 | [cor / côr](cor-correre.md) | correre | to run | 3rd conjugation | 43 of 68 |
 | [cred](cred-credere.md) | credere | to believe | 3rd conjugation | 4 of 68 |
+| [cugnoss / cugnöss](cugnoss-conoscere.md) | conoscere | to know (someone), meet | 3rd conjugation | 1 of 68 |
+| [cumandà](cumanda-comandare.md) | comandare | to command; order | 1st conjugation | 1 of 68 |
 | [cumincià / tacà](cumincia-incominciare.md) † | incominciare | to begin | 1st conjugation | 4 of 68 |
 | [cüsì](cusi-cucire.md) | cucire | to sew | 4th conjugation | 10 of 68 |
 | [cüsinà](cusina-cucinare.md) | cucinare | to cook | 1st conjugation | 10 of 68 |
 | [dà](da-dare.md) | dare | to give | irregular | 47 of 68 |
+| [decid](decid-decidere.md) † | decidere | to decide | 3rd conjugation | 1 of 68 |
 | [dì](di-dire.md) | dire | to say | irregular | 15 of 68 |
-| [dörmi](dormi-dormire.md) | dormire | to sleep | 4th conjugation | 41 of 68 |
+| [disedà](diseda-svegliare.md) † | svegliare | to wake (someone) up | 1st conjugation | 1 of 68 |
+| [diventà](diventa-diventare.md) † | diventare | to become | 1st conjugation | 2 of 68 |
+| [dörmi / durmì](dormi-dormire.md) | dormire | to sleep | 4th conjugation | 41 of 68 |
 | [dué](due-dovere.md) | dovere | to have to | 2nd conjugation | 10 of 68 |
+| [dumandà](dumanda-domandare.md) † | domandare | to ask | 1st conjugation | 1 of 68 |
 | [duprà / doprà](dupra-adoperare.md) † | adoperare / usare | to use | 1st conjugation | 7 of 68 |
 | [fà / fa](fa-fare.md) | fare | to do / make | irregular | 53 of 68 |
 | [fa sù](fa-su-costruire.md) | costruire | to build | irregular (compound of fa, fare) | 6 of 68 |
-| [giögà](gioga-giocare.md) | giocare | to play | 1st conjugation | 6 of 68 |
+| [fermà](ferma-fermare.md) † | fermare | to stop | 1st conjugation | 1 of 68 |
+| [finì](fini-finire.md) | finire | to finish | 4th conjugation | 2 of 68 |
+| [giögà / giügà](gioga-giocare.md) | giocare | to play | 1st conjugation | 6 of 68 |
+| [girà](gira-girare.md) † | girare | to turn; go around | 1st conjugation | 1 of 68 |
 | [guardà](guarda-guardare.md) | guardare | to look at | 1st conjugation | 10 of 68 |
 | [guardas](guardas-guardarsi.md) † | guardarsi | to look at oneself | 1st conjugation | 2 of 68 |
+| [lasà](lasa-lasciare.md) † | lasciare | to leave; let | 1st conjugation | 2 of 68 |
 | [lavà](lava-lavare.md) | lavare | to wash | 1st conjugation | 1 of 68 |
 | [lavas](lavas-lavarsi.md) | lavarsi | to wash oneself | 1st conjugation | 41 of 68 |
+| [lavurà / laurà](lavura-lavorare.md) | lavorare | to work | 1st conjugation | 1 of 68 |
 | [lenc](lenc-leggere.md) | leggere | to read | 3rd conjugation | 11 of 68 |
+| [mancà](manca-mancare.md) † | mancare | to be missing; miss | 1st conjugation | 1 of 68 |
 | [manda giò](manda-gio-ingerire.md) | ingerire | to swallow | 1st conjugation | 6 of 68 |
 | [mangià](mangia-mangiare.md) | mangiare | to eat | 1st conjugation | 46 of 68 |
 | [mazzà](mazza-uccidere.md) | uccidere | to kill | 1st conjugation | 10 of 68 |
@@ -53,33 +70,60 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [nà innanz](na-innanz-procedere.md) | procedere | to proceed | irregular (compound of nà, andare) | 4 of 68 |
 | [na / nà](na-andare.md) | andare | to go | irregular | 54 of 68 |
 | [na sù](na-su-salire.md) | salire | to go up | irregular (compound of na, andare) | 6 of 68 |
+| [nass](nass-nascere.md) † | nascere | to be born | 3rd conjugation | 1 of 68 |
 | [nodà](noda-nuotare.md) | nuotare | to swim | 1st conjugation | 6 of 68 |
 | [nominà](nomina-nominare.md) | nominare | to name | 1st conjugation | 4 of 68 |
 | [pagà](paga-pagare.md) | pagare | to pay | 1st conjugation | 9 of 68 |
+| [parlà](parla-parlare.md) | parlare | to speak | 1st conjugation | 2 of 68 |
 | [partì](parti-partire.md) † | partire | to leave | 4th conjugation | 6 of 68 |
+| [pasà / passà](pasa-passare.md) | passare | to pass; spend (time) | 1st conjugation | 2 of 68 |
 | [pastrügnà](pastrugna-pasticciare.md) | pasticciare | to make a mess | 1st conjugation | 6 of 68 |
 | [pensà](pensa-pensare.md) | pensare | to think | 1st conjugation | 6 of 68 |
+| [perd](perd-perdere.md) | perdere | to lose | 3rd conjugation | 1 of 68 |
+| [pesà](pesa-pesare.md) † | pesare | to weigh | 1st conjugation | 1 of 68 |
 | [pestà](pesta-battere.md) † | battere | to beat | 1st conjugation | 6 of 68 |
+| [piasé](piase-piacere.md) † | piacere | to please, like | 2nd conjugation | 2 of 68 |
 | [picà](pica-picchiare.md) † | picchiare | to hit | 1st conjugation | 6 of 68 |
 | [podé / pudé](pode-potere.md) | potere | to be able to | 2nd conjugation | 43 of 68 |
+| [preferì](preferi-preferire.md) † | preferire | to prefer | 4th conjugation | 1 of 68 |
+| [presentà](presenta-presentare.md) † | presentare | to introduce, present | 1st conjugation | 1 of 68 |
 | [prodü / fà](produ-produrre.md) | produrre | to produce | 3rd conjugation | 6 of 68 |
+| [pruà](prua-provare.md) | provare | to try | 1st conjugation | 1 of 68 |
+| [purtà](purta-portare.md) | portare | to carry, bring | 1st conjugation | 1 of 68 |
 | [regordas](regordas-ricordarsi.md) † | ricordarsi | to remember | 1st conjugation | 5 of 68 |
+| [rescpirà](rescpira-respirare.md) † | respirare | to breathe | 1st conjugation | 1 of 68 |
+| [rescpond](rescpond-rispondere.md) † | rispondere | to answer | 3rd conjugation | 1 of 68 |
 | [resegà](resega-segare.md) | segare | to saw | 1st conjugation | 6 of 68 |
-| [restà](resta-rimanere.md) | rimanere | to stay | 1st conjugation | 6 of 68 |
+| [restà](resta-rimanere.md) | rimanere | to stay | 1st conjugation | 7 of 68 |
+| [rid](rid-ridere.md) | ridere | to laugh | 3rd conjugation | 1 of 68 |
+| [ripartì](riparti-ripartire.md) † | ripartire | to set off again | 4th conjugation | 1 of 68 |
+| [ritruà](ritrua-ritrovare.md) † | ritrovare | to find again | 1st conjugation | 1 of 68 |
+| [rivà](riva-arrivare.md) | arrivare | to arrive | 1st conjugation | 2 of 68 |
 | [rubà](ruba-rubare.md) | rubare | to steal | 1st conjugation | 4 of 68 |
+| [saltà](salta-saltare.md) † | saltare | to jump | 1st conjugation | 1 of 68 |
 | [savé](save-sapere.md) | sapere | to know | 2nd conjugation | 10 of 68 |
 | [sbögià](sbogia-forare.md) | forare | to pierce | 1st conjugation | 6 of 68 |
+| [scapà](scapa-scappare.md) † | scappare | to run away | 1st conjugation | 1 of 68 |
 | [scarpüscià](scarpuscia-inciampare.md) | inciampare | to trip | 1st conjugation | 41 of 68 |
 | [scbat / scbatt](scbat-sbattere.md) † | sbattere | to slam | 3rd conjugation | 6 of 68 |
 | [scbrisigà](scbrisiga-scivolare.md) | scivolare | to slip | 1st conjugation | 41 of 68 |
 | [schiscià](schiscia-schiacciare.md) † | schiacciare | to crush | 1st conjugation | 6 of 68 |
 | [scoltà o scultà](scolta-ascoltare.md) | ascoltare | to listen | 1st conjugation | 10 of 68 |
+| [scpetà](scpeta-aspettare.md) † | aspettare | to wait (for) | 1st conjugation | 1 of 68 |
+| [scpüzzà](scpuzza-puzzare.md) † | puzzare | to stink | 1st conjugation | 1 of 68 |
 | [scrif](scrif-scrivere.md) | scrivere | to write | 3rd conjugation | 12 of 68 |
+| [sctudià / stüdià / studià](sctudia-studiare.md) | studiare | to study | 1st conjugation | 1 of 68 |
 | [sculpì](sculpi-scolpire.md) † | scolpire | to sculpt | 4th conjugation | 4 of 68 |
+| [scund](scund-nascondere.md) † | nascondere | to hide | 3rd conjugation | 1 of 68 |
+| [scüsà](scusa-scusare.md) † | scusare | to excuse | 1st conjugation | 1 of 68 |
+| [sentì](senti-sentire.md) | sentire | to hear, feel | 4th conjugation | 2 of 68 |
 | [serà](sera-chiudere.md) | chiudere | to close | 1st conjugation | 2 of 68 |
 | [setas giò / setas giô](setas-gio-sedersi.md) | sedersi | to sit down | 1st conjugation | 16 of 68 |
 | [stà](sta-stare.md) | stare | to stay / be | irregular | 15 of 68 |
+| [süced](suced-succedere.md) † | succedere | to happen | 3rd conjugation | 1 of 68 |
 | [sudà](suda-sudare.md) | sudare | to sweat | 1st conjugation | 6 of 68 |
+| [sumeà](sumea-sembrare.md) † | sembrare | to seem | 1st conjugation | 2 of 68 |
+| [sunà](suna-suonare.md) † | suonare | to play (an instrument); ring | 1st conjugation | 1 of 68 |
 | [tacà sü](taca-su-appendere.md) † | appendere | to hang | 1st conjugation | 5 of 68 |
 | [taià](taia-tagliare.md) | tagliare | to cut | 1st conjugation | 29 of 68 |
 | [tasé](tase-tacere.md) † | tacere | to be silent | 2nd conjugation | 6 of 68 |
@@ -92,15 +136,19 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [tradü](tradu-tradurre.md) | tradurre | to translate | 3rd conjugation | 6 of 68 |
 | [truà](trua-trovare.md) | trovare | to find | 1st conjugation | 6 of 68 |
 | [trüsà / rügà](trusa-mescolare.md) | mescolare | to mix | 1st conjugation | 6 of 68 |
+| [tucà](tuca-toccare.md) † | toccare | to touch; have to (m'è tucaa) | 1st conjugation | 1 of 68 |
 | [turna o torna indré](turna-ritornare.md) | ritornare | to return | 1st conjugation | 6 of 68 |
 | [unurà](unura-onorare.md) † | onorare | to honour | 1st conjugation | 4 of 68 |
 | [vedé](vede-vedere.md) | vedere | to see | 2nd conjugation | 19 of 68 |
-| [vegh / végh](vegh-avere.md) | avere | to have | irregular | 60 of 68 |
+| [vegh / veg / végh](vegh-avere.md) | avere | to have | irregular | 60 of 68 |
 | [vegnì](vegni-venire.md) | venire | to come | 4th conjugation | 53 of 68 |
+| [vend](vend-vendere.md) † | vendere | to sell | 3rd conjugation | 1 of 68 |
 | [vert / vèrt](vert-aprire.md) † | aprire | to open | 3rd conjugation | 4 of 68 |
 | [ves / véss](ves-essere.md) | essere | to be | irregular | 62 of 68 |
 | [vif](vif-vivere.md) | vivere | to live | 3rd conjugation | 9 of 68 |
+| [vinc](vinc-vincere.md) † | vincere | to win | 3rd conjugation | 1 of 68 |
 | [vöras ben](voras-ben-amarsi.md) † | amarsi | to love each other | 2nd conjugation | 4 of 68 |
 | [vöré](vore-volere.md) | volere | to want | 2nd conjugation | 43 of 68 |
 | [vosà o vusà / vôsà o vusà](vosa-gridare.md) | gridare / esclamare / urlare | to shout | 1st conjugation | 29 of 68 |
 | [voscà](vosca-osare.md) † | osare | to dare | 1st conjugation | 20 of 68 |
+| [vultas](vultas-voltarsi.md) † | voltarsi | to turn round | 1st conjugation | 1 of 68 |

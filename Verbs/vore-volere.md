@@ -43,7 +43,7 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 
 |  | Condizionale presente | Condizionale passato † |
 |---|---|---|
-| *mi* | vöraria/vöraressa | avria/avress vurüü |
+| *mi* | vöraria/vöraressa / vöraresa | avria/avress vurüü |
 | *ti* | vörariat/vöraressat | t’avriat/t’avressat vurüü |
 | *le / lü* | vöraria/vöraressa | l’avria/l’avressa vurüü |
 | *nüm* | vörarium/vöraressum | avrium/avressum vurüü |
