@@ -502,9 +502,9 @@ def same_letters(form):
 
 
 def cross_references(words):
-    """For the Dialett look-up: one extra row per alternate spelling, in its own alphabetical place, pointing
-    to the entry that has them all ('giô -> giò / giô / giõ', 'scultà -> scoltà o scultà'), so a word can be
-    found however it is written."""
+    """For the Dialett look-up: one extra row per alternate spelling, in its own alphabetical place, with the
+    main spelling in brackets and the same Italian and English ('cumün (= comün) · comune · municipality',
+    'scultà (= scoltà)'), so a word can be found, and understood, however it is written (owner, 2026-10-28)."""
     out, seen = [], set()
     for p in words:
         # a leading article pair is definite/indefinite, not two spellings: 'ul/un purcel' has no
@@ -517,9 +517,10 @@ def cross_references(words):
             # the entry anyway: a pointer there would only look like a duplicate
             if same_letters(f) == same_letters(forms[0]):
                 continue
-            if (key(f), key(p["dialect"])) not in seen:
-                seen.add((key(f), key(p["dialect"])))
-                out.append(dict(p, dialect=f, italian=f"→ {p['dialect']}", english="", note="", check="", supplied=False,
+            label = f"{f} (= {forms[0]})"
+            if (key(label), key(p["italian"])) not in seen:      # every sense, each once (trüsà, trüsà o rügà)
+                seen.add((key(label), key(p["italian"])))
+                out.append(dict(p, dialect=label, note="", check="",
                                 gender="", plural="", pos="", feminine="", feminine_inferred="", masculine_inferred="", partner="",
                                 principal="", entry_note="", entry_note_en=""))
     return out
