@@ -493,3 +493,5 @@ variant,rogn,na giô,,na giò,,,,Claude inferred: spelling of the verb na giò i
 variant,rogn,setas giô,,setas giò,,,,Claude inferred: spelling of the verb setas giò in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
 variant,rogn,vôsà o vusà,,vosà o vusà,,,,Claude inferred: spelling of the verb vosà o vusà in the heading of the teacher's subjunctive sheet (Cors da dialett da Rögn al congiuntif),2026-10-26
 correct,rogn,mia Sctess,,mia sctess,,diverso,different,"Claude inferred: a stray capital in the teacher's table (Aggettivi e contrari), as in the opposite sctess",2026-10-28
+correct,rogn,ungia / unghie: uncc,,ungia,,,,"Claude inferred: the lesson writes the Italian plural and the dialect plural into the headword (unghia, ungia / unghie: uncc); the plural uncc goes in etc/nouns.csv",2026-10-29
+correct,ticinese,"un ghel, dü ghep",,ghel,,,,"Claude inferred: the headword holds the singular and plural with their numerals (one penny, two pennies); the plural ghep goes in etc/nouns.csv",2026-10-29

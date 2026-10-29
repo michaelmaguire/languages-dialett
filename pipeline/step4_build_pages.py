@@ -12,7 +12,6 @@ step 5 to replace): never edit them by hand.
 """
 import csv, difflib, glob, re, shutil, sys, unicodedata
 from collections import OrderedDict, defaultdict
-from pathlib import Path
 from urllib.parse import quote
 
 from openpyxl import load_workbook
@@ -364,15 +363,57 @@ def region(p):
     return "" if v.startswith(("other", "unknown", "?", "-")) else v
 
 
-def lookup_words(words):
-    """The entries to list when looking up from Italian or English. Where the course (Rögn) has a word
-    with the same Italian or the same English, the forms from other regions are left out, so a look-up
-    gives the Rögn word; they stay in the Dialett direction, with their region."""
-    it = lambda p: plain(bare(p["italian"].replace(INFERRED.strip(), ""))) if not p["italian"].startswith("[") else ""
-    en = lambda p: plain(EN_ARTICLE.sub("", p["english"]))
-    rogn = [p for p in words if p["canonical"] == "yes"]
-    known_it, known_en = {it(p) for p in rogn} - {""}, {en(p) for p in rogn} - {""}
-    return [p for p in words if p["canonical"] == "yes" or not (it(p) in known_it or en(p) in known_en)]
+def split_translation(text, verb=False):
+    """The words a translation offers, each to be looked up on its own: 'journey, trip' -> journey, trip
+    (owner, 2026-10-29: every word in every direction gets an entry). Splits on , ; / outside brackets and
+    drops the brackets ('climb, uphill (in salida)' -> climb, uphill). A slash without spaces inside a phrase
+    swaps one word ('stretched himself/herself out' -> stretched himself out, stretched herself out); a
+    one-letter part after it is an ending ('doppio/a'), not a word. A short part after a spaced slash replaces
+    the last word of a phrase ('sono capace a / di' -> sono capace di). A verb's later parts get the 'to' of
+    the first ('to pour, spill')."""
+    text = text.replace(INFERRED.strip(), "")
+    flat = re.sub(r"\([^()]*\)", " ", text)
+    out = []
+    for chunk in re.split(r"[,;]", flat):
+        subs = [" ".join(s.split()) for s in re.split(r"\s+/\s+", chunk)]
+        for j, s in enumerate(subs):
+            if not s:
+                continue
+            if j and " " in subs[0] and " " not in s and len(s) <= 3:
+                s = subs[0].rsplit(" ", 1)[0] + " " + s          # sono capace a / di
+            words = s.split(" ")
+            n = next((i for i, w in enumerate(words) if "/" in w), None)
+            if n is None:
+                alts = [s]
+            else:                                                 # himself/herself; triplo/a/triplice
+                options = [o for k, o in enumerate(words[n].split("/")) if o and (k == 0 or len(o) > 1)]
+                alts = [" ".join(words[:n] + [o] + words[n + 1:]) for o in options]
+            for w in alts:
+                if verb and out and out[0].startswith("to ") and not w.startswith("to "):
+                    w = "to " + w
+                out.append(w)
+    return list(dict.fromkeys(out)) or ([text.strip()] if text.strip() else [])
+
+
+def lookup_rows(words, head):
+    """The rows of the Italian or English look-up: each entry once under every word of its translation
+    (viagg under both journey and trip). A word from another region is left out under a headword where Rögn
+    has an entry, so a look-up gives the Rögn word (owner, 2026-10-14), but only under that headword: until
+    2026-10-29 the whole entry was hidden from both look-ups when Rögn shared its Italian or its English, so
+    Basso Ceresio's puliss (pulire, to clean) could not be found from 'to clean'."""
+    out = []
+    for p in words:
+        if p[head].startswith("["):
+            out.append(p)
+            continue
+        alts = split_translation(p[head], verb=p.get("pos") == "verb")
+        mark = INFERRED if INFERRED.strip() in p[head] else ""
+        for w in alts:
+            out.append(dict(p, **{head: w + mark}) if len(alts) > 1 or w + mark != p[head] else p)
+    # accents count (però, but, is not pero, pear tree), and so does 'to' (to hit is not the noun hit)
+    norm = (lambda s: key(re.sub(r"^(?:the|an?)\s+", "", s, flags=re.I))) if head == "english" else (lambda s: key(bare(s)))
+    rogn = {norm(p[head]) for p in out if p["canonical"] == "yes" and p[head]}
+    return [p for p in out if p["canonical"] == "yes" or not p[head] or norm(p[head]) not in rogn]
 
 
 def merge_same_head(rows, head, others, region_of):
@@ -418,9 +459,10 @@ def lookup_table(rows, head, cols, lang="en"):
         # homographs merged into one row (vert: green, to open) show each part of speech
         if head != "dialect":
             return show[head](g[0])
-        labels = list(dict.fromkeys(word_label(p, lang) for p in g if word_label(p, lang)))
-        p = g[0]
-        return dialect_shown(p) + "".join(f" *{x}*" for x in labels) + (FLAG if p["check"] else "")
+        # each with its own forms: 'frecc n. m., pl. frecc · frecc/frecia adj.' (the adjective's feminine was
+        # missing until 2026-10-29); senses of one part of speech share its label
+        parts = dict.fromkeys(dialect_shown(p) + (f" *{word_label(p, lang)}*" if word_label(p, lang) else "") for p in g)
+        return " · ".join(parts) + (FLAG if g[0]["check"] else "")
 
     body = [[head_cell(g)] + [notes(g) if c == "note" else "<br>".join(show[c](p) for p in g) for c in cols]
             for g in groups]
@@ -529,9 +571,9 @@ def cross_references(words):
 def word_page(title, intro, words, order):
     """order: 'it' (Italian first) or 'di' (dialect first)."""
     if order == "it":
-        sort_key, head = (lambda p: "" if p["italian"].startswith("[") else bare(p["italian"])), ["Italiano", "Dialett", "English", "Region", "Note", "Source"]
+        sort_key = (lambda p: "" if p["italian"].startswith("[") else bare(p["italian"]))
     else:
-        sort_key, head = (lambda p: DI_ARTICLE.sub("", key(p["dialect"]))), ["Dialett", "Italiano", "English", "Region", "Note", "Source"]
+        sort_key = (lambda p: DI_ARTICLE.sub("", key(p["dialect"])))
     groups = by_letter(words, sort_key)
     # an entry with nothing to sort on (Italian unknown, shown as "[?]") goes last, not under "#"
     groups = [g for g in groups if g[0] != "#"] + [("No Italian yet" if order == "it" else "Other", rows)
@@ -801,8 +843,6 @@ def render(uniq, tables, eng, topics=None):
     """Write every Markdown page and the data/ exports from entries in the page format.
     topics: the rows of cldf/topics.csv, in order."""
     sources = read(ETC / "lesson_sources.csv")
-    canon = [p for p in uniq if p["canonical"] == "yes"]
-    other = [p for p in uniq if p["canonical"] != "yes"]
     words = [p for p in uniq if p["kind"] == "word"]
     exprs = [p for p in uniq if p["kind"] == "expression"]
 
@@ -835,15 +875,16 @@ def render(uniq, tables, eng, topics=None):
             "After each word, its part of speech: " + ", ".join(f"*{en}* {pos}" for pos, (en, it) in POS_ABBR.items())
             + " (on the Italian page in Italian: " + ", ".join(f"*{it}*" for en, it in POS_ABBR.values() if it != en)
             + "); then a noun's gender (*m.*, *f.*) and plural (*pl.*), and a verb's 1st person singular and past participle (*truà v. (trövi, truaa)*; † on a predicted form). An adjective is shown with its feminine: *bagnaa/bagnada*.")
-    lookup = lookup_words(words)
+    lookup = lookup_rows(words, "italian")
     note_lookup = (note + " Looking up from Italiano or English, a word from another region is left out when the "
-                   "Rögn course has a word with the same meaning; the Dialett page lists them all.")
+                   "Rögn course has a word with the same meaning; the Dialett page lists them all. A word with several "
+                   "translations is listed under each of them (*viagg* under both *journey* and *trip*).")
     write(ROOT / "Dictionary/italiano.md", word_page("Italiano → Dialett → English", note_lookup, lookup, "it"))
     write(ROOT / "Dictionary/dialett.md", word_page("Dialett → Italiano → English", note + " A word written in "
           "several ways is listed under each spelling: → points to the entry that has them all.",
           words + cross_references(words), "di"))
 
-    en_rows = sorted(lookup, key=lambda p: (not p["english"], plain(EN_ARTICLE.sub("", p["english"])),
+    en_rows = sorted(lookup_rows(words, "english"), key=lambda p: (not p["english"], plain(EN_ARTICLE.sub("", p["english"])),
                                             p["canonical"] != "yes", plain(p["dialect"])))  # no English: last
     n_blank = sum(not p["english"] for p in en_rows)
     en_page = ["# English → Dialett → Italiano\n",
@@ -1068,7 +1109,7 @@ def render(uniq, tables, eng, topics=None):
                   ["[CLDF dataset](cldf/README.md)", "The master data set behind these pages, in the "
                    "[CLDF](https://cldf.clld.org/) (Cross-Linguistic Data Formats) Dictionary format: "
                    "words, meanings, examples, verb forms, sources and decisions on variants",
-                   (lambda f: f"{sum(1 for _ in f.open()) - 1} entries" if f.exists() else "")(CLDF / "entries.csv")],
+                   f"{sum(1 for _ in (CLDF / 'entries.csv').open()) - 1} entries" if (CLDF / "entries.csv").exists() else ""],
                   [f"[Raw sources]({RAW_URL})", "The original course documents, and the owner's own spreadsheet and notes (a separate repository, private for now)", f"{len(sources)} files"],
                   ["[Curation](etc/README.md)", "Every decision and correction applied when building the data set", ""],
                   ["[Attributions](ATTRIBUTIONS.md)", "Who wrote what, and what was generated", ""]]),

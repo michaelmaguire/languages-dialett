@@ -14,7 +14,6 @@ nearly always end in a vowel and never contain ü/ö, dialect words often end in
 a consonant.  An Italian word list is used as well when one is installed.
 """
 import csv, difflib, glob, re, sys, unicodedata
-from pathlib import Path
 
 from paths import RAW, ETC, DATA, PRIVATE, TEXT
 
@@ -22,15 +21,9 @@ CELL_SEP = "¦"
 
 # ---------------------------------------------------------------- language scoring
 WORD = re.compile(r"[^\W\d_]+")
-IT_FUNC = set("""il lo la i gli le un uno una di a da in con su per tra fra del dello della dei degli
-delle al allo alla ai agli alle dal dallo dalla dai dagli dalle nel nello nella nei negli nelle sul
-sullo sulla sui sugli sulle e ed o ma se che chi non più come dove quando perché anche io tu lui lei
-noi voi loro mi ti si ci vi è sono sei siamo siete ho hai ha abbiamo avete hanno mio tuo suo questo
-questa quello quella molto poco tutto tutti cosa già ancora sempre mai oggi ieri domani""".split())
-IT_CONS_FINAL = set("il un in con per non del al nel sul dal col ed ad od bar sport film tram nord sud est ovest".split())
-DIALECT_FUNC = set("""mia ul cun par ga ta anca cumè cumé cume gh ghè sum sem gò vo fò nal dala nala
-ala nà fà dì vün na indua cusè cusé parché vialtri lur nüm pö dopu quand adess inscì sa i'è ièn
-gnanca denta dent sciur sciura tusa nagot quai""".split())
+IT_FUNC = {"il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "di", "a", "da", "in", "con", "su", "per", "tra", "fra", "del", "dello", "della", "dei", "degli", "delle", "al", "allo", "alla", "ai", "agli", "alle", "dal", "dallo", "dalla", "dai", "dagli", "dalle", "nel", "nello", "nella", "nei", "negli", "nelle", "sul", "sullo", "sulla", "sui", "sugli", "sulle", "e", "ed", "o", "ma", "se", "che", "chi", "non", "più", "come", "dove", "quando", "perché", "anche", "io", "tu", "lui", "lei", "noi", "voi", "loro", "mi", "ti", "si", "ci", "vi", "è", "sono", "sei", "siamo", "siete", "ho", "hai", "ha", "abbiamo", "avete", "hanno", "mio", "tuo", "suo", "questo", "questa", "quello", "quella", "molto", "poco", "tutto", "tutti", "cosa", "già", "ancora", "sempre", "mai", "oggi", "ieri", "domani"}
+IT_CONS_FINAL = {"il", "un", "in", "con", "per", "non", "del", "al", "nel", "sul", "dal", "col", "ed", "ad", "od", "bar", "sport", "film", "tram", "nord", "sud", "est", "ovest"}
+DIALECT_FUNC = {"mia", "ul", "cun", "par", "ga", "ta", "anca", "cumè", "cumé", "cume", "gh", "ghè", "sum", "sem", "gò", "vo", "fò", "nal", "dala", "nala", "ala", "nà", "fà", "dì", "vün", "na", "indua", "cusè", "cusé", "parché", "vialtri", "lur", "nüm", "pö", "dopu", "quand", "adess", "inscì", "sa", "i'è", "ièn", "gnanca", "denta", "dent", "sciur", "sciura", "tusa", "nagot", "quai"}
 DIALECT_CHARS = set("üöôõ")
 DIALECT_ENDINGS = ("aa", "ii", "üü", "oo", "ee", "öö", "ée", "àa")
 
@@ -64,9 +57,7 @@ def dialect_score(text):
             s += 1.5
         elif t in IT_WORDS:
             s -= 1
-        elif len(t) > 1 and t[-1] not in "aeiouàèéìòù" and t not in IT_CONS_FINAL:
-            s += 1
-        elif t.endswith(DIALECT_ENDINGS):
+        elif len(t) > 1 and t[-1] not in "aeiouàèéìòù" and t not in IT_CONS_FINAL or t.endswith(DIALECT_ENDINGS):
             s += 1
         elif t[-1] in "oe" and len(t) > 3:
             s -= 0.3
@@ -254,7 +245,7 @@ def parse_bullets(doc, lines):
     for n, parts in blocks:
         if len(parts) < 2:
             continue
-        best = max(((similarity(" ".join(parts[:k]), " ".join(parts[k:])), k) for k in range(1, len(parts))))
+        best = max((similarity(" ".join(parts[:k]), " ".join(parts[k:])), k) for k in range(1, len(parts)))
         it, di = " ".join(parts[:best[1]]), " ".join(parts[best[1]:])
         if it.lower() == di.lower():
             continue
@@ -353,18 +344,7 @@ def parse(doc, text):
                     parts = [p[:1].lower() + p[1:] for p in parts]
                     doc.verb(it_name, di_name, table_tense or "?", row[0], " / ".join(parts[1:]), n)
                     doc.verbs[-1]["italian_form"] = parts[0]
-            elif not row and max(c.count(CELL_SEP) for c in cells) >= 2:
-                # a cell holding a whole list of lines: only usable if two cells line up one-to-one
-                cols = [[p.strip() for p in c.split(CELL_SEP) if p.strip()] for c in cells if c]
-                if len(cols) == 2 and len(cols[0]) == len(cols[1]):
-                    for a, b in zip(*cols):
-                        if similarity(a, b) >= ALT_SIM and orient(a, b)[2] >= ALT_MARGIN:
-                            doc.pair(a, b, n)
-                else:
-                    for col in cols:
-                        doc.unparsed += [{"source": doc.name, "line": n, "text": clean(t),
-                                          "variety": doc.meta["variety"]} for t in col]
-            elif not row and max(c.count(CELL_SEP) for c in cells) >= 2:
+            elif not row and max(c.count(CELL_SEP) for c in cells) >= 2 or not row and max(c.count(CELL_SEP) for c in cells) >= 2:
                 # a cell holding a whole list of lines: only usable if two cells line up one-to-one
                 cols = [[p.strip() for p in c.split(CELL_SEP) if p.strip()] for c in cells if c]
                 if len(cols) == 2 and len(cols[0]) == len(cols[1]):
@@ -671,7 +651,10 @@ def public_pairs(pairs, manifest):
     # lines a decision or a pair correction names (its wording may then differ from expression_topics.csv)
     for d in csv.DictReader((ETC / "decisions.csv").open(encoding="utf-8")):
         kept.add(norm(QUOTES.sub("", d["Form"])))
-    fixed = {(r["source"], r["line"]) for r in csv.DictReader((ETC / "pair_corrections.csv").open(encoding="utf-8"))}
+    # a line a correction replaces is needed to apply it; a deleted line is not, so it is not published
+    # (the deleted glossary line of dialoghi a Lugano was, until 2026-10-29)
+    fixed = {(r["source"], r["line"]) for r in csv.DictReader((ETC / "pair_corrections.csv").open(encoding="utf-8"))
+             if (r.get("action") or "").strip().lower() == "replace"}
     return [p for p in pairs if not (genre.get(p["source"]) == "text" and p["kind"] == "expression"
                                      and norm(QUOTES.sub("", p["dialect"])) not in kept
                                      and (p["source"], str(p["line"])) not in fixed)]

@@ -4,3 +4,4 @@ cldfbench
 pypdf
 genanki
 pytest-cldf
+ruff

@@ -6,7 +6,7 @@
 
 | Dialett | Italiano | English |
 |---|---|---|
-| **purtà** | portare | to carry, bring |
+| **purtà** | portare | to carry, to bring |
 
 | Gerundio † | Participio passato | Verb class |
 |---|---|---|

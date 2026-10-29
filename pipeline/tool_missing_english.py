@@ -11,7 +11,7 @@ import csv, sys
 from pathlib import Path
 import step4_build_pages as build
 
-from paths import ETC, CACHE, DATA
+from paths import ETC, CACHE
 
 TODO = CACHE / "missing_english_todo.csv"
 

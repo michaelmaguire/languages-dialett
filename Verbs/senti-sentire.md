@@ -6,7 +6,7 @@
 
 | Dialett | Italiano | English |
 |---|---|---|
-| **sentì** | sentire | to hear, feel |
+| **sentì** | sentire | to hear, to feel |
 
 | Gerundio † | Participio passato | Verb class |
 |---|---|---|

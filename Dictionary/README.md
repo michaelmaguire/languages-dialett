@@ -4,12 +4,12 @@
 
 | Look up by | Columns | Entries |
 |---|---|---|
-| [Italiano](italiano.md) | Italiano → Dialett → English | 1424 |
+| [Italiano](italiano.md) | Italiano → Dialett → English | 1470 |
 | [Dialett](dialett.md) | Dialett → Italiano → English | 1526 |
-| [English](english.md) | English → Dialett → Italiano | 1424 |
+| [English](english.md) | English → Dialett → Italiano | 1568 |
 
 **[arogno-dictionary.pdf](arogno-dictionary.pdf)** has all three for printing.
 
-The **Region** column says which dialect an entry belongs to: *Rögn* is the course dialect, other names are other parts of Ticino, and a blank means the variety has not been identified yet. ⚠ marks an entry the extraction script was unsure about; follow ↗ to the source document to check it. † after the Italian means the lesson gives the word in dialect only and the Italian was supplied afterwards. After each word, its part of speech: *n.* noun, *v.* verb, *adj.* adjective, *adv.* adverb, *prep.* preposition, *conj.* conjunction, *pron.* pronoun, *num.* numeral, *interj.* interjection, *phr.* phrase, *prop. n.* proper noun (on the Italian page in Italian: *s.*, *agg.*, *avv.*, *cong.*, *inter.*, *loc.*, *n. pr.*); then a noun's gender (*m.*, *f.*) and plural (*pl.*), and a verb's 1st person singular and past participle (*truà v. (trövi, truaa)*; † on a predicted form). An adjective is shown with its feminine: *bagnaa/bagnada*. Looking up from Italiano or English, a word from another region is left out when the Rögn course has a word with the same meaning; the Dialett page lists them all.
+The **Region** column says which dialect an entry belongs to: *Rögn* is the course dialect, other names are other parts of Ticino, and a blank means the variety has not been identified yet. ⚠ marks an entry the extraction script was unsure about; follow ↗ to the source document to check it. † after the Italian means the lesson gives the word in dialect only and the Italian was supplied afterwards. After each word, its part of speech: *n.* noun, *v.* verb, *adj.* adjective, *adv.* adverb, *prep.* preposition, *conj.* conjunction, *pron.* pronoun, *num.* numeral, *interj.* interjection, *phr.* phrase, *prop. n.* proper noun (on the Italian page in Italian: *s.*, *agg.*, *avv.*, *cong.*, *inter.*, *loc.*, *n. pr.*); then a noun's gender (*m.*, *f.*) and plural (*pl.*), and a verb's 1st person singular and past participle (*truà v. (trövi, truaa)*; † on a predicted form). An adjective is shown with its feminine: *bagnaa/bagnada*. Looking up from Italiano or English, a word from another region is left out when the Rögn course has a word with the same meaning; the Dialett page lists them all. A word with several translations is listed under each of them (*viagg* under both *journey* and *trip*).
 
 Longer phrases and sentences are under [Expressions](../Expressions/README.md); conjugations are under [Verbs](../Verbs/README.md).

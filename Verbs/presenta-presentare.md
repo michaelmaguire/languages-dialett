@@ -6,7 +6,7 @@
 
 | Dialett † | Italiano | English |
 |---|---|---|
-| **presentà** | presentare | to introduce, present |
+| **presentà** | presentare | to introduce, to present |
 
 | Gerundio † | Participio passato † | Verb class |
 |---|---|---|

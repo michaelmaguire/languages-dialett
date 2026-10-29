@@ -44,7 +44,7 @@ Le lezioni scrivono queste parole in più modi. Tutte le grafie restano e si pos
 | comün · cumün | comune | municipality |
 | cöör · cör | cuore | heart |
 | cor · côr | correre | to run |
-| cugnoss · cugnöss | conoscere | to know (someone), meet |
+| cugnoss · cugnöss | conoscere | to know (someone), to meet |
 | denc · dencc | dente | tooth |
 | dörmi · durmì | dormire | to sleep |
 | dü · düü | due | two |

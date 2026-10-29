@@ -11,7 +11,6 @@ In a compound only the noun and the words agreeing with it change, not what foll
 (dona da cà -> donn da cà, rösa marina -> rös marin).
 """
 import re
-import unicodedata
 
 PREPOSITIONS = {"da", "dal", "dala", "dai", "di", "dii", "del", "dela", "in", "int", "a", "al", "ala", "cul",
                 "cun", "cunt", "par", "de", "d’", "d'", "sü", "sota", "e", "o"}

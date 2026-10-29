@@ -690,6 +690,7 @@ def make(writer):
     missing_spellings = add_spellings(rows)
     missing_notes = add_notes(rows)
     missing_pos = add_parts_of_speech(rows)
+    verbs_in_english(rows)
     unsorted = place_examples(rows, bib)
     lesson_meta = {r["file"]: r for r in pages.read(ETC / "lesson_sources.csv")}
     grammar_warnings = grammar.cldf_rows(rows, bib, cite, bib_entry, lesson_meta, writer.cldf_spec.dir)
@@ -845,6 +846,18 @@ def add_parts_of_speech(rows):
     return missing
 
 
+def verbs_in_english(rows):
+    """A verb's English is 'to …' in every sense ('deal with, treat' -> to deal with, to treat), whatever the
+    source, so the English look-up files it with the other verbs (owner, 2026-10-29). Headwords that are not
+    an infinitive (taass, be quiet) keep their English."""
+    verbs = {e["ID"] for e in rows["entries.csv"] if e.get("Part_Of_Speech") == "verb"
+             and "=" not in e["Headword"] and e["Headword"] not in NOT_INFINITIVE}
+    for s in rows["senses.csv"]:
+        en = s.get("Description_English")
+        if s["Entry_ID"] in verbs and en:
+            s["Description_English"] = ", ".join(pages.to_verb(w.strip()) for w in en.split(",") if w.strip())
+
+
 # verb headwords that are not an infinitive, so no forms are predicted from them (listed by the build):
 # imperatives (taass = taci, vann = vattene), a past (punda giò = posarono), a verb with its pronoun
 NOT_INFINITIVE = {"taass", "vann", "punda giò", "sgraffirala"}
@@ -884,7 +897,7 @@ def predict_guide_forms(entries, guide):
         base = tabled.get(conj.plain(head))
         if base:
             base_rest, forms = base
-            def move(f):
+            def move(f, base_rest=base_rest, tail=tail):
                 f = strip_mark(f).strip()
                 if base_rest and f.endswith(" " + base_rest):
                     f = f[:-len(base_rest) - 1]

@@ -28,7 +28,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [ciapà](ciapa-prendere.md) | prendere | to take | 1st conjugation | 50 of 68 |
 | [cor / côr](cor-correre.md) | correre | to run | 3rd conjugation | 43 of 68 |
 | [cred](cred-credere.md) | credere | to believe | 3rd conjugation | 4 of 68 |
-| [cugnoss / cugnöss](cugnoss-conoscere.md) | conoscere | to know (someone), meet | 3rd conjugation | 1 of 68 |
+| [cugnoss / cugnöss](cugnoss-conoscere.md) | conoscere | to know (someone), to meet | 3rd conjugation | 1 of 68 |
 | [cumandà](cumanda-comandare.md) | comandare | to command; order | 1st conjugation | 1 of 68 |
 | [cumincià / tacà](cumincia-incominciare.md) † | incominciare | to begin | 1st conjugation | 4 of 68 |
 | [cüsì](cusi-cucire.md) | cucire | to sew | 4th conjugation | 10 of 68 |
@@ -82,14 +82,14 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [perd](perd-perdere.md) | perdere | to lose | 3rd conjugation | 1 of 68 |
 | [pesà](pesa-pesare.md) † | pesare | to weigh | 1st conjugation | 1 of 68 |
 | [pestà](pesta-battere.md) † | battere | to beat | 1st conjugation | 6 of 68 |
-| [piasé](piase-piacere.md) † | piacere | to please, like | 2nd conjugation | 2 of 68 |
+| [piasé](piase-piacere.md) † | piacere | to please, to like | 2nd conjugation | 2 of 68 |
 | [picà](pica-picchiare.md) † | picchiare | to hit | 1st conjugation | 6 of 68 |
 | [podé / pudé](pode-potere.md) | potere | to be able to | 2nd conjugation | 43 of 68 |
 | [preferì](preferi-preferire.md) † | preferire | to prefer | 4th conjugation | 1 of 68 |
-| [presentà](presenta-presentare.md) † | presentare | to introduce, present | 1st conjugation | 1 of 68 |
+| [presentà](presenta-presentare.md) † | presentare | to introduce, to present | 1st conjugation | 1 of 68 |
 | [prodü / fà](produ-produrre.md) | produrre | to produce | 3rd conjugation | 6 of 68 |
 | [pruà](prua-provare.md) | provare | to try | 1st conjugation | 1 of 68 |
-| [purtà](purta-portare.md) | portare | to carry, bring | 1st conjugation | 1 of 68 |
+| [purtà](purta-portare.md) | portare | to carry, to bring | 1st conjugation | 1 of 68 |
 | [regordas](regordas-ricordarsi.md) † | ricordarsi | to remember | 1st conjugation | 5 of 68 |
 | [rescpirà](rescpira-respirare.md) † | respirare | to breathe | 1st conjugation | 1 of 68 |
 | [rescpond](rescpond-rispondere.md) † | rispondere | to answer | 3rd conjugation | 1 of 68 |
@@ -116,7 +116,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [sculpì](sculpi-scolpire.md) † | scolpire | to sculpt | 4th conjugation | 4 of 68 |
 | [scund](scund-nascondere.md) † | nascondere | to hide | 3rd conjugation | 1 of 68 |
 | [scüsà](scusa-scusare.md) † | scusare | to excuse | 1st conjugation | 1 of 68 |
-| [sentì](senti-sentire.md) | sentire | to hear, feel | 4th conjugation | 2 of 68 |
+| [sentì](senti-sentire.md) | sentire | to hear, to feel | 4th conjugation | 2 of 68 |
 | [serà](sera-chiudere.md) | chiudere | to close | 1st conjugation | 2 of 68 |
 | [setas giò / setas giô](setas-gio-sedersi.md) | sedersi | to sit down | 1st conjugation | 16 of 68 |
 | [stà](sta-stare.md) | stare | to stay / be | irregular | 15 of 68 |

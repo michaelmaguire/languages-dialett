@@ -10,7 +10,7 @@ import argparse, logging, sys
 from paths import ROOT
 
 sys.path.insert(0, str(ROOT))
-from cldfbench_rogn import Dataset  # noqa: E402
+from cldfbench_rogn import Dataset
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
 Dataset()._cmd_makecldf(argparse.Namespace(log=logging.getLogger("cldfbench")))

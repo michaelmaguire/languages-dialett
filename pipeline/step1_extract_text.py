@@ -27,7 +27,7 @@ CELL_SEP = " ¦ "  # between paragraphs inside one table cell
 
 def ocr_image(path):
     r = subprocess.run(["tesseract", str(path), "-", "-l", OCR_LANGS, "--psm", "3"],
-                       capture_output=True, text=True)
+                       capture_output=True, text=True, check=False)       # no text: the page is reported empty
     return r.stdout
 
 
@@ -99,7 +99,7 @@ def looks_like_text(text):
 
 def pdf_text(path):
     text = subprocess.run(["pdftotext", "-layout", str(path), "-"],
-                          capture_output=True, text=True).stdout
+                          capture_output=True, text=True, check=False).stdout   # no text: OCR below
     if looks_like_text(text):
         return text, "text"
     pages = []
@@ -129,7 +129,7 @@ def main():
         print("extracting", path.name, flush=True)
         try:
             text, how = {".docx": docx_text, ".txt": plain_text}.get(path.suffix.lower(), pdf_text)(path)
-        except Exception as e:                # keep going; report at the end
+        except Exception as e:  # noqa: BLE001 -- any failure: keep going, report at the end
             print("  FAILED:", e)
             continue
         text = re.sub(r"[ \t]+\n", "\n", text.replace(" ", " "))

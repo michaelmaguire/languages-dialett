@@ -22,7 +22,6 @@ In the text, *word* is a dialect word, [ciapà](EntryTable#cldf:ciapa) links to 
 a statement that Claude worked out from the forms in the course rather than one the course states.
 """
 import csv, html, re
-from collections import defaultdict
 from urllib.parse import quote
 
 from paths import CLDF, ETC, ROOT

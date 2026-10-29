@@ -9,7 +9,7 @@ import sys
 from cldfbench import CLDFSpec, Dataset as BaseDataset
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent / "pipeline"))
-import lexicon  # noqa: E402  (the conversion code lives with the rest of the pipeline)
+import lexicon
 
 
 class Dataset(BaseDataset):

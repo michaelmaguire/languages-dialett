@@ -56,7 +56,7 @@ def git_mv(old, new):
     """Rename a file, with `git mv` if git tracks it (keeps its history), else a plain rename."""
     # run git in the file's own folder: the cached texts are inside the raw/ submodule, its own repository
     if subprocess.run(["git", "-C", str(old.parent), "mv", "--", str(old), str(new)],
-                      capture_output=True).returncode != 0:
+                      capture_output=True, check=False).returncode != 0:
         old.rename(new)
 
 
@@ -86,7 +86,7 @@ def main():
             text = nfc(f.read())
         changed, n_file = text, 0
         for old, new in renames:
-            changed, n = name_pattern(old).subn(lambda m: new, changed)
+            changed, n = name_pattern(old).subn(lambda m, new=new: new, changed)
             n_file += n
         if n_file:
             total += n_file

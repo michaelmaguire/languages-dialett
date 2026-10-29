@@ -1,0 +1,13 @@
+# ruff (pipeline/.venv/bin/ruff check), run by tests/test_lint.py on every build (owner, 2026-10-29).
+# raw/ is the private submodule of source material, not code of this repository.
+extend-exclude = ["raw", "pipeline/.venv", "pipeline/cache"]
+line-length = 140
+
+[lint]
+# style rules this code does not follow, by choice:
+ignore = [
+    "ISC004",   # implicit string concatenation in lists: used for long page texts
+    "FURB167",  # re.I rather than re.IGNORECASE
+    "I001",     # import order
+    "EXE001",   # shebang on scripts run as `python script.py`
+]

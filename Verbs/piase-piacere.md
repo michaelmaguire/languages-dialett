@@ -6,7 +6,7 @@
 
 | Dialett † | Italiano | English |
 |---|---|---|
-| **piasé** | piacere | to please, like |
+| **piasé** | piacere | to please, to like |
 
 | Gerundio † | Participio passato † | Verb class |
 |---|---|---|

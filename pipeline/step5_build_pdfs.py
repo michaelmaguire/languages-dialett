@@ -14,7 +14,6 @@ Each PDF is printed twice: the contents page holds {{page:ID}} placeholders, and
 from where the first print put the elements those IDs link to (read back with pypdf).
 """
 import datetime, html, re, shutil, subprocess, sys
-from pathlib import Path
 
 import step4_build_pages as build
 import feminine
@@ -272,8 +271,8 @@ def print_with_contents(out, page, document, message):
     numbers = dict.fromkeys(ids, "000")
     padded = set()
     for _ in range(3 + 2 * len(rectos)):      # normally two prints: the second confirms the numbers
-        text = RECTO.sub(lambda m: BLANK_PAGE if m.group(1) in padded else "", document)
-        page.write_text(PLACEHOLDER.sub(lambda m: numbers[m.group(1)], text))
+        text = RECTO.sub(lambda m, padded=padded: BLANK_PAGE if m.group(1) in padded else "", document)
+        page.write_text(PLACEHOLDER.sub(lambda m, numbers=numbers: numbers[m.group(1)], text))
         if not print_pdf(out, page):
             return
         reader = pypdf.PdfReader(out)
@@ -324,13 +323,13 @@ def dictionary():
 
     for w in words:
         w["canonical"] = "yes" if w["region"] == "Rögn" else "no"
-    lookup = build.lookup_words(words)          # from Italian or English, the Rögn word where there is one
 
     def entries(part, head, second, third, sort_key):
         groups = {}
         # an entry with no word in the look-up language ("[get out of]" for unknown Italian) is left out
         # in the dialect part a word written in several ways appears under each spelling (giô -> giò / giô / giõ)
-        source = words + build.cross_references(words) if head == "dialect" else lookup
+        # from Italian or English, each entry under every word of its translation, the Rögn word where there is one
+        source = words + build.cross_references(words) if head == "dialect" else build.lookup_rows(words, head)
         for w in sorted((w for w in source if w[head] and not w[head].startswith("[")),
                         key=lambda w: build.plain(sort_key(w))):
             letter = (build.plain(sort_key(w)) or "#")[0].upper()
@@ -349,7 +348,13 @@ def dictionary():
                                       for k in (second, third) if w[k])
                     region = f' <span class="r">{esc(w["region"])}</span>' if w["region"] and w["region"] != "Rögn" else ""
                     note = f' <span class="n">({esc(w["note"])})</span>' if w["note"] and len(w["note"]) < 60 else ""
-                    senses.append(f"<i>{rest}</i>{flag}{region}{note}")
+                    # a homograph's later part of speech gets its own forms and label (frecc n. … → freddo · cold;
+                    # frecc/frecia adj. freddo · cold), so each sense says which word it belongs to
+                    other = head == "dialect" and w is not rows[0] and (w.get("pos"), build.dialect_shown(w)) != \
+                        (rows[0].get("pos"), build.dialect_shown(rows[0])) and build.word_label(w)
+                    lead = (f'<b>{esc(build.dialect_shown(w))}</b> <span class="g">{esc(build.word_label(w))}</span> '
+                            if other else "")
+                    senses.append(f"{lead}<i>{rest}</i>{flag}{region}{note}")
                 label = build.word_label(rows[0]) if head == "dialect" else ""
                 label = f' <span class="g">{esc(label)}</span>' if label else ""
                 shown = build.dialect_shown(rows[0]) if head == "dialect" else rows[0][head]

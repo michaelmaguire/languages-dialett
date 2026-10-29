@@ -113,7 +113,9 @@ def merge(path, known):
     rows = list(csv.DictReader(OUT.open(encoding="utf-8"))) if OUT.exists() else []
     have = {plain(r["Form"]) for r in rows}
     added, skipped = 0, []
-    for line in open(path, encoding="utf-8"):
+    with open(path, encoding="utf-8") as fh:
+        lines = fh.readlines()
+    for line in lines:
         if not line.strip():
             continue
         f = (line.rstrip("\n").split("\t") + [""] * 9)[:9]

@@ -95,6 +95,13 @@ private submodule. Do not move them back, and do not add other files that quote 
 The texts were in this repository's history before that date; removing them from the history (git
 filter-repo and a force push) is a separate step the owner has not yet taken.
 
+**Tests (owner, 2026-10-29).** `build_all.sh` ends by running `tests/` (pytest: every rule agreed for the
+dictionary, verb pages, PDFs and the privacy rule, plus ruff with `ruff.toml` and a compile check) and
+`test.py` (CLDF validity); the build fails if any fails. Run them alone with
+`pipeline/.venv/bin/python -m pytest -q tests test.py`. **Whenever a problem is checked for in a session, the
+check becomes a test in `tests/`** (the owner's rule): name the date and the case in its docstring, list every
+failure, and put known exceptions in the test with their reason. Lint new code with `pipeline/.venv/bin/ruff check .`.
+
 After a build, check the summary lines it prints (entries, senses, examples, found versus inferred verb
 forms, entries without English, decisions that matched nothing) and the `git diff` of `cldf/` and the pages.
 
@@ -158,6 +165,12 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   Rögn entry has the same Italian or English (owner, 2026-10-14). English pages: English, Dialett, Italiano.
   One row per headword: senses and regional forms share it, and a form contained in another form of the
   same region is dropped (`merge_same_head()`, used by pages and PDF).
+  **Every word of a translation is a headword (owner, 2026-10-29):** *viagg* (journey, trip) is under both
+  *journey* and *trip* in the English look-up, *pür* under each of its Italian words. `split_translation()` and
+  `lookup_rows()` in `step4_build_pages.py` do this for the pages and the PDF (split on `, ; /`, brackets dropped,
+  *doppio/a* is one word, *himself/herself* swaps one word). Until then the whole string was the headword, so
+  only the first word could be found. The regional filter compares accents and *to* (*però* is not *pero*, *to
+  hit* is not *hit*).
 - **Dictionary:** three pages named for the look-up language (Dialett lists every entry), verbs included
   (English as `to …`). The owner's spreadsheet and notes are ordinary sources. No mention of "Oxford 3000".
 - **Expressions (decided 2026-10-14):** grouped by **topic** (`etc/topics.csv`), not by lesson. Topics are named

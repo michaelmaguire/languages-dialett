@@ -6,7 +6,7 @@
 
 | Dialett | Italiano | English |
 |---|---|---|
-| **cugnoss / cugnöss** | conoscere | to know (someone), meet |
+| **cugnoss / cugnöss** | conoscere | to know (someone), to meet |
 
 | Gerundio † | Participio passato | Verb class |
 |---|---|---|
