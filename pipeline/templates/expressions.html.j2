@@ -1,0 +1,23 @@
+[#- The body of Expressions/arogno-expressions.pdf: the contents page and one page per topic, from the
+    expressions model (pipeline/expressions_model.py). Filled by step5_build_pdfs.py with Jinja2 (delimiters
+    [[ ]] and [% %], so the {{page:ID}} placeholders of the two-pass print stay literal). -#]
+<section class="toc"><h1>Contents</h1><a class="head" href="#attributions"><span>Attributions and thanks</span><span>{{page:attributions}}</span></a>
+[%- if topics %]<a class="head" href="#t-[[ topics[0].id ]]"><span>Per argomento · By topic</span><span>{{page:t-[[ topics[0].id ]]}}</span></a>[% endif -%]
+[%- for t in topics -%]
+<a href="#t-[[ t.id ]]"><span>[[ (t.name_dialect or t.name) | e ]] <span class="it">· [[ t.name | e ]] · [[ t.name_english | e ]]</span></span><span>{{page:t-[[ t.id ]]}}</span></a>
+[%- endfor -%]
+<p class="letters">One topic to a page: sayings and idioms first, then phrases. Dialect in bold, Italian in italics, then English.</p></section>
+[[- credits ]]
+[%- for t in topics -%]
+<div class="part topic" id="t-[[ t.id ]]"><h1>[[ t.title | e ]]</h1><div class="entries">
+  [%- for s in t.sections if s.entries -%]
+<h3>[[ s.title_it | e ]] · [[ s.title_en | e ]]</h3>
+    [%- for x in s.entries -%]
+<div class="x"><b>[[ x.dialect | e ]]</b>[% if x.check %] ⚠[% endif %] <i>[[ x.italian | e ]]</i>
+      [%- if x.english %] · <span class="en">[[ x.english | e ]]</span>[% endif -%]
+      [%- if x.region and x.region != "Rögn" %] <span class="r">[[ x.region | e ]]</span>[% endif -%]
+</div>
+    [%- endfor -%]
+  [%- endfor -%]
+</div></div>
+[%- endfor -%]

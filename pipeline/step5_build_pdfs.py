@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Step 5: print-ready PDFs of the verb charts, the dictionary and the expressions, from the CLDF dataset.
 
-Reads  ../cldf (through lexicon.for_pages), cache/dictionary_model.json (the dictionary, saved by step 4) and
-       templates/dictionary.html.j2,
+Reads  ../cldf (through lexicon.for_pages), cache/dictionary_model.json and expressions_model.json (saved by
+       step 4) with templates/dictionary.html.j2 and expressions.html.j2,
        templates/cover_verbs.html, cover_dictionary.html and cover_expressions.html (title pages; {{verbs}},
        {{inferred}}, {{words}}, {{flagged}}, {{sayings}}, {{phrases}}, {{topics}} and {{edition}}
        are filled in at build time), ../ATTRIBUTIONS.md (printed straight after each cover)
@@ -316,10 +316,19 @@ h2 { font: bold 15pt "DejaVu Sans", Arial, sans-serif; margin: 3mm 0 1.5mm; brea
 """
 
 
+def templates():
+    """The Jinja2 templates of the PDFs (templates/*.html.j2). Delimiters [[ ]], [% %] and [# #], so the
+    {{page:ID}} and {{recto:ID}} placeholders of the two-pass print (print_with_contents) stay literal."""
+    import jinja2
+    return jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATES), autoescape=False,
+                              variable_start_string="[[", variable_end_string="]]",
+                              block_start_string="[%", block_end_string="%]",
+                              comment_start_string="[#", comment_end_string="#]")
+
+
 def dictionary():
     """Dictionary/arogno-dictionary.pdf: the three look-up directions, two columns to the page, from the
     dictionary model that step 4 saved (dictionary_model.py), through templates/dictionary.html.j2."""
-    import jinja2
     import dictionary_model
     book = dictionary_model.load()
     if not book:
@@ -330,11 +339,7 @@ def dictionary():
         # the letters that have an entry to print, each with its anchor for the contents page
         part["printed"] = [dict(s, anchor=f"p{n}-{s['letter'] if s['letter'].isalpha() else 'other'}")
                            for s in part["sections"] if any(not e["no_word"] for e in s["entries"])]
-    env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATES), autoescape=False,
-                             variable_start_string="[[", variable_end_string="]]",
-                             block_start_string="[%", block_end_string="%]",
-                             comment_start_string="[#", comment_end_string="#]")
-    body = env.get_template("dictionary.html.j2").render(parts=book["parts"], credits=credits_pages())
+    body = templates().get_template("dictionary.html.j2").render(parts=book["parts"], credits=credits_pages())
     cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(book["words"])) \
         .replace("{{flagged}}", str(book["flagged"]))
     page = HERE / "cache" / "print_dictionary.html"
@@ -357,54 +362,24 @@ h3 { font: bold 8.5pt "DejaVu Sans", Arial, sans-serif; letter-spacing: .08em; t
 
 
 def expressions():
-    """Expressions/arogno-expressions.pdf: the sayings and phrases by topic, two columns to the page. The
+    """Expressions/arogno-expressions.pdf: the sayings and phrases by topic, two columns to the page, from the
+    expressions model that step 4 saved (expressions_model.py), through templates/expressions.html.j2. The
     lines of texts (genre `text`) are not printed."""
-    import lexicon
-    uniq, _, _ = lexicon.for_pages()
-    topics = lexicon.topics()
-    exprs = [p for p in uniq if p["kind"] == "expression"]
-    if not exprs:
+    import expressions_model
+    book = expressions_model.load()
+    if not book or not book["topics"]:
         return
-    by_topic, _ = build.expression_groups(exprs, topics)
-    names = {t["ID"]: t for t in topics}
-
-    def entry(p):
-        flag = " ⚠" if p["check"] else ""
-        region = f' <span class="r">{esc(build.region(p))}</span>' if build.region(p) not in ("Rögn", "") else ""
-        english = f' · <span class="en">{esc(p["english"])}</span>' if p["english"] else ""
-        return f'<div class="x"><b>{esc(p["dialect"])}</b>{flag} <i>{esc(p["italian"])}</i>{english}{region}</div>'
-
-    body, toc, counts = [], [], {"saying": 0, "phrase": 0}
-    # every topic starts on a new page, with its own two columns
-    for tid, rows in by_topic.items():
-        t = names[tid]
-        body.append(f'<div class="part topic" id="t-{tid}"><h1>{esc(build.topic_title(t))}</h1><div class="entries">')
-        for genre, (it, en) in (("saying", build.SAYINGS), ("phrase", build.PHRASES)):
-            # dialect first and sorted by it, as on the Markdown pages
-            part = sorted(build.merge_expressions([p for p in rows if (p["genre"] == "saying") == (genre == "saying")]),
-                          key=build.expression_order)
-            if part:
-                counts[genre] += len(part)
-                body.append(f"<h3>{esc(it)} · {esc(en)}</h3>" + "".join(entry(p) for p in part))
-        body.append("</div></div>")
-        toc.append(f'<a href="#t-{tid}"><span>{esc(t.get("Name_Dialect") or t["Name"])} <span class="it">· {esc(t["Name"])} · {esc(t["Name_English"])}</span>'
-                   f'</span><span>{{{{page:t-{tid}}}}}</span></a>')
-    first = next(iter(by_topic), "")
-    contents = ('<section class="toc"><h1>Contents</h1><a class="head" href="#attributions">'
-                '<span>Attributions and thanks</span><span>{{page:attributions}}</span></a>'
-                f'<a class="head" href="#t-{first}"><span>Per argomento · By topic</span>'
-                f'<span>{{{{page:t-{first}}}}}</span></a>' + "".join(toc)
-                + '<p class="letters">One topic to a page: sayings and idioms first, then phrases. Dialect in bold, '
-                'Italian in italics, then English.</p></section>')
+    body = templates().get_template("expressions.html.j2").render(topics=book["topics"], credits=credits_pages())
     cover = stamp((TEMPLATES / "cover_expressions.html").read_text())
-    for k, v in (("sayings", counts["saying"]), ("phrases", counts["phrase"]), ("topics", len(by_topic))):
+    for k, v in (("sayings", book["sayings"]), ("phrases", book["phrases"]), ("topics", len(book["topics"]))):
         cover = cover.replace("{{" + k + "}}", str(v))
     page = HERE / "cache" / "print_expressions.html"
     document = (f'<!doctype html><meta charset="utf-8"><title>Modi da dì – dialett da Rögn</title>'
-                f"<style>{DICT_CSS}{TOC_CSS}{EXPR_CSS}</style>{cover}{contents}{credits_pages()}{''.join(body)}")
+                f"<style>{DICT_CSS}{TOC_CSS}{EXPR_CSS}</style>{cover}{body}")
     print_with_contents(build.ROOT / "Expressions" / "arogno-expressions.pdf", page, document,
-                        f"arogno-expressions.pdf: cover, contents, attributions + {counts['saying'] + counts['phrase']} "
-                        f"expressions in {len(by_topic)} topics")
+                        f"arogno-expressions.pdf: cover, contents, attributions + {book['sayings'] + book['phrases']} "
+                        f"expressions in {len(book['topics'])} topics")
+
 
 def grammar_pdf():
     """Grammar/arogno-grammar.pdf: the chapters of etc/grammar/, Italian and English in two columns,

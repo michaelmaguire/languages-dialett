@@ -800,10 +800,11 @@ def merge_expressions(rows):
     return list(out.values())
 
 
-def expression_table(rows):
+def expression_table(entries):
+    """A topic's table: one row per expression of the model (expressions_model.py), every source linked."""
     return table(["Dialett", "Italiano", "English", "Region", "Source"],
-                 [[p["dialect"] + (FLAG if p["check"] else ""), p["italian"], p["english"], region(p),
-                   " ".join(src_link(s, text="↗") for s in p["sources"])] for p in merge_expressions(rows)])
+                 [[e["dialect"] + (FLAG if e["check"] else ""), e["italian"], e["english"], e["region"],
+                   " ".join(src_link(s, text="↗") for s in e["sources"])] for e in entries])
 
 
 def text_title(p):
@@ -877,25 +878,23 @@ def render(uniq, tables, eng, topics=None):
 
     # ---- Expressions: one page per topic. Lines of texts (poems, stories, articles, dialogues) stay in the
     # dataset as raw material but are not reprinted here; their sayings and phrases have topics of their own.
-    topics = topics or []
-    by_topic, texts = expression_groups(exprs, topics)
-    names = {t["ID"]: t for t in topics}
+    import expressions_model
+    ebook = expressions_model.build(exprs, topics or [])     # the one model of the expressions: pages and PDF
+    expressions_model.save(ebook)
+    names = {t["ID"]: t for t in topics or []}               # topic names, for TO-CHECK.md below
     tindex = []
-    for tid, rows in by_topic.items():
-        t = names[tid]
-        sections = [(f"{SAYINGS[0]} · {SAYINGS[1]}", [p for p in rows if p["genre"] == "saying"]),
-                    (f"{PHRASES[0]} · {PHRASES[1]}", [p for p in rows if p["genre"] != "saying"])]
-        out = [f"# {topic_title(t)}\n",
+    for t in ebook["topics"]:
+        out = [f"# {t['title']}\n",
                f"Sayings, idioms and phrases about this topic, from all the course documents. "
                f"{FLAG.strip()} marks a pair the extraction script was unsure about; ↗ links to the source "
                "document.\n"]
-        for title, part in sections:
-            if part:
-                out += [f"## {title}\n", expression_table(part)]
+        for sec in t["sections"]:
+            if sec["entries"]:
+                out += [f"## {sec['title_it']} · {sec['title_en']}\n", expression_table(sec["entries"])]
         out.append("[← all expressions](README.md)\n")
-        write(ROOT / "Expressions" / topic_file(t), "\n".join(out))
-        tindex.append([f"[{cell(t.get('Name_Dialect') or t['Name'])}]({quote(topic_file(t))})", t["Name"], t["Name_English"],
-                       len(merge_expressions(sections[0][1])), len(merge_expressions(sections[1][1]))])
+        write(ROOT / "Expressions" / t["file"], "\n".join(out))
+        tindex.append([f"[{cell(t['name_dialect'] or t['name'])}]({quote(t['file'])})", t["name"], t["name_english"],
+                       *(len(sec["entries"]) for sec in t["sections"])])
     write(ROOT / "Expressions/README.md", "\n".join([
         "# Expressions\n",
         "Sayings, idioms and phrases from the course, grouped by topic. "
@@ -1073,7 +1072,7 @@ def render(uniq, tables, eng, topics=None):
     readme = [intro + "\n", "## Contents\n", "Printable PDFs:\n\n" + pdf_links,
               table(["Section", "What is in it", "Size"], [
                   ["[Dictionary](Dictionary/README.md)", "Single words and short terms: Italiano ↔ Dialett, with English where available and a Region column; also as a [printable PDF](Dictionary/arogno-dictionary.pdf)", f"{len(words)} entries"],
-                  ["[Expressions](Expressions/README.md)", "Sayings, idioms and phrases grouped by topic; also as a [printable PDF](Expressions/arogno-expressions.pdf)", f"{sum(len(merge_expressions(r)) for r in by_topic.values())} expressions"],
+                  ["[Expressions](Expressions/README.md)", "Sayings, idioms and phrases grouped by topic; also as a [printable PDF](Expressions/arogno-expressions.pdf)", f"{ebook['distinct']} expressions"],
                   ["[Verbs](Verbs/README.md)", "Conjugation charts, one page per verb; also as a [printable PDF](Verbs/arogno-verbs.pdf)", f"{len(tables)} verbs"],
                   ["[Grammar](Grammar/README.md)", "A short grammar, explained in Italian and English side by side, with examples from the course; also as a [printable PDF](Grammar/arogno-grammar.pdf)", f"{n_chapters} chapters"],
                   ["[To check](TO-CHECK.md)", "Every inferred form and uncertain extraction, for checking with a teacher",
@@ -1124,8 +1123,8 @@ def render(uniq, tables, eng, topics=None):
 
     n_other = lambda rows: sum(p["canonical"] != "yes" for p in rows)
     print(f"Dictionary: {len(words)} words ({n_other(words)} from other varieties); "
-          f"Expressions: {sum(len(v) for v in by_topic.values())} pairs in {len(by_topic)} topics "
-          f"({sum(len(v) for v in texts.values())} lines of {len(texts)} texts kept in cldf/ only); "
+          f"Expressions: {ebook['pairs']} pairs in {len(ebook['topics'])} topics "
+          f"({ebook['text_lines']} lines of {ebook['texts']} texts kept in cldf/ only); "
           f"Verbs: {len(tables)} pages; Grammar: {n_chapters} chapters")
     cells = [c for e in tables.values() for row in e["grid"].values() for c in row.values()]
     print(f"Verb forms: {sum(not c[1] and c[0] != '–' for c in cells)} found in the documents, "
