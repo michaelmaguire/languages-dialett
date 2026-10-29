@@ -4,7 +4,7 @@ set -e
 cd "$(dirname "$0")"
 [ -x .venv/bin/python ] || python3 -m venv .venv
 # install the packages in requirements.txt if any is missing (e.g. one added since the venv was made)
-.venv/bin/python -c "import openpyxl, pycldf, cldfbench, pypdf, ruff" 2>/dev/null || .venv/bin/pip install -q -r requirements.txt
+.venv/bin/python -c "import openpyxl, pycldf, cldfbench, pypdf, ruff, jinja2" 2>/dev/null || .venv/bin/pip install -q -r requirements.txt
 # Steps 1-2 need the source documents in raw/ (a submodule that may be private). Without them the
 # build continues from what steps 1-2 last saved in data/, so decisions in etc/ can still be applied.
 if .venv/bin/python -c "import sys, paths; sys.exit(0 if paths.raw_available() else 1)"; then

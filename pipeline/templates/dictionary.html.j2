@@ -1,0 +1,44 @@
+[#- The body of Dictionary/arogno-dictionary.pdf: the contents page and the three look-ups, from the
+    dictionary model (pipeline/dictionary_model.py). Filled by step5_build_pdfs.py with Jinja2, delimiters
+    [[ ]] and [% %] so that the {{page:ID}} and {{recto:ID}} placeholders of the two-pass print stay literal.
+    A look-up's entries with no word to look up ("[?]" for an unknown Italian) are not printed. -#]
+[%- macro rest(s, cols) -%]
+  [%- for k in cols if s[k] -%]
+    [%- if not loop.first %] · [% endif -%]
+    [[ s[k] | e ]]
+    [%- if k == "dialect" and s.label %][% if "(" in s.label %] [[ s.label | e ]][% else %] ([[ s.label | e ]])[% endif %][% endif -%]
+  [%- endfor -%]
+[%- endmacro -%]
+
+[%- macro entry(e, part, cols) -%]
+<div class="e"><b>[[ e.head | e ]]</b>
+  [%- if part.head == "dialect" and e.senses[0].label %] <span class="g">[[ e.senses[0].label | e ]]</span>[% endif %][[ " → " ]]
+  [%- for s in e.senses -%]
+    [%- if not loop.first %]; [% endif -%]
+    [%- if s.new_word %]<b>[[ s.dialect | e ]]</b> <span class="g">[[ s.label | e ]]</span> [% endif -%]
+    <i>[[ rest(s, cols) ]]</i>
+    [%- if s.check %] ⚠[% endif -%]
+    [%- if s.region and s.region != "Rögn" %] <span class="r">[[ s.region | e ]]</span>[% endif -%]
+    [%- if s.note and s.note | length < 60 %] <span class="n">([[ s.note | e ]])</span>[% endif -%]
+  [%- endfor -%]
+</div>
+[%- endmacro -%]
+
+<section class="toc"><h1>Contents</h1><a class="head" href="#attributions"><span>Attributions and thanks</span><span>{{page:attributions}}</span></a><p class="letters"></p>
+[%- for part in parts %]<a class="head" href="#part-[[ loop.index ]]"><span>[[ part.pdf_title | e ]]</span><span>{{page:part-[[ loop.index ]]}}</span></a><p class="letters">
+  [%- for s in part.printed -%]
+    [%- if not loop.first %] &nbsp; [% endif -%]
+    <a href="#[[ s.anchor ]]"><b>[[ s.letter ]]</b> {{page:[[ s.anchor ]]}}</a>
+  [%- endfor -%]
+</p>
+[%- endfor -%]
+</section>
+[[- credits ]]
+[%- for part in parts -%]
+{{recto:part-[[ loop.index ]]}}<div class="part" id="part-[[ loop.index ]]"><h1>[[ part.pdf_title | e ]]</h1><p></p><div class="entries">
+  [%- for s in part.printed -%]
+<h2 id="[[ s.anchor ]]">[[ s.letter ]]</h2>
+    [%- for e in s.entries if not e.no_word %][[ entry(e, part, part.cols) ]][% endfor -%]
+  [%- endfor -%]
+</div></div>
+[%- endfor -%]

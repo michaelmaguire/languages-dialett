@@ -5,3 +5,4 @@ pypdf
 genanki
 pytest-cldf
 ruff
+jinja2

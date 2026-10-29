@@ -213,3 +213,24 @@ def test_curation_rows_all_match():
     bad = [line.strip() for line in (r.stdout + r.stderr).splitlines()
            if "matched no" in line or "matched nothing" in line]
     report(bad, "curation rows that match nothing")
+
+
+def test_pdf_and_pages_list_the_same_headwords_in_the_same_order():
+    """The PDF and the Markdown pages are rendered from one model (pipeline/dictionary_model.py, owner
+    2026-10-29), so each look-up lists the same headwords in the same order in both."""
+    import html
+    from conftest import ROOT
+    page = ROOT / "pipeline" / "cache" / "print_dictionary.html"
+    if not page.exists():
+        pytest.skip("the dictionary PDF has not been printed")
+    text = html.unescape(page.read_text(encoding="utf-8"))
+    parts = re.split(r'<div class="part" id="part-\d">', text)[1:]
+    bad = []
+    for part, md in zip(parts, PAGES):
+        pdf_heads = [build.key(h) for h in re.findall(r'<div class="e"><b>(.*?)</b>', part)]
+        md_heads = [build.key(re.sub(r" \*.*$", "", r["_head"].split(" · ")[0]).replace(" ⚠", ""))
+                    for r in lookup_rows(md) if not r["_head"].startswith("[")]
+        if pdf_heads != md_heads:
+            i = next((i for i, (x, y) in enumerate(zip(pdf_heads, md_heads)) if x != y), min(len(pdf_heads), len(md_heads)))
+            bad.append(f"{md}: first difference at row {i}: PDF {pdf_heads[i:i + 2]}, page {md_heads[i:i + 2]}")
+    report(bad, "look-ups that differ between the PDF and the pages")

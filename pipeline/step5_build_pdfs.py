@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Step 5: print-ready PDFs of the verb charts, the dictionary and the expressions, from the CLDF dataset.
 
-Reads  ../cldf (through lexicon.for_pages), data/dictionary.csv (written by step 4),
+Reads  ../cldf (through lexicon.for_pages), cache/dictionary_model.json (the dictionary, saved by step 4) and
+       templates/dictionary.html.j2,
        templates/cover_verbs.html, cover_dictionary.html and cover_expressions.html (title pages; {{verbs}},
        {{inferred}}, {{words}}, {{flagged}}, {{sayings}}, {{phrases}}, {{topics}} and {{edition}}
        are filled in at build time), ../ATTRIBUTIONS.md (printed straight after each cover)
@@ -316,75 +317,31 @@ h2 { font: bold 15pt "DejaVu Sans", Arial, sans-serif; margin: 3mm 0 1.5mm; brea
 
 
 def dictionary():
-    """Dictionary/arogno-dictionary.pdf: the three look-up directions, two columns to the page."""
-    words = build.read(build.DATA / "dictionary.csv")
-    if not words:
+    """Dictionary/arogno-dictionary.pdf: the three look-up directions, two columns to the page, from the
+    dictionary model that step 4 saved (dictionary_model.py), through templates/dictionary.html.j2."""
+    import jinja2
+    import dictionary_model
+    book = dictionary_model.load()
+    if not book:
         return
-
-    for w in words:
-        w["canonical"] = "yes" if w["region"] == "Rögn" else "no"
-
-    def entries(part, head, second, third, sort_key):
-        groups = {}
-        # an entry with no word in the look-up language ("[get out of]" for unknown Italian) is left out
-        # in the dialect part a word written in several ways appears under each spelling (giô -> giò / giô / giõ)
-        # from Italian or English, each entry under every word of its translation, the Rögn word where there is one
-        source = words + build.cross_references(words) if head == "dialect" else build.lookup_rows(words, head)
-        for w in sorted((w for w in source if w[head] and not w[head].startswith("[")),
-                        key=lambda w: build.plain(sort_key(w))):
-            letter = (build.plain(sort_key(w)) or "#")[0].upper()
-            groups.setdefault(letter if letter.isalpha() else "#", []).append(w)
-        out = []
-        for letter in sorted(groups):
-            out.append(f'<h2 id="p{part}-{letter if letter.isalpha() else "other"}">{letter}</h2>')
-            # one line per headword: the senses of a word (anca: anche, pure…) follow it, separated by ";"
-            for rows in build.merge_same_head(groups[letter], head, (second, third), lambda w: w["region"]):
-                senses = []
-                for w in rows:
-                    flag = " ⚠" if w["check"] else ""
-                    label = build.word_label(w, "it" if head == "italian" else "en")
-                    rest = " · ".join(esc(build.dialect_shown(w) if k == "dialect" else w[k])
-                                      + ((f" {label}" if "(" in label else f" ({label})") if k == "dialect" and label else "")
-                                      for k in (second, third) if w[k])
-                    region = f' <span class="r">{esc(w["region"])}</span>' if w["region"] and w["region"] != "Rögn" else ""
-                    note = f' <span class="n">({esc(w["note"])})</span>' if w["note"] and len(w["note"]) < 60 else ""
-                    # a homograph's later part of speech gets its own forms and label (frecc n. … → freddo · cold;
-                    # frecc/frecia adj. freddo · cold), so each sense says which word it belongs to
-                    other = head == "dialect" and w is not rows[0] and (w.get("pos"), build.dialect_shown(w)) != \
-                        (rows[0].get("pos"), build.dialect_shown(rows[0])) and build.word_label(w)
-                    lead = (f'<b>{esc(build.dialect_shown(w))}</b> <span class="g">{esc(build.word_label(w))}</span> '
-                            if other else "")
-                    senses.append(f"{lead}<i>{rest}</i>{flag}{region}{note}")
-                label = build.word_label(rows[0]) if head == "dialect" else ""
-                label = f' <span class="g">{esc(label)}</span>' if label else ""
-                shown = build.dialect_shown(rows[0]) if head == "dialect" else rows[0][head]
-                # an arrow between the headword and its translations, as in the section titles (Dialett → Italiano · English)
-                out.append(f'<div class="e"><b>{esc(shown)}</b>{label} → {"; ".join(senses)}</div>')
-        return "".join(out), sorted(groups)
-
-    strip_di = lambda w: build.DI_ARTICLE.sub("", build.key(w["dialect"]))
-    parts = [("Dialett → Italiano · English", "dialect", "italian", "english", strip_di),
-             ("Italiano → Dialett · English", "italian", "dialect", "english", lambda w: build.bare(w["italian"])),
-             ("English → Dialett · Italiano", "english", "dialect", "italian",
-              lambda w: build.EN_ARTICLE.sub("", w["english"]))]
-    body, toc = [], ['<section class="toc"><h1>Contents</h1><a class="head" href="#attributions">'
-                     '<span>Attributions and thanks</span><span>{{page:attributions}}</span></a><p class="letters"></p>']
-    for n, (title, a, b, c, k) in enumerate(parts, 1):
-        html_entries, letters = entries(n, a, b, c, k)
-        body.append(f'{{{{recto:part-{n}}}}}<div class="part" id="part-{n}"><h1>{esc(title)}</h1><p></p>'
-                    f'<div class="entries">{html_entries}</div></div>')
-        anchors = [(l, f"p{n}-{l if l.isalpha() else 'other'}") for l in letters]
-        toc.append(f'<a class="head" href="#part-{n}"><span>{esc(title)}</span><span>{{{{page:part-{n}}}}}</span></a>'
-                   '<p class="letters">' + " &nbsp; ".join(f'<a href="#{i}"><b>{l}</b> {{{{page:{i}}}}}</a>'
-                                                          for l, i in anchors) + "</p>")
-    toc.append("</section>")
-    cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(len(words))) \
-        .replace("{{flagged}}", str(sum(bool(w["check"]) for w in words)))
+    cols = {"dialect": ("italian", "english"), "italian": ("dialect", "english"), "english": ("dialect", "italian")}
+    for n, part in enumerate(book["parts"], 1):
+        part["cols"] = cols[part["head"]]
+        # the letters that have an entry to print, each with its anchor for the contents page
+        part["printed"] = [dict(s, anchor=f"p{n}-{s['letter'] if s['letter'].isalpha() else 'other'}")
+                           for s in part["sections"] if any(not e["no_word"] for e in s["entries"])]
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATES), autoescape=False,
+                             variable_start_string="[[", variable_end_string="]]",
+                             block_start_string="[%", block_end_string="%]",
+                             comment_start_string="[#", comment_end_string="#]")
+    body = env.get_template("dictionary.html.j2").render(parts=book["parts"], credits=credits_pages())
+    cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(book["words"])) \
+        .replace("{{flagged}}", str(book["flagged"]))
     page = HERE / "cache" / "print_dictionary.html"
     document = (f'<!doctype html><meta charset="utf-8"><title>Dizionari – dialett da Rögn</title>'
-                f"<style>{DICT_CSS}{TOC_CSS}</style>{cover}{''.join(toc)}{credits_pages()}{''.join(body)}")
+                f"<style>{DICT_CSS}{TOC_CSS}</style>{cover}{body}")
     print_with_contents(build.ROOT / "Dictionary" / "arogno-dictionary.pdf", page, document,
-                        f"arogno-dictionary.pdf: cover, contents, attributions + {len(words)} words three ways")
+                        f"arogno-dictionary.pdf: cover, contents, attributions + {book['words']} words three ways")
 
 
 EXPR_CSS = """

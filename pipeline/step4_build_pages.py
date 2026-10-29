@@ -436,39 +436,6 @@ def merge_same_head(rows, head, others, region_of):
     return [[w for w in g if not redundant(w, g)] for g in groups.values()]
 
 
-def lookup_table(rows, head, cols, lang="en"):
-    """A dictionary table with one row per headword: when a word has several senses or regional forms,
-    each gets its own line inside the cells, so they stay side by side. lang: the language of the
-    learner's note (etc/notes.csv) in the Note column, Italian on the Italian look-up page."""
-    names = {"dialect": "Dialett", "italian": "Italiano", "english": "English", "region": "Region",
-             "note": "Note", "source": "Source"}
-    show = {"dialect": lambda p: dialect_shown(p) + (f" *{word_label(p, lang)}*" if word_label(p, lang) else "") + (FLAG if p["check"] else ""),
-            "italian": lambda p: p["italian"] + (INFERRED if p.get("supplied") else ""),
-            "english": lambda p: p["english"], "region": region,
-            "note": lambda p: p["note"],
-            "source": lambda p: src_link(p["source"], text="↗")}
-    entry_note = "entry_note_en" if lang == "en" else "entry_note"
-
-    def notes(g):
-        # each sense's own comment, then the word's learner's note once at the end
-        return "<br>".join(n for n in dict.fromkeys([p["note"] for p in g] + [p.get(entry_note, "") for p in g]) if n)
-
-    groups = merge_same_head([p for p in rows if p[head]], head, [c for c in cols if c in show and c in
-                             ("dialect", "italian", "english")], region) + [[p] for p in rows if not p[head]]
-    def head_cell(g):
-        # homographs merged into one row (vert: green, to open) show each part of speech
-        if head != "dialect":
-            return show[head](g[0])
-        # each with its own forms: 'frecc n. m., pl. frecc · frecc/frecia adj.' (the adjective's feminine was
-        # missing until 2026-10-29); senses of one part of speech share its label
-        parts = dict.fromkeys(dialect_shown(p) + (f" *{word_label(p, lang)}*" if word_label(p, lang) else "") for p in g)
-        return " · ".join(parts) + (FLAG if g[0]["check"] else "")
-
-    body = [[head_cell(g)] + [notes(g) if c == "note" else "<br>".join(show[c](p) for p in g) for c in cols]
-            for g in groups]
-    return table([names[head]] + [names[c] for c in cols], body)
-
-
 # part of speech abbreviations, English and Italian (the list is in the grammar, chapter 00, and the READMEs)
 # under the participle on every verb page and sheet: when the feminine is used (grammar, chapter 6)
 PP_AGREEMENT = ("Il participio femminile: con *ves* concorda con il soggetto (*sum rivada*); con *vegh* con un pronome "
@@ -568,23 +535,34 @@ def cross_references(words):
     return out
 
 
-def word_page(title, intro, words, order):
-    """order: 'it' (Italian first) or 'di' (dialect first)."""
-    if order == "it":
-        sort_key = (lambda p: "" if p["italian"].startswith("[") else bare(p["italian"]))
-    else:
-        sort_key = (lambda p: DI_ARTICLE.sub("", key(p["dialect"])))
-    groups = by_letter(words, sort_key)
-    # an entry with nothing to sort on (Italian unknown, shown as "[?]") goes last, not under "#"
-    groups = [g for g in groups if g[0] != "#"] + [("No Italian yet" if order == "it" else "Other", rows)
-                                                   for g, rows in groups if g == "#"]
-    out = [f"# {title}\n", " · ".join(f"[{g}](#{g.lower()})" for g, _ in groups if len(g) == 1) + "\n"]
-    for letter, rows in groups:
-        out.append(f"## {letter}\n")
-        if order == "it":
-            out.append(lookup_table(rows, "italian", ["dialect", "english", "region", "note", "source"], lang="it"))
-        else:
-            out.append(lookup_table(rows, "dialect", ["italian", "english", "region", "note", "source"]))
+def dictionary_table(part, entries):
+    """One Markdown table of a look-up: a row per headword, each sense on its own line inside the cells."""
+    names = {"dialect": "Dialett", "italian": "Italiano", "english": "English", "region": "Region",
+             "note": "Note", "source": "Source"}
+    cols = [c for c in ("dialect", "italian", "english") if c != part["head"]] + ["region", "note", "source"]
+    show = {"dialect": lambda s: s["dialect"] + (f" *{s['label']}*" if s["label"] else "") + (FLAG if s["check"] else ""),
+            "italian": lambda s: s["italian"], "english": lambda s: s["english"], "region": lambda s: s["region"],
+            "source": lambda s: src_link(s["source"], text="↗")}
+
+    def head_cell(e):
+        if part["head"] != "dialect":
+            return e["head"]
+        return " · ".join(e["words"]) + (FLAG if e["flag"] else "")
+
+    body = [[head_cell(e)] + ["<br>".join(e["notes"]) if c == "note" else "<br>".join(show[c](s) for s in e["senses"])
+                              for c in cols] for e in entries]
+    return table([names[part["head"]]] + [names[c] for c in cols], body)
+
+
+def dictionary_page(part):
+    """A look-up page: the letters, then a table per letter (English: one table, no letters)."""
+    if part["head"] == "english":
+        return "\n".join([f"# {part['title']}\n", f"The {part['blank']} entries that have no English yet are at the end.\n",
+                          dictionary_table(part, [e for s in part["sections"] for e in s["entries"]])])
+    out = [f"# {part['title']}\n", " · ".join(f"[{s['name']}](#{s['name'].lower()})" for s in part["sections"]
+                                              if len(s["name"]) == 1) + "\n"]
+    for s in part["sections"]:
+        out += [f"## {s['name']}\n", dictionary_table(part, s["entries"])]
     return "\n".join(out)
 
 
@@ -875,29 +853,23 @@ def render(uniq, tables, eng, topics=None):
             "After each word, its part of speech: " + ", ".join(f"*{en}* {pos}" for pos, (en, it) in POS_ABBR.items())
             + " (on the Italian page in Italian: " + ", ".join(f"*{it}*" for en, it in POS_ABBR.values() if it != en)
             + "); then a noun's gender (*m.*, *f.*) and plural (*pl.*), and a verb's 1st person singular and past participle (*truà v. (trövi, truaa)*; † on a predicted form). An adjective is shown with its feminine: *bagnaa/bagnada*.")
-    lookup = lookup_rows(words, "italian")
+    import dictionary_model
+    book = dictionary_model.build(words)            # the one model of the dictionary: pages and PDF
+    dictionary_model.save(book)
+    dialett, italiano, english = book["parts"]
     note_lookup = (note + " Looking up from Italiano or English, a word from another region is left out when the "
                    "Rögn course has a word with the same meaning; the Dialett page lists them all. A word with several "
                    "translations is listed under each of them (*viagg* under both *journey* and *trip*).")
-    write(ROOT / "Dictionary/italiano.md", word_page("Italiano → Dialett → English", note_lookup, lookup, "it"))
-    write(ROOT / "Dictionary/dialett.md", word_page("Dialett → Italiano → English", note + " A word written in "
-          "several ways is listed under each spelling: → points to the entry that has them all.",
-          words + cross_references(words), "di"))
-
-    en_rows = sorted(lookup_rows(words, "english"), key=lambda p: (not p["english"], plain(EN_ARTICLE.sub("", p["english"])),
-                                            p["canonical"] != "yes", plain(p["dialect"])))  # no English: last
-    n_blank = sum(not p["english"] for p in en_rows)
-    en_page = ["# English → Dialett → Italiano\n",
-               f"The {n_blank} entries that have no English yet are at the end.\n",
-               lookup_table(en_rows, "english", ["dialect", "italian", "region", "note", "source"])]
-    write(ROOT / "Dictionary/english.md", "\n".join(en_page))
+    write(ROOT / "Dictionary/italiano.md", dictionary_page(italiano))
+    write(ROOT / "Dictionary/dialett.md", dictionary_page(dialett))
+    write(ROOT / "Dictionary/english.md", dictionary_page(english))
 
     write(ROOT / "Dictionary/README.md", "\n".join([
         "# Dictionary\n",
         table(["Look up by", "Columns", "Entries"], [
-            ["[Italiano](italiano.md)", "Italiano → Dialett → English", len(lookup)],
+            ["[Italiano](italiano.md)", "Italiano → Dialett → English", italiano["rows"]],
             ["[Dialett](dialett.md)", "Dialett → Italiano → English", len(words)],
-            ["[English](english.md)", "English → Dialett → Italiano", len(en_rows)]]),
+            ["[English](english.md)", "English → Dialett → Italiano", english["rows"]]]),
         "**[arogno-dictionary.pdf](arogno-dictionary.pdf)** has all three for printing.\n",
         note_lookup + "\n",
         "Longer phrases and sentences are under [Expressions](../Expressions/README.md); "
