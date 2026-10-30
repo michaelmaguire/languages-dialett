@@ -100,3 +100,25 @@ def test_no_doubled_to(page):
     bad = [f"{p.name}: {line[:80]}" for p in PAGES for line in p.read_text().splitlines()
            if re.search(r"\bto to\b", line)]
     report(bad, "lines with 'to to'")
+
+
+def test_pdf_and_pages_show_the_same_verbs_and_forms():
+    """The PDF sheets and the pages are rendered from one model (pipeline/verbs_model.py, owner 2026-10-30):
+    the same verbs in the same order (the index's), and every tense table with the same forms and the same
+    † on each form."""
+    import html
+    from conftest import ROOT
+    page = ROOT / "pipeline" / "cache" / "print_verbs.html"
+    if not page.exists():
+        pytest.skip("the verbs PDF has not been printed")
+    text = html.unescape(page.read_text(encoding="utf-8"))
+    sheets = re.split(r'<section id="v-\d+"[^>]*>', text)[1:]
+    order = re.findall(r"^\| \[[^]]+\]\(([^)]+\.md)\)", (VERBS / "README.md").read_text(), flags=re.M)
+    bad = [] if len(sheets) == len(order) else [f"{len(sheets)} sheets in the PDF, {len(order)} verbs in the index"]
+    for name, sheet in zip(order, sheets):
+        pdf = [re.sub(r"<sup>†</sup>", " †", c) for c in re.findall(r"<td>(.*?)</td>", sheet)]
+        md = [c for _, _, rows in tense_tables(VERBS / name) for row in rows for c in row[1:]]
+        if pdf != md:
+            i = next((i for i, (x, y) in enumerate(zip(pdf, md)) if x != y), min(len(pdf), len(md)))
+            bad.append(f"{name}: form {i}: PDF {pdf[i:i + 1]}, page {md[i:i + 1]}")
+    report(bad, "verbs that differ between the PDF and the pages")

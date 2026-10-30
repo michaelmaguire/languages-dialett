@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Step 5: print-ready PDFs of the verb charts, the dictionary and the expressions, from the CLDF dataset.
 
-Reads  ../cldf (through lexicon.for_pages), cache/dictionary_model.json and expressions_model.json (saved by
-       step 4) with templates/dictionary.html.j2 and expressions.html.j2,
+Reads  cache/dictionary_model.json, expressions_model.json and verbs_model.json (saved by step 4) with
+       templates/dictionary.html.j2, expressions.html.j2 and verbs.html.j2, ../cldf for the grammar,
        templates/cover_verbs.html, cover_dictionary.html and cover_expressions.html (title pages; {{verbs}},
        {{inferred}}, {{words}}, {{flagged}}, {{sayings}}, {{phrases}}, {{topics}} and {{edition}}
        are filled in at build time), ../ATTRIBUTIONS.md (printed straight after each cover)
@@ -17,12 +17,10 @@ from where the first print put the elements those IDs link to (read back with py
 import datetime, html, re, shutil, subprocess, sys
 
 import step4_build_pages as build
-import feminine
 
 from paths import PIPELINE as HERE, TEMPLATES
 OUT = build.ROOT / "Verbs" / "arogno-verbs.pdf"
 PAGE = HERE / "cache" / "print_verbs.html"
-DAGGER = "†"
 
 CSS = """
 @page { size: A4; margin: 14mm 15mm 12mm 15mm; }
@@ -56,57 +54,7 @@ td.p, th.p { width: 17mm; color: #555; font-style: italic; }
 .cols span.it { color: #555; font-style: italic; }
 """
 
-PERSONS = build.PERSONS
-IMPERATIVE_PERSONS = [("2s", "ti"), ("1p", "nüm"), ("2p", "vialtri")]
 esc = html.escape
-
-
-def column(grid, tense):
-    """(mark for the heading, cells): a column inferred throughout is marked once, in its heading."""
-    cells = grid[tense]
-    known = [c for c in cells.values() if c[0] != "–"]
-    whole = bool(known) and all(inferred for _, inferred in known)
-    mark = f"<sup>{DAGGER}</sup>" if whole else ""
-    return mark, {s: esc(text) + ("" if whole or not inferred or text == "–" else f"<sup>{DAGGER}</sup>")
-                  for s, (text, inferred) in cells.items()}
-
-
-def tense_table(grid, tenses, persons):
-    cols = [column(grid, t) for t in tenses]
-    head = "".join(f"<th>{esc(t.capitalize())}{mark}</th>" for t, (mark, _) in zip(tenses, cols))
-    rows = "".join(f'<tr><td class="p">{esc(label)}</td>' + "".join(f"<td>{cells[s]}</td>" for _, cells in cols) + "</tr>"
-                   for s, label in persons)
-    return f'<table><tr><th class="p"></th>{head}</tr>{rows}</table>'
-
-
-def verb_sheet(name, e, eng, number):
-    g = e["grid"]
-    di = " / ".join(e["dialect"]) or name
-    en = eng.get(build.key(name), "")
-    mark = f"<sup>{DAGGER}</sup>" if e["basis"] == "inferred" else ""
-    ger_mark, ger = column(g, "gerundio")
-    pp_mark, pp = column(g, "participio passato")
-    raw_pp = g["participio passato"]["-"][0]
-    if raw_pp != "–":                                   # rubaa/rubada, on one line
-        pp["-"] = pp["-"].replace(esc(raw_pp), f'<span class="nw">{esc(feminine.with_feminine(raw_pp))}</span>', 1)
-    return "".join([
-        f'<section id="v-{number}"{' class="noted"' if e.get("note") else ""}><h1>{esc(di)}{mark}</h1>',
-        f'<p class="sub"><i>italiano</i> {esc(" / ".join([name] + e["aliases"]))}'
-        + (f' &nbsp;·&nbsp; <i>English</i> to {esc(en)}' if en else "") + "</p>",
-        f'<p class="meta"><b>Gerundio</b>{ger_mark} {ger["-"]} &nbsp;·&nbsp; <b>Participio passato</b>{pp_mark} {pp["-"]}'
-        f' &nbsp;·&nbsp; {esc(e["class"].split(":")[0])}</p>',
-        (f'<p class="vnote"><span>{esc(e["note"])}</span><span>{esc(e.get("note_en", ""))}</span></p>'
-         if e.get("note") else ""),
-        "<h2>Indicativo</h2>",
-        tense_table(g, ["presente", "futuro", "futuro prossimo"], PERSONS),
-        tense_table(g, ["imperfetto", "passato prossimo", "trapassato prossimo"], PERSONS),
-        "<h2>Condizionale</h2>",
-        tense_table(g, build.CONDITIONAL, PERSONS),
-        "<h2>Congiuntivo</h2>",
-        tense_table(g, build.SUBJUNCTIVE, PERSONS),
-        "<h2>Imperativo</h2>",
-        tense_table(g, ["imperativo", build.IMPERATIVE], IMPERATIVE_PERSONS),
-        f'<div class="foot"><span></span><span>{{{{page:v-{number}}}}}</span></div></section>'])
 
 
 def find_browser():
@@ -118,32 +66,27 @@ def find_browser():
 
 
 def main():
-    import lexicon
-    _, tables, eng = lexicon.for_pages()            # the verbs as the CLDF dataset has them
-    order = sorted(tables, key=lambda n: build.plain(" ".join(tables[n]["dialect"]) or n))
-    inferred = sum(c[1] for e in tables.values() for row in e["grid"].values() for c in row.values())
-
-    index = "".join(f'<a href="#v-{i}"><span><b>{esc(tables[n]["dialect"][0] if tables[n]["dialect"] else n)}</b> '
-                    f'<span class="it">{esc(n)}</span></span><span>{{{{page:v-{i}}}}}</span></a>'
-                    for i, n in enumerate(order, 1))
-    # the title page is its own file so it can be edited without touching this script
-    cover = stamp((TEMPLATES / "cover_verbs.html").read_text()).replace("{{verbs}}", str(len(order))) \
-                                             .replace("{{inferred}}", f"{inferred:,}")
-    contents = (f'<section class="index"><h1>Contents</h1>'
-                f'<a class="toc" href="#attributions"><span>Attributions and thanks</span>'
-                f'<span>{{{{page:attributions}}}}</span></a>'
-                f'<h2>Verbs</h2><p>{len(order)} verbs, one per page, in alphabetical order of the dialect infinitive. '
-                f"{DAGGER} marks a form that is inferred from the patterns in the course material rather than "
-                f'found in a document; in a column heading it applies to the whole column.</p>'
-                f'<div class="cols">{index}</div></section>')
-    sheets = [verb_sheet(n, tables[n], eng, i) for i, n in enumerate(order, 1)]
-    document = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
-                f"<style>{CSS}{TOC_CSS}</style>{cover}{contents}{credits_pages()}{''.join(sheets)}")
-    print_with_contents(OUT, PAGE, document,
-                        f"arogno-verbs.pdf: cover, contents, attributions + {len(sheets)} verb sheets")
+    verbs()
     dictionary()
     expressions()
     grammar_pdf()
+
+
+def verbs():
+    """Verbs/arogno-verbs.pdf: one verb per A4 sheet, from the verbs model that step 4 saved (verbs_model.py),
+    through templates/verbs.html.j2."""
+    import verbs_model
+    book = verbs_model.load()
+    if not book:
+        return
+    body = templates().get_template("verbs.html.j2").render(verbs=book["verbs"], credits=credits_pages())
+    # the title page is its own file so it can be edited without touching this script
+    cover = stamp((TEMPLATES / "cover_verbs.html").read_text()).replace("{{verbs}}", str(len(book["verbs"]))) \
+                                             .replace("{{inferred}}", f"{book['inferred']:,}")
+    document = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
+                f"<style>{CSS}{TOC_CSS}</style>{cover}{body}")
+    print_with_contents(OUT, PAGE, document,
+                        f"arogno-verbs.pdf: cover, contents, attributions + {len(book['verbs'])} verb sheets")
 
 
 CREDITS_CSS = """

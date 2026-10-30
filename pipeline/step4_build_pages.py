@@ -656,45 +656,34 @@ def show(cell):
     return text + (INFERRED if inferred and text != "–" else "")
 
 
-def verb_page(name, e, eng):
-    en = eng.get(key(name), "")
-    di = " / ".join(e["dialect"]) or name
-    g = e["grid"]
-    def column(t):
-        """(heading mark, cells): a column that is inferred throughout is marked once, in its heading."""
-        cells = g[t]
-        whole = all(inferred for text, inferred in cells.values() if text != "–") and \
-            any(text != "–" for text, _ in cells.values())
-        return (INFERRED if whole else ""), {s: (c[0] if whole else show(c)) for s, c in cells.items()}
+def verb_page(v):
+    """One verb's Markdown page, from the verbs model (verbs_model.py)."""
+    def shown(c):
+        return c["text"] + (INFERRED if c["inferred"] else "")
 
-    ger_mark, ger = column("gerundio")
-    pp_mark, pp = column("participio passato")
-    raw_pp = g["participio passato"]["-"][0]
-    pp_shown = pp["-"].replace(raw_pp, feminine.with_feminine(raw_pp), 1) if raw_pp != "–" else pp["-"]
-    out = [f"# {di}{INFERRED if e['basis'] == 'inferred' else ''}\n", "## Infinitive\n",
-           table(["Dialett" + (INFERRED if e["basis"] == "inferred" else ""), "Italiano", "English"],
-                 [[f"**{di}**", " / ".join([name] + e["aliases"]), to_verb(en)]]),
-           table(["Gerundio" + ger_mark, "Participio passato" + pp_mark, "Verb class"],
-                 [[ger["-"], pp_shown, e["class"]]])]
-    if pp_shown != pp["-"]:
+    def mark(col):
+        return INFERRED if col["whole"] else ""
+
+    ger, pp = v["gerund"], v["participle"]
+    pp_plain = shown(pp["cells"][0])
+    raw_pp = pp["cells"][0]["text"]
+    pp_shown = pp_plain.replace(raw_pp, pp["with_feminine"], 1) if raw_pp != "–" else pp_plain
+    inf = INFERRED if v["infinitive_inferred"] else ""
+    out = [f"# {v['dialect']}{inf}\n", "## Infinitive\n",
+           table(["Dialett" + inf, "Italiano", "English"], [[f"**{v['dialect']}**", v["italian"], v["english"]]]),
+           table(["Gerundio" + mark(ger), "Participio passato" + mark(pp), "Verb class"],
+                 [[shown(ger["cells"][0]), pp_shown, v["verb_class"]]])]
+    if pp_shown != pp_plain:
         out.append(f"{PP_AGREEMENT[0]}  \n{PP_AGREEMENT[1]}\n")
-    if e.get("note"):                                   # learner's note, etc/notes.csv
-        out.append(table(["Nota", "Note"], [[e["note"], e.get("note_en", "")]]))
-
-    def section(title, tenses, persons):
-        cols = [column(t) for t in tenses]
-        if title:
-            out.append(f"## {title}\n")
-        out.append(table([""] + [t.capitalize() + mark for t, (mark, _) in zip(tenses, cols)],
-                         [[f"*{label}*"] + [cells[s] for _, cells in cols] for s, label in persons]))
-
-    # two tables of three tenses, so that a page prints on A4
-    section("Indicativo", ["presente", "futuro", "futuro prossimo"], PERSONS)
-    section("", ["imperfetto", "passato prossimo", "trapassato prossimo"], PERSONS)
-    section("Condizionale", CONDITIONAL, PERSONS)
-    section("Congiuntivo", SUBJUNCTIVE, PERSONS)
-    section("Imperativo", ["imperativo", IMPERATIVE], [("2s", "ti"), ("1p", "nüm"), ("2p", "vialtri")])
-    out.append("**Sources:** " + "; ".join(src_link(s) for s in e["sources"]) + "\n")
+    if v["note"]:                                       # learner's note, etc/notes.csv
+        out.append(table(["Nota", "Note"], [[v["note"], v["note_en"]]]))
+    for sec in v["sections"]:
+        if sec["title"]:
+            out.append(f"## {sec['title']}\n")
+        cols = sec["tenses"]
+        out.append(table([""] + [t["name"].capitalize() + mark(t) for t in cols],
+                         [[f"*{c['label']}*"] + [shown(t["cells"][i]) for t in cols] for i, c in enumerate(cols[0]["cells"])]))
+    out.append("**Sources:** " + "; ".join(src_link(s) for s in v["sources"]) + "\n")
     out.append("[← all verbs](README.md)\n")
     return "\n".join(out)
 
@@ -922,18 +911,16 @@ def render(uniq, tables, eng, topics=None):
                 for person, (form, inferred) in e["grid"][t].items():
                     w.writerow([name, " / ".join(e["dialect"]), "yes" if e["basis"] == "inferred" else "",
                                 e["class"].split(":")[0], t, person, form, "yes" if inferred else ""])
+    import verbs_model
+    vbook = verbs_model.build(tables, eng)               # the one model of the verbs: pages and PDF
+    verbs_model.save(vbook)
+    order = [v["name"] for v in vbook["verbs"]]            # verb order and details, for TO-CHECK.md below
     manual_verbs = {key(r["italian"]): r for r in read(ETC / "verb_details.csv")}
-    vindex, used_names = [], set()
-    order = sorted(tables, key=lambda n: (not tables[n]["dialect"], plain(" ".join(tables[n]["dialect"]) or n)))
-    for name in order:
-        e = tables[name]
-        fname = verb_file(name, e)
-        assert fname not in used_names, fname
-        used_names.add(fname)
-        write(ROOT / "Verbs" / fname, verb_page(name, e, eng))
-        cells = [c for row in e["grid"].values() for c in row.values()]
-        tenses = f"{sum(not c[1] and c[0] != '–' for c in cells)} of {len(cells)}"
-        vindex.append([f"[{' / '.join(e['dialect']) or '–'}]({fname})" + (INFERRED if e["basis"] == "inferred" else ""), " / ".join([name] + e["aliases"]), to_verb(eng.get(key(name), "")), e["class"].split(":")[0], tenses])
+    vindex = []
+    for v in vbook["verbs"]:
+        write(ROOT / "Verbs" / v["file"], verb_page(v))
+        vindex.append([f"[{v['dialect']}]({v['file']})" + (INFERRED if v["infinitive_inferred"] else ""), v["italian"],
+                       v["english"], v["class_short"], v["found"]])
     write(ROOT / "Verbs/README.md", "\n".join([
         "# Verbs\n", "**[arogno-verbs.pdf](arogno-verbs.pdf)** has all of these for printing, one verb per A4 sheet.\n",
         "One page per verb, listed by dialect infinitive. The first three columns are infinitives. "

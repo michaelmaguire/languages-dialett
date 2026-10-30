@@ -1,0 +1,32 @@
+[#- The body of Verbs/arogno-verbs.pdf: the contents page and one A4 sheet per verb, from the verbs model
+    (pipeline/verbs_model.py). Filled by step5_build_pdfs.py with Jinja2 (delimiters [[ ]] and [% %], so the
+    {{page:ID}} placeholders of the two-pass print stay literal). † is <sup>† </sup>: on a form when only it is
+    inferred, in a column heading when the whole column is. -#]
+[%- set dagger = "<sup>†</sup>" -%]
+[%- macro form(c) %][[ c.text | e ]][% if c.inferred %][[ dagger ]][% endif %][% endmacro -%]
+[%- macro mark(col) %][% if col.whole %][[ dagger ]][% endif %][% endmacro -%]
+
+<section class="index"><h1>Contents</h1><a class="toc" href="#attributions"><span>Attributions and thanks</span><span>{{page:attributions}}</span></a><h2>Verbs</h2><p>[[ verbs | length ]] verbs, one per page, in alphabetical order of the dialect infinitive. † marks a form that is inferred from the patterns in the course material rather than found in a document; in a column heading it applies to the whole column.</p><div class="cols">
+[%- for v in verbs -%]
+<a href="#v-[[ loop.index ]]"><span><b>[[ v.dialect_first | e ]]</b> <span class="it">[[ v.name | e ]]</span></span><span>{{page:v-[[ loop.index ]]}}</span></a>
+[%- endfor -%]
+</div></section>
+[[- credits ]]
+[%- for v in verbs -%]
+[%- set pp = v.participle.cells[0] -%]
+<section id="v-[[ loop.index ]]"[% if v.note %] class="noted"[% endif %]><h1>[[ v.dialect | e ]][% if v.infinitive_inferred %][[ dagger ]][% endif %]</h1>
+<p class="sub"><i>italiano</i> [[ v.italian | e ]][% if v.english %] &nbsp;·&nbsp; <i>English</i> [[ v.english | e ]][% endif %]</p>
+[#- the participle with its feminine on one line (rubaa/rubada) -#]
+<p class="meta"><b>Gerundio</b>[[ mark(v.gerund) ]] [[ form(v.gerund.cells[0]) ]] &nbsp;·&nbsp; <b>Participio passato</b>[[ mark(v.participle) ]] [% if pp.text != "–" %]<span class="nw">[[ v.participle.with_feminine | e ]]</span>[% if pp.inferred %][[ dagger ]][% endif %][% else %][[ form(pp) ]][% endif %] &nbsp;·&nbsp; [[ v.class_short | e ]]</p>
+[%- if v.note %]<p class="vnote"><span>[[ v.note | e ]]</span><span>[[ v.note_en | e ]]</span></p>[% endif -%]
+[%- for sec in v.sections -%]
+  [%- if sec.title %]<h2>[[ sec.title | e ]]</h2>[% endif -%]
+<table><tr><th class="p"></th>[% for t in sec.tenses %]<th>[[ t.name | capitalize | e ]][[ mark(t) ]]</th>[% endfor %]</tr>
+  [%- for c in sec.tenses[0].cells -%]
+    [%- set i = loop.index0 -%]
+<tr><td class="p">[[ c.label | e ]]</td>[% for t in sec.tenses %]<td>[[ form(t.cells[i]) ]]</td>[% endfor %]</tr>
+  [%- endfor -%]
+</table>
+[%- endfor -%]
+<div class="foot"><span></span><span>{{page:v-[[ loop.index ]]}}</span></div></section>
+[%- endfor -%]
