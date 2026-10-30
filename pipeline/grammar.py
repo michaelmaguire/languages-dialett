@@ -1,8 +1,9 @@
 """The grammar: etc/grammar/*.md (chapters) and etc/grammar_examples.csv (glossed examples).
 
 Read by lexicon.py (the examples go into cldf/examples.csv with Genre `grammar`, the chapters into
-cldf/grammar/ and cldf/media.csv), step4_build_pages.py (Grammar/*.md) and step5_build_pdfs.py
-(Grammar/arogno-grammar.pdf).
+cldf/grammar/ and cldf/media.csv) and by grammar_model.py, which resolves the parsed chapters into the one
+model that step4_build_pages.py (Grammar/*.md, with md_chapter() here) and step5_build_pdfs.py
+(Grammar/arogno-grammar.pdf, templates/grammar.html.j2 with html_inline() here) both render.
 
 A chapter is CLDF Markdown (https://github.com/cldf/cldf/blob/master/extensions/markdown.md) with a few
 conventions of its own, so that the explanations can be printed in two columns, Italian beside English:
@@ -257,66 +258,53 @@ def source_title(file):
 
 
 # ------------------------------------------------------------------ Markdown pages (step 4)
-def md_inline(text, d, verb_file):
+def md_inline(text, files):
+    """A chapter's Markdown for a page: links to a verb lead to its page (files: verb ID -> page)."""
     def link(m):
         label, table, ident, _ = m.groups()
         first = ident.split(",")[0]
-        if table == "EntryTable" and first in d["verbs"]:
-            name, t = d["verbs"][first]
-            return f"[*{label or t['dialect'][0]}*](../Verbs/{quote(verb_file(name, t))})"
+        if table == "EntryTable" and first in files:
+            return f"[*{label}*](../Verbs/{quote(files[first])})"
         return f"*{label}*" if label else ""
     return LINK.sub(link, text).replace("|", "\\|")
 
 
-def md_example(n, x, d, src_link):
-    r = d["files"].get(x["ID"], {})
-    out = [f"**({n})** *{x['Primary_Text']}*\n"]
-    words, gloss = x["Analyzed_Word"] or [], x["Gloss"] or []
-    if words:
-        out.append("| " + " | ".join(f"*{w}*" for w in words) + " |")
-        out.append("|" + "---|" * len(words))
-        out.append("| " + " | ".join(g.replace("|", "\\|") for g in gloss) + " |\n")
-    tr = f"‘{x['Translated_Text']}’"
-    if x.get("Translated_Text_English"):
-        tr += f" · ‘{x['Translated_Text_English']}’"
-    where = src_link(r.get("Source", ""), depth=1, text=f"{source_title(r.get('Source', ''))}, l. {r.get('Line', '')}") \
-        if r.get("Source") else ""
-    out.append(f"{tr} — {where}\n" + (f"\n*{x['Comment']}*\n" if x.get("Comment") else ""))
+def md_example(x, src_link):
+    out = [f"**({x['n']})** *{x['text']}*\n"]
+    if x["words"]:
+        out.append("| " + " | ".join(f"*{w}*" for w in x["words"]) + " |")
+        out.append("|" + "---|" * len(x["words"]))
+        out.append("| " + " | ".join(g.replace("|", "\\|") for g in x["gloss"]) + " |\n")
+    tr = f"‘{x['italian']}’" + (f" · ‘{x['english']}’" if x["english"] else "")
+    where = src_link(x["source"], depth=1, text=f"{x['source_title']}, l. {x['line']}") if x["source"] else ""
+    out.append(f"{tr} — {where}\n" + (f"\n*{x['comment']}*\n" if x["comment"] else ""))
     return "\n".join(out)
 
 
-def md_chapter(ch, d, verb_file, src_link, nav):
+def md_chapter(ch, files, src_link, nav):
+    """One chapter's page, from the grammar model (grammar_model.py)."""
     num = f"{ch['num']}. " if ch.get("num") else ""
-    out = [f"# {num}{ch['title'][0]}\n", f"*{ch['title'][1]}*\n", nav + "\n"]
-    n = 0
+    out = [f"# {num}{ch['title_it']}\n", f"*{ch['title_en']}*\n", nav + "\n"]
     for b in ch["blocks"]:
-        if b[0] == "h2":
-            out.append(f"## {b[1]} · *{b[2]}*\n")
-        elif b[0] == "pairs":
+        if b["kind"] == "h2":
+            out.append(f"## {b['it']} · *{b['en']}*\n")
+        elif b["kind"] == "pairs":
             out.append("| Italiano | English |\n|---|---|\n" + "\n".join(
-                f"| {md_inline(it, d, verb_file)} | {md_inline(en, d, verb_file)} |" for it, en in b[1]) + "\n")
-        elif b[0] == "examples":
-            for i in b[1]:
-                if i in d["examples"]:
-                    n += 1
-                    out.append(md_example(n, d["examples"][i], d, src_link))
-        elif b[0] == "verbs":
-            header, rows = verb_grid(b[1], b[2], d)
-            if not rows:
-                continue
-            if len(b[1]) > 1:
-                header = [f"[*{d['verbs'][i][1]['dialect'][0]}*](../Verbs/{quote(verb_file(*d['verbs'][i]))})"
-                          for i in b[1] if i in d["verbs"]]
-                cap = f"*{TENSE_LABEL.get(b[2][0], b[2][0])}*"
+                f"| {md_inline(it, files)} | {md_inline(en, files)} |" for it, en in b["pairs"]) + "\n")
+        elif b["kind"] == "example":
+            out.append(md_example(b, src_link))
+        elif b["kind"] == "verbs":
+            page = lambda v: f"[*{v['dialect']}*](../Verbs/{quote(v['file'])})"
+            if b["multi"]:
+                header, cap = [page(v) for v in b["verbs"]], f"*{b['tense']}*"
             else:
-                name, t = d["verbs"][b[1][0]]
-                cap = f"[*{t['dialect'][0]}*](../Verbs/{quote(verb_file(name, t))}) ({name})"
+                header, cap = b["header"], f"{page(b['verb'])} ({b['verb']['name']})"
             out.append(cap + "\n")
             out.append("|  | " + " | ".join(header) + " |\n|---|" + "---|" * len(header) + "\n" + "\n".join(
-                "| " + (f"*{label}*" if label else "") + " | " + " | ".join(
-                    f"{f}{' †' if inf else ''}" for f, inf in cells) + " |" for label, cells in rows) + "\n")
-        elif b[0] == "table":
-            out.append("\n".join(md_inline(r, d, verb_file).replace("\\|", "|") for r in b[1]) + "\n")
+                "| " + (f"*{r['label']}*" if r["label"] else "") + " | " + " | ".join(
+                    f"{c['form']}{' †' if c['inferred'] else ''}" for c in r["cells"]) + " |" for r in b["rows"]) + "\n")
+        elif b["kind"] == "table":
+            out.append("\n".join(md_inline(r, files).replace("\\|", "|") for r in b["lines"]) + "\n")
     out.append(nav + "\n")
     return "\n".join(out)
 
@@ -334,146 +322,41 @@ INTRO_MD = (
     "[`etc/grammar_examples.csv`](../etc/grammar_examples.csv).\n")
 
 
-def write_pages(tables, verb_file, src_link, write):
-    """Grammar/README.md and one page per chapter. Returns the number of chapters."""
-    chs = chapters(CLDF / "grammar")
-    if not chs:
+def write_pages(book, src_link, write):
+    """Grammar/README.md and one page per chapter, from the grammar model. Returns the number of chapters."""
+    if not book:
         return 0
-    d = load_data(tables)
+    chs = book["chapters"]
+    title = {c["id"]: c["title_it"] for c in chs}
     index = []
-    for k, ch in enumerate(chs):
-        prev = f"[← {chs[k - 1]['title'][0]}]({chs[k - 1]['id']}.md)" if k else ""
-        nxt = f"[{chs[k + 1]['title'][0]} →]({chs[k + 1]['id']}.md)" if k + 1 < len(chs) else ""
+    for ch in chs:
+        prev = f"[← {title[ch['prev']]}]({ch['prev']}.md)" if ch["prev"] else ""
+        nxt = f"[{title[ch['next']]} →]({ch['next']}.md)" if ch["next"] else ""
         nav = " · ".join(x for x in (prev, "[indice · contents](README.md)", nxt) if x)
-        write(ROOT / "Grammar" / f"{ch['id']}.md", md_chapter(ch, d, verb_file, src_link, nav))
-        exs = sum(len(b[1]) for b in ch["blocks"] if b[0] == "examples")
-        index.append(f"| {ch['num'] or ''} | [{ch['title'][0]}]({ch['id']}.md) | {ch['title'][1]} | {exs} |")
+        write(ROOT / "Grammar" / f"{ch['id']}.md", md_chapter(ch, book["verb_files"], src_link, nav))
+        index.append(f"| {ch['num'] or ''} | [{ch['title_it']}]({ch['id']}.md) | {ch['title_en']} | {ch['examples']} |")
     write(ROOT / "Grammar" / "README.md", INTRO_MD + "\n| | Italiano | English | Esempi · examples |\n|---|---|---|---|\n"
           + "\n".join(index) + "\n")
     return len(chs)
 
 
 # ------------------------------------------------------------------ HTML for the PDF (step 5)
-def html_inline(text):
+def html_inline(text, files=None, base=""):
+    """A chapter's Markdown as HTML for the PDF. A link to a verb becomes a link to its page online
+    (base + file; owner, 2026-10-30), styled like the text around it so a printed copy does not show it."""
+    files = files or {}
+
+    def link(m):
+        label, table, ident, _ = m.groups()
+        first = ident.split(",")[0]
+        if not label:
+            return ""
+        if table == "EntryTable" and first in files:
+            return f'<a class="web" href="{base}{quote(files[first])}"><i>{label}</i></a>'
+        return f"<i>{label}</i>"
     text = html.escape(text, quote=False)
-    text = LINK.sub(lambda m: f"<i>{m.group(1)}</i>" if m.group(1) else "", text)
+    text = LINK.sub(link, text)
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)               # links to other pages: text only
     text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
     text = re.sub(r"(?<![\w*])\*(?!\s)(.+?)\*(?!\w)", r"<i>\1</i>", text)
     return re.sub(r"`([^`]+)`", r"<code>\1</code>", text)
-
-
-def number(ch):
-    return str(ch["num"]) if ch.get("num") else ""
-
-
-def html_chapter(ch, d):
-    out = [f'<div class="part chapter" id="ch-{ch["id"]}"><h1><span class="num">{number(ch)}</span>'
-           f'{html_inline(ch["title"][0])}<span class="en">{html_inline(ch["title"][1])}</span></h1>']
-    n = 0
-    for b in ch["blocks"]:
-        if b[0] == "h2":
-            out.append(f'<h2>{html_inline(b[1])} <span class="en">· {html_inline(b[2])}</span></h2>')
-        elif b[0] == "pairs":
-            out.append('<div class="pairs">' + "".join(
-                f'<div class="it">{html_inline(it)}</div><div class="en">{html_inline(en)}</div>' for it, en in b[1])
-                + "</div>")
-        elif b[0] == "examples":
-            for i in b[1]:
-                x = d["examples"].get(i)
-                if not x:
-                    continue
-                n += 1
-                r = d["files"].get(i, {})
-                words, gloss = x["Analyzed_Word"] or [], x["Gloss"] or []
-                igt = ('<div class="igt">' + "".join(
-                    f'<span class="w"><span>{html.escape(w)}</span><span class="g">{html.escape(g)}</span></span>'
-                    for w, g in zip(words, gloss)) + "</div>") if words else ""
-                en = f' · <span class="ten">‘{html.escape(x["Translated_Text_English"])}’</span>' \
-                    if x.get("Translated_Text_English") else ""
-                src = f'{html.escape(source_title(r.get("Source", "")))}, l. {html.escape(r.get("Line", ""))}'
-                note = f'<div class="note">{html_inline(x["Comment"])}</div>' if x.get("Comment") else ""
-                out.append(f'<div class="ex"><span class="n">({n})</span><div><div class="pt">'
-                           f'{html.escape(x["Primary_Text"])}</div>{igt}<div class="tr">‘{html.escape(x["Translated_Text"])}’'
-                           f'{en}<span class="src">{src}</span></div>{note}</div></div>')
-        elif b[0] == "verbs":
-            header, rows = verb_grid(b[1], b[2], d)
-            if not rows:
-                continue
-            if len(b[1]) > 1:
-                header = [d["verbs"][i][1]["dialect"][0] for i in b[1] if i in d["verbs"]]
-                cap = f'<i>{html.escape(TENSE_LABEL.get(b[2][0], b[2][0]))}</i>'
-            else:
-                name, t = d["verbs"][b[1][0]]
-                cap = f'<b>{html.escape(t["dialect"][0])}</b> <i>({html.escape(name)})</i>'
-            out.append(f'<table class="vt"><caption>{cap}</caption><tr><th></th>'
-                       + "".join(f"<th>{html.escape(h)}</th>" for h in header) + "</tr>" + "".join(
-                           f'<tr><td class="p">{html.escape(label)}</td>' + "".join(
-                               f'<td>{html.escape(f)}{"<sup>†</sup>" if inf else ""}</td>' for f, inf in cells)
-                           + "</tr>" for label, cells in rows) + "</table>")
-        elif b[0] == "table":
-            cells = lambda line: [c.strip() for c in line.strip().strip("|").split("|")]
-            head, body = cells(b[1][0]), [cells(r) for r in b[1][2:]]
-            out.append('<table class="dt"><tr>' + "".join(f"<th>{html_inline(c)}</th>" for c in head) + "</tr>"
-                       + "".join("<tr>" + "".join(f"<td>{html_inline(c)}</td>" for c in r) + "</tr>" for r in body)
-                       + "</table>")
-    out.append("</div>")
-    return "".join(out)
-
-
-GRAMMAR_CSS = """
-.chapter h1 { font: bold 18pt/1.15 "DejaVu Sans", Arial, sans-serif; margin: 0 0 4mm; padding-bottom: 2mm;
-              border-bottom: 1.2pt solid #111; }
-.chapter h1 .num { display: inline-block; min-width: 11mm; color: #7a1f5c; }
-.chapter h1 .en { display: block; font: italic 12pt "DejaVu Serif", Georgia, serif; color: #444; margin: 1mm 0 0 11mm; }
-.chapter h2 { font: bold 10.5pt "DejaVu Sans", Arial, sans-serif; margin: 5mm 0 2mm; color: #7a1f5c;
-              break-after: avoid; }
-.chapter h2 .en { font: italic 10pt "DejaVu Serif", Georgia, serif; color: #555; }
-.pairs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 7mm; row-gap: 2mm; margin: 0 0 3mm; }
-.pairs .it, .pairs .en { font-size: 9.6pt; line-height: 1.38; break-inside: avoid; }
-.pairs .en { color: #1d3d5c; border-left: .4pt solid #bbb; padding-left: 4mm; margin-left: -3.5mm; }
-.ex { display: flex; gap: 3mm; margin: 2mm 0 3mm 4mm; break-inside: avoid; }
-.ex .n { font: 9pt "DejaVu Sans", Arial, sans-serif; color: #7a1f5c; min-width: 8mm; }
-.ex .pt { font-weight: bold; font-size: 10pt; }
-.igt { display: flex; flex-wrap: wrap; gap: 0 3mm; margin: .8mm 0; }
-.igt .w { display: inline-flex; flex-direction: column; }
-.igt .w span:first-child { font-style: italic; }
-.igt .g { font: 7.6pt "DejaVu Sans", Arial, sans-serif; color: #444; }
-.ex .tr { font-size: 9.2pt; }
-.ex .ten { color: #1d3d5c; }
-.ex .src { font: 7.6pt "DejaVu Sans", Arial, sans-serif; color: #777; margin-left: 3mm; }
-.ex .note { font-size: 8.5pt; color: #555; font-style: italic; margin-top: .5mm; }
-table.vt, table.dt { width: auto; min-width: 50%; margin: 2mm 0 4mm 4mm; table-layout: auto; break-inside: avoid; }
-table.vt caption { text-align: left; font-size: 9.5pt; padding-bottom: 1mm; }
-table.vt td, table.vt th, table.dt td, table.dt th { padding: .5mm 5mm .5mm 0; font-size: 9.2pt; }
-table.vt th, table.dt th { font: bold 8.2pt "DejaVu Sans", Arial, sans-serif; }
-table.vt td.p { color: #555; font-style: italic; width: 16mm; }
-table.vt sup { font-size: 70%; }
-.gtoc a { display: flex; justify-content: space-between; color: inherit; text-decoration: none;
-          border-bottom: .3pt dotted #999; padding: 1.2mm 0; font-size: 11pt; }
-.gtoc a span.en { color: #555; font-style: italic; font-size: 10pt; }
-.gintro { font-size: 10pt; line-height: 1.45; margin-top: 6mm; }
-"""
-
-
-def pdf_parts(tables):
-    """(contents html, body html, counts) for step 5, or None when there is no grammar."""
-    chs = chapters(CLDF / "grammar")
-    if not chs:
-        return None
-    d = load_data(tables)
-    body = [html_chapter(ch, d) for ch in chs]
-    toc = "".join(f'<a href="#ch-{ch["id"]}"><span><b>{number(ch)}</b> {html_inline(ch["title"][0])} '
-                  f'<span class="en">· {html_inline(ch["title"][1])}</span></span>'
-                  f'<span>{{{{page:ch-{ch["id"]}}}}}</span></a>' for ch in chs)
-    n_ex = sum(len(b[1]) for ch in chs for b in ch["blocks"] if b[0] == "examples")
-    contents = ('<section class="toc gtoc"><h1>Indice · Contents</h1><a class="head" href="#attributions">'
-                '<span>Ringraziamenti · Attributions and thanks</span><span>{{page:attributions}}</span></a>'
-                + toc + '<div class="gintro"><p>Ogni capitolo spiega in italiano (a sinistra) e in inglese (a destra); '
-                'esempi e tabelle sono in dialetto, ogni esempio con il documento e la riga da cui viene. '
-                '† segna ciò che è dedotto dalle forme del corso e non detto dal corso stesso; in una tabella, '
-                'una forma dedotta.</p><p>Each chapter explains in Italian (left) and English (right); examples and '
-                'tables are in dialect, each example with the document and line it comes from. † marks what is '
-                'worked out from the forms in the course rather than stated by it; in a table, a predicted form.'
-                '</p></div></section>')
-    return contents, "".join(body), {"chapters": len(chs), "examples": n_ex}

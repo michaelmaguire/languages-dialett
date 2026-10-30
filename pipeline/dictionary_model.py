@@ -5,11 +5,12 @@ is written (daggers, feminines, parts of speech). The renderers only lay it out:
 writes the Markdown, step5_build_pdfs.py fills templates/dictionary.html.j2. Until then each built its own
 look-ups, and fixes had to be made twice (the double arrow, the homograph labels of frecc).
 
-    book = build(words)            # words: the dictionary rows of lexicon.for_pages()
+    book = build(words, pages)     # words: the dictionary rows of lexicon.for_pages(); pages: the verbs' pages
     book["parts"][0]               # Dialett → Italiano → English
         ["sections"][0]            # the letter A ("#" last: entries with no word to sort on)
             ["entries"][0]         # one headword: head, words, flag, notes, no_word
-                ["senses"][0]      # dialect, label, italian, english, region, note, source, check, new_word
+                ["senses"][0]      # dialect, label, italian, english, region, note, source, check, new_word,
+                                   # verb_page
 
 Saved by step 4 as pipeline/cache/dictionary_model.json (not committed: rebuilt on every build), which
 step 5 and the tests read.
@@ -59,19 +60,23 @@ def rows_for(words, head):
     return pages.lookup_rows(words, head)
 
 
-def sense(p, part):
+def sense(p, part, verb_pages):
     lang = part["lang"]
+    first = pages.SPELLINGS.split(p["dialect"])[0].strip()
+    page = verb_pages.get(pages.key(p["dialect"])) or verb_pages.get(pages.key(first)) if p.get("pos") == "verb" else None
     return {"dialect": pages.dialect_shown(p), "label": pages.word_label(p, lang), "pos": p.get("pos") or "",
+            # a verb's page (Verbs/<file>), which the PDF links the verb to (owner, 2026-10-30)
+            "verb_page": page or "",
             "italian": p["italian"] + (pages.INFERRED if p.get("supplied") else ""),
             "english": p["english"], "region": pages.region(p), "note": p["note"],
             "entry_note": p.get("entry_note_en" if lang == "en" else "entry_note", ""),
             "source": p["source"], "check": bool(p["check"])}
 
 
-def entry(group, part):
+def entry(group, part, verb_pages):
     """One headword and its senses (several when a word has several meanings or regional forms)."""
     head = part["head"]
-    senses = [sense(p, part) for p in group]
+    senses = [sense(p, part, verb_pages) for p in group]
     first = senses[0]
     for s in senses:
         # a homograph's later part of speech is a new word, with its own forms and label (frecc, the noun,
@@ -90,7 +95,7 @@ def entry(group, part):
             "senses": senses}
 
 
-def part_model(words, part):
+def part_model(words, part, verb_pages):
     head, k = part["head"], sort_key(part["head"])
     rows = order(rows_for(words, head), head)
     letters = {}
@@ -104,14 +109,16 @@ def part_model(words, part):
         merged = pages.merge_same_head([p for p in group if p[head]], head, part["others"], pages.region) \
             + [[p] for p in group if not p[head]]
         sections.append({"letter": name, "name": part["no_word"] if name == "#" else name,
-                         "entries": [entry(g, part) for g in merged]})
+                         "entries": [entry(g, part, verb_pages) for g in merged]})
     return {**{x: part[x] for x in ("head", "lang", "title", "pdf_title")}, "rows": len(rows),
             "blank": sum(not p[head] for p in rows), "sections": sections}
 
 
-def build(words):
+def build(words, verb_pages=None):
+    """verb_pages: {dialect infinitive (key): its page in Verbs/}, for the links of the PDF."""
+    verb_pages = verb_pages or {}
     return {"words": len(words), "flagged": sum(bool(p["check"]) for p in words),
-            "parts": [part_model(words, part) for part in PARTS]}
+            "parts": [part_model(words, part, verb_pages) for part in PARTS]}
 
 
 def save(book):

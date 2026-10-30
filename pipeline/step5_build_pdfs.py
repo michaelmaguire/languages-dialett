@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Step 5: print-ready PDFs of the verb charts, the dictionary and the expressions, from the CLDF dataset.
 
-Reads  cache/dictionary_model.json, expressions_model.json and verbs_model.json (saved by step 4) with
-       templates/dictionary.html.j2, expressions.html.j2 and verbs.html.j2, ../cldf for the grammar,
+Reads  cache/dictionary_model.json, expressions_model.json, verbs_model.json and grammar_model.json (saved
+       by step 4) with templates/dictionary.html.j2, expressions.html.j2, verbs.html.j2 and grammar.html.j2,
        templates/cover_verbs.html, cover_dictionary.html and cover_expressions.html (title pages; {{verbs}},
        {{inferred}}, {{words}}, {{flagged}}, {{sayings}}, {{phrases}}, {{topics}} and {{edition}}
        are filled in at build time), ../ATTRIBUTIONS.md (printed straight after each cover)
@@ -256,17 +256,27 @@ h2 { font: bold 15pt "DejaVu Sans", Arial, sans-serif; margin: 3mm 0 1.5mm; brea
 .e .r { font: 7pt "DejaVu Sans", Arial, sans-serif; color: #666; text-transform: uppercase; letter-spacing: .04em; }
 .e .n { color: #555; font-size: 8pt; }
 .e .g { font-style: normal; font-size: 8pt; color: #666; }   /* the label: upright and grey, unlike the italic translations */
+/* a link to a verb's page online (owner, 2026-10-30): clickable on screen, and looking exactly like the text
+   around it, so a printed copy shows no trace of it (a PDF link itself is never printed) */
+a.web { color: inherit; text-decoration: none; }
 """
+
+
+VERBS_URL = f"{build.REPO_URL}/blob/main/Verbs/"
 
 
 def templates():
     """The Jinja2 templates of the PDFs (templates/*.html.j2). Delimiters [[ ]], [% %] and [# #], so the
     {{page:ID}} and {{recto:ID}} placeholders of the two-pass print (print_with_contents) stay literal."""
     import jinja2
-    return jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATES), autoescape=False,
-                              variable_start_string="[[", variable_end_string="]]",
-                              block_start_string="[%", block_end_string="%]",
-                              comment_start_string="[#", comment_end_string="#]")
+    from urllib.parse import quote
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATES), autoescape=False,
+                             variable_start_string="[[", variable_end_string="]]",
+                             block_start_string="[%", block_end_string="%]",
+                             comment_start_string="[#", comment_end_string="#]")
+    # a verb's page online, for the links of a PDF read on screen (styled as plain text: see a.web in DICT_CSS)
+    env.filters["page_url"] = lambda file: VERBS_URL + quote(file)
+    return env
 
 
 def dictionary():
@@ -324,24 +334,62 @@ def expressions():
                         f"expressions in {len(book['topics'])} topics")
 
 
+GRAMMAR_CSS = """
+.chapter h1 { font: bold 18pt/1.15 "DejaVu Sans", Arial, sans-serif; margin: 0 0 4mm; padding-bottom: 2mm;
+              border-bottom: 1.2pt solid #111; }
+.chapter h1 .num { display: inline-block; min-width: 11mm; color: #7a1f5c; }
+.chapter h1 .en { display: block; font: italic 12pt "DejaVu Serif", Georgia, serif; color: #444; margin: 1mm 0 0 11mm; }
+.chapter h2 { font: bold 10.5pt "DejaVu Sans", Arial, sans-serif; margin: 5mm 0 2mm; color: #7a1f5c;
+              break-after: avoid; }
+.chapter h2 .en { font: italic 10pt "DejaVu Serif", Georgia, serif; color: #555; }
+.pairs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 7mm; row-gap: 2mm; margin: 0 0 3mm; }
+.pairs .it, .pairs .en { font-size: 9.6pt; line-height: 1.38; break-inside: avoid; }
+.pairs .en { color: #1d3d5c; border-left: .4pt solid #bbb; padding-left: 4mm; margin-left: -3.5mm; }
+.ex { display: flex; gap: 3mm; margin: 2mm 0 3mm 4mm; break-inside: avoid; }
+.ex .n { font: 9pt "DejaVu Sans", Arial, sans-serif; color: #7a1f5c; min-width: 8mm; }
+.ex .pt { font-weight: bold; font-size: 10pt; }
+.igt { display: flex; flex-wrap: wrap; gap: 0 3mm; margin: .8mm 0; }
+.igt .w { display: inline-flex; flex-direction: column; }
+.igt .w span:first-child { font-style: italic; }
+.igt .g { font: 7.6pt "DejaVu Sans", Arial, sans-serif; color: #444; }
+.ex .tr { font-size: 9.2pt; }
+.ex .ten { color: #1d3d5c; }
+.ex .src { font: 7.6pt "DejaVu Sans", Arial, sans-serif; color: #777; margin-left: 3mm; }
+.ex .note { font-size: 8.5pt; color: #555; font-style: italic; margin-top: .5mm; }
+table.vt, table.dt { width: auto; min-width: 50%; margin: 2mm 0 4mm 4mm; table-layout: auto; break-inside: avoid; }
+table.vt caption { text-align: left; font-size: 9.5pt; padding-bottom: 1mm; }
+table.vt td, table.vt th, table.dt td, table.dt th { padding: .5mm 5mm .5mm 0; font-size: 9.2pt; }
+table.vt th, table.dt th { font: bold 8.2pt "DejaVu Sans", Arial, sans-serif; }
+table.vt td.p { color: #555; font-style: italic; width: 16mm; }
+table.vt sup { font-size: 70%; }
+.gtoc a { display: flex; justify-content: space-between; color: inherit; text-decoration: none;
+          border-bottom: .3pt dotted #999; padding: 1.2mm 0; font-size: 11pt; }
+.gtoc a span.en { color: #555; font-style: italic; font-size: 10pt; }
+.gintro { font-size: 10pt; line-height: 1.45; margin-top: 6mm; }
+"""
+
+
 def grammar_pdf():
-    """Grammar/arogno-grammar.pdf: the chapters of etc/grammar/, Italian and English in two columns,
-    examples and tables in dialect (see grammar.py)."""
-    import grammar, lexicon
-    _, tables, _ = lexicon.for_pages()
-    parts = grammar.pdf_parts(tables)
-    if not parts:
+    """Grammar/arogno-grammar.pdf: the chapters, Italian and English in two columns, examples and tables in
+    dialect, from the grammar model that step 4 saved (grammar_model.py), through templates/grammar.html.j2."""
+    import grammar
+    import grammar_model
+    book = grammar_model.load()
+    if not book:
         return
-    contents, body, counts = parts
+    env = templates()
+    # the chapters' Markdown (*word*, **bold**) as HTML, verb links leading to the verb's page online
+    env.filters["inline"] = lambda text: grammar.html_inline(text, book["verb_files"], VERBS_URL)
+    body = env.get_template("grammar.html.j2").render(chapters=book["chapters"], credits=credits_pages())
     cover = stamp((TEMPLATES / "cover_grammar.html").read_text())
-    for k, v in counts.items():
+    for k, v in (("chapters", len(book["chapters"])), ("examples", book["examples"])):
         cover = cover.replace("{{" + k + "}}", str(v))
     page = HERE / "cache" / "print_grammar.html"
     document = (f'<!doctype html><meta charset="utf-8"><title>Gramatica – dialett da Rögn</title>'
-                f"<style>{DICT_CSS}{TOC_CSS}{grammar.GRAMMAR_CSS}</style>{cover}{contents}{credits_pages()}{body}")
+                f"<style>{DICT_CSS}{TOC_CSS}{GRAMMAR_CSS}</style>{cover}{body}")
     print_with_contents(build.ROOT / "Grammar" / "arogno-grammar.pdf", page, document,
-                        f"arogno-grammar.pdf: cover, contents, attributions + {counts['chapters']} chapters, "
-                        f"{counts['examples']} examples")
+                        f"arogno-grammar.pdf: cover, contents, attributions + {len(book['chapters'])} chapters, "
+                        f"{book['examples']} examples")
 
 
 if __name__ == "__main__":

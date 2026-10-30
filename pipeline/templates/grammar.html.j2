@@ -1,0 +1,37 @@
+[#- The body of Grammar/arogno-grammar.pdf: the contents page and the chapters, from the grammar model
+    (pipeline/grammar_model.py). Filled by step5_build_pdfs.py with Jinja2 (delimiters [[ ]] and [% %], so the
+    {{page:ID}} placeholders of the two-pass print stay literal). The filter `inline` turns the chapters'
+    Markdown into HTML (grammar.html_inline). -#]
+<section class="toc gtoc"><h1>Indice · Contents</h1><a class="head" href="#attributions"><span>Ringraziamenti · Attributions and thanks</span><span>{{page:attributions}}</span></a>
+[%- for ch in chapters -%]
+<a href="#ch-[[ ch.id ]]"><span><b>[[ ch.number ]]</b> [[ ch.title_it | inline ]] <span class="en">· [[ ch.title_en | inline ]]</span></span><span>{{page:ch-[[ ch.id ]]}}</span></a>
+[%- endfor -%]
+<div class="gintro"><p>Ogni capitolo spiega in italiano (a sinistra) e in inglese (a destra); esempi e tabelle sono in dialetto, ogni esempio con il documento e la riga da cui viene. † segna ciò che è dedotto dalle forme del corso e non detto dal corso stesso; in una tabella, una forma dedotta.</p><p>Each chapter explains in Italian (left) and English (right); examples and tables are in dialect, each example with the document and line it comes from. † marks what is worked out from the forms in the course rather than stated by it; in a table, a predicted form.</p></div></section>
+[[- credits ]]
+[%- for ch in chapters -%]
+<div class="part chapter" id="ch-[[ ch.id ]]"><h1><span class="num">[[ ch.number ]]</span>[[ ch.title_it | inline ]]<span class="en">[[ ch.title_en | inline ]]</span></h1>
+  [%- for b in ch.blocks -%]
+    [%- if b.kind == "h2" -%]
+<h2>[[ b.it | inline ]] <span class="en">· [[ b.en | inline ]]</span></h2>
+    [%- elif b.kind == "pairs" -%]
+<div class="pairs">[% for it, en in b.pairs %]<div class="it">[[ it | inline ]]</div><div class="en">[[ en | inline ]]</div>[% endfor %]</div>
+    [%- elif b.kind == "example" -%]
+<div class="ex"><span class="n">([[ b.n ]])</span><div><div class="pt">[[ b.text | e ]]</div>
+      [%- if b.words %]<div class="igt">[% for w in b.words %]<span class="w"><span>[[ w | e ]]</span><span class="g">[[ b.gloss[loop.index0] | e ]]</span></span>[% endfor %]</div>[% endif -%]
+<div class="tr">‘[[ b.italian | e ]]’[% if b.english %] · <span class="ten">‘[[ b.english | e ]]’</span>[% endif %]<span class="src">[[ b.source_title | e ]], l. [[ b.line | e ]]</span></div>
+      [%- if b.comment %]<div class="note">[[ b.comment | inline ]]</div>[% endif -%]
+</div></div>
+    [%- elif b.kind == "verbs" -%]
+<table class="vt"><caption>[% if b.multi %]<i>[[ b.tense | e ]]</i>[% else %]<b><a class="web" href="[[ b.verb.file | page_url ]]">[[ b.verb.dialect | e ]]</a></b> <i>([[ b.verb.name | e ]])</i>[% endif %]</caption><tr><th></th>
+      [%- if b.multi %][% for v in b.verbs %]<th><a class="web" href="[[ v.file | page_url ]]">[[ v.dialect | e ]]</a></th>[% endfor %][% else %][% for h in b.header %]<th>[[ h | e ]]</th>[% endfor %][% endif -%]
+</tr>
+      [%- for r in b.rows -%]
+<tr><td class="p">[[ r.label | e ]]</td>[% for c in r.cells %]<td>[[ c.form | e ]][% if c.inferred %]<sup>†</sup>[% endif %]</td>[% endfor %]</tr>
+      [%- endfor -%]
+</table>
+    [%- elif b.kind == "table" -%]
+<table class="dt"><tr>[% for c in b.head %]<th>[[ c | inline ]]</th>[% endfor %]</tr>[% for r in b.body %]<tr>[% for c in r %]<td>[[ c | inline ]]</td>[% endfor %]</tr>[% endfor %]</table>
+    [%- endif -%]
+  [%- endfor -%]
+</div>
+[%- endfor -%]

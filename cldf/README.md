@@ -115,7 +115,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://github.com/michaelmaguire/languages-dialett
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:michaelmaguire/languages-dialett
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:michaelmaguire/languages-dialett/tree/b141888">git@github.com:michaelmaguire/languages-dialett  b141888</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:michaelmaguire/languages-dialett/tree/9c82a23">git@github.com:michaelmaguire/languages-dialett  9c82a23</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | rogn
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution

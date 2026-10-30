@@ -844,7 +844,9 @@ def render(uniq, tables, eng, topics=None):
             + " (on the Italian page in Italian: " + ", ".join(f"*{it}*" for en, it in POS_ABBR.values() if it != en)
             + "); then a noun's gender (*m.*, *f.*) and plural (*pl.*), and a verb's 1st person singular and past participle (*truà v. (trövi, truaa)*; † on a predicted form). An adjective is shown with its feminine: *bagnaa/bagnada*.")
     import dictionary_model
-    book = dictionary_model.build(words)            # the one model of the dictionary: pages and PDF
+    # every spelling of a verb's infinitive leads to its page (the PDF links verbs to it)
+    verb_pages = {key(d): verb_file(name, e) for name, e in tables.items() for d in e["dialect"] + [" / ".join(e["dialect"])]}
+    book = dictionary_model.build(words, verb_pages)  # the one model of the dictionary: pages and PDF
     dictionary_model.save(book)
     dialett, italiano, english = book["parts"]
     note_lookup = (note + " Looking up from Italiano or English, a word from another region is left out when the "
@@ -937,7 +939,11 @@ def render(uniq, tables, eng, topics=None):
 
     # ---- Grammar (etc/grammar/ + etc/grammar_examples.csv, see grammar.py)
     import grammar
-    n_chapters = grammar.write_pages(tables, verb_file, src_link, write)
+    import grammar_model
+    gbook = grammar_model.build(tables, verb_file)        # the one model of the grammar: pages and PDF
+    if gbook:
+        grammar_model.save(gbook)
+    n_chapters = grammar.write_pages(gbook, src_link, write)
 
     # ---- everything that needs a human eye, on one page
     why = {"direction?": "quale lato è dialetto", "split?": "dove la riga è stata divisa in due",

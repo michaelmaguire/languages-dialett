@@ -227,7 +227,8 @@ def test_pdf_and_pages_list_the_same_headwords_in_the_same_order():
     parts = re.split(r'<div class="part" id="part-\d">', text)[1:]
     bad = []
     for part, md in zip(parts, PAGES):
-        pdf_heads = [build.key(h) for h in re.findall(r'<div class="e"><b>(.*?)</b>', part)]
+        # a verb's headword is a link to its page (2026-10-30): compare the text only
+        pdf_heads = [build.key(re.sub(r"<[^>]+>", "", h)) for h in re.findall(r'<div class="e"><b>(.*?)</b>', part)]
         md_heads = [build.key(re.sub(r" \*.*$", "", r["_head"].split(" · ")[0]).replace(" ⚠", ""))
                     for r in lookup_rows(md) if not r["_head"].startswith("[")]
         if pdf_heads != md_heads:

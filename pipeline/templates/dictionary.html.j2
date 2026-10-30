@@ -5,17 +5,17 @@
 [%- macro rest(s, cols) -%]
   [%- for k in cols if s[k] -%]
     [%- if not loop.first %] · [% endif -%]
-    [[ s[k] | e ]]
+    [%- if k == "dialect" and s.verb_page %]<a class="web" href="[[ s.verb_page | page_url ]]">[[ s[k] | e ]]</a>[% else %][[ s[k] | e ]][% endif -%]
     [%- if k == "dialect" and s.label %][% if "(" in s.label %] [[ s.label | e ]][% else %] ([[ s.label | e ]])[% endif %][% endif -%]
   [%- endfor -%]
 [%- endmacro -%]
 
 [%- macro entry(e, part, cols) -%]
-<div class="e"><b>[[ e.head | e ]]</b>
+<div class="e"><b>[% if part.head == "dialect" and e.senses[0].verb_page %]<a class="web" href="[[ e.senses[0].verb_page | page_url ]]">[[ e.head | e ]]</a>[% else %][[ e.head | e ]][% endif %]</b>
   [%- if part.head == "dialect" and e.senses[0].label %] <span class="g">[[ e.senses[0].label | e ]]</span>[% endif %][[ " → " ]]
   [%- for s in e.senses -%]
     [%- if not loop.first %]; [% endif -%]
-    [%- if s.new_word %]<b>[[ s.dialect | e ]]</b> <span class="g">[[ s.label | e ]]</span> [% endif -%]
+    [%- if s.new_word %]<b>[% if s.verb_page %]<a class="web" href="[[ s.verb_page | page_url ]]">[[ s.dialect | e ]]</a>[% else %][[ s.dialect | e ]][% endif %]</b> <span class="g">[[ s.label | e ]]</span> [% endif -%]
     <i>[[ rest(s, cols) ]]</i>
     [%- if s.check %] ⚠[% endif -%]
     [%- if s.region and s.region != "Rögn" %] <span class="r">[[ s.region | e ]]</span>[% endif -%]

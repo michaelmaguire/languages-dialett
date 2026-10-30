@@ -57,17 +57,23 @@ pipeline/build_all.sh
 | 1 | `step1_extract_text.py` | `raw/*.docx`, `*.pdf` | `raw/extracted/lesson_text/*.txt` (private); new rows in `etc/lesson_sources.csv` |
 | 2 | `step2_find_pairs_and_verbs.py` | the text, `etc/lesson_sources.csv`, `raw/notes_added_by_hand.csv` | full `extracted_pairs.csv` and `unparsed_lines.csv` in `raw/extracted/` (private); public `pipeline/data/extracted_pairs.csv` (without the lines of texts) and `extracted_verb_forms.csv` |
 | 3 | `step3_make_cldf.py` → `cldfbench_rogn.py` → `lexicon.py` | step 2 output + all of `etc/` + owner's spreadsheet and notes (from `raw/`, else `pipeline/data/owner_*.csv`) | fresh `pipeline/data/owner_*.csv` copies when `raw/` is there; `cldf/` from scratch; then `cldf validate` (build stops if invalid) |
-| 4 | `step4_build_pages.py` (+ `grammar.py`, `dictionary_model.py`, `expressions_model.py`, `verbs_model.py`) | `cldf/` only (the grammar from `cldf/grammar/`) | all Markdown; the models `pipeline/cache/*_model.json`; `pipeline/data/dictionary.csv`, `expressions.csv`, `verb_tables.csv` |
-| 5 | `step5_build_pdfs.py` (+ `grammar.py`) | `cldf/`, the three models (from step 4) with `pipeline/templates/dictionary.html.j2`, `expressions.html.j2`, `verbs.html.j2`, `pipeline/templates/cover_*.html`, `ATTRIBUTIONS.md` | the four PDFs |
+| 4 | `step4_build_pages.py` (+ `grammar.py`, `dictionary_model.py`, `expressions_model.py`, `verbs_model.py`, `grammar_model.py`) | `cldf/` only (the grammar from `cldf/grammar/`) | all Markdown; the models `pipeline/cache/*_model.json`; `pipeline/data/dictionary.csv`, `expressions.csv`, `verb_tables.csv` |
+| 5 | `step5_build_pdfs.py` (+ `grammar.py`) | the four models (from step 4) with `pipeline/templates/dictionary.html.j2`, `expressions.html.j2`, `verbs.html.j2`, `grammar.html.j2`, `pipeline/templates/cover_*.html`, `ATTRIBUTIONS.md` | the four PDFs |
 
 **One model per book (owner, 2026-10-29).** The dictionary is built once as a structure,
 `pipeline/dictionary_model.py` (look-ups, sections, headwords, senses, with every label, dagger and order
 decided there), saved by step 4 and rendered twice: Markdown by step 4, the PDF by step 5 through the
 Jinja2 template `pipeline/templates/dictionary.html.j2` (delimiters `[[ ]]`, `[% %]`). Change what the
 dictionary shows in the model, never in one renderer; a test checks that the PDF and pages list the same
-headwords in the same order. The expressions and the verbs work the same way since 2026-10-30 (`expressions_model.py`,
-`verbs_model.py`, `templates/expressions.html.j2`, `verbs.html.j2`; each with its own test). The grammar
-was already built once, by `grammar.py`. The verb forms themselves come from `full_grid()` in step 4.
+headwords in the same order. The expressions, the verbs and the grammar work the same way since 2026-10-30 (`expressions_model.py`,
+`verbs_model.py`, `grammar_model.py` on top of `grammar.parse()`; templates `expressions.html.j2`,
+`verbs.html.j2`, `grammar.html.j2`; each book with its own test). The verb forms themselves come from
+`full_grid()` in step 4. Step 5 reads only the models, never `cldf/` directly.
+**Links in the PDFs (owner, 2026-10-30):** read on screen, a verb in the dictionary and grammar PDFs links
+to its page on GitHub (`…/blob/main/Verbs/<file>`). The links (class `web`) are styled exactly like the text
+around them, so a printed copy shows nothing: a PDF link itself is never printed. Checked by rendering
+every page before and after (only sub-pixel anti-aliasing moved) and by `tests/test_pdfs.py`. No links
+between PDF files (they break when one is downloaded alone).
 
 Step 3 uses cldfbench's Python interface because `cldfbench makecldf` on the command line demands a local
 Glottolog catalogue, which this dataset does not use (codes set in `lexicon.py`).
