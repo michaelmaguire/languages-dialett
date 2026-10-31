@@ -1062,7 +1062,11 @@ def render(uniq, tables, eng, topics=None):
                              for s in sorted(rows, key=lambda s: plain(s["file"]))]
     n_en = sum(bool(p["english"]) for p in uniq)
     pdf_links = "".join(f"- [{REPO_URL}/blob/main/{f}]({REPO_URL}/blob/main/{f})\n" for f in PDFS)
-    readme = [intro + "\n", "## Contents\n", "Printable PDFs:\n\n" + pdf_links,
+    # the A5 book versions are listed at the bottom, under "Printing as a book" (owner, 2026-10-31)
+    book_rows = [[f"[{f.split('/')[-1].replace('.pdf', end)}]({f.replace('.pdf', end)})"
+                  for end in ("_a5_book.pdf", "_a5_book_cover_expresta.pdf", "_a5_book_cover_onlinedruck.pdf")]
+                 for f in PDFS]
+    readme = [intro + "\n", "## Contents\n", "Printable PDFs (A4, to download and print at home):\n\n" + pdf_links,
               table(["Section", "What is in it", "Size"], [
                   ["[Dictionary](Dictionary/README.md)", "Single words and short terms: Italiano ↔ Dialett, with English where available and a Region column; also as a [printable PDF](Dictionary/arogno-dictionary.pdf)", f"{len(words)} entries"],
                   ["[Expressions](Expressions/README.md)", "Sayings, idioms and phrases grouped by topic; also as a [printable PDF](Expressions/arogno-expressions.pdf)", f"{ebook['distinct']} expressions"],
@@ -1111,7 +1115,24 @@ def render(uniq, tables, eng, topics=None):
               "- `hunspell-it`: an Italian word list, used to tell which side of a pair is Italian. Optional; "
               "without it the guesses are a little less accurate.\n"
               "- Google Chrome or Chromium: prints the PDFs. Optional; that step is skipped if neither "
-              "is installed.\n"]
+              "is installed.\n"
+              "- `ghostscript`: the A5 book files for a print shop. Optional; skipped if missing. The covers also need "
+              "the PSO Coated v3 colour profile in `~/.local/share/color/icc/` "
+              "(from https://eci.org/lib/exe/pso-coated_v3.zip).\n",
+              "## Printing as a book\n",
+              "The A4 PDFs above are for downloading and printing at home: double-sided, with a wider margin on "
+              "the binding side for a ring binder.\n",
+              "The A5 files are for a print shop to make a softcover book (glued binding). The **inside pages** "
+              "(`_a5_book.pdf`) are the same pages scaled to A5, black and white only, with book margins (15 mm at "
+              "the spine, 8 mm outside, 5 mm or more from the top and bottom), a plain title page in place of the "
+              "colour cover, blank pages at the end so the page count is a multiple of 4, and 2.5 mm of white past "
+              "the cut on every side (PDF/X-3, uncoated paper, FOGRA52). The **cover** is one colour sheet with "
+              "back, spine and front, 2.5 mm past the cut (PDF/X-3, CMYK for coated card, FOGRA51). There is one "
+              "cover per shop, since the spine width depends on the shop's paper: "
+              "[Expresta](https://www.expresta.eu/) (80 g book paper, 315 g laminated cover) and "
+              "[onlinedruck.ch](https://www.onlinedruck.ch/) (80 g high-white uncoated). Order the same paper, "
+              "or the spine will not fit.\n",
+              table(["Inside pages (black and white)", "Cover for Expresta", "Cover for onlinedruck.ch"], book_rows)]
     write(ROOT / "README.md", "\n".join(readme))
 
     n_other = lambda rows: sum(p["canonical"] != "yes" for p in rows)

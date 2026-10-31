@@ -1,0 +1,48 @@
+<!doctype html><meta charset="utf-8">
+<!-- Back and spine of the A5 book covers (*_a5_book_cover_<shop>.pdf; owner, 2026-10-31). Edit freely.
+     step5_build_pdfs.py fills in, in mm: {{width}} x {{height}} (the whole sheet with bleed), {{bleed}},
+     {{spine}} (width), {{spine_left}} (where the spine starts); {{background}} and {{colour}} (taken from the
+     book's front cover), {{series}}, {{title}}, {{subtitle}}, {{legend}} (the marker explanations, moved
+     here from the front) and {{spine_text}} (empty when the spine is too narrow for text).
+     The front panel is left empty here: the front cover is drawn into it afterwards.
+     Sizes are real sizes: this page is printed at A5, not scaled. -->
+<style>
+@page { size: {{width}}mm {{height}}mm; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.sheet { position: relative; width: {{width}}mm; height: {{height}}mm; overflow: hidden; background: {{background}};
+         color: {{colour}}; font-family: "DejaVu Sans", Arial, sans-serif;
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+/* the back panel: 12 mm in from the trim on every side */
+.back { position: absolute; left: calc({{bleed}}mm + 12mm); top: calc({{bleed}}mm + 12mm); width: 124mm; height: 186mm; }
+.back .series { font-size: 7.5pt; font-weight: bold; letter-spacing: .3em; text-transform: uppercase;
+                padding-bottom: 2mm; border-bottom: .8pt solid currentColor; }
+.back .title { margin-top: 8mm; font: bold 20pt/1.05 "DejaVu Sans", Arial, sans-serif; text-transform: uppercase; }
+.back .subtitle { margin-top: 2.5mm; font-size: 8.5pt; font-weight: bold; letter-spacing: .12em; text-transform: uppercase; }
+.back .by { margin-top: 6mm; font: italic 9.5pt/1.45 "DejaVu Serif", Georgia, serif; }
+.back .by b { font: bold 9.5pt "DejaVu Sans", Arial, sans-serif; font-style: normal; }
+.back .key { position: absolute; left: 0; right: 0; bottom: 24mm; font-size: 8pt; line-height: 1.45; }
+.back .key h2 { margin: 0 0 1.5mm; font-size: 7.5pt; letter-spacing: .3em; text-transform: uppercase; }
+.back .base { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between;
+              align-items: flex-end; border-top: .8pt solid currentColor; padding-top: 2mm; font-size: 7pt; }
+.back .base b { display: block; font-size: 12pt; letter-spacing: .14em; }
+.back .base span:last-child { text-align: right; }
+/* the spine: the title read from top to bottom, centred */
+.spine { position: absolute; left: {{spine_left}}mm; top: {{bleed}}mm; width: {{spine}}mm; height: 210mm;
+         display: flex; align-items: center; justify-content: center; }
+.spine span { writing-mode: vertical-rl; white-space: nowrap; font-size: 9pt; font-weight: bold;
+              letter-spacing: .12em; text-transform: uppercase; }
+.spine span i { font-style: normal; font-weight: normal; margin-left: 8mm; }
+</style>
+<div class="sheet">
+  <div class="back">
+    <div class="series">{{series}}</div>
+    <div class="title">{{title}}</div>
+    <div class="subtitle">{{subtitle}}</div>
+    <div class="by">from the lessons of <b>Guido Casellini</b><br>compiled by <b>Michael Maguire</b></div>
+    <div class="key"><h2>Key</h2>{{legend}}</div>
+    <div class="base"><span><b>MAGUIRE’S</b>Arogno · Lügan · Tesin</span>
+      <span>CC BY 4.0<br>github.com/michaelmaguire/languages-dialett</span></div>
+  </div>
+  <div class="spine"><span>{{spine_text}}</span></div>
+</div>

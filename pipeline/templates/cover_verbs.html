@@ -1,5 +1,5 @@
 <!-- Title page of Verbs/arogno-verbs.pdf. Edit freely; step5_build_pdfs.py puts it in front of the verb sheets.
-     {{verbs}} = number of verbs, {{inferred}} = number of inferred forms: both filled in at build time.
+     {{verbs}} = number of verbs, filled in at build time.
      {{edition}} = timestamp of the build, YYYYMMDDhhmm. -->
 <style>
 @page :first { margin: 0; }
@@ -14,10 +14,6 @@
 .cover .title small { display: block; font-size: 18.5pt; letter-spacing: .07em; white-space: nowrap; margin-top: 3mm; color: #ffd400; }
 .cover .blurb { position: absolute; left: 16mm; top: 176mm; width: 112mm; font: 14.5pt/1.4 "DejaVu Serif", Georgia, serif; }
 .cover .blurb b { color: #ffd400; }
-.cover .burst { position: absolute; right: 13mm; top: 158mm; width: 58mm; height: 58mm; border-radius: 50%;
-                background: #ffd400; color: #0b2a5b; transform: rotate(11deg); display: flex; align-items: center;
-                justify-content: center; text-align: center; font: bold 12.5pt/1.25 "DejaVu Sans", Arial, sans-serif;
-                padding: 6mm; box-shadow: 0 0 0 2mm #0b2a5b; }
 .cover .quote { position: absolute; left: 16mm; right: 16mm; top: 236mm; font: italic 12pt/1.4 "DejaVu Serif", Georgia, serif;
                 border-top: .8pt solid #ffd400; padding-top: 4mm; }
 .cover .base { position: absolute; left: 0; right: 0; bottom: 0; background: #0b2a5b; padding: 6mm 16mm 7mm;
@@ -35,7 +31,6 @@
   <div class="blurb">Fully conjugated in <b>all the tenses</b> that came up in class, in a new easy-to-print
     format, alphabetically arranged.<br><br>
     Tücc i verb che ta servan par fa bèla figüra al grott — <b>o quasi</b>.</div>
-  <div class="burst">NOW WITH {{inferred}} FORMS NOBODY ACTUALLY TAUGHT US †</div>
   <div class="quote">“L’è mia facil, ma l’è bel.” — a student, somewhere between <b>mi sum</b> and
     <b>lur i saressan stai</b></div>
   <div class="legend">† marks a form inferred from the patterns in the course material, not found in a document.

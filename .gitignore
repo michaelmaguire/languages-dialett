@@ -22,3 +22,5 @@ pipeline/data/unparsed_lines.csv
 # created by `pip install -e .` (registers the dataset with cldfbench)
 *.egg-info/
 pipeline/cache/*_model.json
+pipeline/cache/*.pdf
+pipeline/cache/pdfx_cmyk.ps

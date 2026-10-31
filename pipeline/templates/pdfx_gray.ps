@@ -1,0 +1,18 @@
+% PDF/X settings for the print-ready A5 books (*_a5_print.pdf), read by Ghostscript in step5_build_pdfs.py.
+% The inside pages are printed black and white (owner, 2026-10-31: cheaper; only the cover is in colour), so
+% the content is converted to grey and no colour profile is embedded: the output intent names the
+% registered print condition for uncoated paper, FOGRA52 (PSO Uncoated v3), which onlinedruck.ch asks for.
+% Based on Ghostscript's lib/PDFX_def.ps.
+[ /GTS_PDFXVersion (PDF/X-3:2002)
+  /Trapped /False
+/DOCINFO pdfmark
+[/_objdef {OutputIntent_PDFX} /type /dict /OBJ pdfmark
+[{OutputIntent_PDFX} <<
+  /Type /OutputIntent
+  /S /GTS_PDFX
+  /OutputCondition (PSO Uncoated v3 \(FOGRA52\))
+  /Info (PSO Uncoated v3 \(FOGRA52\))
+  /OutputConditionIdentifier (FOGRA52)
+  /RegistryName (http://www.color.org)
+>> /PUT pdfmark
+[{Catalog} <</OutputIntents [ {OutputIntent_PDFX} ]>> /PUT pdfmark

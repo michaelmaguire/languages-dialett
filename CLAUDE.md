@@ -78,15 +78,28 @@ between PDF files (they break when one is downloaded alone).
 binding side (left of odd pages, right of even ones; `@page :right` / `:left` in step 5) has 20 mm (verbs
 21 mm) and the outer side 8 mm (9 mm): the text keeps its width, only shifted. The covers keep margin 0.
 `tests/test_pdfs.py` measures it on every page.
-**A5 books (owner, 2026-10-31):** each PDF also comes as `*_a5.pdf` (e.g. `Dictionary/arogno-dictionary_a5.pdf`),
-to be glue-bound by Expresta (expresta.eu) inside a separate cover. `print_book()` in step 5 lays the book out
-at A4 exactly like the binder version, with `templates/title_page.html` (a plain title page and its back:
-edition, licence) instead of the cover and book margins, then scales the PDF to A5 (x 148/210) with pypdf,
-links included. Margins once scaled: 15 mm binding side, 8 mm outer (Expresta trims up to 2.5 mm; their Word
-template uses 18/10). Tests check A5 size, margins, title page and that the text equals the A4 version's.
-Body text is about 6.5–6.8 pt at A5. The colour cover alone, scaled to A5 the same way, is
-`*_a5_cover.pdf` (one page, no bleed). The wraparound cover Expresta needs (front, spine, back in one PDF; spine width from the
-page count and Expresta's paper thickness) is not made yet.
+**A5 books (owner, 2026-10-31):** for a print shop to make a glued softcover book; every A5 file is for the
+book printer (owner: no colour or screen A5 version). Per book: `*_a5_book.pdf` (inside pages) and
+`*_a5_book_cover_expresta.pdf`, `*_a5_book_cover_onlinedruck.pdf` (expresta.eu, onlinedruck.ch).
+`print_book()` in step 5 lays the inside out from the same model and template output as the A4 PDF, with
+`templates/title_page.html` (plain title page and its back: edition, licence) instead of the cover and book
+margins, at A4, then scales it to A5 (x 148/210) with pypdf (draft in `pipeline/cache/`), adds blank pages to a
+multiple of 4 (Expresta requires it; book printers fold sheets of four), and `print_ready()` makes it
+black and white (owner: cheaper; only the cover in colour), PDF/X-3, output intent FOGRA52 (uncoated, owner's
+choice), 2.5 mm white bleed (153 × 215 mm, TrimBox = A5; Expresta asks 2.5, onlinedruck.ch at least 2), no links:
+Chrome's RGB greys become DeviceGray, near-black pure black, and Ghostscript (`gs`, `templates/pdfx_gray.ps`)
+does the rest. Margins once scaled: 15 mm binding side, 8 mm outer (onlinedruck.ch: 8 mm from the spine, 5 mm
+from the trim, so the page number is raised). Body text is about 6.5–6.8 pt.
+`book_covers()` makes the cover per shop: back and spine from `templates/cover_back.html` (series, title, the
+marker explanations moved from the front's `div.legend`, publisher), front = the A4 cover without its legend
+(edition stays on the front), outer edges stretched into the 2.5 mm bleed; spine width from each shop's rule in
+`SHOPS` for the papers assumed there (Expresta: book paper 80 g 0.1 mm, laminated 315 g cover 0.31 mm;
+onlinedruck: 80 g high-white uncoated, volume 1.3); spine text only from 6 mm. CMYK PDF/X-3 with PSO Coated v3
+(FOGRA51) embedded (`templates/pdfx_cmyk.ps`), from `~/.local/share/color/icc/PSOcoated_v3.icc` (eci.org;
+covers skipped without it). The A4 PDFs keep the legend on their covers. Owner removed the cover jokes
+"(N of them a bit ⚠)" (dictionary) and "now with … forms nobody actually taught us" (verbs), 2026-10-31.
+Tests check sizes, boxes, PDF/X marking, fonts, margins, ink (no C/M/Y inside), text against the A4 version,
+spine widths and where the legend and edition are.
 
 Step 3 uses cldfbench's Python interface because `cldfbench makecldf` on the command line demands a local
 Glottolog catalogue, which this dataset does not use (codes set in `lexicon.py`).
@@ -107,6 +120,7 @@ sudo apt install python3-venv python3-pip poppler-utils tesseract-ocr tesseract-
 | `poppler-utils` | `pdftotext`, `pdftoppm` | was already installed |
 | Google Chrome or Chromium | prints the PDFs; step is skipped with a message if absent | was already installed |
 | `hunspell-it` | Italian word list (`/usr/share/hunspell/it_IT.dic`) used to tell Italian from dialect; `step2_find_pairs_and_verbs.py` falls back to a copy inside the Firefox or Thunderbird snap, then to no list | installed on request |
+| `ghostscript` (`gs`) | the A5 book files: black-and-white PDF/X inside pages, CMYK covers (step 5; skipped if absent) | was already installed |
 | `ocrmypdf` | none | installed on request early on, but the pipeline calls tesseract directly and does not use it |
 
 `raw/` may be a private submodule (`michaelmaguire/languages-dialett-raw`). Without it, `build_all.sh`
@@ -158,7 +172,7 @@ forms, entries without English, decisions that matched nothing) and the `git dif
 | `grammar_examples.csv` | The grammar's examples: `ID,Primary_Text,Analyzed_Word,Gloss,Italian,English,Source,Line,Comment`. Every one is quoted from a canonical document; the build warns if `Primary_Text` is not on the cited line, if a chapter uses an unknown ID, or if words and glosses differ in number. Glosses are Leipzig-style, Claude's (abbreviations in chapter 00). |
 
 Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_readme_intro.md`,
-`cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html`, `cover_grammar.html`, `title_page.html` (A5 books) (`{{…}}` placeholders filled at build time).
+`cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html`, `cover_grammar.html`, `title_page.html`, `cover_back.html`, `pdfx_gray.ps`, `pdfx_cmyk.ps` (A5 books) (`{{…}}` placeholders filled at build time).
 
 ## Decisions already made (do not relitigate)
 

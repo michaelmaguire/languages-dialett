@@ -4,19 +4,20 @@
 Reads  cache/dictionary_model.json, expressions_model.json, verbs_model.json and grammar_model.json (saved
        by step 4) with templates/dictionary.html.j2, expressions.html.j2, verbs.html.j2 and grammar.html.j2,
        templates/cover_verbs.html, cover_dictionary.html and cover_expressions.html (title pages; {{verbs}},
-       {{inferred}}, {{words}}, {{flagged}}, {{sayings}}, {{phrases}}, {{topics}} and {{edition}}
+       {{words}}, {{sayings}}, {{phrases}}, {{topics}} and {{edition}}
        are filled in at build time), ../ATTRIBUTIONS.md (printed straight after each cover)
 Writes ../Verbs/arogno-verbs.pdf         cover, contents, attributions, one verb per A4 sheet
        ../Dictionary/arogno-dictionary.pdf  cover, contents, attributions, the three look-up directions
        ../Expressions/arogno-expressions.pdf  cover, contents, attributions, expressions by topic
        ../Grammar/arogno-grammar.pdf          cover, contents, attributions, the grammar's chapters
-       and next to each an A5 book version, *_a5.pdf, and its colour cover alone, *_a5_cover.pdf
-       (see print_book())
+       and next to each, for a print shop to make a softcover book (see print_book()): the inside pages,
+       *_a5_book.pdf, and the cover for each shop, *_a5_book_cover_expresta.pdf and *_onlinedruck.pdf
 Uses Chrome or Chromium in headless mode to print; skipped with a message if neither is installed.
 Each PDF is printed twice: the contents page holds {{page:ID}} placeholders, and the page numbers come
 from where the first print put the elements those IDs link to (read back with pypdf).
 """
 import datetime, html, re, shutil, subprocess, sys
+from pathlib import Path
 
 import step4_build_pages as build
 
@@ -87,8 +88,7 @@ def verbs():
         return
     body = templates().get_template("verbs.html.j2").render(verbs=book["verbs"], credits=credits_pages("verbs"))
     # the title page is its own file so it can be edited without touching this script
-    cover = stamp((TEMPLATES / "cover_verbs.html").read_text()).replace("{{verbs}}", str(len(book["verbs"]))) \
-                                             .replace("{{inferred}}", f"{book['inferred']:,}")
+    cover = stamp((TEMPLATES / "cover_verbs.html").read_text()).replace("{{verbs}}", str(len(book["verbs"])))
     head = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
             f"<style>{CSS}{TOC_CSS}</style>")
     front = ("Foreign Language Guides", f"{len(book['verbs'])} Rögn Verbs", "dialett ticinés · fully conjugated")
@@ -290,29 +290,185 @@ BOOK_INNER, BOOK_OUTER = 15, 8                   # mm on the A5 page
 BOOK_CSS = f"""
 @page :right {{ margin-left: {BOOK_INNER / A5_SCALE:.2f}mm; margin-right: {BOOK_OUTER / A5_SCALE:.2f}mm; }}
 @page :left {{ margin-left: {BOOK_OUTER / A5_SCALE:.2f}mm; margin-right: {BOOK_INNER / A5_SCALE:.2f}mm; }}
+/* the page number 3 mm higher, so it stays 5 mm or more from the trimmed edge once scaled (onlinedruck.ch) */
+@page {{ @bottom-center {{ padding-bottom: 6mm; }} }}
 """
 
 
 def print_book(out, page, head, cover, body, front, message):
-    """Print one book twice: out (A4, for the binder, behind its cover) and out_a5.pdf (the A5 book, behind
-    a title page). front = (series, title, subtitle) for the title page. The colour cover, page 1 of the
-    A4 PDF, also goes alone into out_a5_cover.pdf, scaled to A5 (owner, 2026-10-31)."""
-    if print_with_contents(out, page, head + cover + body, f"{out.name}: {message}"):
-        scale_to_a5(out.with_name(out.stem + "_a5_cover.pdf"), source=out, pages=1)
-    a5 = out.with_name(out.stem + "_a5.pdf")
+    """Print one book: out (A4, for the binder, behind its cover), then the A5 book for a print shop
+    (owner, 2026-10-31): out_a5_book.pdf, the inside pages, and a cover for each shop in SHOPS.
+    front = (series, title, subtitle) for the title page, the back cover and the spine."""
+    print_with_contents(out, page, head + cover + body, f"{out.name}: {message}")
     series, title, subtitle = front
     title_page = (stamp((TEMPLATES / "title_page.html").read_text()).replace("{{series}}", series)
                   .replace("{{title}}", title).replace("{{subtitle}}", subtitle))
-    if print_with_contents(a5, page.with_name(page.stem + "_a5.html"),
+    draft = HERE / "cache" / f"{out.stem}_a5_draft.pdf"          # in colour, before print_ready()
+    book = out.with_name(out.stem + "_a5_book.pdf")
+    if print_with_contents(draft, page.with_name(page.stem + "_a5.html"),
                            head + f"<style>{BOOK_CSS}</style>" + title_page + body,
-                           f"{a5.name}: title page, contents, attributions + the same pages, at A4"):
-        scale_to_a5(a5)
+                           f"{book.name}: title page, contents, attributions + the same pages, at A4"):
+        scale_to_a5(draft, multiple=4)
+        if print_ready(draft, book):
+            book_covers(out, page, head, cover, front, book)
 
 
-def scale_to_a5(path, source=None, pages=None):
+PRINT_BLEED = 2.5                                # mm: Expresta asks 2.5, onlinedruck.ch at least 2
+GREY = re.compile(rb"(\d*\.?\d+) \1 \1 (rg|RG)\b")
+
+
+def print_ready(a5, out):
+    """The A5 book's inside pages as the print shop wants them (owner, 2026-10-31; checked against Expresta
+    and onlinedruck.ch): black and white only (cheaper; only the cover is in colour), PDF/X-3 with the
+    uncoated-paper print condition FOGRA52 (templates/pdfx_gray.ps), and 2.5 mm of white bleed round every
+    page, the A5 page marked by the TrimBox. Links are left out (not allowed on a PDF/X page). Chrome writes
+    every colour as RGB: greys become grey (DeviceGray, black ink alone) and near-black (#111) pure black, so
+    small text is printed solid; Ghostscript then turns what is left (the dark-blue headings) into grey and
+    writes the PDF/X. Returns False when Ghostscript is missing."""
+    import tempfile
+    import pypdf
+    from pypdf.generic import NameObject, RectangleObject, StreamObject
+    gs = shutil.which("gs")
+    if not gs:
+        print(f"{out.name}: skipped (needs Ghostscript: sudo apt install ghostscript)")
+        return False
+
+    def grey(m):
+        v = float(m.group(1))
+        return f"{0 if v <= .07 else v:g} {'g' if m.group(2) == b'rg' else 'G'}".encode()
+    bleed = PRINT_BLEED * PT
+    writer = pypdf.PdfWriter(clone_from=a5)
+    for page in writer.pages:
+        content = page.get_contents()
+        if content is not None:                  # the blank pages at the end have none
+            stream = StreamObject()
+            stream.set_data(GREY.sub(grey, content.get_data()))
+            page[NameObject("/Contents")] = writer._add_object(stream)
+        if "/Annots" in page:
+            del page["/Annots"]
+        w, h = float(page.mediabox.width), float(page.mediabox.height)
+        page.add_transformation(pypdf.Transformation().translate(bleed, bleed))
+        page.mediabox = page.cropbox = page.bleedbox = RectangleObject((0, 0, w + 2 * bleed, h + 2 * bleed))
+        page.trimbox = page.artbox = RectangleObject((bleed, bleed, w + bleed, h + bleed))
+    with tempfile.NamedTemporaryFile(suffix=".pdf") as tmp:
+        writer.write(tmp.name)
+        subprocess.run([gs, "-q", "-dPDFX", "-dBATCH", "-dNOPAUSE", "-sDEVICE=pdfwrite",
+                        "-sColorConversionStrategy=Gray", "-sProcessColorModel=DeviceGray", f"-sOutputFile={out}",
+                        str(TEMPLATES / "pdfx_gray.ps"), tmp.name], check=True, capture_output=True, timeout=600)
+    print(f"{out.name}: black and white, PDF/X-3, {PRINT_BLEED} mm bleed, {len(writer.pages)} pages")
+    return True
+
+
+PT = 72 / 25.4                                   # points in a mm
+# The two print shops (owner, 2026-10-31), with the spine width in mm for n inside pages, from each shop's
+# own rule, for the papers assumed here (change them to match the order):
+#   Expresta (expresta.eu/support, perfect binding): n / 2 x paper thickness + 2 x cover thickness;
+#     book paper white 80 g, 0.1 mm; cover glossy laminated 315 g, 0.31 mm (their most popular)
+#   onlinedruck.ch (spine-width factsheet for PUR-bound books): n x g/m2 x volume / 2000 + 1;
+#     80 g high-white uncoated, volume 1.3
+SHOPS = {"expresta": lambda n: n / 2 * 0.10 + 2 * 0.31,
+         "onlinedruck": lambda n: n * 80 * 1.3 / 2000 + 1}
+SPINE_TEXT_MIN = 6        # mm: Expresta advises no text on a spine of 5 mm or less
+COVER_ICC = Path.home() / ".local/share/color/icc/PSOcoated_v3.icc"   # FOGRA51: the cover card is coated
+LEGEND = re.compile(r'<div class="legend">(.*?)</div>', re.S)
+
+
+def book_covers(out, page, head, cover, front, book):
+    """The A5 book's cover, one PDF per shop in SHOPS (owner, 2026-10-31): back, spine and front side by side,
+    each A5 panel with 2.5 mm of bleed outside, the spine as wide as the shop's rule gives for the pages of
+    book. The front is the colour cover of the A4 PDF without its marker explanations (div.legend), which
+    move to the back (templates/cover_back.html, with the series, title and publisher); the edition stays
+    on the front. The front was drawn for a page without bleed, so its outer edges are stretched into the
+    bleed: a sliver 1 pt inside each edge is drawn again across the 2.5 mm. In CMYK for coated card
+    (PSO Coated v3, FOGRA51, embedded), PDF/X-3, made with Ghostscript; skipped without the profile."""
+    import pypdf
+    from pypdf.generic import DictionaryObject, NameObject, RectangleObject, StreamObject
+    if not COVER_ICC.exists():
+        print(f"{out.stem}: covers skipped (needs {COVER_ICC}, from https://eci.org/lib/exe/pso-coated_v3.zip)")
+        return
+    n = len(pypdf.PdfReader(book).pages)
+    series, title, subtitle = front
+    # the front, drawn as in the A4 PDF but without the marker explanations
+    front_pdf = HERE / "cache" / f"{out.stem}_front.pdf"
+    front_html = page.with_name(page.stem + "_front.html")
+    front_html.write_text(head + cover + "<style>.cover .legend { display: none; }</style>")
+    print_pdf(front_pdf, front_html)
+    colours = re.search(r"\.cover \{[^}]*?(?:background: (#\w+)[^}]*?color: (#\w+)|color: (#\w+)[^}]*?background: (#\w+))",
+                        cover)
+    background, colour = (colours.group(1), colours.group(2)) if colours.group(1) else (colours.group(4), colours.group(3))
+    legend = LEGEND.search(cover).group(1)
+    b, a5w, a5h = PRINT_BLEED, A5[0], A5[1]
+    for shop, rule in SHOPS.items():
+        spine = round(rule(n), 1)
+        width, height = 2 * a5w + spine + 2 * b, a5h + 2 * b
+        spine_text = re.sub(r"<br>", " ", title) if spine >= SPINE_TEXT_MIN else ""
+        html = (TEMPLATES / "cover_back.html").read_text()
+        for k, v in {"width": width, "height": height, "bleed": b, "spine": spine, "spine_left": b + a5w,
+                     "background": background, "colour": colour, "series": series, "title": title,
+                     "subtitle": subtitle, "legend": legend, "spine_text": spine_text}.items():
+            html = html.replace("{{" + k + "}}", f"{v:g}" if isinstance(v, float) else str(v))
+        wrap_html = page.with_name(f"{page.stem}_cover_{shop}.html")
+        wrap_html.write_text(html)
+        wrap_pdf = HERE / "cache" / f"{out.stem}_cover_{shop}.pdf"
+        if not print_pdf(wrap_pdf, wrap_html):
+            return
+        writer = pypdf.PdfWriter(clone_from=wrap_pdf)
+        target = writer.pages[0]
+        source = pypdf.PdfReader(front_pdf).pages[0]
+        sw, sh = float(source.mediabox.width), float(source.mediabox.height)
+        form = StreamObject()
+        form.set_data(source.get_contents().get_data())
+        form.update({NameObject("/Type"): NameObject("/XObject"), NameObject("/Subtype"): NameObject("/Form"),
+                     NameObject("/BBox"): RectangleObject((0, 0, sw, sh)),
+                     NameObject("/Resources"): source["/Resources"].clone(writer)})
+        resources = target["/Resources"]
+        if "/XObject" not in resources:
+            resources[NameObject("/XObject")] = DictionaryObject()
+        resources["/XObject"].get_object()[NameObject("/FrontCover")] = writer._add_object(form)
+        fx, fy, fw, fh = (b + a5w + spine) * PT, b * PT, a5w * PT, a5h * PT
+        e, d, bp = 0.5, 1.0, b * PT          # the sliver: 0.5 pt wide, 1 pt inside the edge
+        draws = [((0, 0, sw, sh), (fx, fy, fw, fh)),                                     # the front itself
+                 ((sw - d - e, 0, e, sh), (fx + fw, fy, bp, fh)),                         # outer edge
+                 ((0, sh - d - e, sw, e), (fx, fy + fh, fw, bp)),                         # top
+                 ((0, d, sw, e), (fx, 0, fw, bp)),                                        # bottom
+                 ((sw - d - e, sh - d - e, e, e), (fx + fw, fy + fh, bp, bp)),            # corners
+                 ((sw - d - e, d, e, e), (fx + fw, 0, bp, bp))]
+        ops = []
+        for (x0, y0, w0, h0), (x1, y1, w1, h1) in draws:
+            sx, sy = w1 / w0, h1 / h0
+            ops.append(f"q {x1:.3f} {y1:.3f} {w1:.3f} {h1:.3f} re W n {sx:.5f} 0 0 {sy:.5f} "
+                       f"{x1 - x0 * sx:.3f} {y1 - y0 * sy:.3f} cm /FrontCover Do Q")
+        # Chrome rounds the page to whole pixels (215 mm comes out 0.1 mm short) and leaves its coordinate
+        # change active: so the sheet is set to its exact size, filled with the background colour, Chrome's
+        # drawing put in q/Q and moved up to keep its top edge at the top, and the front drawn on top
+        lift = height * PT - float(target.mediabox.height)
+        r, g, bl = (int(background[i:i + 2], 16) / 255 for i in (1, 3, 5))
+        stream = StreamObject()
+        stream.set_data(f"q {r:.4f} {g:.4f} {bl:.4f} rg 0 0 {width * PT:.3f} {height * PT:.3f} re f Q\n"
+                        f"q 1 0 0 1 0 {lift:.3f} cm\n".encode() + target.get_contents().get_data()
+                        + ("\nQ\n" + "\n".join(ops) + "\n").encode())
+        target[NameObject("/Contents")] = writer._add_object(stream)
+        target.mediabox = target.cropbox = target.bleedbox = RectangleObject((0, 0, width * PT, height * PT))
+        target.trimbox = target.artbox = RectangleObject((b * PT, b * PT, (width - b) * PT, (height - b) * PT))
+        writer.write(wrap_pdf)
+        pdfx = HERE / "cache" / "pdfx_cmyk.ps"
+        pdfx.write_text((TEMPLATES / "pdfx_cmyk.ps").read_text().replace("{{icc}}", str(COVER_ICC)))
+        result = out.with_name(f"{out.stem}_a5_book_cover_{shop}.pdf")
+        subprocess.run([shutil.which("gs"), "-q", "-dPDFX", "-dBATCH", "-dNOPAUSE", "-sDEVICE=pdfwrite",
+                        f"--permit-file-read={COVER_ICC}", "-sColorConversionStrategy=CMYK",
+                        "-sProcessColorModel=DeviceCMYK", f"-sOutputICCProfile={COVER_ICC}",
+                        f"-sOutputFile={result}", str(pdfx), str(wrap_pdf)], check=True, capture_output=True,
+                       timeout=600)
+        print(f"{result.name}: {width:g} x {height:g} mm with bleed, spine {spine:g} mm for {n} pages, "
+              f"CMYK PDF/X-3")
+
+
+def scale_to_a5(path, source=None, pages=None, multiple=1):
     """Shrink every page of an A4 PDF to A5, content, links and all, centred (A4 is a shade taller than A5
     in proportion, so 0.3 mm is left above and below). With source, the first pages of that PDF are
-    scaled and saved as path instead."""
+    scaled and saved as path instead. multiple: blank pages are added at the end until the page count
+    is a multiple of it. Book printers fold sheets of four pages, so they want the content in multiples of 4
+    (Expresta, 2026-10-31: "The number of content pages must be a multiple of number 4")."""
     import pypdf
     from pypdf.generic import ArrayObject, FloatObject, RectangleObject
     pt = 72 / 25.4
@@ -333,6 +489,8 @@ def scale_to_a5(path, source=None, pages=None):
                     r[i] = FloatObject(float(v) * k + (dy if i % 2 else 0))
         box = RectangleObject((0, 0, w, h))
         page.mediabox = page.cropbox = page.trimbox = page.bleedbox = page.artbox = box
+    while len(writer.pages) % multiple:
+        writer.add_blank_page(w, h)
     writer.write(path)
     print(f"{path.name}: scaled to A5, {len(writer.pages)} pages")
 
@@ -393,8 +551,7 @@ def dictionary():
         part["printed"] = [dict(s, anchor=f"p{n}-{s['letter'] if s['letter'].isalpha() else 'other'}")
                            for s in part["sections"] if any(not e["no_word"] for e in s["entries"])]
     body = templates().get_template("dictionary.html.j2").render(parts=book["parts"], credits=credits_pages("dictionary"))
-    cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(book["words"])) \
-        .replace("{{flagged}}", str(book["flagged"]))
+    cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(book["words"]))
     page = HERE / "cache" / "print_dictionary.html"
     head = (f'<!doctype html><meta charset="utf-8"><title>Dizionari – dialett da Rögn</title>'
             f"<style>{DICT_CSS}{TOC_CSS}</style>")

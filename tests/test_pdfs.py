@@ -21,7 +21,7 @@ def test_no_placeholders_left(name):
     report(bad, f"unfilled placeholders in {name}")
 
 
-DICTIONARIES = ["Dictionary/arogno-dictionary.pdf", "Dictionary/arogno-dictionary_a5.pdf"]
+DICTIONARIES = ["Dictionary/arogno-dictionary.pdf", "Dictionary/arogno-dictionary_a5_book.pdf"]
 
 
 def section_pages(name):
@@ -101,18 +101,23 @@ def test_links_do_not_show_on_paper():
         assert not re.search(r'<a (?![^>]*class="(web|head|toc)")[^>]*href="http', page), f"{name}: a web link without class web"
 
 
-def margins(name):
-    """(page number, left, right) margins in mm of every page with text, from the words' positions."""
+def margins(name, vertical=False, bleed=0):
+    """(page number, left, right) margins in mm of every page with text, from the words' positions;
+    with vertical, (page number, top, bottom). bleed: mm round the trimmed page, left out."""
     import subprocess
     from conftest import ROOT
     box = subprocess.run(["pdftotext", "-bbox", str(ROOT / name), "-"], capture_output=True, text=True, check=True).stdout
     out = []
     for n, page in enumerate(re.split(r"<page ", box)[1:], 1):
-        width = float(re.match(r'width="([\d.]+)"', page).group(1))
-        xs = [(float(a), float(b)) for a, b in re.findall(r'xMin="([\d.]+)" yMin="[\d.]+" xMax="([\d.]+)"', page)]
+        width = float(re.search(r'width="([\d.]+)"', page).group(1))
+        if vertical:
+            width = float(re.search(r'height="([\d.]+)"', page).group(1))
+        pattern = (r'yMin="([\d.]+)" xMax="[\d.]+" yMax="([\d.]+)"' if vertical
+                   else r'xMin="([\d.]+)" yMin="[\d.]+" xMax="([\d.]+)"')
+        xs = [(float(a), float(b)) for a, b in re.findall(pattern, page)]
         if xs:
             mm = 25.4 / 72
-            out.append((n, min(a for a, _ in xs) * mm, (width - max(b for _, b in xs)) * mm))
+            out.append((n, min(a for a, _ in xs) * mm - bleed, (width - max(b for _, b in xs)) * mm - bleed))
     return out
 
 
@@ -180,28 +185,62 @@ def test_each_pdf_prints_only_its_own_attributions():
 
 
 @pytest.mark.parametrize("name", PDFS_A5)
-def test_a5_page_size(name):
-    """The books to be glue-bound by Expresta are A5, 148 x 210 mm, on every page (owner, 2026-10-31)."""
+def test_a5_book_file(name):
+    """The A5 book's inside pages as the print shop wants them (owner, 2026-10-31; checked against Expresta
+    and onlinedruck.ch): PDF/X-3 with the FOGRA52 (uncoated) print condition, every page A5 when trimmed with
+    2.5 mm of bleed on every side (153 x 215 mm), every font embedded, and no links."""
+    import subprocess
     import pypdf
     from conftest import ROOT
     if not (ROOT / name).exists():
         pytest.skip(f"{name} not built")
+    reader = pypdf.PdfReader(ROOT / name)
+    assert reader.metadata.get("/GTS_PDFXVersion") == "PDF/X-3:2002", f"{name}: not marked PDF/X-3"
+    intent = reader.trailer["/Root"]["/OutputIntents"][0].get_object()
+    assert intent["/OutputConditionIdentifier"] == "FOGRA52", f"{name}: output intent {intent}"
     mm = 25.4 / 72
-    bad = [f"page {n}: {float(p.mediabox.width) * mm:.1f} x {float(p.mediabox.height) * mm:.1f} mm"
-           for n, p in enumerate(pypdf.PdfReader(ROOT / name).pages, 1)
-           if abs(float(p.mediabox.width) * mm - 148) > .2 or abs(float(p.mediabox.height) * mm - 210) > .2]
-    report(bad, f"pages of {name} that are not A5")
+    bad = []
+    for n, p in enumerate(reader.pages, 1):
+        media = [round(float(v) * mm, 1) for v in p.mediabox]
+        trim = [round(float(v) * mm, 1) for v in p.trimbox]
+        if media != [0, 0, 153, 215] or trim != [2.5, 2.5, 150.5, 212.5]:
+            bad.append(f"page {n}: MediaBox {media}, TrimBox {trim} mm")
+        if "/Annots" in p:
+            bad.append(f"page {n}: has links")
+    fonts = subprocess.run(["pdffonts", str(ROOT / name)], capture_output=True, text=True, check=True).stdout
+    bad += [f"font not embedded: {line}" for line in fonts.splitlines()[2:] if line.split()[-5] != "yes"]
+    report(bad, f"{name} not as the print shop wants it")
+
+
+@pytest.mark.parametrize("name", PDFS_A5)
+def test_a5_book_black_and_white(name):
+    """The inside pages are printed in black and white only (owner, 2026-10-31: cheaper; only the cover is
+    in colour): Ghostscript's ink coverage shows no cyan, magenta or yellow on any page."""
+    import subprocess
+    from conftest import ROOT
+    if not (ROOT / name).exists():
+        pytest.skip(f"{name} not built")
+    out = subprocess.run(["gs", "-q", "-o", "-", "-sDEVICE=inkcov", str(ROOT / name)],
+                         capture_output=True, text=True, check=True).stdout
+    bad = [f"page {n}: {line.strip()}" for n, line in enumerate(out.splitlines(), 1)
+           if any(float(v) > 0 for v in line.split()[:3])]
+    report(bad, f"pages of {name} printed with colour ink")
 
 
 @pytest.mark.parametrize("name", PDFS_A5)
 def test_a5_margins(name):
     """A5 books (owner, 2026-10-31): bound, not punched, so at least 14.5 mm on the binding side (left of an
-    odd page, right of an even one) and 7.5 mm on the outer side; Expresta trims up to 2.5 mm."""
+    odd page, right of an even one) and 7.5 mm on the outer side of the trimmed page; Expresta trims up to
+    2.5 mm. The top and bottom keep 5 mm, onlinedruck.ch's safety distance (checked 2026-10-31: page
+    numbers were at 4.8 mm)."""
     bad = []
-    for n, left, right in margins(name):
+    for n, left, right in margins(name, bleed=2.5):
         binding, outer = (left, right) if n % 2 else (right, left)
         if binding < 14.5 or outer < 7.5:
             bad.append(f"page {n}: binding {binding:.1f} mm, outer {outer:.1f} mm")
+    for n, top, bottom in margins(name, vertical=True, bleed=2.5):
+        if top < 5 or bottom < 5:
+            bad.append(f"page {n}: top {top:.1f} mm, bottom {bottom:.1f} mm")
     report(bad, f"pages of {name} with text too close to an edge")
 
 
@@ -216,34 +255,97 @@ def test_a5_title_page(name):
     assert "Contents" in pages[2] or "Indice" in pages[2], f"{name}: the contents are not on page 3"
 
 
+@pytest.mark.parametrize("name", PDFS_A5)
+def test_a5_page_count_multiple_of_4(name):
+    """A bound book is made of folded sheets of four pages, so an A5 book's page count is a multiple of 4
+    (Expresta, 2026-10-31: "The number of content pages must be a multiple of number 4"; blank pages are
+    added at the end). Three of the four were odd when first checked."""
+    import pypdf
+    from conftest import ROOT
+    if not (ROOT / name).exists():
+        pytest.skip(f"{name} not built")
+    n = len(pypdf.PdfReader(ROOT / name).pages)
+    assert n % 4 == 0, f"{name}: {n} pages, not a multiple of 4"
+
+
 @pytest.mark.parametrize("name", PDFS)
 def test_a5_has_the_same_text(name):
     """The A5 book is the binder version laid out with other margins and scaled down (owner, 2026-10-31:
-    the same layout, smaller). Since the text area is a little narrower, check that no text was cut off or
-    lost: after the cover (A4) and the title page and its back (A5), both hold exactly the same characters
-    (spaces, digits and hyphens aside, as line breaks and page numbers move)."""
+    the same layout, smaller), from the same book model. Since the text area is a little narrower, check
+    that no text was cut off or lost: after the cover (A4) and the title page and its back (A5), each holds
+    exactly the same characters (spaces, digits and hyphens aside, as line breaks and page numbers move;
+    NFKC, as Ghostscript keeps the ligature ﬀ as one character)."""
+    import unicodedata
     from collections import Counter
-    a5 = name.replace(".pdf", "_a5.pdf")
+    a5 = name.replace(".pdf", "_a5_book.pdf")
 
     def chars(pages):
-        return Counter(c for c in "".join(pages) if not c.isspace() and not c.isdigit() and c != "-")
+        text = unicodedata.normalize("NFKC", "".join(pages))
+        return Counter(c for c in text if not c.isspace() and not c.isdigit() and c != "-")
     a, b = chars(pdf_pages(name)[1:]), chars(pdf_pages(a5)[2:])
     report([f"only in {name}: {dict((a - b).most_common(10))}", f"only in {a5}: {dict((b - a).most_common(10))}"]
            if a != b else [], f"text differs between {name} and {a5}")
 
 
-@pytest.mark.parametrize("name", PDFS)
-def test_a5_cover(name):
-    """The colour cover alone, at A5, for the A5 book (owner, 2026-10-31): one page, the A4 PDF's cover."""
+COVERS = [(name, shop) for name in PDFS for shop in ("expresta", "onlinedruck")]
+
+
+@pytest.mark.parametrize("name,shop", COVERS)
+def test_a5_book_cover(name, shop):
+    """The A5 book's cover for each print shop (owner, 2026-10-31): one sheet with back, spine and front,
+    each A5 panel with 2.5 mm of bleed outside, the spine as wide as the shop's rule gives for the book's
+    page count, CMYK PDF/X-3 for coated card (FOGRA51, profile embedded), fonts embedded. The marker
+    explanations are on the back, not on the front; the edition is on the front."""
+    import subprocess
     import pypdf
+    import step5_build_pdfs as step5
     from conftest import ROOT
-    cover = name.replace(".pdf", "_a5_cover.pdf")
+    cover = name.replace(".pdf", f"_a5_book_cover_{shop}.pdf")
     if not (ROOT / cover).exists():
         pytest.skip(f"{cover} not built")
-    pages = pypdf.PdfReader(ROOT / cover).pages
+    reader = pypdf.PdfReader(ROOT / cover)
+    pages = len(pypdf.PdfReader(ROOT / name.replace(".pdf", "_a5_book.pdf")).pages)
+    spine = round(step5.SHOPS[shop](pages), 1)
     mm = 25.4 / 72
-    size = (round(float(pages[0].mediabox.width) * mm), round(float(pages[0].mediabox.height) * mm))
-    assert len(pages) == 1 and size == (148, 210), f"{cover}: {len(pages)} pages, {size} mm"
-    # same characters (pdftotext orders rotated and overlapping text differently at another size)
-    assert sorted("".join(pdf_pages(cover)[0].split())) == sorted("".join(pdf_pages(name)[0].split())), \
-        f"{cover} is not the cover"
+    page = reader.pages[0]
+    media = [round(float(v) * mm, 1) for v in page.mediabox]
+    trim = [round(float(v) * mm, 1) for v in page.trimbox]
+    bad = []
+    if len(reader.pages) != 1:
+        bad.append(f"{len(reader.pages)} pages")
+    if media != [0, 0, round(296 + spine + 5, 1), 215] or trim != [2.5, 2.5, round(298.5 + spine, 1), 212.5]:
+        bad.append(f"MediaBox {media}, TrimBox {trim} mm, spine should be {spine} mm")
+    if reader.metadata.get("/GTS_PDFXVersion") != "PDF/X-3:2002":
+        bad.append("not marked PDF/X-3")
+    intent = reader.trailer["/Root"]["/OutputIntents"][0].get_object()
+    if intent["/OutputConditionIdentifier"] != "FOGRA51" or "/DestOutputProfile" not in intent:
+        bad.append(f"output intent {intent}")
+    fonts = subprocess.run(["pdffonts", str(ROOT / cover)], capture_output=True, text=True, check=True).stdout
+    bad += [f"font not embedded: {line}" for line in fonts.splitlines()[2:] if line.split()[-5] != "yes"]
+    # where the words are: back panel left of the spine, front panel right of it
+    box = subprocess.run(["pdftotext", "-bbox", str(ROOT / cover), "-"], capture_output=True, text=True, check=True).stdout
+    words = [(float(x) * mm, w) for x, w in re.findall(r'xMin="([\d.]+)"[^>]*>([^<]*)<', box)]
+    back = " ".join(w for x, w in words if x < 150.5)
+    front = " ".join(w for x, w in words if x > 150.5 + spine)
+    template = (ROOT / "pipeline" / "templates" / f"cover_{name.split('-')[1].removesuffix('.pdf')}.html").read_text()
+    legend = " ".join(re.sub(r"<[^>]+>", "", step5.LEGEND.search(template).group(1)).split()[:6])
+    if legend not in back:
+        bad.append(f"marker explanations ({legend} …) not on the back")
+    if legend in front:
+        bad.append("marker explanations still on the front")
+    if not re.search(r"Edizi[oó]n \d{12}", front):
+        bad.append("no edition on the front")
+    report(bad, f"{cover} not as the print shop wants it")
+
+
+def test_no_flagged_count_on_dictionary_cover():
+    """The dictionary cover no longer says how many entries are a bit ⚠ (owner, 2026-10-31: drop the joke)."""
+    cover = " ".join(pdf_pages("Dictionary/arogno-dictionary.pdf")[0].split())
+    assert "a bit" not in cover, "the dictionary cover still has the ⚠ count"
+
+
+def test_no_inferred_forms_joke_on_verbs_cover():
+    """The verbs cover no longer has the "now with … forms nobody actually taught us" badge (owner,
+    2026-10-31: drop the joke)."""
+    cover = " ".join(pdf_pages("Verbs/arogno-verbs.pdf")[0].split())
+    assert "NOBODY" not in cover.upper(), "the verbs cover still has the badge"
