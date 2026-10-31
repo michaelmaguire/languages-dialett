@@ -242,7 +242,10 @@ def print_pdf(out, page):
 
 
 RECTO = re.compile(r"\{\{recto:([\w-]+)\}\}")
-BLANK_PAGE = '<div style="page-break-before: always; height: 1px"></div>'
+# a page left blank so that a section starts on the right: a page of its own kind, with no page number
+# (typesetting review, owner, 2026-10-31: page 28 of the dictionary printed one)
+BLANK_PAGE = ('<style>@page blank { @bottom-center { content: none; } }</style>'
+              '<div style="page: blank; page-break-before: always; height: 1px"></div>')
 
 
 def print_with_contents(out, page, document, message):
@@ -293,11 +296,30 @@ def print_with_contents(out, page, document, message):
 A5 = (148, 210)                                  # mm
 A5_SCALE = A5[0] / 210
 BOOK_INNER, BOOK_OUTER = 15, 8                   # mm on the A5 page
+BOOK_MIN_PT = round(6 / A5_SCALE, 2)             # the smallest type, A4 size: 6 pt once scaled
+BOOK_RULE_PT = round(.35 / A5_SCALE, 2)          # the thinnest rule, A4 size: 0.35 pt once scaled
 BOOK_CSS = f"""
 @page :right {{ margin-left: {BOOK_INNER / A5_SCALE:.2f}mm; margin-right: {BOOK_OUTER / A5_SCALE:.2f}mm; }}
 @page :left {{ margin-left: {BOOK_OUTER / A5_SCALE:.2f}mm; margin-right: {BOOK_INNER / A5_SCALE:.2f}mm; }}
 /* the page number 3 mm higher, so it stays 5 mm or more from the trimmed edge once scaled (onlinedruck.ch) */
-@page {{ @bottom-center {{ padding-bottom: 6mm; }} }}
+@page {{ @bottom-center {{ padding-bottom: 6mm; font-size: {BOOK_MIN_PT}pt; color: #000; }} }}
+/* Printed in black and white at 70.5 % (typesetting review, owner, 2026-10-31): nothing under 6 pt once scaled
+   (the labels were 4.9-5.6 pt), all text solid black (grey text is printed as dots and looks fuzzy that
+   small), and every rule black and at least 0.35 pt (they were 0.21 pt, below what presses hold).
+   Sizes here are A4 sizes. */
+body, body * {{ color: #000 !important; border-color: #000 !important; }}
+.vnote, .foot, .e .r, .e .n, .e .g, .x .r, .igt .g, .ex .src, .credits th, .credits code, table.vt th, table.dt th
+  {{ font-size: {BOOK_MIN_PT}pt !important; }}
+sup {{ font-size: max(70%, {BOOK_MIN_PT}pt) !important; }}
+td, .credits td {{ border-bottom: {BOOK_RULE_PT}pt solid #000 !important; }}
+th, .credits th {{ border-bottom-color: #000 !important; }}
+.foot {{ border-top: {BOOK_RULE_PT}pt solid #000 !important; }}
+.cols a, a.toc, .toc a, .gtoc a {{ border-bottom: {BOOK_RULE_PT}pt dotted #000 !important; }}
+.toc p.letters a {{ border: 0 !important; }}
+.entries {{ column-rule: {BOOK_RULE_PT}pt solid #000 !important; }}
+.pairs .en {{ border-left: {BOOK_RULE_PT}pt solid #000 !important; }}
+/* a verb sheet with a note is the fullest (töö lost its last row to the bigger labels): tighter rows */
+section.noted td {{ padding-top: .15mm !important; padding-bottom: .15mm !important; }}
 """
 
 
@@ -530,6 +552,7 @@ body { font: 9pt/1.32 "DejaVu Serif", Georgia, serif; color: #111; margin: 0; }
 .part h1 { font: bold 20pt "DejaVu Sans", Arial, sans-serif; margin: 0 0 1mm; column-span: all; }
 .part > p { font-size: 9pt; color: #444; margin: 0 0 5mm; padding-bottom: 3mm; border-bottom: 1.2pt solid #111; }
 .entries { column-count: 2; column-gap: 9mm; column-rule: .3pt solid #bbb; }
+.lead { break-inside: avoid; }   /* a letter's heading with its first two entries */
 h2 { font: bold 15pt "DejaVu Sans", Arial, sans-serif; margin: 3mm 0 1.5mm; break-after: avoid; color: #0b2a5b; }
 .e { margin: 0 0 1.1mm; padding-left: 4mm; text-indent: -4mm; break-inside: avoid; }
 .e b { font-weight: bold; }

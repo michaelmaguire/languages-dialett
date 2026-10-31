@@ -10,7 +10,7 @@
 
 | Italiano | English |
 |---|---|
-| L'infinito ha quattro forme. Il corso non le classifica; le grammatiche del lombardo occidentale le chiamano coniugazioni, e le pagine dei verbi le usano. † | The infinitive has four shapes. The course does not classify them; grammars of Western Lombard call them conjugations, and the verb pages use them. † |
+| L’infinito ha quattro forme. Il corso non le classifica; le grammatiche del lombardo occidentale le chiamano coniugazioni, e le pagine dei verbi le usano. † | The infinitive has four shapes. The course does not classify them; grammars of Western Lombard call them conjugations, and the verb pages use them. † |
 
 | | infinito · infinitive | italiano | esempi · examples |
 |---|---|---|---|
@@ -23,7 +23,7 @@
 
 | Italiano | English |
 |---|---|
-| Le desinenze del presente sono quasi le stesse per tutti i verbi: *-i*, *ta -at*, *la/al -a* (o senza desinenza), *-um*, *-uf*, *i -an* (o senza desinenza). Alla terza persona la prima coniugazione ha *-a* (*canta*), la terza ha la radice nuda (*bef*, *ved*); al plurale l'insegnante scrive spesso tutte e due le forme: *i canta(n)*, *i cor / coran*. La seconda persona singolare finisce in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), ma l'insegnante spiega che la *-t* si lascia cadere quando suona meglio (*ta se cum'è ul sant Tumas*, *ta fé*): nelle tabelle dei verbi la *t* che può cadere è tra parentesi, *ta se(t)*. | The endings of the present are almost the same for every verb: *-i*, *ta -at*, *la/al -a* (or no ending), *-um*, *-uf*, *i -an* (or no ending). In the third person the 1st conjugation has *-a* (*canta*), the 3rd the bare stem (*bef*, *ved*); in the plural the teacher often writes both forms: *i canta(n)*, *i cor / coran*. The second person singular ends in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), but the teacher explains that the *-t* is dropped when it sounds better (*ta se cum'è ul sant Tumas*, you're like Saint Thomas; *ta fé*): in the verb tables a *t* that can drop is in brackets, *ta se(t)*. |
+| Le desinenze del presente sono quasi le stesse per tutti i verbi: *-i*, *ta -at*, *la/al -a* (o senza desinenza), *-um*, *-uf*, *i -an* (o senza desinenza). Alla terza persona la prima coniugazione ha *-a* (*canta*), la terza ha la radice nuda (*bef*, *ved*); al plurale l’insegnante scrive spesso tutte e due le forme: *i canta(n)*, *i cor / coran*. La seconda persona singolare finisce in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), ma l’insegnante spiega che la *-t* si lascia cadere quando suona meglio (*ta se cum’è ul sant Tumas*, *ta fé*): nelle tabelle dei verbi la *t* che può cadere è tra parentesi, *ta se(t)*. | The endings of the present are almost the same for every verb: *-i*, *ta -at*, *la/al -a* (or no ending), *-um*, *-uf*, *i -an* (or no ending). In the third person the 1st conjugation has *-a* (*canta*), the 3rd the bare stem (*bef*, *ved*); in the plural the teacher often writes both forms: *i canta(n)*, *i cor / coran*. The second person singular ends in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), but the teacher explains that the *-t* is dropped when it sounds better (*ta se cum’è ul sant Tumas*, you’re like Saint Thomas; *ta fé*): in the verb tables a *t* that can drop is in brackets, *ta se(t)*. |
 
 *presente*
 
@@ -38,8 +38,8 @@
 
 | Italiano | English |
 |---|---|
-| Alcuni verbi della quarta coniugazione inseriscono *-is-*, come l'italiano *-isc-* di «capisco»: *cüsisi*, *ta cüsisat*, *la/al cüsis* (cucio, cuci, cuce). | Some 4th-conjugation verbs insert *-is-*, like the Italian *-isc-* of *capisco*: *cüsisi*, *ta cüsisat*, *la/al cüsis* (I sew, you sew, she sews). |
-| Nella radice la vocale accentata spesso cambia quando l'accento si sposta sulla desinenza: *trövi* ma *truà*, *vöri* ma *vurüü*, *dormi* (dormo) ma *durmii* (dormite!). † | In the stem the stressed vowel often changes when the stress moves to the ending: *trövi* (I find) but *truà* (to find), *vöri* (I want) but *vurüü* (wanted), *dormi* (I sleep) but *durmii* (sleep!, to several people). † |
+| Alcuni verbi della quarta coniugazione inseriscono *-is-*, come l’italiano *-isc-* di «capisco»: *cüsisi*, *ta cüsisat*, *la/al cüsis* (cucio, cuci, cuce). | Some 4th-conjugation verbs insert *-is-*, like the Italian *-isc-* of *capisco*: *cüsisi*, *ta cüsisat*, *la/al cüsis* (I sew, you sew, she sews). |
+| Nella radice la vocale accentata spesso cambia quando l’accento si sposta sulla desinenza: *trövi* ma *truà*, *vöri* ma *vurüü*, *dormi* (dormo) ma *durmii* (dormite!). † | In the stem the stressed vowel often changes when the stress moves to the ending: *trövi* (I find) but *truà* (to find), *vöri* (I want) but *vurüü* (wanted), *dormi* (I sleep) but *durmii* (sleep!, to several people). † |
 
 **(1)** *mangi na poma*
 
@@ -55,7 +55,7 @@
 |---|---|---|---|---|
 | run.1SG | because | be.1SG | in | late |
 
-‘Corro perché sono in ritardo’ · ‘I'm running because I'm late’ — [cors da dialet da Rögn 9a leziun, l. 6](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘Corro perché sono in ritardo’ · ‘I’m running because I’m late’ — [cors da dialet da Rögn 9a leziun, l. 6](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 **(3)** *tai al salam*
 
@@ -69,7 +69,7 @@
 
 | Italiano | English |
 |---|---|
-| Per dire che un'azione è in corso si usa *ves dré a* + infinito, come l'italiano «stare + gerundio» o «essere dietro a». | To say that an action is in progress, use *ves dré a* (literally "to be behind at") + infinitive, like English "to be doing". |
+| Per dire che un’azione è in corso si usa *ves dré a* + infinito, come l’italiano «stare + gerundio» o «essere dietro a». | To say that an action is in progress, use *ves dré a* (literally “to be behind at”) + infinitive, like English “to be doing”. |
 
 **(4)** *sum dré a rivà*
 
@@ -77,7 +77,7 @@
 |---|---|---|---|
 | be.1SG | behind | to | arrive.INF |
 
-‘sto arrivando’ · ‘I'm on my way’ — [imperativo, l. 185](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
+‘sto arrivando’ · ‘I’m on my way’ — [imperativo, l. 185](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
 
 **(5)** *ta se dré a cercà*
 

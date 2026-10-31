@@ -3,7 +3,7 @@
 
 ## Le quattro coniugazioni | The four conjugations
 
-IT: L'infinito ha quattro forme. Il corso non le classifica; le grammatiche del lombardo occidentale le chiamano coniugazioni, e le pagine dei verbi le usano. †
+IT: L’infinito ha quattro forme. Il corso non le classifica; le grammatiche del lombardo occidentale le chiamano coniugazioni, e le pagine dei verbi le usano. †
 EN: The infinitive has four shapes. The course does not classify them; grammars of Western Lombard call them conjugations, and the verb pages use them. †
 
 | | infinito · infinitive | italiano | esempi · examples |
@@ -15,15 +15,15 @@ EN: The infinitive has four shapes. The course does not classify them; grammars 
 
 ## Il presente | The present tense
 
-IT: Le desinenze del presente sono quasi le stesse per tutti i verbi: *-i*, *ta -at*, *la/al -a* (o senza desinenza), *-um*, *-uf*, *i -an* (o senza desinenza). Alla terza persona la prima coniugazione ha *-a* (*canta*), la terza ha la radice nuda (*bef*, *ved*); al plurale l'insegnante scrive spesso tutte e due le forme: *i canta(n)*, *i cor / coran*. La seconda persona singolare finisce in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), ma l'insegnante spiega che la *-t* si lascia cadere quando suona meglio (*ta se cum'è ul sant Tumas*, *ta fé*): nelle tabelle dei verbi la *t* che può cadere è tra parentesi, *ta se(t)*.
-EN: The endings of the present are almost the same for every verb: *-i*, *ta -at*, *la/al -a* (or no ending), *-um*, *-uf*, *i -an* (or no ending). In the third person the 1st conjugation has *-a* (*canta*), the 3rd the bare stem (*bef*, *ved*); in the plural the teacher often writes both forms: *i canta(n)*, *i cor / coran*. The second person singular ends in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), but the teacher explains that the *-t* is dropped when it sounds better (*ta se cum'è ul sant Tumas*, you're like Saint Thomas; *ta fé*): in the verb tables a *t* that can drop is in brackets, *ta se(t)*.
+IT: Le desinenze del presente sono quasi le stesse per tutti i verbi: *-i*, *ta -at*, *la/al -a* (o senza desinenza), *-um*, *-uf*, *i -an* (o senza desinenza). Alla terza persona la prima coniugazione ha *-a* (*canta*), la terza ha la radice nuda (*bef*, *ved*); al plurale l’insegnante scrive spesso tutte e due le forme: *i canta(n)*, *i cor / coran*. La seconda persona singolare finisce in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), ma l’insegnante spiega che la *-t* si lascia cadere quando suona meglio (*ta se cum’è ul sant Tumas*, *ta fé*): nelle tabelle dei verbi la *t* che può cadere è tra parentesi, *ta se(t)*.
+EN: The endings of the present are almost the same for every verb: *-i*, *ta -at*, *la/al -a* (or no ending), *-um*, *-uf*, *i -an* (or no ending). In the third person the 1st conjugation has *-a* (*canta*), the 3rd the bare stem (*bef*, *ved*); in the plural the teacher often writes both forms: *i canta(n)*, *i cor / coran*. The second person singular ends in *-t* (*ta mangiat*, *ta set*, *ta ghet*, *ta vet*), but the teacher explains that the *-t* is dropped when it sounds better (*ta se cum’è ul sant Tumas*, you’re like Saint Thomas; *ta fé*): in the verb tables a *t* that can drop is in brackets, *ta se(t)*.
 
 [](EntryTable#cldf:canta,vede,bef,dormi,cusi?tenses=presente)
 
-IT: Alcuni verbi della quarta coniugazione inseriscono *-is-*, come l'italiano *-isc-* di «capisco»: *cüsisi*, *ta cüsisat*, *la/al cüsis* (cucio, cuci, cuce).
+IT: Alcuni verbi della quarta coniugazione inseriscono *-is-*, come l’italiano *-isc-* di «capisco»: *cüsisi*, *ta cüsisat*, *la/al cüsis* (cucio, cuci, cuce).
 EN: Some 4th-conjugation verbs insert *-is-*, like the Italian *-isc-* of *capisco*: *cüsisi*, *ta cüsisat*, *la/al cüsis* (I sew, you sew, she sews).
 
-IT: Nella radice la vocale accentata spesso cambia quando l'accento si sposta sulla desinenza: *trövi* ma *truà*, *vöri* ma *vurüü*, *dormi* (dormo) ma *durmii* (dormite!). †
+IT: Nella radice la vocale accentata spesso cambia quando l’accento si sposta sulla desinenza: *trövi* ma *truà*, *vöri* ma *vurüü*, *dormi* (dormo) ma *durmii* (dormite!). †
 EN: In the stem the stressed vowel often changes when the stress moves to the ending: *trövi* (I find) but *truà* (to find), *vöri* (I want) but *vurüü* (wanted), *dormi* (I sleep) but *durmii* (sleep!, to several people). †
 
 [](ExampleTable#cldf:g-mangi)
@@ -32,8 +32,8 @@ EN: In the stem the stressed vowel often changes when the stress moves to the en
 
 ## «Sto facendo»: *ves dré a* | "I am doing": *ves dré a*
 
-IT: Per dire che un'azione è in corso si usa *ves dré a* + infinito, come l'italiano «stare + gerundio» o «essere dietro a».
-EN: To say that an action is in progress, use *ves dré a* (literally "to be behind at") + infinitive, like English "to be doing".
+IT: Per dire che un’azione è in corso si usa *ves dré a* + infinito, come l’italiano «stare + gerundio» o «essere dietro a».
+EN: To say that an action is in progress, use *ves dré a* (literally “to be behind at”) + infinitive, like English “to be doing”.
 
 [](ExampleTable#cldf:g-dre)
 [](ExampleTable#cldf:g-dre2)

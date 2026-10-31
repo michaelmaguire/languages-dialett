@@ -13,7 +13,7 @@
 | a pena, dumà *adv.* | appena, solo | only |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
 | abandunà *v. (abanduni †, abandunaa)* | abbandonare | to abandon | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-12-02-1358-Canto%201%20della%20Divina%20Commedia.docx) |
 | acid/acida † *adj.* | acido | sour | Rögn | contrario: dolz (dolce) | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx) |
-| acordi *n. m., pl. acordi* | accordo | agreement (d'acordi, agreed) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-24-0946-100%20frasi%20di%20persone%20in%20montagna.docx) |
+| acordi *n. m., pl. acordi* | accordo | agreement (d’acordi, agreed) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-24-0946-100%20frasi%20di%20persone%20in%20montagna.docx) |
 | acqua *n. f., pl. acqu* | acqua | water | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-05-0915-espressioni%20in%20italiano%202.6.2025.pdf) |
 | adasi *adv.* | piano | quietly |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
 | adess *adv.* | ora, adesso | now |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
@@ -366,7 +366,7 @@
 | detersiv *n. m., pl. detersiv* | detersivo | detergent | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-La%20spesa%20che%20non%20ti%20aspetti.docx) |
 | deudurant *n. m., pl. deudurant* | deodorante | deodorant | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-La%20spesa%20che%20non%20ti%20aspetti.docx) |
 | dì *v. (disi, dii)* · dì *n. m., pl. dì* | dire<br>giorno, | to say<br>one day, | Rögn<br> | From Latin DICERE: the -s- of disi, al diseva continues the Latin -C- (as in Italian dicevo). † | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf)<br>[↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-20-1019-poesie%20in%20dialetto.docx) |
-| dì di Mort *n. m., pl. dì di Mort* | Giorno dei Morti | All Souls' Day | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
+| dì di Mort *n. m., pl. dì di Mort* | Giorno dei Morti | All Souls’ Day | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
 | dicembar *n. m., pl. dicembar* | dicembre | December | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-27-1529-cors%20da%20dialet%20da%20R%C3%B6gn%206a%20leziun.docx) |
 | dificil/dificila *adj.* | complesso<br>difficile | complex<br>difficult | Rögn<br>Rögn | contrario: facil (semplice)<br>contrario: facil (facile) | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx)<br>[↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx) |
 | dii *n. m., pl. dii* | dita | fingers | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-13-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%204a%20leziun.docx) |
@@ -459,7 +459,7 @@
 | fermà *v. (fermi †, fermaa)* | fermare | to stop | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-La%20spesa%20che%20non%20ti%20aspetti.docx) |
 | fermu/ferma *adj.* | fermo | still, stopped | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-12-02-1358-Canto%201%20della%20Divina%20Commedia.docx) |
 | fescta naziunal (1° agosto) *n. f., pl. fesct naziunal* | festa nazionale | national holiday | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
-| Festa dala Mamm *n. f., pl. Fest dala Mamm* | Festa della Mamma | Mother's Day | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
+| Festa dala Mamm *n. f., pl. Fest dala Mamm* | Festa della Mamma | Mother’s Day | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
 | fiaa *n. m., pl. fiaa* | fiato | breath | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-08-20-1910-frasi%20fai%201%20-%20Copia.docx) |
 | fiamífar *n. m., pl. fiamífar* | fiammiferi | matches | Basso Ceresio | also: Zufranei | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-03-05-1249-Dizionario%20con%20filastrocche%20di%20R.%20Gaggini.docx) |
 | fidic *n. m., pl. fidic* | fegato | liver | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-13-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%204a%20leziun.docx) |
@@ -723,7 +723,7 @@
 | maar/maara † *adj.* | amaro | bitter | Rögn | contrario: dolz (dolce) | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx) |
 | macelar *n. m., pl. macelar* | macellaio | butcher | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
 | màcelàr *n. m., pl. màcelàr* | macelleria | butcher |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
-| maceleria *n. f., pl. maceleri* | macelleria | butcher's shop | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-10-10-1054-varie%20situazioni.docx) |
+| maceleria *n. f., pl. maceleri* | macelleria | butcher’s shop | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-10-10-1054-varie%20situazioni.docx) |
 | machina da lavà *n. f., pl. machin da lavà* | lavatrice | washing machine | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-20-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx) |
 | machina da sügà *n. f., pl. machin da sügà* | asciugatrice | tumble dryer | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-20-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx) |
 | maesctru *n. m., pl. maesctri* | maestro | teacher | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
@@ -899,11 +899,11 @@
 | o *conj.* | o | or |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
 | öcc *n. m., pl. öcc* | occhi | eyes | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-13-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%204a%20leziun.docx) |
 | öcc balòss *n. m., pl. öcc balòss* | occhi furbi, | cunning eyes, |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-20-1019-poesie%20in%20dialetto.docx) |
-| öcc dala Madonna *n. m., pl. öcc dala Madonna* | Occhi della Madonna | speedwell (lit. Our Lady's eyes) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-25-1139-Cors%20da%20dialet%20da%20R%C3%B6gn%2014a%20leziun.docx) |
+| öcc dala Madonna *n. m., pl. öcc dala Madonna* | Occhi della Madonna | speedwell (lit. Our Lady’s eyes) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-25-1139-Cors%20da%20dialet%20da%20R%C3%B6gn%2014a%20leziun.docx) |
 | ogni *pron.* | ogni | every, each | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-05-01-0000-Cors%20da%20dialet%20da%20R%C3%B6gn%2015a%20leziun%20-%20proverbi.pdf) |
 | oli *n. m., pl. oli* | olio | oil | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2011a%20leziun.docx) |
 | ööv *n. m., pl. ööv* | uovo | egg |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
-| ora *n. f., pl. or* | ora | time (l'è ora, it's time) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2011a%20leziun.docx) |
+| ora *n. f., pl. or* | ora | time (l’è ora, it’s time) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2011a%20leziun.docx) |
 | ors *n. m., pl. ors* | orso | bear | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-27-1529-cors%20da%20dialet%20da%20R%C3%B6gn%206a%20leziun.docx) |
 | osct *n. m., pl. osct* | oste | innkeeper | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
 
@@ -1495,7 +1495,7 @@
 | tua presón *phr.* | tua prigione | your prison |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-20-1019-poesie%20in%20dialetto.docx) |
 | tuaia *n. f., pl. tuai* | tovaglia | tablecloth | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-20-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx) |
 | tuaiöö (mantin) *n. m., pl. tuaiöö* | tovagliolo | napkin | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-20-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx) |
-| tucà *v. (tuchi †, tucaa)* | toccare | to touch; have to (m'è tucaa) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
+| tucà *v. (tuchi †, tucaa)* | toccare | to touch; have to (m’è tucaa) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
 | tulerant/tuleranta † *adj.* | tollerante | tolerant | Rögn | contrario: intulerant (intollerante) | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx) |
 | tülipan *n. m., pl. tülipan* | tulipano | tulip | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-25-1139-Cors%20da%20dialet%20da%20R%C3%B6gn%2014a%20leziun.docx) |
 | tumatis *n. m., pl. tumatis* | pomodori | tomatoes | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-13-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%204a%20leziun.docx) |

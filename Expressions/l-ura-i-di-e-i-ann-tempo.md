@@ -8,7 +8,7 @@ Sayings, idioms and phrases about this topic, from all the course documents. ⚠
 
 | Dialett | Italiano | English | Region | Source |
 |---|---|---|---|---|
-| a sum li in un boff | sarò lì tra un attimo | I'll be there in a moment | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx) |
+| a sum li in un boff | sarò lì tra un attimo | I’ll be there in a moment | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx) |
 | a sum rivaa a brüs | sono arrivato appena in tempo | I arrived just in time | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx) |
 | l'è rivaa diss a déss | è appena arrivato | he has just arrived | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx) |
 | in quatru e quatru vot | in quattro e quattr’otto | in two shakes | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-05-0915-espressioni%20in%20italiano%202.6.2025.pdf) |

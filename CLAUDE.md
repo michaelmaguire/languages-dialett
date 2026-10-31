@@ -100,6 +100,14 @@ covers skipped without it). The A4 PDFs keep the legend on their covers. Owner r
 "(N of them a bit ⚠)" (dictionary) and "now with … forms nobody actually taught us" (verbs), 2026-10-31.
 Tests check sizes, boxes, PDF/X marking, fonts, margins, ink (no C/M/Y inside), text against the A4 version,
 spine widths and where the legend and edition are.
+**Typesetting review (owner, 2026-10-31)**, for the A5 books (`BOOK_CSS` in step 5; A4 sizes there, ×0.705
+printed): no type under 6 pt as printed (`BOOK_MIN_PT`; labels, notes, page numbers, table headings and †
+were 4.9–5.8 pt), all text and every rule solid black (grey prints as dots), rules at least 0.35 pt
+(`BOOK_RULE_PT`; were 0.21). A page left blank so a section starts on the right has no page number (`@page
+blank`, A4 too). A dictionary letter heading stays with its first two entries (`div.lead`). Covers stay under
+300% total ink (276% at most). Text we write uses curly quotes and ’ (`pipeline/typography.py` `smart()`, applied
+to the English, notes and grammar prose in `etc/` and to ATTRIBUTIONS.md); the course's dialect and Italian keep
+the teacher's punctuation (straight apostrophes, spaces before ? and !, "…."). Each rule has a test.
 **print24 (owner, 2026-10-31)** is the third shop (print24.com/it, "Libri con copertina morbida"): at least 40
 pages for glued binding (the grammar has exactly 40), text 1.5 mm from the trim, black-and-white inside and
 an unprinted inside cover available, 275 g softcover board. They publish no bleed figure and no spine rule: its

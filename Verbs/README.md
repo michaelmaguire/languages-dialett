@@ -136,7 +136,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [tradü](tradu-tradurre.md) | tradurre | to translate | 3rd conjugation | 6 of 68 |
 | [truà](trua-trovare.md) | trovare | to find | 1st conjugation | 6 of 68 |
 | [trüsà / rügà](trusa-mescolare.md) | mescolare | to mix | 1st conjugation | 6 of 68 |
-| [tucà](tuca-toccare.md) † | toccare | to touch; have to (m'è tucaa) | 1st conjugation | 1 of 68 |
+| [tucà](tuca-toccare.md) † | toccare | to touch; have to (m’è tucaa) | 1st conjugation | 1 of 68 |
 | [turna o torna indré](turna-ritornare.md) | ritornare | to return | 1st conjugation | 6 of 68 |
 | [unurà](unura-onorare.md) † | onorare | to honour | 1st conjugation | 4 of 68 |
 | [vedé](vede-vedere.md) | vedere | to see | 2nd conjugation | 19 of 68 |

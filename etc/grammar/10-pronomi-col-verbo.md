@@ -2,8 +2,8 @@
      The pilot chapter, asked for by the owner: how the verb changes when an object pronoun is attached. -->
 # I pronomi attaccati al verbo | Pronouns attached to the verb
 
-IT: Come l'italiano, il dialetto ha pronomi brevi, senza accento proprio, che si appoggiano al verbo: i «clitici». Stanno **davanti** al verbo coniugato (*ta ma impresctaressat*, mi presteresti) e **dopo**, attaccati, all'infinito, al gerundio e all'imperativo (*purtam*, accompagnarmi; *dimm*, dimmi). Non sono desinenze del verbo, anche se si scrivono attaccati: sono pronomi.
-EN: Like Italian, the dialect has short pronouns with no stress of their own, which lean on the verb: "clitics". They stand **before** a conjugated verb (*ta ma impresctaressat*, would you lend me) and **after** it, attached, with an infinitive, a gerund or an imperative (*purtam*, to take me; *dimm*, tell me). They are not verb endings, even though they are written as part of the word: they are pronouns.
+IT: Come l’italiano, il dialetto ha pronomi brevi, senza accento proprio, che si appoggiano al verbo: i «clitici». Stanno **davanti** al verbo coniugato (*ta ma impresctaressat*, mi presteresti) e **dopo**, attaccati, all’infinito, al gerundio e all’imperativo (*purtam*, accompagnarmi; *dimm*, dimmi). Non sono desinenze del verbo, anche se si scrivono attaccati: sono pronomi.
+EN: Like Italian, the dialect has short pronouns with no stress of their own, which lean on the verb: “clitics”. They stand **before** a conjugated verb (*ta ma impresctaressat*, would you lend me) and **after** it, attached, with an infinitive, a gerund or an imperative (*purtam*, to take me; *dimm*, tell me). They are not verb endings, even though they are written as part of the word: they are pronouns.
 
 ## Le forme | The forms
 
@@ -22,13 +22,13 @@ EN: Before the verb the pronouns are these. The forms after the verb are the sam
 | si (riflessivo, impersonale) | *sa* (*s’*) | *-s*, *-ss*, *-as* | si | oneself |
 | ne | *na* (*n’*) | *-n* | ne | some, of it |
 
-IT: Le caselle con (?) sono incerte: il corso scrive «a noi» sia *ma* sia *ga* (vedi sotto), e *ia* compare una volta sola. Sono tra le domande per l'insegnante.
-EN: The cells marked (?) are uncertain: the course writes "to us" both as *ma* and as *ga* (see below), and *ia* appears only once. They are among the questions for the teacher.
+IT: Le caselle con (?) sono incerte: il corso scrive «a noi» sia *ma* sia *ga* (vedi sotto), e *ia* compare una volta sola. Sono tra le domande per l’insegnante.
+EN: The cells marked (?) are uncertain: the course writes “to us” both as *ma* and as *ga* (see below), and *ia* appears only once. They are among the questions for the teacher.
 
 ## Davanti al verbo | Before the verb
 
 IT: Davanti a un verbo coniugato il pronome sta tra il clitico soggetto e il verbo: *al ta pias* (ti piace), *ta ma impresctaressat* (mi presteresti).
-EN: Before a conjugated verb the pronoun goes between the subject clitic and the verb: *al ta pias* (you like it, literally "it pleases you"), *ta ma impresctaressat* (would you lend me).
+EN: Before a conjugated verb the pronoun goes between the subject clitic and the verb: *al ta pias* (you like it, literally “it pleases you”), *ta ma impresctaressat* (would you lend me).
 
 [](ExampleTable#cldf:g-mapias)
 [](ExampleTable#cldf:g-tapias)
@@ -36,8 +36,8 @@ EN: Before a conjugated verb the pronoun goes between the subject clitic and the
 [](ExampleTable#cldf:g-imprescta)
 [](ExampleTable#cldf:g-vapresenti)
 
-IT: Il «a chi» si dice spesso due volte: una con il pronome davanti al verbo e una con il nome o il pronome intero, prima o dopo: *ga pias a tücc*, *al Mattia ga pias*, letteralmente «gli piace a tutti», «a Mattia gli piace». Come nell'italiano parlato («a lui gli piace») e in spagnolo (*a todos les gusta*); è lo stesso raddoppio del clitico soggetto del capitolo 4 (*ul vent al bofa*). Succede soprattutto con *piasé* (piacere), il verbo dove chi «ha» il sentimento è il «a chi»: *ma pias* (mi piace), *ta pias* (ti piace), *ga pias* (gli piace, le piace). †
-EN: The "to whom" is often said twice: once as the pronoun before the verb and once as the full noun or pronoun, before or after it: *ga pias a tücc*, *al Mattia ga pias*, word for word "to-them pleases to everyone", "Mattia, to-him it pleases". Colloquial Italian does the same (*a lui gli piace*), and so does Spanish (*a todos les gusta*); it is the same doubling as the subject clitic in chapter 4 (*ul vent al bofa*, the wind it blows). It happens above all with *piasé* (to please), the verb where the person who likes is the "to whom": *ma pias* (I like, "to me it pleases"), *ta pias* (you like), *ga pias* (he, she, they like). †
+IT: Il «a chi» si dice spesso due volte: una con il pronome davanti al verbo e una con il nome o il pronome intero, prima o dopo: *ga pias a tücc*, *al Mattia ga pias*, letteralmente «gli piace a tutti», «a Mattia gli piace». Come nell’italiano parlato («a lui gli piace») e in spagnolo (*a todos les gusta*); è lo stesso raddoppio del clitico soggetto del capitolo 4 (*ul vent al bofa*). Succede soprattutto con *piasé* (piacere), il verbo dove chi «ha» il sentimento è il «a chi»: *ma pias* (mi piace), *ta pias* (ti piace), *ga pias* (gli piace, le piace). †
+EN: The “to whom” is often said twice: once as the pronoun before the verb and once as the full noun or pronoun, before or after it: *ga pias a tücc*, *al Mattia ga pias*, word for word “to-them pleases to everyone”, “Mattia, to-him it pleases”. Colloquial Italian does the same (*a lui gli piace*), and so does Spanish (*a todos les gusta*); it is the same doubling as the subject clitic in chapter 4 (*ul vent al bofa*, the wind it blows). It happens above all with *piasé* (to please), the verb where the person who likes is the “to whom”: *ma pias* (I like, “to me it pleases”), *ta pias* (you like), *ga pias* (he, she, they like). †
 
 [](ExampleTable#cldf:g-tosa)
 
@@ -45,14 +45,14 @@ IT: Il nome tecnico è *raddoppiamento clitico* (o *del clitico*). I linguisti d
 EN: The technical term is *clitic doubling* (here *dative clitic doubling*; Italian *raddoppiamento clitico*). Linguists distinguish true doubling, with the full phrase in its normal place and no pause (*ga pias a tücc*), from *clitic left dislocation*, where the full phrase is put first as the topic and the pronoun picks it up (*la mia tôsa invece ga pias…*, *al Mattia ga pias…*).
 
 IT: Davanti a vocale il pronome perde la vocale: *t’ò dii* (ti ho detto), *m’è tucaa* (mi è toccato).
-EN: Before a vowel the pronoun drops its vowel: *t’ò dii* (I told you), *m’è tucaa* (I had to, literally "it touched me").
+EN: Before a vowel the pronoun drops its vowel: *t’ò dii* (I told you), *m’è tucaa* (I had to, literally “it touched me”).
 
 [](ExampleTable#cldf:g-todii)
 [](ExampleTable#cldf:g-tucaa)
 
 ## Dopo il verbo: infinito | After the verb: the infinitive
 
-IT: All'infinito il pronome si attacca in fondo e l'infinito perde l'accento finale: *purtà* + *m* = *purtam* (accompagnarmi), *divertì* + *m* = *divertim*, *parlà* + *v* = *parlav* (parlarvi), *fà* + *l* = *fal* (farlo), *serà* + *la* = *sérala* (chiuderla).
+IT: All’infinito il pronome si attacca in fondo e l’infinito perde l’accento finale: *purtà* + *m* = *purtam* (accompagnarmi), *divertì* + *m* = *divertim*, *parlà* + *v* = *parlav* (parlarvi), *fà* + *l* = *fal* (farlo), *serà* + *la* = *sérala* (chiuderla).
 EN: With an infinitive the pronoun is attached at the end and the infinitive loses its final accent: *purtà* + *m* = *purtam* (to take me), *divertì* + *m* = *divertim* (to enjoy myself), *parlà* + *v* = *parlav* (to talk to you all), *fà* + *l* = *fal* (to make him), *serà* + *la* = *sérala* (to close it).
 
 [](ExampleTable#cldf:g-purtam)
@@ -63,8 +63,8 @@ EN: With an infinitive the pronoun is attached at the end and the infinitive los
 [](ExampleTable#cldf:g-serala)
 [](ExampleTable#cldf:g-ciapala)
 
-IT: Dopo alcuni infiniti la consonante del pronome si scrive doppia: *lavass* (lavarsi), *fidass* (fidarsi), *vesctiss* (vestirsi), ma *setas* (sedersi). Non è chiaro se sia una regola o un'abitudine di scrittura. †
-EN: After some infinitives the pronoun's consonant is written double: *lavass* (to wash oneself), *fidass* (to trust), *vesctiss* (to get dressed), but *setas* (to sit down). It is not clear whether this is a rule or a spelling habit. †
+IT: Dopo alcuni infiniti la consonante del pronome si scrive doppia: *lavass* (lavarsi), *fidass* (fidarsi), *vesctiss* (vestirsi), ma *setas* (sedersi). Non è chiaro se sia una regola o un’abitudine di scrittura. †
+EN: After some infinitives the pronoun’s consonant is written double: *lavass* (to wash oneself), *fidass* (to trust), *vesctiss* (to get dressed), but *setas* (to sit down). It is not clear whether this is a rule or a spelling habit. †
 
 [](ExampleTable#cldf:g-lavass)
 
@@ -76,7 +76,7 @@ EN: With *ne* the pronoun is *-n*: *saven* (to know some of it). *Gh* attaches t
 
 ## Dopo il verbo: imperativo | After the verb: the imperative
 
-IT: All'imperativo il pronome si attacca in fondo, come in italiano: *dimm* (dimmi), *metag denta* (mettici dentro), *dag na man* (dai una mano, a lei), *godat* (goditi), *fatala* (fattela).
+IT: All’imperativo il pronome si attacca in fondo, come in italiano: *dimm* (dimmi), *metag denta* (mettici dentro), *dag na man* (dai una mano, a lei), *godat* (goditi), *fatala* (fattela).
 EN: With an imperative the pronoun is attached at the end, as in Italian: *dimm* (tell me), *metag denta* (put [some] in), *dag na man* (give [her] a hand), *godat* (enjoy), *fatala* (make it… for yourself).
 
 [](ExampleTable#cldf:g-dimm)
@@ -86,8 +86,8 @@ EN: With an imperative the pronoun is attached at the end, as in Italian: *dimm*
 [](ExampleTable#cldf:g-fatala)
 [](ExampleTable#cldf:g-dagan)
 
-IT: Con i verbi riflessivi la scheda dell'imperativo dà una serie completa: *-t* per *ti* (ma *regordas mia*), *-mas* per *nüm*, *-vas* per *vialtri*. Davanti a *-mas* e *-vas* la vocale del verbo diventa *-e-*.
-EN: For reflexive verbs the imperative sheet gives a complete set: *-t* for *ti* (but *regordas mia*), *-mas* for *nüm*, *-vas* for *vialtri*. Before *-mas* and *-vas* the verb's vowel becomes *-e-*.
+IT: Con i verbi riflessivi la scheda dell’imperativo dà una serie completa: *-t* per *ti* (ma *regordas mia*), *-mas* per *nüm*, *-vas* per *vialtri*. Davanti a *-mas* e *-vas* la vocale del verbo diventa *-e-*.
+EN: For reflexive verbs the imperative sheet gives a complete set: *-t* for *ti* (but *regordas mia*), *-mas* for *nüm*, *-vas* for *vialtri*. Before *-mas* and *-vas* the verb’s vowel becomes *-e-*.
 
 | | *setas giò* (sedersi · to sit down) | *lavas* (lavarsi · to wash) | *regordas* (ricordarsi · to remember) |
 |---|---|---|---|
@@ -108,8 +108,8 @@ EN: With a gerund the pronoun is attached with an extra vowel: *dandog* (giving 
 
 ## Due pronomi insieme | Two pronouns together
 
-IT: Quando ci sono due pronomi, il primo è quello «a chi» o *gh’*, il secondo l'oggetto o *ne*, come in italiano: *ga l’ò* (ce l'ho), *ga n’è* (ce n'è), *ta gal fe cugnos* (ce lo fai conoscere), *ta ia darà* (te le darà), *sa na regorda* (se ne ricorda).
-EN: When there are two pronouns, the first is the "to whom" pronoun or *gh’*, the second the object or *ne*, as in Italian: *ga l’ò* (I've got it), *ga n’è* (there is/are some), *ta gal fe cugnos* (you'll introduce him to us), *ta ia darà* (it'll give them to you), *sa na regorda* (remembers it).
+IT: Quando ci sono due pronomi, il primo è quello «a chi» o *gh’*, il secondo l’oggetto o *ne*, come in italiano: *ga l’ò* (ce l’ho), *ga n’è* (ce n’è), *ta gal fe cugnos* (ce lo fai conoscere), *ta ia darà* (te le darà), *sa na regorda* (se ne ricorda).
+EN: When there are two pronouns, the first is the “to whom” pronoun or *gh’*, the second the object or *ne*, as in Italian: *ga l’ò* (I’ve got it), *ga n’è* (there is/are some), *ta gal fe cugnos* (you’ll introduce him to us), *ta ia darà* (it’ll give them to you), *sa na regorda* (remembers it).
 
 [](ExampleTable#cldf:g-galo)
 [](ExampleTable#cldf:g-gane)
@@ -119,8 +119,8 @@ EN: When there are two pronouns, the first is the "to whom" pronoun or *gh’*, 
 
 ## «Ci» = a noi | Italian *ci* meaning "us"
 
-IT: L'italiano *ci* ha due significati, «a noi» e «lì, su questo». Per «lì» il dialetto ha *gh’* (*gh’è*, c'è). Per «a noi» il corso scrive a volte *ma* e a volte *ga*/*gh’a*: forse dipende dal paese o dal verbo. È una domanda per l'insegnante. †
-EN: Italian *ci* has two meanings, "us, to us" and "there, about it". For "there" the dialect has *gh’* (*gh’è*, there is). For "us" the course sometimes writes *ma* and sometimes *ga*/*gh’a*: perhaps it depends on the village or on the verb. It is a question for the teacher. †
+IT: L’italiano *ci* ha due significati, «a noi» e «lì, su questo». Per «lì» il dialetto ha *gh’* (*gh’è*, c’è). Per «a noi» il corso scrive a volte *ma* e a volte *ga*/*gh’a*: forse dipende dal paese o dal verbo. È una domanda per l’insegnante. †
+EN: Italian *ci* has two meanings, “us, to us” and “there, about it”. For “there” the dialect has *gh’* (*gh’è*, there is). For “us” the course sometimes writes *ma* and sometimes *ga*/*gh’a*: perhaps it depends on the village or on the verb. It is a question for the teacher. †
 
 [](ExampleTable#cldf:g-anumm)
 [](ExampleTable#cldf:g-gha)

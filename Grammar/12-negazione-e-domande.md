@@ -10,7 +10,7 @@
 
 | Italiano | English |
 |---|---|
-| Il dialetto nega con *mia*, messo **dopo** il verbo, non prima come l'italiano «non»: *trövi mia* (non trovo). Ai tempi composti *mia* sta tra l'ausiliare e il participio: *sum mia sctai bun* (non ci sono riuscito). | The dialect negates with *mia*, placed **after** the verb, not before it like Italian *non*: *trövi mia* (I can't find). In compound tenses *mia* goes between the auxiliary and the participle: *sum mia sctai bun* (I didn't manage it). |
+| Il dialetto nega con *mia*, messo **dopo** il verbo, non prima come l’italiano «non»: *trövi mia* (non trovo). Ai tempi composti *mia* sta tra l’ausiliare e il participio: *sum mia sctai bun* (non ci sono riuscito). | The dialect negates with *mia*, placed **after** the verb, not before it like Italian *non*: *trövi mia* (I can’t find). In compound tenses *mia* goes between the auxiliary and the participle: *sum mia sctai bun* (I didn’t manage it). |
 
 **(1)** *trövi mia i feuil dala leziun da dialet*
 
@@ -18,7 +18,7 @@
 |---|---|---|---|---|---|---|---|
 | find.1SG | NEG | the.PL | sheet.PL | of.the.F | lesson | of | dialect |
 
-‘Non trovo i fogli della lezione di dialetto’ · ‘I can't find the sheets from the dialect lesson’ — [cors da dialet da Rögn 9a leziun, l. 13](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘Non trovo i fogli della lezione di dialetto’ · ‘I can’t find the sheets from the dialect lesson’ — [cors da dialet da Rögn 9a leziun, l. 13](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 **(2)** *Al ga mia tücc i ass a tecc*
 
@@ -26,7 +26,7 @@
 |---|---|---|---|---|---|---|---|
 | 3SG.M.SBJ | LOC-have.3SG | NEG | all.PL | the.PL | board.PL | at | roof |
 
-‘Non ha tutte le assi sul tetto (è matto)’ · ‘He hasn't got all his boards on the roof (he's crazy)’ — [cors da dialet da Rögn 9a leziun, l. 22](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘Non ha tutte le assi sul tetto (è matto)’ · ‘He hasn’t got all his boards on the roof (he’s crazy)’ — [cors da dialet da Rögn 9a leziun, l. 22](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 **(3)** *ma sum mia sctai bun*
 
@@ -34,7 +34,7 @@
 |---|---|---|---|---|
 | but | be.1SG | NEG | been | good |
 
-‘ma non ci sono riuscito’ · ‘but I didn't manage it’ — [domande di vario tipo, l. 33](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
+‘ma non ci sono riuscito’ · ‘but I didn’t manage it’ — [domande di vario tipo, l. 33](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
 
 | Italiano | English |
 |---|---|
@@ -46,7 +46,7 @@
 |---|---|---|---|---|---|
 | be.quiet.1SG | because | LOC-have.1SG | nothing | to | say.INF |
 
-‘Taccio perché non ho niente da dire’ · ‘I'm quiet because I have nothing to say’ — [cors da dialet da Rögn 9a leziun, l. 17](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘Taccio perché non ho niente da dire’ · ‘I’m quiet because I have nothing to say’ — [cors da dialet da Rögn 9a leziun, l. 17](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 **(5)** *disii mai la verità*
 
@@ -70,7 +70,7 @@
 |---|---|---|
 | LOC-be.3SG | no.F | reason |
 
-‘Non c'è nessuna ragione’ · ‘There's no reason’ — [frasi fai 1 - Copia, l. 159](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-08-20-1910-frasi%20fai%201%20-%20Copia.docx)
+‘Non c'è nessuna ragione’ · ‘There’s no reason’ — [frasi fai 1 - Copia, l. 159](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-08-20-1910-frasi%20fai%201%20-%20Copia.docx)
 
 **(8)** *Gnanca un zica*
 
@@ -84,7 +84,7 @@
 
 | Italiano | English |
 |---|---|
-| Una domanda sì/no ha lo stesso ordine di una frase normale, con il clitico soggetto; la differenza è solo nell'intonazione: *Ta trövat facil…?* (Trovi facile…?). | A yes/no question has the same word order as a statement, subject clitic included; only the intonation differs: *Ta trövat facil…?* (Do you find it easy…?). |
+| Una domanda sì/no ha lo stesso ordine di una frase normale, con il clitico soggetto; la differenza è solo nell’intonazione: *Ta trövat facil…?* (Trovi facile…?). | A yes/no question has the same word order as a statement, subject clitic included; only the intonation differs: *Ta trövat facil…?* (Do you find it easy…?). |
 
 **(9)** *Ta trövat facil fidass di altri?*
 
@@ -96,7 +96,7 @@
 
 | Italiano | English |
 |---|---|
-| Le parole interrogative sono *cosa* o *cus’è* (cosa), *chi*, *indua* (dove), *quand* (quando), *cumé* o *cum’è* (come), *quanti*, *che* + nome (*che müsica*, quale musica). Spesso sono seguite da *che*: *cum’è che ta sa vedat?*, *cus’è che ta suportat mia?*, come l'italiano parlato «cos'è che…». | The question words are *cosa* or *cus’è* (what), *chi* (who), *indua* (where), *quand* (when), *cumé* or *cum’è* (how), *quanti* (how many), *che* + noun (*che müsica*, which music). They are often followed by *che*: *cum’è che ta sa vedat?* (how do you see yourself?), *cus’è che ta suportat mia?* (what is it that you can't stand?), like colloquial Italian *cos'è che…*. |
+| Le parole interrogative sono *cosa* o *cus’è* (cosa), *chi*, *indua* (dove), *quand* (quando), *cumé* o *cum’è* (come), *quanti*, *che* + nome (*che müsica*, quale musica). Spesso sono seguite da *che*: *cum’è che ta sa vedat?*, *cus’è che ta suportat mia?*, come l’italiano parlato «cos’è che…». | The question words are *cosa* or *cus’è* (what), *chi* (who), *indua* (where), *quand* (when), *cumé* or *cum’è* (how), *quanti* (how many), *che* + noun (*che müsica*, which music). They are often followed by *che*: *cum’è che ta sa vedat?* (how do you see yourself?), *cus’è che ta suportat mia?* (what is it that you can’t stand?), like colloquial Italian *cos’è che…*. |
 
 **(10)** *Cum’è che ta sa vedat tra cinc ann?*
 
@@ -112,7 +112,7 @@
 |---|---|---|---|---|---|---|
 | what.is | that | 2SG.SBJ | bear.2SG | NEG | of.the.F | society |
 
-‘Cosa non sopporti della società?’ · ‘What can't you stand about society?’ — [domande di vario tipo, l. 12](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
+‘Cosa non sopporti della società?’ · ‘What can’t you stand about society?’ — [domande di vario tipo, l. 12](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
 
 **(12)** *Indua ta ma cunsigliat da na par mangià taglian?*
 

@@ -16,7 +16,7 @@
 
 | Italiano | English |
 |---|---|
-| Il punto più diverso dall'italiano: alla seconda persona singolare e alle terze persone il verbo ha davanti una piccola parola obbligatoria, il «clitico soggetto»: *ta* (tu), *la* (lei), *al* (lui), *i* (loro). Le tabelle del corso lo scrivono sempre: *ti ta ciapat*, *le/lü la/al ciapa*, *lur i ciapa*. | The point most unlike Italian: in the second person singular and the third persons the verb is preceded by a small compulsory word, the "subject clitic": *ta* (you), *la* (she), *al* (he, it), *i* (they). The course's tables always write it: *ti ta ciapat* (you take), *le/lü la/al ciapa* (she/he takes), *lur i ciapa* (they take). |
+| Il punto più diverso dall’italiano: alla seconda persona singolare e alle terze persone il verbo ha davanti una piccola parola obbligatoria, il «clitico soggetto»: *ta* (tu), *la* (lei), *al* (lui), *i* (loro). Le tabelle del corso lo scrivono sempre: *ti ta ciapat*, *le/lü la/al ciapa*, *lur i ciapa*. | The point most unlike Italian: in the second person singular and the third persons the verb is preceded by a small compulsory word, the “subject clitic”: *ta* (you), *la* (she), *al* (he, it), *i* (they). The course’s tables always write it: *ti ta ciapat* (you take), *le/lü la/al ciapa* (she/he takes), *lur i ciapa* (they take). |
 
 | | pronome · pronoun | clitico · clitic | *ciapà* (prendere · to take) |
 |---|---|---|---|
@@ -29,7 +29,7 @@
 
 | Italiano | English |
 |---|---|
-| Il clitico c'è anche quando c'è già il soggetto, nome o pronome: *ti ta vöraressat*, *ul vent al bofa*. In italiano sarebbe «il vento lui soffia». I linguisti lo chiamano *raddoppiamento del clitico soggetto*, un tratto ben noto dei dialetti dell'Italia settentrionale. | The clitic is there even when the sentence already has a subject, noun or pronoun: *ti ta vöraressat* (you would want), *ul vent al bofa* (the wind blows). Word for word, "the wind it blows". Linguists call this *subject clitic doubling*, a well-known feature of the dialects of northern Italy. |
+| Il clitico c’è anche quando c’è già il soggetto, nome o pronome: *ti ta vöraressat*, *ul vent al bofa*. In italiano sarebbe «il vento lui soffia». I linguisti lo chiamano *raddoppiamento del clitico soggetto*, un tratto ben noto dei dialetti dell’Italia settentrionale. | The clitic is there even when the sentence already has a subject, noun or pronoun: *ti ta vöraressat* (you would want), *ul vent al bofa* (the wind blows). Word for word, “the wind it blows”. Linguists call this *subject clitic doubling*, a well-known feature of the dialects of northern Italy. |
 
 **(1)** *ul vent al bofa*
 
@@ -66,7 +66,7 @@
 | Italiano | English |
 |---|---|
 | Davanti a vocale *la* e *al* diventano *l’*: *l’è* (è), *l’a* (ha, ausiliare), *l’eva* (era). | Before a vowel *la* and *al* become *l’*: *l’è* (is), *l’a* (has, auxiliary), *l’eva* (was). |
-| Alla prima persona e alla prima e seconda plurale non c'è clitico obbligatorio, ma nelle frasi compare spesso una *a* davanti al verbo: *a pensi*, *a dumandum*, *a devuf*. Sembra facoltativa. † | In the first person and the first and second plural there is no compulsory clitic, but sentences often have an *a* before the verb: *a pensi* (I think), *a dumandum* (we ask), *a devuf* (you must). It seems optional. † |
+| Alla prima persona e alla prima e seconda plurale non c’è clitico obbligatorio, ma nelle frasi compare spesso una *a* davanti al verbo: *a pensi*, *a dumandum*, *a devuf*. Sembra facoltativa. † | In the first person and the first and second plural there is no compulsory clitic, but sentences often have an *a* before the verb: *a pensi* (I think), *a dumandum* (we ask), *a devuf* (you must). It seems optional. † |
 
 **(5)** *a pensi la sctesa roba*
 
@@ -80,7 +80,7 @@
 
 | Italiano | English |
 |---|---|
-| Il tempo e le frasi impersonali hanno il clitico *al* (o *l’*), che non si riferisce a niente: *al piöf* (piove), *al fa frecc* (fa freddo), *l’è sücc* (è asciutto). | Weather and impersonal sentences have the clitic *al* (or *l’*), which refers to nothing, like English "it": *al piöf* (it's raining), *al fa frecc* (it's cold), *l’è sücc* (it's dry). |
+| Il tempo e le frasi impersonali hanno il clitico *al* (o *l’*), che non si riferisce a niente: *al piöf* (piove), *al fa frecc* (fa freddo), *l’è sücc* (è asciutto). | Weather and impersonal sentences have the clitic *al* (or *l’*), which refers to nothing, like English “it”: *al piöf* (it’s raining), *al fa frecc* (it’s cold), *l’è sücc* (it’s dry). |
 
 **(6)** *al piöf*
 
@@ -88,7 +88,7 @@
 |---|---|
 | 3SG.M.SBJ | rain.3SG |
 
-‘piove’ · ‘it's raining’ — [cors da dialet da Rögn 9a leziun, l. 63](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘piove’ · ‘it’s raining’ — [cors da dialet da Rögn 9a leziun, l. 63](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 **(7)** *l’è sücc*
 
@@ -96,11 +96,11 @@
 |---|---|
 | 3SG.SBJ-be.3SG | dry |
 
-‘è asciutto’ · ‘it's dry’ — [cors da dialet da Rögn 9a leziun, l. 65](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘è asciutto’ · ‘it’s dry’ — [cors da dialet da Rögn 9a leziun, l. 65](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 | Italiano | English |
 |---|---|
-| «Si» impersonale (si mangia, si dice) è *sa*: *sa impara e sa rit*. | Impersonal "one" or "you" (Italian *si mangia*, one eats) is *sa*: *sa impara e sa rit* (you learn and you laugh). |
+| «Si» impersonale (si mangia, si dice) è *sa*: *sa impara e sa rit*. | Impersonal “one” or “you” (Italian *si mangia*, one eats) is *sa*: *sa impara e sa rit* (you learn and you laugh). |
 
 **(8)** *sa impara e sa rit*
 
@@ -116,7 +116,7 @@
 
 | Italiano | English |
 |---|---|
-| Come l'italiano «Lei», il dialetto dà del lei con la terza persona, quindi con il clitico *al* o *la*: *Al scüsa* (Scusi), *cosa al mangia?* (cosa mangia?). | Like Italian *Lei*, the dialect addresses someone politely in the third person, so with the clitic *al* or *la*: *Al scüsa* (excuse me), *cosa al mangia?* (what will you have?). |
+| Come l’italiano «Lei», il dialetto dà del lei con la terza persona, quindi con il clitico *al* o *la*: *Al scüsa* (Scusi), *cosa al mangia?* (cosa mangia?). | Like Italian *Lei*, the dialect addresses someone politely in the third person, so with the clitic *al* or *la*: *Al scüsa* (excuse me), *cosa al mangia?* (what will you have?). |
 
 **(9)** *Al scüsa, al poda-ria/ressa serà la porta ?*
 

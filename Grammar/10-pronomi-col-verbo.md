@@ -8,7 +8,7 @@
 
 | Italiano | English |
 |---|---|
-| Come l'italiano, il dialetto ha pronomi brevi, senza accento proprio, che si appoggiano al verbo: i «clitici». Stanno **davanti** al verbo coniugato (*ta ma impresctaressat*, mi presteresti) e **dopo**, attaccati, all'infinito, al gerundio e all'imperativo (*purtam*, accompagnarmi; *dimm*, dimmi). Non sono desinenze del verbo, anche se si scrivono attaccati: sono pronomi. | Like Italian, the dialect has short pronouns with no stress of their own, which lean on the verb: "clitics". They stand **before** a conjugated verb (*ta ma impresctaressat*, would you lend me) and **after** it, attached, with an infinitive, a gerund or an imperative (*purtam*, to take me; *dimm*, tell me). They are not verb endings, even though they are written as part of the word: they are pronouns. |
+| Come l’italiano, il dialetto ha pronomi brevi, senza accento proprio, che si appoggiano al verbo: i «clitici». Stanno **davanti** al verbo coniugato (*ta ma impresctaressat*, mi presteresti) e **dopo**, attaccati, all’infinito, al gerundio e all’imperativo (*purtam*, accompagnarmi; *dimm*, dimmi). Non sono desinenze del verbo, anche se si scrivono attaccati: sono pronomi. | Like Italian, the dialect has short pronouns with no stress of their own, which lean on the verb: “clitics”. They stand **before** a conjugated verb (*ta ma impresctaressat*, would you lend me) and **after** it, attached, with an infinitive, a gerund or an imperative (*purtam*, to take me; *dimm*, tell me). They are not verb endings, even though they are written as part of the word: they are pronouns. |
 
 ## Le forme · *The forms*
 
@@ -30,13 +30,13 @@
 
 | Italiano | English |
 |---|---|
-| Le caselle con (?) sono incerte: il corso scrive «a noi» sia *ma* sia *ga* (vedi sotto), e *ia* compare una volta sola. Sono tra le domande per l'insegnante. | The cells marked (?) are uncertain: the course writes "to us" both as *ma* and as *ga* (see below), and *ia* appears only once. They are among the questions for the teacher. |
+| Le caselle con (?) sono incerte: il corso scrive «a noi» sia *ma* sia *ga* (vedi sotto), e *ia* compare una volta sola. Sono tra le domande per l’insegnante. | The cells marked (?) are uncertain: the course writes “to us” both as *ma* and as *ga* (see below), and *ia* appears only once. They are among the questions for the teacher. |
 
 ## Davanti al verbo · *Before the verb*
 
 | Italiano | English |
 |---|---|
-| Davanti a un verbo coniugato il pronome sta tra il clitico soggetto e il verbo: *al ta pias* (ti piace), *ta ma impresctaressat* (mi presteresti). | Before a conjugated verb the pronoun goes between the subject clitic and the verb: *al ta pias* (you like it, literally "it pleases you"), *ta ma impresctaressat* (would you lend me). |
+| Davanti a un verbo coniugato il pronome sta tra il clitico soggetto e il verbo: *al ta pias* (ti piace), *ta ma impresctaressat* (mi presteresti). | Before a conjugated verb the pronoun goes between the subject clitic and the verb: *al ta pias* (you like it, literally “it pleases you”), *ta ma impresctaressat* (would you lend me). |
 
 **(1)** *ma pias leg i libri*
 
@@ -78,11 +78,11 @@
 |---|---|---|---|---|---|
 | today | 2PL.DAT | introduce.1SG | the.F | my.F | family |
 
-‘Oggi vi presento la mia famiglia’ · ‘Today I'll introduce my family to you’ — [varie situazioni, l. 3](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-10-10-1054-varie%20situazioni.docx)
+‘Oggi vi presento la mia famiglia’ · ‘Today I’ll introduce my family to you’ — [varie situazioni, l. 3](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-10-10-1054-varie%20situazioni.docx)
 
 | Italiano | English |
 |---|---|
-| Il «a chi» si dice spesso due volte: una con il pronome davanti al verbo e una con il nome o il pronome intero, prima o dopo: *ga pias a tücc*, *al Mattia ga pias*, letteralmente «gli piace a tutti», «a Mattia gli piace». Come nell'italiano parlato («a lui gli piace») e in spagnolo (*a todos les gusta*); è lo stesso raddoppio del clitico soggetto del capitolo 4 (*ul vent al bofa*). Succede soprattutto con *piasé* (piacere), il verbo dove chi «ha» il sentimento è il «a chi»: *ma pias* (mi piace), *ta pias* (ti piace), *ga pias* (gli piace, le piace). † | The "to whom" is often said twice: once as the pronoun before the verb and once as the full noun or pronoun, before or after it: *ga pias a tücc*, *al Mattia ga pias*, word for word "to-them pleases to everyone", "Mattia, to-him it pleases". Colloquial Italian does the same (*a lui gli piace*), and so does Spanish (*a todos les gusta*); it is the same doubling as the subject clitic in chapter 4 (*ul vent al bofa*, the wind it blows). It happens above all with *piasé* (to please), the verb where the person who likes is the "to whom": *ma pias* (I like, "to me it pleases"), *ta pias* (you like), *ga pias* (he, she, they like). † |
+| Il «a chi» si dice spesso due volte: una con il pronome davanti al verbo e una con il nome o il pronome intero, prima o dopo: *ga pias a tücc*, *al Mattia ga pias*, letteralmente «gli piace a tutti», «a Mattia gli piace». Come nell’italiano parlato («a lui gli piace») e in spagnolo (*a todos les gusta*); è lo stesso raddoppio del clitico soggetto del capitolo 4 (*ul vent al bofa*). Succede soprattutto con *piasé* (piacere), il verbo dove chi «ha» il sentimento è il «a chi»: *ma pias* (mi piace), *ta pias* (ti piace), *ga pias* (gli piace, le piace). † | The “to whom” is often said twice: once as the pronoun before the verb and once as the full noun or pronoun, before or after it: *ga pias a tücc*, *al Mattia ga pias*, word for word “to-them pleases to everyone”, “Mattia, to-him it pleases”. Colloquial Italian does the same (*a lui gli piace*), and so does Spanish (*a todos les gusta*); it is the same doubling as the subject clitic in chapter 4 (*ul vent al bofa*, the wind it blows). It happens above all with *piasé* (to please), the verb where the person who likes is the “to whom”: *ma pias* (I like, “to me it pleases”), *ta pias* (you like), *ga pias* (he, she, they like). † |
 
 **(6)** *la mia tôsa invece ga pias tantissim pitürà*
 
@@ -97,7 +97,7 @@
 | Italiano | English |
 |---|---|
 | Il nome tecnico è *raddoppiamento clitico* (o *del clitico*). I linguisti distinguono il raddoppio vero, con la frase intera al suo posto e senza pausa (*ga pias a tücc*), dalla *dislocazione a sinistra*, dove la frase intera è messa davanti come argomento e il pronome la riprende (*la mia tôsa invece ga pias…*, *al Mattia ga pias…*). | The technical term is *clitic doubling* (here *dative clitic doubling*; Italian *raddoppiamento clitico*). Linguists distinguish true doubling, with the full phrase in its normal place and no pause (*ga pias a tücc*), from *clitic left dislocation*, where the full phrase is put first as the topic and the pronoun picks it up (*la mia tôsa invece ga pias…*, *al Mattia ga pias…*). |
-| Davanti a vocale il pronome perde la vocale: *t’ò dii* (ti ho detto), *m’è tucaa* (mi è toccato). | Before a vowel the pronoun drops its vowel: *t’ò dii* (I told you), *m’è tucaa* (I had to, literally "it touched me"). |
+| Davanti a vocale il pronome perde la vocale: *t’ò dii* (ti ho detto), *m’è tucaa* (mi è toccato). | Before a vowel the pronoun drops its vowel: *t’ò dii* (I told you), *m’è tucaa* (I had to, literally “it touched me”). |
 
 **(7)** *che t’ò dii*
 
@@ -119,7 +119,7 @@
 
 | Italiano | English |
 |---|---|
-| All'infinito il pronome si attacca in fondo e l'infinito perde l'accento finale: *purtà* + *m* = *purtam* (accompagnarmi), *divertì* + *m* = *divertim*, *parlà* + *v* = *parlav* (parlarvi), *fà* + *l* = *fal* (farlo), *serà* + *la* = *sérala* (chiuderla). | With an infinitive the pronoun is attached at the end and the infinitive loses its final accent: *purtà* + *m* = *purtam* (to take me), *divertì* + *m* = *divertim* (to enjoy myself), *parlà* + *v* = *parlav* (to talk to you all), *fà* + *l* = *fal* (to make him), *serà* + *la* = *sérala* (to close it). |
+| All’infinito il pronome si attacca in fondo e l’infinito perde l’accento finale: *purtà* + *m* = *purtam* (accompagnarmi), *divertì* + *m* = *divertim*, *parlà* + *v* = *parlav* (parlarvi), *fà* + *l* = *fal* (farlo), *serà* + *la* = *sérala* (chiuderla). | With an infinitive the pronoun is attached at the end and the infinitive loses its final accent: *purtà* + *m* = *purtam* (to take me), *divertì* + *m* = *divertim* (to enjoy myself), *parlà* + *v* = *parlav* (to talk to you all), *fà* + *l* = *fal* (to make him), *serà* + *la* = *sérala* (to close it). |
 
 **(9)** *Ta poda-ria/ressat purtam a la stazion duman ?*
 
@@ -135,7 +135,7 @@
 |---|---|---|---|---|---|
 | SBJ | want.COND.1SG | speak.INF-2PL.DAT | of.the.F | my.F | room |
 
-‘vorrei parlarvi della mia stanza’ · ‘I'd like to tell you about my room’ — [varie situazioni, l. 88](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-10-10-1054-varie%20situazioni.docx)
+‘vorrei parlarvi della mia stanza’ · ‘I’d like to tell you about my room’ — [varie situazioni, l. 88](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-10-10-1054-varie%20situazioni.docx)
 
 **(11)** *chi a podi stüdià e divertim tantu*
 
@@ -167,7 +167,7 @@
 |---|---|---|---|---|---|
 | to | close.INF-3SG.F.OBJ | LOC | think.3SG | the-lawyer | blanket |
 
-‘a chiuderla ci pensa l'avvocato coperta’ · ‘the 'blanket lawyer' sees to closing it’ — [Cors da dialet da Rögn 15a leziun - proverbi, l. 191](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-05-01-0000-Cors%20da%20dialet%20da%20R%C3%B6gn%2015a%20leziun%20-%20proverbi.pdf)
+‘a chiuderla ci pensa l'avvocato coperta’ · ‘the ‘blanket lawyer’ sees to closing it’ — [Cors da dialet da Rögn 15a leziun - proverbi, l. 191](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-05-01-0000-Cors%20da%20dialet%20da%20R%C3%B6gn%2015a%20leziun%20-%20proverbi.pdf)
 
 *From the proverb about a quarrel between husband and wife: bed settles it.*
 
@@ -181,7 +181,7 @@
 
 | Italiano | English |
 |---|---|
-| Dopo alcuni infiniti la consonante del pronome si scrive doppia: *lavass* (lavarsi), *fidass* (fidarsi), *vesctiss* (vestirsi), ma *setas* (sedersi). Non è chiaro se sia una regola o un'abitudine di scrittura. † | After some infinitives the pronoun's consonant is written double: *lavass* (to wash oneself), *fidass* (to trust), *vesctiss* (to get dressed), but *setas* (to sit down). It is not clear whether this is a rule or a spelling habit. † |
+| Dopo alcuni infiniti la consonante del pronome si scrive doppia: *lavass* (lavarsi), *fidass* (fidarsi), *vesctiss* (vestirsi), ma *setas* (sedersi). Non è chiaro se sia una regola o un’abitudine di scrittura. † | After some infinitives the pronoun’s consonant is written double: *lavass* (to wash oneself), *fidass* (to trust), *vesctiss* (to get dressed), but *setas* (to sit down). It is not clear whether this is a rule or a spelling habit. † |
 
 **(16)** *Nii pür a lavass dadré da cà*
 
@@ -209,13 +209,13 @@
 |---|---|---|---|---|---|---|---|---|
 | 3SG.SBJ-be.3SG | not.even | able | of | do.INF-DAT | harm | to | a.F | fly |
 
-‘Non è nemmeno capace di far male a una mosca’ · ‘He wouldn't hurt a fly’ — [Cors da dialet da Rögn 12a leziun, l. 28](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx)
+‘Non è nemmeno capace di far male a una mosca’ · ‘He wouldn’t hurt a fly’ — [Cors da dialet da Rögn 12a leziun, l. 28](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx)
 
 ## Dopo il verbo: imperativo · *After the verb: the imperative*
 
 | Italiano | English |
 |---|---|
-| All'imperativo il pronome si attacca in fondo, come in italiano: *dimm* (dimmi), *metag denta* (mettici dentro), *dag na man* (dai una mano, a lei), *godat* (goditi), *fatala* (fattela). | With an imperative the pronoun is attached at the end, as in Italian: *dimm* (tell me), *metag denta* (put [some] in), *dag na man* (give [her] a hand), *godat* (enjoy), *fatala* (make it… for yourself). |
+| All’imperativo il pronome si attacca in fondo, come in italiano: *dimm* (dimmi), *metag denta* (mettici dentro), *dag na man* (dai una mano, a lei), *godat* (goditi), *fatala* (fattela). | With an imperative the pronoun is attached at the end, as in Italian: *dimm* (tell me), *metag denta* (put [some] in), *dag na man* (give [her] a hand), *godat* (enjoy), *fatala* (make it… for yourself). |
 
 **(19)** *E dimm un pu cun chi che sctà chi da cà ta sa trövat ben?*
 
@@ -269,7 +269,7 @@
 
 | Italiano | English |
 |---|---|
-| Con i verbi riflessivi la scheda dell'imperativo dà una serie completa: *-t* per *ti* (ma *regordas mia*), *-mas* per *nüm*, *-vas* per *vialtri*. Davanti a *-mas* e *-vas* la vocale del verbo diventa *-e-*. | For reflexive verbs the imperative sheet gives a complete set: *-t* for *ti* (but *regordas mia*), *-mas* for *nüm*, *-vas* for *vialtri*. Before *-mas* and *-vas* the verb's vowel becomes *-e-*. |
+| Con i verbi riflessivi la scheda dell’imperativo dà una serie completa: *-t* per *ti* (ma *regordas mia*), *-mas* per *nüm*, *-vas* per *vialtri*. Davanti a *-mas* e *-vas* la vocale del verbo diventa *-e-*. | For reflexive verbs the imperative sheet gives a complete set: *-t* for *ti* (but *regordas mia*), *-mas* for *nüm*, *-vas* for *vialtri*. Before *-mas* and *-vas* the verb’s vowel becomes *-e-*. |
 
 | | *setas giò* (sedersi · to sit down) | *lavas* (lavarsi · to wash) | *regordas* (ricordarsi · to remember) |
 |---|---|---|---|
@@ -283,7 +283,7 @@
 |---|---|---|---|---|---|
 | sit.IMP.2SG-2SG.REFL | NEG | sit.IMP-1PL.REFL | NEG | sit.IMP-2PL.REFL | NEG |
 
-‘non sederti, non sediamoci, non sedetevi’ · ‘don't sit down (you, we, you all)’ — [imperativo, l. 117](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
+‘non sederti, non sediamoci, non sedetevi’ · ‘don’t sit down (you, we, you all)’ — [imperativo, l. 117](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
 
 **(26)** *Disedevas presct duman*
 
@@ -319,7 +319,7 @@
 
 | Italiano | English |
 |---|---|
-| Quando ci sono due pronomi, il primo è quello «a chi» o *gh’*, il secondo l'oggetto o *ne*, come in italiano: *ga l’ò* (ce l'ho), *ga n’è* (ce n'è), *ta gal fe cugnos* (ce lo fai conoscere), *ta ia darà* (te le darà), *sa na regorda* (se ne ricorda). | When there are two pronouns, the first is the "to whom" pronoun or *gh’*, the second the object or *ne*, as in Italian: *ga l’ò* (I've got it), *ga n’è* (there is/are some), *ta gal fe cugnos* (you'll introduce him to us), *ta ia darà* (it'll give them to you), *sa na regorda* (remembers it). |
+| Quando ci sono due pronomi, il primo è quello «a chi» o *gh’*, il secondo l’oggetto o *ne*, come in italiano: *ga l’ò* (ce l’ho), *ga n’è* (ce n’è), *ta gal fe cugnos* (ce lo fai conoscere), *ta ia darà* (te le darà), *sa na regorda* (se ne ricorda). | When there are two pronouns, the first is the “to whom” pronoun or *gh’*, the second the object or *ne*, as in Italian: *ga l’ò* (I’ve got it), *ga n’è* (there is/are some), *ta gal fe cugnos* (you’ll introduce him to us), *ta ia darà* (it’ll give them to you), *sa na regorda* (remembers it). |
 
 **(29)** *Ga l’ò mì*
 
@@ -327,7 +327,7 @@
 |---|---|---|
 | LOC | 3SG.OBJ-have.1SG | I |
 
-‘Ce l'ho io’ · ‘I've got it’ — [brevi frasi, l. 124](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf)
+‘Ce l'ho io’ · ‘I’ve got it’ — [brevi frasi, l. 124](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf)
 
 **(30)** *Da mamm ga n’è vüna sola*
 
@@ -365,7 +365,7 @@
 
 | Italiano | English |
 |---|---|
-| L'italiano *ci* ha due significati, «a noi» e «lì, su questo». Per «lì» il dialetto ha *gh’* (*gh’è*, c'è). Per «a noi» il corso scrive a volte *ma* e a volte *ga*/*gh’a*: forse dipende dal paese o dal verbo. È una domanda per l'insegnante. † | Italian *ci* has two meanings, "us, to us" and "there, about it". For "there" the dialect has *gh’* (*gh’è*, there is). For "us" the course sometimes writes *ma* and sometimes *ga*/*gh’a*: perhaps it depends on the village or on the verb. It is a question for the teacher. † |
+| L’italiano *ci* ha due significati, «a noi» e «lì, su questo». Per «lì» il dialetto ha *gh’* (*gh’è*, c’è). Per «a noi» il corso scrive a volte *ma* e a volte *ga*/*gh’a*: forse dipende dal paese o dal verbo. È una domanda per l’insegnante. † | Italian *ci* has two meanings, “us, to us” and “there, about it”. For “there” the dialect has *gh’* (*gh’è*, there is). For “us” the course sometimes writes *ma* and sometimes *ga*/*gh’a*: perhaps it depends on the village or on the verb. It is a question for the teacher. † |
 
 **(34)** *a nümm ma rescta dumà che dag na man*
 
@@ -373,7 +373,7 @@
 |---|---|---|---|---|---|---|---|---|
 | to | us | 1PL.DAT | remain.3SG | only | that | give.INF-DAT | a.F | hand |
 
-‘a noi non resta che dargli una mano’ · ‘all that's left for us is to give it a hand’ — [frasi fai 1 - Copia, l. 52](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-08-20-1910-frasi%20fai%201%20-%20Copia.docx)
+‘a noi non resta che dargli una mano’ · ‘all that’s left for us is to give it a hand’ — [frasi fai 1 - Copia, l. 52](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-08-20-1910-frasi%20fai%201%20-%20Copia.docx)
 
 *† Ma for 'to us' here; compare ga in (the next examples).*
 
@@ -383,6 +383,6 @@
 |---|---|---|---|---|---|---|---|
 | if | be.SBJV.PST.1PL | NEG | Italian.PL | 1PL.DAT | please-COND.3SG | be.INF | American.PL |
 
-‘Se non fossimo italiani, ci piacerebbe essere americani’ · ‘If we weren't Italian, we'd like to be American’ — [Il Condizionale Presente, l. 131](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
+‘Se non fossimo italiani, ci piacerebbe essere americani’ · ‘If we weren’t Italian, we’d like to be American’ — [Il Condizionale Presente, l. 131](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
 
 [← Imperativo e gerundio](09-imperativo-e-gerundio.md) · [indice · contents](README.md) · [Verbi riflessivi e verbi con particella →](11-riflessivi-e-verbi-con-particella.md)

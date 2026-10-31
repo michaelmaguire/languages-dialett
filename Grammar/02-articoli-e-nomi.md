@@ -10,8 +10,8 @@
 
 | Italiano | English |
 |---|---|
-| L'articolo determinativo maschile è *al* oppure *ul*: l'insegnante usa tutte e due (*al gal*, *ul purcel*). Il femminile è *la*. Davanti a vocale tutti e due diventano *l’* (*l’asan*, *l’üga*). Al plurale c'è un solo articolo, *i*, per maschile e femminile: *i gai*, *i galin*. | The masculine definite article is *al* or *ul*: the teacher uses both (*al gal*, the cockerel; *ul purcel*, the pig). The feminine is *la*. Before a vowel both become *l’* (*l’asan*, the donkey; *l’üga*, the grapes). In the plural there is only one article, *i*, for masculine and feminine alike: *i gai*, *i galin*. |
-| L'articolo indeterminativo è *un* al maschile e *na* (o *‘na*, *una*) al femminile; davanti a vocale il femminile diventa *n’* (*n’asina*). La sesta lezione dà ogni nome con i due articoli, per mostrarne il genere: | The indefinite article is *un* for masculine and *na* (or *‘na*, *una*) for feminine; before a vowel the feminine becomes *n’* (*n’asina*, a she-donkey). Lesson 6 gives every noun with both articles, to show its gender: |
+| L’articolo determinativo maschile è *al* oppure *ul*: l’insegnante usa tutte e due (*al gal*, *ul purcel*). Il femminile è *la*. Davanti a vocale tutti e due diventano *l’* (*l’asan*, *l’üga*). Al plurale c’è un solo articolo, *i*, per maschile e femminile: *i gai*, *i galin*. | The masculine definite article is *al* or *ul*: the teacher uses both (*al gal*, the cockerel; *ul purcel*, the pig). The feminine is *la*. Before a vowel both become *l’* (*l’asan*, the donkey; *l’üga*, the grapes). In the plural there is only one article, *i*, for masculine and feminine alike: *i gai*, *i galin*. |
+| L’articolo indeterminativo è *un* al maschile e *na* (o *‘na*, *una*) al femminile; davanti a vocale il femminile diventa *n’* (*n’asina*). La sesta lezione dà ogni nome con i due articoli, per mostrarne il genere: | The indefinite article is *un* for masculine and *na* (or *‘na*, *una*) for feminine; before a vowel the feminine becomes *n’* (*n’asina*, a she-donkey). Lesson 6 gives every noun with both articles, to show its gender: |
 
 | | singolare · singular | plurale · plural |
 |---|---|---|
@@ -25,7 +25,7 @@
 |---|---|---|---|---|---|---|
 | I | eat.1SG | a.F | nice.F | roll | with.the.M | ham |
 
-‘Mangio un bel panino con il prosciutto’ · ‘I'm eating a nice ham roll’ — [cors da dialet da Rögn 9a leziun, l. 18](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘Mangio un bel panino con il prosciutto’ · ‘I’m eating a nice ham roll’ — [cors da dialet da Rögn 9a leziun, l. 18](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 **(2)** *un piatt da spaghèti*
 
@@ -37,7 +37,7 @@
 
 | Italiano | English |
 |---|---|
-| Come nell'italiano parlato del Nord, l'articolo si usa anche davanti ai nomi di persona: *la Laura*, *al Mattia*. | As in the Italian spoken in the north, the article is also used before people's first names: *la Laura*, *al Mattia*. |
+| Come nell’italiano parlato del Nord, l’articolo si usa anche davanti ai nomi di persona: *la Laura*, *al Mattia*. | As in the Italian spoken in the north, the article is also used before people’s first names: *la Laura*, *al Mattia*. |
 
 **(3)** *I mè surell la Laura e la Michela i van ai scöll süperior*
 
@@ -51,7 +51,7 @@
 
 | Italiano | English |
 |---|---|
-| Le preposizioni si fondono con l'articolo, come in italiano: *da* + *al* = *dal*, *da* + *la* = *dala*, *in* + *al* = *nal*, *in* + *la* = *nala*, *a* + *la* = *ala*, *a* + *i* = *ai*, *cun* + *al* = *cul*, *sü* + *al* = *sül*, *di* (dei, degli). | Prepositions merge with the article, as in Italian: *da* (of, from) + *al* = *dal*, *da* + *la* = *dala*, *in* + *al* = *nal*, *in* + *la* = *nala*, *a* (to, at) + *la* = *ala*, *a* + *i* = *ai*, *cun* (with) + *al* = *cul*, *sü* (on) + *al* = *sül*, and *di* (of the, plural). |
+| Le preposizioni si fondono con l’articolo, come in italiano: *da* + *al* = *dal*, *da* + *la* = *dala*, *in* + *al* = *nal*, *in* + *la* = *nala*, *a* + *la* = *ala*, *a* + *i* = *ai*, *cun* + *al* = *cul*, *sü* + *al* = *sül*, *di* (dei, degli). | Prepositions merge with the article, as in Italian: *da* (of, from) + *al* = *dal*, *da* + *la* = *dala*, *in* + *al* = *nal*, *in* + *la* = *nala*, *a* (to, at) + *la* = *ala*, *a* + *i* = *ai*, *cun* (with) + *al* = *cul*, *sü* (on) + *al* = *sül*, and *di* (of the, plural). |
 
 **(4)** *ala matina presct*
 
@@ -75,11 +75,11 @@
 |---|---|---|
 | the-opposition | of.the.M | municipality |
 
-‘l'opposizione del Comune’ · ‘the municipality's opposition’ — [articolo CdT, l. 8](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-10-21-1500-articolo%20CdT.docx)
+‘l'opposizione del Comune’ · ‘the municipality’s opposition’ — [articolo CdT, l. 8](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-10-21-1500-articolo%20CdT.docx)
 
 | Italiano | English |
 |---|---|
-| Attenzione: *da* fa anche il lavoro dell'italiano *di*: *la leziun da dialet* (la lezione di dialetto), *un piatt da spaghèti*. | Note that *da* also does the work of Italian *di* (of): *la leziun da dialet* (the dialect lesson), *un piatt da spaghèti* (a plate of spaghetti). |
+| Attenzione: *da* fa anche il lavoro dell’italiano *di*: *la leziun da dialet* (la lezione di dialetto), *un piatt da spaghèti*. | Note that *da* also does the work of Italian *di* (of): *la leziun da dialet* (the dialect lesson), *un piatt da spaghèti* (a plate of spaghetti). |
 
 ## Il genere · *Gender*
 
@@ -91,7 +91,7 @@
 
 | Italiano | English |
 |---|---|
-| Il plurale si riconosce soprattutto dall'articolo *i*: molti nomi maschili non cambiano (*al gatt* – *i gatt*, *ul can* – *i can*). Le altre regole, ricavate dalle liste della sesta lezione e della prima, sono queste: † | The plural is recognized mostly by the article *i*: many masculine nouns do not change (*al gatt* – *i gatt*, the cats; *ul can* – *i can*, the dogs). The other rules, drawn from the lists in lessons 6 and 1, are these: † |
+| Il plurale si riconosce soprattutto dall’articolo *i*: molti nomi maschili non cambiano (*al gatt* – *i gatt*, *ul can* – *i can*). Le altre regole, ricavate dalle liste della sesta lezione e della prima, sono queste: † | The plural is recognized mostly by the article *i*: many masculine nouns do not change (*al gatt* – *i gatt*, the cats; *ul can* – *i can*, the dogs). The other rules, drawn from the lists in lessons 6 and 1, are these: † |
 
 | regola · rule | singolare · singular | plurale · plural |
 |---|---|---|
@@ -106,7 +106,7 @@
 
 | Italiano | English |
 |---|---|
-| I nomi di parentela che hanno un maschile e un femminile (*al nonu*, *la nona*) hanno un solo plurale per tutti e due, come li elenca la diciannovesima lezione: *al nonu*, *la nona* – *i noni*; *al ziu*, *la zia* – *i zii*; *al cüsin*, *la cüsina* – *i cüsin*; *al neut*, *la neuda* – *i neut*; *al fiöö*, *la tusa* – *i fiöö*. Per *al pà* e *la mamm* il plurale è un'altra parola, *i gent*. Fa eccezione *la surèla* – *i surell*, che con *al fredèl* – *i fredei* è una coppia di parole diverse. Il plurale comune è quello della coppia: il femminile da solo può averne uno suo. *La tusa* (la figlia, la ragazza) fa *i tusann* nei proverbi della quindicesima lezione, dove l'insegnante traduce *i tusann* con «le ragazze». | Family words that have a masculine and a feminine (*al nonu*, the grandfather; *la nona*, the grandmother) have one plural for both, as lesson 19 lists them: *al nonu*, *la nona* – *i noni*; *al ziu*, *la zia* – *i zii*; *al cüsin*, *la cüsina* – *i cüsin*; *al neut*, *la neuda* – *i neut* (nephews, nieces); *al fiöö*, *la tusa* – *i fiöö* (son, daughter – children). For *al pà* and *la mamm* the plural is another word, *i gent* (parents). The exception is *la surèla* – *i surell* (sisters), which with *al fredèl* – *i fredei* (brothers) is a pair of different words. The shared plural is the plural of the pair: the feminine on its own can have one of its own. *La tusa* (daughter, girl) has *i tusann* in the proverbs of lesson 15, where the teacher translates *i tusann* as «le ragazze» (the girls). |
+| I nomi di parentela che hanno un maschile e un femminile (*al nonu*, *la nona*) hanno un solo plurale per tutti e due, come li elenca la diciannovesima lezione: *al nonu*, *la nona* – *i noni*; *al ziu*, *la zia* – *i zii*; *al cüsin*, *la cüsina* – *i cüsin*; *al neut*, *la neuda* – *i neut*; *al fiöö*, *la tusa* – *i fiöö*. Per *al pà* e *la mamm* il plurale è un’altra parola, *i gent*. Fa eccezione *la surèla* – *i surell*, che con *al fredèl* – *i fredei* è una coppia di parole diverse. Il plurale comune è quello della coppia: il femminile da solo può averne uno suo. *La tusa* (la figlia, la ragazza) fa *i tusann* nei proverbi della quindicesima lezione, dove l’insegnante traduce *i tusann* con «le ragazze». | Family words that have a masculine and a feminine (*al nonu*, the grandfather; *la nona*, the grandmother) have one plural for both, as lesson 19 lists them: *al nonu*, *la nona* – *i noni*; *al ziu*, *la zia* – *i zii*; *al cüsin*, *la cüsina* – *i cüsin*; *al neut*, *la neuda* – *i neut* (nephews, nieces); *al fiöö*, *la tusa* – *i fiöö* (son, daughter – children). For *al pà* and *la mamm* the plural is another word, *i gent* (parents). The exception is *la surèla* – *i surell* (sisters), which with *al fredèl* – *i fredei* (brothers) is a pair of different words. The shared plural is the plural of the pair: the feminine on its own can have one of its own. *La tusa* (daughter, girl) has *i tusann* in the proverbs of lesson 15, where the teacher translates *i tusann* as «le ragazze» (the girls). |
 | Il dizionario dà il genere e il plurale di ogni nome (*m., pl. purcei*); dove il corso non dà il plurale, è previsto con queste regole. | The dictionary gives the gender and plural of every noun (*m., pl. purcei*); where the course gives no plural, it is predicted with these rules. |
 
 [← Scrittura e pronuncia](01-scrittura.md) · [indice · contents](README.md) · [Aggettivi, possessivi e dimostrativi →](03-aggettivi-possessivi-dimostrativi.md)

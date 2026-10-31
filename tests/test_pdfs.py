@@ -486,3 +486,137 @@ def test_publisher_name_and_place_aligned(name):
     x = {w: float(a) for a, w in re.findall(r'xMin="([\d.]+)"[^>]*>(MAGUIRE’S|Arogno)<', box)}
     assert set(x) == {"MAGUIRE’S", "Arogno"}, f"{name}: {x}"
     assert abs(x["MAGUIRE’S"] - x["Arogno"]) < 1, f"{name}: MAGUIRE’S at {x['MAGUIRE’S']:.1f} pt, Arogno at {x['Arogno']:.1f} pt"
+
+
+def cmyk_colours(path):
+    """Every CMYK colour set in a PDF page's content and its forms, as (c, m, y, k) from 0 to 1."""
+    import pypdf
+    page = pypdf.PdfReader(path).pages[0]
+    datas = [page.get_contents().get_data()]
+    for x in (page["/Resources"].get("/XObject") or {}).values():
+        x = x.get_object()
+        if x.get("/Subtype") == "/Form":
+            datas.append(x.get_data())
+    return {tuple(float(v) for v in m[:4]) for d in datas
+            for m in re.findall(rb"([\d.]+) ([\d.]+) ([\d.]+) ([\d.]+) (?:k|K|sc|scn)\b", d)}
+
+
+@pytest.mark.parametrize("name,shop", COVERS)
+def test_a5_book_cover_total_ink(name, shop):
+    """No colour on a cover takes more than 300% total ink (C + M + Y + K), the usual limit for coated card
+    (checked 2026-10-31: 276% at most; a first measurement through Ghostscript's default rendering said
+    395%, wrongly). Read from the colours the PDF sets, not from a rendering."""
+    from conftest import ROOT
+    cover = ROOT / name.replace(".pdf", f"_a5_book_cover_{shop}.pdf")
+    if not cover.exists():
+        pytest.skip(f"{cover.name} not built")
+    colours = cmyk_colours(cover)
+    assert colours, f"{cover.name}: no CMYK colours found"
+    bad = [f"{c}: {sum(c) * 100:.0f}%" for c in colours if sum(c) > 3.0]
+    report(bad, f"colours over 300% total ink on {cover.name}")
+
+
+def _times(m, n):
+    return [m[0] * n[0] + m[1] * n[2], m[0] * n[1] + m[1] * n[3], m[2] * n[0] + m[3] * n[2],
+            m[2] * n[1] + m[3] * n[3], m[4] * n[0] + m[5] * n[2] + n[4], m[4] * n[1] + m[5] * n[3] + n[5]]
+
+
+@pytest.mark.parametrize("name", PDFS_A5)
+def test_a5_book_type_at_least_6pt(name):
+    """No type in an A5 book is under 6 pt as printed (typesetting review, owner, 2026-10-31: labels, notes,
+    page numbers and the grammar's table headings were 4.9-5.8 pt after scaling to A5). Measured from the
+    PDF: font size times the text and page matrices. Type 3 fonts are left out: Chrome draws only symbols with
+    them (⚠), their size depends on the glyphs' own units, and the ⚠ prints taller than the text around it."""
+    import math
+    import pypdf
+    from conftest import ROOT
+    if not (ROOT / name).exists():
+        pytest.skip(f"{name} not built")
+    bad = []
+    for n, page in enumerate(pypdf.PdfReader(ROOT / name).pages, 1):
+        def visit(text, cm, tm, font, size, n=n):
+            if not text.strip() or not font:
+                return
+            m = _times(tm, cm)
+            pt = size * math.sqrt(abs(m[0] * m[3] - m[1] * m[2]))
+            if font.get("/Subtype") == "/Type3":
+                return
+            if pt < 5.95:
+                bad.append(f"page {n}: {pt:.1f} pt {text.strip()[:30]!r}")
+        page.extract_text(visitor_text=visit)
+    report(bad, f"type under 6 pt in {name}")
+
+
+@pytest.mark.parametrize("name", PDFS_A5)
+def test_a5_book_solid_black_and_rules(name):
+    """In an A5 book every grey is solid black or white (typesetting review, owner, 2026-10-31: grey text is
+    printed as dots and looks fuzzy that small), and no filled rule is thinner than 0.35 pt (they were 0.21 pt).
+    Read from Ghostscript's page content, which draws at a tenth of a point (0.1 0 0 0.1 0 0 cm)."""
+    import pypdf
+    from conftest import ROOT
+    if not (ROOT / name).exists():
+        pytest.skip(f"{name} not built")
+    bad = []
+    for n, page in enumerate(pypdf.PdfReader(ROOT / name).pages, 1):
+        content = page.get_contents()
+        if content is None:
+            continue
+        data = content.get_data().decode("latin1")
+        scale = .1 if data.startswith("q 0.1 0 0 0.1 0 0 cm") else 1
+        greys = {float(g) for g in re.findall(r"(?<![\d.])([\d.]+) [gG]\b", data)} - {0.0, 1.0}
+        if greys:
+            bad.append(f"page {n}: greys {sorted(greys)}")
+        thin = [min(float(w), float(h)) * scale for w, h in re.findall(r"[-\d.]+ [-\d.]+ ([\d.]+) ([\d.]+) re\nf", data)]
+        thin = [t for t in thin if 0 < t < .345]
+        if thin:
+            bad.append(f"page {n}: {len(thin)} rules under 0.35 pt, thinnest {min(thin):.2f} pt")
+    report(bad, f"grey or hairline in {name}")
+
+
+@pytest.mark.parametrize("name", ["Dictionary/arogno-dictionary.pdf"] + PDFS_A5)
+def test_blank_pages_have_no_number(name):
+    """A page left blank (so a section starts on the right, or to make up the count of an A5 book) carries no
+    page number (typesetting review, owner, 2026-10-31: page 28 of the dictionary printed one)."""
+    import pypdf
+    from conftest import ROOT
+    if not (ROOT / name).exists():
+        pytest.skip(f"{name} not built")
+    bad = [f"page {n}" for n, page in enumerate(pypdf.PdfReader(ROOT / name).pages, 1)
+           if re.fullmatch(r"\s*\d+\s*", page.extract_text() or "")]
+    report(bad, f"blank pages with a number in {name}")
+
+
+def _lines(page):
+    """(y, size, text) of the text on a page, sizes as printed; Type 3 symbols left out."""
+    import math
+    items = []
+
+    def visit(text, cm, tm, font, size):
+        if text.strip() and font and font.get("/Subtype") != "/Type3":
+            m = _times(tm, cm)
+            items.append((m[5], size * math.sqrt(abs(m[0] * m[3] - m[1] * m[2])), text.strip()))
+    page.extract_text(visitor_text=visit)
+    return items
+
+
+@pytest.mark.parametrize("name", PDFS_A5)
+def test_no_heading_stranded_at_the_foot(name):
+    """No heading is left at the foot of a page or column with fewer than two lines under it (typesetting
+    review, owner, 2026-10-31: the dictionary's E and S each had one entry under them). A heading is text
+    a quarter bigger than the page's body text; the page number zone is left out."""
+    import collections
+    import pypdf
+    from conftest import ROOT
+    if not (ROOT / name).exists():
+        pytest.skip(f"{name} not built")
+    bad = []
+    for n, page in enumerate(pypdf.PdfReader(ROOT / name).pages, 1):
+        items = [i for i in _lines(page) if i[0] > 40]
+        if len(items) < 5:
+            continue
+        body = collections.Counter(round(s, 1) for _, s, _ in items).most_common(1)[0][0]
+        ys = sorted({round(y) for y, _, _ in items})
+        for y, s, t in items:
+            if s > body * 1.25 and y < 200 and len([v for v in ys if v < y - 2]) <= 2:
+                bad.append(f"page {n}: {t[:30]!r} with {len([v for v in ys if v < y - 2])} lines under it")
+    report(bad, f"headings stranded at the foot of a page in {name}")

@@ -37,8 +37,12 @@
 [%- for part in parts -%]
 {{recto:part-[[ loop.index ]]}}<div class="part" id="part-[[ loop.index ]]"><h1>[[ part.pdf_title | e ]]</h1><p></p><div class="entries">
   [%- for s in part.printed -%]
-<h2 id="[[ s.anchor ]]">[[ s.letter ]]</h2>
-    [%- for e in s.entries if not e.no_word %][[ entry(e, part, part.cols) ]][% endfor -%]
+[%- set shown = s.entries | rejectattr("no_word") | list -%]
+[#- a letter's heading stays with its first two entries (typesetting review, owner, 2026-10-31: E and S were
+    left at the foot of a column with one entry under them) -#]
+<div class="lead"><h2 id="[[ s.anchor ]]">[[ s.letter ]]</h2>
+    [%- for e in shown[:2] %][[ entry(e, part, part.cols) ]][% endfor -%]</div>
+    [%- for e in shown[2:] %][[ entry(e, part, part.cols) ]][% endfor -%]
   [%- endfor -%]
 </div></div>
 [%- endfor -%]

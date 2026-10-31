@@ -29,7 +29,7 @@ ISE = re.compile(r"\b(organis|recognis|realis|apologis|specialis|summaris|emphas
                  r"civilis|finalis|minimis|maximis|utilis|symbolis|standardis|visualis|personalis|"
                  r"modernis|optimis|familiaris|sympathis|harmonis|colonis|fertilis|sterilis|stabilis)"
                  r"(e|ed|es|ing|ation|ations|er|ers)\b", re.I)
-KNOWN = {"mum's the word"}          # an idiom (keep quiet), not a mother
+KNOWN = {"mum's the word", "mum’s the word"}          # an idiom (keep quiet), not a mother
 
 
 def english_of(text):

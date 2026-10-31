@@ -6,7 +6,7 @@
 
 | Dialett † | Italiano | English |
 |---|---|---|
-| **tucà** | toccare | to touch; have to (m'è tucaa) |
+| **tucà** | toccare | to touch; have to (m’è tucaa) |
 
 | Gerundio † | Participio passato | Verb class |
 |---|---|---|

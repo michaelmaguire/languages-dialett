@@ -10,7 +10,7 @@
 
 | Italiano | English |
 |---|---|
-| Il condizionale ha due forme, che l'insegnante dà sempre insieme e che si usano tutte e due: una in *-ria* e una in *-ressa*. Le schede le scrivono con un trattino, *ciapa-ria/ress*: si legge *ciaparia* oppure *ciaparessa*. Le pagine dei verbi le scrivono per intero. | The conditional has two forms, which the teacher always gives together and which are both in use: one in *-ria* and one in *-ressa*. The sheets write them with a hyphen, *ciapa-ria/ress*: read *ciaparia* or *ciaparessa* (I would take). The verb pages write them out in full. |
+| Il condizionale ha due forme, che l’insegnante dà sempre insieme e che si usano tutte e due: una in *-ria* e una in *-ressa*. Le schede le scrivono con un trattino, *ciapa-ria/ress*: si legge *ciaparia* oppure *ciaparessa*. Le pagine dei verbi le scrivono per intero. | The conditional has two forms, which the teacher always gives together and which are both in use: one in *-ria* and one in *-ressa*. The sheets write them with a hyphen, *ciapa-ria/ress*: read *ciaparia* or *ciaparessa* (I would take). The verb pages write them out in full. |
 
 [*ciapà*](../Verbs/ciapa-prendere.md) (prendere)
 
@@ -34,13 +34,13 @@
 |---|---|---|---|---|---|
 | want-COND.1SG | go.INF | on | holiday | to | Miami |
 
-‘Vorrei andare in vacanza a Miami’ · ‘I'd like to go on holiday to Miami’ — [Il Condizionale Presente, l. 94](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
+‘Vorrei andare in vacanza a Miami’ · ‘I’d like to go on holiday to Miami’ — [Il Condizionale Presente, l. 94](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
 
 ## Il condizionale passato · *The past conditional*
 
 | Italiano | English |
 |---|---|
-| Condizionale dell'ausiliare + participio: *avria/avressa mangiaa* (avrei mangiato), *saria/saressa naia* (sarei andata). | Conditional of the auxiliary + participle: *avria/avressa mangiaa* (I would have eaten), *saria/saressa naia* (I would have gone, a woman speaking). |
+| Condizionale dell’ausiliare + participio: *avria/avressa mangiaa* (avrei mangiato), *saria/saressa naia* (sarei andata). | Conditional of the auxiliary + participle: *avria/avressa mangiaa* (I would have eaten), *saria/saressa naia* (I would have gone, a woman speaking). |
 
 **(2)** *Avria/avressa mangiaa vulentèra pès*
 
@@ -48,7 +48,7 @@
 |---|---|---|---|
 | have.COND.1SG | eaten | gladly | fish |
 
-‘Avrei mangiato volentieri del pesce’ · ‘I'd gladly have eaten fish’ — [Il Condizionale Passato, l. 28](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-02-21-0902-Il%20Condizionale%20Passato.docx)
+‘Avrei mangiato volentieri del pesce’ · ‘I’d gladly have eaten fish’ — [Il Condizionale Passato, l. 28](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-02-21-0902-Il%20Condizionale%20Passato.docx)
 
 **(3)** *Incöö saria/saressa naia vulentèra in palèsctra, ma devi lavurà*
 
@@ -56,7 +56,7 @@
 |---|---|---|---|---|---|---|---|---|
 | today | be.COND.1SG | gone.F | gladly | to | gym | but | must.1SG | work.INF |
 
-‘Oggi sarei andata volentieri in palestra, ma devo lavorare’ · ‘I'd gladly have gone to the gym today, but I have to work’ — [Il Condizionale Passato, l. 32](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-02-21-0902-Il%20Condizionale%20Passato.docx)
+‘Oggi sarei andata volentieri in palestra, ma devo lavorare’ · ‘I’d gladly have gone to the gym today, but I have to work’ — [Il Condizionale Passato, l. 32](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-02-21-0902-Il%20Condizionale%20Passato.docx)
 
 ## Il congiuntivo · *The subjunctive*
 
@@ -85,7 +85,7 @@
 |---|---|---|---|---|---|---|
 | LOC-have.1SG | fear | that | 3SG.M.SBJ | be.SBJV.3SG | too | late |
 
-‘Temo che sia troppo tardi.’ · ‘I'm afraid it's too late.’ — [al congiüntif 2, l. 23](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-al%20congi%C3%BCntif%202.docx)
+‘Temo che sia troppo tardi.’ · ‘I’m afraid it’s too late.’ — [al congiüntif 2, l. 23](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-al%20congi%C3%BCntif%202.docx)
 
 **(5)** *L’è necesari che finisuf al compit par temp*
 
@@ -117,11 +117,11 @@
 |---|---|---|---|---|---|
 | 2SG.SBJ | be.SBJV.2SG | NEG | a.M | serial | killer |
 
-‘(a meno che) tu non sia un serial killer’ · ‘(unless) you're a serial killer’ — [frasi fai 1 - Copia, l. 151](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-08-20-1910-frasi%20fai%201%20-%20Copia.docx)
+‘(a meno che) tu non sia un serial killer’ · ‘(unless) you’re a serial killer’ — [frasi fai 1 - Copia, l. 151](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-08-20-1910-frasi%20fai%201%20-%20Copia.docx)
 
 | Italiano | English |
 |---|---|
-| Dopo *anca se* («benché») la scheda usa invece l’indicativo: *Anca se l’è uramai autün, al fa cald* («Benché sia ormai autunno, fa caldo»), e il maestro stesso annota *(sic!)* accanto a *l’è*. | After *anca se* (although), on the other hand, the sheet uses the indicative: *Anca se l’è uramai autün, al fa cald* (although it's already autumn, it's warm), and the teacher himself notes *(sic!)* next to *l’è*. |
+| Dopo *anca se* («benché») la scheda usa invece l’indicativo: *Anca se l’è uramai autün, al fa cald* («Benché sia ormai autunno, fa caldo»), e il maestro stesso annota *(sic!)* accanto a *l’è*. | After *anca se* (although), on the other hand, the sheet uses the indicative: *Anca se l’è uramai autün, al fa cald* (although it’s already autumn, it’s warm), and the teacher himself notes *(sic!)* next to *l’è*. |
 | Il congiuntivo imperfetto finisce in *-ess-* (*füdessa*, *füdess*, *füdessum*, da *ves*; *gh’avess*, *ta pudessat*). Si usa soprattutto dopo *se*, con il condizionale nella frase principale, come in italiano. † | The past subjunctive is built on *-ess-* (*füdessa*, *füdess*, *füdessum*, from *ves*; *gh’avess*, *ta pudessat*). It is used above all after *se* (if), with the conditional in the main clause, as in Italian. † |
 
 **(9)** *Se duman al temp al füdess bel, na-ria/ressa al mar*
@@ -130,7 +130,7 @@
 |---|---|---|---|---|---|---|---|---|---|
 | if | tomorrow | the.M | weather | 3SG.M.SBJ | be.SBJV.PST.3SG | fine | go-COND.1SG | to.the.M | sea |
 
-‘Se il tempo domani fosse bello andrei al mare’ · ‘If the weather were fine tomorrow, I'd go to the seaside’ — [Il Condizionale Presente, l. 125](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
+‘Se il tempo domani fosse bello andrei al mare’ · ‘If the weather were fine tomorrow, I’d go to the seaside’ — [Il Condizionale Presente, l. 125](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
 
 **(10)** *Se füdessa scioor, ma töga-ria/ressa una Ferrari*
 
@@ -138,7 +138,7 @@
 |---|---|---|---|---|---|---|
 | if | be.SBJV.PST.1SG | rich | 1SG.DAT | take-COND.1SG | a.F | Ferrari |
 
-‘Se fossi ricco, mi comprerei una Ferrari’ · ‘If I were rich, I'd buy myself a Ferrari’ — [Il Condizionale Presente, l. 129](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
+‘Se fossi ricco, mi comprerei una Ferrari’ · ‘If I were rich, I’d buy myself a Ferrari’ — [Il Condizionale Presente, l. 129](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx)
 
 [*ves*](../Verbs/ves-essere.md) (essere)
 

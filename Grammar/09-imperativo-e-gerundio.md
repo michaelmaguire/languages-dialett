@@ -10,7 +10,7 @@
 
 | Italiano | English |
 |---|---|
-| L'imperativo ha tre persone. Per *ti* è uguale alla terza persona del presente, senza clitico (*parla*, *bef*, *dorma*); per *nüm* finisce in *-em* (*parlem*, *bevem*, *durmem*); per *vialtri* in *-ii* (*parlii*, *bevii*, *durmii*). | The imperative has three persons. For *ti* it is the same as the third person of the present, without the clitic (*parla*, speak; *bef*, drink; *dorma*, sleep); for *nüm* it ends in *-em* (*parlem*, let's speak); for *vialtri* in *-ii* (*parlii*, speak, to several people). |
+| L’imperativo ha tre persone. Per *ti* è uguale alla terza persona del presente, senza clitico (*parla*, *bef*, *dorma*); per *nüm* finisce in *-em* (*parlem*, *bevem*, *durmem*); per *vialtri* in *-ii* (*parlii*, *bevii*, *durmii*). | The imperative has three persons. For *ti* it is the same as the third person of the present, without the clitic (*parla*, speak; *bef*, drink; *dorma*, sleep); for *nüm* it ends in *-em* (*parlem*, let’s speak); for *vialtri* in *-ii* (*parlii*, speak, to several people). |
 
 *imperativo*
 
@@ -34,7 +34,7 @@
 |---|---|
 | speak.IMP.1PL | Italian |
 
-‘Parliamo italiano!’ · ‘Let's speak Italian!’ — [imperativo, l. 16](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
+‘Parliamo italiano!’ · ‘Let’s speak Italian!’ — [imperativo, l. 16](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
 
 **(3)** *parlii ciarament*
 
@@ -60,7 +60,7 @@
 
 | Italiano | English |
 |---|---|
-| Basta aggiungere *mia* dopo il verbo, a tutte le persone: *parla mia*, *parlem mia*, *parlii mia*. A differenza dell'italiano («non parlare»), il *ti* non usa l'infinito; fanno eccezione *ves mia* e *vegh mia*, che hanno la forma dell'infinito. † | Just add *mia* after the verb, in every person: *parla mia* (don't speak), *parlem mia*, *parlii mia*. Unlike Italian (*non parlare*, with the infinitive), the *ti* form does not use the infinitive; the exceptions are *ves mia* (don't be) and *vegh mia* (don't have), which look like infinitives. † |
+| Basta aggiungere *mia* dopo il verbo, a tutte le persone: *parla mia*, *parlem mia*, *parlii mia*. A differenza dell’italiano («non parlare»), il *ti* non usa l’infinito; fanno eccezione *ves mia* e *vegh mia*, che hanno la forma dell’infinito. † | Just add *mia* after the verb, in every person: *parla mia* (don’t speak), *parlem mia*, *parlii mia*. Unlike Italian (*non parlare*, with the infinitive), the *ti* form does not use the infinitive; the exceptions are *ves mia* (don’t be) and *vegh mia* (don’t have), which look like infinitives. † |
 
 **(5)** *parla mia*
 
@@ -68,7 +68,7 @@
 |---|---|
 | speak.IMP.2SG | NEG |
 
-‘Non parlare’ · ‘Don't speak’ — [imperativo, l. 63](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
+‘Non parlare’ · ‘Don’t speak’ — [imperativo, l. 63](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
 
 **(6)** *Ves mia, sium mia, siuf mia*
 
@@ -76,17 +76,17 @@
 |---|---|---|---|---|---|
 | be.INF | NEG | be.IMP.1PL | NEG | be.IMP.2PL | NEG |
 
-‘Non essere, non siamo, non siate’ · ‘Don't be (you, we, you all)’ — [imperativo, l. 89](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
+‘Non essere, non siamo, non siate’ · ‘Don’t be (you, we, you all)’ — [imperativo, l. 89](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
 
 | Italiano | English |
 |---|---|
-| I pronomi si attaccano in fondo all'imperativo, come in italiano («dimmi», «siediti»): vedi il capitolo sui pronomi. | Pronouns are attached to the end of the imperative, as in Italian (*dimmi*, *siediti*): see the chapter on pronouns. |
+| I pronomi si attaccano in fondo all’imperativo, come in italiano («dimmi», «siediti»): vedi il capitolo sui pronomi. | Pronouns are attached to the end of the imperative, as in Italian (*dimmi*, *siediti*): see the chapter on pronouns. |
 
 ## Il gerundio · *The gerund*
 
 | Italiano | English |
 |---|---|
-| Il gerundio finisce in *-ando* per la prima coniugazione e in *-endo* per le altre; l'insegnante scrive anche *-andu*, *-endu*: *cantando*, *bevendo*, *vegnendu*, *lengendu*. *Ves* fa *(es)sendo*, *vegh* fa *(a)vendo*. Si usa come in italiano. | The gerund ends in *-ando* in the 1st conjugation and *-endo* in the others; the teacher also writes *-andu*, *-endu*: *cantando* (singing), *bevendo* (drinking), *vegnendu* (coming), *lengendu* (reading). *Ves* gives *(es)sendo*, *vegh* *(a)vendo*. It is used as in Italian. |
+| Il gerundio finisce in *-ando* per la prima coniugazione e in *-endo* per le altre; l’insegnante scrive anche *-andu*, *-endu*: *cantando*, *bevendo*, *vegnendu*, *lengendu*. *Ves* fa *(es)sendo*, *vegh* fa *(a)vendo*. Si usa come in italiano. | The gerund ends in *-ando* in the 1st conjugation and *-endo* in the others; the teacher also writes *-andu*, *-endu*: *cantando* (singing), *bevendo* (drinking), *vegnendu* (coming), *lengendu* (reading). *Ves* gives *(es)sendo*, *vegh* *(a)vendo*. It is used as in Italian. |
 
 **(7)** *mangiando tropp in presa, ta sa ruinat al sctomic*
 
@@ -114,6 +114,6 @@
 |---|---|---|
 | wash.GER-REFL | the.PL | hand.PL |
 
-‘lavandosi le mani’ · ‘washing one's hands’ — [il gerundio, l. 17](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf)
+‘lavandosi le mani’ · ‘washing one’s hands’ — [il gerundio, l. 17](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf)
 
 [← Condizionale e congiuntivo](08-condizionale-e-congiuntivo.md) · [indice · contents](README.md) · [I pronomi attaccati al verbo →](10-pronomi-col-verbo.md)

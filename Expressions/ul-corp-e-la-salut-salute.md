@@ -34,8 +34,8 @@ Sayings, idioms and phrases about this topic, from all the course documents. ⚠
 
 | Dialett | Italiano | English | Region | Source |
 |---|---|---|---|---|
-| Fiöö, sem üficialment föra forma. | Ragazzi, siamo ufficialmente fuori forma. | Guys, we're officially out of shape. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-24-0946-100%20frasi%20di%20persone%20in%20montagna.docx) |
+| Fiöö, sem üficialment föra forma. | Ragazzi, siamo ufficialmente fuori forma. | Guys, we’re officially out of shape. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-24-0946-100%20frasi%20di%20persone%20in%20montagna.docx) |
 | gò i cavii bianc | ho i capelli bianchi | I have white hair | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
-| Sum sctrac e a gò bisögn da durmì un poo. Un sögnett l’è ‘n sögn legèr e che düra pooc. | Sono stanco e ho bisogno di dormire un po’. Un pisolino è un sonno leggero e di breve durata. | I'm tired and need to sleep a little. A nap is a light, short sleep. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
+| Sum sctrac e a gò bisögn da durmì un poo. Un sögnett l’è ‘n sögn legèr e che düra pooc. | Sono stanco e ho bisogno di dormire un po’. Un pisolino è un sonno leggero e di breve durata. | I’m tired and need to sleep a little. A nap is a light, short sleep. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
 
 [← all expressions](README.md)

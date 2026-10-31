@@ -21,7 +21,7 @@
 
 | Italiano | English |
 |---|---|
-| *ta se* (sei) si scrive anche *ta set*. Attenzione: *ta set* è anche «sai» (da *savé*), e *la/al sa* è «sa»: solo il contesto distingue i due verbi. | *ta se* (you are) is also written *ta set*. Careful: *ta set* is also "you know" (from *savé*), and *la/al sa* "she/he knows": only the context tells the two verbs apart. |
+| *ta se* (sei) si scrive anche *ta set*. Attenzione: *ta set* è anche «sai» (da *savé*), e *la/al sa* è «sa»: solo il contesto distingue i due verbi. | *ta se* (you are) is also written *ta set*. Careful: *ta set* is also “you know” (from *savé*), and *la/al sa* “she/he knows”: only the context tells the two verbs apart. |
 
 **(1)** *Ta set ‘n bel fiöö*
 
@@ -29,7 +29,7 @@
 |---|---|---|---|---|
 | 2SG.SBJ | be.2SG | a.M | fine | boy |
 
-‘Sei un bel ragazzo’ · ‘You're a fine lad’ — [I düü magnan, l. 68](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-06-07-1609-I%20d%C3%BC%C3%BC%20magnan.docx)
+‘Sei un bel ragazzo’ · ‘You’re a fine lad’ — [I düü magnan, l. 68](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-06-07-1609-I%20d%C3%BC%C3%BC%20magnan.docx)
 
 *Ta set is also 'you know' (savé): only the context tells them apart.*
 
@@ -37,7 +37,7 @@
 
 | Italiano | English |
 |---|---|
-| Quando *avere* vuol dire «possedere», «avere» qualcosa, il dialetto lo dice quasi sempre con *gh’* davanti: *gò* (ho), *ta ghé* (hai), *la/al ga* (ha), *gh’ò tropp laor*, *g’avrò famm*. È la stessa particella dell'italiano parlato «ce l'ho», «averci»: non fa parte del verbo, ma lo accompagna. Anche l'infinito *vegh* contiene la particella: *ve* + *gh*. † | When *avere* means "to own" or "to have" something, the dialect nearly always says it with *gh’* in front: *gò* (I have), *ta ghé* (you have), *la/al ga* (she/he has), *gh’ò tropp laor* (I have too much work), *g’avrò famm* (I'll be hungry). It is the same particle as in colloquial Italian *ce l'ho*, *averci*: it is not part of the verb, but goes with it. The infinitive *vegh* contains it too: *ve* + *gh*. † |
+| Quando *avere* vuol dire «possedere», «avere» qualcosa, il dialetto lo dice quasi sempre con *gh’* davanti: *gò* (ho), *ta ghé* (hai), *la/al ga* (ha), *gh’ò tropp laor*, *g’avrò famm*. È la stessa particella dell’italiano parlato «ce l’ho», «averci»: non fa parte del verbo, ma lo accompagna. Anche l’infinito *vegh* contiene la particella: *ve* + *gh*. † | When *avere* means “to own” or “to have” something, the dialect nearly always says it with *gh’* in front: *gò* (I have), *ta ghé* (you have), *la/al ga* (she/he has), *gh’ò tropp laor* (I have too much work), *g’avrò famm* (I’ll be hungry). It is the same particle as in colloquial Italian *ce l’ho*, *averci*: it is not part of the verb, but goes with it. The infinitive *vegh* contains it too: *ve* + *gh*. † |
 
 [*vegh*](../Verbs/vegh-avere.md) (avere)
 
@@ -74,7 +74,7 @@
 |---|---|---|---|---|---|
 | afterwards | be.FUT.1SG | tired.F | and | LOC-have.FUT.1SG | hunger |
 
-‘dopo sarò stanca e avrò fame’ · ‘afterwards I'll be tired and hungry’ — [domande di vario tipo, l. 8](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
+‘dopo sarò stanca e avrò fame’ · ‘afterwards I’ll be tired and hungry’ — [domande di vario tipo, l. 8](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
 
 **(5)** *ta devat vegh pazienza*
 
@@ -86,7 +86,7 @@
 
 | Italiano | English |
 |---|---|
-| Come ausiliare, invece, *avere* non ha mai *gh’*. La diciassettesima lezione lo dice in maiuscolo: «il passato di avere differisce se utilizzato come verbo ausiliario». Le schede del condizionale lo mostrano negli infiniti: *ve mangiaa* (aver mangiato) ma *vegh vüü* (aver avuto). | As an auxiliary, on the other hand, *avere* never has *gh’*. Lesson 17 says so in capitals: "the past of avere differs when it is used as an auxiliary verb". The conditional sheets show it in the infinitives: *ve mangiaa* (to have eaten) but *vegh vüü* (to have had). |
+| Come ausiliare, invece, *avere* non ha mai *gh’*. La diciassettesima lezione lo dice in maiuscolo: «il passato di avere differisce se utilizzato come verbo ausiliario». Le schede del condizionale lo mostrano negli infiniti: *ve mangiaa* (aver mangiato) ma *vegh vüü* (aver avuto). | As an auxiliary, on the other hand, *avere* never has *gh’*. Lesson 17 says so in capitals: “the past of avere differs when it is used as an auxiliary verb”. The conditional sheets show it in the infinitives: *ve mangiaa* (to have eaten) but *vegh vüü* (to have had). |
 
 **(6)** *ve mangiaa*
 
@@ -121,7 +121,7 @@
 | Italiano | English |
 |---|---|
 | Come in italiano, *ves* va con i verbi di movimento e di cambiamento di stato (*na*, *vegnì*, *rivà*, *partì*) e con i verbi riflessivi; *vegh* va con gli altri, cioè con la maggior parte. | As in Italian, *ves* goes with verbs of motion and change of state (*na*, to go; *vegnì*, to come; *rivà*, to arrive; *partì*, to leave) and with reflexive verbs; *vegh* goes with the rest, which is most verbs. |
-| Alcuni verbi cambiano ausiliare secondo il senso. La diciassettesima lezione lo mostra con *cor* (correre): *eva corüü una maratona* (con *avere*: la maratona è l'oggetto) ma *seva corüü a l’uspedaa* (con *essere*: si corre verso un luogo). | Some verbs change auxiliary with the meaning. Lesson 17 shows it with *cor* (to run): *eva corüü una maratona* (with *have*: the marathon is the object) but *seva corüü a l’uspedaa* (with *be*: running to a place). |
+| Alcuni verbi cambiano ausiliare secondo il senso. La diciassettesima lezione lo mostra con *cor* (correre): *eva corüü una maratona* (con *avere*: la maratona è l’oggetto) ma *seva corüü a l’uspedaa* (con *essere*: si corre verso un luogo). | Some verbs change auxiliary with the meaning. Lesson 17 shows it with *cor* (to run): *eva corüü una maratona* (with *have*: the marathon is the object) but *seva corüü a l’uspedaa* (with *be*: running to a place). |
 
 **(8)** *eva corüü una maratona - seva corüü a l’uspedaa*
 
@@ -137,7 +137,7 @@
 
 | Italiano | English |
 |---|---|
-| «C'è» si dice *gh’è* (scritto anche *ghè*, *ghé*): *gh’* + *è*, come l'italiano *ci* + *è* e il francese *il y a*. Spesso c'è davanti la *a* facoltativa del capitolo 4: *a ghè*. | "There is" is *gh’è* (also written *ghè*, *ghé*): *gh’* + *è*, like Italian *ci* + *è* and French *il y a*. The optional *a* of chapter 4 often comes in front: *a ghè*. |
+| «C’è» si dice *gh’è* (scritto anche *ghè*, *ghé*): *gh’* + *è*, come l’italiano *ci* + *è* e il francese *il y a*. Spesso c’è davanti la *a* facoltativa del capitolo 4: *a ghè*. | “There is” is *gh’è* (also written *ghè*, *ghé*): *gh’* + *è*, like Italian *ci* + *è* and French *il y a*. The optional *a* of chapter 4 often comes in front: *a ghè*. |
 
 **(9)** *In cüsina a ghè anca*
 
@@ -157,7 +157,7 @@
 
 | Italiano | English |
 |---|---|
-| Anche al plurale («ci sono») il verbo resta al singolare, come in francese *il y a*: *gh’è tanti scfümadür*, *gh’è pü da autobus* (capitolo 12). † | For "there are", too, the verb stays singular, as in French *il y a*: *gh’è tanti scfümadür* (there are many shades), *gh’è pü da autobus* (there are no more buses, chapter 12). † |
+| Anche al plurale («ci sono») il verbo resta al singolare, come in francese *il y a*: *gh’è tanti scfümadür*, *gh’è pü da autobus* (capitolo 12). † | For “there are”, too, the verb stays singular, as in French *il y a*: *gh’è tanti scfümadür* (there are many shades), *gh’è pü da autobus* (there are no more buses, chapter 12). † |
 
 **(11)** *gh’è tanti scfümadür da gris*
 
@@ -171,7 +171,7 @@
 
 | Italiano | English |
 |---|---|
-| Negli altri tempi cambia solo il verbo *ves*: *gh’eva* (c'era), *ga sarà* (ci sarà); il clitico soggetto *al* può stare davanti: *al ga sarà*. Con *ne* si dice *ga n’è* (ce n'è, ce ne sono); con la negazione, *gh’è mia* (non c'è). | In the other tenses only the verb *ves* changes: *gh’eva* (there was), *ga sarà* (there will be); the subject clitic *al* can come in front: *al ga sarà*. With *ne* it is *ga n’è* (there is some, there are some); in the negative, *gh’è mia* (there isn't). |
+| Negli altri tempi cambia solo il verbo *ves*: *gh’eva* (c’era), *ga sarà* (ci sarà); il clitico soggetto *al* può stare davanti: *al ga sarà*. Con *ne* si dice *ga n’è* (ce n’è, ce ne sono); con la negazione, *gh’è mia* (non c’è). | In the other tenses only the verb *ves* changes: *gh’eva* (there was), *ga sarà* (there will be); the subject clitic *al* can come in front: *al ga sarà*. With *ne* it is *ga n’è* (there is some, there are some); in the negative, *gh’è mia* (there isn’t). |
 
 **(12)** *gh’eva na volta un re*
 
@@ -203,6 +203,6 @@
 |---|---|---|---|
 | LOC-be.3SG | NEG | to | hurry.INF-REFL |
 
-‘non c'è da affrettarsi’ · ‘there's no need to hurry’ — [domande di vario tipo, l. 107](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
+‘non c'è da affrettarsi’ · ‘there’s no need to hurry’ — [domande di vario tipo, l. 107](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-11-18-1837-domande%20di%20vario%20tipo.docx)
 
 [← Passato e futuro](06-passato-e-futuro.md) · [indice · contents](README.md) · [Condizionale e congiuntivo →](08-condizionale-e-congiuntivo.md)

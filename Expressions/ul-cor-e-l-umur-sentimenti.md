@@ -9,7 +9,7 @@ Sayings, idioms and phrases about this topic, from all the course documents. ⚠
 | Dialett | Italiano | English | Region | Source |
 |---|---|---|---|---|
 | al'è invers cum 'è n copp | si dice persona molto adirata | said of a very angry person | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2011a%20leziun.docx) |
-| Ciapatala mia a maa. Var mia la pena | Non prendertela a male. Non ne vale la pena. | Don't take it badly. It's not worth it. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-05-29-1014-frasi%20fatte.docx) |
+| Ciapatala mia a maa. Var mia la pena | Non prendertela a male. Non ne vale la pena. | Don’t take it badly. It’s not worth it. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-05-29-1014-frasi%20fatte.docx) |
 | cuntent cumè n ' ratt | contento come un topo (=molto contento) | as happy as a mouse (= very happy) | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx) |
 | al 'è föra di strasc | è fuori di senno | he is out of his mind | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2011a%20leziun.docx) |
 | l'è nai in dal balon | è andato nel pallone | he lost his head (got flustered) | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2012a%20leziun.docx) |
@@ -30,10 +30,10 @@ Sayings, idioms and phrases about this topic, from all the course documents. ⚠
 |---|---|---|---|---|
 | Cusé che ta manca püsee dala tua cità? | Cosa ti manca di più della tua città? | What do you miss most about your city? | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
 | Dai che ghè sücedüü nagot | Dai che non è successo niente. | Come on, nothing happened. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
-| Dai, ciapasala mia! | Dai, non prendertela! | Come on, don't take it badly! | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
-| L’è mia giüsct. | Non è giusto. | It's not fair. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
-| Gh’o pagüra che al sia tropp tardi | Temo che sia troppo tardi. | I'm afraid it's too late. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-al%20congi%C3%BCntif%202.docx) |
-| Ma san’ scbati di tô scüs (ma san’ freghi…) | Me ne frego delle tue scuse. | I don't care about your excuses. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
+| Dai, ciapasala mia! | Dai, non prendertela! | Come on, don’t take it badly! | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
+| L’è mia giüsct. | Non è giusto. | It’s not fair. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
+| Gh’o pagüra che al sia tropp tardi | Temo che sia troppo tardi. | I’m afraid it’s too late. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-al%20congi%C3%BCntif%202.docx) |
+| Ma san’ scbati di tô scüs (ma san’ freghi…) | Me ne frego delle tue scuse. | I don’t care about your excuses. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
 | Magari avria pudüü iütal | Magari avessi potuto aiutarlo! | If only I could have helped him! | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-al%20congi%C3%BCntif%202.docx) |
 | Se podaressa ves lì cun ti | Potessi essere lì con te! | If only I could be there with you! | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-al%20congi%C3%BCntif%202.docx) |
 | Ta sa l’è meritada. | Te la sei meritata. | You deserved it. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |

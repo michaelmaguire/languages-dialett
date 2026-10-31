@@ -20,8 +20,8 @@
 
 | Italiano | English |
 |---|---|
-| Con l'ausiliare *ves* il participio concorda con il soggetto: *sum nai* (sono andato), *sum naia* (sono andata), *sum rivada*. La diciassettesima lezione lo segnala con «(a) quando femminile». | With the auxiliary *ves* the participle agrees with the subject: *sum nai* (I went, said by a man), *sum naia* (said by a woman), *sum rivada* (I arrived, a woman). Lesson 17 marks this "(a) quando femminile", add *-a* for a woman. |
-| Con l'ausiliare *vegh* il participio concorda con il complemento oggetto quando questo è un pronome messo prima del verbo, come in italiano «l'ho sentita»: *l'u tiraa* (l'ho tirato), *l'u tirada* (l'ho tirata). Il femminile si forma così: *-aa* → *-ada*, *-üü* → *-üda*, *-ii* → *-ida*, e *-i* → *-ia* nei participi irregolari (*nai* → *naia*, *stai* → *sctaia*). Al plurale gli esempi del corso non bastano per dire se il participio cambia. † | With the auxiliary *vegh* the participle agrees with the direct object when the object is a pronoun placed before the verb, as in Italian *l'ho sentita*: *l'u tiraa* (I pulled it, a masculine thing), *l'u tirada* (I pulled it, a feminine thing). The feminine is formed like this: *-aa* → *-ada*, *-üü* → *-üda*, *-ii* → *-ida*, and *-i* → *-ia* in the irregular participles (*nai* → *naia*, *stai* → *sctaia*). For the plural the course's examples are not enough to say whether the participle changes. † |
+| Con l’ausiliare *ves* il participio concorda con il soggetto: *sum nai* (sono andato), *sum naia* (sono andata), *sum rivada*. La diciassettesima lezione lo segnala con «(a) quando femminile». | With the auxiliary *ves* the participle agrees with the subject: *sum nai* (I went, said by a man), *sum naia* (said by a woman), *sum rivada* (I arrived, a woman). Lesson 17 marks this “(a) quando femminile”, add *-a* for a woman. |
+| Con l’ausiliare *vegh* il participio concorda con il complemento oggetto quando questo è un pronome messo prima del verbo, come in italiano «l’ho sentita»: *l’u tiraa* (l’ho tirato), *l’u tirada* (l’ho tirata). Il femminile si forma così: *-aa* → *-ada*, *-üü* → *-üda*, *-ii* → *-ida*, e *-i* → *-ia* nei participi irregolari (*nai* → *naia*, *stai* → *sctaia*). Al plurale gli esempi del corso non bastano per dire se il participio cambia. † | With the auxiliary *vegh* the participle agrees with the direct object when the object is a pronoun placed before the verb, as in Italian *l’ho sentita*: *l’u tiraa* (I pulled it, a masculine thing), *l’u tirada* (I pulled it, a feminine thing). The feminine is formed like this: *-aa* → *-ada*, *-üü* → *-üda*, *-ii* → *-ida*, and *-i* → *-ia* in the irregular participles (*nai* → *naia*, *stai* → *sctaia*). For the plural the course’s examples are not enough to say whether the participle changes. † |
 
 **(1)** *L’u mia sentüda a riid, l’è vera*
 
@@ -29,7 +29,7 @@
 |---|---|---|---|---|---|---|
 | 3SG.OBJ-have.1SG | NEG | heard.F | to | laugh | 3SG.SBJ-be.3SG | true |
 
-‘Non l’ho sentita ridere, è vero’ · ‘I haven't heard her laugh, it's true’ — [I düü magnan, l. 69](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-06-07-1609-I%20d%C3%BC%C3%BC%20magnan.docx)
+‘Non l’ho sentita ridere, è vero’ · ‘I haven’t heard her laugh, it’s true’ — [I düü magnan, l. 69](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-06-07-1609-I%20d%C3%BC%C3%BC%20magnan.docx)
 
 **(2)** *tantu che l'ò pregada da cumandà*
 
@@ -43,7 +43,7 @@
 
 | Italiano | English |
 |---|---|
-| Si forma come in italiano: ausiliare + participio. L'ausiliare *vegh* (avere) ha qui forme brevi, senza *gh’*: *u*, *te*, *l’a*, *em*, *ii*, *i an*. L'ausiliare *ves* (essere) ha le forme normali del presente: *sum*, *ta se*, *l’è*, *sem*, *sii*, *i è*. Su quale ausiliare usare, vedi il capitolo su *ves* e *vegh*. | It is formed as in Italian: auxiliary + participle. The auxiliary *vegh* (to have) has short forms here, without *gh’*: *u*, *te*, *l’a*, *em*, *ii*, *i an*. The auxiliary *ves* (to be) has the ordinary present forms: *sum*, *ta se*, *l’è*, *sem*, *sii*, *i è*. For which auxiliary to use, see the chapter on *ves* and *vegh*. |
+| Si forma come in italiano: ausiliare + participio. L’ausiliare *vegh* (avere) ha qui forme brevi, senza *gh’*: *u*, *te*, *l’a*, *em*, *ii*, *i an*. L’ausiliare *ves* (essere) ha le forme normali del presente: *sum*, *ta se*, *l’è*, *sem*, *sii*, *i è*. Su quale ausiliare usare, vedi il capitolo su *ves* e *vegh*. | It is formed as in Italian: auxiliary + participle. The auxiliary *vegh* (to have) has short forms here, without *gh’*: *u*, *te*, *l’a*, *em*, *ii*, *i an*. The auxiliary *ves* (to be) has the ordinary present forms: *sum*, *ta se*, *l’è*, *sem*, *sii*, *i è*. For which auxiliary to use, see the chapter on *ves* and *vegh*. |
 
 [*ciapà*](../Verbs/ciapa-prendere.md) (prendere)
 
@@ -84,7 +84,7 @@
 
 | Italiano | English |
 |---|---|
-| L'imperfetto aggiunge alla radice *-ava* (prima coniugazione), *-eva* (seconda e terza) o *-iva* (quarta), poi le solite desinenze: *ciapava*, *ta ciapavat*, *la/al ciapava*, *ciapavum*, *ciapavuf*, *i ciapavan*. Il trapassato usa l'imperfetto dell'ausiliare: *eva ciapaa* (avevo preso), *seva nai* (ero andato). | The imperfect adds *-ava* (1st conjugation), *-eva* (2nd and 3rd) or *-iva* (4th) to the stem, then the usual endings: *ciapava*, *ta ciapavat*, *la/al ciapava*, *ciapavum*, *ciapavuf*, *i ciapavan* (I was taking, etc.). The pluperfect uses the imperfect of the auxiliary: *eva ciapaa* (I had taken), *seva nai* (I had gone). |
+| L’imperfetto aggiunge alla radice *-ava* (prima coniugazione), *-eva* (seconda e terza) o *-iva* (quarta), poi le solite desinenze: *ciapava*, *ta ciapavat*, *la/al ciapava*, *ciapavum*, *ciapavuf*, *i ciapavan*. Il trapassato usa l’imperfetto dell’ausiliare: *eva ciapaa* (avevo preso), *seva nai* (ero andato). | The imperfect adds *-ava* (1st conjugation), *-eva* (2nd and 3rd) or *-iva* (4th) to the stem, then the usual endings: *ciapava*, *ta ciapavat*, *la/al ciapava*, *ciapavum*, *ciapavuf*, *i ciapavan* (I was taking, etc.). The pluperfect uses the imperfect of the auxiliary: *eva ciapaa* (I had taken), *seva nai* (I had gone). |
 
 *imperfetto*
 
@@ -117,8 +117,8 @@
 
 | Italiano | English |
 |---|---|
-| Il futuro aggiunge *-arò*, *-aret*, *-arà*, *-arem*, *-arii*, *-aran* alla radice, per tutte le coniugazioni: *ciaparò*, *ta dormaret*, *bevarò*. La seconda persona finisce in *-t* come al presente (*ta mangiaret*, *ta vedaret*); solo le prime tabelle del corso (lezioni 8 e 17) scrivono *-aré* (*ta bevaré*). Alla terza plurale il corso scrive spesso *-arà* (*i mangiarà*). | The future adds *-arò*, *-aret*, *-arà*, *-arem*, *-arii*, *-aran* to the stem, for every conjugation: *ciaparò* (I will take), *ta dormaret* (you will sleep), *bevarò* (I will drink). The second person ends in *-t* as in the present (*ta mangiaret*, *ta vedaret*); only the course's first tables (lessons 8 and 17) write *-aré* (*ta bevaré*). In the third person plural the course often writes *-arà* (*i mangiarà*, they will eat). |
-| Quello che il corso chiama «futuro prossimo» è il futuro anteriore italiano: *avrò ciapaa* (avrò preso), *sarò nai* (sarò andato). | What the course calls "futuro prossimo" is the Italian future perfect: *avrò ciapaa* (I will have taken), *sarò nai* (I will have gone). |
+| Il futuro aggiunge *-arò*, *-aret*, *-arà*, *-arem*, *-arii*, *-aran* alla radice, per tutte le coniugazioni: *ciaparò*, *ta dormaret*, *bevarò*. La seconda persona finisce in *-t* come al presente (*ta mangiaret*, *ta vedaret*); solo le prime tabelle del corso (lezioni 8 e 17) scrivono *-aré* (*ta bevaré*). Alla terza plurale il corso scrive spesso *-arà* (*i mangiarà*). | The future adds *-arò*, *-aret*, *-arà*, *-arem*, *-arii*, *-aran* to the stem, for every conjugation: *ciaparò* (I will take), *ta dormaret* (you will sleep), *bevarò* (I will drink). The second person ends in *-t* as in the present (*ta mangiaret*, *ta vedaret*); only the course’s first tables (lessons 8 and 17) write *-aré* (*ta bevaré*). In the third person plural the course often writes *-arà* (*i mangiarà*, they will eat). |
+| Quello che il corso chiama «futuro prossimo» è il futuro anteriore italiano: *avrò ciapaa* (avrò preso), *sarò nai* (sarò andato). | What the course calls “futuro prossimo” is the Italian future perfect: *avrò ciapaa* (I will have taken), *sarò nai* (I will have gone). |
 
 [*ciapà*](../Verbs/ciapa-prendere.md) (prendere)
 

@@ -3,7 +3,7 @@
 
 ## Il condizionale presente | The present conditional
 
-IT: Il condizionale ha due forme, che l'insegnante dà sempre insieme e che si usano tutte e due: una in *-ria* e una in *-ressa*. Le schede le scrivono con un trattino, *ciapa-ria/ress*: si legge *ciaparia* oppure *ciaparessa*. Le pagine dei verbi le scrivono per intero.
+IT: Il condizionale ha due forme, che l’insegnante dà sempre insieme e che si usano tutte e due: una in *-ria* e una in *-ressa*. Le schede le scrivono con un trattino, *ciapa-ria/ress*: si legge *ciaparia* oppure *ciaparessa*. Le pagine dei verbi le scrivono per intero.
 EN: The conditional has two forms, which the teacher always gives together and which are both in use: one in *-ria* and one in *-ressa*. The sheets write them with a hyphen, *ciapa-ria/ress*: read *ciaparia* or *ciaparessa* (I would take). The verb pages write them out in full.
 
 [](EntryTable#cldf:ciapa?tenses=condizionale_presente,condizionale_passato)
@@ -18,7 +18,7 @@ EN: It is used as in Italian: for wishes, for polite requests, for advice, and f
 
 ## Il condizionale passato | The past conditional
 
-IT: Condizionale dell'ausiliare + participio: *avria/avressa mangiaa* (avrei mangiato), *saria/saressa naia* (sarei andata).
+IT: Condizionale dell’ausiliare + participio: *avria/avressa mangiaa* (avrei mangiato), *saria/saressa naia* (sarei andata).
 EN: Conditional of the auxiliary + participle: *avria/avressa mangiaa* (I would have eaten), *saria/saressa naia* (I would have gone, a woman speaking).
 
 [](ExampleTable#cldf:g-pes)
@@ -41,7 +41,7 @@ EN: As in Italian, it follows verbs of fearing, wishing and doubting, and *l’�
 [](ExampleTable#cldf:g-siat)
 
 IT: Dopo *anca se* («benché») la scheda usa invece l’indicativo: *Anca se l’è uramai autün, al fa cald* («Benché sia ormai autunno, fa caldo»), e il maestro stesso annota *(sic!)* accanto a *l’è*.
-EN: After *anca se* (although), on the other hand, the sheet uses the indicative: *Anca se l’è uramai autün, al fa cald* (although it's already autumn, it's warm), and the teacher himself notes *(sic!)* next to *l’è*.
+EN: After *anca se* (although), on the other hand, the sheet uses the indicative: *Anca se l’è uramai autün, al fa cald* (although it’s already autumn, it’s warm), and the teacher himself notes *(sic!)* next to *l’è*.
 
 IT: Il congiuntivo imperfetto finisce in *-ess-* (*füdessa*, *füdess*, *füdessum*, da *ves*; *gh’avess*, *ta pudessat*). Si usa soprattutto dopo *se*, con il condizionale nella frase principale, come in italiano. †
 EN: The past subjunctive is built on *-ess-* (*füdessa*, *füdess*, *füdessum*, from *ves*; *gh’avess*, *ta pudessat*). It is used above all after *se* (if), with the conditional in the main clause, as in Italian. †

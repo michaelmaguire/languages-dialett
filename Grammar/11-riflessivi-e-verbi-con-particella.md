@@ -10,7 +10,7 @@
 
 | Italiano | English |
 |---|---|
-| All'infinito il riflessivo si attacca in fondo: *lavas* (lavarsi), *setas giò* (sedersi), *regordas* (ricordarsi). Al presente le tabelle del corso hanno *ma sa* alla prima persona, *ta sa* alla seconda e *sa* a tutte le altre: *ma sa seti giò*, *ta sa setat giò*, *sa seta giò*, *sa setum giò*, *sa setuf giò*, *sa setan giò* (mi siedo, ti siedi…). | In the infinitive the reflexive is attached at the end: *lavas* (to wash oneself), *setas giò* (to sit down), *regordas* (to remember). In the present the course's tables have *ma sa* in the first person, *ta sa* in the second and *sa* in all the others: *ma sa seti giò* (I sit down), *ta sa setat giò*, *sa seta giò*, *sa setum giò*, *sa setuf giò*, *sa setan giò*. |
+| All’infinito il riflessivo si attacca in fondo: *lavas* (lavarsi), *setas giò* (sedersi), *regordas* (ricordarsi). Al presente le tabelle del corso hanno *ma sa* alla prima persona, *ta sa* alla seconda e *sa* a tutte le altre: *ma sa seti giò*, *ta sa setat giò*, *sa seta giò*, *sa setum giò*, *sa setuf giò*, *sa setan giò* (mi siedo, ti siedi…). | In the infinitive the reflexive is attached at the end: *lavas* (to wash oneself), *setas giò* (to sit down), *regordas* (to remember). In the present the course’s tables have *ma sa* in the first person, *ta sa* in the second and *sa* in all the others: *ma sa seti giò* (I sit down), *ta sa setat giò*, *sa seta giò*, *sa setum giò*, *sa setuf giò*, *sa setan giò*. |
 
 [*lavas*](../Verbs/lavas-lavarsi.md) (lavarsi)
 
@@ -25,7 +25,7 @@
 
 | Italiano | English |
 |---|---|
-| *Sa* è dunque il riflessivo di tutte le persone, come se in italiano si dicesse «noi si laviamo». Alla prima persona c'è in più *ma* (mi). † | So *sa* is the reflexive for every person, as if Italian said *noi si laviamo*. In the first person there is *ma* (me) as well. † |
+| *Sa* è dunque il riflessivo di tutte le persone, come se in italiano si dicesse «noi si laviamo». Alla prima persona c’è in più *ma* (mi). † | So *sa* is the reflexive for every person, as if Italian said *noi si laviamo*. In the first person there is *ma* (me) as well. † |
 
 **(1)** *Ma sa ciami Marisa*
 
@@ -41,7 +41,7 @@
 |---|---|---|---|---|---|---|---|
 | I | 1SG | REFL | sit.1SG | down | because | be.1SG | tired.F |
 
-‘Mi siedo perché sono stanca’ · ‘I'm sitting down because I'm tired’ — [cors da dialet da Rögn 9a leziun, l. 10](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
+‘Mi siedo perché sono stanca’ · ‘I’m sitting down because I’m tired’ — [cors da dialet da Rögn 9a leziun, l. 10](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 | Italiano | English |
 |---|---|
@@ -53,7 +53,7 @@
 |---|---|---|---|---|---|---|
 | I | 1SG | be.1SG | always | found.F | well | everywhere |
 
-‘Mi sono sempre trovata bene dappertutto’ · ‘I've always been happy wherever I was’ — [Frasi di ultranovantenni di Arogno, l. 31](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-04-12-1249-Frasi%20di%20ultranovantenni%20di%20Arogno.pdf)
+‘Mi sono sempre trovata bene dappertutto’ · ‘I’ve always been happy wherever I was’ — [Frasi di ultranovantenni di Arogno, l. 31](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-04-12-1249-Frasi%20di%20ultranovantenni%20di%20Arogno.pdf)
 
 **(4)** *i magnan i s’è nincurgiüü*
 
@@ -67,8 +67,8 @@
 
 | Italiano | English |
 |---|---|
-| Molti verbi si completano con un avverbio che ne cambia il senso, come l'inglese *to go out*, *to sit down*: *na föra* (uscire), *na sü* (salire), *na giò* (scendere), *fa sü* (costruire), *met sü* (indossare), *met insema* (unire), *manda giò* (ingoiare), *catà fö* (scegliere), *tirà via* (togliere), *tö sü* (prendere su), *turnà indré* (ritornare). | Many verbs are completed by an adverb that changes their meaning, just like English *to go out* or *to sit down*: *na föra* (to go out), *na sü* (to go up), *na giò* (to go down), *fa sü* (to build), *met sü* (to put on), *met insema* (to put together), *manda giò* (to swallow), *catà fö* (to choose), *tirà via* (to take away), *tö sü* (to pick up), *turnà indré* (to come back). |
-| La particella sta dopo il verbo coniugato (*vo föra*, *cati fö*), e dopo *mia* nelle frasi negative (*cata mia fö*). Ha una pagina propria nelle pagine dei verbi. | The particle comes after the conjugated verb (*vo föra*, I go out; *cati fö*, I choose), and after *mia* in negative sentences (*cata mia fö*, don't choose). These verbs have their own pages among the verb pages. |
+| Molti verbi si completano con un avverbio che ne cambia il senso, come l’inglese *to go out*, *to sit down*: *na föra* (uscire), *na sü* (salire), *na giò* (scendere), *fa sü* (costruire), *met sü* (indossare), *met insema* (unire), *manda giò* (ingoiare), *catà fö* (scegliere), *tirà via* (togliere), *tö sü* (prendere su), *turnà indré* (ritornare). | Many verbs are completed by an adverb that changes their meaning, just like English *to go out* or *to sit down*: *na föra* (to go out), *na sü* (to go up), *na giò* (to go down), *fa sü* (to build), *met sü* (to put on), *met insema* (to put together), *manda giò* (to swallow), *catà fö* (to choose), *tirà via* (to take away), *tö sü* (to pick up), *turnà indré* (to come back). |
+| La particella sta dopo il verbo coniugato (*vo föra*, *cati fö*), e dopo *mia* nelle frasi negative (*cata mia fö*). Ha una pagina propria nelle pagine dei verbi. | The particle comes after the conjugated verb (*vo föra*, I go out; *cati fö*, I choose), and after *mia* in negative sentences (*cata mia fö*, don’t choose). These verbs have their own pages among the verb pages. |
 
 *presente*
 
