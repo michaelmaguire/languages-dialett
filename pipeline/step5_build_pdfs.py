@@ -10,6 +10,8 @@ Writes ../Verbs/arogno-verbs.pdf         cover, contents, attributions, one verb
        ../Dictionary/arogno-dictionary.pdf  cover, contents, attributions, the three look-up directions
        ../Expressions/arogno-expressions.pdf  cover, contents, attributions, expressions by topic
        ../Grammar/arogno-grammar.pdf          cover, contents, attributions, the grammar's chapters
+       and next to each an A5 book version, *_a5.pdf, and its colour cover alone, *_a5_cover.pdf
+       (see print_book())
 Uses Chrome or Chromium in headless mode to print; skipped with a message if neither is installed.
 Each PDF is printed twice: the contents page holds {{page:ID}} placeholders, and the page numbers come
 from where the first print put the elements those IDs link to (read back with pypdf).
@@ -87,10 +89,11 @@ def verbs():
     # the title page is its own file so it can be edited without touching this script
     cover = stamp((TEMPLATES / "cover_verbs.html").read_text()).replace("{{verbs}}", str(len(book["verbs"]))) \
                                              .replace("{{inferred}}", f"{book['inferred']:,}")
-    document = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
-                f"<style>{CSS}{TOC_CSS}</style>{cover}{body}")
-    print_with_contents(OUT, PAGE, document,
-                        f"arogno-verbs.pdf: cover, contents, attributions + {len(book['verbs'])} verb sheets")
+    head = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
+            f"<style>{CSS}{TOC_CSS}</style>")
+    front = ("Foreign Language Guides", f"{len(book['verbs'])} Rögn Verbs", "dialett ticinés · fully conjugated")
+    print_book(OUT, PAGE, head, cover, body, front,
+               f"cover, contents, attributions + {len(book['verbs'])} verb sheets")
 
 
 CREDITS_CSS = """
@@ -252,7 +255,7 @@ def print_with_contents(out, page, document, message):
         text = RECTO.sub(lambda m, padded=padded: BLANK_PAGE if m.group(1) in padded else "", document)
         page.write_text(PLACEHOLDER.sub(lambda m, numbers=numbers: numbers[m.group(1)], text))
         if not print_pdf(out, page):
-            return
+            return False
         reader = pypdf.PdfReader(out)
         found = {name.lstrip("/"): reader.get_destination_page_number(d) + 1
                  for name, d in reader.named_destinations.items()}
@@ -272,6 +275,66 @@ def print_with_contents(out, page, document, message):
     if missing:
         print(f"{out.name}: no page found for {', '.join(missing[:5])}")
     print(f"{message}, {len(reader.pages)} pages -> {out}")
+    return True
+
+
+# The A5 books (owner, 2026-10-31), to be printed and glue-bound by Expresta (expresta.eu) inside a separate
+# cover: each book is laid out at A4 exactly as the binder version and the finished PDF is scaled down to
+# A5 (148/210 = x 0.705), so the pages look the same, only smaller. Bound rather than punched, so the margins
+# change: 15 mm on the binding side and 8 mm on the outer side once scaled (Expresta keeps 2.5 mm from the
+# trim clear; their own template has 18 and 10). The cover is replaced by a title page and its back
+# (templates/title_page.html), so the contents still start on page 2 or later and the parity is unchanged.
+A5 = (148, 210)                                  # mm
+A5_SCALE = A5[0] / 210
+BOOK_INNER, BOOK_OUTER = 15, 8                   # mm on the A5 page
+BOOK_CSS = f"""
+@page :right {{ margin-left: {BOOK_INNER / A5_SCALE:.2f}mm; margin-right: {BOOK_OUTER / A5_SCALE:.2f}mm; }}
+@page :left {{ margin-left: {BOOK_OUTER / A5_SCALE:.2f}mm; margin-right: {BOOK_INNER / A5_SCALE:.2f}mm; }}
+"""
+
+
+def print_book(out, page, head, cover, body, front, message):
+    """Print one book twice: out (A4, for the binder, behind its cover) and out_a5.pdf (the A5 book, behind
+    a title page). front = (series, title, subtitle) for the title page. The colour cover, page 1 of the
+    A4 PDF, also goes alone into out_a5_cover.pdf, scaled to A5 (owner, 2026-10-31)."""
+    if print_with_contents(out, page, head + cover + body, f"{out.name}: {message}"):
+        scale_to_a5(out.with_name(out.stem + "_a5_cover.pdf"), source=out, pages=1)
+    a5 = out.with_name(out.stem + "_a5.pdf")
+    series, title, subtitle = front
+    title_page = (stamp((TEMPLATES / "title_page.html").read_text()).replace("{{series}}", series)
+                  .replace("{{title}}", title).replace("{{subtitle}}", subtitle))
+    if print_with_contents(a5, page.with_name(page.stem + "_a5.html"),
+                           head + f"<style>{BOOK_CSS}</style>" + title_page + body,
+                           f"{a5.name}: title page, contents, attributions + the same pages, at A4"):
+        scale_to_a5(a5)
+
+
+def scale_to_a5(path, source=None, pages=None):
+    """Shrink every page of an A4 PDF to A5, content, links and all, centred (A4 is a shade taller than A5
+    in proportion, so 0.3 mm is left above and below). With source, the first pages of that PDF are
+    scaled and saved as path instead."""
+    import pypdf
+    from pypdf.generic import ArrayObject, FloatObject, RectangleObject
+    pt = 72 / 25.4
+    w, h = A5[0] * pt, A5[1] * pt
+    if source:
+        writer = pypdf.PdfWriter()
+        writer.append(source, pages=(0, pages))
+    else:
+        writer = pypdf.PdfWriter(clone_from=path)
+    for page in writer.pages:
+        k = w / float(page.mediabox.width)
+        dy = (h - float(page.mediabox.height) * k) / 2
+        page.add_transformation(pypdf.Transformation().scale(k, k).translate(0, dy))
+        for a in page.get("/Annots") or []:
+            r = a.get_object().get("/Rect")
+            if isinstance(r, ArrayObject):
+                for i, v in enumerate(r):
+                    r[i] = FloatObject(float(v) * k + (dy if i % 2 else 0))
+        box = RectangleObject((0, 0, w, h))
+        page.mediabox = page.cropbox = page.trimbox = page.bleedbox = page.artbox = box
+    writer.write(path)
+    print(f"{path.name}: scaled to A5, {len(writer.pages)} pages")
 
 
 DICT_CSS = """
@@ -333,10 +396,11 @@ def dictionary():
     cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(book["words"])) \
         .replace("{{flagged}}", str(book["flagged"]))
     page = HERE / "cache" / "print_dictionary.html"
-    document = (f'<!doctype html><meta charset="utf-8"><title>Dizionari – dialett da Rögn</title>'
-                f"<style>{DICT_CSS}{TOC_CSS}</style>{cover}{body}")
-    print_with_contents(build.ROOT / "Dictionary" / "arogno-dictionary.pdf", page, document,
-                        f"arogno-dictionary.pdf: cover, contents, attributions + {book['words']} words three ways")
+    head = (f'<!doctype html><meta charset="utf-8"><title>Dizionari – dialett da Rögn</title>'
+            f"<style>{DICT_CSS}{TOC_CSS}</style>")
+    print_book(build.ROOT / "Dictionary" / "arogno-dictionary.pdf", page, head, cover, body,
+               ("Pocket Dictionary", "Rögn<br>Dizionari", "Dialett · Italiano · English"),
+               f"cover, contents, attributions + {book['words']} words three ways")
 
 
 EXPR_CSS = """
@@ -364,11 +428,12 @@ def expressions():
     for k, v in (("sayings", book["sayings"]), ("phrases", book["phrases"]), ("topics", len(book["topics"]))):
         cover = cover.replace("{{" + k + "}}", str(v))
     page = HERE / "cache" / "print_expressions.html"
-    document = (f'<!doctype html><meta charset="utf-8"><title>Modi da dì – dialett da Rögn</title>'
-                f"<style>{DICT_CSS}{TOC_CSS}{EXPR_CSS}</style>{cover}{body}")
-    print_with_contents(build.ROOT / "Expressions" / "arogno-expressions.pdf", page, document,
-                        f"arogno-expressions.pdf: cover, contents, attributions + {book['sayings'] + book['phrases']} "
-                        f"expressions in {len(book['topics'])} topics")
+    head = (f'<!doctype html><meta charset="utf-8"><title>Modi da dì – dialett da Rögn</title>'
+            f"<style>{DICT_CSS}{TOC_CSS}{EXPR_CSS}</style>")
+    print_book(build.ROOT / "Expressions" / "arogno-expressions.pdf", page, head, cover, body,
+               ("Phrasebook", "Rögn<br>Modi da dì", "Dialett · Italiano · English"),
+               f"cover, contents, attributions + {book['sayings'] + book['phrases']} "
+               f"expressions in {len(book['topics'])} topics")
 
 
 GRAMMAR_CSS = """
@@ -422,11 +487,11 @@ def grammar_pdf():
     for k, v in (("chapters", len(book["chapters"])), ("examples", book["examples"])):
         cover = cover.replace("{{" + k + "}}", str(v))
     page = HERE / "cache" / "print_grammar.html"
-    document = (f'<!doctype html><meta charset="utf-8"><title>Gramatica – dialett da Rögn</title>'
-                f"<style>{DICT_CSS}{TOC_CSS}{GRAMMAR_CSS}</style>{cover}{body}")
-    print_with_contents(build.ROOT / "Grammar" / "arogno-grammar.pdf", page, document,
-                        f"arogno-grammar.pdf: cover, contents, attributions + {len(book['chapters'])} chapters, "
-                        f"{book['examples']} examples")
+    head = (f'<!doctype html><meta charset="utf-8"><title>Gramatica – dialett da Rögn</title>'
+            f"<style>{DICT_CSS}{TOC_CSS}{GRAMMAR_CSS}</style>")
+    print_book(build.ROOT / "Grammar" / "arogno-grammar.pdf", page, head, cover, body,
+               ("Grammatica · Grammar", "Rögn<br>Grammatica<br>Grammar", "Italiano · English"),
+               f"cover, contents, attributions + {len(book['chapters'])} chapters, {book['examples']} examples")
 
 
 if __name__ == "__main__":

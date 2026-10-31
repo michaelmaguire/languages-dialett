@@ -78,6 +78,14 @@ between PDF files (they break when one is downloaded alone).
 binding side (left of odd pages, right of even ones; `@page :right` / `:left` in step 5) has 20 mm (verbs
 21 mm) and the outer side 8 mm (9 mm): the text keeps its width, only shifted. The covers keep margin 0.
 `tests/test_pdfs.py` measures it on every page.
+**A5 books (owner, 2026-10-31):** each PDF also comes as `*_a5.pdf` (e.g. `Dictionary/arogno-dictionary_a5.pdf`),
+to be glue-bound by Expresta (expresta.eu) inside a separate cover. `print_book()` in step 5 lays the book out
+at A4 exactly like the binder version, with `templates/title_page.html` (a plain title page and its back:
+edition, licence) instead of the cover and book margins, then scales the PDF to A5 (x 148/210) with pypdf,
+links included. Margins once scaled: 15 mm binding side, 8 mm outer (Expresta trims up to 2.5 mm; their Word
+template uses 18/10). Tests check A5 size, margins, title page and that the text equals the A4 version's.
+Body text is about 6.5–6.8 pt at A5. The printed cover (front, spine, back in one PDF; spine width from the
+page count and Expresta's paper thickness) is not made yet.
 
 Step 3 uses cldfbench's Python interface because `cldfbench makecldf` on the command line demands a local
 Glottolog catalogue, which this dataset does not use (codes set in `lexicon.py`).
@@ -149,7 +157,7 @@ forms, entries without English, decisions that matched nothing) and the `git dif
 | `grammar_examples.csv` | The grammar's examples: `ID,Primary_Text,Analyzed_Word,Gloss,Italian,English,Source,Line,Comment`. Every one is quoted from a canonical document; the build warns if `Primary_Text` is not on the cited line, if a chapter uses an unknown ID, or if words and glosses differ in number. Glosses are Leipzig-style, Claude's (abbreviations in chapter 00). |
 
 Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_readme_intro.md`,
-`cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html`, `cover_grammar.html` (`{{…}}` placeholders filled at build time).
+`cover_verbs.html`, `cover_dictionary.html`, `cover_expressions.html`, `cover_grammar.html`, `title_page.html` (A5 books) (`{{…}}` placeholders filled at build time).
 
 ## Decisions already made (do not relitigate)
 

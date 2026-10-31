@@ -1,0 +1,38 @@
+<!-- First two pages of the A5 books (*_a5.pdf), which are bound inside a separate printed cover
+     (owner, 2026-10-31): a plain title page repeating the cover's title, then its back with the edition
+     and licence. Edit freely; step5_build_pdfs.py fills {{series}}, {{title}}, {{subtitle}}, {{edition}}.
+     The page is drawn at A4 and the whole book is scaled down to A5 (x 0.705), so sizes here are A4 sizes. -->
+<style>
+@page front { @bottom-center { content: none; } }
+.front { page: front; break-after: page; height: 255mm; position: relative; color: #111;
+         font-family: "DejaVu Sans", Arial, sans-serif; }
+.front .series { font: bold 11pt "DejaVu Sans", Arial, sans-serif; letter-spacing: .35em; text-transform: uppercase;
+                 padding-bottom: 3mm; border-bottom: 1.2pt solid #111; }
+.front .title { margin-top: 70mm; font: bold 46pt/1.02 "DejaVu Sans", Arial, sans-serif; text-transform: uppercase; }
+.front .subtitle { margin-top: 6mm; font: bold 15pt "DejaVu Sans", Arial, sans-serif; letter-spacing: .12em;
+                   text-transform: uppercase; color: #444; }
+.front .by { margin-top: 18mm; font: italic 14pt/1.5 "DejaVu Serif", Georgia, serif; }
+.front .by b { font: bold 14pt "DejaVu Sans", Arial, sans-serif; font-style: normal; letter-spacing: .06em; }
+.front .base { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between;
+               align-items: flex-end; border-top: 1.2pt solid #111; padding-top: 3mm; font-size: 10pt; }
+.front .base b { font-size: 17pt; letter-spacing: .14em; }
+.front .colophon { position: absolute; left: 0; right: 0; bottom: 0; font: 10pt/1.5 "DejaVu Serif", Georgia, serif; }
+.front .colophon p { margin: 0 0 3mm; }
+</style>
+<div class="front">
+  <div class="series">{{series}}</div>
+  <div class="title">{{title}}</div>
+  <div class="subtitle">{{subtitle}}</div>
+  <div class="by">from the lessons of <b>Guido Casellini</b><br>compiled by <b>Michael Maguire</b></div>
+  <div class="base"><span><b>MAGUIRE’S</b><br>Arogno · Lügan · Tesin</span><span>Edizión {{edition}}</span></div>
+</div>
+<div class="front">
+  <div class="colophon">
+    <p><b>Edizión {{edition}}</b></p>
+    <p>Dialett da Rögn (Arogno, Ticino), from the course <i>Cors da dialett da Rögn</i> taught by Guido Casellini.
+       Compiled by Michael Maguire.</p>
+    <p>Licence: Creative Commons Attribution 4.0 (CC BY 4.0).<br>
+       The latest edition, the other books in the series and the data behind them:
+       github.com/michaelmaguire/languages-dialett</p>
+  </div>
+</div>

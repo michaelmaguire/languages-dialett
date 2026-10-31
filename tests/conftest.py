@@ -30,6 +30,8 @@ CLDF = ROOT / "cldf"
 PRIVATE = ROOT / "raw" / "extracted"
 PDFS = ["Dictionary/arogno-dictionary.pdf", "Expressions/arogno-expressions.pdf",
         "Verbs/arogno-verbs.pdf", "Grammar/arogno-grammar.pdf"]
+# the A5 books, bound inside a separate cover (owner, 2026-10-31)
+PDFS_A5 = [n.replace(".pdf", "_a5.pdf") for n in PDFS]
 
 
 def read_csv(path):
