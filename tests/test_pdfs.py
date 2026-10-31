@@ -620,3 +620,38 @@ def test_no_heading_stranded_at_the_foot(name):
             if s > body * 1.25 and y < 200 and len([v for v in ys if v < y - 2]) <= 2:
                 bad.append(f"page {n}: {t[:30]!r} with {len([v for v in ys if v < y - 2])} lines under it")
     report(bad, f"headings stranded at the foot of a page in {name}")
+
+
+@pytest.mark.parametrize("name", ["Verbs/arogno-verbs.pdf", "Verbs/arogno-verbs_a5_book.pdf"])
+def test_verb_headings_by_the_outer_edge(name):
+    """The first three lines of a verb sheet (the verb, its Italian and English, gerund and participle) are
+    set to the right on an odd, right-hand page and to the left on an even one, so they sit by the outer edge
+    and can be read while flipping through (owner, 2026-10-31). Measured against the page's widest text."""
+    import subprocess
+    from conftest import ROOT
+    if not (ROOT / name).exists():
+        pytest.skip(f"{name} not built")
+    box = subprocess.run(["pdftotext", "-bbox", str(ROOT / name), "-"], capture_output=True, text=True, check=True).stdout
+    bad, sheets = [], 0
+    for n, page in enumerate(re.split(r"<page ", box)[1:], 1):
+        words = [(float(a), float(b), float(c), float(d), w) for a, b, c, d, w in re.findall(
+            r'xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)">([^<]*)<', page)]
+        meta = [w for w in words if w[4] == "Gerundio"]
+        if not meta:
+            continue
+        sheets += 1
+        left, right = min(w[0] for w in words), max(w[2] for w in words)
+        lines = []                                           # words overlapping in height share a line
+        for w in sorted((w for w in words if w[3] <= meta[0][3] + 1), key=lambda w: w[3]):
+            if lines and w[1] < max(v[3] for v in lines[-1]) - 1:
+                lines[-1].append(w)
+            else:
+                lines.append([w])
+        for ws in lines:
+            text = " ".join(w[4] for w in ws)[:30]
+            if n % 2 and right - max(w[2] for w in ws) > 1.5:
+                bad.append(f"page {n}: {text!r} not set to the right")
+            if not n % 2 and min(w[0] for w in ws) - left > 1.5:
+                bad.append(f"page {n}: {text!r} not set to the left")
+    assert sheets > 50, f"only {sheets} verb sheets found in {name}"
+    report(bad, f"verb headings away from the outer edge in {name}")

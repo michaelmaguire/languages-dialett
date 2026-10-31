@@ -41,6 +41,11 @@ h1 sup, th sup { font-size: 60%; font-weight: normal; }
 .sub i { color: #444; }
 .meta { font-size: 9.5pt; color: #333; margin: 0 0 4mm; padding-bottom: 3mm; border-bottom: 1.2pt solid #111; }
 .meta b { font-weight: bold; color: #111; }
+/* between the meta items; an ordinary space before it, so a wrapped line breaks before the dot and ends flush */
+.meta .sep { margin: 0 .35em 0 .2em; }
+/* on a right-hand page the verb's name, translations and forms line are set to the right, by the outer
+   edge, so they can be read while flipping through (owner, 2026-10-31) */
+section.recto h1, section.recto .sub, section.recto .meta { text-align: right; }
 section.noted td { padding-top: .3mm; padding-bottom: .3mm; }   /* room for the note on a full A4 sheet */
 .vnote { font-size: 8pt; color: #333; margin: -2mm 0 3mm; display: grid; grid-template-columns: 1fr 1fr; column-gap: 5mm; }
 .nw { white-space: nowrap; }
@@ -229,6 +234,8 @@ a.toc span:first-child, .toc a.head span:first-child { font-weight: bold; }
 .toc p.letters b { font-family: "DejaVu Sans", Arial, sans-serif; }
 """
 PLACEHOLDER = re.compile(r"\{\{page:([\w-]+)\}\}")
+# {{side:ID}}: "recto" when the element with that id is on an odd (right-hand) page, else "verso", for a class
+SIDE = re.compile(r"\{\{side:([\w-]+)\}\}")
 
 
 def print_pdf(out, page):
@@ -256,12 +263,13 @@ def print_with_contents(out, page, document, message):
     even one, so that the sections can be filed separately in a binder (owner, 2026-10-19). Chrome ignores
     the CSS for this (page-break-before: right), so the page is measured and the print repeated."""
     import pypdf
-    ids = set(PLACEHOLDER.findall(document))
+    ids = set(PLACEHOLDER.findall(document)) | set(SIDE.findall(document))
     rectos = list(dict.fromkeys(RECTO.findall(document)))
     numbers = dict.fromkeys(ids, "000")
     padded = set()
     for _ in range(3 + 2 * len(rectos)):      # normally two prints: the second confirms the numbers
         text = RECTO.sub(lambda m, padded=padded: BLANK_PAGE if m.group(1) in padded else "", document)
+        text = SIDE.sub(lambda m, numbers=numbers: "recto" if numbers[m.group(1)][-1:] in "13579" else "verso", text)
         page.write_text(PLACEHOLDER.sub(lambda m, numbers=numbers: numbers[m.group(1)], text))
         if not print_pdf(out, page):
             return False

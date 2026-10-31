@@ -265,6 +265,9 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
 - **Verb pages:** Infinitive section (Dialett, Italiano, English), then gerund, participle and class,
   then Indicativo as two three-tense tables (A4), Condizionale, Imperativo; same sections for every verb.
   Classes follow the four Western Lombard conjugations (not from the course).
+  In the PDFs (A4 and A5) the first three lines of a verb sheet (verb, Italian/English, gerund/participle/class)
+  are set to the right on an odd page, by the outer edge, to be read while flipping (owner, 2026-10-31):
+  `{{side:ID}}` in the two-pass print gives the sheet the class `recto` from its real page number.
 - **Verb forms:** a form found in a document always wins; gaps predicted by `verb_conjugator.py` from
   lessons 8, 17, 18. Auxiliary *ves* for reflexives, compounds of `na`, and `aux=essere` in
   `etc/verb_details.csv`; otherwise *vegh*.
