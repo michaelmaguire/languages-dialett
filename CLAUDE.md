@@ -84,7 +84,8 @@ at A4 exactly like the binder version, with `templates/title_page.html` (a plain
 edition, licence) instead of the cover and book margins, then scales the PDF to A5 (x 148/210) with pypdf,
 links included. Margins once scaled: 15 mm binding side, 8 mm outer (Expresta trims up to 2.5 mm; their Word
 template uses 18/10). Tests check A5 size, margins, title page and that the text equals the A4 version's.
-Body text is about 6.5–6.8 pt at A5. The printed cover (front, spine, back in one PDF; spine width from the
+Body text is about 6.5–6.8 pt at A5. The colour cover alone, scaled to A5 the same way, is
+`*_a5_cover.pdf` (one page, no bleed). The wraparound cover Expresta needs (front, spine, back in one PDF; spine width from the
 page count and Expresta's paper thickness) is not made yet.
 
 Step 3 uses cldfbench's Python interface because `cldfbench makecldf` on the command line demands a local
