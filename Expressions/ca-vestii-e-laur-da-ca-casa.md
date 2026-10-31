@@ -13,7 +13,7 @@ Sayings, idioms and phrases about this topic, from all the course documents. ⚠
 | l’oscpit l’è cumé ‘l pes, dopu tri dì al scpüzza | l’ospite è come il pesce, dopo tre giorni puzza | A guest is like fish: after three days he stinks | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-05-0915-espressioni%20in%20italiano%202.6.2025.pdf) |
 | Quescta caà l’è mia un albergo | Questa casa non è un albergo. | This house is not a hotel. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-05-29-1014-frasi%20fatte.docx) |
 | Se ta va mia ben, quela l’è la porta | Se non ti sta bene quella è la porta. | If you don't like it, there's the door. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-05-29-1014-frasi%20fatte.docx) |
-| spiffar | spiffero d’aria | draught of air | Basso Ceresio | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-03-05-1249-Dizionario%20con%20filastrocche%20di%20R.%20Gaggini.docx) |
+| spiffar | spiffero d’aria | draft of air | Basso Ceresio | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-03-05-1249-Dizionario%20con%20filastrocche%20di%20R.%20Gaggini.docx) |
 
 ## Frasi · Phrases
 

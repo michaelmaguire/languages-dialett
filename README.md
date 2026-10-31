@@ -183,7 +183,7 @@ sudo apt install python3-venv python3-pip poppler-utils tesseract-ocr tesseract-
 
 - `python3-venv` and `python3-pip`: the script creates its own environment in `pipeline/.venv` and installs the one Python package it needs, `openpyxl`.
 - `poppler-utils`: text and page images from PDFs.
-- `tesseract-ocr` with the Italian and German models: reading scanned documents (German is there so that ü and ö are recognised).
+- `tesseract-ocr` with the Italian and German models: reading scanned documents (German is there so that ü and ö are recognized).
 - `hunspell-it`: an Italian word list, used to tell which side of a pair is Italian. Optional; without it the guesses are a little less accurate.
 - Google Chrome or Chromium: prints the PDFs. Optional; that step is skipped if neither is installed.
 - `ghostscript`: the A5 book files for a print shop. Optional; skipped if missing. The covers also need the PSO Coated v3 colour profile in `~/.local/share/color/icc/` (from https://eci.org/lib/exe/pso-coated_v3.zip).

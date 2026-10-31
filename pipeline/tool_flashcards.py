@@ -45,7 +45,7 @@ CSS = """
 FIELDS = [{"name": n} for n in ("English", "Dialett", "Grammar", "Region", "Italian", "Also", "Source")]
 BACK_INFO = ('<div class="info">{{#Also}}also: {{Also}}<br>{{/Also}}{{#Italian}}it. {{Italian}}<br>{{/Italian}}'
              '{{Source}}</div>')
-# model ids are fixed: Anki recognises the card types on every re-import
+# model ids are fixed: Anki recognizes the card types on every re-import
 MODEL = genanki.Model(
     1607392319, "Dialett da Rögn (English ↔ Dialett)", fields=FIELDS, css=CSS,
     templates=[

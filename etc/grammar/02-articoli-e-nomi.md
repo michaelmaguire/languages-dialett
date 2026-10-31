@@ -43,7 +43,7 @@ EN: Every noun is masculine or feminine, nearly always as in Italian. Feminines 
 ## Il plurale | The plural
 
 IT: Il plurale si riconosce soprattutto dall'articolo *i*: molti nomi maschili non cambiano (*al gatt* – *i gatt*, *ul can* – *i can*). Le altre regole, ricavate dalle liste della sesta lezione e della prima, sono queste: †
-EN: The plural is recognised mostly by the article *i*: many masculine nouns do not change (*al gatt* – *i gatt*, the cats; *ul can* – *i can*, the dogs). The other rules, drawn from the lists in lessons 6 and 1, are these: †
+EN: The plural is recognized mostly by the article *i*: many masculine nouns do not change (*al gatt* – *i gatt*, the cats; *ul can* – *i can*, the dogs). The other rules, drawn from the lists in lessons 6 and 1, are these: †
 
 | regola · rule | singolare · singular | plurale · plural |
 |---|---|---|

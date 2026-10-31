@@ -340,7 +340,7 @@ def parse(doc, text):
                         continue
                     name = table_head[k] if k < len(table_head) else f"col{k + 1}"
                     it_name, _, di_name = name.partition("/")
-                    # Word auto-capitalises the first letter of each table cell: undo that
+                    # Word auto-capitalizes the first letter of each table cell: undo that
                     parts = [p[:1].lower() + p[1:] for p in parts]
                     doc.verb(it_name, di_name, table_tense or "?", row[0], " / ".join(parts[1:]), n)
                     doc.verbs[-1]["italian_form"] = parts[0]
@@ -359,7 +359,7 @@ def parse(doc, text):
                 cells = [c.replace(CELL_SEP, "/") for c in cells if c]
                 if doc.meta["layout"] == "opposites" and len(cells) == 4:
                     # "Aggettivi e contrari": Italian | its opposite | dialect | its opposite.
-                    # The first row is the heading. Word capitalises each paragraph of a cell
+                    # The first row is the heading. Word capitalizes each paragraph of a cell
                     # ("Internu ¦ Da denta"), so lower the first letter of each.
                     if cells[0].lower() == "aggettivo":
                         continue
@@ -499,7 +499,7 @@ def parse(doc, text):
 # listed in etc/parallel_texts.csv, by aligning the two texts: sentence by sentence for prose, line by line
 # (within each canto) for verse. Dialect and Italian share most word roots, so two units are judged alike by
 # how many of their words look related (same start, or similar spelling once the dialect's sct/scp and
-# double letters are evened out), and by their length. A dynamic programme finds the best path through both
+# double letters are evened out), and by their length. A dynamic program finds the best path through both
 # texts, allowing one unit to match two. A weak match is marked `pairing?` (⚠).
 CANTO = re.compile(r"^\s*Canto\s+([IVXL]+)\b", re.I)
 

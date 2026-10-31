@@ -209,7 +209,7 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
 - **Teacher's spelling is kept** as written, variants included. Exceptions: Word's automatic capitals
   are lowered on words and non-sentence phrases, "idem" is replaced by the text it refers to, the
   conditional sheets' hyphens (`ciapa-ria/ress`) are written out (`ciaparia/ciaparess`), quotation marks around a whole expression are dropped (`«Dài, ta spéci l’ann che vegn!»`; owner, 2026-10-15), and the third
-  person is always `la/al` (feminine first, as the teacher mostly writes it; the few `al/la` are normalised)
+  person is always `la/al` (feminine first, as the teacher mostly writes it; the few `al/la` are normalized)
   under the label *le / lü* (owner, 2026-10-14). `l'a` in compound tenses is the auxiliary (*lü l'a
   credüü*), not the feminine clitic.
 - **Markers:** ⚠ = `pending` (the extraction was unsure: direction, split or pairing). † = inferred, not

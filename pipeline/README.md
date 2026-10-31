@@ -111,7 +111,7 @@ correct,ticinese,böcc,,,,buco,hole,"Claude inferred: Italian misspelt ""bucco""
 
 | Decision | Effect in the dataset |
 |---|---|
-| `typo` | The entry is folded into `Target_Form` (in `Target_Language_ID`, if given). The mistaken form is kept in `variants.csv` with status `typo`, so it is recognised but never shown. |
+| `typo` | The entry is folded into `Target_Form` (in `Target_Language_ID`, if given). The mistaken form is kept in `variants.csv` with status `typo`, so it is recognized but never shown. |
 | `reject` | The entry is kept with status `rejected` and the reason, and left off the pages. |
 | `accept` | A `pending` (⚠) entry becomes accepted, and its pending senses attested. |
 | `variant` | Same variety: the form becomes an accepted spelling of the target entry. Another variety: the entry is linked to the target with `Variant_Of` (or folded into a new target entry if there is none). |

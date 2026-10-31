@@ -109,7 +109,7 @@ def load_proper_nouns():
 
 
 def decapitalise(p, proper):
-    """Word auto-capitalises the first word of a line or cell. Undo that for dictionary
+    """Word auto-capitalizes the first word of a line or cell. Undo that for dictionary
     words, but leave proper nouns (Lügan, San Martin) alone."""
     it, di = p["italian"], p["dialect"]
     letters = [c for c in it + di if c.isalpha()]
@@ -733,7 +733,7 @@ def assemble():
                          "check": "", "note": r["note"]})
     proper = load_proper_nouns()
     for p in uniq:
-        # Word capitalises the first letter of every line. Keep that only where it is a real sentence
+        # Word capitalizes the first letter of every line. Keep that only where it is a real sentence
         # capital: a full sentence ending in . ! ? (or a line of dialogue). Words and phrases lose it.
         sentence = re.search(r"[.!?…]['’\"”»)]*\s*$", p["italian"]) or ":" in p["italian"]
         if (p["kind"] == "word" or not sentence) and not p.get("proper"):     # place names keep their capital
@@ -1112,7 +1112,7 @@ def render(uniq, tables, eng, topics=None):
               "and installs the one Python package it needs, `openpyxl`.\n"
               "- `poppler-utils`: text and page images from PDFs.\n"
               "- `tesseract-ocr` with the Italian and German models: reading scanned documents (German is "
-              "there so that ü and ö are recognised).\n"
+              "there so that ü and ö are recognized).\n"
               "- `hunspell-it`: an Italian word list, used to tell which side of a pair is Italian. Optional; "
               "without it the guesses are a little less accurate.\n"
               "- Google Chrome or Chromium: prints the PDFs. Optional; that step is skipped if neither "

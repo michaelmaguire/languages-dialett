@@ -573,7 +573,7 @@ def apply_decisions(rows, decisions):
                       decision came from Claude's review rather than from the owner)
 
     typo     the form's entry is folded into the target entry (created if needed), and the form is kept
-             in variants.csv with Kind and Status `typo`, so it is recognised but never shown.
+             in variants.csv with Kind and Status `typo`, so it is recognized but never shown.
     reject   the entry (or with Sense, that sense; or the expression) gets Status `rejected` and the
              reason; the pages leave it out.
     accept   a `pending` entry and its pending senses (or the expression) become accepted / attested.

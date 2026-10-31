@@ -467,3 +467,9 @@ def test_publisher_place_in_italian(name):
         if "Lügan · Tesin" in text or "Arogno · Lugano · Ticino" not in text:
             bad.append(pdf)
     report(bad, "publisher's line not Arogno · Lugano · Ticino")
+
+
+@pytest.mark.parametrize("name", PDFS)
+def test_no_publisher_joke(name):
+    """No cover says "Not affiliated with any actual publisher of …" (owner, 2026-10-31: drop the joke)."""
+    assert "affiliated" not in pdf_pages(name)[0], f"{name}: the cover still has the publisher joke"

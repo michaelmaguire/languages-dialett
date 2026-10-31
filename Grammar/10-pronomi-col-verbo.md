@@ -237,9 +237,9 @@
 
 | *da-g* | *’na* | *man* | *a* | *la* | *tua* | *mam* | *in* | *cüsina* |
 |---|---|---|---|---|---|---|---|---|
-| give.IMP.2SG-DAT | a.F | hand | to | the.F | your.F | mum | in | kitchen |
+| give.IMP.2SG-DAT | a.F | hand | to | the.F | your.F | mom | in | kitchen |
 
-‘Dai una mano a tua madre in cucina’ · ‘Give your mum a hand in the kitchen’ — [imperativo, l. 182](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
+‘Dai una mano a tua madre in cucina’ · ‘Give your mom a hand in the kitchen’ — [imperativo, l. 182](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
 
 **(22)** *godat la natüra*
 
@@ -303,9 +303,9 @@
 
 | *dand-og* | *na* | *man* | *a* | *la* | *tua* | *mam* | *in* | *cüsina* |
 |---|---|---|---|---|---|---|---|---|
-| give.GER-DAT | a.F | hand | to | the.F | your.F | mum | in | kitchen |
+| give.GER-DAT | a.F | hand | to | the.F | your.F | mom | in | kitchen |
 
-‘dandole una mano in cucina’ · ‘giving your mum a hand in the kitchen’ — [il gerundio, l. 130](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf)
+‘dandole una mano in cucina’ · ‘giving your mom a hand in the kitchen’ — [il gerundio, l. 130](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf)
 
 **(28)** *Metendug denta ‘n zic da*
 
@@ -333,7 +333,7 @@
 
 | *da* | *mamm* | *ga* | *n’-è* | *vüna* | *sola* |
 |---|---|---|---|---|---|
-| of | mum.PL | LOC | PART-be.3SG | one.F | only.F |
+| of | mom.PL | LOC | PART-be.3SG | one.F | only.F |
 
 ‘Di mamma ce n'è una sola’ · ‘You only have one mother’ — [frasi fatte, l. 195](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-05-29-1014-frasi%20fatte.docx)
 
