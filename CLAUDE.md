@@ -107,7 +107,8 @@ an unprinted inside cover available, 275 g softcover board. They publish no blee
 *dorso* their configurator shows.
 **Covers (owner, 2026-10-31):** one layout for all four, after the grammar's: `templates/cover.css` (put into each
 `cover_<book>.html` at `{{cover_css}}` by `cover_template()`), each cover setting only `--bg` (a pale tint of the
-book's colour), `--ink`, `--accent`, `--accent2` and its own text. Every cover has the title Rögn / Italian /
+book's colour), `--ink`, `--accent`, `--accent2` and its own text. Every cover's top band names the series, *Dialett da Rögn* (`SERIES`; owner
+dropped "Foreign Language Guides" and the other per-book labels), and the edition. Every cover has the title Rögn / Italian /
 English (the Italian word in the accent colour; the same on the title page, back and spine), the dictionary's
 DIALETT · ITALIANO · ENGLISH bar, "from the lessons of", a showpiece (the grammar's glossed sentence, a course
 quotation or saying for the others), the turned count label, blurb, legend and publisher bar. Every spine

@@ -92,7 +92,7 @@ def verbs():
     cover = stamp(cover_template("verbs")).replace("{{verbs}}", str(len(book["verbs"])))
     head = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
             f"<style>{CSS}{TOC_CSS}</style>")
-    front = ("Foreign Language Guides", "Rögn<br><span>Verbi</span><br>Verbs", "dialett ticinés · fully conjugated")
+    front = (SERIES, "Rögn<br><span>Verbi</span><br>Verbs", "dialett ticinés · fully conjugated")
     print_book(OUT, PAGE, head, cover, body, front,
                f"cover, contents, attributions + {len(book['verbs'])} verb sheets")
 
@@ -365,6 +365,9 @@ def print_ready(a5, out):
     return True
 
 
+# the series name on every cover's top band, title page and back (owner, 2026-10-31: one name for all
+# four books, instead of Pocket Dictionary, Foreign Language Guides, Phrasebook, Grammatica · Grammar)
+SERIES = "Dialett da Rögn"
 PT = 72 / 25.4                                   # points in a mm
 # The two print shops (owner, 2026-10-31), with the spine width in mm for n inside pages, from each shop's
 # own rule, for the papers assumed here (change them to match the order):
@@ -576,7 +579,7 @@ def dictionary():
     head = (f'<!doctype html><meta charset="utf-8"><title>Dizionari – dialett da Rögn</title>'
             f"<style>{DICT_CSS}{TOC_CSS}</style>")
     print_book(build.ROOT / "Dictionary" / "arogno-dictionary.pdf", page, head, cover, body,
-               ("Pocket Dictionary", "Rögn<br><span>Dizionario</span><br>Dictionary", "Dialett · Italiano · English"),
+               (SERIES, "Rögn<br><span>Dizionario</span><br>Dictionary", "Dialett · Italiano · English"),
                f"cover, contents, attributions + {book['words']} words three ways")
 
 
@@ -608,7 +611,7 @@ def expressions():
     head = (f'<!doctype html><meta charset="utf-8"><title>Modi da dì – dialett da Rögn</title>'
             f"<style>{DICT_CSS}{TOC_CSS}{EXPR_CSS}</style>")
     print_book(build.ROOT / "Expressions" / "arogno-expressions.pdf", page, head, cover, body,
-               ("Phrasebook", "Rögn<br><span>Modi di dire</span><br>Expressions", "Dialett · Italiano · English"),
+               (SERIES, "Rögn<br><span>Modi di dire</span><br>Expressions", "Dialett · Italiano · English"),
                f"cover, contents, attributions + {book['sayings'] + book['phrases']} "
                f"expressions in {len(book['topics'])} topics")
 
@@ -667,7 +670,7 @@ def grammar_pdf():
     head = (f'<!doctype html><meta charset="utf-8"><title>Gramatica – dialett da Rögn</title>'
             f"<style>{DICT_CSS}{TOC_CSS}{GRAMMAR_CSS}</style>")
     print_book(build.ROOT / "Grammar" / "arogno-grammar.pdf", page, head, cover, body,
-               ("Grammatica · Grammar", "Rögn<br><span>Grammatica</span><br>Grammar", "Italiano · English"),
+               (SERIES, "Rögn<br><span>Grammatica</span><br>Grammar", "Italiano · English"),
                f"cover, contents, attributions + {len(book['chapters'])} chapters, {book['examples']} examples")
 
 

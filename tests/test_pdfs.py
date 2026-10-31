@@ -426,3 +426,44 @@ def test_covers_share_one_layout(book):
     assert not missing, f"cover_{book}.html does not set {missing}"
     page = " ".join(pdf_pages(f"{book.capitalize()}/arogno-{book}.pdf")[0].split())
     assert "DIALETTITALIANOENGLISH" in page.replace(" ", ""), f"the {book} cover does not show the bar"
+
+
+@pytest.mark.parametrize("book", ["dictionary", "verbs", "expressions", "grammar"])
+def test_covers_name_the_series(book):
+    """Every cover's top band, every A5 title page and back cover give the one series name, Dialett da Rögn,
+    and no cover says "foreign" (owner, 2026-10-31: the verbs said Foreign Language Guides, the others their
+    own labels)."""
+    import step5_build_pdfs as step5
+    from conftest import ROOT
+    name = f"{book.capitalize()}/arogno-{book}.pdf"
+    places = [(name, 0), (name.replace(".pdf", "_a5_book.pdf"), 0)]
+    places += [(name.replace(".pdf", f"_a5_book_cover_{shop}.pdf"), 0) for shop in step5.SHOPS]
+    bad = []
+    for pdf, page in places:
+        if not (ROOT / pdf).exists():
+            continue
+        text = "".join(pdf_pages(pdf)[page].split()).upper()
+        if "DIALETTDARÖGN" not in text:
+            bad.append(f"{pdf}: no series name")
+        if "FOREIGN" in text:
+            bad.append(f"{pdf}: says foreign")
+    report(bad, "covers without the series name")
+
+
+@pytest.mark.parametrize("name", PDFS)
+def test_publisher_place_in_italian(name):
+    """The publisher's line reads Arogno · Lugano · Ticino, all three in Italian (owner, 2026-10-31: it mixed
+    Italian and dialect, Arogno · Lügan · Tesin), on the cover, the A5 title page and every A5 cover."""
+    import step5_build_pdfs as step5
+    from conftest import ROOT
+    places = [(name, 0), (name.replace(".pdf", "_a5_book.pdf"), 0)]
+    places += [(name.replace(".pdf", f"_a5_book_cover_{shop}.pdf"), 0) for shop in step5.SHOPS]
+    bad = []
+    for pdf, page in places:
+        if not (ROOT / pdf).exists():
+            continue
+        text = " ".join(pdf_pages(pdf)[page].split())
+        # the line itself (the dictionary's blurb says "a Lügan" in a dialect sentence, on purpose)
+        if "Lügan · Tesin" in text or "Arogno · Lugano · Ticino" not in text:
+            bad.append(pdf)
+    report(bad, "publisher's line not Arogno · Lugano · Ticino")
