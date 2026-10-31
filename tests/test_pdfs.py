@@ -287,7 +287,7 @@ def test_a5_has_the_same_text(name):
            if a != b else [], f"text differs between {name} and {a5}")
 
 
-COVERS = [(name, shop) for name in PDFS for shop in ("expresta", "onlinedruck")]
+COVERS = [(name, shop) for name in PDFS for shop in ("expresta", "onlinedruck", "print24")]
 
 
 @pytest.mark.parametrize("name,shop", COVERS)
@@ -349,3 +349,80 @@ def test_no_inferred_forms_joke_on_verbs_cover():
     2026-10-31: drop the joke)."""
     cover = " ".join(pdf_pages("Verbs/arogno-verbs.pdf")[0].split())
     assert "NOBODY" not in cover.upper(), "the verbs cover still has the badge"
+
+
+def test_no_a4_pockets_joke_on_dictionary_cover():
+    """The dictionary cover no longer says "For A4 pockets only" (owner, 2026-10-31: drop the joke)."""
+    cover = " ".join(pdf_pages("Dictionary/arogno-dictionary.pdf")[0].split())
+    assert "pockets only" not in cover, "the dictionary cover still has the A4 pockets joke"
+
+
+
+@pytest.mark.parametrize("name,shop", COVERS)
+def test_a5_book_cover_spine_title(name, shop):
+    """Every book cover has its title, Rögn · Italian · English, on the spine, however thin (owner,
+    2026-10-31: the dictionary and grammar spines had none, only the verbs did), and nothing printed within
+    1.5 mm of either fold. Read with pdftotext cropped to the spine and to strips beside the folds (its word
+    boxes for the small turned letters are not reliable); the letters' size is checked against the width."""
+    import subprocess
+    import pypdf
+    import step5_build_pdfs as step5
+    from conftest import ROOT
+    cover = name.replace(".pdf", f"_a5_book_cover_{shop}.pdf")
+    if not (ROOT / cover).exists():
+        pytest.skip(f"{cover} not built")
+    spine = round(step5.SHOPS[shop](len(pypdf.PdfReader(ROOT / name.replace(".pdf", "_a5_book.pdf")).pages)), 1)
+    pt = 72 / 25.4
+    left, right = 150.5, 150.5 + spine                   # the folds: 2.5 mm bleed + the A5 back
+
+    def text(x0, x1):
+        return "".join(subprocess.run(["pdftotext", "-x", f"{x0 * pt:.0f}", "-y", "0", "-W", f"{(x1 - x0) * pt:.0f}",
+                                       "-H", "700", str(ROOT / cover), "-"], capture_output=True, text=True,
+                                      check=True).stdout.split())
+    italian, english = TITLES[name.split("-")[1].removesuffix(".pdf")]
+    want = f"RÖGN·{italian}·{english}".upper().replace(" ", "")
+    bad = [] if want in text(left, right) else [f"spine reads {text(left, right)!r}, not {want!r}"]
+    beside = text(left - 1.5, left) + text(right, right + 1.5)
+    if beside:
+        bad.append(f"printed within 1.5 mm of a fold: {beside!r}")
+    if step5.spine_font(spine) * .73 / pt + 1 > spine:
+        bad.append(f"title {step5.spine_font(spine)} pt too big for a {spine} mm spine")
+    report(bad, f"spine of {cover}")
+
+TITLES = {"dictionary": ("Dizionario", "Dictionary"), "verbs": ("Verbi", "Verbs"),
+          "expressions": ("Modi di dire", "Expressions"), "grammar": ("Grammatica", "Grammar")}
+
+
+@pytest.mark.parametrize("name", PDFS)
+def test_titles_in_italian_and_english(name):
+    """Every book's title is in Italian and English (owner, 2026-10-31): on the A4 cover, the A5 book's title
+    page, and the back and spine of every A5 cover."""
+    import step5_build_pdfs as step5
+    from conftest import ROOT
+    italian, english = TITLES[name.split("-")[1].removesuffix(".pdf")]
+    places = {name: 0, name.replace(".pdf", "_a5_book.pdf"): 0}
+    places.update({name.replace(".pdf", f"_a5_book_cover_{shop}.pdf"): 0 for shop in step5.SHOPS})
+    bad = []
+    for pdf, page in places.items():
+        if not (ROOT / pdf).exists():
+            continue
+        text = " ".join(pdf_pages(pdf)[page].split()).upper()
+        for word in (italian, english):
+            if word.upper() not in text:
+                bad.append(f"{pdf}: no {word}")
+    report(bad, "titles missing")
+
+
+@pytest.mark.parametrize("book", ["dictionary", "verbs", "expressions", "grammar"])
+def test_covers_share_one_layout(book):
+    """The four covers share one layout after the grammar's (owner, 2026-10-31: different colours, more
+    uniformity), each with the DIALETT · ITALIANO · ENGLISH bar, and only set their own colours."""
+    from conftest import ROOT
+    template = (ROOT / "pipeline" / "templates" / f"cover_{book}.html").read_text()
+    assert "{{cover_css}}" in template, f"cover_{book}.html does not use cover.css"
+    assert re.search(r'<div class="langs"><span>Dialett</span><span>Italiano</span><span>English</span></div>', template), \
+        f"cover_{book}.html has no DIALETT · ITALIANO · ENGLISH bar"
+    missing = [v for v in ("--bg", "--ink", "--accent", "--accent2") if v + ":" not in template]
+    assert not missing, f"cover_{book}.html does not set {missing}"
+    page = " ".join(pdf_pages(f"{book.capitalize()}/arogno-{book}.pdf")[0].split())
+    assert "DIALETTITALIANOENGLISH" in page.replace(" ", ""), f"the {book} cover does not show the bar"

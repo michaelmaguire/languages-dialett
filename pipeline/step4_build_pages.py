@@ -1064,7 +1064,8 @@ def render(uniq, tables, eng, topics=None):
     pdf_links = "".join(f"- [{REPO_URL}/blob/main/{f}]({REPO_URL}/blob/main/{f})\n" for f in PDFS)
     # the A5 book versions are listed at the bottom, under "Printing as a book" (owner, 2026-10-31)
     book_rows = [[f"[{f.split('/')[-1].replace('.pdf', end)}]({f.replace('.pdf', end)})"
-                  for end in ("_a5_book.pdf", "_a5_book_cover_expresta.pdf", "_a5_book_cover_onlinedruck.pdf")]
+                  for end in ("_a5_book.pdf", "_a5_book_cover_expresta.pdf", "_a5_book_cover_onlinedruck.pdf",
+                              "_a5_book_cover_print24.pdf")]
                  for f in PDFS]
     readme = [intro + "\n", "## Contents\n", "Printable PDFs (A4, to download and print at home):\n\n" + pdf_links,
               table(["Section", "What is in it", "Size"], [
@@ -1130,9 +1131,12 @@ def render(uniq, tables, eng, topics=None):
               "back, spine and front, 2.5 mm past the cut (PDF/X-3, CMYK for coated card, FOGRA51). There is one "
               "cover per shop, since the spine width depends on the shop's paper: "
               "[Expresta](https://www.expresta.eu/) (80 g book paper, 315 g laminated cover) and "
-              "[onlinedruck.ch](https://www.onlinedruck.ch/) (80 g high-white uncoated). Order the same paper, "
-              "or the spine will not fit.\n",
-              table(["Inside pages (black and white)", "Cover for Expresta", "Cover for onlinedruck.ch"], book_rows)]
+              "[onlinedruck.ch](https://www.onlinedruck.ch/) (80 g high-white uncoated) and "
+              "[print24](https://print24.com/it) (80 g usomano, 275 g softcover board; their spine width is "
+              "estimated, so check the *dorso* their order page shows). Order the same paper, or the spine will "
+              "not fit.\n",
+              table(["Inside pages (black and white)", "Cover for Expresta", "Cover for onlinedruck.ch",
+                     "Cover for print24"], book_rows)]
     write(ROOT / "README.md", "\n".join(readme))
 
     n_other = lambda rows: sum(p["canonical"] != "yes" for p in rows)

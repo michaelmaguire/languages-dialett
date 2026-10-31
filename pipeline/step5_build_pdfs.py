@@ -3,7 +3,8 @@
 
 Reads  cache/dictionary_model.json, expressions_model.json, verbs_model.json and grammar_model.json (saved
        by step 4) with templates/dictionary.html.j2, expressions.html.j2, verbs.html.j2 and grammar.html.j2,
-       templates/cover_verbs.html, cover_dictionary.html and cover_expressions.html (title pages; {{verbs}},
+       templates/cover_verbs.html, cover_dictionary.html, cover_expressions.html and cover_grammar.html
+       (covers sharing templates/cover.css; {{verbs}},
        {{words}}, {{sayings}}, {{phrases}}, {{topics}} and {{edition}}
        are filled in at build time), ../ATTRIBUTIONS.md (printed straight after each cover)
 Writes ../Verbs/arogno-verbs.pdf         cover, contents, attributions, one verb per A4 sheet
@@ -88,10 +89,10 @@ def verbs():
         return
     body = templates().get_template("verbs.html.j2").render(verbs=book["verbs"], credits=credits_pages("verbs"))
     # the title page is its own file so it can be edited without touching this script
-    cover = stamp((TEMPLATES / "cover_verbs.html").read_text()).replace("{{verbs}}", str(len(book["verbs"])))
+    cover = stamp(cover_template("verbs")).replace("{{verbs}}", str(len(book["verbs"])))
     head = (f'<!doctype html><meta charset="utf-8"><title>Verbi – dialett da Rögn</title>'
             f"<style>{CSS}{TOC_CSS}</style>")
-    front = ("Foreign Language Guides", f"{len(book['verbs'])} Rögn Verbs", "dialett ticinés · fully conjugated")
+    front = ("Foreign Language Guides", "Rögn<br><span>Verbi</span><br>Verbs", "dialett ticinés · fully conjugated")
     print_book(OUT, PAGE, head, cover, body, front,
                f"cover, contents, attributions + {len(book['verbs'])} verb sheets")
 
@@ -202,6 +203,11 @@ def credits_pages(book):
 
 # one edition stamp per run, shared by all the PDFs: year, month, day, hour, minute (e.g. 202610141046)
 EDITION = datetime.datetime.now().strftime("%Y%m%d%H%M")
+
+
+def cover_template(book):
+    """templates/cover_<book>.html with the layout all four covers share (templates/cover.css) put in."""
+    return (TEMPLATES / f"cover_{book}.html").read_text().replace("{{cover_css}}", (TEMPLATES / "cover.css").read_text())
 
 
 def stamp(cover):
@@ -366,9 +372,21 @@ PT = 72 / 25.4                                   # points in a mm
 #     book paper white 80 g, 0.1 mm; cover glossy laminated 315 g, 0.31 mm (their most popular)
 #   onlinedruck.ch (spine-width factsheet for PUR-bound books): n x g/m2 x volume / 2000 + 1;
 #     80 g high-white uncoated, volume 1.3
+#   print24 (print24.com/it, "Libri con copertina morbida"): no rule published; estimated the same way as
+#     Expresta's, n / 2 x 0.1 mm (80 g usomano) + 2 x 0.3 mm (their 275 g softcover board). It matches the
+#     one example on their page (48 pages of 115 g gloss, 250 g cover: spine 2.53 mm). Check the "Dorso"
+#     their configurator shows for the order and correct this if it differs.
 SHOPS = {"expresta": lambda n: n / 2 * 0.10 + 2 * 0.31,
-         "onlinedruck": lambda n: n * 80 * 1.3 / 2000 + 1}
-SPINE_TEXT_MIN = 6        # mm: Expresta advises no text on a spine of 5 mm or less
+         "onlinedruck": lambda n: n * 80 * 1.3 / 2000 + 1,
+         "print24": lambda n: n / 2 * 0.10 + 2 * 0.30}
+# Every spine carries the title (owner, 2026-10-31), though Expresta advises no text on a spine of 5 mm or
+# less: a thin spine gets smaller text, capital height (0.73 of the size in DejaVu Sans) leaving 0.6 mm each side
+SPINE_FONT_MAX = 9        # pt
+
+
+def spine_font(spine):
+    """The spine title's size in pt for a spine this many mm wide."""
+    return round(min(SPINE_FONT_MAX, (spine - 1.2) / 0.73 * PT), 1)
 COVER_ICC = Path.home() / ".local/share/color/icc/PSOcoated_v3.icc"   # FOGRA51: the cover card is coated
 LEGEND = re.compile(r'<div class="legend">(.*?)</div>', re.S)
 
@@ -393,19 +411,21 @@ def book_covers(out, page, head, cover, front, book):
     front_html = page.with_name(page.stem + "_front.html")
     front_html.write_text(head + cover + "<style>.cover .legend { display: none; }</style>")
     print_pdf(front_pdf, front_html)
-    colours = re.search(r"\.cover \{[^}]*?(?:background: (#\w+)[^}]*?color: (#\w+)|color: (#\w+)[^}]*?background: (#\w+))",
-                        cover)
-    background, colour = (colours.group(1), colours.group(2)) if colours.group(1) else (colours.group(4), colours.group(3))
+    # the book's colours, as its cover sets them (--bg, --ink, --accent, --accent2; see templates/cover.css)
+    colours = dict(re.findall(r"--(bg|ink|accent2?): (#\w+)", cover))
+    background, colour = colours["bg"], colours["ink"]
     legend = LEGEND.search(cover).group(1)
     b, a5w, a5h = PRINT_BLEED, A5[0], A5[1]
     for shop, rule in SHOPS.items():
         spine = round(rule(n), 1)
         width, height = 2 * a5w + spine + 2 * b, a5h + 2 * b
-        spine_text = re.sub(r"<br>", " ", title) if spine >= SPINE_TEXT_MIN else ""
+        spine_text = " · ".join(re.sub(r"<[^>]+>", "", part) for part in title.split("<br>"))
         html = (TEMPLATES / "cover_back.html").read_text()
         for k, v in {"width": width, "height": height, "bleed": b, "spine": spine, "spine_left": b + a5w,
-                     "background": background, "colour": colour, "series": series, "title": title,
-                     "subtitle": subtitle, "legend": legend, "spine_text": spine_text}.items():
+                     "background": background, "colour": colour,
+                     "accent": colours["accent"], "accent2": colours["accent2"], "series": series, "title": title,
+                     "subtitle": subtitle, "legend": legend, "spine_text": spine_text,
+                     "spine_font": spine_font(spine)}.items():
             html = html.replace("{{" + k + "}}", f"{v:g}" if isinstance(v, float) else str(v))
         wrap_html = page.with_name(f"{page.stem}_cover_{shop}.html")
         wrap_html.write_text(html)
@@ -551,12 +571,12 @@ def dictionary():
         part["printed"] = [dict(s, anchor=f"p{n}-{s['letter'] if s['letter'].isalpha() else 'other'}")
                            for s in part["sections"] if any(not e["no_word"] for e in s["entries"])]
     body = templates().get_template("dictionary.html.j2").render(parts=book["parts"], credits=credits_pages("dictionary"))
-    cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(book["words"]))
+    cover = stamp(cover_template("dictionary")).replace("{{words}}", str(book["words"]))
     page = HERE / "cache" / "print_dictionary.html"
     head = (f'<!doctype html><meta charset="utf-8"><title>Dizionari – dialett da Rögn</title>'
             f"<style>{DICT_CSS}{TOC_CSS}</style>")
     print_book(build.ROOT / "Dictionary" / "arogno-dictionary.pdf", page, head, cover, body,
-               ("Pocket Dictionary", "Rögn<br>Dizionari", "Dialett · Italiano · English"),
+               ("Pocket Dictionary", "Rögn<br><span>Dizionario</span><br>Dictionary", "Dialett · Italiano · English"),
                f"cover, contents, attributions + {book['words']} words three ways")
 
 
@@ -581,14 +601,14 @@ def expressions():
     if not book or not book["topics"]:
         return
     body = templates().get_template("expressions.html.j2").render(topics=book["topics"], credits=credits_pages("expressions"))
-    cover = stamp((TEMPLATES / "cover_expressions.html").read_text())
+    cover = stamp(cover_template("expressions"))
     for k, v in (("sayings", book["sayings"]), ("phrases", book["phrases"]), ("topics", len(book["topics"]))):
         cover = cover.replace("{{" + k + "}}", str(v))
     page = HERE / "cache" / "print_expressions.html"
     head = (f'<!doctype html><meta charset="utf-8"><title>Modi da dì – dialett da Rögn</title>'
             f"<style>{DICT_CSS}{TOC_CSS}{EXPR_CSS}</style>")
     print_book(build.ROOT / "Expressions" / "arogno-expressions.pdf", page, head, cover, body,
-               ("Phrasebook", "Rögn<br>Modi da dì", "Dialett · Italiano · English"),
+               ("Phrasebook", "Rögn<br><span>Modi di dire</span><br>Expressions", "Dialett · Italiano · English"),
                f"cover, contents, attributions + {book['sayings'] + book['phrases']} "
                f"expressions in {len(book['topics'])} topics")
 
@@ -640,14 +660,14 @@ def grammar_pdf():
     # the chapters' Markdown (*word*, **bold**) as HTML, verb links leading to the verb's page online
     env.filters["inline"] = lambda text: grammar.html_inline(text, book["verb_files"], VERBS_URL)
     body = env.get_template("grammar.html.j2").render(chapters=book["chapters"], credits=credits_pages("grammar"))
-    cover = stamp((TEMPLATES / "cover_grammar.html").read_text())
+    cover = stamp(cover_template("grammar"))
     for k, v in (("chapters", len(book["chapters"])), ("examples", book["examples"])):
         cover = cover.replace("{{" + k + "}}", str(v))
     page = HERE / "cache" / "print_grammar.html"
     head = (f'<!doctype html><meta charset="utf-8"><title>Gramatica – dialett da Rögn</title>'
             f"<style>{DICT_CSS}{TOC_CSS}{GRAMMAR_CSS}</style>")
     print_book(build.ROOT / "Grammar" / "arogno-grammar.pdf", page, head, cover, body,
-               ("Grammatica · Grammar", "Rögn<br>Grammatica<br>Grammar", "Italiano · English"),
+               ("Grammatica · Grammar", "Rögn<br><span>Grammatica</span><br>Grammar", "Italiano · English"),
                f"cover, contents, attributions + {len(book['chapters'])} chapters, {book['examples']} examples")
 
 

@@ -100,6 +100,18 @@ covers skipped without it). The A4 PDFs keep the legend on their covers. Owner r
 "(N of them a bit ⚠)" (dictionary) and "now with … forms nobody actually taught us" (verbs), 2026-10-31.
 Tests check sizes, boxes, PDF/X marking, fonts, margins, ink (no C/M/Y inside), text against the A4 version,
 spine widths and where the legend and edition are.
+**print24 (owner, 2026-10-31)** is the third shop (print24.com/it, "Libri con copertina morbida"): at least 40
+pages for glued binding (the grammar has exactly 40), text 1.5 mm from the trim, black-and-white inside and
+an unprinted inside cover available, 275 g softcover board. They publish no bleed figure and no spine rule: its
+`SHOPS` rule is estimated like Expresta's (0.1 mm per leaf + 2 × 0.3 mm), matching their one example; check the
+*dorso* their configurator shows.
+**Covers (owner, 2026-10-31):** one layout for all four, after the grammar's: `templates/cover.css` (put into each
+`cover_<book>.html` at `{{cover_css}}` by `cover_template()`), each cover setting only `--bg` (a pale tint of the
+book's colour), `--ink`, `--accent`, `--accent2` and its own text. Every cover has the title Rögn / Italian /
+English (the Italian word in the accent colour; the same on the title page, back and spine), the dictionary's
+DIALETT · ITALIANO · ENGLISH bar, "from the lessons of", a showpiece (the grammar's glossed sentence, a course
+quotation or saying for the others), the turned count label, blurb, legend and publisher bar. Every spine
+carries the title, its size fitted to the width (`spine_font()`), though Expresta advises no text under 5 mm.
 
 Step 3 uses cldfbench's Python interface because `cldfbench makecldf` on the command line demands a local
 Glottolog catalogue, which this dataset does not use (codes set in `lexicon.py`).
