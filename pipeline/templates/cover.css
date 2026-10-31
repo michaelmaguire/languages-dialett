@@ -37,4 +37,4 @@
 .cover .base { position: absolute; left: 0; right: 0; bottom: 0; background: var(--ink); color: var(--bg); padding: 6mm 16mm 7mm;
                display: flex; justify-content: space-between; align-items: flex-end; font-size: 9.5pt; }
 .cover .base b { font-size: 19pt; letter-spacing: .14em; color: var(--accent2); display: block; }
-.cover .base span:last-child { text-align: right; }
+.cover .base span + span { text-align: right; }   /* a second, right-hand line only */

@@ -473,3 +473,16 @@ def test_publisher_place_in_italian(name):
 def test_no_publisher_joke(name):
     """No cover says "Not affiliated with any actual publisher of …" (owner, 2026-10-31: drop the joke)."""
     assert "affiliated" not in pdf_pages(name)[0], f"{name}: the cover still has the publisher joke"
+
+
+@pytest.mark.parametrize("name", PDFS)
+def test_publisher_name_and_place_aligned(name):
+    """On every cover MAGUIRE’S and the line under it, Arogno · Lugano · Ticino, start at the same left edge
+    (owner, 2026-10-31: on the dictionary and verbs the place had moved right once the bar had one item)."""
+    import subprocess
+    from conftest import ROOT
+    box = subprocess.run(["pdftotext", "-bbox", "-l", "1", str(ROOT / name), "-"], capture_output=True, text=True,
+                         check=True).stdout
+    x = {w: float(a) for a, w in re.findall(r'xMin="([\d.]+)"[^>]*>(MAGUIRE’S|Arogno)<', box)}
+    assert set(x) == {"MAGUIRE’S", "Arogno"}, f"{name}: {x}"
+    assert abs(x["MAGUIRE’S"] - x["Arogno"]) < 1, f"{name}: MAGUIRE’S at {x['MAGUIRE’S']:.1f} pt, Arogno at {x['Arogno']:.1f} pt"

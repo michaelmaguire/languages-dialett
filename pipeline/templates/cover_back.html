@@ -27,7 +27,7 @@ body { margin: 0; }
 .back .base { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between;
               align-items: flex-end; border-top: .8pt solid currentColor; padding-top: 2mm; font-size: 7pt; }
 .back .base b { color: {{accent}}; display: block; font-size: 12pt; letter-spacing: .14em; }
-.back .base span:last-child { text-align: right; }
+.back .base span + span { text-align: right; }
 /* the spine: the title read from top to bottom, centred */
 .spine { position: absolute; left: {{spine_left}}mm; top: {{bleed}}mm; width: {{spine}}mm; height: 210mm;
          display: flex; align-items: center; justify-content: center; }
