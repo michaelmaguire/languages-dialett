@@ -74,6 +74,10 @@ to its page on GitHub (`…/blob/main/Verbs/<file>`). The links (class `web`) ar
 around them, so a printed copy shows nothing: a PDF link itself is never printed. Checked by rendering
 every page before and after (only sub-pixel anti-aliasing moved) and by `tests/test_pdfs.py`. No links
 between PDF files (they break when one is downloaded alone).
+**Binding margin (owner, 2026-10-30):** the PDFs are printed double-sided and punched for a binder, so the
+binding side (left of odd pages, right of even ones; `@page :right` / `:left` in step 5) has 20 mm (verbs
+21 mm) and the outer side 8 mm (9 mm): the text keeps its width, only shifted. The covers keep margin 0.
+`tests/test_pdfs.py` measures it on every page.
 
 Step 3 uses cldfbench's Python interface because `cldfbench makecldf` on the command line demands a local
 Glottolog catalogue, which this dataset does not use (codes set in `lexicon.py`).

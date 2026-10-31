@@ -24,6 +24,10 @@ PAGE = HERE / "cache" / "print_verbs.html"
 
 CSS = """
 @page { size: A4; margin: 14mm 15mm 12mm 15mm; }
+/* printed double-sided and punched for a binder (owner, 2026-10-30): 6 mm more on the binding side (the left
+   of a right-hand page, the right of a left-hand one), 6 mm less on the outer side, so the text keeps its width */
+@page :right { margin-left: 21mm; margin-right: 9mm; }
+@page :left { margin-left: 9mm; margin-right: 21mm; }
 * { box-sizing: border-box; }
 body { font: 9.6pt/1.25 "DejaVu Serif", Georgia, serif; color: #111; margin: 0; }
 section { page-break-after: always; height: 268mm; position: relative; overflow: hidden; }
@@ -79,7 +83,7 @@ def verbs():
     book = verbs_model.load()
     if not book:
         return
-    body = templates().get_template("verbs.html.j2").render(verbs=book["verbs"], credits=credits_pages())
+    body = templates().get_template("verbs.html.j2").render(verbs=book["verbs"], credits=credits_pages("verbs"))
     # the title page is its own file so it can be edited without touching this script
     cover = stamp((TEMPLATES / "cover_verbs.html").read_text()).replace("{{verbs}}", str(len(book["verbs"]))) \
                                              .replace("{{inferred}}", f"{book['inferred']:,}")
@@ -108,8 +112,15 @@ CREDITS_CSS = """
 """
 
 
-def credits_pages():
-    """ATTRIBUTIONS.md as HTML, so the printed credits always match the page on GitHub."""
+BOOKS = {"dictionary", "expressions", "verbs", "grammar"}
+BOOKS_TAG = re.compile(r"^<!--\s*books:\s*([^>]*?)\s*-->$")
+
+
+def credits_pages(book):
+    """ATTRIBUTIONS.md as HTML, so the printed credits always match the page on GitHub, with only what
+    concerns this book (owner, 2026-10-30): a line <!-- books: grammar, verbs --> before a ## heading limits
+    that section, before a "- " item that item, to the books it names. Untagged text is printed in all four."""
+    assert book in BOOKS, book
     path = build.ROOT / "ATTRIBUTIONS.md"
     if not path.exists():
         return ""
@@ -128,7 +139,9 @@ def credits_pages():
         if para:
             out.append("<p>" + inline(" ".join(para)) + "</p>")
         if items:
-            out.append("<ul>" + "".join(f"<li>{inline(i)}</li>" for i in items) + "</ul>")
+            shown = [text for text, keep in items if keep]
+            if shown:
+                out.append("<ul>" + "".join(f"<li>{inline(i)}</li>" for i in shown) + "</ul>")
         if rows:
             head, body = rows[0], rows[2:]
             cells = lambda r, tag: "".join(f"<{tag}>{inline(c.strip())}</{tag}>" for c in r.strip().strip("|").split("|"))
@@ -136,15 +149,37 @@ def credits_pages():
                        + "".join(f"<tr>{cells(r, 'td')}</tr>" for r in body) + "</table>")
         para.clear(); items.clear(); rows.clear()
 
+    def books(tag):
+        named = {b.strip() for b in tag.split(",") if b.strip()}
+        unknown = named - BOOKS
+        if unknown:
+            raise SystemExit(f"ATTRIBUTIONS.md: unknown book in <!-- books: {tag} -->: {', '.join(sorted(unknown))}")
+        return named
+
+    pending, skip_section, editors_note = None, False, False
     for line in path.read_text().splitlines():
+        tag = BOOKS_TAG.match(line.strip())
+        if tag:
+            pending = books(tag.group(1))
+            continue
         if line.startswith("This page is written by hand"):       # a note for editors of the file, not for print
+            editors_note = True
+        if editors_note:
+            editors_note = bool(line.strip())
+            continue
+        if line.startswith("#"):
+            flush()
+            level = len(line) - len(line.lstrip("#"))
+            if level <= 2:                                          # a new section: printed unless tagged otherwise
+                skip_section = pending is not None and book not in pending
+                pending = None
+            if not skip_section:
+                out.append(f"<h{min(level, 2)}>{inline(line.lstrip('# '))}</h{min(level, 2)}>")
+            continue
+        if skip_section:
             continue
         if not line.strip():
             flush()
-        elif line.startswith("#"):
-            flush()
-            level = len(line) - len(line.lstrip("#"))
-            out.append(f"<h{min(level, 2)}>{inline(line.lstrip('# '))}</h{min(level, 2)}>")
         elif line.startswith("|"):
             if para or items:
                 flush()
@@ -152,11 +187,10 @@ def credits_pages():
         elif line.startswith("- "):
             if para or rows:
                 flush()
-            items.append(line[2:])
+            items.append([line[2:], pending is None or book in pending])
+            pending = None
         elif items and line.startswith("  "):
-            items[-1] += " " + line.strip()
-        elif "printed at the back of the" in line or re.match(r"(two|three|four) PDFs\.", line):
-            continue
+            items[-1][0] += " " + line.strip()
         else:
             para.append(line.strip())
     flush()
@@ -242,6 +276,9 @@ def print_with_contents(out, page, document, message):
 
 DICT_CSS = """
 @page { size: A4; margin: 15mm 14mm 16mm 14mm; @bottom-center { content: counter(page); font: 8pt "DejaVu Sans", Arial, sans-serif; color: #555; } }
+/* the binding side, as for the verbs (owner, 2026-10-30): the text keeps its width, shifted 6 mm outwards */
+@page :right { margin-left: 20mm; margin-right: 8mm; }
+@page :left { margin-left: 8mm; margin-right: 20mm; }
 body { font: 9pt/1.32 "DejaVu Serif", Georgia, serif; color: #111; margin: 0; }
 .part { page-break-before: always; }
 .toc { page-break-before: always; }
@@ -292,7 +329,7 @@ def dictionary():
         # the letters that have an entry to print, each with its anchor for the contents page
         part["printed"] = [dict(s, anchor=f"p{n}-{s['letter'] if s['letter'].isalpha() else 'other'}")
                            for s in part["sections"] if any(not e["no_word"] for e in s["entries"])]
-    body = templates().get_template("dictionary.html.j2").render(parts=book["parts"], credits=credits_pages())
+    body = templates().get_template("dictionary.html.j2").render(parts=book["parts"], credits=credits_pages("dictionary"))
     cover = stamp((TEMPLATES / "cover_dictionary.html").read_text()).replace("{{words}}", str(book["words"])) \
         .replace("{{flagged}}", str(book["flagged"]))
     page = HERE / "cache" / "print_dictionary.html"
@@ -322,7 +359,7 @@ def expressions():
     book = expressions_model.load()
     if not book or not book["topics"]:
         return
-    body = templates().get_template("expressions.html.j2").render(topics=book["topics"], credits=credits_pages())
+    body = templates().get_template("expressions.html.j2").render(topics=book["topics"], credits=credits_pages("expressions"))
     cover = stamp((TEMPLATES / "cover_expressions.html").read_text())
     for k, v in (("sayings", book["sayings"]), ("phrases", book["phrases"]), ("topics", len(book["topics"]))):
         cover = cover.replace("{{" + k + "}}", str(v))
@@ -380,7 +417,7 @@ def grammar_pdf():
     env = templates()
     # the chapters' Markdown (*word*, **bold**) as HTML, verb links leading to the verb's page online
     env.filters["inline"] = lambda text: grammar.html_inline(text, book["verb_files"], VERBS_URL)
-    body = env.get_template("grammar.html.j2").render(chapters=book["chapters"], credits=credits_pages())
+    body = env.get_template("grammar.html.j2").render(chapters=book["chapters"], credits=credits_pages("grammar"))
     cover = stamp((TEMPLATES / "cover_grammar.html").read_text())
     for k, v in (("chapters", len(book["chapters"])), ("examples", book["examples"])):
         cover = cover.replace("{{" + k + "}}", str(v))

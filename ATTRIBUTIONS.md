@@ -1,7 +1,8 @@
 # Attributions and thanks
 
-This page is written by hand; the build does not change it. The same text is printed after the cover of the
-four PDFs.
+This page is written by hand; the build does not change it. Each PDF prints it after its cover, with only
+the parts that concern that book: a section or item after a `<!-- books: … -->` line is printed only in the
+books it names (dictionary, expressions, verbs, grammar); everything else is printed in all four.
 
 **Thank you** to Guido Casellini, for the lessons and for the patience.
 
@@ -57,6 +58,7 @@ something credited differently or removed, please open an issue on the repositor
 - The collections of Italian sayings, idioms and one-liners that the class translated (*frasi fatte*,
   *frasi fai*, *espressioni in italiano*)
 
+<!-- books: verbs, grammar, dictionary -->
 ## Reference material consulted
 
 Used to check general Western Lombard verb patterns. None of it is specific to Arogno, and no text was
@@ -84,19 +86,29 @@ the right place to verify the forms marked †.
 - The extraction scripts, page layout and PDFs were written with
   [Claude Code](https://claude.com/claude-code) (Anthropic).
 - **English translations** were written by Claude from the Italian, not taken from the course.
+<!-- books: verbs, grammar, dictionary -->
 - **Verb forms and infinitives marked †** were inferred by Claude from the patterns in the lessons. They
   are not the teacher's and may be wrong; see [TO-CHECK.md](TO-CHECK.md).
+<!-- books: dictionary, expressions -->
 - **Entries marked ⚠** were paired automatically and may be misaligned.
-- The dialect phrases on the dictionary and verb PDF covers were composed for the covers and are not from the
-  course. The two sayings on the expressions cover are from the course (*15a leziun - proverbi* and *frasi
-  fatte*).
+<!-- books: dictionary -->
+- The dialect saying on the cover, *Parla cumè ta mangiat* (say it plainly), was composed for it and is not
+  from the course.
+<!-- books: verbs -->
+- The dialect lines on the cover, *Tücc i verb che ta servan par fa bèla figüra al grott — o quasi* and
+  *L’è mia facil, ma l’è bel*, were composed for it and are not from the course.
+<!-- books: expressions -->
+- The two sayings on the cover are from the course (*15a leziun - proverbi* and *frasi fatte*).
+<!-- books: grammar -->
 - The **grammar** (`Grammar/`, `etc/grammar/`) was drafted by Claude, Italian and English, from the course
   material; its examples are all quoted from the course documents, with the line they come from. The
   glosses under the examples, and the rules marked †, are Claude's analysis. The sentence on the grammar
   cover is from *dialoghi a Lugano*; its dedication, *Mit Liebe, für Peter*, is to the classmate who asked
   for the grammar. None of it has been checked by the teacher yet.
-- The **topics** the expressions are grouped by, and the choice of which sayings to move out of the
-  dictionary, are Claude's.
+<!-- books: expressions -->
+- The **topics** the expressions are grouped by are Claude's.
+<!-- books: dictionary, expressions -->
+- The choice of which sayings and idioms to move out of the dictionary into the expressions is Claude's.
 
 Whatever went wrong in the extraction, the translations or the inferred forms, the errors are mine.
 
