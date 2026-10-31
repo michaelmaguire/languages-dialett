@@ -2,7 +2,7 @@
 
 # Ticinese dialect: *dialett da Rögn*
 
-Notes, exercises and reference pages from a weekly course in the Lombard dialect of Ticino, as spoken in
+CLDF structured data and some study aids derived from notes, exercises and reference pages from a weekly course in the Lombard dialect of Ticino, as spoken in
 Arogno (*Rögn*), in the Lugano district of Italian-speaking Switzerland. The course is *Cors da dialett da
 Rögn*, taught by Guido Casellini; the documents here were handed out between 2023 and 2026.
 
