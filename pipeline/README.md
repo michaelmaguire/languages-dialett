@@ -32,6 +32,8 @@ flowchart TD
     check{{"cldf validate"}}
     s4["Step 4 · step4_build_pages.py"]
     s5["Step 5 · step5_build_pdfs.py<br/>prints with Chrome"]
+    s6["Step 6 · step6_build_app_data.py"]
+    app[("cache/app_data.json<br/>for the phone app")]
     pages["README.md · TO-CHECK.md<br/>Dictionary/ · Expressions/ · Verbs/"]
     pdfs["arogno-dictionary.pdf<br/>arogno-verbs.pdf<br/>arogno-expressions.pdf"]
 
@@ -45,6 +47,7 @@ flowchart TD
     s3 --> cldf --> check
     check -- valid --> s4 --> pages
     check -- valid --> s5 --> pdfs
+    s4 -- "models" --> s6 --> app
     cldf --> s4
     cldf --> s5
 ```
@@ -58,6 +61,7 @@ In words:
 | 3 | `step3_make_cldf.py` → `../cldfbench_rogn.py` → `lexicon.py` | step 2's output, all of `../etc/`, the owner's spreadsheet and notes (from `../raw/`, or without it from the copies `data/owner_*.csv`) | `data/owner_spreadsheet.csv` and `data/owner_notes.csv` (fresh copies, when `../raw/` is there); `../cldf/`, rebuilt from scratch; then checked with `cldf validate`, and the build stops if it is not valid |
 | 4 | `step4_build_pages.py` (+ `dictionary_model.py`, `expressions_model.py`, `verbs_model.py`, `grammar_model.py`) | `../cldf/` only | all Markdown pages; the models `cache/*_model.json` (the PDFs print from them); plain-table exports `data/dictionary.csv`, `data/expressions.csv`, `data/verb_tables.csv` |
 | 5 | `step5_build_pdfs.py` | `cache/*_model.json` (from step 4) with `templates/dictionary.html.j2`, `expressions.html.j2`, `verbs.html.j2`, `grammar.html.j2`, `templates/cover_*.html`, `templates/title_page.html`, `cover_back.html`, `pdfx_gray.ps`, `pdfx_cmyk.ps`, `../ATTRIBUTIONS.md` | `../Dictionary/arogno-dictionary.pdf`, `../Verbs/arogno-verbs.pdf`, `../Expressions/arogno-expressions.pdf`, `../Grammar/arogno-grammar.pdf`, and for each an A5 book for a print shop: `*_a5_book.pdf`, `*_a5_book_cover_expresta.pdf`, `*_a5_book_cover_onlinedruck.pdf` |
+| 6 | `step6_build_app_data.py` | `cache/*_model.json` (from step 4) | `cache/app_data.json` (not committed), or the file given with `--out`: the data of the phone app, [languages-dialett-app](https://github.com/michaelmaguire/languages-dialett-app), whose `scripts/update-data.sh` runs this step into the app's resources |
 
 ### Building without the source documents
 

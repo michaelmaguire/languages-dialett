@@ -59,6 +59,7 @@ pipeline/build_all.sh
 | 3 | `step3_make_cldf.py` → `cldfbench_rogn.py` → `lexicon.py` | step 2 output + all of `etc/` + owner's spreadsheet and notes (from `raw/`, else `pipeline/data/owner_*.csv`) | fresh `pipeline/data/owner_*.csv` copies when `raw/` is there; `cldf/` from scratch; then `cldf validate` (build stops if invalid) |
 | 4 | `step4_build_pages.py` (+ `grammar.py`, `dictionary_model.py`, `expressions_model.py`, `verbs_model.py`, `grammar_model.py`) | `cldf/` only (the grammar from `cldf/grammar/`) | all Markdown; the models `pipeline/cache/*_model.json`; `pipeline/data/dictionary.csv`, `expressions.csv`, `verb_tables.csv` |
 | 5 | `step5_build_pdfs.py` (+ `grammar.py`) | the four models (from step 4) with `pipeline/templates/dictionary.html.j2`, `expressions.html.j2`, `verbs.html.j2`, `grammar.html.j2`, `pipeline/templates/cover_*.html`, `ATTRIBUTIONS.md` | the four PDFs |
+| 6 | `step6_build_app_data.py` | the four models (from step 4) | `pipeline/cache/app_data.json` (not committed), or `--out FILE`: the phone app's data (owner, 2026-11-07). The app is in the separate repository `michaelmaguire/languages-dialett-app` (checked out beside this one); its `scripts/update-data.sh` runs this step into the app. Like the PDF, the app only renders the models: change what an entry shows in the model. |
 
 **One model per book (owner, 2026-10-29).** The dictionary is built once as a structure,
 `pipeline/dictionary_model.py` (look-ups, sections, headwords, senses, with every label, dagger and order

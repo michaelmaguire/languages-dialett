@@ -18,6 +18,7 @@ fi
 echo "cldf: valid"
 .venv/bin/python step4_build_pages.py                        # cldf/ -> Markdown pages
 .venv/bin/python step5_build_pdfs.py                         # cldf/ -> PDFs
+.venv/bin/python step6_build_app_data.py                     # models -> cache/app_data.json (the phone app)
 { cat templates/cldf_readme_intro.md; echo; .venv/bin/cldf markdown ../cldf/Dictionary-metadata.json 2>/dev/null; } \
     > ../cldf/README.md
 # the tests of the generated material and the lint (tests/, owner 2026-10-29): the build fails if one fails
