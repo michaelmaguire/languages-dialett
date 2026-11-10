@@ -12,7 +12,7 @@
 |---|---|---|
 | bürlando | bürlaa/bürlada | 1st conjugation: infinitive in -à (Italian -are) |
 
-**Also:** *bürlà giò* (cadere, to fall)
+**Also:** *bürlà denta* (cascarci, to fall in, to fall for it); *bürlà giò* (cadere, to fall down)
 
 Il participio femminile: con *ves* concorda con il soggetto (*sum rivada*); con *vegh* con un pronome oggetto messo prima (*l’u tirada*, l’ho tirata).  
 The feminine participle: with *ves* it agrees with the subject (*sum rivada*); with *vegh* with an object pronoun placed before it (*l’u tirada*, I pulled it, a feminine thing).

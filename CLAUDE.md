@@ -275,7 +275,9 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   `etc/verb_details.csv` with a particle in `dialect` and `merge_into` = the base verb's Italian does it
   (`phrasal_verbs()` in step 4); in `cldf/` the phrasal verb keeps its entry and paradigm, with `Base_Verb` = the
   base verb's entry. Base verbs made for this: *tacà* (attaccare), *tirà* (tirare), *mandà* (mandare), *catà*
-  (cogliere), *bürlà* (cascare).
+  (cogliere; *catà* alone = to seize, *catà fö* = to pick, owner), *bürlà* (cascare; also *bürlà giò*, *bürlà denta*, owner).
+  A verb with a particle that no lesson conjugates (*bürlà denta*) gets its entry from its `verb_details.csv` row
+  with basis `attested`, plus a form found in a document in `verb_forms_from_texts.csv` so the entry has a source.
 - **Verb forms:** a form found in a document always wins; gaps predicted by `verb_conjugator.py` from
   lessons 8, 17, 18. Auxiliary *ves* for reflexives, compounds of `na`, and `aux=essere` in
   `etc/verb_details.csv`; otherwise *vegh*.

@@ -235,3 +235,11 @@ def test_pdf_and_pages_list_the_same_headwords_in_the_same_order():
             i = next((i for i, (x, y) in enumerate(zip(pdf_heads, md_heads)) if x != y), min(len(pdf_heads), len(md_heads)))
             bad.append(f"{md}: first difference at row {i}: PDF {pdf_heads[i:i + 2]}, page {md_heads[i:i + 2]}")
     report(bad, "look-ups that differ between the PDF and the pages")
+
+
+def test_no_empty_source_links():
+    """2026-11-10: bürlà denta, a verb with a particle given only in etc/verb_details.csv, had no source, and its
+    dictionary row linked to the bare raw repository (…/blob/main/). Every source link must name a document."""
+    failures = [f"{p.name}:{n}: {line[:80]}" for p in sorted(DICT.glob("*.md"))
+                for n, line in enumerate(p.read_text(encoding="utf-8").splitlines(), 1) if "/blob/main/)" in line]
+    report(failures, "dictionary rows linking to no document")

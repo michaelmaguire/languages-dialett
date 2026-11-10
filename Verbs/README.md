@@ -22,7 +22,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [cantà](canta-cantare.md) | cantare | to sing | 1st conjugation | 41 of 68 |
 | [capì](capi-capire.md) | capire | to understand | 4th conjugation | 9 of 68 |
 | [capità](capita-capitare.md) † | capitare | to happen | 1st conjugation | 1 of 68 |
-| [catà](cata-cogliere.md) | cogliere | to pick | 1st conjugation | 29 of 68 |
+| [catà](cata-cogliere.md) | cogliere | to seize | 1st conjugation | 29 of 68 |
 | [cercà](cerca-cercare.md) | cercare | to look for | 1st conjugation | 12 of 68 |
 | [ciamà](ciama-chiamare.md) † | chiamare | to call | 1st conjugation | 2 of 68 |
 | [ciapà](ciapa-prendere.md) | prendere | to take | 1st conjugation | 50 of 68 |

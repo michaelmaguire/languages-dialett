@@ -6,13 +6,13 @@
 
 | Dialett | Italiano | English |
 |---|---|---|
-| **catà** | cogliere | to pick |
+| **catà** | cogliere | to seize |
 
 | Gerundio | Participio passato | Verb class |
 |---|---|---|
 | catando | catà | 1st conjugation: infinitive in -à (Italian -are) |
 
-**Also:** *catà fö* (scegliere, to choose)
+**Also:** *catà fö* (scegliere, to pick, to choose)
 
 ## Indicativo
 

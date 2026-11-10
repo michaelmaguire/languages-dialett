@@ -166,7 +166,7 @@
 |---|---|---|---|---|---|
 | cacciavite | casciavit *s. m., pl. casciavit* | screwdriver | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-20-1234-Cors%20da%20dialet%20da%20R%C3%B6gn%2013a%20leziun.docx) |
 | caco | caco *s. m., pl. caci* | persimmon | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-25-1139-Cors%20da%20dialet%20da%20R%C3%B6gn%2014a%20leziun.docx) |
-| cadere | bürlà giò / bürlà giô *v. (bürli giò / bürli giô, bürlaa)* | to fall | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
+| cadere | bürlà giò / bürlà giô *v. (bürli giò / bürli giô, bürlaa)* | to fall down | Rögn | duplicate of a sense of burla-gio | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-Cors%20da%20dialett%20da%20R%C3%B6gn%20al%20congiuntif.docx) |
 | caffè | cafè *s. m., pl. cafè* | coffee | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-04-06-1703-dialoghi%20a%20Lugano.pdf) |
 | Caffettiera Moka | cafetèra *s. f., pl. cafetèr* | moka coffee pot | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-20-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx) |
 | cagliata | quagiada *s. f., pl. quagiad* | curd |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
@@ -211,6 +211,7 @@
 | casa | cà *s. f., pl. cà* | house |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
 | casalinga | dona da cà *s. f., pl. donn da cà* | housewife | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
 | casaro | furmagiatt *s. m., pl. furmagiatt* | cheesemaker | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
+| cascarci | bürlà denta *v. (bürli denta †, bürlaa denta)* | to fall in, to fall for it | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-23-0951-cors%20da%20dialet%20da%20R%C3%B6gn%2010a%20leziun.docx) |
 | cascare | bürlà *v. (bürli, bürlaa)* | to fall, to tumble | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
 | casino | casin *s. m., pl. casin* | mess / racket | Basso Ceresio | also: rebelótt | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-03-05-1249-Dizionario%20con%20filastrocche%20di%20R.%20Gaggini.docx) |
 | caso | cas *s. m., pl. cas* | case; chance (a cas, at random) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
@@ -275,7 +276,7 @@
 | civetta | scigueta *s. f., pl. sciguett* | little owl | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-27-1529-cors%20da%20dialet%20da%20R%C3%B6gn%206a%20leziun.docx) |
 | classeur | classeur *s. m., pl. classeur* | binder | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/notes_added_by_hand.csv) |
 | coda | coa *s. f., pl. co* | queue; tail | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
-| cogliere | catà *v. (cati, catà)* | to pick | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
+| cogliere | catà *v. (cati, catà)* | to seize | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
 | cognata | cügnada *s. f., pl. cügnad; m. cügnaa* | sister-in-law | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-13-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%204a%20leziun.docx) |
 | cognato | cügnaa *s. m., pl. cügnaa; f. cügnada* | brother-in-law | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-13-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%204a%20leziun.docx) |
 | coi | cui *prep.* | with the (pl.) | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2011a%20leziun.docx) |
@@ -900,7 +901,7 @@
 | ortensia | urtensia *s. f., pl. urtensi* | hydrangea | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-25-1139-Cors%20da%20dialet%20da%20R%C3%B6gn%2014a%20leziun.docx) |
 | orto | löch *s. m., pl. löch* | vegetable garden | Basso Ceresio | also: ort | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-03-05-1249-Dizionario%20con%20filastrocche%20di%20R.%20Gaggini.docx) |
 | osare | voscà *v. (voschi, voscaa)* | to dare | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf) |
-| osservare | uservà *v. (uservi †, uservaa)* | to observe, to watch | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/) |
+| osservare | uservà *v. (uservi †, uservaa)* | to observe, to watch | Rögn |  |  |
 | oste | osct *s. m., pl. osct* | innkeeper | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx) |
 | ostile | antipatic/antipatica *agg.* | hostile | Rögn | contrario: curdial (cordiale) | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx) |
 | ottanta | vuttanta *num.* | eighty |  |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/Rosetta%20Stone_%20English%2C%20Italian%2C%20Ticino%20Dialect.xlsx) |
@@ -1072,7 +1073,7 @@
 | pronto | prunt/prunta *agg.* | ready | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-24-0946-100%20frasi%20di%20persone%20in%20montagna.docx) |
 | proprio | propi / propri *avv.* | really, just | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-04-04-1529-Cors%20da%20dialet%20da%20R%C3%B6gn%2011a%20leziun.docx) |
 | prosciutto | prosciütt *s. m., pl. prosciütt* | ham | Basso Ceresio | also: giambôn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-03-05-1249-Dizionario%20con%20filastrocche%20di%20R.%20Gaggini.docx) |
-| protestare | prutesctà *v. (prutescti †, prutesctaa)* | to protest | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/) |
+| protestare | prutesctà *v. (prutescti †, prutesctaa)* | to protest | Rögn |  |  |
 | provare | pruà *v. (prui †, pruaa †)* | to try | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf) |
 | prudente | prüdent/prüdenta † *agg.* | prudent, careful | Rögn | contrario: imprüdent (imprudente) | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx) |
 | prugna | brügna *s. f., pl. brügn* | plum | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
@@ -1214,7 +1215,7 @@
 | scarpe | scarp *s. f., pl. scarp* | shoes | Basso Ceresio | also: sciavatt | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-03-05-1249-Dizionario%20con%20filastrocche%20di%20R.%20Gaggini.docx) |
 | scarso | scars/scarsa † *agg.* | scarce | Rögn | contrario: bundant (abbondante) | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-10-27-1006-Aggettivi%20e%20contrari.docx) |
 | scatola | scatula *s. f., pl. scatul* | box | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-20-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx) |
-| scegliere | catà fö / cata fö *v. (cati fö, catà)* | to choose | Rögn | catà viene dal latino CAPTARE «cercare di prendere» (da cui anche il francese acheter, comprare); con fö «fuori» vuol dire scegliere, letteralmente «prendere fuori». † | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
+| scegliere | catà fö / cata fö *v. (cati fö, catà)* | to pick, to choose | Rögn | duplicate of a sense of cata-fo<br>catà viene dal latino CAPTARE «cercare di prendere» (da cui anche il francese acheter, comprare); con fö «fuori» vuol dire scegliere, letteralmente «prendere fuori». † | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
 | scendere | na giò / na giô *v. (vo giò / vo giô, nai)* | to go down | Rögn | na + giò «giù» (latino DEORSUM): scendere. Si coniuga come na, con l’ausiliare ves. † | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx) |
 | schiaccia patate | schiscia patati *s. m., pl. schiscia patati* | potato masher | Rögn |  | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-20-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%205a%20leziun.docx) |
 | schiacciare | schiscià *v. (schisci, schisciaa †)* | to crush | Rögn | Voce imitativa, come l’italiano schiacciare; dalla stessa radice il milanese schiscetta, il portavivande. † | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-28-0951-7a%20leziun%20da%20dialet%20da%20R%C3%B6gn.docx) |

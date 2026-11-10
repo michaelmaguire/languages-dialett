@@ -68,7 +68,7 @@ ENDINGS = {  # class -> tense -> endings; "@3" = special 3rd person singular
 }
 ENDINGS["3"] = ENDINGS["2"]
 STRESSED_TENSES = {"presente", "futuro", "condizionale presente"}
-PARTICLES = {"giò", "sü", "sù", "föra", "fö", "via", "insema", "innanz", "indré", "ben", "dré", "là"}
+PARTICLES = {"giò", "sü", "sù", "föra", "fö", "via", "insema", "innanz", "indré", "ben", "dré", "là", "denta", "dent"}
 
 
 def plain(s):

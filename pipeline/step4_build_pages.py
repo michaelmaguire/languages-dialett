@@ -79,6 +79,8 @@ def cell(s):
 
 
 def src_link(source, depth=1, text=None):
+    if not source:                       # a form only the owner confirmed (prutesctà): no document to link to
+        return ""
     label = text or re.sub(r"\.(docx|pdf|txt)$", "", source)
     return f"[{cell(label)}]({RAW_URL}/blob/main/{quote(source)})"     # depth: kept for callers, unused
 
@@ -355,9 +357,10 @@ def verb_tables(verbs):
             found[key(r["italian"])].append(r["source"])
     for k, m in manual.items():
         # an inferred verb asked for by the owner (guardas, the reflexive of guardà) gets a page with no form
-        # found at all: every form is then predicted (†)
-        if m.get("dialect") and not m.get("merge_into") and (k in found or m.get("basis") == "inferred") \
-                and m["italian"] not in out:
+        # found at all: every form is then predicted (†). So does a verb with a particle whose infinitive is
+        # found (bürlà denta, owner 2026-11-10): its entry is listed under Also on the base verb's page
+        if m.get("dialect") and (not m.get("merge_into") or k in phrasal) and m["italian"] not in out and \
+                (k in found or m.get("basis") == "inferred" or k in phrasal and m.get("basis") == "attested"):
             out[m["italian"]] = {"dialect": [], "forms": defaultdict(lambda: defaultdict(list)),
                                  "italian": defaultdict(dict), "sources": list(dict.fromkeys(found[k])), "aliases": []}
     for name, e in out.items():

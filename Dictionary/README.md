@@ -4,9 +4,9 @@
 
 | Look up by | Columns | Entries |
 |---|---|---|
-| [Italiano](italiano.md) | Italiano → Dialett → English | 1489 |
-| [Dialett](dialett.md) | Dialett → Italiano → English | 1548 |
-| [English](english.md) | English → Dialett → Italiano | 1600 |
+| [Italiano](italiano.md) | Italiano → Dialett → English | 1492 |
+| [Dialett](dialett.md) | Dialett → Italiano → English | 1551 |
+| [English](english.md) | English → Dialett → Italiano | 1606 |
 
 **[arogno-dictionary.pdf](arogno-dictionary.pdf)** has all three for printing.
 
