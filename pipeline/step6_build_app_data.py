@@ -15,6 +15,7 @@ What changes from the models:
 - grammar text keeps *italics* and **bold**; links to other pages become their label, since those pages
   (TO-CHECK.md, Verbs/README.md) are not in the app. Markdown tables become header and rows of cells.
 - expressions: as in the model, by topic, sayings then phrases.
+- verbs with a particle have no page of their own: each is in its base verb's "also", as on the pages.
 Nothing is added that the pages do not already publish: no lines of texts (see CLAUDE.md, the privacy rule).
 """
 import argparse
@@ -75,6 +76,8 @@ def verbs(book):
             " / ".join(c["text"] for c in v["participle"]["cells"]),
             "participleInferred": any(c["inferred"] for c in v["participle"]["cells"]),
             "note": v["note"], "noteEnglish": v["note_en"], "found": v["found"], "sources": v["sources"],
+            # verbs with a particle (na giò, tacà sü), listed on their base verb's page (owner, 2026-11-10)
+            "also": [{"dialect": a["dialect"], "italian": a["italian"], "english": a["english"]} for a in v.get("also", [])],
             "tenses": tenses})
     return out
 

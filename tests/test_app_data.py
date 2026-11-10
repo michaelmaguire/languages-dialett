@@ -60,3 +60,11 @@ def test_verb_tables_complete(data):
     """Every tense of a verb page has a form for each person, with the inferred ones marked."""
     bad = [f"{v['id']} {t['name']}" for v in data["verbs"] for t in v["tenses"] if not t["forms"] or any(not f["text"] for f in t["forms"])]
     report(bad, "verb tenses with missing forms")
+
+
+def test_verbs_with_a_particle(data):
+    """Each verb with a particle (na giò, tacà sü) is on its base verb's page in the app, as on the pages
+    (owner, 2026-11-10): the app finds it there by search."""
+    model = {v["file"]: [a["dialect"] for a in v.get("also", [])] for v in verbs_model.load()["verbs"]}
+    app_also = {v["id"] + ".md": [a["dialect"] for a in v["also"]] for v in data["verbs"]}
+    assert model == app_also
