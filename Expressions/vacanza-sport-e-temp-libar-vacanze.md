@@ -25,6 +25,7 @@ Sayings, idioms and phrases about this topic, from all the course documents. ⚠
 | Dialett | Italiano | English | Region | Source |
 |---|---|---|---|---|
 | A che scquadra ta ga tegnat? Ga tegni al Milan. | Che squadra tifi? Tifo Milan. | Which team do you support? I support Milan. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
+| l'a fai na foto | scattò una foto | he/she took a photo | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/notes_added_by_hand.csv) |
 | A ghè ‘n setée panuramic che ‘l sumea belissim. | C’è un sentiero panoramico che sembra bellissimo. | There’s a scenic path that looks beautiful. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-17-0948-%F0%9F%8C%B4%20100%20frasi%20utili%20per%20quattro%20persone%20in%20vacanza%20al%20mare.docx) |
 | A pensava mia che al füdess inscì rilassant caminà. | Non pensavo fosse così rilassante camminare. | I didn’t think walking was so relaxing. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-24-0946-100%20frasi%20di%20persone%20in%20montagna.docx) |
 | A vedevi mia l’ura da sentì al rumur di und. | Non vedevo l’ora di sentire il rumore delle onde. | I couldn’t wait to hear the sound of the waves. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2026-09-17-0948-%F0%9F%8C%B4%20100%20frasi%20utili%20per%20quattro%20persone%20in%20vacanza%20al%20mare.docx) |

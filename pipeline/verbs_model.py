@@ -5,7 +5,7 @@ the persons of each table, and which forms and columns are inferred. step4_build
 page per verb; step5_build_pdfs.py fills templates/verbs.html.j2.
 
     book = build(tables, eng)      # tables, eng: the verbs and English of lexicon.for_pages()
-    book["verbs"][0]               # name, file, dialect, italian, english, verb_class, gerund, participle, ...
+    book["verbs"][0]               # name, file, dialect, italian, english, verb_class, gerund, participle, also, ...
         ["sections"][0]            # title ("" for the second indicative table, under the first's heading)
             ["tenses"][0]          # name, whole (inferred throughout: † once, in the heading)
                 ["cells"][0]       # person, label, text, inferred
@@ -53,6 +53,8 @@ def verb(name, e, eng):
             # rubaa/rubada: the participle with its feminine, and the note on when the feminine is used
             "participle": dict(pp, with_feminine=feminine.with_feminine(raw_pp) if raw_pp != "–" else raw_pp),
             "note": e.get("note") or "", "note_en": e.get("note_en", ""), "sources": e["sources"],
+            # the verbs made from this one with a particle (owner, 2026-11-10): tacà sü, tacà là on tacà's page
+            "also": [dict(a, english=pages.to_verb(a["english"])) for a in e.get("also", [])],
             "found": f"{sum(not c[1] and c[0] != '–' for c in cells)} of {len(cells)}",
             "inferred": sum(c[1] for c in cells),
             "sections": [{"title": title, "tenses": [column(g, t, persons) for t in tenses]}

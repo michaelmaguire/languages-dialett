@@ -12,6 +12,8 @@
 |---|---|---|
 | metendo | metüü/metüda | 3rd conjugation: infinitive with no ending (Italian -ere, unstressed ending) |
 
+**Also:** *met insema* (unire, to join); *met sü* (indossare, to put on / wear)
+
 Il participio femminile: con *ves* concorda con il soggetto (*sum rivada*); con *vegh* con un pronome oggetto messo prima (*l’u tirada*, l’ho tirata).  
 The feminine participle: with *ves* it agrees with the subject (*sum rivada*); with *vegh* with an object pronoun placed before it (*l’u tirada*, I pulled it, a feminine thing).
 
@@ -25,7 +27,7 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 |---|---|---|---|
 | *mi* | meti | metarò | avrò metüü |
 | *ti* | ta metat | ta metaret | ta avret metüü |
-| *le / lü* | la/al meta | la/al metarà | l’avrà metüü |
+| *le / lü* | la/al meta / la/al met | la/al metarà | l’avrà metüü |
 | *nüm* | metum | metarem | avrem metüü |
 | *vialtri* | metuf | metarii | avrii metüü |
 | *lur* | i met | i metaran | i avran metüü |
@@ -69,6 +71,6 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *nüm* | metem | metem mia |
 | *vialtri* | metii | metii mia |
 
-**Sources:** [2023-02-06-0000-Cors da dialett da Rögn 3a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-06-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%203a%20leziun.docx); [2025-06-01-1159-il gerundio](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf); [2025-05-07-0930-imperativo](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf)
+**Sources:** [2023-02-06-0000-Cors da dialett da Rögn 3a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-06-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%203a%20leziun.docx); [2025-06-01-1159-il gerundio](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf); [2025-05-07-0930-imperativo](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf); [2023-03-14-1034-cors da dialet da Rögn 9a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-14-1034-cors%20da%20dialet%20da%20R%C3%B6gn%209a%20leziun.docx)
 
 [← all verbs](README.md)

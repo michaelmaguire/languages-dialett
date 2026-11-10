@@ -12,6 +12,8 @@
 |---|---|---|
 | nando | nai/naia | irregular |
 
+**Also:** *na föra* (uscire, to go out); *na giò* (scendere, to go down); *nà innanz* (procedere, to proceed); *na sù* (salire, to go up)
+
 Il participio femminile: con *ves* concorda con il soggetto (*sum rivada*); con *vegh* con un pronome oggetto messo prima (*l’u tirada*, l’ho tirata).  
 The feminine participle: with *ves* it agrees with the subject (*sum rivada*); with *vegh* with an object pronoun placed before it (*l’u tirada*, I pulled it, a feminine thing).
 
@@ -25,10 +27,10 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 |---|---|---|---|
 | *mi* | vo | narò / naroo | sarò nai (a) |
 | *ti* | ta ve(t) | ta naré(t) | ta saré(t) nai (a) |
-| *le / lü* | la/al va | la/al narà | la/al sarà nai (a) |
+| *le / lü* | la/al va / la/al ve | la/al narà | la/al sarà nai (a) |
 | *nüm* | vem / nem / nemm | narem | sarem nai |
 | *vialtri* | vii | narii | sarii nai |
-| *lur* | i van | i naran | i saran nai |
+| *lur* | i van / i va(n) | i naran / i narà | i saran nai / i sarà nai |
 
 |  | Imperfetto | Passato prossimo | Trapassato prossimo |
 |---|---|---|---|
@@ -37,7 +39,7 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *le / lü* | la/al nava | l’è naia (lü l’è nai) | l’eva nai (a) |
 | *nüm* | navum | sem nai | sevum nai |
 | *vialtri* | navuf | sii nai | sevuf nai |
-| *lur* | i navan | ié nai | i evan nai |
+| *lur* | i navan / i nava | ié nai | i evan nai / i eva nai |
 
 ## Condizionale
 
@@ -69,6 +71,6 @@ The feminine participle: with *ves* it agrees with the subject (*sum rivada*); w
 | *nüm* | nem † | nem mia |
 | *vialtri* | nii | nii mia |
 
-**Sources:** [2023-01-30-0000-Cors da dialett da Rögn lezium 1 e 2](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx); [2024-01-29-2020-Il Condizionale Presente](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx); [2023-05-15-0000-cors da dialet da Rögn 17a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-05-15-0000-cors%20da%20dialet%20da%20R%C3%B6gn%2017a%20leziun.pdf); [2025-06-01-1159-il gerundio](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf); [2025-05-07-0930-imperativo](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf); [2023-03-07-1652-Cors da dialet da Rögn 8a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-07-1652-Cors%20da%20dialet%20da%20R%C3%B6gn%208a%20leziun.docx); [2024-09-24-1032-Cors da dialett da Rögn al congiuntif](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-Cors%20da%20dialett%20da%20R%C3%B6gn%20al%20congiuntif.docx)
+**Sources:** [2023-01-30-0000-Cors da dialett da Rögn lezium 1 e 2](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-01-30-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%20lezium%201%20e%202.docx); [2024-01-29-2020-Il Condizionale Presente](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-01-29-2020-Il%20Condizionale%20Presente.docx); [2023-05-15-0000-cors da dialet da Rögn 17a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-05-15-0000-cors%20da%20dialet%20da%20R%C3%B6gn%2017a%20leziun.pdf); [2025-06-01-1159-il gerundio](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-06-01-1159-il%20gerundio.pdf); [2025-05-07-0930-imperativo](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-05-07-0930-imperativo.pdf); [2023-03-07-1652-Cors da dialet da Rögn 8a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-03-07-1652-Cors%20da%20dialet%20da%20R%C3%B6gn%208a%20leziun.docx); [2024-09-24-1032-Cors da dialett da Rögn al congiuntif](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2024-09-24-1032-Cors%20da%20dialett%20da%20R%C3%B6gn%20al%20congiuntif.docx); [2023-02-06-0000-Cors da dialett da Rögn 3a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-02-06-0000-Cors%20da%20dialett%20da%20R%C3%B6gn%203a%20leziun.docx); [2023-09-27-1739-cors da dialet da Rögn 18a leziun](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2023-09-27-1739-cors%20da%20dialet%20da%20R%C3%B6gn%2018a%20leziun.docx)
 
 [← all verbs](README.md)

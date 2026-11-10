@@ -17,6 +17,7 @@
 [%- set pp = v.participle.cells[0] -%]
 <section id="v-[[ loop.index ]]" class="[% if v.note %]noted [% endif %]{{side:v-[[ loop.index ]]}}"><h1>[[ v.dialect | e ]][% if v.infinitive_inferred %][[ dagger ]][% endif %]</h1>
 <p class="sub"><i>italiano</i> [[ v.italian | e ]][% if v.english %] &nbsp;·&nbsp; <i>English</i> [[ v.english | e ]][% endif %]</p>
+[%- if v.also %]<p class="also"><b>Also</b> [% for a in v.also %][% if not loop.first %] <span class="sep">·</span>[% endif %]<span class="nw"><i>[[ a.dialect | e ]]</i> [[ a.italian | e ]][% if a.english %], [[ a.english | e ]][% endif %]</span>[% endfor %]</p>[% endif -%]
 [#- the participle with its feminine on one line (rubaa/rubada); a wrapped line breaks before a ·, not after -#]
 <p class="meta"><b>Gerundio</b>[[ mark(v.gerund) ]] [[ form(v.gerund.cells[0]) ]] <span class="sep">·</span><b>Participio passato</b>[[ mark(v.participle) ]] [% if pp.text != "–" %]<span class="nw">[[ v.participle.with_feminine | e ]]</span>[% if pp.inferred %][[ dagger ]][% endif %][% else %][[ form(pp) ]][% endif %] <span class="sep">·</span><span class="nw">[[ v.class_short | e ]]</span></p>
 [%- if v.note %]<p class="vnote"><span>[[ v.note | e ]]</span><span>[[ v.note_en | e ]]</span></p>[% endif -%]

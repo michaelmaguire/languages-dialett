@@ -273,16 +273,16 @@ amarsi,vöras ben,yes,2nd conjugation,gerundio,-,vörendos ben,
 amarsi,vöras ben,yes,2nd conjugation,participio passato,-,vurüü,yes
 andare,na / nà,,irregular,presente,1s,vo,
 andare,na / nà,,irregular,presente,2s,ta ve(t),
-andare,na / nà,,irregular,presente,3s,la/al va,
+andare,na / nà,,irregular,presente,3s,la/al va / la/al ve,
 andare,na / nà,,irregular,presente,1p,vem / nem / nemm,
 andare,na / nà,,irregular,presente,2p,vii,
-andare,na / nà,,irregular,presente,3p,i van,
+andare,na / nà,,irregular,presente,3p,i van / i va(n),
 andare,na / nà,,irregular,imperfetto,1s,nava,
 andare,na / nà,,irregular,imperfetto,2s,ta navat,
 andare,na / nà,,irregular,imperfetto,3s,la/al nava,
 andare,na / nà,,irregular,imperfetto,1p,navum,
 andare,na / nà,,irregular,imperfetto,2p,navuf,
-andare,na / nà,,irregular,imperfetto,3p,i navan,
+andare,na / nà,,irregular,imperfetto,3p,i navan / i nava,
 andare,na / nà,,irregular,passato prossimo,1s,sum nai (femminile = naia),
 andare,na / nà,,irregular,passato prossimo,2s,ta sé(t) nai (femminile = naia),
 andare,na / nà,,irregular,passato prossimo,3s,l’è naia (lü l’è nai),
@@ -294,19 +294,19 @@ andare,na / nà,,irregular,trapassato prossimo,2s,ta sevat nai (a),
 andare,na / nà,,irregular,trapassato prossimo,3s,l’eva nai (a),
 andare,na / nà,,irregular,trapassato prossimo,1p,sevum nai,
 andare,na / nà,,irregular,trapassato prossimo,2p,sevuf nai,
-andare,na / nà,,irregular,trapassato prossimo,3p,i evan nai,
+andare,na / nà,,irregular,trapassato prossimo,3p,i evan nai / i eva nai,
 andare,na / nà,,irregular,futuro,1s,narò / naroo,
 andare,na / nà,,irregular,futuro,2s,ta naré(t),
 andare,na / nà,,irregular,futuro,3s,la/al narà,
 andare,na / nà,,irregular,futuro,1p,narem,
 andare,na / nà,,irregular,futuro,2p,narii,
-andare,na / nà,,irregular,futuro,3p,i naran,
+andare,na / nà,,irregular,futuro,3p,i naran / i narà,
 andare,na / nà,,irregular,futuro prossimo,1s,sarò nai (a),
 andare,na / nà,,irregular,futuro prossimo,2s,ta saré(t) nai (a),
 andare,na / nà,,irregular,futuro prossimo,3s,la/al sarà nai (a),
 andare,na / nà,,irregular,futuro prossimo,1p,sarem nai,
 andare,na / nà,,irregular,futuro prossimo,2p,sarii nai,
-andare,na / nà,,irregular,futuro prossimo,3p,i saran nai,
+andare,na / nà,,irregular,futuro prossimo,3p,i saran nai / i sarà nai,
 andare,na / nà,,irregular,condizionale presente,1s,naria/naressa,
 andare,na / nà,,irregular,condizionale presente,2s,ta naressat,
 andare,na / nà,,irregular,condizionale presente,3s,naria/naressa,
@@ -339,74 +339,6 @@ andare,na / nà,,irregular,imperativo negativo,1p,nem mia,
 andare,na / nà,,irregular,imperativo negativo,2p,nii mia,
 andare,na / nà,,irregular,gerundio,-,nando,
 andare,na / nà,,irregular,participio passato,-,nai,
-appendere,tacà sü,yes,1st conjugation,presente,1s,tachi sü,yes
-appendere,tacà sü,yes,1st conjugation,presente,2s,ta tacat sü,yes
-appendere,tacà sü,yes,1st conjugation,presente,3s,la/al taca sü,yes
-appendere,tacà sü,yes,1st conjugation,presente,1p,tacum sü,yes
-appendere,tacà sü,yes,1st conjugation,presente,2p,tacuf sü,yes
-appendere,tacà sü,yes,1st conjugation,presente,3p,i tacan sü,yes
-appendere,tacà sü,yes,1st conjugation,imperfetto,1s,tacava sü,yes
-appendere,tacà sü,yes,1st conjugation,imperfetto,2s,ta tacavat sü,yes
-appendere,tacà sü,yes,1st conjugation,imperfetto,3s,la/al tacava sü,yes
-appendere,tacà sü,yes,1st conjugation,imperfetto,1p,tacavum sü,yes
-appendere,tacà sü,yes,1st conjugation,imperfetto,2p,tacavuf sü,yes
-appendere,tacà sü,yes,1st conjugation,imperfetto,3p,i tacavan sü,yes
-appendere,tacà sü,yes,1st conjugation,passato prossimo,1s,u tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,passato prossimo,2s,te tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,passato prossimo,3s,l’a tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,passato prossimo,1p,em tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,passato prossimo,2p,ii tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,passato prossimo,3p,i an tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,trapassato prossimo,1s,eva tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,trapassato prossimo,2s,ta evat tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,trapassato prossimo,3s,l’eva tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,trapassato prossimo,1p,evum tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,trapassato prossimo,2p,evuf tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,trapassato prossimo,3p,i evan tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro,1s,tacarò sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro,2s,ta tacaret sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro,3s,la/al tacarà sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro,1p,tacarem sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro,2p,tacarii sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro,3p,i tacaran sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro prossimo,1s,avrò tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro prossimo,2s,ta avret tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro prossimo,3s,l’avrà tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro prossimo,1p,avrem tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro prossimo,2p,avrii tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,futuro prossimo,3p,i avran tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale presente,1s,tacaria/tacaressa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale presente,2s,ta tacariat/tacaressat sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale presente,3s,la/al tacaria/tacaressa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale presente,1p,tacarium/tacaressum sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale presente,2p,tacariuf/tacaressuf sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale presente,3p,i tacarian/tacaressan sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale passato,1s,avria/avress tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale passato,2s,t’avriat/t’avressat tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale passato,3s,l’avria/l’avressa tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale passato,1p,avrium/avressum tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale passato,2p,avriuf/avressuf tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,condizionale passato,3p,i avrian/i avressan tacaa sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo presente,1s,taca sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo presente,2s,ta tacat sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo presente,3s,la/al taca sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo presente,1p,tacum sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo presente,2p,tacuf sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo presente,3p,i tacan sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo imperfetto,1s,tacassa sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo imperfetto,2s,ta tacassat sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo imperfetto,3s,la/al tacass sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo imperfetto,1p,tacassum sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo imperfetto,2p,tacassuf sü,yes
-appendere,tacà sü,yes,1st conjugation,congiuntivo imperfetto,3p,i tacassan sü,yes
-appendere,tacà sü,yes,1st conjugation,imperativo,2s,taca sü,yes
-appendere,tacà sü,yes,1st conjugation,imperativo,1p,tachem sü,yes
-appendere,tacà sü,yes,1st conjugation,imperativo,2p,tachii sü,yes
-appendere,tacà sü,yes,1st conjugation,imperativo negativo,2s,taca mia sü,
-appendere,tacà sü,yes,1st conjugation,imperativo negativo,1p,tachem mia sü,
-appendere,tacà sü,yes,1st conjugation,imperativo negativo,2p,tachii mia sü,
-appendere,tacà sü,yes,1st conjugation,gerundio,-,tacando sü,
-appendere,tacà sü,yes,1st conjugation,participio passato,-,tacaa sü,
 aprire,vert / vèrt,yes,3rd conjugation,presente,1s,verdi,yes
 aprire,vert / vèrt,yes,3rd conjugation,presente,2s,ta verdat,yes
 aprire,vert / vèrt,yes,3rd conjugation,presente,3s,la/al vert,yes
@@ -679,6 +611,74 @@ aspettare,scpetà,yes,1st conjugation,imperativo negativo,1p,scpetem mia,yes
 aspettare,scpetà,yes,1st conjugation,imperativo negativo,2p,scpetii mia,yes
 aspettare,scpetà,yes,1st conjugation,gerundio,-,scpetando,yes
 aspettare,scpetà,yes,1st conjugation,participio passato,-,scpetaa,yes
+attaccare,tacà,,1st conjugation,presente,1s,tachi,yes
+attaccare,tacà,,1st conjugation,presente,2s,ta tacat,yes
+attaccare,tacà,,1st conjugation,presente,3s,la/al taca,yes
+attaccare,tacà,,1st conjugation,presente,1p,tacum,yes
+attaccare,tacà,,1st conjugation,presente,2p,tacuf,yes
+attaccare,tacà,,1st conjugation,presente,3p,i tacan,yes
+attaccare,tacà,,1st conjugation,imperfetto,1s,tacava,yes
+attaccare,tacà,,1st conjugation,imperfetto,2s,ta tacavat,yes
+attaccare,tacà,,1st conjugation,imperfetto,3s,la/al tacava,yes
+attaccare,tacà,,1st conjugation,imperfetto,1p,tacavum,yes
+attaccare,tacà,,1st conjugation,imperfetto,2p,tacavuf,yes
+attaccare,tacà,,1st conjugation,imperfetto,3p,i tacavan,yes
+attaccare,tacà,,1st conjugation,passato prossimo,1s,u tacaa,yes
+attaccare,tacà,,1st conjugation,passato prossimo,2s,te tacaa,yes
+attaccare,tacà,,1st conjugation,passato prossimo,3s,l’a tacaa,yes
+attaccare,tacà,,1st conjugation,passato prossimo,1p,em tacaa,yes
+attaccare,tacà,,1st conjugation,passato prossimo,2p,ii tacaa,yes
+attaccare,tacà,,1st conjugation,passato prossimo,3p,i an tacaa,yes
+attaccare,tacà,,1st conjugation,trapassato prossimo,1s,eva tacaa,yes
+attaccare,tacà,,1st conjugation,trapassato prossimo,2s,ta evat tacaa,yes
+attaccare,tacà,,1st conjugation,trapassato prossimo,3s,l’eva tacaa,yes
+attaccare,tacà,,1st conjugation,trapassato prossimo,1p,evum tacaa,yes
+attaccare,tacà,,1st conjugation,trapassato prossimo,2p,evuf tacaa,yes
+attaccare,tacà,,1st conjugation,trapassato prossimo,3p,i evan tacaa,yes
+attaccare,tacà,,1st conjugation,futuro,1s,tacarò,yes
+attaccare,tacà,,1st conjugation,futuro,2s,ta tacaret,yes
+attaccare,tacà,,1st conjugation,futuro,3s,la/al tacarà,yes
+attaccare,tacà,,1st conjugation,futuro,1p,tacarem,yes
+attaccare,tacà,,1st conjugation,futuro,2p,tacarii,yes
+attaccare,tacà,,1st conjugation,futuro,3p,i tacaran,yes
+attaccare,tacà,,1st conjugation,futuro prossimo,1s,avrò tacaa,yes
+attaccare,tacà,,1st conjugation,futuro prossimo,2s,ta avret tacaa,yes
+attaccare,tacà,,1st conjugation,futuro prossimo,3s,l’avrà tacaa,yes
+attaccare,tacà,,1st conjugation,futuro prossimo,1p,avrem tacaa,yes
+attaccare,tacà,,1st conjugation,futuro prossimo,2p,avrii tacaa,yes
+attaccare,tacà,,1st conjugation,futuro prossimo,3p,i avran tacaa,yes
+attaccare,tacà,,1st conjugation,condizionale presente,1s,tacaria/tacaressa,yes
+attaccare,tacà,,1st conjugation,condizionale presente,2s,ta tacariat/tacaressat,yes
+attaccare,tacà,,1st conjugation,condizionale presente,3s,la/al tacaria/tacaressa,yes
+attaccare,tacà,,1st conjugation,condizionale presente,1p,tacarium/tacaressum,yes
+attaccare,tacà,,1st conjugation,condizionale presente,2p,tacariuf/tacaressuf,yes
+attaccare,tacà,,1st conjugation,condizionale presente,3p,i tacarian/tacaressan,yes
+attaccare,tacà,,1st conjugation,condizionale passato,1s,avria/avress tacaa,yes
+attaccare,tacà,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat tacaa,yes
+attaccare,tacà,,1st conjugation,condizionale passato,3s,l’avria/l’avressa tacaa,yes
+attaccare,tacà,,1st conjugation,condizionale passato,1p,avrium/avressum tacaa,yes
+attaccare,tacà,,1st conjugation,condizionale passato,2p,avriuf/avressuf tacaa,yes
+attaccare,tacà,,1st conjugation,condizionale passato,3p,i avrian/i avressan tacaa,yes
+attaccare,tacà,,1st conjugation,congiuntivo presente,1s,taca,yes
+attaccare,tacà,,1st conjugation,congiuntivo presente,2s,ta tacat,yes
+attaccare,tacà,,1st conjugation,congiuntivo presente,3s,la/al taca,yes
+attaccare,tacà,,1st conjugation,congiuntivo presente,1p,tacum,yes
+attaccare,tacà,,1st conjugation,congiuntivo presente,2p,tacuf,yes
+attaccare,tacà,,1st conjugation,congiuntivo presente,3p,i tacan,yes
+attaccare,tacà,,1st conjugation,congiuntivo imperfetto,1s,tacassa,yes
+attaccare,tacà,,1st conjugation,congiuntivo imperfetto,2s,ta tacassat,yes
+attaccare,tacà,,1st conjugation,congiuntivo imperfetto,3s,la/al tacass,yes
+attaccare,tacà,,1st conjugation,congiuntivo imperfetto,1p,tacassum,yes
+attaccare,tacà,,1st conjugation,congiuntivo imperfetto,2p,tacassuf,yes
+attaccare,tacà,,1st conjugation,congiuntivo imperfetto,3p,i tacassan,yes
+attaccare,tacà,,1st conjugation,imperativo,2s,taca,yes
+attaccare,tacà,,1st conjugation,imperativo,1p,tachem,yes
+attaccare,tacà,,1st conjugation,imperativo,2p,tachii,yes
+attaccare,tacà,,1st conjugation,imperativo negativo,2s,taca mia,
+attaccare,tacà,,1st conjugation,imperativo negativo,1p,tachem mia,
+attaccare,tacà,,1st conjugation,imperativo negativo,2p,tachii mia,
+attaccare,tacà,,1st conjugation,gerundio,-,tacando,
+attaccare,tacà,,1st conjugation,participio passato,-,tacaa,
 avere,vegh / veg / végh,,irregular,presente,1s,gò,
 avere,vegh / veg / végh,,irregular,presente,2s,ta ghé(t),
 avere,vegh / veg / végh,,irregular,presente,3s,la/al ga / la/al gà,
@@ -1019,74 +1019,6 @@ buttare,trà,,irregular,imperativo negativo,1p,traem mia,yes
 buttare,trà,,irregular,imperativo negativo,2p,traii mia,yes
 buttare,trà,,irregular,gerundio,-,traendo,yes
 buttare,trà,,irregular,participio passato,-,trai,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,presente,1s,bürli giò / bürli giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,presente,2s,ta bürlat giò / ta bürlat giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,presente,3s,la/al bürla giò / la/al bürla giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,presente,1p,bürlum giò / bürlum giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,presente,2p,bürluf giò / bürluf giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,presente,3p,i bürlan giò / i bürlan giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperfetto,1s,bürlava giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperfetto,2s,ta bürlavat giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperfetto,3s,la/al bürlarà giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperfetto,1p,bürlavum giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperfetto,2p,bürlavuf giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperfetto,3p,i bürlava giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,passato prossimo,1s,sum bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,passato prossimo,2s,ta se/set bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,passato prossimo,3s,l’è bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,passato prossimo,1p,sem bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,passato prossimo,2p,sii bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,passato prossimo,3p,i è bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,trapassato prossimo,1s,seva bürlaa (da) giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,trapassato prossimo,2s,ta sevat bürlaa (da) giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,trapassato prossimo,3s,l’eva bürlaa (da) giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,trapassato prossimo,1p,sevum bürlaa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,trapassato prossimo,2p,sevuf bürlaa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,trapassato prossimo,3p,i eva bürlaa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro,1s,borlarò giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro,2s,ta borlaret giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro,3s,la/al borlarà giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro,1p,borlarem giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro,2p,borlarii giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro,3p,i borlarà giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro prossimo,1s,sarò bürlaa (da) giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro prossimo,2s,ta saret bürlaa (da) giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro prossimo,3s,la/al sarà bürlaa (da) giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro prossimo,1p,sarem bürlaa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro prossimo,2p,sarii bürlaa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,futuro prossimo,3p,i sarà bürlaa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale presente,1s,bürlaria/bürlaressa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale presente,2s,ta bürlaressat giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale presente,3s,bürlaria/bürlaressa giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale presente,1p,bürlaressum giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale presente,2p,bürlaressuf giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale presente,3p,bürlarian/bürlaressan giò,
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale passato,1s,saria/saress bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale passato,2s,ta sariat/ta saressat bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale passato,3s,la/al saria/saressa bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale passato,1p,sarium/saressum bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale passato,2p,sariuf/saressuf bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,condizionale passato,3p,i sarian/i saressan bürlaa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo presente,1s,bürla giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo presente,2s,ta bürlat giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo presente,3s,la/al bürla giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo presente,1p,bürlum giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo presente,2p,bürluf giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo presente,3p,i bürlan giô,
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo imperfetto,1s,bürlassa giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo imperfetto,2s,ta bürlassat giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo imperfetto,3s,la/al bürlass giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo imperfetto,1p,bürlassum giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo imperfetto,2p,bürlassuf giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,congiuntivo imperfetto,3p,i bürlassan giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperativo,2s,bürla giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperativo,1p,bürlem giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperativo,2p,bürlii giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperativo negativo,2s,bürla mia giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperativo negativo,1p,bürlem mia giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,imperativo negativo,2p,bürlii mia giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,gerundio,-,bürlando giò,yes
-cadere,bürlà giò / bürlà giô,,1st conjugation,participio passato,-,bürlaa,
 camminare,caminà,,1st conjugation,presente,1s,camini,yes
 camminare,caminà,,1st conjugation,presente,2s,ta caminat,yes
 camminare,caminà,,1st conjugation,presente,3s,la/al camina,yes
@@ -1359,6 +1291,74 @@ capitare,capità,yes,1st conjugation,imperativo negativo,1p,capitem mia,yes
 capitare,capità,yes,1st conjugation,imperativo negativo,2p,capitii mia,yes
 capitare,capità,yes,1st conjugation,gerundio,-,capitando,yes
 capitare,capità,yes,1st conjugation,participio passato,-,capitaa,yes
+cascare,bürlà,,1st conjugation,presente,1s,bürli,
+cascare,bürlà,,1st conjugation,presente,2s,ta bürlat,
+cascare,bürlà,,1st conjugation,presente,3s,la/al bürla,
+cascare,bürlà,,1st conjugation,presente,1p,bürlum,
+cascare,bürlà,,1st conjugation,presente,2p,bürluf,
+cascare,bürlà,,1st conjugation,presente,3p,i bürlan,
+cascare,bürlà,,1st conjugation,imperfetto,1s,bürlava,
+cascare,bürlà,,1st conjugation,imperfetto,2s,ta bürlavat,
+cascare,bürlà,,1st conjugation,imperfetto,3s,la/al bürlarà,
+cascare,bürlà,,1st conjugation,imperfetto,1p,bürlavum,
+cascare,bürlà,,1st conjugation,imperfetto,2p,bürlavuf,
+cascare,bürlà,,1st conjugation,imperfetto,3p,i bürlava,
+cascare,bürlà,,1st conjugation,passato prossimo,1s,sum bürlaa,yes
+cascare,bürlà,,1st conjugation,passato prossimo,2s,ta se/set bürlaa,yes
+cascare,bürlà,,1st conjugation,passato prossimo,3s,l’è bürlaa,yes
+cascare,bürlà,,1st conjugation,passato prossimo,1p,sem bürlaa,yes
+cascare,bürlà,,1st conjugation,passato prossimo,2p,sii bürlaa,yes
+cascare,bürlà,,1st conjugation,passato prossimo,3p,i è bürlaa,yes
+cascare,bürlà,,1st conjugation,trapassato prossimo,1s,seva bürlaa (da),
+cascare,bürlà,,1st conjugation,trapassato prossimo,2s,ta sevat bürlaa (da),
+cascare,bürlà,,1st conjugation,trapassato prossimo,3s,l’eva bürlaa (da),
+cascare,bürlà,,1st conjugation,trapassato prossimo,1p,sevum bürlaa,
+cascare,bürlà,,1st conjugation,trapassato prossimo,2p,sevuf bürlaa,
+cascare,bürlà,,1st conjugation,trapassato prossimo,3p,i eva bürlaa,
+cascare,bürlà,,1st conjugation,futuro,1s,borlarò,
+cascare,bürlà,,1st conjugation,futuro,2s,ta borlaret,
+cascare,bürlà,,1st conjugation,futuro,3s,la/al borlarà,
+cascare,bürlà,,1st conjugation,futuro,1p,borlarem,
+cascare,bürlà,,1st conjugation,futuro,2p,borlarii,
+cascare,bürlà,,1st conjugation,futuro,3p,i borlarà,
+cascare,bürlà,,1st conjugation,futuro prossimo,1s,sarò bürlaa (da),
+cascare,bürlà,,1st conjugation,futuro prossimo,2s,ta saret bürlaa (da),
+cascare,bürlà,,1st conjugation,futuro prossimo,3s,la/al sarà bürlaa (da),
+cascare,bürlà,,1st conjugation,futuro prossimo,1p,sarem bürlaa,
+cascare,bürlà,,1st conjugation,futuro prossimo,2p,sarii bürlaa,
+cascare,bürlà,,1st conjugation,futuro prossimo,3p,i sarà bürlaa,
+cascare,bürlà,,1st conjugation,condizionale presente,1s,bürlaria/bürlaressa,
+cascare,bürlà,,1st conjugation,condizionale presente,2s,ta bürlaressat,
+cascare,bürlà,,1st conjugation,condizionale presente,3s,bürlaria/bürlaressa,
+cascare,bürlà,,1st conjugation,condizionale presente,1p,bürlaressum,
+cascare,bürlà,,1st conjugation,condizionale presente,2p,bürlaressuf,
+cascare,bürlà,,1st conjugation,condizionale presente,3p,bürlarian/bürlaressan,
+cascare,bürlà,,1st conjugation,condizionale passato,1s,saria/saress bürlaa,yes
+cascare,bürlà,,1st conjugation,condizionale passato,2s,ta sariat/ta saressat bürlaa,yes
+cascare,bürlà,,1st conjugation,condizionale passato,3s,la/al saria/saressa bürlaa,yes
+cascare,bürlà,,1st conjugation,condizionale passato,1p,sarium/saressum bürlaa,yes
+cascare,bürlà,,1st conjugation,condizionale passato,2p,sariuf/saressuf bürlaa,yes
+cascare,bürlà,,1st conjugation,condizionale passato,3p,i sarian/i saressan bürlaa,yes
+cascare,bürlà,,1st conjugation,congiuntivo presente,1s,bürla,
+cascare,bürlà,,1st conjugation,congiuntivo presente,2s,ta bürlat,
+cascare,bürlà,,1st conjugation,congiuntivo presente,3s,la/al bürla,
+cascare,bürlà,,1st conjugation,congiuntivo presente,1p,bürlum,
+cascare,bürlà,,1st conjugation,congiuntivo presente,2p,bürluf,
+cascare,bürlà,,1st conjugation,congiuntivo presente,3p,i bürlan,
+cascare,bürlà,,1st conjugation,congiuntivo imperfetto,1s,bürlassa,yes
+cascare,bürlà,,1st conjugation,congiuntivo imperfetto,2s,ta bürlassat,yes
+cascare,bürlà,,1st conjugation,congiuntivo imperfetto,3s,la/al bürlass,yes
+cascare,bürlà,,1st conjugation,congiuntivo imperfetto,1p,bürlassum,yes
+cascare,bürlà,,1st conjugation,congiuntivo imperfetto,2p,bürlassuf,yes
+cascare,bürlà,,1st conjugation,congiuntivo imperfetto,3p,i bürlassan,yes
+cascare,bürlà,,1st conjugation,imperativo,2s,bürla,yes
+cascare,bürlà,,1st conjugation,imperativo,1p,bürlem,yes
+cascare,bürlà,,1st conjugation,imperativo,2p,bürlii,yes
+cascare,bürlà,,1st conjugation,imperativo negativo,2s,bürla mia,yes
+cascare,bürlà,,1st conjugation,imperativo negativo,1p,bürlem mia,yes
+cascare,bürlà,,1st conjugation,imperativo negativo,2p,bürlii mia,yes
+cascare,bürlà,,1st conjugation,gerundio,-,bürlando,yes
+cascare,bürlà,,1st conjugation,participio passato,-,bürlaa,
 cercare,cercà,,1st conjugation,presente,1s,cerchi,
 cercare,cercà,,1st conjugation,presente,2s,ta cercat,
 cercare,cercà,,1st conjugation,presente,3s,la/al cerca,
@@ -1563,6 +1563,74 @@ chiudere,serà,,1st conjugation,imperativo negativo,1p,serem mia,yes
 chiudere,serà,,1st conjugation,imperativo negativo,2p,serii mia,yes
 chiudere,serà,,1st conjugation,gerundio,-,serando,yes
 chiudere,serà,,1st conjugation,participio passato,-,seràa,
+cogliere,catà,,1st conjugation,presente,1s,cati,
+cogliere,catà,,1st conjugation,presente,2s,ta catat,
+cogliere,catà,,1st conjugation,presente,3s,la/al cata,
+cogliere,catà,,1st conjugation,presente,1p,catum,
+cogliere,catà,,1st conjugation,presente,2p,catuf,
+cogliere,catà,,1st conjugation,presente,3p,i cata/catan,
+cogliere,catà,,1st conjugation,imperfetto,1s,catava,yes
+cogliere,catà,,1st conjugation,imperfetto,2s,ta catavat,yes
+cogliere,catà,,1st conjugation,imperfetto,3s,la/al catava,yes
+cogliere,catà,,1st conjugation,imperfetto,1p,catavum,yes
+cogliere,catà,,1st conjugation,imperfetto,2p,catavuf,yes
+cogliere,catà,,1st conjugation,imperfetto,3p,i catavan,yes
+cogliere,catà,,1st conjugation,passato prossimo,1s,u catà,
+cogliere,catà,,1st conjugation,passato prossimo,2s,te catà,
+cogliere,catà,,1st conjugation,passato prossimo,3s,catà,
+cogliere,catà,,1st conjugation,passato prossimo,1p,em catà,
+cogliere,catà,,1st conjugation,passato prossimo,2p,ii catà,
+cogliere,catà,,1st conjugation,passato prossimo,3p,ia (n) catà,
+cogliere,catà,,1st conjugation,trapassato prossimo,1s,eva catà,yes
+cogliere,catà,,1st conjugation,trapassato prossimo,2s,ta evat catà,yes
+cogliere,catà,,1st conjugation,trapassato prossimo,3s,l’eva catà,yes
+cogliere,catà,,1st conjugation,trapassato prossimo,1p,evum catà,yes
+cogliere,catà,,1st conjugation,trapassato prossimo,2p,evuf catà,yes
+cogliere,catà,,1st conjugation,trapassato prossimo,3p,i evan catà,yes
+cogliere,catà,,1st conjugation,futuro,1s,cataroo,
+cogliere,catà,,1st conjugation,futuro,2s,ta cataré(t),
+cogliere,catà,,1st conjugation,futuro,3s,catarà,
+cogliere,catà,,1st conjugation,futuro,1p,catarem,
+cogliere,catà,,1st conjugation,futuro,2p,catarii,
+cogliere,catà,,1st conjugation,futuro,3p,catarà (n),
+cogliere,catà,,1st conjugation,futuro prossimo,1s,avrò catà,yes
+cogliere,catà,,1st conjugation,futuro prossimo,2s,ta avret catà,yes
+cogliere,catà,,1st conjugation,futuro prossimo,3s,l’avrà catà,yes
+cogliere,catà,,1st conjugation,futuro prossimo,1p,avrem catà,yes
+cogliere,catà,,1st conjugation,futuro prossimo,2p,avrii catà,yes
+cogliere,catà,,1st conjugation,futuro prossimo,3p,i avran catà,yes
+cogliere,catà,,1st conjugation,condizionale presente,1s,cataria/cataressa,yes
+cogliere,catà,,1st conjugation,condizionale presente,2s,ta catariat/cataressat,yes
+cogliere,catà,,1st conjugation,condizionale presente,3s,la/al cataria/cataressa,yes
+cogliere,catà,,1st conjugation,condizionale presente,1p,catarium/cataressum,yes
+cogliere,catà,,1st conjugation,condizionale presente,2p,catariuf/cataressuf,yes
+cogliere,catà,,1st conjugation,condizionale presente,3p,i catarian/cataressan,yes
+cogliere,catà,,1st conjugation,condizionale passato,1s,avria/avress catà,yes
+cogliere,catà,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat catà,yes
+cogliere,catà,,1st conjugation,condizionale passato,3s,l’avria/l’avressa catà,yes
+cogliere,catà,,1st conjugation,condizionale passato,1p,avrium/avressum catà,yes
+cogliere,catà,,1st conjugation,condizionale passato,2p,avriuf/avressuf catà,yes
+cogliere,catà,,1st conjugation,condizionale passato,3p,i avrian/i avressan catà,yes
+cogliere,catà,,1st conjugation,congiuntivo presente,1s,cata,
+cogliere,catà,,1st conjugation,congiuntivo presente,2s,ta catat,
+cogliere,catà,,1st conjugation,congiuntivo presente,3s,la/al cata,
+cogliere,catà,,1st conjugation,congiuntivo presente,1p,catum,
+cogliere,catà,,1st conjugation,congiuntivo presente,2p,catuf,
+cogliere,catà,,1st conjugation,congiuntivo presente,3p,i catan,
+cogliere,catà,,1st conjugation,congiuntivo imperfetto,1s,catassa,yes
+cogliere,catà,,1st conjugation,congiuntivo imperfetto,2s,ta catassat,yes
+cogliere,catà,,1st conjugation,congiuntivo imperfetto,3s,la/al catass,yes
+cogliere,catà,,1st conjugation,congiuntivo imperfetto,1p,catassum,yes
+cogliere,catà,,1st conjugation,congiuntivo imperfetto,2p,catassuf,yes
+cogliere,catà,,1st conjugation,congiuntivo imperfetto,3p,i catassan,yes
+cogliere,catà,,1st conjugation,imperativo,2s,cata,yes
+cogliere,catà,,1st conjugation,imperativo,1p,catem,yes
+cogliere,catà,,1st conjugation,imperativo,2p,catii,yes
+cogliere,catà,,1st conjugation,imperativo negativo,2s,cata mia,
+cogliere,catà,,1st conjugation,imperativo negativo,1p,catem mia,
+cogliere,catà,,1st conjugation,imperativo negativo,2p,catii mia,
+cogliere,catà,,1st conjugation,gerundio,-,catando,
+cogliere,catà,,1st conjugation,participio passato,-,catà,
 comandare,cumandà,,1st conjugation,presente,1s,cumandi,yes
 comandare,cumandà,,1st conjugation,presente,2s,ta cumandat,yes
 comandare,cumandà,,1st conjugation,presente,3s,la/al cumanda,
@@ -1903,74 +1971,6 @@ correre,cor / côr,,3rd conjugation,imperativo negativo,1p,corem mia,yes
 correre,cor / côr,,3rd conjugation,imperativo negativo,2p,corii mia,yes
 correre,cor / côr,,3rd conjugation,gerundio,-,corendo,yes
 correre,cor / côr,,3rd conjugation,participio passato,-,curüü / corüü,
-costruire,fa sù,,"irregular (compound of fa, fare)",presente,1s,fò sü,
-costruire,fa sù,,"irregular (compound of fa, fare)",presente,2s,ta fé(t) sü,
-costruire,fa sù,,"irregular (compound of fa, fare)",presente,3s,la/al fa sü,
-costruire,fa sù,,"irregular (compound of fa, fare)",presente,1p,fem sü,
-costruire,fa sù,,"irregular (compound of fa, fare)",presente,2p,fii sü,
-costruire,fa sù,,"irregular (compound of fa, fare)",presente,3p,i fa(n) sü,
-costruire,fa sù,,"irregular (compound of fa, fare)",imperfetto,1s,fava sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperfetto,2s,ta favat sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperfetto,3s,la/al fava sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperfetto,1p,favum sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperfetto,2p,favuf sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperfetto,3p,i favan sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",passato prossimo,1s,u fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",passato prossimo,2s,te fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",passato prossimo,3s,la fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",passato prossimo,1p,em fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",passato prossimo,2p,ii fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",passato prossimo,3p,ia (n) fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",trapassato prossimo,1s,eva fai (a) sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",trapassato prossimo,2s,ta evat fai (a) sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",trapassato prossimo,3s,l’eva fai (a) sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",trapassato prossimo,1p,evum fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",trapassato prossimo,2p,evuf fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",trapassato prossimo,3p,i evan fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro,1s,farò sù / faroo sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro,2s,ta faré(t) sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro,3s,la/al farà sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro,1p,farem sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro,2p,farii sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro,3p,i faran sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro prossimo,1s,avrò fai (a) sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro prossimo,2s,ta avré(t) fai (a) sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro prossimo,3s,l’avrà fai (a) sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro prossimo,1p,avrem fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro prossimo,2p,avrii fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",futuro prossimo,3p,i avran fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale presente,1s,faria/faress sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale presente,2s,fariat/faressat sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale presente,3s,faria/faressa sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale presente,1p,farium/faressum sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale presente,2p,fariuf/faressuf sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale presente,3p,farian/faressan sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale passato,1s,avria/avress fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale passato,2s,t’avriat/t’avressat fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale passato,3s,l’avria/l’avressa fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale passato,1p,avrium/avressum fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale passato,2p,avriuf/avressuf fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",condizionale passato,3p,i avrian/i avressan fai sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo presente,1s,faga sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo presente,2s,ta fagat sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo presente,3s,la/al faga sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo presente,1p,fagum sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo presente,2p,faguf sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo presente,3p,i fagan sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo imperfetto,1s,fassa sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo imperfetto,2s,ta fassat sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo imperfetto,3s,la/al fass sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo imperfetto,1p,fassum sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo imperfetto,2p,fassuf sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",congiuntivo imperfetto,3p,i fassan sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperativo,2s,fa sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperativo,1p,fem sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperativo,2p,fii sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperativo negativo,2s,fa mia sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperativo negativo,1p,fem mia sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",imperativo negativo,2p,fii mia sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",gerundio,-,fasendo sù,yes
-costruire,fa sù,,"irregular (compound of fa, fare)",participio passato,-,fai,yes
 credere,cred,,3rd conjugation,presente,1s,credi,yes
 credere,cred,,3rd conjugation,presente,2s,ta credat,yes
 credere,cred,,3rd conjugation,presente,3s,la/al cred,yes
@@ -3535,142 +3535,6 @@ incominciare,cumincià / tacà,yes,1st conjugation,imperativo negativo,1p,tachem
 incominciare,cumincià / tacà,yes,1st conjugation,imperativo negativo,2p,tachii mia,
 incominciare,cumincià / tacà,yes,1st conjugation,gerundio,-,cuminciando,
 incominciare,cumincià / tacà,yes,1st conjugation,participio passato,-,cuminciaa,yes
-indossare,met sü,yes,3rd conjugation,presente,1s,meti sü,
-indossare,met sü,yes,3rd conjugation,presente,2s,ta metat sü,
-indossare,met sü,yes,3rd conjugation,presente,3s,la/al met sü,
-indossare,met sü,yes,3rd conjugation,presente,1p,metum sü,
-indossare,met sü,yes,3rd conjugation,presente,2p,metuf sü,
-indossare,met sü,yes,3rd conjugation,presente,3p,i met (metan) sü,
-indossare,met sü,yes,3rd conjugation,imperfetto,1s,meteva sü,yes
-indossare,met sü,yes,3rd conjugation,imperfetto,2s,ta metevat sü,yes
-indossare,met sü,yes,3rd conjugation,imperfetto,3s,la/al meteva sü,yes
-indossare,met sü,yes,3rd conjugation,imperfetto,1p,metevum sü,yes
-indossare,met sü,yes,3rd conjugation,imperfetto,2p,metevuf sü,yes
-indossare,met sü,yes,3rd conjugation,imperfetto,3p,i metevan sü,yes
-indossare,met sü,yes,3rd conjugation,passato prossimo,1s,u metüü sü,yes
-indossare,met sü,yes,3rd conjugation,passato prossimo,2s,te metüü sü,yes
-indossare,met sü,yes,3rd conjugation,passato prossimo,3s,l’a metüü sü,yes
-indossare,met sü,yes,3rd conjugation,passato prossimo,1p,em metüü sü,yes
-indossare,met sü,yes,3rd conjugation,passato prossimo,2p,ii metüü sü,yes
-indossare,met sü,yes,3rd conjugation,passato prossimo,3p,i an metüü sü,yes
-indossare,met sü,yes,3rd conjugation,trapassato prossimo,1s,eva metüü sü,yes
-indossare,met sü,yes,3rd conjugation,trapassato prossimo,2s,ta evat metüü sü,yes
-indossare,met sü,yes,3rd conjugation,trapassato prossimo,3s,l’eva metüü sü,yes
-indossare,met sü,yes,3rd conjugation,trapassato prossimo,1p,evum metüü sü,yes
-indossare,met sü,yes,3rd conjugation,trapassato prossimo,2p,evuf metüü sü,yes
-indossare,met sü,yes,3rd conjugation,trapassato prossimo,3p,i evan metüü sü,yes
-indossare,met sü,yes,3rd conjugation,futuro,1s,metarò sü,yes
-indossare,met sü,yes,3rd conjugation,futuro,2s,ta metaret sü,yes
-indossare,met sü,yes,3rd conjugation,futuro,3s,la/al metarà sü,yes
-indossare,met sü,yes,3rd conjugation,futuro,1p,metarem sü,yes
-indossare,met sü,yes,3rd conjugation,futuro,2p,metarii sü,yes
-indossare,met sü,yes,3rd conjugation,futuro,3p,i metaran sü,yes
-indossare,met sü,yes,3rd conjugation,futuro prossimo,1s,avrò metüü sü,yes
-indossare,met sü,yes,3rd conjugation,futuro prossimo,2s,ta avret metüü sü,yes
-indossare,met sü,yes,3rd conjugation,futuro prossimo,3s,l’avrà metüü sü,yes
-indossare,met sü,yes,3rd conjugation,futuro prossimo,1p,avrem metüü sü,yes
-indossare,met sü,yes,3rd conjugation,futuro prossimo,2p,avrii metüü sü,yes
-indossare,met sü,yes,3rd conjugation,futuro prossimo,3p,i avran metüü sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale presente,1s,metaria/metaressa sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale presente,2s,ta metariat/metaressat sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale presente,3s,la/al metaria/metaressa sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale presente,1p,metarium/metaressum sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale presente,2p,metariuf/metaressuf sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale presente,3p,i metarian/metaressan sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale passato,1s,avria/avress metüü sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale passato,2s,t’avriat/t’avressat metüü sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale passato,3s,l’avria/l’avressa metüü sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale passato,1p,avrium/avressum metüü sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale passato,2p,avriuf/avressuf metüü sü,yes
-indossare,met sü,yes,3rd conjugation,condizionale passato,3p,i avrian/i avressan metüü sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo presente,1s,meta sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo presente,2s,ta metat sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo presente,3s,la/al meta sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo presente,1p,metum sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo presente,2p,metuf sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo presente,3p,i metan sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo imperfetto,1s,metessa sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo imperfetto,2s,ta metessat sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo imperfetto,3s,la/al metess sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo imperfetto,1p,metessum sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo imperfetto,2p,metessuf sü,yes
-indossare,met sü,yes,3rd conjugation,congiuntivo imperfetto,3p,i metessan sü,yes
-indossare,met sü,yes,3rd conjugation,imperativo,2s,met sü,yes
-indossare,met sü,yes,3rd conjugation,imperativo,1p,metem sü,yes
-indossare,met sü,yes,3rd conjugation,imperativo,2p,metii sü,yes
-indossare,met sü,yes,3rd conjugation,imperativo negativo,2s,met mia sü,yes
-indossare,met sü,yes,3rd conjugation,imperativo negativo,1p,metem mia sü,yes
-indossare,met sü,yes,3rd conjugation,imperativo negativo,2p,metii mia sü,yes
-indossare,met sü,yes,3rd conjugation,gerundio,-,metendo sü,yes
-indossare,met sü,yes,3rd conjugation,participio passato,-,metüü,yes
-ingerire,manda giò,,1st conjugation,presente,1s,mandi giò,
-ingerire,manda giò,,1st conjugation,presente,2s,ta mandat giò,
-ingerire,manda giò,,1st conjugation,presente,3s,la/al manda giò,
-ingerire,manda giò,,1st conjugation,presente,1p,mandum giò,
-ingerire,manda giò,,1st conjugation,presente,2p,manduf giò,
-ingerire,manda giò,,1st conjugation,presente,3p,i manda(n) giò,
-ingerire,manda giò,,1st conjugation,imperfetto,1s,mandava giò,yes
-ingerire,manda giò,,1st conjugation,imperfetto,2s,ta mandavat giò,yes
-ingerire,manda giò,,1st conjugation,imperfetto,3s,la/al mandava giò,yes
-ingerire,manda giò,,1st conjugation,imperfetto,1p,mandavum giò,yes
-ingerire,manda giò,,1st conjugation,imperfetto,2p,mandavuf giò,yes
-ingerire,manda giò,,1st conjugation,imperfetto,3p,i mandavan giò,yes
-ingerire,manda giò,,1st conjugation,passato prossimo,1s,u mandaa giò,yes
-ingerire,manda giò,,1st conjugation,passato prossimo,2s,te mandaa giò,yes
-ingerire,manda giò,,1st conjugation,passato prossimo,3s,l’a mandaa giò,yes
-ingerire,manda giò,,1st conjugation,passato prossimo,1p,em mandaa giò,yes
-ingerire,manda giò,,1st conjugation,passato prossimo,2p,ii mandaa giò,yes
-ingerire,manda giò,,1st conjugation,passato prossimo,3p,i an mandaa giò,yes
-ingerire,manda giò,,1st conjugation,trapassato prossimo,1s,eva mandaa giò,yes
-ingerire,manda giò,,1st conjugation,trapassato prossimo,2s,ta evat mandaa giò,yes
-ingerire,manda giò,,1st conjugation,trapassato prossimo,3s,l’eva mandaa giò,yes
-ingerire,manda giò,,1st conjugation,trapassato prossimo,1p,evum mandaa giò,yes
-ingerire,manda giò,,1st conjugation,trapassato prossimo,2p,evuf mandaa giò,yes
-ingerire,manda giò,,1st conjugation,trapassato prossimo,3p,i evan mandaa giò,yes
-ingerire,manda giò,,1st conjugation,futuro,1s,mandarò giò,yes
-ingerire,manda giò,,1st conjugation,futuro,2s,ta mandaret giò,yes
-ingerire,manda giò,,1st conjugation,futuro,3s,la/al mandarà giò,yes
-ingerire,manda giò,,1st conjugation,futuro,1p,mandarem giò,yes
-ingerire,manda giò,,1st conjugation,futuro,2p,mandarii giò,yes
-ingerire,manda giò,,1st conjugation,futuro,3p,i mandaran giò,yes
-ingerire,manda giò,,1st conjugation,futuro prossimo,1s,avrò mandaa giò,yes
-ingerire,manda giò,,1st conjugation,futuro prossimo,2s,ta avret mandaa giò,yes
-ingerire,manda giò,,1st conjugation,futuro prossimo,3s,l’avrà mandaa giò,yes
-ingerire,manda giò,,1st conjugation,futuro prossimo,1p,avrem mandaa giò,yes
-ingerire,manda giò,,1st conjugation,futuro prossimo,2p,avrii mandaa giò,yes
-ingerire,manda giò,,1st conjugation,futuro prossimo,3p,i avran mandaa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale presente,1s,mandaria/mandaressa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale presente,2s,ta mandariat/mandaressat giò,yes
-ingerire,manda giò,,1st conjugation,condizionale presente,3s,la/al mandaria/mandaressa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale presente,1p,mandarium/mandaressum giò,yes
-ingerire,manda giò,,1st conjugation,condizionale presente,2p,mandariuf/mandaressuf giò,yes
-ingerire,manda giò,,1st conjugation,condizionale presente,3p,i mandarian/mandaressan giò,yes
-ingerire,manda giò,,1st conjugation,condizionale passato,1s,avria/avress mandaa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat mandaa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale passato,3s,l’avria/l’avressa mandaa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale passato,1p,avrium/avressum mandaa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale passato,2p,avriuf/avressuf mandaa giò,yes
-ingerire,manda giò,,1st conjugation,condizionale passato,3p,i avrian/i avressan mandaa giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo presente,1s,manda giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo presente,2s,ta mandat giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo presente,3s,la/al manda giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo presente,1p,mandum giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo presente,2p,manduf giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo presente,3p,i mandan giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo imperfetto,1s,mandassa giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo imperfetto,2s,ta mandassat giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo imperfetto,3s,la/al mandass giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo imperfetto,1p,mandassum giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo imperfetto,2p,mandassuf giò,yes
-ingerire,manda giò,,1st conjugation,congiuntivo imperfetto,3p,i mandassan giò,yes
-ingerire,manda giò,,1st conjugation,imperativo,2s,manda giò,yes
-ingerire,manda giò,,1st conjugation,imperativo,1p,mandem giò,yes
-ingerire,manda giò,,1st conjugation,imperativo,2p,mandii giò,yes
-ingerire,manda giò,,1st conjugation,imperativo negativo,2s,manda mia giò,yes
-ingerire,manda giò,,1st conjugation,imperativo negativo,1p,mandem mia giò,yes
-ingerire,manda giò,,1st conjugation,imperativo negativo,2p,mandii mia giò,yes
-ingerire,manda giò,,1st conjugation,gerundio,-,mandando giò,yes
-ingerire,manda giò,,1st conjugation,participio passato,-,mandaa,yes
 lasciare,lasà,yes,1st conjugation,presente,1s,lasi,yes
 lasciare,lasà,yes,1st conjugation,presente,2s,ta lasat,yes
 lasciare,lasà,yes,1st conjugation,presente,3s,la/al lasa,yes
@@ -4079,6 +3943,74 @@ mancare,mancà,yes,1st conjugation,imperativo negativo,1p,manchem mia,yes
 mancare,mancà,yes,1st conjugation,imperativo negativo,2p,manchii mia,yes
 mancare,mancà,yes,1st conjugation,gerundio,-,mancando,yes
 mancare,mancà,yes,1st conjugation,participio passato,-,mancaa,yes
+mandare,mandà,,1st conjugation,presente,1s,mandi,
+mandare,mandà,,1st conjugation,presente,2s,ta mandat,
+mandare,mandà,,1st conjugation,presente,3s,la/al manda,
+mandare,mandà,,1st conjugation,presente,1p,mandum,
+mandare,mandà,,1st conjugation,presente,2p,manduf,
+mandare,mandà,,1st conjugation,presente,3p,i manda(n),
+mandare,mandà,,1st conjugation,imperfetto,1s,mandava,yes
+mandare,mandà,,1st conjugation,imperfetto,2s,ta mandavat,yes
+mandare,mandà,,1st conjugation,imperfetto,3s,la/al mandava,yes
+mandare,mandà,,1st conjugation,imperfetto,1p,mandavum,yes
+mandare,mandà,,1st conjugation,imperfetto,2p,mandavuf,yes
+mandare,mandà,,1st conjugation,imperfetto,3p,i mandavan,yes
+mandare,mandà,,1st conjugation,passato prossimo,1s,u mandaa,yes
+mandare,mandà,,1st conjugation,passato prossimo,2s,te mandaa,yes
+mandare,mandà,,1st conjugation,passato prossimo,3s,l’a mandaa,yes
+mandare,mandà,,1st conjugation,passato prossimo,1p,em mandaa,yes
+mandare,mandà,,1st conjugation,passato prossimo,2p,ii mandaa,yes
+mandare,mandà,,1st conjugation,passato prossimo,3p,i an mandaa,yes
+mandare,mandà,,1st conjugation,trapassato prossimo,1s,eva mandaa,yes
+mandare,mandà,,1st conjugation,trapassato prossimo,2s,ta evat mandaa,yes
+mandare,mandà,,1st conjugation,trapassato prossimo,3s,l’eva mandaa,yes
+mandare,mandà,,1st conjugation,trapassato prossimo,1p,evum mandaa,yes
+mandare,mandà,,1st conjugation,trapassato prossimo,2p,evuf mandaa,yes
+mandare,mandà,,1st conjugation,trapassato prossimo,3p,i evan mandaa,yes
+mandare,mandà,,1st conjugation,futuro,1s,mandarò,yes
+mandare,mandà,,1st conjugation,futuro,2s,ta mandaret,yes
+mandare,mandà,,1st conjugation,futuro,3s,la/al mandarà,yes
+mandare,mandà,,1st conjugation,futuro,1p,mandarem,yes
+mandare,mandà,,1st conjugation,futuro,2p,mandarii,yes
+mandare,mandà,,1st conjugation,futuro,3p,i mandaran,yes
+mandare,mandà,,1st conjugation,futuro prossimo,1s,avrò mandaa,yes
+mandare,mandà,,1st conjugation,futuro prossimo,2s,ta avret mandaa,yes
+mandare,mandà,,1st conjugation,futuro prossimo,3s,l’avrà mandaa,yes
+mandare,mandà,,1st conjugation,futuro prossimo,1p,avrem mandaa,yes
+mandare,mandà,,1st conjugation,futuro prossimo,2p,avrii mandaa,yes
+mandare,mandà,,1st conjugation,futuro prossimo,3p,i avran mandaa,yes
+mandare,mandà,,1st conjugation,condizionale presente,1s,mandaria/mandaressa,yes
+mandare,mandà,,1st conjugation,condizionale presente,2s,ta mandariat/mandaressat,yes
+mandare,mandà,,1st conjugation,condizionale presente,3s,la/al mandaria/mandaressa,yes
+mandare,mandà,,1st conjugation,condizionale presente,1p,mandarium/mandaressum,yes
+mandare,mandà,,1st conjugation,condizionale presente,2p,mandariuf/mandaressuf,yes
+mandare,mandà,,1st conjugation,condizionale presente,3p,i mandarian/mandaressan,yes
+mandare,mandà,,1st conjugation,condizionale passato,1s,avria/avress mandaa,yes
+mandare,mandà,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat mandaa,yes
+mandare,mandà,,1st conjugation,condizionale passato,3s,l’avria/l’avressa mandaa,yes
+mandare,mandà,,1st conjugation,condizionale passato,1p,avrium/avressum mandaa,yes
+mandare,mandà,,1st conjugation,condizionale passato,2p,avriuf/avressuf mandaa,yes
+mandare,mandà,,1st conjugation,condizionale passato,3p,i avrian/i avressan mandaa,yes
+mandare,mandà,,1st conjugation,congiuntivo presente,1s,manda,yes
+mandare,mandà,,1st conjugation,congiuntivo presente,2s,ta mandat,yes
+mandare,mandà,,1st conjugation,congiuntivo presente,3s,la/al manda,yes
+mandare,mandà,,1st conjugation,congiuntivo presente,1p,mandum,yes
+mandare,mandà,,1st conjugation,congiuntivo presente,2p,manduf,yes
+mandare,mandà,,1st conjugation,congiuntivo presente,3p,i mandan,yes
+mandare,mandà,,1st conjugation,congiuntivo imperfetto,1s,mandassa,yes
+mandare,mandà,,1st conjugation,congiuntivo imperfetto,2s,ta mandassat,yes
+mandare,mandà,,1st conjugation,congiuntivo imperfetto,3s,la/al mandass,yes
+mandare,mandà,,1st conjugation,congiuntivo imperfetto,1p,mandassum,yes
+mandare,mandà,,1st conjugation,congiuntivo imperfetto,2p,mandassuf,yes
+mandare,mandà,,1st conjugation,congiuntivo imperfetto,3p,i mandassan,yes
+mandare,mandà,,1st conjugation,imperativo,2s,manda,yes
+mandare,mandà,,1st conjugation,imperativo,1p,mandem,yes
+mandare,mandà,,1st conjugation,imperativo,2p,mandii,yes
+mandare,mandà,,1st conjugation,imperativo negativo,2s,manda mia,yes
+mandare,mandà,,1st conjugation,imperativo negativo,1p,mandem mia,yes
+mandare,mandà,,1st conjugation,imperativo negativo,2p,mandii mia,yes
+mandare,mandà,,1st conjugation,gerundio,-,mandando,yes
+mandare,mandà,,1st conjugation,participio passato,-,mandaa,yes
 mangiare,mangià,,1st conjugation,presente,1s,mangi,
 mangiare,mangià,,1st conjugation,presente,2s,ta mangiat,
 mangiare,mangià,,1st conjugation,presente,3s,la/al mangia,
@@ -4217,7 +4149,7 @@ mescolare,trüsà / rügà,,1st conjugation,gerundio,-,trüsando,yes
 mescolare,trüsà / rügà,,1st conjugation,participio passato,-,trüsaa,yes
 mettere,met / mett,,3rd conjugation,presente,1s,meti,
 mettere,met / mett,,3rd conjugation,presente,2s,ta metat,
-mettere,met / mett,,3rd conjugation,presente,3s,la/al meta,
+mettere,met / mett,,3rd conjugation,presente,3s,la/al meta / la/al met,
 mettere,met / mett,,3rd conjugation,presente,1p,metum,
 mettere,met / mett,,3rd conjugation,presente,2p,metuf,
 mettere,met / mett,,3rd conjugation,presente,3p,i met,
@@ -4827,6 +4759,74 @@ osare,voscà,yes,1st conjugation,imperativo negativo,1p,vuschem mia,yes
 osare,voscà,yes,1st conjugation,imperativo negativo,2p,vuschii mia,yes
 osare,voscà,yes,1st conjugation,gerundio,-,vuscando,
 osare,voscà,yes,1st conjugation,participio passato,-,voscaa,
+osservare,uservà,yes,1st conjugation,presente,1s,uservi,yes
+osservare,uservà,yes,1st conjugation,presente,2s,ta uservat,yes
+osservare,uservà,yes,1st conjugation,presente,3s,l’userva,yes
+osservare,uservà,yes,1st conjugation,presente,1p,uservum,yes
+osservare,uservà,yes,1st conjugation,presente,2p,uservuf,yes
+osservare,uservà,yes,1st conjugation,presente,3p,i uservan,yes
+osservare,uservà,yes,1st conjugation,imperfetto,1s,uservava,yes
+osservare,uservà,yes,1st conjugation,imperfetto,2s,ta uservavat,yes
+osservare,uservà,yes,1st conjugation,imperfetto,3s,l’uservava,yes
+osservare,uservà,yes,1st conjugation,imperfetto,1p,uservavum,yes
+osservare,uservà,yes,1st conjugation,imperfetto,2p,uservavuf,yes
+osservare,uservà,yes,1st conjugation,imperfetto,3p,i uservavan,yes
+osservare,uservà,yes,1st conjugation,passato prossimo,1s,u uservaa,yes
+osservare,uservà,yes,1st conjugation,passato prossimo,2s,te uservaa,yes
+osservare,uservà,yes,1st conjugation,passato prossimo,3s,l’a uservaa,
+osservare,uservà,yes,1st conjugation,passato prossimo,1p,em uservaa,yes
+osservare,uservà,yes,1st conjugation,passato prossimo,2p,ii uservaa,yes
+osservare,uservà,yes,1st conjugation,passato prossimo,3p,i an uservaa,yes
+osservare,uservà,yes,1st conjugation,trapassato prossimo,1s,eva uservaa,yes
+osservare,uservà,yes,1st conjugation,trapassato prossimo,2s,ta evat uservaa,yes
+osservare,uservà,yes,1st conjugation,trapassato prossimo,3s,l’eva uservaa,yes
+osservare,uservà,yes,1st conjugation,trapassato prossimo,1p,evum uservaa,yes
+osservare,uservà,yes,1st conjugation,trapassato prossimo,2p,evuf uservaa,yes
+osservare,uservà,yes,1st conjugation,trapassato prossimo,3p,i evan uservaa,yes
+osservare,uservà,yes,1st conjugation,futuro,1s,uservarò,yes
+osservare,uservà,yes,1st conjugation,futuro,2s,ta uservaret,yes
+osservare,uservà,yes,1st conjugation,futuro,3s,l’uservarà,yes
+osservare,uservà,yes,1st conjugation,futuro,1p,uservarem,yes
+osservare,uservà,yes,1st conjugation,futuro,2p,uservarii,yes
+osservare,uservà,yes,1st conjugation,futuro,3p,i uservaran,yes
+osservare,uservà,yes,1st conjugation,futuro prossimo,1s,avrò uservaa,yes
+osservare,uservà,yes,1st conjugation,futuro prossimo,2s,ta avret uservaa,yes
+osservare,uservà,yes,1st conjugation,futuro prossimo,3s,l’avrà uservaa,yes
+osservare,uservà,yes,1st conjugation,futuro prossimo,1p,avrem uservaa,yes
+osservare,uservà,yes,1st conjugation,futuro prossimo,2p,avrii uservaa,yes
+osservare,uservà,yes,1st conjugation,futuro prossimo,3p,i avran uservaa,yes
+osservare,uservà,yes,1st conjugation,condizionale presente,1s,uservaria/uservaressa,yes
+osservare,uservà,yes,1st conjugation,condizionale presente,2s,ta uservariat/uservaressat,yes
+osservare,uservà,yes,1st conjugation,condizionale presente,3s,l’uservaria/uservaressa,yes
+osservare,uservà,yes,1st conjugation,condizionale presente,1p,uservarium/uservaressum,yes
+osservare,uservà,yes,1st conjugation,condizionale presente,2p,uservariuf/uservaressuf,yes
+osservare,uservà,yes,1st conjugation,condizionale presente,3p,i uservarian/uservaressan,yes
+osservare,uservà,yes,1st conjugation,condizionale passato,1s,avria/avress uservaa,yes
+osservare,uservà,yes,1st conjugation,condizionale passato,2s,t’avriat/t’avressat uservaa,yes
+osservare,uservà,yes,1st conjugation,condizionale passato,3s,l’avria/l’avressa uservaa,yes
+osservare,uservà,yes,1st conjugation,condizionale passato,1p,avrium/avressum uservaa,yes
+osservare,uservà,yes,1st conjugation,condizionale passato,2p,avriuf/avressuf uservaa,yes
+osservare,uservà,yes,1st conjugation,condizionale passato,3p,i avrian/i avressan uservaa,yes
+osservare,uservà,yes,1st conjugation,congiuntivo presente,1s,userva,yes
+osservare,uservà,yes,1st conjugation,congiuntivo presente,2s,ta uservat,yes
+osservare,uservà,yes,1st conjugation,congiuntivo presente,3s,l’userva,yes
+osservare,uservà,yes,1st conjugation,congiuntivo presente,1p,uservum,yes
+osservare,uservà,yes,1st conjugation,congiuntivo presente,2p,uservuf,yes
+osservare,uservà,yes,1st conjugation,congiuntivo presente,3p,i uservan,yes
+osservare,uservà,yes,1st conjugation,congiuntivo imperfetto,1s,uservassa,yes
+osservare,uservà,yes,1st conjugation,congiuntivo imperfetto,2s,ta uservassat,yes
+osservare,uservà,yes,1st conjugation,congiuntivo imperfetto,3s,l’uservass,yes
+osservare,uservà,yes,1st conjugation,congiuntivo imperfetto,1p,uservassum,yes
+osservare,uservà,yes,1st conjugation,congiuntivo imperfetto,2p,uservassuf,yes
+osservare,uservà,yes,1st conjugation,congiuntivo imperfetto,3p,i uservassan,yes
+osservare,uservà,yes,1st conjugation,imperativo,2s,userva,yes
+osservare,uservà,yes,1st conjugation,imperativo,1p,uservem,yes
+osservare,uservà,yes,1st conjugation,imperativo,2p,uservii,yes
+osservare,uservà,yes,1st conjugation,imperativo negativo,2s,userva mia,yes
+osservare,uservà,yes,1st conjugation,imperativo negativo,1p,uservem mia,yes
+osservare,uservà,yes,1st conjugation,imperativo negativo,2p,uservii mia,yes
+osservare,uservà,yes,1st conjugation,gerundio,-,uservando,yes
+osservare,uservà,yes,1st conjugation,participio passato,-,uservaa,
 pagare,pagà,,1st conjugation,presente,1s,paghi,
 pagare,pagà,,1st conjugation,presente,2s,ta pagat,yes
 pagare,pagà,,1st conjugation,presente,3s,la/al paga,yes
@@ -5847,74 +5847,6 @@ presentare,presentà,yes,1st conjugation,imperativo negativo,1p,presentem mia,ye
 presentare,presentà,yes,1st conjugation,imperativo negativo,2p,presentii mia,yes
 presentare,presentà,yes,1st conjugation,gerundio,-,presentando,yes
 presentare,presentà,yes,1st conjugation,participio passato,-,presentaa,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",presente,1s,vo innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",presente,2s,ta ve(t) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",presente,3s,la/al va innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",presente,1p,vem innanz / nem innanz / nemm innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",presente,2p,vii innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",presente,3p,i van innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperfetto,1s,nava innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperfetto,2s,ta navat innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperfetto,3s,la/al nava innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperfetto,1p,navum innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperfetto,2p,navuf innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperfetto,3p,i navan innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",passato prossimo,1s,sum nai (femminile = naia) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",passato prossimo,2s,ta sé(t) nai (femminile = naia) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",passato prossimo,3s,l’è naia (lü l’è nai) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",passato prossimo,1p,sem nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",passato prossimo,2p,sii nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",passato prossimo,3p,ié nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",trapassato prossimo,1s,seva nai (a) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",trapassato prossimo,2s,ta sevat nai (a) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",trapassato prossimo,3s,l’eva nai (a) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",trapassato prossimo,1p,sevum nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",trapassato prossimo,2p,sevuf nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",trapassato prossimo,3p,i evan nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro,1s,narò innanz / naroo innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro,2s,ta naré(t) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro,3s,la/al narà innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro,1p,narem innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro,2p,narii innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro,3p,i naran innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro prossimo,1s,sarò nai (a) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro prossimo,2s,ta saré(t) nai (a) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro prossimo,3s,la/al sarà nai (a) innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro prossimo,1p,sarem nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro prossimo,2p,sarii nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",futuro prossimo,3p,i saran nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale presente,1s,naria/naressa innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale presente,2s,ta naressat innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale presente,3s,naria/naressa innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale presente,1p,naressum innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale presente,2p,naressuf innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale presente,3p,narian/naressan innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale passato,1s,saria/saress nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale passato,2s,ta sariat/ta saressat nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale passato,3s,la/al saria/saressa nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale passato,1p,sarium/saressum nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale passato,2p,sariuf/saressuf nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",condizionale passato,3p,i sarian/i saressan nai innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo presente,1s,naga innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo presente,2s,ta nagat innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo presente,3s,la/al naga innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo presente,1p,nagum innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo presente,2p,naguf innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo presente,3p,i nagan innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo imperfetto,1s,nassa innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo imperfetto,2s,ta nassat innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo imperfetto,3s,la/al nass innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo imperfetto,1p,nassum innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo imperfetto,2p,nassuf innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",congiuntivo imperfetto,3p,i nassan innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperativo,2s,va innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperativo,1p,nem innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperativo,2p,nii innanz,yes
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperativo negativo,2s,va mia innanz,
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperativo negativo,1p,nem mia innanz,
-procedere,nà innanz,,"irregular (compound of nà, andare)",imperativo negativo,2p,nii mia innanz,
-procedere,nà innanz,,"irregular (compound of nà, andare)",gerundio,-,nando innanz,
-procedere,nà innanz,,"irregular (compound of nà, andare)",participio passato,-,nai,yes
 produrre,prodü / fà,,3rd conjugation,presente,1s,prodüsi,yes
 produrre,prodü / fà,,3rd conjugation,presente,2s,ta prodüsat,yes
 produrre,prodü / fà,,3rd conjugation,presente,3s,la/al prodüs,yes
@@ -5983,6 +5915,74 @@ produrre,prodü / fà,,3rd conjugation,imperativo negativo,1p,prodüsem mia,yes
 produrre,prodü / fà,,3rd conjugation,imperativo negativo,2p,prodüsii mia,yes
 produrre,prodü / fà,,3rd conjugation,gerundio,-,prodüsendo,yes
 produrre,prodü / fà,,3rd conjugation,participio passato,-,prodüsüü,yes
+protestare,prutesctà,yes,1st conjugation,presente,1s,prutescti,yes
+protestare,prutesctà,yes,1st conjugation,presente,2s,ta prutesctat,yes
+protestare,prutesctà,yes,1st conjugation,presente,3s,la/al prutescta,yes
+protestare,prutesctà,yes,1st conjugation,presente,1p,prutesctum,yes
+protestare,prutesctà,yes,1st conjugation,presente,2p,prutesctuf,yes
+protestare,prutesctà,yes,1st conjugation,presente,3p,i prutesctan,yes
+protestare,prutesctà,yes,1st conjugation,imperfetto,1s,prutesctava,yes
+protestare,prutesctà,yes,1st conjugation,imperfetto,2s,ta prutesctavat,yes
+protestare,prutesctà,yes,1st conjugation,imperfetto,3s,la/al prutesctava,yes
+protestare,prutesctà,yes,1st conjugation,imperfetto,1p,prutesctavum,yes
+protestare,prutesctà,yes,1st conjugation,imperfetto,2p,prutesctavuf,yes
+protestare,prutesctà,yes,1st conjugation,imperfetto,3p,i prutesctavan,yes
+protestare,prutesctà,yes,1st conjugation,passato prossimo,1s,u prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,passato prossimo,2s,te prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,passato prossimo,3s,l’a prutesctaa,
+protestare,prutesctà,yes,1st conjugation,passato prossimo,1p,em prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,passato prossimo,2p,ii prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,passato prossimo,3p,i an prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,trapassato prossimo,1s,eva prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,trapassato prossimo,2s,ta evat prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,trapassato prossimo,3s,l’eva prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,trapassato prossimo,1p,evum prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,trapassato prossimo,2p,evuf prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,trapassato prossimo,3p,i evan prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,futuro,1s,prutesctarò,yes
+protestare,prutesctà,yes,1st conjugation,futuro,2s,ta prutesctaret,yes
+protestare,prutesctà,yes,1st conjugation,futuro,3s,la/al prutesctarà,yes
+protestare,prutesctà,yes,1st conjugation,futuro,1p,prutesctarem,yes
+protestare,prutesctà,yes,1st conjugation,futuro,2p,prutesctarii,yes
+protestare,prutesctà,yes,1st conjugation,futuro,3p,i prutesctaran,yes
+protestare,prutesctà,yes,1st conjugation,futuro prossimo,1s,avrò prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,futuro prossimo,2s,ta avret prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,futuro prossimo,3s,l’avrà prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,futuro prossimo,1p,avrem prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,futuro prossimo,2p,avrii prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,futuro prossimo,3p,i avran prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale presente,1s,prutesctaria/prutesctaressa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale presente,2s,ta prutesctariat/prutesctaressat,yes
+protestare,prutesctà,yes,1st conjugation,condizionale presente,3s,la/al prutesctaria/prutesctaressa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale presente,1p,prutesctarium/prutesctaressum,yes
+protestare,prutesctà,yes,1st conjugation,condizionale presente,2p,prutesctariuf/prutesctaressuf,yes
+protestare,prutesctà,yes,1st conjugation,condizionale presente,3p,i prutesctarian/prutesctaressan,yes
+protestare,prutesctà,yes,1st conjugation,condizionale passato,1s,avria/avress prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale passato,2s,t’avriat/t’avressat prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale passato,3s,l’avria/l’avressa prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale passato,1p,avrium/avressum prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale passato,2p,avriuf/avressuf prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,condizionale passato,3p,i avrian/i avressan prutesctaa,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo presente,1s,prutescta,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo presente,2s,ta prutesctat,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo presente,3s,la/al prutescta,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo presente,1p,prutesctum,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo presente,2p,prutesctuf,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo presente,3p,i prutesctan,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo imperfetto,1s,prutesctassa,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo imperfetto,2s,ta prutesctassat,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo imperfetto,3s,la/al prutesctass,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo imperfetto,1p,prutesctassum,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo imperfetto,2p,prutesctassuf,yes
+protestare,prutesctà,yes,1st conjugation,congiuntivo imperfetto,3p,i prutesctassan,yes
+protestare,prutesctà,yes,1st conjugation,imperativo,2s,prutescta,yes
+protestare,prutesctà,yes,1st conjugation,imperativo,1p,prutesctem,yes
+protestare,prutesctà,yes,1st conjugation,imperativo,2p,prutesctii,yes
+protestare,prutesctà,yes,1st conjugation,imperativo negativo,2s,prutescta mia,yes
+protestare,prutesctà,yes,1st conjugation,imperativo negativo,1p,prutesctem mia,yes
+protestare,prutesctà,yes,1st conjugation,imperativo negativo,2p,prutesctii mia,yes
+protestare,prutesctà,yes,1st conjugation,gerundio,-,prutesctando,yes
+protestare,prutesctà,yes,1st conjugation,participio passato,-,prutesctaa,
 provare,pruà,,1st conjugation,presente,1s,prui,yes
 provare,pruà,,1st conjugation,presente,2s,ta pruat,yes
 provare,pruà,,1st conjugation,presente,3s,la/al prua,yes
@@ -6731,74 +6731,6 @@ rubare,rubà,,1st conjugation,imperativo negativo,1p,rubem mia,
 rubare,rubà,,1st conjugation,imperativo negativo,2p,rubii mia,
 rubare,rubà,,1st conjugation,gerundio,-,rubandu,
 rubare,rubà,,1st conjugation,participio passato,-,rubaa,yes
-salire,na sù,,"irregular (compound of na, andare)",presente,1s,vo sü,
-salire,na sù,,"irregular (compound of na, andare)",presente,2s,ta ve(t) sü,
-salire,na sù,,"irregular (compound of na, andare)",presente,3s,la/al va sü,
-salire,na sù,,"irregular (compound of na, andare)",presente,1p,vem sü,
-salire,na sù,,"irregular (compound of na, andare)",presente,2p,vii sü,
-salire,na sù,,"irregular (compound of na, andare)",presente,3p,i va(n) sü,
-salire,na sù,,"irregular (compound of na, andare)",imperfetto,1s,nava sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperfetto,2s,ta navat sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperfetto,3s,la/al nava sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperfetto,1p,navum sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperfetto,2p,navuf sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperfetto,3p,i navan sù,yes
-salire,na sù,,"irregular (compound of na, andare)",passato prossimo,1s,sum nai (femminile = naia) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",passato prossimo,2s,ta sé(t) nai (femminile = naia) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",passato prossimo,3s,l’è naia (lü l’è nai) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",passato prossimo,1p,sem nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",passato prossimo,2p,sii nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",passato prossimo,3p,ié nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",trapassato prossimo,1s,seva nai (a) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",trapassato prossimo,2s,ta sevat nai (a) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",trapassato prossimo,3s,l’eva nai (a) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",trapassato prossimo,1p,sevum nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",trapassato prossimo,2p,sevuf nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",trapassato prossimo,3p,i evan nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro,1s,narò sù / naroo sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro,2s,ta naré(t) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro,3s,la/al narà sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro,1p,narem sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro,2p,narii sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro,3p,i naran sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro prossimo,1s,sarò nai (a) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro prossimo,2s,ta saré(t) nai (a) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro prossimo,3s,la/al sarà nai (a) sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro prossimo,1p,sarem nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro prossimo,2p,sarii nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",futuro prossimo,3p,i saran nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale presente,1s,naria/naressa sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale presente,2s,ta naressat sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale presente,3s,naria/naressa sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale presente,1p,naressum sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale presente,2p,naressuf sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale presente,3p,narian/naressan sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale passato,1s,saria/saress nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale passato,2s,ta sariat/ta saressat nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale passato,3s,la/al saria/saressa nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale passato,1p,sarium/saressum nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale passato,2p,sariuf/saressuf nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",condizionale passato,3p,i sarian/i saressan nai sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo presente,1s,naga sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo presente,2s,ta nagat sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo presente,3s,la/al naga sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo presente,1p,nagum sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo presente,2p,naguf sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo presente,3p,i nagan sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo imperfetto,1s,nassa sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo imperfetto,2s,ta nassat sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo imperfetto,3s,la/al nass sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo imperfetto,1p,nassum sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo imperfetto,2p,nassuf sù,yes
-salire,na sù,,"irregular (compound of na, andare)",congiuntivo imperfetto,3p,i nassan sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperativo,2s,va sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperativo,1p,nem sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperativo,2p,nii sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperativo negativo,2s,va mia sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperativo negativo,1p,nem mia sù,yes
-salire,na sù,,"irregular (compound of na, andare)",imperativo negativo,2p,nii mia sù,yes
-salire,na sù,,"irregular (compound of na, andare)",gerundio,-,nando sù,yes
-salire,na sù,,"irregular (compound of na, andare)",participio passato,-,nai,yes
 saltare,saltà,yes,1st conjugation,presente,1s,salti,yes
 saltare,saltà,yes,1st conjugation,presente,2s,ta saltat,yes
 saltare,saltà,yes,1st conjugation,presente,3s,la/al salta,yes
@@ -7071,142 +7003,6 @@ scappare,scapà,yes,1st conjugation,imperativo negativo,1p,scapem mia,yes
 scappare,scapà,yes,1st conjugation,imperativo negativo,2p,scapii mia,yes
 scappare,scapà,yes,1st conjugation,gerundio,-,scapando,yes
 scappare,scapà,yes,1st conjugation,participio passato,-,scapaa,yes
-scegliere,catà fö / cata fö,,1st conjugation,presente,1s,cati fö,
-scegliere,catà fö / cata fö,,1st conjugation,presente,2s,ta catat fö,
-scegliere,catà fö / cata fö,,1st conjugation,presente,3s,la/al cata fö,
-scegliere,catà fö / cata fö,,1st conjugation,presente,1p,catum fö,
-scegliere,catà fö / cata fö,,1st conjugation,presente,2p,catuf fö,
-scegliere,catà fö / cata fö,,1st conjugation,presente,3p,i cata/catan fö,
-scegliere,catà fö / cata fö,,1st conjugation,imperfetto,1s,catava fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperfetto,2s,ta catavat fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperfetto,3s,la/al catava fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperfetto,1p,catavum fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperfetto,2p,catavuf fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperfetto,3p,i catavan fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,passato prossimo,1s,u catà fö,
-scegliere,catà fö / cata fö,,1st conjugation,passato prossimo,2s,te catà fö,
-scegliere,catà fö / cata fö,,1st conjugation,passato prossimo,3s,catà fö,
-scegliere,catà fö / cata fö,,1st conjugation,passato prossimo,1p,em catà fö,
-scegliere,catà fö / cata fö,,1st conjugation,passato prossimo,2p,ii catà fö,
-scegliere,catà fö / cata fö,,1st conjugation,passato prossimo,3p,ia (n) catà fö,
-scegliere,catà fö / cata fö,,1st conjugation,trapassato prossimo,1s,eva catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,trapassato prossimo,2s,ta evat catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,trapassato prossimo,3s,l’eva catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,trapassato prossimo,1p,evum catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,trapassato prossimo,2p,evuf catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,trapassato prossimo,3p,i evan catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,futuro,1s,cataroo fö,
-scegliere,catà fö / cata fö,,1st conjugation,futuro,2s,ta cataré(t) fö,
-scegliere,catà fö / cata fö,,1st conjugation,futuro,3s,catarà fö,
-scegliere,catà fö / cata fö,,1st conjugation,futuro,1p,catarem fö,
-scegliere,catà fö / cata fö,,1st conjugation,futuro,2p,catarii fö,
-scegliere,catà fö / cata fö,,1st conjugation,futuro,3p,catarà (n) fö,
-scegliere,catà fö / cata fö,,1st conjugation,futuro prossimo,1s,avrò catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,futuro prossimo,2s,ta avret catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,futuro prossimo,3s,l’avrà catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,futuro prossimo,1p,avrem catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,futuro prossimo,2p,avrii catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,futuro prossimo,3p,i avran catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale presente,1s,cataria/cataressa fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale presente,2s,ta catariat/cataressat fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale presente,3s,la/al cataria/cataressa fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale presente,1p,catarium/cataressum fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale presente,2p,catariuf/cataressuf fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale presente,3p,i catarian/cataressan fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale passato,1s,avria/avress catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale passato,3s,l’avria/l’avressa catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale passato,1p,avrium/avressum catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale passato,2p,avriuf/avressuf catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,condizionale passato,3p,i avrian/i avressan catà fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo presente,1s,cata fö,
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo presente,2s,ta catat fö,
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo presente,3s,la/al cata fö,
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo presente,1p,catum fö,
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo presente,2p,catuf fö,
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo presente,3p,i catan fö,
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo imperfetto,1s,catassa fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo imperfetto,2s,ta catassat fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo imperfetto,3s,la/al catass fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo imperfetto,1p,catassum fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo imperfetto,2p,catassuf fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,congiuntivo imperfetto,3p,i catassan fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperativo,2s,cata fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperativo,1p,catem fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperativo,2p,catii fö,yes
-scegliere,catà fö / cata fö,,1st conjugation,imperativo negativo,2s,cata mia fö,
-scegliere,catà fö / cata fö,,1st conjugation,imperativo negativo,1p,catem mia fö,
-scegliere,catà fö / cata fö,,1st conjugation,imperativo negativo,2p,catii mia fö,
-scegliere,catà fö / cata fö,,1st conjugation,gerundio,-,catando fö,
-scegliere,catà fö / cata fö,,1st conjugation,participio passato,-,catà,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",presente,1s,vo giò / vo giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",presente,2s,ta vet giò / ta vet giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",presente,3s,la/al va giò / la/al va giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",presente,1p,vem giò / vem giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",presente,2p,vii giò / vii giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",presente,3p,i van giò / i van giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperfetto,1s,nava giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperfetto,2s,ta navat giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperfetto,3s,la/al nava giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperfetto,1p,navum giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperfetto,2p,navuf giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperfetto,3p,i nava giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",passato prossimo,1s,sum nai (femminile = naia) giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",passato prossimo,2s,ta sé(t) nai (femminile = naia) giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",passato prossimo,3s,l’è naia (lü l’è nai) giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",passato prossimo,1p,sem nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",passato prossimo,2p,sii nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",passato prossimo,3p,ié nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",trapassato prossimo,1s,seva nai (a) giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",trapassato prossimo,2s,ta sevat nai (aI) giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",trapassato prossimo,3s,l’eva nai (a) giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",trapassato prossimo,1p,sevum nai giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",trapassato prossimo,2p,sevuf nai giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",trapassato prossimo,3p,i eva nai giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro,1s,narò giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro,2s,ta naré(t) giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro,3s,la/al narà giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro,1p,narem giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro,2p,narii giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro,3p,i narà giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro prossimo,1s,sarò nai (a) giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro prossimo,2s,ta saré(t) nai (a) giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro prossimo,3s,la/al sarà nai (a) giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro prossimo,1p,sarem nai giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro prossimo,2p,sarii nai giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",futuro prossimo,3p,i sarà nai giò,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale presente,1s,naria/naressa giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale presente,2s,ta naressat giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale presente,3s,naria/naressa giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale presente,1p,naressum giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale presente,2p,naressuf giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale presente,3p,narian/naressan giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale passato,1s,saria/saress nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale passato,2s,ta sariat/ta saressat nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale passato,3s,la/al saria/saressa nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale passato,1p,sarium/saressum nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale passato,2p,sariuf/saressuf nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",condizionale passato,3p,i sarian/i saressan nai giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo presente,1s,naga giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo presente,2s,ta nagat giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo presente,3s,la/al naga giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo presente,1p,nagum giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo presente,2p,naguf giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo presente,3p,i nagan giô,
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo imperfetto,1s,nassa giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo imperfetto,2s,ta nassat giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo imperfetto,3s,la/al nass giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo imperfetto,1p,nassum giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo imperfetto,2p,nassuf giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",congiuntivo imperfetto,3p,i nassan giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperativo,2s,va giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperativo,1p,nem giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperativo,2p,nii giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperativo negativo,2s,va mia giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperativo negativo,1p,nem mia giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",imperativo negativo,2p,nii mia giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",gerundio,-,nando giò,yes
-scendere,na giò / na giô,,"irregular (compound of na, andare)",participio passato,-,nai,
 schiacciare,schiscià,yes,1st conjugation,presente,1s,schisci,
 schiacciare,schiscià,yes,1st conjugation,presente,2s,ta schisciat,
 schiacciare,schiscià,yes,1st conjugation,presente,3s,la/al schiscia,
@@ -7819,6 +7615,74 @@ sentire,sentì,,4th conjugation,imperativo negativo,1p,sentem mia,yes
 sentire,sentì,,4th conjugation,imperativo negativo,2p,sentii mia,yes
 sentire,sentì,,4th conjugation,gerundio,-,sentendo,yes
 sentire,sentì,,4th conjugation,participio passato,-,sentüü,
+spiegare,scpiegà,yes,1st conjugation,presente,1s,scpieghi,yes
+spiegare,scpiegà,yes,1st conjugation,presente,2s,ta scpiegat,yes
+spiegare,scpiegà,yes,1st conjugation,presente,3s,la/al scpiega,
+spiegare,scpiegà,yes,1st conjugation,presente,1p,scpiegum,yes
+spiegare,scpiegà,yes,1st conjugation,presente,2p,scpieguf,yes
+spiegare,scpiegà,yes,1st conjugation,presente,3p,i scpiegan,yes
+spiegare,scpiegà,yes,1st conjugation,imperfetto,1s,scpiegava,yes
+spiegare,scpiegà,yes,1st conjugation,imperfetto,2s,ta scpiegavat,yes
+spiegare,scpiegà,yes,1st conjugation,imperfetto,3s,la/al scpiegava,yes
+spiegare,scpiegà,yes,1st conjugation,imperfetto,1p,scpiegavum,yes
+spiegare,scpiegà,yes,1st conjugation,imperfetto,2p,scpiegavuf,yes
+spiegare,scpiegà,yes,1st conjugation,imperfetto,3p,i scpiegavan,yes
+spiegare,scpiegà,yes,1st conjugation,passato prossimo,1s,u scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,passato prossimo,2s,te scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,passato prossimo,3s,l’a scpiegaa,
+spiegare,scpiegà,yes,1st conjugation,passato prossimo,1p,em scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,passato prossimo,2p,ii scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,passato prossimo,3p,i an scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,trapassato prossimo,1s,eva scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,trapassato prossimo,2s,ta evat scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,trapassato prossimo,3s,l’eva scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,trapassato prossimo,1p,evum scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,trapassato prossimo,2p,evuf scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,trapassato prossimo,3p,i evan scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,futuro,1s,scpiegarò,yes
+spiegare,scpiegà,yes,1st conjugation,futuro,2s,ta scpiegaret,yes
+spiegare,scpiegà,yes,1st conjugation,futuro,3s,la/al scpiegarà,yes
+spiegare,scpiegà,yes,1st conjugation,futuro,1p,scpiegarem,yes
+spiegare,scpiegà,yes,1st conjugation,futuro,2p,scpiegarii,yes
+spiegare,scpiegà,yes,1st conjugation,futuro,3p,i scpiegaran,yes
+spiegare,scpiegà,yes,1st conjugation,futuro prossimo,1s,avrò scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,futuro prossimo,2s,ta avret scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,futuro prossimo,3s,l’avrà scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,futuro prossimo,1p,avrem scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,futuro prossimo,2p,avrii scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,futuro prossimo,3p,i avran scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale presente,1s,scpiegaria/scpiegaressa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale presente,2s,ta scpiegariat/scpiegaressat,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale presente,3s,la/al scpiegaria/scpiegaressa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale presente,1p,scpiegarium/scpiegaressum,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale presente,2p,scpiegariuf/scpiegaressuf,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale presente,3p,i scpiegarian/scpiegaressan,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale passato,1s,avria/avress scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale passato,2s,t’avriat/t’avressat scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale passato,3s,l’avria/l’avressa scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale passato,1p,avrium/avressum scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale passato,2p,avriuf/avressuf scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,condizionale passato,3p,i avrian/i avressan scpiegaa,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo presente,1s,scpiega,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo presente,2s,ta scpiegat,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo presente,3s,la/al scpiega,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo presente,1p,scpiegum,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo presente,2p,scpieguf,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo presente,3p,i scpiegan,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo imperfetto,1s,scpiegassa,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo imperfetto,2s,ta scpiegassat,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo imperfetto,3s,la/al scpiegass,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo imperfetto,1p,scpiegassum,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo imperfetto,2p,scpiegassuf,yes
+spiegare,scpiegà,yes,1st conjugation,congiuntivo imperfetto,3p,i scpiegassan,yes
+spiegare,scpiegà,yes,1st conjugation,imperativo,2s,scpiega,yes
+spiegare,scpiegà,yes,1st conjugation,imperativo,1p,scpieghem,yes
+spiegare,scpiegà,yes,1st conjugation,imperativo,2p,scpieghii,yes
+spiegare,scpiegà,yes,1st conjugation,imperativo negativo,2s,scpiega mia,yes
+spiegare,scpiegà,yes,1st conjugation,imperativo negativo,1p,scpieghem mia,yes
+spiegare,scpiegà,yes,1st conjugation,imperativo negativo,2p,scpieghii mia,yes
+spiegare,scpiegà,yes,1st conjugation,gerundio,-,scpiegando,yes
+spiegare,scpiegà,yes,1st conjugation,participio passato,-,scpiegaa,
 stare,stà,,irregular,presente,1s,sctò,
 stare,stà,,irregular,presente,2s,ta sctét,
 stare,stà,,irregular,presente,3s,la/al scta,yes
@@ -8431,6 +8295,74 @@ tenere,tegnì,,4th conjugation,imperativo negativo,1p,tegnem mia,yes
 tenere,tegnì,,4th conjugation,imperativo negativo,2p,tegnii mia,yes
 tenere,tegnì,,4th conjugation,gerundio,-,tegnendo,yes
 tenere,tegnì,,4th conjugation,participio passato,-,tegnüü,yes
+tirare,tirà,,1st conjugation,presente,1s,tiri,yes
+tirare,tirà,,1st conjugation,presente,2s,ta tirat,yes
+tirare,tirà,,1st conjugation,presente,3s,la/al tira,yes
+tirare,tirà,,1st conjugation,presente,1p,tirum,yes
+tirare,tirà,,1st conjugation,presente,2p,tiruf,yes
+tirare,tirà,,1st conjugation,presente,3p,i tiran,yes
+tirare,tirà,,1st conjugation,imperfetto,1s,tirava,yes
+tirare,tirà,,1st conjugation,imperfetto,2s,ta tiravat,yes
+tirare,tirà,,1st conjugation,imperfetto,3s,la/al tirava,yes
+tirare,tirà,,1st conjugation,imperfetto,1p,tiravum,yes
+tirare,tirà,,1st conjugation,imperfetto,2p,tiravuf,yes
+tirare,tirà,,1st conjugation,imperfetto,3p,i tiravan,yes
+tirare,tirà,,1st conjugation,passato prossimo,1s,u tiraa,yes
+tirare,tirà,,1st conjugation,passato prossimo,2s,te tiraa,yes
+tirare,tirà,,1st conjugation,passato prossimo,3s,l’a tiraa,yes
+tirare,tirà,,1st conjugation,passato prossimo,1p,em tiraa,yes
+tirare,tirà,,1st conjugation,passato prossimo,2p,ii tiraa,yes
+tirare,tirà,,1st conjugation,passato prossimo,3p,i an tiraa,yes
+tirare,tirà,,1st conjugation,trapassato prossimo,1s,eva tiraa,yes
+tirare,tirà,,1st conjugation,trapassato prossimo,2s,ta evat tiraa,yes
+tirare,tirà,,1st conjugation,trapassato prossimo,3s,l’eva tiraa,yes
+tirare,tirà,,1st conjugation,trapassato prossimo,1p,evum tiraa,yes
+tirare,tirà,,1st conjugation,trapassato prossimo,2p,evuf tiraa,yes
+tirare,tirà,,1st conjugation,trapassato prossimo,3p,i evan tiraa,yes
+tirare,tirà,,1st conjugation,futuro,1s,tirarò,yes
+tirare,tirà,,1st conjugation,futuro,2s,ta tiraret,yes
+tirare,tirà,,1st conjugation,futuro,3s,la/al tirarà,yes
+tirare,tirà,,1st conjugation,futuro,1p,tirarem,yes
+tirare,tirà,,1st conjugation,futuro,2p,tirarii,yes
+tirare,tirà,,1st conjugation,futuro,3p,i tiraran,yes
+tirare,tirà,,1st conjugation,futuro prossimo,1s,avrò tiraa,yes
+tirare,tirà,,1st conjugation,futuro prossimo,2s,ta avret tiraa,yes
+tirare,tirà,,1st conjugation,futuro prossimo,3s,l’avrà tiraa,yes
+tirare,tirà,,1st conjugation,futuro prossimo,1p,avrem tiraa,yes
+tirare,tirà,,1st conjugation,futuro prossimo,2p,avrii tiraa,yes
+tirare,tirà,,1st conjugation,futuro prossimo,3p,i avran tiraa,yes
+tirare,tirà,,1st conjugation,condizionale presente,1s,tiraria/tiraressa,yes
+tirare,tirà,,1st conjugation,condizionale presente,2s,ta tirariat/tiraressat,yes
+tirare,tirà,,1st conjugation,condizionale presente,3s,la/al tiraria/tiraressa,yes
+tirare,tirà,,1st conjugation,condizionale presente,1p,tirarium/tiraressum,yes
+tirare,tirà,,1st conjugation,condizionale presente,2p,tirariuf/tiraressuf,yes
+tirare,tirà,,1st conjugation,condizionale presente,3p,i tirarian/tiraressan,yes
+tirare,tirà,,1st conjugation,condizionale passato,1s,avria/avress tiraa,yes
+tirare,tirà,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat tiraa,yes
+tirare,tirà,,1st conjugation,condizionale passato,3s,l’avria/l’avressa tiraa,yes
+tirare,tirà,,1st conjugation,condizionale passato,1p,avrium/avressum tiraa,yes
+tirare,tirà,,1st conjugation,condizionale passato,2p,avriuf/avressuf tiraa,yes
+tirare,tirà,,1st conjugation,condizionale passato,3p,i avrian/i avressan tiraa,yes
+tirare,tirà,,1st conjugation,congiuntivo presente,1s,tira,yes
+tirare,tirà,,1st conjugation,congiuntivo presente,2s,ta tirat,yes
+tirare,tirà,,1st conjugation,congiuntivo presente,3s,la/al tira,yes
+tirare,tirà,,1st conjugation,congiuntivo presente,1p,tirum,yes
+tirare,tirà,,1st conjugation,congiuntivo presente,2p,tiruf,yes
+tirare,tirà,,1st conjugation,congiuntivo presente,3p,i tiran,yes
+tirare,tirà,,1st conjugation,congiuntivo imperfetto,1s,tirassa,yes
+tirare,tirà,,1st conjugation,congiuntivo imperfetto,2s,ta tirassat,yes
+tirare,tirà,,1st conjugation,congiuntivo imperfetto,3s,la/al tirass,yes
+tirare,tirà,,1st conjugation,congiuntivo imperfetto,1p,tirassum,yes
+tirare,tirà,,1st conjugation,congiuntivo imperfetto,2p,tirassuf,yes
+tirare,tirà,,1st conjugation,congiuntivo imperfetto,3p,i tirassan,yes
+tirare,tirà,,1st conjugation,imperativo,2s,tira,yes
+tirare,tirà,,1st conjugation,imperativo,1p,tirem,yes
+tirare,tirà,,1st conjugation,imperativo,2p,tirii,yes
+tirare,tirà,,1st conjugation,imperativo negativo,2s,tira mia,yes
+tirare,tirà,,1st conjugation,imperativo negativo,1p,tirem mia,yes
+tirare,tirà,,1st conjugation,imperativo negativo,2p,tirii mia,yes
+tirare,tirà,,1st conjugation,gerundio,-,tirando (fö),
+tirare,tirà,,1st conjugation,participio passato,-,tiraa,yes
 toccare,tucà,yes,1st conjugation,presente,1s,tuchi,yes
 toccare,tucà,yes,1st conjugation,presente,2s,ta tucat,yes
 toccare,tucà,yes,1st conjugation,presente,3s,la/al tuca,yes
@@ -8499,74 +8431,6 @@ toccare,tucà,yes,1st conjugation,imperativo negativo,1p,tuchem mia,yes
 toccare,tucà,yes,1st conjugation,imperativo negativo,2p,tuchii mia,yes
 toccare,tucà,yes,1st conjugation,gerundio,-,tucando,yes
 toccare,tucà,yes,1st conjugation,participio passato,-,tucaa,
-togliere,tirà via,,1st conjugation,presente,1s,tiri via,yes
-togliere,tirà via,,1st conjugation,presente,2s,ta tirat via,yes
-togliere,tirà via,,1st conjugation,presente,3s,la/al tira via,yes
-togliere,tirà via,,1st conjugation,presente,1p,tirum via,yes
-togliere,tirà via,,1st conjugation,presente,2p,tiruf via,yes
-togliere,tirà via,,1st conjugation,presente,3p,i tiran via,yes
-togliere,tirà via,,1st conjugation,imperfetto,1s,tirava via,yes
-togliere,tirà via,,1st conjugation,imperfetto,2s,ta tiravat via,yes
-togliere,tirà via,,1st conjugation,imperfetto,3s,la/al tirava via,yes
-togliere,tirà via,,1st conjugation,imperfetto,1p,tiravum via,yes
-togliere,tirà via,,1st conjugation,imperfetto,2p,tiravuf via,yes
-togliere,tirà via,,1st conjugation,imperfetto,3p,i tiravan via,yes
-togliere,tirà via,,1st conjugation,passato prossimo,1s,u tiraa via,yes
-togliere,tirà via,,1st conjugation,passato prossimo,2s,te tiraa via,yes
-togliere,tirà via,,1st conjugation,passato prossimo,3s,l’a tiraa via,yes
-togliere,tirà via,,1st conjugation,passato prossimo,1p,em tiraa via,yes
-togliere,tirà via,,1st conjugation,passato prossimo,2p,ii tiraa via,yes
-togliere,tirà via,,1st conjugation,passato prossimo,3p,i an tiraa via,yes
-togliere,tirà via,,1st conjugation,trapassato prossimo,1s,eva tiraa via,yes
-togliere,tirà via,,1st conjugation,trapassato prossimo,2s,ta evat tiraa via,yes
-togliere,tirà via,,1st conjugation,trapassato prossimo,3s,l’eva tiraa via,yes
-togliere,tirà via,,1st conjugation,trapassato prossimo,1p,evum tiraa via,yes
-togliere,tirà via,,1st conjugation,trapassato prossimo,2p,evuf tiraa via,yes
-togliere,tirà via,,1st conjugation,trapassato prossimo,3p,i evan tiraa via,yes
-togliere,tirà via,,1st conjugation,futuro,1s,tirarò via,yes
-togliere,tirà via,,1st conjugation,futuro,2s,ta tiraret via,yes
-togliere,tirà via,,1st conjugation,futuro,3s,la/al tirarà via,yes
-togliere,tirà via,,1st conjugation,futuro,1p,tirarem via,yes
-togliere,tirà via,,1st conjugation,futuro,2p,tirarii via,yes
-togliere,tirà via,,1st conjugation,futuro,3p,i tiraran via,yes
-togliere,tirà via,,1st conjugation,futuro prossimo,1s,avrò tiraa via,yes
-togliere,tirà via,,1st conjugation,futuro prossimo,2s,ta avret tiraa via,yes
-togliere,tirà via,,1st conjugation,futuro prossimo,3s,l’avrà tiraa via,yes
-togliere,tirà via,,1st conjugation,futuro prossimo,1p,avrem tiraa via,yes
-togliere,tirà via,,1st conjugation,futuro prossimo,2p,avrii tiraa via,yes
-togliere,tirà via,,1st conjugation,futuro prossimo,3p,i avran tiraa via,yes
-togliere,tirà via,,1st conjugation,condizionale presente,1s,tiraria/tiraressa via,yes
-togliere,tirà via,,1st conjugation,condizionale presente,2s,ta tirariat/tiraressat via,yes
-togliere,tirà via,,1st conjugation,condizionale presente,3s,la/al tiraria/tiraressa via,yes
-togliere,tirà via,,1st conjugation,condizionale presente,1p,tirarium/tiraressum via,yes
-togliere,tirà via,,1st conjugation,condizionale presente,2p,tirariuf/tiraressuf via,yes
-togliere,tirà via,,1st conjugation,condizionale presente,3p,i tirarian/tiraressan via,yes
-togliere,tirà via,,1st conjugation,condizionale passato,1s,avria/avress tiraa via,yes
-togliere,tirà via,,1st conjugation,condizionale passato,2s,t’avriat/t’avressat tiraa via,yes
-togliere,tirà via,,1st conjugation,condizionale passato,3s,l’avria/l’avressa tiraa via,yes
-togliere,tirà via,,1st conjugation,condizionale passato,1p,avrium/avressum tiraa via,yes
-togliere,tirà via,,1st conjugation,condizionale passato,2p,avriuf/avressuf tiraa via,yes
-togliere,tirà via,,1st conjugation,condizionale passato,3p,i avrian/i avressan tiraa via,yes
-togliere,tirà via,,1st conjugation,congiuntivo presente,1s,tira via,yes
-togliere,tirà via,,1st conjugation,congiuntivo presente,2s,ta tirat via,yes
-togliere,tirà via,,1st conjugation,congiuntivo presente,3s,la/al tira via,yes
-togliere,tirà via,,1st conjugation,congiuntivo presente,1p,tirum via,yes
-togliere,tirà via,,1st conjugation,congiuntivo presente,2p,tiruf via,yes
-togliere,tirà via,,1st conjugation,congiuntivo presente,3p,i tiran via,yes
-togliere,tirà via,,1st conjugation,congiuntivo imperfetto,1s,tirassa via,yes
-togliere,tirà via,,1st conjugation,congiuntivo imperfetto,2s,ta tirassat via,yes
-togliere,tirà via,,1st conjugation,congiuntivo imperfetto,3s,la/al tirass via,yes
-togliere,tirà via,,1st conjugation,congiuntivo imperfetto,1p,tirassum via,yes
-togliere,tirà via,,1st conjugation,congiuntivo imperfetto,2p,tirassuf via,yes
-togliere,tirà via,,1st conjugation,congiuntivo imperfetto,3p,i tirassan via,yes
-togliere,tirà via,,1st conjugation,imperativo,2s,tira via,yes
-togliere,tirà via,,1st conjugation,imperativo,1p,tirem via,yes
-togliere,tirà via,,1st conjugation,imperativo,2p,tirii via,yes
-togliere,tirà via,,1st conjugation,imperativo negativo,2s,tira mia via,yes
-togliere,tirà via,,1st conjugation,imperativo negativo,1p,tirem mia via,yes
-togliere,tirà via,,1st conjugation,imperativo negativo,2p,tirii mia via,yes
-togliere,tirà via,,1st conjugation,gerundio,-,tirando via (fö),
-togliere,tirà via,,1st conjugation,participio passato,-,tiraa,yes
 togliersi,tiras via,yes,1st conjugation,presente,1s,ma sa tiri via,yes
 togliersi,tiras via,yes,1st conjugation,presente,2s,ta sa tirat via,yes
 togliersi,tiras via,yes,1st conjugation,presente,3s,la/al sa tira via,yes
@@ -8907,142 +8771,6 @@ uccidere,mazzà,,1st conjugation,imperativo negativo,1p,mazzem mia,
 uccidere,mazzà,,1st conjugation,imperativo negativo,2p,mazzii mia,
 uccidere,mazzà,,1st conjugation,gerundio,-,mazzando,
 uccidere,mazzà,,1st conjugation,participio passato,-,mazzaa,yes
-unire,met insema,,3rd conjugation,presente,1s,meti insema,
-unire,met insema,,3rd conjugation,presente,2s,ta metat insema,
-unire,met insema,,3rd conjugation,presente,3s,la/al meta insema,
-unire,met insema,,3rd conjugation,presente,1p,metum insema,
-unire,met insema,,3rd conjugation,presente,2p,metuf insema,
-unire,met insema,,3rd conjugation,presente,3p,i met insema,
-unire,met insema,,3rd conjugation,imperfetto,1s,meteva insema,yes
-unire,met insema,,3rd conjugation,imperfetto,2s,ta metevat insema,yes
-unire,met insema,,3rd conjugation,imperfetto,3s,la/al meteva insema,yes
-unire,met insema,,3rd conjugation,imperfetto,1p,metevum insema,yes
-unire,met insema,,3rd conjugation,imperfetto,2p,metevuf insema,yes
-unire,met insema,,3rd conjugation,imperfetto,3p,i metevan insema,yes
-unire,met insema,,3rd conjugation,passato prossimo,1s,u metüü insema,yes
-unire,met insema,,3rd conjugation,passato prossimo,2s,te metüü insema,yes
-unire,met insema,,3rd conjugation,passato prossimo,3s,l’a metüü insema,yes
-unire,met insema,,3rd conjugation,passato prossimo,1p,em metüü insema,yes
-unire,met insema,,3rd conjugation,passato prossimo,2p,ii metüü insema,yes
-unire,met insema,,3rd conjugation,passato prossimo,3p,i an metüü insema,yes
-unire,met insema,,3rd conjugation,trapassato prossimo,1s,eva metüü insema,yes
-unire,met insema,,3rd conjugation,trapassato prossimo,2s,ta evat metüü insema,yes
-unire,met insema,,3rd conjugation,trapassato prossimo,3s,l’eva metüü insema,yes
-unire,met insema,,3rd conjugation,trapassato prossimo,1p,evum metüü insema,yes
-unire,met insema,,3rd conjugation,trapassato prossimo,2p,evuf metüü insema,yes
-unire,met insema,,3rd conjugation,trapassato prossimo,3p,i evan metüü insema,yes
-unire,met insema,,3rd conjugation,futuro,1s,metarò insema,yes
-unire,met insema,,3rd conjugation,futuro,2s,ta metaret insema,yes
-unire,met insema,,3rd conjugation,futuro,3s,la/al metarà insema,yes
-unire,met insema,,3rd conjugation,futuro,1p,metarem insema,yes
-unire,met insema,,3rd conjugation,futuro,2p,metarii insema,yes
-unire,met insema,,3rd conjugation,futuro,3p,i metaran insema,yes
-unire,met insema,,3rd conjugation,futuro prossimo,1s,avrò metüü insema,yes
-unire,met insema,,3rd conjugation,futuro prossimo,2s,ta avret metüü insema,yes
-unire,met insema,,3rd conjugation,futuro prossimo,3s,l’avrà metüü insema,yes
-unire,met insema,,3rd conjugation,futuro prossimo,1p,avrem metüü insema,yes
-unire,met insema,,3rd conjugation,futuro prossimo,2p,avrii metüü insema,yes
-unire,met insema,,3rd conjugation,futuro prossimo,3p,i avran metüü insema,yes
-unire,met insema,,3rd conjugation,condizionale presente,1s,metaria/metaressa insema,yes
-unire,met insema,,3rd conjugation,condizionale presente,2s,ta metariat/metaressat insema,yes
-unire,met insema,,3rd conjugation,condizionale presente,3s,la/al metaria/metaressa insema,yes
-unire,met insema,,3rd conjugation,condizionale presente,1p,metarium/metaressum insema,yes
-unire,met insema,,3rd conjugation,condizionale presente,2p,metariuf/metaressuf insema,yes
-unire,met insema,,3rd conjugation,condizionale presente,3p,i metarian/metaressan insema,yes
-unire,met insema,,3rd conjugation,condizionale passato,1s,avria/avress metüü insema,yes
-unire,met insema,,3rd conjugation,condizionale passato,2s,t’avriat/t’avressat metüü insema,yes
-unire,met insema,,3rd conjugation,condizionale passato,3s,l’avria/l’avressa metüü insema,yes
-unire,met insema,,3rd conjugation,condizionale passato,1p,avrium/avressum metüü insema,yes
-unire,met insema,,3rd conjugation,condizionale passato,2p,avriuf/avressuf metüü insema,yes
-unire,met insema,,3rd conjugation,condizionale passato,3p,i avrian/i avressan metüü insema,yes
-unire,met insema,,3rd conjugation,congiuntivo presente,1s,meta insema,yes
-unire,met insema,,3rd conjugation,congiuntivo presente,2s,ta metat insema,yes
-unire,met insema,,3rd conjugation,congiuntivo presente,3s,la/al meta insema,yes
-unire,met insema,,3rd conjugation,congiuntivo presente,1p,metum insema,yes
-unire,met insema,,3rd conjugation,congiuntivo presente,2p,metuf insema,yes
-unire,met insema,,3rd conjugation,congiuntivo presente,3p,i metan insema,yes
-unire,met insema,,3rd conjugation,congiuntivo imperfetto,1s,metessa insema,yes
-unire,met insema,,3rd conjugation,congiuntivo imperfetto,2s,ta metessat insema,yes
-unire,met insema,,3rd conjugation,congiuntivo imperfetto,3s,la/al metess insema,yes
-unire,met insema,,3rd conjugation,congiuntivo imperfetto,1p,metessum insema,yes
-unire,met insema,,3rd conjugation,congiuntivo imperfetto,2p,metessuf insema,yes
-unire,met insema,,3rd conjugation,congiuntivo imperfetto,3p,i metessan insema,yes
-unire,met insema,,3rd conjugation,imperativo,2s,met insema,yes
-unire,met insema,,3rd conjugation,imperativo,1p,metem insema,yes
-unire,met insema,,3rd conjugation,imperativo,2p,metii insema,yes
-unire,met insema,,3rd conjugation,imperativo negativo,2s,met mia insema,yes
-unire,met insema,,3rd conjugation,imperativo negativo,1p,metem mia insema,yes
-unire,met insema,,3rd conjugation,imperativo negativo,2p,metii mia insema,yes
-unire,met insema,,3rd conjugation,gerundio,-,metendo insema,yes
-unire,met insema,,3rd conjugation,participio passato,-,metüü,yes
-uscire,na föra,,"irregular (compound of na, andare)",presente,1s,vo föra,
-uscire,na föra,,"irregular (compound of na, andare)",presente,2s,ta ve(t) föra,
-uscire,na föra,,"irregular (compound of na, andare)",presente,3s,la/al ve föra,
-uscire,na föra,,"irregular (compound of na, andare)",presente,1p,vem föra,
-uscire,na föra,,"irregular (compound of na, andare)",presente,2p,vii föra,
-uscire,na föra,,"irregular (compound of na, andare)",presente,3p,i va(n) föra,
-uscire,na föra,,"irregular (compound of na, andare)",imperfetto,1s,nava föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperfetto,2s,ta navat föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperfetto,3s,la/al nava föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperfetto,1p,navum föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperfetto,2p,navuf föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperfetto,3p,i navan föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",passato prossimo,1s,sum nai (femminile = naia) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",passato prossimo,2s,ta sé(t) nai (femminile = naia) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",passato prossimo,3s,l’è naia (lü l’è nai) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",passato prossimo,1p,sem nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",passato prossimo,2p,sii nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",passato prossimo,3p,ié nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",trapassato prossimo,1s,seva nai (a) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",trapassato prossimo,2s,ta sevat nai (a) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",trapassato prossimo,3s,l’eva nai (a) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",trapassato prossimo,1p,sevum nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",trapassato prossimo,2p,sevuf nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",trapassato prossimo,3p,i evan nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro,1s,narò föra / naroo föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro,2s,ta naré(t) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro,3s,la/al narà föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro,1p,narem föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro,2p,narii föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro,3p,i naran föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro prossimo,1s,sarò nai (a) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro prossimo,2s,ta saré(t) nai (a) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro prossimo,3s,la/al sarà nai (a) föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro prossimo,1p,sarem nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro prossimo,2p,sarii nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",futuro prossimo,3p,i saran nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale presente,1s,naria/naressa föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale presente,2s,ta naressat föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale presente,3s,naria/naressa föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale presente,1p,naressum föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale presente,2p,naressuf föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale presente,3p,narian/naressan föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale passato,1s,saria/saress nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale passato,2s,ta sariat/ta saressat nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale passato,3s,la/al saria/saressa nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale passato,1p,sarium/saressum nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale passato,2p,sariuf/saressuf nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",condizionale passato,3p,i sarian/i saressan nai föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo presente,1s,naga föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo presente,2s,ta nagat föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo presente,3s,la/al naga föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo presente,1p,nagum föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo presente,2p,naguf föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo presente,3p,i nagan föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo imperfetto,1s,nassa föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo imperfetto,2s,ta nassat föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo imperfetto,3s,la/al nass föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo imperfetto,1p,nassum föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo imperfetto,2p,nassuf föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",congiuntivo imperfetto,3p,i nassan föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperativo,2s,va föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperativo,1p,nem föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperativo,2p,nii föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperativo negativo,2s,va mia föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperativo negativo,1p,nem mia föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",imperativo negativo,2p,nii mia föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",gerundio,-,nando föra,yes
-uscire,na föra,,"irregular (compound of na, andare)",participio passato,-,nai,yes
 vedere,vedé,,2nd conjugation,presente,1s,vedi,
 vedere,vedé,,2nd conjugation,presente,2s,ta vedat,
 vedere,vedé,,2nd conjugation,presente,3s,la/al ved,

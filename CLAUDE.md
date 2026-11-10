@@ -269,6 +269,13 @@ Templates (not data) are in `pipeline/templates/`: `readme_intro.md`, `cldf_read
   In the PDFs (A4 and A5) the first three lines of a verb sheet (verb, Italian/English, gerund/participle/class)
   are set to the right on an odd page, by the outer edge, to be read while flipping (owner, 2026-10-31):
   `{{side:ID}}` in the two-pass print gives the sheet the class `recto` from its real page number.
+  **Verbs with a particle (owner, 2026-11-10)** have no page of their own: *na giò*, *tacà sü* are listed under
+  "Also" on the page of the base verb (*na*, *tacà*), whose page also shows their forms found in a document,
+  without the particle. Reflexives with a particle (*setas giò*, *vöras ben*) keep their own pages. A row of
+  `etc/verb_details.csv` with a particle in `dialect` and `merge_into` = the base verb's Italian does it
+  (`phrasal_verbs()` in step 4); in `cldf/` the phrasal verb keeps its entry and paradigm, with `Base_Verb` = the
+  base verb's entry. Base verbs made for this: *tacà* (attaccare), *tirà* (tirare), *mandà* (mandare), *catà*
+  (cogliere), *bürlà* (cascare).
 - **Verb forms:** a form found in a document always wins; gaps predicted by `verb_conjugator.py` from
   lessons 8, 17, 18. Auxiliary *ves* for reflexives, compounds of `na`, and `aux=essere` in
   `etc/verb_details.csv`; otherwise *vegh*.

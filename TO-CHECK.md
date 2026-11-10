@@ -6,11 +6,11 @@ Tutto ciò che nelle pagine generate non è preso direttamente da un documento d
 
 | Cosa | Quanti |
 |---|---|
-| [† Infiniti dialettali dedotti](#infiniti-dedotti) | 55 |
-| [† Forme verbali dedotte](#forme-verbali-dedotte) | 7988 |
+| [† Infiniti dialettali dedotti](#infiniti-dedotti) | 56 |
+| [† Forme verbali dedotte](#forme-verbali-dedotte) | 7780 |
 | [† Italiano aggiunto agli elenchi solo in dialetto](#italiano-aggiunto) | 2 |
 | [Domande aperte](#domande-aperte) | 8 |
-| [Grafie preferite](#grafie-preferite) | 59 |
+| [Grafie preferite](#grafie-preferite) | 56 |
 | [† Parole nei nomi degli argomenti non trovate nel corso](#nomi-degli-argomenti) | 6 |
 | [⚠ Estrazioni incerte](#estrazioni-incerte) | 7 |
 
@@ -38,9 +38,7 @@ Le lezioni scrivono queste parole in più modi. Tutte le grafie restano e si pos
 | barbiis · barbis | baffi | moustache |
 | bef · bèf | bere | to drink |
 | belissim · belisim | bellissimo | very beautiful |
-| bürlà giò · bürlà giô | cadere | to fall |
 | capél · capèl | cappello | hat |
-| catà fö · cata fö | scegliere | to choose |
 | comün · cumün | comune | municipality |
 | cöör · cör | cuore | heart |
 | cor · côr | correre | to run |
@@ -64,7 +62,6 @@ Le lezioni scrivono queste parole in più modi. Tutte le grafie restano e si pos
 | met · mett | mettere | to put |
 | moltu · multu | molto | very, a lot |
 | na · nà | andare | to go |
-| na giò · na giô | scendere | to go down |
 | nocc · nott | buio | dark |
 | nosa · nossa | nostra | our (f.) |
 | nümm · nüm · numm | noi | we, us |
@@ -117,7 +114,6 @@ Il materiale del corso dà forme di questi verbi ma non ne indica mai l'infinito
 | [guardas](Verbs/guardas-guardarsi.md) | guardarsi | the reflexive of guardà, asked for by the owner (2026-10-26); not in the course. San Martin (variety not verified) has the infinitive guardass (l.52) and impersonal sa guardava (l.55). Conjugated like lavas on guardà's stem |
 | [lasà](Verbs/lasa-lasciare.md) | lasciare | Claude, from the translated sentences (2026-10-28): lasa (imperative), lasaa; infinitive inferred |
 | [mancà](Verbs/manca-mancare.md) | mancare | Claude, from the translated sentences (2026-10-28): a ma manca (brevi frasi); infinitive inferred |
-| [met sü](Verbs/met-su-indossare.md) | indossare | lesson 9 gives the present 'mi meti sü'; phrasal form of met |
 | [mövas](Verbs/movas-muoversi.md) | muoversi | imperative 'mövas mia', gerund mövendus; reflexive of möf, like setas giò and lavas |
 | [nass](Verbs/nass-nascere.md) | nascere | Claude, from the translated sentences (2026-10-28): participle nasüü (lessons 12, 13: l'è nasüü); infinitive inferred |
 | [partì](Verbs/parti-partire.md) | partire | participle partii (-ii participle = -ì infinitive), conditional partisa- |
@@ -127,6 +123,7 @@ Il materiale del corso dà forme di questi verbi ma non ne indica mai l'infinito
 | [picà](Verbs/pica-picchiare.md) | picchiare | lesson 7 gives the present 'mi pichi, ti ta picat ...' (regular -à verb) |
 | [preferì](Verbs/preferi-preferire.md) | preferire | Claude, from the translated sentences (2026-10-28): a preferisi (dialoghi a Lugano); infinitive inferred |
 | [presentà](Verbs/presenta-presentare.md) | presentare | Claude, from the translated sentences (2026-10-28): va presenti (varie situazioni); infinitive inferred |
+| [prutesctà](Verbs/prutescta-protestare.md) | protestare | Owner, 2026-11-10: l’a prutesctaa (protestò), from the participle; the infinitive is not in the documents |
 | [regordas](Verbs/regordas-ricordarsi.md) | ricordarsi | imperative 'regordas mia'; reflexive like lavas |
 | [rescpirà](Verbs/rescpira-respirare.md) | respirare | Claude, from the translated sentences (2026-10-28): sa rescpira; infinitive inferred |
 | [rescpond](Verbs/rescpond-rispondere.md) | rispondere | Claude, from the translated sentences (2026-10-28): participle rescpundüü (La spesa che non ti aspetti); infinitive inferred |
@@ -137,6 +134,7 @@ Il materiale del corso dà forme di questi verbi ma non ne indica mai l'infinito
 | [scbat / scbatt](Verbs/scbat-sbattere.md) | sbattere | lesson 7 gives the present only |
 | [schiscià](Verbs/schiscia-schiacciare.md) | schiacciare | lesson 7 gives the present only |
 | [scpetà](Verbs/scpeta-aspettare.md) | aspettare | Claude, from the translated sentences (2026-10-28): la scpetava (I düü magnan, La spesa); infinitive inferred |
+| [scpiegà](Verbs/scpiega-spiegare.md) | spiegare | Owner, 2026-11-10: l’a scpiegaa (spiegò); al scpiega in dialoghi a Lugano; the infinitive is not in the documents |
 | [scpüzzà](Verbs/scpuzza-puzzare.md) | puzzare | Claude, from the translated sentences (2026-10-28): al scpüzza; infinitive inferred |
 | [sculpì](Verbs/sculpi-scolpire.md) | scolpire | gerund sculpendu, imperative 'sculpis mia' (-ì verb like capì / capis) |
 | [scund](Verbs/scund-nascondere.md) | nascondere | Claude, from the translated sentences (2026-10-28): participle scundüü (La spesa); infinitive inferred |
@@ -144,12 +142,12 @@ Il materiale del corso dà forme di questi verbi ma non ne indica mai l'infinito
 | [süced](Verbs/suced-succedere.md) | succedere | Claude, from the translated sentences (2026-10-28): participle sücedüü (brevi frasi, La spesa); infinitive inferred |
 | [sumeà](Verbs/sumea-sembrare.md) | sembrare | Claude, from the translated sentences (2026-10-28): al sumea, la sumeava in the texts; the infinitive is not in the documents |
 | [sunà](Verbs/suna-suonare.md) | suonare | Claude, from the translated sentences (2026-10-28): al sôna (varie situazioni); infinitive inferred |
-| [tacà sü](Verbs/taca-su-appendere.md) | appendere | gerund tacando sü, imperative 'taca mia sü'; 'tacà sü' is attested in Gaggini (Basso Ceresio) |
 | [tasé](Verbs/tase-tacere.md) | tacere | lesson 7 gives the present only |
 | [tiras via](Verbs/tiras-via-togliersi.md) | togliersi | gerund 'tirandos via (fö)'; reflexive of tirà via. The imperative sheet's 'töt mia fö' is another verb (töss fö) |
 | [töss fö](Verbs/toss-fo-togliersi-di-torno.md) | togliersi di torno | reflexive of töö with fö, from the negative imperative 'töt mia fö, töghemas mia fö, tögevas mia fö' (imperativo, l.154); conjugated (Claude inferred, 2026-10-26) as the reflexive of töö on its stem tög- (töghemas, tögevas), with fö; also töt fö in ul nos Topolino l.213 |
 | [tucà](Verbs/tuca-toccare.md) | toccare | Claude, from the translated sentences (2026-10-28): m'è tucaa (brevi frasi); infinitive inferred |
 | [unurà](Verbs/unura-onorare.md) | onorare | gerund unurando, imperative 'unora mia, unurem mia' (regular -à verb) |
+| [uservà](Verbs/userva-osservare.md) | osservare | Owner, 2026-11-10: l’a uservaa (osservò), from the participle; the infinitive is not in the documents |
 | [vend](Verbs/vend-vendere.md) | vendere | Claude, from the translated sentences (2026-10-28): sa vend (varie situazioni); infinitive inferred |
 | [vert / vèrt](Verbs/vert-aprire.md) | aprire | imperative 'vert mia, verdem mia', gerund verdendo; ending dropped with final consonant hardened, as in scrif / scrivem |
 | [vinc](Verbs/vinc-vincere.md) | vincere | Claude, from the translated sentences (2026-10-28): participle vinciüü (brevi frasi); infinitive inferred |
@@ -167,13 +165,13 @@ Una riga per ogni verbo con almeno una forma dedotta. I *tempi interi* sono le c
 | [bef / bèf](Verbs/bef-bere.md) | bere | vegh | condizionale passato; congiuntivo imperfetto; imperativo |  |
 | [bramà](Verbs/brama-bramare.md) † | bramare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
 | [brascià](Verbs/brascia-abbracciare.md) † | abbracciare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
-| [bürlà giò / bürlà giô](Verbs/burla-gio-cadere.md) | cadere | ves | passato prossimo; condizionale passato; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
+| [bürlà](Verbs/burla-cascare.md) | cascare | ves | passato prossimo; condizionale passato; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [bütà](Verbs/buta-gettare.md) | gettare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [caminà](Verbs/camina-camminare.md) | camminare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
 | [cantà](Verbs/canta-cantare.md) | cantare | vegh | passato prossimo; condizionale presente; condizionale passato; congiuntivo imperfetto; imperativo |  |
 | [capì](Verbs/capi-capire.md) | capire | vegh | imperfetto; passato prossimo; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo negativo | presente: la/al capis, capisum, capisuf, i capis<br>trapassato prossimo: eva capii, ta evat capii, evum capii, evuf capii, i evan capii<br>futuro: capisarò, ta capisaret, la/al capisarà, capisarii, i capisaran |
 | [capità](Verbs/capita-capitare.md) † | capitare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: capiti, ta capitat, capitum, capituf, i capitan |
-| [catà fö / cata fö](Verbs/cata-fo-scegliere.md) | scegliere | vegh | imperfetto; trapassato prossimo; futuro prossimo; condizionale presente; condizionale passato; congiuntivo imperfetto; imperativo |  |
+| [catà](Verbs/cata-cogliere.md) | cogliere | vegh | imperfetto; trapassato prossimo; futuro prossimo; condizionale presente; condizionale passato; congiuntivo imperfetto; imperativo |  |
 | [cercà](Verbs/cerca-cercare.md) | cercare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [ciamà](Verbs/ciama-chiamare.md) † | chiamare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio | presente: ta ciamat, la/al ciama, ciamum, ciamuf, i ciaman |
 | [ciapà](Verbs/ciapa-prendere.md) | prendere | vegh | condizionale passato; congiuntivo imperfetto; imperativo; imperativo negativo |  |
@@ -194,7 +192,6 @@ Una riga per ogni verbo con almeno una forma dedotta. I *tempi interi* sono le c
 | [dumandà](Verbs/dumanda-domandare.md) † | domandare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [duprà / doprà](Verbs/dupra-adoperare.md) † | adoperare | vegh | imperfetto; passato prossimo; trapassato prossimo; futuro prossimo; condizionale presente; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio | presente: ta doprat, doprum, i dopran<br>futuro: doprarò, la/al doprarà, doprarem, doprarii<br>condizionale passato: t’avriat/t’avressat dupraa, l’avria/l’avressa dupraa, avrium/avressum dupraa, avriuf/avressuf dupraa, i avrian/i avressan dupraa |
 | [fà / fa](Verbs/fa-fare.md) | fare | vegh | condizionale passato; congiuntivo imperfetto; imperativo |  |
-| [fa sù](Verbs/fa-su-costruire.md) | costruire | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [fermà](Verbs/ferma-fermare.md) † | fermare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [finì](Verbs/fini-finire.md) | finire | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio | presente: finisi, ta finisat, finisum, finisuf, i finis |
 | [giögà / giügà](Verbs/gioga-giocare.md) | giocare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
@@ -207,20 +204,14 @@ Una riga per ogni verbo con almeno una forma dedotta. I *tempi interi* sono le c
 | [lavurà / laurà](Verbs/lavura-lavorare.md) | lavorare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: lavuri, ta lavurat, lavurum, lavuruf, i lavuran |
 | [lenc](Verbs/lenc-leggere.md) | leggere | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo |  |
 | [mancà](Verbs/manca-mancare.md) † | mancare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: manchi, ta mancat, mancum, mancuf, i mancan |
-| [manda giò](Verbs/manda-gio-ingerire.md) | ingerire | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
+| [mandà](Verbs/manda-mandare.md) | mandare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [mangià](Verbs/mangia-mangiare.md) | mangiare | vegh | passato prossimo; condizionale presente; congiuntivo imperfetto; imperativo; gerundio |  |
 | [mazzà](Verbs/mazza-uccidere.md) | uccidere | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
 | [menà](Verbs/mena-condurre.md) | condurre | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
-| [met insema](Verbs/met-insema-unire.md) | unire | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [met / mett](Verbs/met-mettere.md) | mettere | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
-| [met sü](Verbs/met-su-indossare.md) † | indossare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [möf](Verbs/mof-muovere.md) | muovere | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
 | [mövas](Verbs/movas-muoversi.md) † | muoversi | ves † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
-| [na föra](Verbs/na-fora-uscire.md) | uscire | ves † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
-| [na giò / na giô](Verbs/na-gio-scendere.md) | scendere | ves | passato prossimo; condizionale presente; condizionale passato; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
-| [nà innanz](Verbs/na-innanz-procedere.md) | procedere | ves † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
 | [na / nà](Verbs/na-andare.md) | andare | ves | condizionale passato; congiuntivo imperfetto | imperativo: va, nem |
-| [na sù](Verbs/na-su-salire.md) | salire | ves † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [nass](Verbs/nass-nascere.md) † | nascere | ves † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [nodà](Verbs/noda-nuotare.md) | nuotare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [nominà](Verbs/nomina-nominare.md) | nominare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
@@ -240,6 +231,7 @@ Una riga per ogni verbo con almeno una forma dedotta. I *tempi interi* sono le c
 | [presentà](Verbs/presenta-presentare.md) † | presentare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: ta presentat, la/al presenta, presentum, presentuf, i presentan |
 | [prodü / fà](Verbs/produ-produrre.md) | produrre | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [pruà](Verbs/prua-provare.md) | provare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo negativo; gerundio; participio passato | imperativo: pruem, pruii |
+| [prutesctà](Verbs/prutescta-protestare.md) † | protestare | vegh | presente; imperfetto; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio | passato prossimo: u prutesctaa, te prutesctaa, em prutesctaa, ii prutesctaa, i an prutesctaa |
 | [purtà](Verbs/purta-portare.md) | portare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [regordas](Verbs/regordas-ricordarsi.md) † | ricordarsi | ves † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; gerundio; participio passato | presente: la/al sa regorda, sa regordum, sa regorduf, i sa regordan |
 | [rescpirà](Verbs/rescpira-respirare.md) † | respirare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: rescpiri, ta rescpirat, rescpirum, rescpiruf, i rescpiran |
@@ -261,6 +253,7 @@ Una riga per ogni verbo con almeno una forma dedotta. I *tempi interi* sono le c
 | [schiscià](Verbs/schiscia-schiacciare.md) † | schiacciare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [scoltà o scultà](Verbs/scolta-ascoltare.md) | ascoltare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
 | [scpetà](Verbs/scpeta-aspettare.md) † | aspettare | vegh † | presente; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | imperfetto: scpetava, ta scpetavat, scpetavum, scpetavuf, i scpetavan |
+| [scpiegà](Verbs/scpiega-spiegare.md) † | spiegare | vegh | imperfetto; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio | presente: scpieghi, ta scpiegat, scpiegum, scpieguf, i scpiegan<br>passato prossimo: u scpiegaa, te scpiegaa, em scpiegaa, ii scpiegaa, i an scpiegaa |
 | [scpüzzà](Verbs/scpuzza-puzzare.md) † | puzzare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: scpüzzi, ta scpüzzat, scpüzzum, scpüzzuf, i scpüzzan |
 | [scrif](Verbs/scrif-scrivere.md) | scrivere | vegh | imperfetto; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo | passato prossimo: u scrivüü, te scrivüü, em scrivüü, ii scrivüü, i an scrivüü |
 | [sctudià / stüdià / studià](Verbs/sctudia-studiare.md) | studiare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: ta sctudiat, la/al sctudia, sctudium, sctudiuf, i sctudian |
@@ -275,11 +268,11 @@ Una riga per ogni verbo con almeno una forma dedotta. I *tempi interi* sono le c
 | [sudà](Verbs/suda-sudare.md) | sudare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [sumeà](Verbs/sumea-sembrare.md) † | sembrare | vegh † | passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: sumei, ta sumeat, sumeum, sumeuf, i sumean<br>imperfetto: sumeava, ta sumeavat, sumeavum, sumeavuf, i sumeavan |
 | [sunà](Verbs/suna-suonare.md) † | suonare | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato | presente: suni, ta sunat, sunum, sunuf, i sunan |
-| [tacà sü](Verbs/taca-su-appendere.md) † | appendere | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo |  |
+| [tacà](Verbs/taca-attaccare.md) | attaccare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo |  |
 | [taià](Verbs/taia-tagliare.md) | tagliare | vegh | imperfetto; trapassato prossimo; futuro prossimo; condizionale presente; condizionale passato; congiuntivo imperfetto; imperativo |  |
 | [tasé](Verbs/tase-tacere.md) † | tacere | vegh † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [tegnì](Verbs/tegni-tenere.md) | tenere | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
-| [tirà via](Verbs/tira-via-togliere.md) | togliere | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; participio passato |  |
+| [tirà](Verbs/tira-tirare.md) | tirare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; participio passato |  |
 | [tiras via](Verbs/tiras-via-togliersi.md) † | togliersi | ves † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; participio passato |  |
 | [töö / tö](Verbs/too-comprare.md) | comprare | vegh | imperfetto; trapassato prossimo; futuro; futuro prossimo; condizionale passato; congiuntivo presente; congiuntivo imperfetto | presente: töghi, tögum, töguf, i tögan<br>passato prossimo: te töi, em töi, ii töi, i an töi<br>condizionale presente: ta tögariat/tögaressat, la/al tögaria/tögaressa, tögarium/tögaressum, tögariuf/tögaressuf, i tögarian/tögaressan<br>imperativo: töghii |
 | [töss fö](Verbs/toss-fo-togliersi-di-torno.md) † | togliersi di torno | ves † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; gerundio | imperativo: töghemas fö, tögevas fö |
@@ -290,6 +283,7 @@ Una riga per ogni verbo con almeno una forma dedotta. I *tempi interi* sono le c
 | [tucà](Verbs/tuca-toccare.md) † | toccare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [turna o torna indré](Verbs/turna-ritornare.md) | ritornare | ves † | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio; participio passato |  |
 | [unurà](Verbs/unura-onorare.md) † | onorare | vegh † | presente; imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; participio passato |  |
+| [uservà](Verbs/userva-osservare.md) † | osservare | vegh | presente; imperfetto; trapassato prossimo; futuro; futuro prossimo; condizionale presente; condizionale passato; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio | passato prossimo: u uservaa, te uservaa, em uservaa, ii uservaa, i an uservaa |
 | [vedé](Verbs/vede-vedere.md) | vedere | vegh | imperfetto; passato prossimo; trapassato prossimo; futuro; futuro prossimo; congiuntivo presente; congiuntivo imperfetto; imperativo; imperativo negativo; gerundio |  |
 | [vegh / veg / végh](Verbs/vegh-avere.md) | avere | vegh | imperativo | congiuntivo imperfetto: t’avessat, l’avess, avessum, avessuf, i avessan |
 | [vegnì](Verbs/vegni-venire.md) | venire | ves | passato prossimo; congiuntivo imperfetto; imperativo |  |

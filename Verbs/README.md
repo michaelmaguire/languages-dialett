@@ -16,13 +16,13 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [bef / bèf](bef-bere.md) | bere | to drink | 3rd conjugation | 53 of 68 |
 | [bramà](brama-bramare.md) † | bramare | to long for | 1st conjugation | 4 of 68 |
 | [brascià](brascia-abbracciare.md) † | abbracciare | to hug | 1st conjugation | 1 of 68 |
-| [bürlà giò / bürlà giô](burla-gio-cadere.md) | cadere | to fall | 1st conjugation | 43 of 68 |
+| [bürlà](burla-cascare.md) | cascare | to fall, to tumble | 1st conjugation | 43 of 68 |
 | [bütà](buta-gettare.md) | gettare / buttare / versare | to throw (away) | 1st conjugation | 1 of 68 |
 | [caminà](camina-camminare.md) | camminare | to walk | 1st conjugation | 4 of 68 |
 | [cantà](canta-cantare.md) | cantare | to sing | 1st conjugation | 41 of 68 |
 | [capì](capi-capire.md) | capire | to understand | 4th conjugation | 9 of 68 |
 | [capità](capita-capitare.md) † | capitare | to happen | 1st conjugation | 1 of 68 |
-| [catà fö / cata fö](cata-fo-scegliere.md) | scegliere | to choose | 1st conjugation | 29 of 68 |
+| [catà](cata-cogliere.md) | cogliere | to pick | 1st conjugation | 29 of 68 |
 | [cercà](cerca-cercare.md) | cercare | to look for | 1st conjugation | 12 of 68 |
 | [ciamà](ciama-chiamare.md) † | chiamare | to call | 1st conjugation | 2 of 68 |
 | [ciapà](ciapa-prendere.md) | prendere | to take | 1st conjugation | 50 of 68 |
@@ -43,7 +43,6 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [dumandà](dumanda-domandare.md) † | domandare | to ask | 1st conjugation | 1 of 68 |
 | [duprà / doprà](dupra-adoperare.md) † | adoperare / usare | to use | 1st conjugation | 7 of 68 |
 | [fà / fa](fa-fare.md) | fare | to do / make | irregular | 53 of 68 |
-| [fa sù](fa-su-costruire.md) | costruire | to build | irregular (compound of fa, fare) | 6 of 68 |
 | [fermà](ferma-fermare.md) † | fermare | to stop | 1st conjugation | 1 of 68 |
 | [finì](fini-finire.md) | finire | to finish | 4th conjugation | 2 of 68 |
 | [giögà / giügà](gioga-giocare.md) | giocare | to play | 1st conjugation | 6 of 68 |
@@ -56,20 +55,14 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [lavurà / laurà](lavura-lavorare.md) | lavorare | to work | 1st conjugation | 1 of 68 |
 | [lenc](lenc-leggere.md) | leggere | to read | 3rd conjugation | 11 of 68 |
 | [mancà](manca-mancare.md) † | mancare | to be missing; miss | 1st conjugation | 1 of 68 |
-| [manda giò](manda-gio-ingerire.md) | ingerire | to swallow | 1st conjugation | 6 of 68 |
+| [mandà](manda-mandare.md) | mandare | to send | 1st conjugation | 6 of 68 |
 | [mangià](mangia-mangiare.md) | mangiare | to eat | 1st conjugation | 46 of 68 |
 | [mazzà](mazza-uccidere.md) | uccidere | to kill | 1st conjugation | 10 of 68 |
 | [menà](mena-condurre.md) | condurre | to lead | 1st conjugation | 12 of 68 |
-| [met insema](met-insema-unire.md) | unire | to join | 3rd conjugation | 6 of 68 |
 | [met / mett](met-mettere.md) | mettere | to put | 3rd conjugation | 10 of 68 |
-| [met sü](met-su-indossare.md) † | indossare | to put on / wear | 3rd conjugation | 6 of 68 |
 | [möf](mof-muovere.md) | muovere | to move | 3rd conjugation | 10 of 68 |
 | [mövas](movas-muoversi.md) † | muoversi | to move (oneself) | 3rd conjugation | 4 of 68 |
-| [na föra](na-fora-uscire.md) | uscire | to go out | irregular (compound of na, andare) | 6 of 68 |
-| [na giò / na giô](na-gio-scendere.md) | scendere | to go down | irregular (compound of na, andare) | 37 of 68 |
-| [nà innanz](na-innanz-procedere.md) | procedere | to proceed | irregular (compound of nà, andare) | 4 of 68 |
 | [na / nà](na-andare.md) | andare | to go | irregular | 54 of 68 |
-| [na sù](na-su-salire.md) | salire | to go up | irregular (compound of na, andare) | 6 of 68 |
 | [nass](nass-nascere.md) † | nascere | to be born | 3rd conjugation | 1 of 68 |
 | [nodà](noda-nuotare.md) | nuotare | to swim | 1st conjugation | 6 of 68 |
 | [nominà](nomina-nominare.md) | nominare | to name | 1st conjugation | 4 of 68 |
@@ -89,6 +82,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [presentà](presenta-presentare.md) † | presentare | to introduce, to present | 1st conjugation | 1 of 68 |
 | [prodü / fà](produ-produrre.md) | produrre | to produce | 3rd conjugation | 6 of 68 |
 | [pruà](prua-provare.md) | provare | to try | 1st conjugation | 1 of 68 |
+| [prutesctà](prutescta-protestare.md) † | protestare | to protest | 1st conjugation | 2 of 68 |
 | [purtà](purta-portare.md) | portare | to carry, to bring | 1st conjugation | 1 of 68 |
 | [regordas](regordas-ricordarsi.md) † | ricordarsi | to remember | 1st conjugation | 5 of 68 |
 | [rescpirà](rescpira-respirare.md) † | respirare | to breathe | 1st conjugation | 1 of 68 |
@@ -110,6 +104,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [schiscià](schiscia-schiacciare.md) † | schiacciare | to crush | 1st conjugation | 6 of 68 |
 | [scoltà o scultà](scolta-ascoltare.md) | ascoltare | to listen | 1st conjugation | 10 of 68 |
 | [scpetà](scpeta-aspettare.md) † | aspettare | to wait (for) | 1st conjugation | 1 of 68 |
+| [scpiegà](scpiega-spiegare.md) † | spiegare | to explain | 1st conjugation | 3 of 68 |
 | [scpüzzà](scpuzza-puzzare.md) † | puzzare | to stink | 1st conjugation | 1 of 68 |
 | [scrif](scrif-scrivere.md) | scrivere | to write | 3rd conjugation | 12 of 68 |
 | [sctudià / stüdià / studià](sctudia-studiare.md) | studiare | to study | 1st conjugation | 1 of 68 |
@@ -124,11 +119,11 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [sudà](suda-sudare.md) | sudare | to sweat | 1st conjugation | 6 of 68 |
 | [sumeà](sumea-sembrare.md) † | sembrare | to seem | 1st conjugation | 2 of 68 |
 | [sunà](suna-suonare.md) † | suonare | to play (an instrument); ring | 1st conjugation | 1 of 68 |
-| [tacà sü](taca-su-appendere.md) † | appendere | to hang | 1st conjugation | 5 of 68 |
+| [tacà](taca-attaccare.md) | attaccare | to attach, to stick; start | 1st conjugation | 5 of 68 |
 | [taià](taia-tagliare.md) | tagliare | to cut | 1st conjugation | 29 of 68 |
 | [tasé](tase-tacere.md) † | tacere | to be silent | 2nd conjugation | 6 of 68 |
 | [tegnì](tegni-tenere.md) | tenere | to hold | 4th conjugation | 6 of 68 |
-| [tirà via](tira-via-togliere.md) | togliere | to remove | 1st conjugation | 1 of 68 |
+| [tirà](tira-tirare.md) | tirare | to pull, to throw | 1st conjugation | 1 of 68 |
 | [tiras via](tiras-via-togliersi.md) † | togliersi | to take off | 1st conjugation | 1 of 68 |
 | [töö / tö](too-comprare.md) | comprare / prendere | to buy | irregular | 12 of 68 |
 | [töss fö](toss-fo-togliersi-di-torno.md) † | togliersi di torno | to get out of the way | irregular | 5 of 68 |
@@ -139,6 +134,7 @@ Verb classes follow the four conjugations used in Western Lombard grammars: 1st 
 | [tucà](tuca-toccare.md) † | toccare | to touch; have to (m’è tucaa) | 1st conjugation | 1 of 68 |
 | [turna o torna indré](turna-ritornare.md) | ritornare | to return | 1st conjugation | 6 of 68 |
 | [unurà](unura-onorare.md) † | onorare | to honour | 1st conjugation | 4 of 68 |
+| [uservà](userva-osservare.md) † | osservare | to observe, to watch | 1st conjugation | 2 of 68 |
 | [vedé](vede-vedere.md) | vedere | to see | 2nd conjugation | 19 of 68 |
 | [vegh / veg / végh](vegh-avere.md) | avere | to have | irregular | 60 of 68 |
 | [vegnì](vegni-venire.md) | venire | to come | 4th conjugation | 53 of 68 |

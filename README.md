@@ -24,12 +24,12 @@ Printable PDFs (A4, to download and print at home):
 
 | Section | What is in it | Size |
 |---|---|---|
-| [Dictionary](Dictionary/README.md) | Single words and short terms: Italiano ↔ Dialett, with English where available and a Region column; also as a [printable PDF](Dictionary/arogno-dictionary.pdf) | 1526 entries |
-| [Expressions](Expressions/README.md) | Sayings, idioms and phrases grouped by topic; also as a [printable PDF](Expressions/arogno-expressions.pdf) | 1097 expressions |
-| [Verbs](Verbs/README.md) | Conjugation charts, one page per verb; also as a [printable PDF](Verbs/arogno-verbs.pdf) | 140 verbs |
+| [Dictionary](Dictionary/README.md) | Single words and short terms: Italiano ↔ Dialett, with English where available and a Region column; also as a [printable PDF](Dictionary/arogno-dictionary.pdf) | 1548 entries |
+| [Expressions](Expressions/README.md) | Sayings, idioms and phrases grouped by topic; also as a [printable PDF](Expressions/arogno-expressions.pdf) | 1102 expressions |
+| [Verbs](Verbs/README.md) | Conjugation charts, one page per verb; also as a [printable PDF](Verbs/arogno-verbs.pdf) | 136 verbs |
 | [Grammar](Grammar/README.md) | A short grammar, explained in Italian and English side by side, with examples from the course; also as a [printable PDF](Grammar/arogno-grammar.pdf) | 13 chapters |
-| [To check](TO-CHECK.md) | Every inferred form and uncertain extraction, for checking with a teacher | 8050 items |
-| [CLDF dataset](cldf/README.md) | The master data set behind these pages, in the [CLDF](https://cldf.clld.org/) (Cross-Linguistic Data Formats) Dictionary format: words, meanings, examples, verb forms, sources and decisions on variants | 1550 entries |
+| [To check](TO-CHECK.md) | Every inferred form and uncertain extraction, for checking with a teacher | 7843 items |
+| [CLDF dataset](cldf/README.md) | The master data set behind these pages, in the [CLDF](https://cldf.clld.org/) (Cross-Linguistic Data Formats) Dictionary format: words, meanings, examples, verb forms, sources and decisions on variants | 1570 entries |
 | [Raw sources](https://github.com/michaelmaguire/languages-dialett-raw) | The original course documents, and the owner's own spreadsheet and notes (a separate repository, private for now) | 109 files |
 | [Curation](etc/README.md) | Every decision and correction applied when building the data set |  |
 | [Attributions](ATTRIBUTIONS.md) | Who wrote what, and what was generated |  |
@@ -37,11 +37,11 @@ Printable PDFs (A4, to download and print at home):
 ## Reading the pages
 
 - Everything in `Dictionary/`, `Expressions/` and `Verbs/` is **generated automatically** from the documents in `raw/`. It has not been proofread line by line and will contain mistakes.
-- ⚠ marks an entry where the script was unsure which side is dialect or where a line was split (7 of 2623 entries).
+- ⚠ marks an entry where the script was unsure which side is dialect or where a line was split (7 of 2650 entries).
 - **Region** shows which dialect an entry is: *Rögn* for the course, another name for material from elsewhere in Ticino, blank where the variety has not been identified.
 - ↗ links to the source document, which is always the authority.
 - The teacher's spelling is kept exactly as written, including variants (`dialet` / `dialett`, `ul` / `al`).
-- English is present for 2623 of 2623 entries so far.
+- English is present for 2650 of 2650 entries so far.
 - Verb charts have the same sections for every verb. † marks a form that is inferred from the patterns in the course material rather than found in a document.
 
 ## Source documents

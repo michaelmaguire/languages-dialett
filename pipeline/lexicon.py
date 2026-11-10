@@ -142,7 +142,7 @@ def candidates():
             eid = ids["entries"].make(headword if language == "rogn" else f"{headword}-{language}")
             by_key[k] = eid
             entries[eid] = {"ID": eid, "Language_ID": language, "Headword": headword, "Part_Of_Speech": None,
-                            "Variant_Of": None, "Feminine_Of": None, "Conjugation_Class": None, "Auxiliary": None,
+                            "Variant_Of": None, "Feminine_Of": None, "Base_Verb": None, "Conjugation_Class": None, "Auxiliary": None,
                             "Gender": None, "Plural": None, "Feminine": None, "Feminine_Status": None,
                             "Masculine_Status": None, "Status": "accepted",
                             "Comment": None, "Note": None, "Note_English": None, "Source": []}
@@ -288,6 +288,11 @@ def configure(ds):
                     "dc:description": "For a feminine noun of a masculine/feminine pair (nona, nonu; cavala, caval): "
                                       "the ID of the masculine entry. Each is a word of its own, with its own senses, "
                                       "gender and plural. Not a CLDF term; from the Feminine_Of column of etc/nouns.csv"},
+                   {"name": "Base_Verb", "datatype": "string",
+                    "dc:description": "For a verb with a particle (na giò, tacà sü): the ID of the verb it is made from "
+                                      "(na, tacà), whose page in Verbs/ lists it (owner, 2026-11-10). Its forms are "
+                                      "those of that verb with the particle. Not a CLDF term; from the merge_into "
+                                      "column of etc/verb_details.csv"},
                    {"name": "Conjugation_Class", "datatype": "string"},
                    {"name": "Gender", "datatype": {"base": "string", "format": "m|f"},
                     "dc:description": "Grammatical gender of a noun: m (masculine) or f (feminine). Not a CLDF term "
@@ -348,6 +353,7 @@ def configure(ds):
     ds.add_component("MediaTable")
     ds.add_foreign_key("EntryTable", "Variant_Of", "EntryTable", "ID")
     ds.add_foreign_key("EntryTable", "Feminine_Of", "EntryTable", "ID")
+    ds.add_foreign_key("EntryTable", "Base_Verb", "EntryTable", "ID")
     ds.add_table("variants.csv", rid, entry_ref, form,
                  {"name": "Kind", "datatype": {"base": "string", "format": "spelling|typo|ocr-error|article"}},
                  status("variants"), comment, source, primaryKey=["ID"])
@@ -539,6 +545,30 @@ def link_feminine_nouns(rows):
     return missing
 
 
+def link_phrasal_verbs(rows):
+    """Base_Verb: a Rögn entry whose headword is a verb with a particle named in etc/verb_details.csv (dialect
+    with a particle, merge_into = the base verb's Italian) gets the ID of the base verb's entry, the verb with a
+    table whose sense is that Italian (owner, 2026-11-10: na giò is shown on the page of na). Run after
+    renumber_entries(). Returns the rows whose base verb has no entry."""
+    manual = {pages.key(r["italian"]): r for r in pages.read(ETC / "verb_details.csv")}
+    tabled = {p["Entry_ID"] for p in rows["paradigms.csv"]}
+    verb_of = {}
+    for s in rows["senses.csv"]:
+        if s["Entry_ID"] in tabled and s["Status"] != "rejected":
+            verb_of.setdefault(pages.key(s["Description"]), s["Entry_ID"])
+    base_of, missing = {}, []
+    for k, (base, _) in pages.phrasal_verbs(manual).items():
+        if pages.key(base) not in verb_of:
+            missing.append(f"{manual[k]['dialect']} -> {base}")
+            continue
+        for d in manual[k]["dialect"].split(" / "):
+            base_of[pages.key(d)] = verb_of[pages.key(base)]
+    for e in rows["entries.csv"]:
+        if e["Language_ID"] == "rogn" and e["Status"] != "rejected" and pages.key(e["Headword"]) in base_of:
+            e["Base_Verb"] = base_of[pages.key(e["Headword"])]
+    return missing
+
+
 def renumber_entries(rows):
     """IDs follow the headword ([a-zA-Z0-9_-]+, CLDF): after noun_forms() 'ul-un-piocc' becomes 'piocc'.
     References (senses, variants, paradigms, Variant_Of) follow."""
@@ -687,6 +717,7 @@ def make(writer):
     nouns = noun_forms(rows)
     renumber_entries(rows)
     unlinked = link_feminine_nouns(rows)
+    unbased = link_phrasal_verbs(rows)
     missing_spellings = add_spellings(rows)
     missing_notes = add_notes(rows)
     missing_pos = add_parts_of_speech(rows)
@@ -729,6 +760,8 @@ def make(writer):
         print(f"  WARNING: etc/nouns.csv row matched no entry: {form!r}")
     for pair in unlinked:
         print(f"  WARNING: etc/nouns.csv Feminine_Of names no masculine noun: {pair}")
+    for pair in unbased:
+        print(f"  WARNING: etc/verb_details.csv merge_into names a verb without a table: {pair}")
     for d in unmatched:
         print(f"  WARNING: decision matched nothing: {d['Decision']} {d['Language_ID']} {d['Form']!r}")
     for t in unsorted["topics"]:
@@ -1160,6 +1193,13 @@ def for_pages():
         if s["Status"] != "rejected":
             senses_of[s["Entry_ID"]].append(s)
     tables, eng = {}, {}
+    # a verb with a particle has no page: it is listed on the page of its base verb (Base_Verb)
+    also = defaultdict(list)
+    for e in sorted(entries.values(), key=lambda e: pages.plain(e["Headword"])):
+        ss = sorted(senses_of[e["ID"]], key=lambda s: (bool(s["Comment"]), s["ID"]))
+        if e.get("Base_Verb") and ss:
+            also[e["Base_Verb"]].append({"dialect": e["Headword"], "italian": ss[0]["Description"],
+                                         "english": ss[0]["Description_English"] or ""})
     for e in entries.values():
         if e["Part_Of_Speech"] != "verb":
             continue
@@ -1191,9 +1231,15 @@ def for_pages():
         tables[name] = {"entry_id": e["ID"], "dialect": [e["Headword"]] + variants[e["ID"]], "class": full,
                         "basis": "inferred" if e["Status"] == "inferred" else ("attested" if e["Comment"] else ""),
                         "evidence": e["Comment"] or "", "aliases": [s["Description"] for s in ss[1:]],
-                        "grid": grid, "forms": forms, "aux": e["Auxiliary"],
+                        "grid": grid, "forms": forms, "aux": e["Auxiliary"], "also": also[e["ID"]],
+                        "base_id": e.get("Base_Verb") or "",
                         "note": e.get("Note") or "", "note_en": e.get("Note_English") or "",
                         "sources": list(dict.fromkeys(bib_file.get(re.sub(r"\[.*", "", r), r) for r in e["Source"] or []))}
+    # a verb with a particle keeps its table (the grammar shows it: na föra, catà fö, met sü) but has no page:
+    # "base" names the table of the verb whose page lists it
+    name_of = {t["entry_id"]: n for n, t in tables.items()}
+    for t in tables.values():
+        t["base"] = name_of.get(t.pop("base_id"), "")
     return uniq, tables, eng
 
 

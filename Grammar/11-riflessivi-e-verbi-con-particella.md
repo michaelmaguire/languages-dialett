@@ -72,7 +72,7 @@
 
 *presente*
 
-|  | [*na föra*](../Verbs/na-fora-uscire.md) | [*catà fö*](../Verbs/cata-fo-scegliere.md) | [*met sü*](../Verbs/met-su-indossare.md) |
+|  | [*na föra*](../Verbs/na-andare.md) | [*catà fö*](../Verbs/cata-cogliere.md) | [*met sü*](../Verbs/met-mettere.md) |
 |---|---|---|---|
 | *mi* | vo föra | cati fö | meti sü |
 | *ti* | ta ve(t) föra | ta catat fö | ta metat sü |

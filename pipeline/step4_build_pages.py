@@ -274,15 +274,40 @@ def shown_form(name, tense, form, manual):
 CONFIRMED_BASIS = ("attested", "confirmed")     # verb_forms_from_texts: found in a document, or confirmed by the owner
 
 
+def phrasal_verbs(manual):
+    """The verbs with a particle (na giò, tacà sü) that are shown on their base verb's page rather than on
+    their own (owner, 2026-11-10: "Also: tacà là = aggiungere, tacà sü = appendere" on the page of tacà; the
+    reflexives, setas giò, keep their own pages): a row of etc/verb_details.csv whose dialect has a particle
+    and whose merge_into names the base verb. {Italian (key): (base Italian, the particle's words, plain)}."""
+    out = {}
+    for k, m in manual.items():
+        spellings = [d.strip() for d in (m.get("dialect") or "").split(" / ") if d.strip()]
+        particles = {plain(w) for d in spellings for w in conjugate.split_infinitive(d)[1].split()}
+        if m.get("merge_into") and particles:
+            out[k] = (m["merge_into"], particles)
+    return out
+
+
+def without_particle(form, particles):
+    """a vo giò -> a vo: a form of na giò as a form of na."""
+    return " ".join(w for w in form.split() if plain(w) not in particles)
+
+
 def verb_tables(verbs):
     """Group conjugated forms by verb. etc/verb_details.csv supplies what the documents do not state
     outright: which entries are the same verb, and the dialect infinitive where it had to be
     found elsewhere in the texts or worked out from the verb's other forms."""
     manual = {key(r["italian"]): r for r in read(ETC / "verb_details.csv")}
+    phrasal = phrasal_verbs(manual)
     out = OrderedDict()
-    for v in verbs:
+    # a phrasal verb keeps its own table (in cldf/, and for its dictionary entry), and its forms found in a
+    # document also count, without the particle, as forms of the base verb, whose page shows them
+    as_base = [dict(v, verb_italian=phrasal[key(v["verb_italian"])][0], verb_dialect="", italian_form="", phrasal=True,
+                    form=without_particle(v["form"], phrasal[key(v["verb_italian"])][1]))
+               for v in verbs if key(v["verb_italian"]) in phrasal]
+    for v in list(verbs) + as_base:
         name = v["verb_italian"]
-        target = manual.get(key(name), {}).get("merge_into")
+        target = manual.get(key(name), {}).get("merge_into") if key(name) not in phrasal else ""
         alias = ""
         if target:
             if name.startswith(("aver ", "essere ")):      # "aver mangiato" headed a compound-tense table
@@ -303,6 +328,11 @@ def verb_tables(verbs):
             continue
         slot = e["forms"][v["tense"]][v["person"]]
         bare_form = key(conjugate.strip_clitics(v["form"]))
+        # a form borrowed from a phrasal verb that differs from one shown only by a bracket adds nothing
+        # (i met (metan) next to i met; ta sevat nai (aI) next to ta sevat nai (a))
+        unbracketed = lambda x: key(conjugate.strip_clitics(re.sub(r"\s*\([^)]*\)", "", x)))
+        if v.get("phrasal") and any(unbracketed(x) == unbracketed(v["form"]) for x in slot):
+            continue
         same = [i for i, x in enumerate(slot) if key(conjugate.strip_clitics(x)) == bare_form]
         if not same:
             slot.append(v["form"])
@@ -315,8 +345,11 @@ def verb_tables(verbs):
     # a verb the lessons never conjugate in a table (töö, duprà) gets a page from etc/verb_details.csv when
     # etc/verb_forms_from_texts.csv has forms of it found in a document
     # (or, like trà, has only its infinitive in a document: verb_details basis attested, every form supplied)
+    texts = read(ETC / "verb_forms_from_texts.csv")
+    texts += [dict(r, italian=phrasal[key(r["italian"])][0], form=without_particle(r["form"], phrasal[key(r["italian"])][1]))
+              for r in texts if key(r["italian"]) in phrasal]
     found = defaultdict(list)
-    for r in read(ETC / "verb_forms_from_texts.csv"):
+    for r in texts:
         m = manual.get(key(r["italian"]), {})
         if r.get("source") and (r["basis"] == "attested" or m.get("basis") == "attested"):
             found[key(r["italian"])].append(r["source"])
@@ -338,7 +371,7 @@ def verb_tables(verbs):
             if alias.strip() and alias.strip() not in e["aliases"]:
                 e["aliases"].append(alias.strip())      # töö is also 'prendere', which names ciapà's page
     extra = defaultdict(list)
-    for r in read(ETC / "verb_forms_from_texts.csv"):
+    for r in texts:
         extra[key(r["italian"])].append(dict(r, form=shown_form(r["italian"], r["tense"], r["form"], manual)))
     done = {}
     for name in sorted(out, key=lambda n: n not in ("andare", "fare")):     # bases before na föra, fa sù
@@ -673,6 +706,9 @@ def verb_page(v):
            table(["Dialett" + inf, "Italiano", "English"], [[f"**{v['dialect']}**", v["italian"], v["english"]]]),
            table(["Gerundio" + mark(ger), "Participio passato" + mark(pp), "Verb class"],
                  [[shown(ger["cells"][0]), pp_shown, v["verb_class"]]])]
+    if v.get("also"):                                   # tacà sü, tacà là on the page of tacà (owner, 2026-11-10)
+        out.append("**Also:** " + "; ".join(f"*{a['dialect']}* ({a['italian']}" + (f", {a['english']}" if a["english"] else "")
+                                            + ")" for a in v["also"]) + "\n")
     if pp_shown != pp_plain:
         out.append(f"{PP_AGREEMENT[0]}  \n{PP_AGREEMENT[1]}\n")
     if v["note"]:                                       # learner's note, etc/notes.csv
@@ -810,6 +846,13 @@ def verb_file(name, e):
 def render(uniq, tables, eng, topics=None):
     """Write every Markdown page and the data/ exports from entries in the page format.
     topics: the rows of cldf/topics.csv, in order."""
+    # a verb with a particle (na föra) has no page: it is listed on its base verb's page, where its links lead;
+    # the grammar still shows its forms (owner, 2026-11-10)
+    all_tables = tables
+    tables = {n: e for n, e in all_tables.items() if not e.get("base")}
+
+    def page_file(name, e):
+        return verb_file(e["base"], all_tables[e["base"]]) if e.get("base") else verb_file(name, e)
     sources = read(ETC / "lesson_sources.csv")
     words = [p for p in uniq if p["kind"] == "word"]
     exprs = [p for p in uniq if p["kind"] == "expression"]
@@ -846,6 +889,9 @@ def render(uniq, tables, eng, topics=None):
     import dictionary_model
     # every spelling of a verb's infinitive leads to its page (the PDF links verbs to it)
     verb_pages = {key(d): verb_file(name, e) for name, e in tables.items() for d in e["dialect"] + [" / ".join(e["dialect"])]}
+    # a verb with a particle leads to its base verb's page, which lists it (na giò -> na)
+    verb_pages.update({key(d): verb_file(name, e) for name, e in tables.items() for a in e.get("also", [])
+                       for d in [a["dialect"]] + a["dialect"].split(" / ")})
     book = dictionary_model.build(words, verb_pages)  # the one model of the dictionary: pages and PDF
     dictionary_model.save(book)
     dialett, italiano, english = book["parts"]
@@ -940,7 +986,7 @@ def render(uniq, tables, eng, topics=None):
     # ---- Grammar (etc/grammar/ + etc/grammar_examples.csv, see grammar.py)
     import grammar
     import grammar_model
-    gbook = grammar_model.build(tables, verb_file)        # the one model of the grammar: pages and PDF
+    gbook = grammar_model.build(all_tables, page_file)        # the one model of the grammar: pages and PDF
     if gbook:
         grammar_model.save(gbook)
     n_chapters = grammar.write_pages(gbook, src_link, write)

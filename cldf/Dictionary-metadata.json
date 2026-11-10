@@ -19,7 +19,7 @@
         {
             "rdf:about": "git@github.com:michaelmaguire/languages-dialett",
             "rdf:type": "prov:Entity",
-            "dc:created": "c8b8cb3",
+            "dc:created": "ebb7cfb",
             "dc:title": "Repository"
         }
     ],
@@ -38,7 +38,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#EntryTable",
-            "dc:extent": 1550,
+            "dc:extent": 1570,
             "tableSchema": {
                 "columns": [
                     {
@@ -79,6 +79,11 @@
                         "dc:description": "For a feminine noun of a masculine/feminine pair (nona, nonu; cavala, caval): the ID of the masculine entry. Each is a word of its own, with its own senses, gender and plural. Not a CLDF term; from the Feminine_Of column of etc/nouns.csv",
                         "datatype": "string",
                         "name": "Feminine_Of"
+                    },
+                    {
+                        "dc:description": "For a verb with a particle (na gi\u00f2, tac\u00e0 s\u00fc): the ID of the verb it is made from (na, tac\u00e0), whose page in Verbs/ lists it (owner, 2026-11-10). Its forms are those of that verb with the particle. Not a CLDF term; from the merge_into column of etc/verb_details.csv",
+                        "datatype": "string",
+                        "name": "Base_Verb"
                     },
                     {
                         "datatype": "string",
@@ -187,6 +192,17 @@
                                 "ID"
                             ]
                         }
+                    },
+                    {
+                        "columnReference": [
+                            "Base_Verb"
+                        ],
+                        "reference": {
+                            "resource": "entries.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
                     }
                 ],
                 "primaryKey": [
@@ -197,7 +213,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#SenseTable",
-            "dc:extent": 1602,
+            "dc:extent": 1625,
             "tableSchema": {
                 "columns": [
                     {
@@ -368,7 +384,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 1263,
+            "dc:extent": 1268,
             "tableSchema": {
                 "columns": [
                     {
@@ -695,7 +711,7 @@
             "url": "media.csv"
         },
         {
-            "dc:extent": 305,
+            "dc:extent": 307,
             "tableSchema": {
                 "columns": [
                     {
@@ -763,7 +779,7 @@
             "url": "variants.csv"
         },
         {
-            "dc:extent": 9520,
+            "dc:extent": 10064,
             "tableSchema": {
                 "columns": [
                     {

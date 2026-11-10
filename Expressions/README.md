@@ -13,9 +13,9 @@ Topic names are given in dialect, Italian and English. The dialect names were co
 | Dialett | Italiano | English | Sayings and idioms | Phrases |
 |---|---|---|---|---|
 | [Bon dì, grazie e arivedes](bon-di-grazie-e-arivedes-saluti.md) | Saluti e cortesia | Greetings and courtesy | 2 | 35 |
-| [Dumand e esclamaziun†](dumand-e-esclamaziun-conversazione.md) | Domande ed esclamazioni | Questions and exclamations | 33 | 72 |
+| [Dumand e esclamaziun†](dumand-e-esclamaziun-conversazione.md) | Domande ed esclamazioni | Questions and exclamations | 33 | 75 |
 | [Cumè che l'è la gent](cume-che-l-e-la-gent-carattere.md) | Carattere e comportamento | Character and behaviour | 142 | 7 |
-| [Ul cör e l'umur†](ul-cor-e-l-umur-sentimenti.md) | Sentimenti e umore | Feelings and moods | 15 | 10 |
+| [Ul cör e l'umur†](ul-cor-e-l-umur-sentimenti.md) | Sentimenti e umore | Feelings and moods | 15 | 11 |
 | [Famiglia, amis e amur](famiglia-amis-e-amur-famiglia.md) | Famiglia, amici e amore | Family, friends and love | 75 | 8 |
 | [Ul corp† e la salüt](ul-corp-e-la-salut-salute.md) | Corpo e salute | Body and health | 21 | 3 |
 | [Mangià e bef](mangia-e-bef-cibo.md) | Mangiare e bere | Food and drink | 27 | 74 |
@@ -24,7 +24,7 @@ Topic names are given in dialect, Italian and English. The dialect names were co
 | [Ul temp, la natüra e i bescti†](ul-temp-la-natura-e-i-bescti-meteo.md) | Tempo, natura e animali | Weather, nature and animals | 15 | 44 |
 | [L'ura, i dì e i ann](l-ura-i-di-e-i-ann-tempo.md) | Ore, giorni ed età | Time, days and age | 10 | 8 |
 | [In gir: paes, cità e viagg](in-gir-paes-cita-e-viagg-fuori.md) | In giro: paese, città e viaggi | Out and about: village, town and travel | 16 | 30 |
-| [Vacanza, sport e temp lìbar†](vacanza-sport-e-temp-libar-vacanze.md) | Vacanze, sport e tempo libero | Holidays, sport and free time | 11 | 124 |
+| [Vacanza, sport e temp lìbar†](vacanza-sport-e-temp-libar-vacanze.md) | Vacanze, sport e tempo libero | Holidays, sport and free time | 11 | 125 |
 | [Fescta, fede† e tradiziun†](fescta-fede-e-tradiziun-feste.md) | Feste, fede e tradizioni | Festivals, faith and tradition | 10 | 6 |
 | [La vita](la-vita-vita.md) | La vita e la saggezza | Life and wisdom | 179 | 17 |
 | [Lengua e dialett](lengua-e-dialett-dialetto.md) | Lingua e dialetto | Language and dialect | 0 | 12 |

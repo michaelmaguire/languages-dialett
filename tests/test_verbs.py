@@ -122,3 +122,55 @@ def test_pdf_and_pages_show_the_same_verbs_and_forms():
             i = next((i for i, (x, y) in enumerate(zip(pdf, md)) if x != y), min(len(pdf), len(md)))
             bad.append(f"{name}: form {i}: PDF {pdf[i:i + 1]}, page {md[i:i + 1]}")
     report(bad, "verbs that differ between the PDF and the pages")
+
+
+def test_phrasal_verbs_on_their_base_page():
+    """A verb with a particle (na giò, tacà sü) has no page of its own: it is listed under "Also" on the page of
+    the verb it is made from (owner, 2026-11-10: "Also: tacà là = aggiungere, tacà sü = appendere" on tacà's
+    page). Reflexives with a particle (setas giò, vöras ben) keep their own pages. Every row of
+    etc/verb_details.csv with a particle and merge_into must be listed on its base verb's page."""
+    import csv
+    import sys
+    from conftest import ROOT
+    sys.path.insert(0, str(ROOT / "pipeline"))
+    import verb_conjugator as conjugate
+    bad = []
+    texts = {p.name: p.read_text() for p in PAGES}
+    for name, text in texts.items():
+        head, particle = conjugate.split_infinitive(re.search(r"^# (.+)$", text, flags=re.M).group(1).rstrip(" †"))
+        reflexive = head.endswith(("as", "ss")) and len(head) > 3
+        if particle and not reflexive:
+            bad.append(f"{name}: a verb with a particle has its own page")
+    rows = list(csv.DictReader((ROOT / "etc" / "verb_details.csv").open()))
+    italian = {r["italian"]: r for r in rows}
+    for r in rows:
+        if not (r["merge_into"] and conjugate.split_infinitive(r["dialect"].split(" / ")[0])[1]):
+            continue
+        base = italian.get(r["merge_into"], {})
+        page = next((n for n, t in texts.items() if re.search(rf"^\| \*\*[^|]*\*\* \| {re.escape(r['merge_into'])}\b", t, flags=re.M)), None)
+        if not page:
+            bad.append(f"{r['dialect']}: no page for its base verb {r['merge_into']} ({base.get('dialect', '?')})")
+        elif not re.search(rf"^\*\*Also:\*\*.*\*{re.escape(r['dialect'].split(' / ')[0])}\*", texts[page], flags=re.M):
+            bad.append(f"{r['dialect']}: not listed under Also on {page}")
+    report(bad, "verbs with a particle not on their base verb's page")
+
+
+def test_links_to_verb_pages_lead_somewhere():
+    """Every link to a verb page from the generated Markdown leads to a page that exists (2026-11-10: when the
+    verbs with a particle lost their pages, the grammar's table of na föra, catà fö and met sü dropped out
+    unnoticed; their links now lead to the base verb's page)."""
+    from urllib.parse import unquote
+    from conftest import ROOT
+    bad = []
+    for folder in ("Dictionary", "Expressions", "Verbs", "Grammar"):
+        for page in (ROOT / folder).glob("*.md"):
+            for target in re.findall(r"\]\(((?:\.\./)?Verbs/[^)#]+\.md|[^)/#]+\.md)\)", page.read_text()):
+                if "Verbs/" not in target and folder != "Verbs":
+                    continue
+                path = (page.parent / unquote(target)).resolve()
+                if not path.exists():
+                    bad.append(f"{folder}/{page.name} -> {target}")
+    for target in re.findall(r"\]\((Verbs/[^)#]+\.md)\)", (ROOT / "README.md").read_text() + (ROOT / "TO-CHECK.md").read_text()):
+        if not (ROOT / unquote(target)).exists():
+            bad.append(f"README/TO-CHECK -> {target}")
+    report(bad, "links to verb pages that do not exist")

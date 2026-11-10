@@ -495,3 +495,7 @@ variant,rogn,vôsà o vusà,,vosà o vusà,,,,Claude inferred: spelling of the v
 correct,rogn,mia Sctess,,mia sctess,,diverso,different,"Claude inferred: a stray capital in the teacher's table (Aggettivi e contrari), as in the opposite sctess",2026-10-28
 correct,rogn,ungia / unghie: uncc,,ungia,,,,"Claude inferred: the lesson writes the Italian plural and the dialect plural into the headword (unghia, ungia / unghie: uncc); the plural uncc goes in etc/nouns.csv",2026-10-29
 correct,ticinese,"un ghel, dü ghep",,ghel,,,,"Claude inferred: the headword holds the singular and plural with their numerals (one penny, two pennies); the plural ghep goes in etc/nouns.csv",2026-10-29
+expression,rogn,u mia ammò cuminciaa,,,,,,"Owner, from their notes: a sentence, not a word",2026-11-10
+expression,rogn,l'a fai na foto,,,,,,"Owner, from their notes: a sentence, not a word",2026-11-10
+expression,rogn,te cata fö ben,,,,,,"Owner, from their notes: a sentence, not a word",2026-11-10
+expression,rogn,sum dré a cuntribüì,,,,,,"Owner, from their notes: a sentence, not a word",2026-11-10

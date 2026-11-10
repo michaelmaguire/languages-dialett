@@ -115,7 +115,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://github.com/michaelmaguire/languages-dialett
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:michaelmaguire/languages-dialett
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:michaelmaguire/languages-dialett/tree/7ae51d5">git@github.com:michaelmaguire/languages-dialett  7ae51d5</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:michaelmaguire/languages-dialett/tree/ebb7cfb">git@github.com:michaelmaguire/languages-dialett  ebb7cfb</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | rogn
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -126,7 +126,7 @@ property | value
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF EntryTable](http://cldf.clld.org/v1.0/terms.rdf#EntryTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1550
+[dc:extent](http://purl.org/dc/terms/extent) | 1570
 
 
 ### Columns
@@ -139,6 +139,7 @@ Name/Property | Datatype | Description
 [Part_Of_Speech](http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech) | `string` | 
 `Variant_Of` | `string` | ID of the main entry when this entry is a regional variant of it<br>References [entries.csv::ID](#table-entriescsv)
 `Feminine_Of` | `string` | For a feminine noun of a masculine/feminine pair (nona, nonu; cavala, caval): the ID of the masculine entry. Each is a word of its own, with its own senses, gender and plural. Not a CLDF term; from the Feminine_Of column of etc/nouns.csv<br>References [entries.csv::ID](#table-entriescsv)
+`Base_Verb` | `string` | For a verb with a particle (na giò, tacà sü): the ID of the verb it is made from (na, tacà), whose page in Verbs/ lists it (owner, 2026-11-10). Its forms are those of that verb with the particle. Not a CLDF term; from the merge_into column of etc/verb_details.csv<br>References [entries.csv::ID](#table-entriescsv)
 `Conjugation_Class` | `string` | 
 `Gender` | `string`<br>Valid choices:<br> `m` `f` | Grammatical gender of a noun: m (masculine) or f (feminine). Not a CLDF term (CLDF has none for gender); from the article in the source, else the Italian, else etc/nouns.csv
 `Plural` | `string` | Plural of a noun. Not a CLDF term. From the source where it gives one, otherwise predicted from the course's patterns (corrections: etc/nouns.csv)
@@ -157,7 +158,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF SenseTable](http://cldf.clld.org/v1.0/terms.rdf#SenseTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1602
+[dc:extent](http://purl.org/dc/terms/extent) | 1625
 
 
 ### Columns
@@ -200,7 +201,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ExampleTable](http://cldf.clld.org/v1.0/terms.rdf#ExampleTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1263
+[dc:extent](http://purl.org/dc/terms/extent) | 1268
 
 
 ### Columns
@@ -284,7 +285,7 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:extent](http://purl.org/dc/terms/extent) | 305
+[dc:extent](http://purl.org/dc/terms/extent) | 307
 
 
 ### Columns
@@ -303,7 +304,7 @@ Name/Property | Datatype | Description
 
 property | value
  --- | ---
-[dc:extent](http://purl.org/dc/terms/extent) | 9520
+[dc:extent](http://purl.org/dc/terms/extent) | 10064
 
 
 ### Columns

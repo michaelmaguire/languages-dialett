@@ -28,6 +28,7 @@ Sayings, idioms and phrases about this topic, from all the course documents. ⚠
 
 | Dialett | Italiano | English | Region | Source |
 |---|---|---|---|---|
+| cuminci a pensaa che ta ga l'abiat sü cun mi | sto iniziando a pensare che ce l'abbia con me | I'm starting to think you have it in for me | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/notes_added_by_hand.csv) |
 | Cusé che ta manca püsee dala tua cità? | Cosa ti manca di più della tua città? | What do you miss most about your city? | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
 | Dai che ghè sücedüü nagot | Dai che non è successo niente. | Come on, nothing happened. | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |
 | Dai, ciapasala mia! | Dai, non prendertela! | Come on, don’t take it badly! | Rögn | [↗](https://github.com/michaelmaguire/languages-dialett-raw/blob/main/2025-02-28-1445-brevi%20frasi.pdf) |

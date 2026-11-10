@@ -45,7 +45,10 @@ h1 sup, th sup { font-size: 60%; font-weight: normal; }
 .meta .sep { margin: 0 .35em 0 .2em; }
 /* on a right-hand page the verb's name, translations and forms line are set to the right, by the outer
    edge, so they can be read while flipping through (owner, 2026-10-31) */
-section.recto h1, section.recto .sub, section.recto .meta { text-align: right; }
+section.recto h1, section.recto .sub, section.recto .meta, section.recto .also { text-align: right; }
+/* the verbs made from this one with a particle, under the Italian and English (owner, 2026-11-10) */
+.also { font-size: 9.5pt; margin: 0 0 1.5mm; }
+.also .sep { margin: 0 .35em 0 .2em; }
 section.noted td { padding-top: .3mm; padding-bottom: .3mm; }   /* room for the note on a full A4 sheet */
 .vnote { font-size: 8pt; color: #333; margin: -2mm 0 3mm; display: grid; grid-template-columns: 1fr 1fr; column-gap: 5mm; }
 .nw { white-space: nowrap; }

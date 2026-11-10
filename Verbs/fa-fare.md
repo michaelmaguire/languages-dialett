@@ -12,6 +12,8 @@
 |---|---|---|
 | fasendo | fai/faia | irregular |
 
+**Also:** *fa sù* (costruire, to build)
+
 Il participio femminile: con *ves* concorda con il soggetto (*sum rivada*); con *vegh* con un pronome oggetto messo prima (*l’u tirada*, l’ho tirata).  
 The feminine participle: with *ves* it agrees with the subject (*sum rivada*); with *vegh* with an object pronoun placed before it (*l’u tirada*, I pulled it, a feminine thing).
 
